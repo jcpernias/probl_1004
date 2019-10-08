@@ -1,0 +1,156 @@
+#+SETUPFILE: ./course-en.org
+
+#+TITLE: Exercise Booklet 1
+
+
+* Basic principles of economic organization
+
+
+1. The total resources of a country are \num{50000} units of a
+   production factor (such as labour, capital or land) used to produce
+   two types of goods: vehicles and food. From the information
+   contained in the following table, which specifies the amount of
+   vehicles and food that can be produced with different quantities of
+   production factors:
+
+   #+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
+   |-------------+--------------+---+-------------+--------------|
+   | Factor      | Vehicles     |   | Factor      | Food         |
+   | (units)     | (units)      |   | (units)     | (Tm)         |
+   |-------------+--------------+---+-------------+--------------|
+   | \num{0}     | \num{0}      |   | \num{0}     | \num{0}      |
+   | \num{12500} | \num{40000}  |   | \num{12500} | \num{50000}  |
+   | \num{25000} | \num{70000}  |   | \num{25000} | \num{75000}  |
+   | \num{37500} | \num{90000}  |   | \num{37500} | \num{90000}  |
+   | \num{50000} | \num{100000} |   | \num{50000} | \num{100000} |
+   |-------------+--------------+---+-------------+--------------|
+
+   a) Draw the Production Possibility Frontier (PPF) of this country.
+
+   b) What can be said about the particular shape of PPF?
+
+   c) If the production of vehicles increases, would the opportunity
+      cost of vehicles increase or decrease?
+
+   d) What effect on the PPF would have an innovation that improves
+      the resistance of agricultural products to pests? And an
+      organizational improvement in the production of vehicles? And if
+      there is an increase in production efficiency in both goods due
+      to a general technical progress in society?
+
+   e) On the contrary, what effect would have on the PPF a war that
+      destroys half the units of the production factor?
+
+2. The table below shows different efficient production combinations
+   for an economy in which there are only two goods: $X$ and $Y$.
+
+   #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{r}
+   |-----+------------+------------|
+   |     | $X$        | $Y$        |
+   |     | (units)    | (units)    |
+   |-----+------------+------------|
+   | *A* | \num{20}   | \num{0}    |
+   | *B* | \num{18}   | \num{1}    |
+   | *C* | \num{15}   | \num{2}    |
+   | *D* | \num{11}   | \num{3}    |
+   | *E* | \num{6}    | \num{4}    |
+   | *F* | \num{0}    | \num{5}    |
+   |-----+------------+------------|
+
+   a) Draw the PPF.
+
+   b) Is it feasible to produce 2 units of $Y$ and 10 units of $X$?
+      What happens in this situation?
+
+   c) Construct a table that reflects the opportunity cost of
+      producing each unit of $Y$.
+
+   d) How many units of $X$ must be given up to produce the second
+      unit of $Y$?
+
+3. In the market for good $X$ there are \num{1000} identical
+   consumers, each with demand curve: \[X^D_i = 5 - P_X, \qquad i
+   = 1, ..., \num{1000},\] The good $X$ is produced by
+   \num{500} identical firms, each with supply curve: \[X^O_j =
+   2.4 P_X , \qquad j = 1, ..., \num{500}. \]
+
+   a) Compute the market demand and supply curvas as well as the market
+      equilibrium solution.
+
+   b) Which would be the consequences in this market if producers
+      decide to set a price equal to \price{4}? And if they consider
+      that the best pricing strategy is to set a price equal to
+      \price{1}?
+
+   c) After an increase in the of consumers income, the market demand
+      curve becomes: \[X^D = \num{7500} - \num{1000} P_X.\] Find the
+      new equilibrium.
+
+   d) In the initial equilibrium, a technological improvement in the
+      sector shifts the market supply curve to: \[X^O =
+      \num{2500} + \num{1200} P_X.\] Find the new equilibrium.
+
+   e) In the initial equilibrium, what would happen if the government
+      decided to set a maximum price of \price{1} for this good? What
+      if the government set a minimum price of \price{3}?
+
+4. The firm that operates a toll tunnel is considering lowering the
+   toll. Currently, it charges \money{6} and the tunnel is used daily by
+   2400 drivers. A consultant has estimated that the function $Q =
+   \num{6000} - \num{600} P$ describes the daily demand of the tunnel.
+
+   a) What is the elasticity of demand at the current toll?
+
+   b) If the objective of the company is to get higher returns, would
+      you advise to reduce or to increase the toll?
+
+   c) Which toll level would maximize the returns of the firm?
+
+5. A university offers 100 new places each year in the Bachelor's
+   Degree in Economics and the demand of those places is: \[ Q =
+   1901 - 2 P_{EC} + 0.1 P_{BA} \] where $Q$ are the number of
+   students enrolled in the Economics program; $P_{EC}$ and $P_{BA}$
+   are the tuition fees of the Bachelor's Degree in Economics and the
+   Bachelor's Degree in Business Administration, respectively. If
+   $P_{BA} = \money{1000}$:
+
+   a) What will happen if the university sets the tuition fees of the
+      Economics program equal to $P_{EC} = \money{1000}$?
+
+   b) What is the maximum fee the university should set it they want
+      to cover all the offered places?
+
+   c) What type of good is the Bachelor's Degree in Economics with
+      respect to the Bachelor's Degree in Business Administration?
+
+   d) Which effect on the Bachelor's Degree in Economics demand would
+      have an increase of $P_{BA}$?
+
+6. A football club has a maximum quota of \num{125000} members.  The
+   demand for season tickets is: \[Q = \num{125000} - 100 P +10 P_O +
+   10 M,\] where:
+
+   - $P$ is the price of the season tickets of the club.
+
+   - $P_O$ is the price of season tickets of other rival club whose
+     stadium is located in the same city.
+
+   - $M$ is the average yearly income of the football fans.
+
+   This year the rival club is selling its seasonal tickets at $P_O =
+   \money{600}$ and it is estimated that $M = \money{15000}$.
+
+   a) Compute the price the club should set in order to sell the
+      \num{125000} season tickets. Plot the demand and supply curves
+      of season tickets in this situation.
+
+   b) Compute the price elasticities of demand and supply in the
+      equilibrium situation. Explain the signs and values of the
+      elasticities.
+
+   c) Compute the elasticity of demand with respect to the price for
+      the season tickets of the other club in the equilibrium
+      situation. Explain the sign and value obtained.
+
+   d) Calculate the income elasticity of demand in the equilibrium
+      situation. Explain the sign and value obtained.

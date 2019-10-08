@@ -1,0 +1,76 @@
+#+SETUPFILE: ./course-en.org
+
+#+TITLE: Exercise Booklet 2
+
+* Consumer choice
+
+1. A consumer has an income of \money{1000} to buy the goods $X$ and
+   $Y$, with prices $P_X = \price{5}$ and $P_Y = \price{1}$.
+
+   a) Represent graphically and mathematically the consumer's budget
+      set.
+
+   b) How will the budget set be modified if the consumer gets a
+      discount of \money{1} for each unit of good $X$ purchased above
+      \num{25} units? Justify your answer.
+
+2. The preferences of a consumer are represented by the utility
+   function: $U(X, Y)= 5 X Y^2$. The consumer's income is \money{900}
+   and the prices of goods $X$ and $Y$ are $P_X = \price{10}$ and $P_Y
+   = \price{5}$. Compute the optimal choice of the consumer.
+
+3. A consumer with regular preferences only buys two goods, $X$ and
+   $Y$, with prices $P_X = \price{2}$ and $P_Y = \price{1}$.  At her
+   current choice, if the consumer buys one additional unit of $X$ her
+   total utility would increase by 8 units, whereas consuming one more
+   unit of good Y would increase her total utility by 4 units. The
+   consumer's income is \money{100} and she currently consumes
+   20 units of good $X$.
+
+   a) Which quantity of good Y maximizes the consumer's utility
+      if she cannot change the consumption level of good $X$?
+
+   b) If she could freely choose the amounts of both goods, would the
+      consumption of $X$ increase? And what about $Y$?
+
+   c) Assume that her income increases so that $M = \money{200}$.  If
+      both $X$ and $Y$ are normal goods, how the consumption levels of
+      $X$ and $Y$ would change?
+
+4. The utility function of a consumer with respect to goods $X$ and
+   $Y$ is given by $U (X, Y) = 3X + 3Y$. The market prices are,
+   respectively, $P_X = \price{2}$ and $P_Y = \price{5}$ and the
+   consumer's monetary income is $M = \money{100}$.
+
+   a) Is $(X, Y) = (10, 40)$ an optimal basket? Why?
+
+   b) What is the optimal consumer choice?
+
+   c) How the consumer choice would be affected if $P_X = \price{10}$?
+
+5. The preferences of a consumer between gasoline, $G$ and a composite
+   good, $Y$, that stands for everything else that the consumer might
+   want to buy, are represented by the utility function: $U(G, Y)=
+   (G + 10) Y$. The gasoline price is $P_G = \price[l]{2}$ and the
+   consumer income is $M = \money{24}$.
+
+   a) Give the mathematical expression of the budget constraint and
+      graph it.
+
+   b) The company where the consumer works is presently considering
+      how to motivate its most efficient workers and it is exploring
+      different possibilities:
+
+      + Give the employee a voucher for getting \num{6} liters of
+        gasoline free of charge.
+
+      + Give her a discount of \money{1} per liter of gasoline she
+        buys.
+
+      + Give her \money{12} in cash.
+
+      Work out the mathematical expression of the budget constraint in
+      each of the above cases and draw them in the same graph.
+
+   c) Which of the options does the consumer prefer? Justify your
+      answer.

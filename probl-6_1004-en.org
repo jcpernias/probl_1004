@@ -1,0 +1,60 @@
+#+SETUPFILE: ./course-en.org
+
+#+TITLE: Exercise Booklet 6
+
+
+* Costs
+
+1. The production function of a firm is: $Q = 2 K L$.  The hourly wage
+   is \wage{2} and the unit price of capital is \price{4}
+
+   a) If the company has \money{200} to invest in the purchase of
+      factors, which is the optimal combination of input? How many
+      units will the company produce?
+
+   b) The production function of the company becomes $Q = 4 K
+      L$. Calculate the total cost associated and the quantities of
+      factors used if the output level is \units{2500}.
+
+2. A firm uses a technology that might be represented by the
+   production function: $Q = (KL)^{1/2}$.
+
+   a) Calculate the conditional demand for each production factor.
+
+   b) Determine the long-run cost function if $w = \wage{1}$ and $r =
+      \price{1}$.
+
+   c) Obtain the long-run marginal and average cost functions.
+
+   d) Obtain the average total cost, average variable cost and
+      marginal cost short-run functions when the capital level is $K =
+      \units{25}$.
+
+3. The production function of a firm is: $F(K, L) = K L^{2}$. The
+   factor prices are: $r = \price{5}$ and $w = \wage{2}$.
+
+   a) Indicate the type of returns to scale of the technology used by
+      the firm.
+
+   b) If the firm wants to achieve a production level equal to
+      \units{200}, calculate the amount of inputs the firm must
+      acquire to minimize production cost.
+
+   c) Determine the cost function and the total cost when the ouput
+      level is $Q = \units{200}$.
+
+4. A company with production function: $Q = 2 K^{1/2} L^{3/2}$. It
+   currently hires 8 units of labor and 2 units of capital. If this is
+   the optimal input combination and if the total costs are equal to
+   \money{16}, which are the prices of capital and labor?
+
+5. A company operates with technology: $Q = K L$ and is using 3 units
+   of capital in the short-run. The input prices are $w = \wage{1}$
+   and $r = \price{1}$
+
+   a) Which is the conditional demand for labor in the short run? And
+      the costs function? And the marginal costs function?
+
+   b) Which is the only output level where the production costs in the
+      long-run are equal to the short-run production costs? Why?
+      What happens at any other output level?

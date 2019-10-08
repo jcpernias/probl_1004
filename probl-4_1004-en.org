@@ -1,0 +1,40 @@
+#+SETUPFILE: ./course-en.org
+
+#+TITLE: Exercise Booklet 4
+
+
+* Intertemporal choice
+
+1. Consider a consumer with preferences with respect to present
+   consumption, $C_1$, and future consumption, $C_2$, that can be
+   expressed by the utility function: $U(C_1, C_2) = C_1 C_2$.  The
+   income the consumer will have in each period is $M_1 =
+   \money{1000}$ and $M_2 = \money{1500}$. The interest rate is $r =
+   0.5$.
+   a) Write the intertemporal budget constraint of the individual in
+      future value.
+
+   b) Determine if the consumer borrows or lends money and the
+      consumption level in each period.
+
+   c) Now assume that the consumer regards both goods as perfect
+      complements and his utility function can be written as: $U(C_1,
+      C_2) = \min\{C_1, C_2\}$. Obtain the optimal intertemporal
+      consumption profile in this case.
+
+2. The preferences between present consumption, $C_1$, and future
+   consumption, $C_2$, of a consumer are represented by the utility
+   function: $U(C_1, C_2)= C_1^2 C_2$. In the first period the
+   individual has an income of \money{200}, while in the second period
+   he has an income of \money{220}. Money can be lent at an interest
+   rate of 5% and can be borrowed at an interest rate of 10%.
+
+   a) Express analytically the individual's budget constraint and draw it.
+
+   b) Calculate the consumer equilibrium and determine whether it will
+      be a lender or a borrower.
+
+   c) If the European Central Bank sets a single interest rate of 8%
+      for both lending and borrowing money, compute the new
+      equilibrium and determine whether the consumer is better or
+      worse in terms of his utility.

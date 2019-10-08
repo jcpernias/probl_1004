@@ -1,0 +1,80 @@
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Cuaderno de ejercicios 2
+
+
+* La elección del consumidor
+
+1. Un consumidor dispone de una renta de \money{1000} para comprar los
+   bienes $X$ e $Y$, cuyos precios son, respectivamente, $P_X =
+   \price{5}$ y $P_Y = \price{1}$.
+
+   a) Represente gráfica y matemáticamente el conjunto presupuestario
+      del consumidor.
+
+   b) ¿Cómo cambiará el conjunto presupuestario si el consumidor
+      obtiene un descuento de \money{1} por cada unidad comprada del
+      bien $X$ por encima de \num{25} unidades? Justifique su
+      respuesta.
+
+2. Las preferencias de un consumidor están representadas por la
+   función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
+   de \money{900} y los precios de los bienes $X$ e $Y$ son $P_X =
+   \price{10}$ y $P_Y = \price{5}$. Calcule la elección óptima del
+   consumidor.
+
+3. Una consumidora con preferencias regulares sólo compra dos bienes,
+   $X$ e $Y$, cuyos precios son $P_X = \price{2}$ y $P_Y =
+   \price{1}$. En la situación actual si compra una unidad adicional
+   de $X$ su utilidad total aumentará en 8 unidades. Por otro lado, si
+   modificara su consumo actual de forma que consumiera una unidad más
+   de $Y$ su utilidad total se incrementaría en 4 unidades. La renta
+   de la consumidora es de \money{100} y consume actualmente
+   20 unidades del bien $X$.
+
+   a) Si no pudiera alterar el consumo de $X$, ¿qué cantidad consumirá
+      del bien $Y$ para maximizar su utilidad?
+
+   b) Si pudiera modificar el consumo de los dos bienes, ¿aumentaría o
+      disminuiría el consumo de $X$? ¿Y el del bien $Y$?
+
+   c) Suponga que la renta aumenta y ahora $M = \money{200}$. Si $X$ e
+      $Y$ son bienes normales, ¿como cambiará el consumo de $X$ e $Y$?
+
+4. La función de utilidad de un individuo respecto de los bienes $X$ e
+   $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
+   $P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
+   consumidor es $M = \money{100}$.
+
+   a) ¿Es $(X,Y) = (10, 40)$ una cesta óptima? ¿Por qué?
+
+   b) ¿Cuál es la elección óptima del consumidor?
+
+   c) ¿Cómo se vería modificada la elección del consumidor si $P_X =
+      \price{10}$?
+
+5. Las preferencias de un consumidor entre gasolina, $G$, y un bien
+   compuesto, $Y$, que recoge las compras del consumidor en los
+   restantes bienes, están representadas por la función de utilidad:
+   $U(G, Y)= (G + 10) Y$. El precio de la gasolina es de $P_G =
+   \price[l]{2}$ y la renta del consumidor es $M = \money{24}$.
+
+   a) Indique la expresión matemática de la restricción presupuestaria
+      y represéntela gráficamente.
+
+   b) La empresa para la que trabaja este consumidor está considerando
+      la posibilidad de ofrecer incentivos para los trabajadores más
+      eficientes y estudia diferentes posibilidades:
+
+      + Entregar un vale al trabajador que le permite adquirir
+        \num{6} litros de gasolina de forma gratuita.
+
+      + Ofrecer al trabajador un descuento de \money{1} por cada litro
+        de gasolina que consuma.
+
+      + Entregarle una gratificación de \money{12} en metálico.
+
+      Indique la expresión matemática de la restricción presupuestaria
+      en cada uno de los casos y represéntelas en un mismo gráfico.
+
+   c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.

@@ -1,0 +1,43 @@
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Cuaderno de ejercicios 4
+
+
+* La elección intertemporal
+
+1. Un consumidor tiene unas preferencias con respecto a su consumo
+   presente, $C_1$, y su consumo futuro, $C_2$, que vienen
+   representadas por la función de utilidad $U(C_1, C_2) = C_1
+   C_2$. La renta que obtiene el consumidor en cada uno de los
+   periodos es $M_1 = \money{1000}$ y $M_2 = \money{1500}$. El tipo
+   de interés es $r = 0.5$.
+
+   a) Escriba la restricción presupuestaria intertemporal de este
+      individuo en valor futuro.
+
+   b) Determine si el individuo ahorra o no, así como el nivel de
+      consumo en cada periodo.
+
+   c) Suponga ahora que el consumidor considera ambos bienes como
+      complementos perfectos y su función de utilidad es: $U(C_1, C_2)
+      = \min\{C_1, C_2\}$. Obtenga el perfil de consumo intertemporal
+      óptimo en este caso.
+
+2. Las preferencias entre el consumo presente, $C_1$, y consumo
+   futuro, $C_2$, de un individuo están representadas por la función
+   de utilidad: $U(C_1, C_2)= C_1^2 C_2$.  En el primer periodo el
+   individuo tiene una renta de \money{200}, mientras que en el
+   segundo periodo obtiene una renta de \money{220}. El tipo de
+   interés al que se presta dinero es del 5%, y el tipo de interés al
+   se pide prestado es del 10%.
+
+   a) Exprese analíticamente la restricción presupuestaria del
+      individuo y represéntela gráficamente.
+
+   b) Calcule el equilibrio del consumidor y determine si será
+      prestamista o prestatario.
+
+   c) Si el Banco Central Europeo fija un tipo de interés único del 8%
+      tanto para prestar como para pedir prestado, calcule el nuevo
+      equilibrio y determine si el consumidor mejora o empeora en
+      términos de bienestar.

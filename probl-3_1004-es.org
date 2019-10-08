@@ -1,0 +1,79 @@
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Cuaderno de ejercicios 3
+
+
+* Variaciones en la renta o en el precio de un bien
+
+1. Un consumidor dispone de una renta monetaria de $M =
+   \money{16}$. Sus preferencias pueden describirse con la función de
+   utilidad $U(X, Y) = X Y$. Inicialmente se encuentra en equilibrio
+   adquiriendo 4 unidades del bien $X$ y 8 unidades del bien $Y$. Los
+   precios de los bienes $X$ e $Y$ son $P_X = \price{2}$ y $P_Y =
+   \price{1}$.
+
+   a) Represente la situación de equilibrio inicial.
+
+   b) Suponga que el precio de $X$ disminuye hasta situarse en $P'_X =
+      \price{1}$. Deduzca y represente la nueva situación de
+      equilibrio.
+
+   c) Obtenga y represente la curva de precio consumo y la función de
+      demanda.
+
+   d) Dada la situación de equilibrio inicial, suponga un incremento
+      de la renta igual a \money{4}. Calcule el nuevo equilibrio y
+      represéntelo gráficamente.
+
+   e) Obtenga y represente la curva renta consumo y la curva de Engel.
+
+2. Las preferencias de un consumidor vienen dadas por la función de
+   utilidad: $U(X, Y) = X^2 Y$ y su renta es $M = \money{1200}$. Los
+   precios de los bienes $X$ e $Y$ son $P_X = P_Y = \price{4}$.
+
+   a) Calcule y represente la situación de equilibrio así como la
+      función de demanda del bien $X$.
+
+   b) ¿Qué tipo de relación hay entre los bienes $X$ e $Y$?
+
+   c) Calcule el efecto sobre el consumo de los dos bienes de una
+      disminución en el precio por unidad del bien $X$ en \money{3}.
+
+   d) Descomponga, tanto gráfica como analíticamente, el impacto sobre
+      el consumo de ambos bienes de la variación en el precio de $X$ en
+      los efectos renta y sustitución.
+
+3. La función de utilidad de un consumidor es $U(X, Y) = X^{1/4}
+   Y^{1/8}$, mientras que $P_X = \price{2}$, $P_Y = \price{3}$ y $M =
+   \money{340}$.
+
+   a) Calcule la cesta de consumo óptima.
+
+   b) Suponga que el precio por unidad del bien $X$ sube en
+      \money{2}. Calcule los efectos totales sobre las demandas de los
+      bienes $X$ e $Y$.
+
+   c) Descomponga los efectos totales en efecto sustitución y efecto
+      renta.
+
+   d) Calcule las funciones de demanda de los bienes $X$ e $Y$.
+
+4. En una pequeña ciudad cada uno de los vecinos se gasta \money{38}
+   al mes en actividades deportivas, $D$, y culturales, $C$. El precio
+   unitario de cada una de estas actividades es de $P_D = \price{2}$ y
+   $P_C = \price{1}$. Las preferencias de cada uno de los vecinos con
+   respecto a estas actividades pueden representarse por la función de
+   utilidad: $U(D, C) = D C + C$.
+
+   a) Determine el número de actividades deportivas y culturales que
+      debería ofrecer el ayuntamiento si pretende maximizar la
+      utilidad de los vecinos.
+
+   b) Suponga que el equipo de gobierno aprueba el llamado Plan de
+      Fomento del Deporte de modo que se subvenciona el 50% del precio
+      de las actividades deportivas. Obtenga y represente gráficamente
+      el impacto que tendrá la política municipal sobre las decisiones
+      consumo de los residentes.
+
+   c) Descomponga el efecto total del Plan en los efectos renta y
+      sustitución.

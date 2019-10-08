@@ -1,0 +1,64 @@
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Cuaderno de ejercicios 6
+
+
+* Los costes
+
+1. La función de producción de una empresa viene dada por: $Q = 2 K
+   L$. El salario por hora es \wage{2} y el precio unitario del factor
+   capital es de \price{4}.
+
+   a) Si la empresa dispone de un presupuesto de \money{200} para
+      contratar factores, ¿cuál será la combinación óptima de
+      $L$ y $K$? ¿Cuál será la producción de la empresa?
+
+   b) La función de producción de la empresa pasa a ser $Q = 4 K
+      L$. Calcule el coste total asociado y las cantidades de factores
+      utilizados si el nivel de producción es de \units{2500}.
+
+2. La tecnología que usa una empresa puede representarse mediante la
+   función de producción: $Q = (KL)^{1/2}$
+
+   a) Calcule la demanda condicionada para cada uno de los factores
+      de producción.
+
+   b) Obtenga la función de costes a largo plazo si $w =\wage{1}$ y $r
+      = \price{1}$.
+
+   c) Obtenga las funciones de coste marginal y coste medio a largo plazo.
+
+   d) Obtenga las funciones de coste total medio, coste variable medio
+      y coste marginal a corto plazo para un nivel de capital $K =
+      \units{25}$.
+
+3. La función de producción de una empresa es: $F(K, L) = K
+   L^{2}$. Los precios de los factores son: $r = \price{5}$ y $w =
+   \wage{2}$.
+
+   a) Señale el tipo de rendimientos de escala que presenta la
+      tecnología que usa la empresa.
+
+   b) Si se desea alcanzar un nivel de producción igual a \units{200},
+      calcule las cantidades de cada factor de producción que debería
+      adquirir la empresa para minimizar el coste de producción.
+
+   c) Determine la función de costes de producción y el coste total
+      para un nivel de producción $Q = \units{200}$.
+
+4. Una empresa tiene la función de producción: $Q = 2 K^{1/2}
+   L^{3/2}$. Actualmente contrata 8 unidades de trabajo y 2 unidades
+   de capital. Si esta es la combinación óptima de factores a largo
+   plazo y si los costes totales son iguales a \money{16}, ¿cuáles son
+   los precios del capital y del trabajo?
+
+5. Una empresa opera con la tecnología $Q = K L$ y usa 3 unidades de
+   capital a corto plazo. Los precios de los factores son $w=
+   \wage{1}$ y $r=\price{1}$.
+
+   a) ¿Cuál es la demanda condicionada del factor trabajo en el corto
+      plazo? ¿Y la función de costes? ¿Y la de costes marginales?
+
+   b) ¿Cuál es el único nivel de producción en el que coinciden los
+      costes a largo plazo y los costes a corto plazo? ¿Por qué? ¿Qué
+      ocurre en cualquier otro nivel de producción?
