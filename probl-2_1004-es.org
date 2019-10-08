@@ -78,3 +78,40 @@
       en cada uno de los casos y represéntelas en un mismo gráfico.
 
    c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
+
+6. Las preferencias de un consumidor pueden representarse por la
+   función de utilidad: \[ U(X, Y) = X (Y + 100) \] El precio del bien
+   $X$ es \price{1} y el del bien $Y$ es \price{4}. El consumidor
+   dispone de una renta monetaria de \money{250}.
+
+   a) Calcule la elección óptima de consumo.
+
+   b) Si se raciona el bien $X$ de forma que no es posible consumir
+      más de 100 unidades de $X$, ¿cuál sería la elección
+      óptima?. Represente gráficamente.
+
+7. El precio del bien $X$ cambia dependiendo de la cantidad que se
+   compre: las 50 primeras unidades cuestan \price{1}, mientras que
+   para cada unidad comprada por encima de la quincuagésima el precio
+   es \price{2}.
+
+   a) Obtenga y represente gráficamente la restricción presupuestaria
+      de un consumidor que dispone de una renta monetaria de
+      \money{200}. [/Pista/: Utilice un bien compuesto.]
+
+   b) Si las preferencias de este consumidor son tales que:
+      \[\mathit{RMS} = \frac{Y}{4X},\] ¿cuál sería la elección óptima?
+
+8. Considere un consumidor cuyas necesidades energéticas están
+   cubiertas por el consumo de gas natural y electricidad. El precio
+   del gas natural es de \money{0.05} por metro cúbico. Sin embargo,
+   el precio de la electricidad depende del consumo: hasta 1000 kWh
+   el precio es de \money{0.06} por kWh, siendo el precio de cada kWh
+   adicional de \money{0.03}. Si el consumidor dispone de \money{120}
+   para gastar en energía, dibuje el conjunto presupuestario de este
+   consumidor.
+
+9. Suponga que para un consumidor la relación marginal de sustitución
+   de un bien por otro es constante sea cual sea el nivel de consumo
+   de cada uno de los bienes, y es igual al precio relativo de los
+   dos bienes. ¿Cuál será la elección óptima de este consumidor?

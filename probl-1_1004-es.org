@@ -156,3 +156,88 @@
 
    d) Calcule la elasticidad renta de la demanda en la situación de
       equilibrio e interprete el valor y el signo obtenidos.
+
+7. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+   \begin{gather*}
+     X^d = \num{100000} - 25 P_X \\
+     X^o = \num{50000} + 25 P_X
+   \end{gather*}
+
+   a) Determine el precio y la cantidad de equilibrio.
+
+   b) Describa y represente gráficamente los efectos sobre el mercado
+      del bien $X$ del establecimiento de un impuesto sobre los
+      vendedores de $t\,\text{€}$ por unidad vendida.
+
+8. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+   \begin{gather*}
+     X^d = \num{100000} - 20 P_X \\
+     X^o = \num{40000} + 40 P_X
+   \end{gather*}
+
+   a) Determine el precio y la cantidad de equilibrio.
+
+   b) Describa y represente gráficamente los efectos sobre el mercado
+      del bien $X$ del establecimiento de un precio máximo de
+      \price{2000}. ¿Cuántas unidades se venderían? ¿A qué precio?
+
+9. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+   \begin{gather*}
+     X^d = \num{85000} - 20 P_X \\
+     X^o = \num{15000} + 15 P_X
+   \end{gather*}
+
+   a) Determine el precio y la cantidad de equilibrio.
+
+   b) Represente gráficamente los efectos sobre el equilibrio de un
+      aumento del precio de un bien sustitutivo, /ceteris
+      paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
+      precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
+
+10. Explique y justifique si considera correcta o incorrecta cada una
+    de las siguientes afirmaciones (use el análisis gráfico cuando lo
+    considere oportuno):
+
+    a) Si se establece un precio máximo superior al precio de
+       equilibrio de mercado de un bien, la cantidad comprada y la
+       cantidad vendida coincidirá con el equilibrio en este mercado.
+
+    b) Partiendo de una situación de equilibrio en el mercado del bien
+       $X$, si se encarecen los costes de producción de este bien y,
+       simultáneamente, aumenta la renta de los consumidores, en el
+       nuevo equilibrio aumentarán tanto el precio como la cantidad.
+
+    c) Cuando un gran número de personas desempleadas encuentra
+       empleo, se produce un desplazamiento de la frontera de
+       posibilidades de producción hacia la derecha.
+
+    d) La demanda de mercado del bien $X$ es lineal y, al precio
+       actual, la elasticidad precio de la demanda es unitaria. Si
+       disminuye el precio del bien $X$, los ingresos totales de los
+       vendedores aumentarán.
+
+11. Dadas las funciones de oferta y demanda: $Q = 40 P$ y $Q = 100 -
+    10 P$, calcule la elasticidad precio de la oferta en el punto de
+    equilibrio de mercado. En dicho punto calcule en qué porcentaje y
+    en qué sentido varía la cantidad ofrecida ante un aumento
+    porcentual del precio del 10%. Razone sus respuestas.
+
+12. El mercado del bien $X$ está caracterizado por las siguientes
+    funciones de demanda y oferta:
+    #+BEGIN_EXPORT latex
+    \begin{gather*}
+      X = 250 - 30 P_{X} + 2 R - 5 P_{Y}, \\
+      X = 24 P_{X} - 24,
+    \end{gather*}
+    #+END_EXPORT
+    donde $R$ es la renta media de los consumidores y $P_Y$ el precio
+    del bien $Y$. Actualmente $R = \money{100}$ y $P_Y = \price{5}$.
+
+    a) Calcule el precio y la cantidad de equilibrio y represéntelo
+       gráficamente.
+
+    b) Calcule la elasticidad cruzada de la demanda. ¿Qué tipo de
+       relación existe entre los bienes $X$ e $Y$?
+
+    c) Si la renta media de los consumidores disminuye en \money{10},
+       ¿se puede afirmar que $X$ es un bien inferior?

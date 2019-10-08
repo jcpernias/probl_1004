@@ -77,3 +77,82 @@
 
    c) Descomponga el efecto total del Plan en los efectos renta y
       sustitución.
+
+5. Las preferencias de un consumidor pueden representarse por la
+   función de utilidad: \[ U(X, Y) = X^2 Y \] El precio del bien
+   $X$ es \price{4} y el del bien $Y$ es \price{2}. El consumidor
+   dispone de una renta monetaria de \money{120}.
+
+   a) Calcule la elección óptima de consumo.
+
+   b) Obtenga la curva de Engel del bien $X$.
+
+6. Las preferencias de un consumidor pueden representarse por la
+   función de utilidad: \[ U(X, Y) = X^3 Y^2 \] El precio del bien
+   $X$ es \price{6} y el del bien $Y$ es \price{8}. El consumidor
+   dispone de una renta monetaria de \money{240}.
+
+   a) Calcule la elección óptima de consumo.
+
+   b) Obtenga la curva de precio-consumo.
+
+7. Explique y justifique si considera correcta o incorrecta cada una
+   de las siguientes afirmaciones (use el análisis gráfico cuando lo
+   considere oportuno):
+
+   a) La función de utilidad de un consumidor es: $U(X, Y) = X
+      Y$. Partiendo de una situación de equilibrio, un aumento de la
+      renta del consumidor elevará la cantidad que consume de cada
+      uno de los bienes, ya que un aumento en la renta genera un
+      efecto sustitución en el consumo con signo positivo.
+
+   b) Si un aumento del precio del bien genera un efecto renta o
+      sustitución positivo, podemos asegurar que el bien en cuestión
+      es un bien inferior.
+
+   c) Suponiendo que el bien $X$ es un bien inferior, un aumento de
+      su precio provocaría un efecto renta negativo, dando lugar a un
+      descenso en el consumo final del bien $X$.
+
+8. Las preferencias de un consumidor están definidas por la función
+   de utilidad: \[ U(X, Y) = X Y ^{1/2}. \] Este individuo dispone de
+   una renta de \money{600} y los precios unitarios de ambos bienes son
+   iguales a \money{2}.
+
+   a) Obtenga el equilibrio del consumidor. Suponga ahora que el
+      precio unitario del bien $X$ se incrementa a \money{4}. ¿Cuál
+      será la nueva cesta óptima?
+
+   b) Descomponga el efecto total sobre el consumo del bien $X$ en
+      efecto renta y efecto sustitución. Interprete los
+      resultados. El bien $X$, ¿es normal o inferior?
+
+9. Las preferencias de un consumidor están representadas por la
+   siguiente función de utilidad: $U(X, Y) = 2 X Y$. Este individuo
+   dispone de una renta de \money{40} y los precios son $P_X =
+   \price{3}$ y $P_Y = \price{4}$.
+
+   a) Calcule la cantidad que consumirá de cada uno de los bienes
+      para maximizar su utilidad.
+
+   b) Calcule el efecto total sobre el consumo del bien $X$ de una
+      disminución en el precio del bien $X$ de \price{1}.
+
+   c) Calcule el efecto sobre el consumo de $X$ de un aumento de la
+      renta de $\money{10}$ y explique el valor que toma el efecto
+      sustitución en este caso.
+
+10. Las preferencias de un consumidor están representadas por la
+    siguiente función de utilidad: $U(X, Y) = X Y$. Este individuo
+    dispone de una renta de \money{150} y los precios son $P_X =
+    \price{10}$ y $P_Y = \price{10}$.
+
+    a) Calcule la cantidad que consumirá de cada uno de los bienes
+       para maximizar su utilidad y el efecto que tendrá sobre la
+       cesta óptima un aumento en el precio del bien $X$ hasta
+       \price{12}.
+
+    b) Descomponga analítica y gráficamente el impacto sobre el
+       consumo del bien $X$ en efecto renta y efecto
+       sustitución. Teniendo en cuenta los resultados obtenidos,
+       identifique qué tipo de bien es $X$.

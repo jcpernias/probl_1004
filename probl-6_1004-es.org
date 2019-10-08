@@ -62,3 +62,49 @@
    b) ¿Cuál es el único nivel de producción en el que coinciden los
       costes a largo plazo y los costes a corto plazo? ¿Por qué? ¿Qué
       ocurre en cualquier otro nivel de producción?
+
+6. Explique y justifique si considera correcta o incorrecta cada una
+   de las siguientes afirmaciones (use el análisis gráfico cuando lo
+   considere oportuno):
+
+   a) Si el coste marginal coincide con el coste medio, el coste
+      medio se maximiza.
+
+7. Considere una función de producción del tipo $Q = 2 L^2K$, siendo
+   el salario igual a \wage{1} y el precio del capital igual a
+   \price{4}.
+
+   a) Calcule la función de costes a corto plazo, el coste fijo
+      medio, el coste variable medio y el coste marginal si $K =
+      \units{16}$.
+
+   b) Calcule la función de costes a largo plazo y el coste medio a
+      largo plazo. Compare las curvas de costes medios a corto y a
+      largo plazo.
+
+8. Suponga que la función de producción de una empresa es $Q = K L$ y
+   que los precios unitarios de los factores son iguales a \money{2}.
+
+   a) Determine qué tipo de rendimientos de escala presenta la
+      función de producción y calcule la función de costes a largo
+      plazo.
+
+   b) Si la empresa decide producir $Q = \units{3600}$, determine el
+      coste total, coste medio y coste marginal a largo plazo.
+
+   c) Calcule el coste a corto plazo de producir $Q = \units{3600}$,
+      si la empresa utiliza 5 unidades de capital.
+
+9. Una empresa opera con una función de producción $Q = K L$ y paga
+   por cada unidad de factor productivo \money{5}.
+
+   a) Obtenga la función de costes a largo plazo. Si la empresa desea
+      producir 100 unidades, ¿cuál es el coste mínimo en que
+      incurriría?
+
+   b) Calcule la curva de costes a corto plazo dada la cantidad de
+      capital óptima que resulte del apartado anterior.
+
+   c) ¿El coste a corto plazo de producir 100 unidades es mayor o
+      menor que el coste a largo? ¿Y si el capital usado a corto
+      hubiera sido menor? Justifique su respuesta.
