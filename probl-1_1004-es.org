@@ -5,7 +5,31 @@
 
 * Principios básicos de la organización económica
 
-1. Un país dispone de \num{50000} unidades de un factor de producción
+1. El siguiente gráfico representa la frontera de posibilidades de
+   producción de una economía donde sólo se producen cocos y pescado:
+
+   #+MATS: fig fig-probl-1_1004-ppf-*.pdf
+
+   Ordene las opciones de producción $A$, $B$, $C$ y $D$ de mayor a
+   menor coste de oportunidad de producir pescado.
+
+   #+begin_answer
+     En las combinaciones de producción que están sobre la FPP, $A$ y
+     $D$, la pendiente de la frontera refleja el coste de oportunidad:
+     a cuántos cocos debe renunciar la economía para poder producir
+     una unidad más de pescado. El coste de oportunidad sería mayor en
+     $D$ que en $A$, ya que la pendiente es más pronunciada en el
+     punto $D$ (para producir una unidad adicional de pescado hay que
+     renunciar a más cocos si partimos de $D$ que si partimos de $A$).
+     En puntos como $B$ existen recursos desempleados y es posible
+     producir más pescado sin tener que reducir la producción de
+     cocos: el coste de oportunidad en $B$ es $0$. Puntos como el $C$
+     son inaccesibles y el coste de oportunidad no está definido. Por
+     tanto, ordenando las combinaciones de producción de mayor a menor
+     coste de oportunidad de producir pescado: $D$, $A$ y $B$.
+   #+end_answer
+
+2. Un país dispone de \num{50000} unidades de un factor de producción
    (horas de trabajo, por ejemplo) con el que se producen dos tipos de
    bienes: automóviles y comida. La siguiente tabla muestra las
    cantidades de estos bienes que pueden producirse dependiendo de las
@@ -42,7 +66,7 @@
       mitad de las unidades del factor de producción como consecuencia
       de un conflicto bélico?
 
-2. La tabla adjunta presenta diferentes combinaciones eficientes de
+3. La tabla adjunta presenta diferentes combinaciones eficientes de
    producción para una economía en la que únicamente se producen dos
    bienes: $X$ e $Y$.
 
@@ -70,7 +94,7 @@
    d) ¿A cuántas unidades de $X$ se debe renunciar para producir la
       segunda unidad de $Y$?
 
-3. En el mercado del bien $X$ participan \num{1000} consumidores
+4. En el mercado del bien $X$ participan \num{1000} consumidores
    idénticos, cada uno de ellos con curva de demanda: \[X^D_i = 5 -
    P_X, \qquad i = 1, ..., \num{1000}.\] El bien $X$ es producido por
    \num{500} empresas idénticas, cada una con curva de oferta:
@@ -95,7 +119,7 @@
       gobierno decidiese fijar un precio máximo de \price{1} para este
       bien?  ¿Y si se estableciera un precio mínimo de \price{3}?
 
-4. La empresa que gestiona un túnel se está planteando alterar el
+5. La empresa que gestiona un túnel se está planteando alterar el
    peaje que cobra a los usuarios del túnel. Actualmente el peaje es
    de \money{6} y \num{2400} conductores utilizan el túnel
    diariamente. Una consultora ha estimado que la función $Q =
@@ -108,7 +132,7 @@
 
    c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
 
-5. Una universidad ofrece 100 plazas en el Grado en Economía y la
+6. Una universidad ofrece 100 plazas en el Grado en Economía y la
    demanda de estos estudios viene dada por: \[Q =
    1901 - 2 P_{EC} + 0.1 P_{AE}\] donde $Q$ es el número de alumnos
    que demandan una plaza en el Grado en Economía; $P_{EC}$ y $P_{AE}$
@@ -128,7 +152,7 @@
    d) ¿Qué efecto tendrá sobre la demanda de plazas en Grado en
       Economía un aumento de $P_{BA}$?
 
-6. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
+7. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
    La demanda de abonos anuales de los aficionados es: \[Q =
    \num{125000} - 100 P +10 P_O + 10 M,\] donde:
 
@@ -157,7 +181,7 @@
    d) Calcule la elasticidad renta de la demanda en la situación de
       equilibrio e interprete el valor y el signo obtenidos.
 
-7. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+8. En el mercado del bien $X$ las curvas de demanda y de oferta son:
    \begin{gather*}
      X^d = \num{100000} - 25 P_X \\
      X^o = \num{50000} + 25 P_X
@@ -169,7 +193,7 @@
       del bien $X$ del establecimiento de un impuesto sobre los
       vendedores de $t\,\text{€}$ por unidad vendida.
 
-8. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+9. En el mercado del bien $X$ las curvas de demanda y de oferta son:
    \begin{gather*}
      X^d = \num{100000} - 20 P_X \\
      X^o = \num{40000} + 40 P_X
@@ -181,20 +205,20 @@
       del bien $X$ del establecimiento de un precio máximo de
       \price{2000}. ¿Cuántas unidades se venderían? ¿A qué precio?
 
-9. En el mercado del bien $X$ las curvas de demanda y de oferta son:
-   \begin{gather*}
-     X^d = \num{85000} - 20 P_X \\
-     X^o = \num{15000} + 15 P_X
-   \end{gather*}
+10. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+    \begin{gather*}
+      X^d = \num{85000} - 20 P_X \\
+      X^o = \num{15000} + 15 P_X
+    \end{gather*}
 
-   a) Determine el precio y la cantidad de equilibrio.
+    a) Determine el precio y la cantidad de equilibrio.
 
-   b) Represente gráficamente los efectos sobre el equilibrio de un
-      aumento del precio de un bien sustitutivo, /ceteris
-      paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
-      precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
+    b) Represente gráficamente los efectos sobre el equilibrio de un
+       aumento del precio de un bien sustitutivo, /ceteris
+       paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
+       precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
 
-10. Explique y justifique si considera correcta o incorrecta cada una
+11. Explique y justifique si considera correcta o incorrecta cada una
     de las siguientes afirmaciones (use el análisis gráfico cuando lo
     considere oportuno):
 
@@ -216,20 +240,20 @@
        disminuye el precio del bien $X$, los ingresos totales de los
        vendedores aumentarán.
 
-11. Dadas las funciones de oferta y demanda: $Q = 40 P$ y $Q = 100 -
+12. Dadas las funciones de oferta y demanda: $Q = 40 P$ y $Q = 100 -
     10 P$, calcule la elasticidad precio de la oferta en el punto de
     equilibrio de mercado. En dicho punto calcule en qué porcentaje y
     en qué sentido varía la cantidad ofrecida ante un aumento
     porcentual del precio del 10%. Razone sus respuestas.
 
-12. El mercado del bien $X$ está caracterizado por las siguientes
+13. El mercado del bien $X$ está caracterizado por las siguientes
     funciones de demanda y oferta:
-    #+BEGIN_EXPORT latex
+    #+begin_export latex
     \begin{gather*}
       X = 250 - 30 P_{X} + 2 R - 5 P_{Y}, \\
       X = 24 P_{X} - 24,
     \end{gather*}
-    #+END_EXPORT
+    #+end_export
     donde $R$ es la renta media de los consumidores y $P_Y$ el precio
     del bien $Y$. Actualmente $R = \money{100}$ y $P_Y = \price{5}$.
 
@@ -241,3 +265,97 @@
 
     c) Si la renta media de los consumidores disminuye en \money{10},
        ¿se puede afirmar que $X$ es un bien inferior?
+
+14. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
+    en alimentos al año y su renta monetaria anual es de
+    \money{25000}. En esta situación, la elasticidad-precio de su
+    demanda anual de alimentos es $-1$ mientras que la
+    elasticidad-renta es $-0.5$. ¿Cuál sería el consumo de alimentos de
+    Ana si obtiene una beca de \money{1000} que puede gastar libremente
+    en aquello que prefiera?
+
+    #+begin_answer
+      Dividiendo el gasto en alimentos por el precio obtenemos las
+      unidades de alimentos que inicialmente compra Ana durante un año:
+      \begin{equation*}
+        Q = 5000 / 2 = \units{2500}
+      \end{equation*}
+      La elasticidad renta
+      mide en qué porcentaje varía el consumo de alimentos por cada 1%
+      de aumento de la renta:
+      \begin{equation*}
+        E_{d}^{M} = \frac{\Delta\,\% Q}{\Delta\,\% M} = -0.5
+      \end{equation*}
+      El incremento porcentual de la renta de Ana a causa de la beca es
+      $\num{1000} / \num{25000} \times 100 = 4\%$.  Usando la
+      elasticidad renta calculamos la variación del consumo de
+      alimentos: $\Delta\,\% Q = E_{d}^{M} \times \Delta\,\% M = -0.5 \times 4
+      = -2\%$. Por tanto, el consumo de alimentos de Ana disminuye un
+      2% y será igual a $Q' = (1 - 0.02) \times 2500 = 2450$ unidades,
+      lo que supone un gasto anual de \money{4900}.
+    #+end_answer
+
+15. Considere un mercado competitivo de manzanas y use un diagrama de
+    oferta y demanda para analizar cómo afectaría al equilibrio una
+    enfermedad de los manzanos que perjudique a la cosecha. ¿Es posible
+    que los ingresos de los agricultores aumenten en este caso? ¿Qué
+    condiciones se tendrían que cumplir?
+
+    #+begin_answer
+      Una enfermedad de los manzanos afectará a la curva de oferta de
+      manzanas, que se desplazará hacia la izquierda y hacia
+      arriba. Como consecuencia en el mercado se venden menos manzanas
+      a un precio superior.
+
+      #+MATS: fig fig-probl-1_1004-apples-*.pdf
+
+      El efecto sobre los ingresos de los productores puede ser
+      positivo o negativo. Los ingresos solo crecerán si disminuye la
+      producción en una proporción menor a la que aumenta el precio: el
+      mercado se encontraría en un /tramo inelástico de la curva de
+      demanda/.
+    #+end_answer
+
+16. Las curvas de demanda y oferta de mercado del bien $X$ son:
+    \begin{gather*}
+      X = 200 - 5 P_{X} + 3 P_{Y} + 2 R \\
+      X = 100 + 2 P_{X}
+    \end{gather*}
+    donde $R$ es la renta media de los consumidores y $P_Y$ es el
+    precio del bien $Y$, siendo $R = \money{100}$ y $P_Y =
+    \price{5}$. Una ley prohíbe que el precio de $X$ supere
+    los $\money{50}$.
+    a) ¿Qué cantidad se venderá del bien $X$? ¿A qué
+       precio? Represente gráficamente.
+
+       #+begin_answer
+         Obtenemos la curva de demanda sustituyendo $R = \money{100}$ y
+         $P_Y = \price{5}$ en la función de demanda: \[ X = 200 - 5
+         P_X + 3 \cdot 5 + 2 \cdot 100 = 415 - 5 P_X. \] Obtenemos el
+         precio de equilibrio igualando oferta y demanda: \[ 415 - 5
+         P_X^* = 100 + 2 P_X^* \] por lo que $P_X^* = \price{45}$ y $X^*
+         = 190$ unidades. Dado que el precio máximo es superior al
+         precio de equilibrio, nada impide que se alcance el equilibrio
+         en este mercado.
+
+         #+MATS: fig fig-probl-1_1004-eq1-*.pdf
+       #+end_answer
+
+    b) Si la renta media aumenta hasta $R = \money{170}$, calcule
+       cuántas unidades de $X$ se venderán ahora y a qué
+       precio. Represente gráficamente.
+
+       #+begin_answer
+         Cuando $R = \money{170}$ la función de demanda es: \[ X =
+         200 - 5 P_X + 3 \cdot 5 + 2 \cdot 170 = 555 - 5 P_X. \] En
+         esta ocasión igualando oferta y demanda se obtiene un precio
+         de equilibrio igual a $P_X^* = \price{65}$. Puesto que éste es
+         superior al precio máximo, el mercado no puede alcanzar el
+         equilibrio. A un precio de $P_X = P_{X}^{\max} = \price{50}$
+         se venderían todas las unidades ofrecidas, $X^o = 100 + 2\cdot
+         50 = 200$, y se produciría una situación de escasez dado que
+         la demanda sería mucho mayor: $X^d = 555 - 5 \cdot 50 =
+         305$ unidades.
+
+         #+MATS: fig fig-probl-1_1004-eq2-*.pdf
+       #+end_answer

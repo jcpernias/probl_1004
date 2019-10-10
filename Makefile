@@ -2,7 +2,7 @@ SHELL := /bin/sh
 
 subject_code := 1004
 probl_units := 1 2 3 4 5 6
-# unit_figs := 1A 1B 1C 1D 1E 2A 2B 2C 3A 3B 4A 5A 5B 6A 6B
+probl_figs := 1 2 3 4 # 5A 5B 6A 6B
 
 TEXI2DVI_SILENT := -q
 # TEXI2DVI_SILENT :=
@@ -71,10 +71,10 @@ tex_deps := $(addprefix $(depsdir)/probl-, \
 	$(addprefix $(depsdir)/probl-, \
 	$(addsuffix _$(subject_code)-en.tex.d, $(probl_units)))
 
-# unit_figs_deps := $(addprefix $(depsdir)/probl-,\
-# 	$(addsuffix _$(subject_code)-figs.d, $(unit_figs)))
+probl_figs_deps := $(addprefix $(depsdir)/probl-,\
+	$(addsuffix _$(subject_code)-figs.d, $(probl_figs)))
 
-all_deps := $(docs_deps) $(tex_deps) $(unit_figs_deps)
+all_deps := $(docs_deps) $(tex_deps) $(probl_figs_deps)
 
 FIGURES :=
 
@@ -193,7 +193,7 @@ $(builddir)/fig-%-es.tex: $(builddir)/fig-%.tex
 $(figdir)/fig-%.pdf: $(builddir)/fig-%.tex | $(figdir)
 	$(TEXI2DVI) --output=$@ $<
 
-$(depsdir)/unit-%-figs.d: unit-%-figs.org | $(depsdir)
+$(depsdir)/%-figs.d: %-figs.org | $(depsdir)
 	$(MAKEFIGDEPS) -o $@ $<
 
 # from R to latex

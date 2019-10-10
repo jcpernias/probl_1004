@@ -1,0 +1,44 @@
+#+STARTUP: indent hidestars content
+
+#+TITLE: Problem Figures 2
+
+#+OPTIONS: header-args: latex :exports source :eval no :noweb yes
+
+
+
+* Budget line and promotions
+
+#+begin_src latex :tangle fig-probl-2_1004-budget1.tex
+  \begin{tikzpicture}[xscale = 0.3, yscale = 0.3]
+
+    \draw[curve, very thick]
+    (0, 5) node[left] {5} -- (10, 0) node[below] {10} ;
+
+    \draw[axis, very thick] (0,7) node[left] {$C$} |-
+    (15, 0) node[below] {$P$} ;
+
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-probl-2_1004-budget2.tex
+  \begin{tikzpicture}[xscale = 0.3, yscale = 0.3]
+
+    \draw[help lines]
+    (0, 3) node[left] {3} -| (6, 0) node[below] {6}
+    (4, 3) -- (4, 0) node[below] {4} ;
+
+    \draw
+    (4, 3) node[dot] {}  (6, 3) node[dot] {} ;
+
+    \draw[curve, very thick]
+    (0, 5) node[left] {5} -- (4, 3)
+    (6, 3) -- (12, 0) node[below] {12} ;
+
+    \draw[curve, shaded]
+    (4, 3) -- (10, 0) ;
+
+    \draw[axis, very thick] (0,7) node[left] {$C$} |-
+    (15, 0) node[below] {$P$} ;
+
+  \end{tikzpicture}
+#+end_src

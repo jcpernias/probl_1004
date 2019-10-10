@@ -99,3 +99,88 @@
 
    b) Calcule el equilibrio del consumidor y determine si será
       prestamista o prestatario.
+
+8. Un consumidor vive dos periodos y puede prestar y pedir prestado a
+   un tipo de interés del 10%. En el primer periodo obtiene una renta
+   monetaria de \money{1000} mientras que en el segundo período
+   obtiene \money{750}. En estas condiciones el consumidor decide no
+   ahorrar nada. Si el tipo de interés disminuyera al 5%, ¿qué
+   ocurriría con el ahorro? ¿Qué situación preferiría el consumidor:
+   un tipo de interés del 10% o del 5%? Represente
+   gráficamente.
+
+   #+begin_answer
+   La restricción intertemporal cuando el tipo de interés es del 10%
+   es:
+   \begin{equation*}
+     C_2 = 1850 - 1.1 C_1
+   \end{equation*}
+
+   #+attr_latex: :options {0.55\linewidth}
+   #+begin_minipage
+   #+MATS: fig fig-probl-4_1004-r10-*.pdf
+   #+end_minipage
+   #+attr_latex: :options {0.45\linewidth}
+   #+begin_minipage
+     Dado que el ahorro óptimo es $0$, el consumo y la renta de cada
+     periodo coinciden: $C_1 = M_1 = \money{1000}$ y $C_2 = M_2 =
+     \money{750}$. La relación marginal de sustitución en la
+     combinación óptima es igual a $\mathit{RMS} = 1 + r$, por lo que:
+     \begin{equation*}
+       \mathit{RMS}(E_0) = 1.1
+     \end{equation*}
+   #+end_minipage
+
+   La restricción intertemporal cuando baja el tipo de interés es:
+   \begin{equation*}
+     C_2 = 1800 - 1.05 C_1
+   \end{equation*}
+   La combinación inicial no puede ser óptima con un tipo de interés
+   del 5%, pues:
+   \begin{equation*}
+     \mathit{RMS}(E_0) = 1.1 > 1 + r = 1.05
+   \end{equation*}
+   por lo que el consumidor aumentará su consumo presente a costa de
+   consumo futuro y su ahorro será ahora negativo.
+
+   #+attr_latex: :options {0.55\linewidth}
+   #+begin_minipage
+   #+MATS: fig fig-probl-4_1004-r5-*.pdf
+   #+end_minipage
+   #+attr_latex: :options {0.45\linewidth}
+   #+begin_minipage
+     El consumidor prefiere la situación donde $r = 5\%$: en el nuevo
+     punto óptimo el consumidor alcanza una curva de indiferencia más
+     alejada del origen. Aunque podría elegir $E_0$, el consumidor
+     rechaza esa opción en favor de otra combinación de consumo: $E_1$
+     es preferida a $E_0$.
+   #+end_minipage
+
+
+   #+end_answer
+
+9. Un consumidor vive dos periodos y puede prestar y pedir prestado a
+   un mismo tipo de interés. Obtiene una renta de \money{2500}, ahorra
+   \money{1000}, y su renta en el segundo periodo es un 20%
+   inferior. Calcule el tipo de interés sabiendo que la elección
+   óptima del consumidor en el segundo periodo es \money{3010}. Obtenga
+   y represente gráficamente la restricción intertemporal.
+   #+begin_answer
+     El consumo en el primer periodo se puede deducir de los datos del enunciado:
+     \[ C_1 = M_1 - S_1 = 2500 - 1000 = \money{1500}.\]
+     La renta en el segundo periodo es un 20% inferior a la del primer periodo:
+     \[ M_2 = 0.8 M_1 = \money{2000}. \]
+     La restricción intertemporal implica:
+     \[ M_1 (1 + r) + M_2 = C_1 (1 + r) + C_2 \]
+     Por lo que:
+     \[ 2500 (1 + r) + 2000 = 1500 (1 + r) + 3010 \]
+     Despejando se obtiene $r = 0.01$.
+
+     Una vez calculado el tipo de interés podemos determinar el valor
+     futuro del flujo de rentas del consumidor:
+     \[ M_1 (1 + r) + M_2 = 2500 \cdot 1.01 + 2000 = \money{4525} \]
+     La restricción intertemporal es:
+     \[ 4525 = 1.01 C_1 + C_2 \]
+
+     #+MATS: fig fig-probl-4_1004-budget-*.pdf
+     #+end_answer

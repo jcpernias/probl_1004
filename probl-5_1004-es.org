@@ -61,3 +61,17 @@
 
    b) La función de producción $Q = K + L$, presenta rendimientos
       crecientes de escala.
+
+1. Una fábrica utiliza trabajo y capital para producir
+   zapatos. Después de aumentar el número de trabajadores en un 50% la
+   producción crece en un 60%. ¿Quiere esto decir que la función de
+   producción de la empresa presenta rendimientos crecientes a escala?
+
+   #+begin_answer
+     No. Cuando se habla de rendimientos a escala se hace referencia a
+     una situación en la que /todos/ los factores de producción
+     aumentan en la /misma/ proporción. En el caso descrito en el
+     enunciado sólo aumenta el trabajo por lo que no es posible
+     deducir qué tipo de rendimientos a escala presenta la función de
+     producción.
+   #+end_answer

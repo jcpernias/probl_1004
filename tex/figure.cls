@@ -66,7 +66,7 @@
 \colorlet{worsefill}{Thistle!85!Black}
 
 
-\usetikzlibrary{arrows,calc,intersections, matrix,
+\usetikzlibrary{arrows,calc,hobby,intersections, matrix,
   positioning,backgrounds,decorations.markings,
   decorations.pathreplacing, spy, shapes.geometric, shapes.misc}
 

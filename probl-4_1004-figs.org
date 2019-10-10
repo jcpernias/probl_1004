@@ -1,0 +1,104 @@
+#+STARTUP: indent hidestars content
+
+#+TITLE: Problems 1 Figures
+
+#+OPTIONS: header-args: latex :exports source :eval no :noweb yes
+
+
+
+* Equilibrium at different interest rates
+
+#+begin_src latex :tangle fig-probl-4_1004-r10.tex
+  \begin{tikzpicture}[xscale = 0.5, yscale = 0.5,
+    use Hobby shortcut,
+    tangent/.style={
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,
+    },
+    ]
+    \coordinate (A) at (4, 3) ;
+
+    \draw[help lines]
+    (0, 3) node[left] { $750$ } -| (4, 0) node[below] { $1000$ } ;
+
+    \draw[curve, very thick]
+    (0, 7) node[left] { $1850$ } -- (7, 0) node[below] { $1681.8$ } ;
+
+    \draw[curve, very thick]
+    (1.25, 9) .. ([tangent=-45] A) .. (10, 0.5) ;
+
+
+    \draw[axis, very thick]
+    (0, 10) node[left] {$C_{2}$} |- (12, 0) node[below] {$C_{1}$} ;
+
+    \node[dot, label={above right:$E_{0}$}] at (A) {};
+
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-probl-4_1004-r5.tex
+  \begin{tikzpicture}[xscale = 0.5, yscale = 0.5,
+    use Hobby shortcut,
+    tangent/.style={
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,
+    },
+    ]
+    \coordinate (A) at (4, 3) ;
+    \coordinate (B) at (7, 1.5) ;
+
+    \draw[help lines]
+    (0, 3) node[left] { $750$ } -| (4, 0) node[below] { $1000$ } ;
+
+    \draw[curve, very thick, shaded]
+    (0, 7) -- (7, 0) ;
+
+    \draw[curve, very thick]
+    (0, 5) node[left] { $1800$ } -- (10, 0) node[below] { $1714.3$ } ;
+
+    \draw[curve, very thick, shaded]
+    (1.25, 9) .. ([tangent=-45] A) .. (10, 0.5) ;
+
+    \draw[curve, very thick]
+    (2, 9) .. ([tangent=-26.565] B) .. (10, 1) ;
+
+
+    \draw[axis, very thick]
+    (0, 10) node[left] {$C_{2}$} |- (12, 0) node[below] {$C_{1}$} ;
+
+    \node[dot, label={below left:$E_{0}$}] at (A) {};
+    \node[dot, label={above right:$E_{1}$}] at (B) {};
+
+  \end{tikzpicture}
+#+end_src
+
+
+* Intertemporal budget line
+
+#+begin_src latex :tangle fig-probl-4_1004-budget.tex
+  \begin{tikzpicture}[xscale = 0.952381, yscale = 0.952381]
+
+    \draw[help lines]
+    (0, 2) node[left] {$2000$} -| (2.5, 0) node[below] {$2500$}
+    (0, 3.01) node[left] {$3010$} -| (1.5, 0) node[below] {$1500$}
+    ;
+
+    \draw[curve, very thick]
+    (0, 4.525) node[left] {$4525$} -- (4.48020, 0) node[below] {$4480.2$} ;
+
+    \draw[curve, very thick, domain=0.6746908:4.5, samples=100]
+    plot (\x, {3.691451/(\x^0.5033223)})
+    node[right] {$U_{E}$} ;
+
+    \draw[axis, very thick] (0, 5.25) node[left] {$C_{2}$} |-
+    (5.5, 0) node[below] {$C_{1}$} ;
+
+    % \node[dot] at (2.5, 2) {} ;
+    \node[dot, label={above right:$E$}] at (1.5, 3.01) {} ;
+
+  \end{tikzpicture}
+#+end_src

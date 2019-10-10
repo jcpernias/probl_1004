@@ -156,3 +156,117 @@
        consumo del bien $X$ en efecto renta y efecto
        sustitución. Teniendo en cuenta los resultados obtenidos,
        identifique qué tipo de bien es $X$.
+
+11. El siguiente gráfico muestra las elecciones óptimas de un
+    consumidor antes y después de una disminución del precio del bien
+    $X$:
+
+    #+MATS: fig fig-probl-3_1004-fxs-*.pdf
+
+    Observe que la tasa a la que estaría dispuesto el consumidor a
+    sustituir $X$ por $Y$ es la misma en los puntos $A$ y $B$, por un
+    lado, y en los puntos $C$ y $D$, por otro lado.
+
+    Descomponga el efecto total sobre el consumo de $X$ en efecto renta
+    y efecto sustitución. Obtenga los signos de estos efectos y
+    determine qué tipo de bien es $X$ para este consumidor.
+
+    #+begin_answer
+    - Las restricciones presupuestarias antes y después del cambio en
+      el precio son las rectas que cortan el eje de ordenadas en
+      $M/P_Y$. La restricción inicial es la más próxima al origen en el
+      gráfico ya que corresponde a un precio más alto de $X$. La cesta
+      óptima a los precios iniciales es $A$, mientras que la elección
+      óptima cuando disminuye el precio de $X$ es $C$.  El efecto total
+      es:
+      \begin{equation*}
+        \mathit{ET} = X_{C} - X_{A} = 30 - 15 = 15\text{\ unidades.}
+      \end{equation*}
+      La cesta $D$ corresponde a la decisión del consumidor cuando los
+      precios son los finales pero la renta real (nivel de utilidad) es
+      la inicial. El efecto sustitución sería:
+      \begin{equation*}
+        \mathit{ES} = X_{D} - X_{A} = 35 - 15 = 20\text{\ unidades.}
+      \end{equation*}
+      El efecto renta es:
+      \begin{equation*}
+        \mathit{ER} = X_{C} - X_{D} = 30 - 35 = -5\text{\ unidades.}
+      \end{equation*}
+
+    - El precio de $X$ disminuye al mismo tiempo que aumenta la
+      cantidad demandada por lo que el signo del /efecto total/ es
+      /negativo/. De la misma forma el /efecto sustitución/ es
+      /negativo/, ya que precio y cantidad se mueven en dirección
+      contraria cuando se mantiene la renta real constante. Finalmente,
+      el cambio en el precio y el cambio en la demanda atribuible a una
+      variación de la renta real son ambos negativos en nuestro caso,
+      por lo que el /efecto renta/ es /positivo/. Por lo tanto, $X$ es
+      un bien inferior y su curva de demanda tiene pendiente negativa.
+    #+end_answer
+
+12. Las preferencias de un consumidor pueden representarse por la
+    función de utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien
+    $X$ es \price{1} y el del bien $Y$ es \price{4}. El consumidor
+    dispone de una renta monetaria de \money{250}. Calcule la elección
+    óptima y represente gráficamente el equilibrio del
+    consumidor. Obtenga la curva de demanda del bien $X$.
+
+    #+begin_answer
+    - La restricción presupuestaria es:
+      \begin{equation*}
+        250 = X + 4 Y
+      \end{equation*}
+      mientras que la tangencia de la restricción y una curva de
+      indiferencia implica:
+      \begin{equation*}
+        \mathit{RMS} = (Y + 100)/X = 1/4 = P_X/P_Y
+      \end{equation*}
+      Operando en la expresión anterior: $X = 4 Y + 400$. Sustituyendo
+      en la restricción presupuestaria: $Y = \units{-18.75}$. Esto
+      quiere decir que la elección óptima del consumidor corresponde a
+      una solución de esquina donde no consume ninguna unidad del bien
+      $Y$ y gasta toda su renta en el bien $X$:
+      \begin{equation*}
+        X = M / P_X = \units{250}
+      \end{equation*}
+
+      #+MATS: fig fig-probl-3_1004-corner-*.pdf
+
+    - Los puntos de la curva de demanda tienen que satisfacer las
+      siguientes condiciones:
+      \begin{gather*}
+        250 = P_{X} X + 4 Y \\
+        (Y + 100)/X = P_{X}/4
+      \end{gather*}
+      Operando en la segunda ecuación: $P_X X = 4 Y + 400$ y
+      sustituyendo en la primera ecuación se obtiene $Y =
+      \units{-18.75}$ sea cual sea $P_X$. Por tanto, sea cual sea el
+      precio de $X$ el consumidor no compra ninguna unidad del bien $Y$
+      y gasta toda su renta en el bien $X$. En estas condiciones, la
+      curva de demanda del bien $X$ es:
+      \begin{equation*}
+        X = 250 / P_X
+      \end{equation*}
+    #+end_answer
+
+13. La función de utilidad $U = X^2 Y$ describe las preferencias de un
+    consumidor que dispone de una renta de \money{100}. Los precios de
+    los bienes $X$ e $Y$ son $P_X = \price{10}$ y $P_Y =
+    \price{10}$. Obtenga la curva de Engel del bien $X$. Calcule la
+    elasticidad renta de $X$ y determine de qué tipo es.
+    #+begin_answer
+      Para obtener la curva de Engel necesitamos considerar como cambia
+      la decisión óptima del consumidor al cambiar la renta. Por un
+      lado, obtenemos la senda de expansión de la renta:
+      \[ \mathit{RMS} = 2 Y/X = 10 / 10 = P_X/P_Y \]
+      por lo que:
+      \[ Y = X / 2 \]
+      Por otro lado, consideramos la restricción presupuestaria:
+      \[ M = 10 X + 10 Y \]
+      Utilizando estas dos ecuaciones y operando, obtenemos la curva de Engel:
+      \[ X(M) = M / 15 \]
+
+      Elasticidad renta:
+      \[ \frac{\mathit{d}\,X}{\mathit{d}\,M} \frac{M}{X} = 1/15 \cdot \frac{100}{100/15} = 1 \]
+      La elasticidad renta es unitaria: el bien $X$ es un bien normal.
+    #+end_answer
