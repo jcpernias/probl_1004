@@ -4,9 +4,68 @@
 #+TITLE: Cuaderno de ejercicios 1
 
 
-* Principios básicos de la organización económica
+1. Una economía dispone de \num{50000} horas de trabajo a la semana
+   con las que se producen dos bienes: automóviles y comida. La
+   siguiente tabla muestra las cantidades que pueden producirse
+   dependiendo de las horas de trabajo que se dediquen a cada
+   actividad:
 
-1. El siguiente gráfico representa la frontera de posibilidades de
+   #+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
+   |-------------+--------------+---+-------------+--------------|
+   | Trabajo     | Automóviles  |   | Trabajo     | Comida       |
+   | (horas)     | (unidades)   |   | (horas)     | (kg)         |
+   |-------------+--------------+---+-------------+--------------|
+   | \num{0}     | \num{0}      |   | \num{0}     | \num{0}      |
+   | \num{12500} | \num{40000}  |   | \num{12500} | \num{50000}  |
+   | \num{25000} | \num{70000}  |   | \num{25000} | \num{75000}  |
+   | \num{37500} | \num{90000}  |   | \num{37500} | \num{90000}  |
+   | \num{50000} | \num{100000} |   | \num{50000} | \num{100000} |
+   |-------------+--------------+---+-------------+--------------|
+
+   a) Represente gráficamente la Frontera de Posibilidades de
+      Producción, FPP.
+
+   b) ¿Qué efectos tendría sobre la FPP una mejora transgénica que
+      mejorara la resistencia de los productos agrícolas a las
+      plagas? ¿Y una mejora organizativa en la cadena de producción
+      de automóviles? ¿Y si ambas mejoras se diesen simultáneamente
+      como consecuencia de un progreso técnico generalizado en la
+      sociedad?
+
+   c) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad
+      de las horas de trabajo como consecuencia de un conflicto
+      bélico?
+
+2. La tabla adjunta presenta diferentes combinaciones eficientes de
+   producción para una economía en la que únicamente se producen dos
+   bienes: $X$ e $Y$.
+
+   #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{r}
+   |-----+------------+------------|
+   |     | $X$        | $Y$        |
+   |     | (unidades) | (unidades) |
+   |-----+------------+------------|
+   | *A* | \num{20}   | \num{0}    |
+   | *B* | \num{18}   | \num{1}    |
+   | *C* | \num{15}   | \num{2}    |
+   | *D* | \num{11}   | \num{3}    |
+   | *E* | \num{6}    | \num{4}    |
+   | *F* | \num{0}    | \num{5}    |
+   |-----+------------+------------|
+
+   a) Represente la Frontera de Posibilidades de Producción, FPP. ¿Qué
+      tiene de particular la forma de la FPP?
+
+   b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades
+      de $X$?  ¿Qué ocurre en esta situación?
+
+   c) Construya una tabla que refleje el coste de oportunidad de
+      producir cada unidad del bien $Y$.
+
+   d) ¿A cuántas unidades de $X$ se debe renunciar para producir la
+      primera unidad de $Y$? ¿Y la segunda?
+
+3. El siguiente gráfico representa la frontera de posibilidades de
    producción de una economía donde sólo se producen cocos y pescado:
 
    #+MATS: fig fig-probl-1_1004-ppf-*.pdf
@@ -30,76 +89,21 @@
      coste de oportunidad de producir pescado: $D$, $A$ y $B$.
    #+end_answer
 
-2. Un país dispone de \num{50000} unidades de un factor de producción
-   (horas de trabajo, por ejemplo) con el que se producen dos tipos de
-   bienes: automóviles y comida. La siguiente tabla muestra las
-   cantidades de estos bienes que pueden producirse dependiendo de las
-   unidades del factor que se dediquen a cada actividad:
+4. Argumente la veracidad o falsedad de la siguiente afirmación:
+   "Cuando un gran número de desempleados encuentra un puesto de
+   trabajo, se produce un desplazamiento de la frontera de
+   posibilidades de producción hacia la derecha."
 
-   #+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
-   |-------------+--------------+---+-------------+--------------|
-   | Factor      | Automóviles  |   | Factor      | Comida       |
-   | (unidades)  | (unidades)   |   | (unidades)  | (Tm)         |
-   |-------------+--------------+---+-------------+--------------|
-   | \num{0}     | \num{0}      |   | \num{0}     | \num{0}      |
-   | \num{12500} | \num{40000}  |   | \num{12500} | \num{50000}  |
-   | \num{25000} | \num{70000}  |   | \num{25000} | \num{75000}  |
-   | \num{37500} | \num{90000}  |   | \num{37500} | \num{90000}  |
-   | \num{50000} | \num{100000} |   | \num{50000} | \num{100000} |
-   |-------------+--------------+---+-------------+--------------|
-
-   a) Represente gráficamente la Frontera de Posibilidades de
-      Producción (FPP) del país.
-
-   b) ¿Qué tiene de particular la forma de la FPP obtenida?
-
-   c) Al incrementar la producción de automóviles: ¿aumenta o
-      disminuye su coste de oportunidad?
-
-   d) ¿Qué efectos tendría sobre la FPP una mejora transgénica que
-      mejorara la resistencia de los productos agrícolas a las
-      plagas? ¿Y una mejora organizativa en la cadena de producción
-      de automóviles? ¿Y si ambas mejoras se diesen simultáneamente
-      como consecuencia de un progreso técnico generalizado en la
-      sociedad?
-
-   e) ¿Qué consecuencias tendría sobre la FPP la destrucción de la
-      mitad de las unidades del factor de producción como consecuencia
-      de un conflicto bélico?
-
-3. La tabla adjunta presenta diferentes combinaciones eficientes de
-   producción para una economía en la que únicamente se producen dos
-   bienes: $X$ e $Y$.
-
-   #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{r}
-   |-----+------------+------------|
-   |     | $X$        | $Y$        |
-   |     | (unidades) | (unidades) |
-   |-----+------------+------------|
-   | *A* | \num{20}   | \num{0}    |
-   | *B* | \num{18}   | \num{1}    |
-   | *C* | \num{15}   | \num{2}    |
-   | *D* | \num{11}   | \num{3}    |
-   | *E* | \num{6}    | \num{4}    |
-   | *F* | \num{0}    | \num{5}    |
-   |-----+------------+------------|
-
-   a) Represente la FPP.
-
-   b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades
-      de $X$?  ¿Qué ocurre en esta situación?
-
-   c) Construya una tabla que refleje el coste de oportunidad de
-      producir cada unidad del bien $Y$.
-
-   d) ¿A cuántas unidades de $X$ se debe renunciar para producir la
-      segunda unidad de $Y$?
-
-4. En el mercado del bien $X$ participan \num{1000} consumidores
-   idénticos, cada uno de ellos con curva de demanda: \[X^D_i = 5 -
-   P_X, \qquad i = 1, ..., \num{1000}.\] El bien $X$ es producido por
-   \num{500} empresas idénticas, cada una con curva de oferta:
-   \[X^O_j = 2.4 P_X , \qquad j = 1, ..., \num{500}. \]
+5. En el mercado del bien $X$ participan \num{1000} consumidores
+   idénticos, cada uno de ellos con curva de demanda:
+   #+begin_export latex
+   \[ X^D_i = 5 - P_X, \qquad i = 1, ..., \num{1000}. \]
+   #+end_export
+   El bien $X$ es producido por \num{500} empresas idénticas, cada una
+   con curva de oferta:
+   #+begin_export latex
+   \[ X^O_j = 2.4 P_X , \qquad j = 1, ..., \num{500}. \]
+   #+end_export
 
    a) Halle las curvas de demanda y oferta de mercado y la
       solución de equilibrio.
@@ -120,7 +124,7 @@
       gobierno decidiese fijar un precio máximo de \price{1} para este
       bien?  ¿Y si se estableciera un precio mínimo de \price{3}?
 
-5. La empresa que gestiona un túnel se está planteando alterar el
+6. La empresa que gestiona un túnel se está planteando alterar el
    peaje que cobra a los usuarios del túnel. Actualmente el peaje es
    de \money{6} y \num{2400} conductores utilizan el túnel
    diariamente. Una consultora ha estimado que la función $Q =
@@ -133,7 +137,7 @@
 
    c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
 
-6. Una universidad ofrece 100 plazas en el Grado en Economía y la
+7. Una universidad ofrece 100 plazas en el Grado en Economía y la
    demanda de estos estudios viene dada por: \[Q =
    1901 - 2 P_{EC} + 0.1 P_{AE}\] donde $Q$ es el número de alumnos
    que demandan una plaza en el Grado en Economía; $P_{EC}$ y $P_{AE}$
@@ -153,7 +157,7 @@
    d) ¿Qué efecto tendrá sobre la demanda de plazas en Grado en
       Economía un aumento de $P_{BA}$?
 
-7. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
+8. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
    La demanda de abonos anuales de los aficionados es: \[Q =
    \num{125000} - 100 P +10 P_O + 10 M,\] donde:
 
@@ -182,7 +186,7 @@
    d) Calcule la elasticidad renta de la demanda en la situación de
       equilibrio e interprete el valor y el signo obtenidos.
 
-8. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+9. En el mercado del bien $X$ las curvas de demanda y de oferta son:
    \begin{gather*}
      X^d = \num{100000} - 25 P_X \\
      X^o = \num{50000} + 25 P_X
@@ -194,19 +198,19 @@
       del bien $X$ del establecimiento de un impuesto sobre los
       vendedores de $t\,\text{€}$ por unidad vendida.
 
-9. En el mercado del bien $X$ las curvas de demanda y de oferta son:
-   \begin{gather*}
-     X^d = \num{100000} - 20 P_X \\
-     X^o = \num{40000} + 40 P_X
-   \end{gather*}
-
-   a) Determine el precio y la cantidad de equilibrio.
-
-   b) Describa y represente gráficamente los efectos sobre el mercado
-      del bien $X$ del establecimiento de un precio máximo de
-      \price{2000}. ¿Cuántas unidades se venderían? ¿A qué precio?
-
 10. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+    \begin{gather*}
+      X^d = \num{100000} - 20 P_X \\
+      X^o = \num{40000} + 40 P_X
+    \end{gather*}
+
+    a) Determine el precio y la cantidad de equilibrio.
+
+    b) Describa y represente gráficamente los efectos sobre el mercado
+       del bien $X$ del establecimiento de un precio máximo de
+       \price{2000}. ¿Cuántas unidades se venderían? ¿A qué precio?
+
+11. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
       X^d = \num{85000} - 20 P_X \\
       X^o = \num{15000} + 15 P_X
@@ -219,7 +223,7 @@
        paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
        precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
 
-11. Explique y justifique si considera correcta o incorrecta cada una
+12. Explique y justifique si considera correcta o incorrecta cada una
     de las siguientes afirmaciones (use el análisis gráfico cuando lo
     considere oportuno):
 
@@ -232,22 +236,18 @@
        simultáneamente, aumenta la renta de los consumidores, en el
        nuevo equilibrio aumentarán tanto el precio como la cantidad.
 
-    c) Cuando un gran número de personas desempleadas encuentra
-       empleo, se produce un desplazamiento de la frontera de
-       posibilidades de producción hacia la derecha.
-
-    d) La demanda de mercado del bien $X$ es lineal y, al precio
+    c) La demanda de mercado del bien $X$ es lineal y, al precio
        actual, la elasticidad precio de la demanda es unitaria. Si
        disminuye el precio del bien $X$, los ingresos totales de los
        vendedores aumentarán.
 
-12. Dadas las funciones de oferta y demanda: $Q = 40 P$ y $Q = 100 -
+13. Dadas las funciones de oferta y demanda: $Q = 40 P$ y $Q = 100 -
     10 P$, calcule la elasticidad precio de la oferta en el punto de
     equilibrio de mercado. En dicho punto calcule en qué porcentaje y
     en qué sentido varía la cantidad ofrecida ante un aumento
     porcentual del precio del 10%. Razone sus respuestas.
 
-13. El mercado del bien $X$ está caracterizado por las siguientes
+14. El mercado del bien $X$ está caracterizado por las siguientes
     funciones de demanda y oferta:
     #+begin_export latex
     \begin{gather*}
@@ -267,7 +267,7 @@
     c) Si la renta media de los consumidores disminuye en \money{10},
        ¿se puede afirmar que $X$ es un bien inferior?
 
-14. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
+15. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
     en alimentos al año y su renta monetaria anual es de
     \money{25000}. En esta situación, la elasticidad-precio de su
     demanda anual de alimentos es $-1$ mientras que la
@@ -296,7 +296,7 @@
       lo que supone un gasto anual de \money{4900}.
     #+end_answer
 
-15. Considere un mercado competitivo de manzanas y use un diagrama de
+16. Considere un mercado competitivo de manzanas y use un diagrama de
     oferta y demanda para analizar cómo afectaría al equilibrio una
     enfermedad de los manzanos que perjudique a la cosecha. ¿Es posible
     que los ingresos de los agricultores aumenten en este caso? ¿Qué
@@ -317,7 +317,7 @@
       demanda/.
     #+end_answer
 
-16. Las curvas de demanda y oferta de mercado del bien $X$ son:
+17. Las curvas de demanda y oferta de mercado del bien $X$ son:
     \begin{gather*}
       X = 200 - 5 P_{X} + 3 P_{Y} + 2 R \\
       X = 100 + 2 P_{X}
