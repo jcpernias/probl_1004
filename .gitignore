@@ -3,3 +3,4 @@ build
 pdf
 figures
 **/.Auto
+.DS_Store
