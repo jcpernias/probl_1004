@@ -15,13 +15,84 @@
    a) Escriba la restricción presupuestaria intertemporal de este
       individuo en valor futuro.
 
+      #+begin_answer
+      El equilibrio presupuestario intertemporal del consumidor
+      implica que el valor futuro de su flujo de rentas debe ser igual
+      al valor futuro de su flujo de consumos:
+      #+begin_export latex
+      \[(1 + r) M_1 + M_2 = (1 + r) C_1 + C_2.\]
+      #+end_export
+
+      Con los datos del enunciado:
+      #+begin_export latex
+      \[1.5 \times 1000 + 1500 = 1.5 C_1 + C_2.\]
+      #+end_export
+      Por tanto:
+      #+begin_export latex
+      \[C_2 = 3000 - 1.5 C_1\]
+      #+end_export
+
+      #+MATS: fig fig-probl-4_1004-ex1-1-*.pdf
+      #+end_answer
+
+
    b) Determine si el individuo ahorra o no, así como el nivel de
       consumo en cada periodo.
+
+      #+begin_answer
+      Si la elección óptima es interior, se tiene que cumplir la
+      condición de tangencia:
+      #+begin_export latex
+      \[
+        \RMS = \frac{\UMg_{C_1}}{\UMg_{C_2}} = \frac{C_2}{C_1} = 1 + r.
+      \]
+      #+end_export
+      Puesto que $1 + r = 1.5$, la condición de tangencia implica:
+      #+begin_export latex
+      \[ C_2 = 1.5 C_1 \]
+      #+end_export
+
+      Sustituyendo esta última expresión en la restricción
+      intertemporal:
+      #+begin_export latex
+      \[ C_2 = 3000 - C_2, \]
+      #+end_export
+      de donde se obtiene que $C_2 = \money{1500}$ y $C_1 =
+      \money{1000}$.
+
+      #+MATS: fig fig-probl-4_1004-ex1-2-*.pdf
+
+      La elección óptima implica consumir completamente la renta de
+      cada uno de los periodos: $C_1 = M_1 = \money{1000}$ y $C_2 =
+      M_2 = \money{1500}$.  El ahorro de este consumidor es nulo: $S =
+      M_1 - C_1 = \money{0}$.
+      #+end_answer
+
 
    c) Suponga ahora que el consumidor considera ambos bienes como
       complementos perfectos y su función de utilidad es: $U(C_1, C_2)
       = \min\{C_1, C_2\}$. Obtenga el perfil de consumo intertemporal
       óptimo en este caso.
+
+      #+begin_answer
+      De acuerdo con las preferencias del consumidor, el perfil
+      temporal óptimo de consumo debe cumplir la condición:
+      #+begin_export latex
+      \[ C_1 = C_2. \]
+      #+end_export
+
+      Sustituyendo esta condición en la restricción intertemporal:
+      #+begin_export latex
+      \[ C_2 = 3000 - 1.5 C_2. \]
+      #+end_export
+      La elección óptima es $C_1 = C_2 = \money{1200}$.
+
+      #+MATS: fig fig-probl4-ex1-3-*.pdf
+
+      En el primer periodo el consumidor pediría un préstamo de $C_1 -
+      M_1 = \money{200}$.
+      #+end_answer
+
 
 2. Las preferencias entre el consumo presente, $C_1$, y consumo
    futuro, $C_2$, de un individuo están representadas por la función
@@ -34,13 +105,165 @@
    a) Exprese analíticamente la restricción presupuestaria del
       individuo y represéntela gráficamente.
 
+      #+begin_answer
+      La restricción presupuestaria tiene dos tramos debido a que el tipo
+      de interés relevante es diferente según sea el consumidor
+      prestamista o prestatario.
+
+      Si el consumidor es *prestamista*:
+      #+begin_export latex
+      \[ C_1 \leq M_1 = 200. \]
+      #+end_export
+
+      El tipo de interés en este caso es de $r_l = 0.05$. La
+      restricción intertemporal implica:
+      #+begin_export latex
+      \[ C_2 = M_2 + (1 + r_l) (M_1 - C_1). \]
+      #+end_export
+
+      Con los datos del enunciado:
+      #+begin_export latex
+      \[ C_2 = 220 + 1.05 (200 - C_1) = 430 - 1.05 C_1. \]
+      #+end_export
+
+      Si el consumidor es *prestatario*:
+      #+begin_export latex
+      \[ C_1 \geq M_1 = 200. \]
+      #+end_export
+
+      El tipo de interés de pedir un préstamo es $r_b = 0.10$. La
+      restricción intertemporal implica:
+      #+begin_export latex
+      \[ C_2 = M_2 - (1 + r_b) (C_1 - M_1). \]
+      #+end_export
+
+      Con los datos del enunciado:
+      #+begin_export latex
+      \[ C_2 = 220 - 1.10 (C_1 - 200) = 440 - 1.10 C_1. \]
+      #+end_export
+
+      #+MATS: fig fig-probl-4_1004-ex2-1-*.pdf
+
+      Restricción intertemporal:
+      #+begin_export latex
+      \[
+        C_2 =
+        \begin{cases}
+          430 - 1.05 C_1 & \text{si $C_1 \leq 200$} \\
+          440 - 1.10 C_1 & \text{si $C_1 \geq 200$}
+        \end{cases}
+      \]
+      #+end_export
+      #+end_answer
+
+
    b) Calcule el equilibrio del consumidor y determine si será
       prestamista o prestatario.
+
+      #+begin_answer
+        La relación marginal de sustitución es:
+        \[\RMS = \frac{\UMg_{C_1}}{\UMg_{C_2}} =
+         2\frac{C_2}{C_1} \]
+
+        Supongamos, en primer lugar, que el consumidor es
+        *prestamista*, es decir: \[ C_1 \leq 200. \]
+        El tramo relevante de la restricción intertemporal es:
+        \[C_2 =  430 - 1.05 C_1. \]
+
+        Si el individuo es prestamista, la condición de tangencia
+        es:
+        \[\RMS = 1 + r_l,\]
+        por lo que
+        \[ 2 C_2 = 1.05 C_1. \]
+
+        Resolviendo las dos condiciones de óptimo obtenemos
+        #+begin_export latex
+          \begin{gather*}
+            C_2 = \money{143.33}, \\
+            C_1 = \money{273.02}. \\
+          \end{gather*}
+        #+end_export
+
+        Pero esta combinación no puede ser la solución óptima ya que
+        $C_1 > M_1$, lo que contradice el supuesto inicial de que el
+        individuo era prestamista.
+
+        #+MATS: fig fig-probl-4_1004-ex2-2-*.pdf
+
+        Suponemos ahora que el consumidor *toma prestado*:
+        \[C_1 > 200. \]
+
+        El tramo relevante de la restricción presupuestaria es: \[C_2
+        = 440 - 1.1 C_1.\]
+
+        Si el individuo pide prestado en el primer periodo, la
+        condición de tangencia es: \[\RMS = 1 + r_b,\] por lo que: \[
+        2 C_2 = 1.1 C_1. \]
+
+        Resolviendo las dos condiciones de óptimo, obtenemos:
+        #+BEGIN_EXPORT LaTeX
+          \begin{gather*}
+            C_2 = \money{146.67}, \\
+            C_1 = \money{266.67}. \\
+          \end{gather*}
+        #+END_EXPORT
+
+        La solución obtenida es compatible con nuestro supuesto inicial de
+        que el consumidor era prestatario, $C_1 > M_1$.
+
+        #+MATS: fig fig-probl-4_1004-ex2-3-*.pdf
+
+        En conclusión, en el primer periodo consume $C_1 =
+        \money{266.67}$ por lo que tiene que pedir prestado $C_1 - M_1
+        = \money{66.67}$.  En el segundo periodo, el consumidor tiene
+        que devolver el principal y los intereses del préstamo, esto
+        es $66.67 \times 1.1 = \money{73.33}$ por lo que sólo puede
+        consumir una parte de la renta de ese periodo: \[ C_2 = M_2 -
+        (1 + r_b) (C_1 - M_1) = 220 - 73.33 = \money{146.67}. \]
+      #+end_answer
+
 
    c) Si el Banco Central Europeo fija un tipo de interés único del 8%
       tanto para prestar como para pedir prestado, calcule el nuevo
       equilibrio y determine si el consumidor mejora o empeora en
       términos de bienestar.
+
+      #+begin_answer
+        La nueva restricción intertemporal es: \[ C_2 = 220 + 1.08
+        (200 - C_1) = 436 - 1.08 C_2.\] El consumidor sigue pudiendo
+        escoger ahora cualquier combinación que tenía disponible en la
+        situación inicial.  También puede escoger perfiles de consumo
+        que antes no estaban disponibles.
+
+        #+MATS: fig fig-probl-4_1004-ex2-4-*.pdf
+
+        Por otro lado, la condición de tangencia es ahora:
+        \[ 2 C_2 = 1.08 C_1 \]
+
+
+        Resolviendo estas dos ecuaciones se obtiene el perfil
+        intertemporal de consumo óptimo:
+        #+BEGIN_EXPORT LaTeX
+          \begin{gather*}
+            C_1 = \money{269.14} \\
+            C_2 = \money{145.33} \\
+          \end{gather*}
+        #+END_EXPORT
+
+        #+MATS: fig fig-probl-4_1004-ex2-5-*.pdf
+
+        El valor de la función de utilidad asociado a la nueva
+        combinación óptima es: \[ U(E_1) = 269.14^2 \times 145.33 =
+        \num{10527173}. \]
+
+        Antes de la introducción del tipo de interés único el consumidor
+        elegía $C_1 = 266.67$ y $C_2 = 146.73$. Su nivel de utilidad era:
+        \[ U(E_0) = 266.67^2 \times 146.73 = \num{10434394}. \]
+
+        El consumidor disfruta de un mayor nivel de utilidad con un tipo de
+        interés único del 8%.
+      #+end_answer
+
 
 3. Un consumidor vive dos periodos y sus preferencias vienen
    representadas por: \[ U = C_1^3 C_2.\] Su elección óptima es $C_1 =
@@ -155,8 +378,6 @@
      rechaza esa opción en favor de otra combinación de consumo: $E_1$
      es preferida a $E_0$.
    #+end_minipage
-
-
    #+end_answer
 
 9. Un consumidor vive dos periodos y puede prestar y pedir prestado a
