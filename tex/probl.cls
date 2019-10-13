@@ -129,3 +129,6 @@
 
 
 \titlespacing*{\subsection}{0pt}{*3.5}{*1.5}
+
+%% Add space between exercises
+\setlist[1]{itemsep=\baselineskip}
