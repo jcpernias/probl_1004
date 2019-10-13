@@ -159,20 +159,29 @@
       paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
       precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
 
-9. La empresa que gestiona un túnel se está planteando alterar el
-   peaje que cobra a los usuarios del túnel. Actualmente el peaje es
-   de \money{6} y \num{2400} conductores utilizan el túnel
-   diariamente. Una consultora ha estimado que la función $Q =
-   \num{6000} - \num{600} P$ describe la demanda diaria del túnel.
+9. Partiendo de una situación de equilibrio en un mercado
+   competitivo, si simultáneamente se encarecen los costes de
+   producción y aumenta la renta de los consumidores, ¿aumentarán
+   tanto el precio como la cantidad en el nuevo equilibrio?
 
-   a) ¿Cuál es la elasticidad de la demanda al precio actual?
+10. La empresa que gestiona un túnel se está planteando alterar el
+    peaje que cobra a los usuarios del túnel. Actualmente el peaje es
+    de \money{6} y \num{2400} conductores utilizan el túnel
+    diariamente. Una consultora ha estimado que la función $Q =
+    \num{6000} - \num{600} P$ describe la demanda diaria del túnel.
 
-   b) Si la empresa persigue aumentar sus ingresos, ¿sería conveniente
-      que rebajase el peaje?
+    a) ¿Cuál es la elasticidad de la demanda al precio actual?
 
-   c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
+    b) Si la empresa persigue aumentar sus ingresos, ¿sería conveniente
+       que rebajase el peaje?
 
-10. El mercado del bien $X$ está caracterizado por las siguientes
+    c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
+
+11. La demanda de mercado de un bien es lineal y, al precio actual, la
+    elasticidad precio es unitaria. ¿Aumentarán los ingresos totales
+    de los vendedores si disminuye el precio del bien?
+
+12. El mercado del bien $X$ está caracterizado por las siguientes
     funciones de demanda y oferta:
     #+begin_export latex
     \begin{gather*}
@@ -192,7 +201,7 @@
     c) Si la renta media de los consumidores disminuye en \money{10},
        ¿se puede afirmar que $X$ es un bien inferior?
 
-11. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
+13. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
     La demanda de abonos anuales de los aficionados es: \[Q =
     \num{125000} - 100 P +10 P_O + 10 M,\] donde:
 
@@ -221,7 +230,7 @@
     d) Calcule la elasticidad renta de la demanda en la situación de
        equilibrio e interprete el valor y el signo obtenidos.
 
-12. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
+14. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
     en alimentos al año y su renta monetaria anual es de
     \money{25000}. En esta situación, la elasticidad-precio de su
     demanda anual de alimentos es $-1$ mientras que la
@@ -250,7 +259,7 @@
       lo que supone un gasto anual de \money{4900}.
     #+end_answer
 
-13. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+15. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
       X^d = \num{100000} - 25 P_X \\
       X^o = \num{50000} + 25 P_X
@@ -262,7 +271,7 @@
        del bien $X$ del establecimiento de un impuesto sobre los
        vendedores de $t\,\text{€}$ por unidad vendida.
 
-14. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+16. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
       X^d = \num{100000} - 20 P_X \\
       X^o = \num{40000} + 40 P_X
@@ -274,31 +283,13 @@
        del bien $X$ del establecimiento de un precio máximo de
        \price{2000}. ¿Cuántas unidades se venderían? ¿A qué precio?
 
-15. Explique y justifique si considera correcta o incorrecta cada una
-    de las siguientes afirmaciones (use el análisis gráfico cuando lo
-    considere oportuno):
-
-    a) Si se establece un precio máximo superior al precio de
-       equilibrio de mercado de un bien, la cantidad comprada y la
-       cantidad vendida coincidirá con el equilibrio en este mercado.
-
-    b) Partiendo de una situación de equilibrio en el mercado del bien
-       $X$, si se encarecen los costes de producción de este bien y,
-       simultáneamente, aumenta la renta de los consumidores, en el
-       nuevo equilibrio aumentarán tanto el precio como la cantidad.
-
-    c) La demanda de mercado del bien $X$ es lineal y, al precio
-       actual, la elasticidad precio de la demanda es unitaria. Si
-       disminuye el precio del bien $X$, los ingresos totales de los
-       vendedores aumentarán.
-
-16. Dadas las funciones de oferta y demanda: $Q = 40 P$ y $Q = 100 -
+17. Dadas las funciones de oferta y demanda: $Q = 40 P$ y $Q = 100 -
     10 P$, calcule la elasticidad precio de la oferta en el punto de
     equilibrio de mercado. En dicho punto calcule en qué porcentaje y
     en qué sentido varía la cantidad ofrecida ante un aumento
     porcentual del precio del 10%. Razone sus respuestas.
 
-17. Las curvas de demanda y oferta de mercado del bien $X$ son:
+18. Las curvas de demanda y oferta de mercado del bien $X$ son:
     \begin{gather*}
       X = 200 - 5 P_{X} + 3 P_{Y} + 2 R \\
       X = 100 + 2 P_{X}
@@ -342,22 +333,7 @@
          #+MATS: fig fig-probl-1_1004-eq2-*.pdf
        #+end_answer
 
-18. Una universidad ofrece 100 plazas en el Grado en Economía y la
-    demanda de estos estudios viene dada por: \[Q =
-    1901 - 2 P_{EC} + 0.1 P_{AE}\] donde $Q$ es el número de alumnos
-    que demandan una plaza en el Grado en Economía; $P_{EC}$ y $P_{AE}$
-    son, respectivamente, los precios de las matrículas del Grado en
-    Economía y del Grado en Administración de Empresas. Sabiendo que
-    $P_{AE} = \money{1000}$:
-
-    a) ¿Qué ocurrirá si se fija el precio de la matrícula en $P_{EC} =
-       \money{1000}$?
-
-    b) ¿Cuál es el precio máximo que puede establecerse para que todas
-       las plazas ofertadas se cubran?
-
-    c) ¿Qué tipo de bien son los estudios de Grado en Economía con
-       respecto a los estudios de Grado en Administración de Empresas?
-
-    d) ¿Qué efecto tendrá sobre la demanda de plazas en Grado en
-       Economía un aumento de $P_{BA}$?
+19. Razone la veracidad o falsedad de la siguiente afirmación: "Si se
+    establece un precio máximo superior al precio de equilibrio, la
+    cantidad comprada y la cantidad vendida coincidirá con el
+    equilibrio en este mercado."
