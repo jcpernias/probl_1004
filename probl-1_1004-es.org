@@ -98,41 +98,32 @@
    curvas de demanda son:
 
    #+ATTR_LATEX: :center t :align lc
-   | Comprador 1: | $q_1 = 1000 - 10 P$ |
-   | Comprador 2: | $q_2 = 600 - 2 P$   |
-   | Comprador 3: | $q_3 = 750 - 5 P$   |
+   | Comprador 1: | $q_1 = 1000 - 10 P$. |
+   | Comprador 2: | $q_2 = 600 - 2 P$.  |
+   | Comprador 3: | $q_3 = 750 - 5 P$.  |
 
    Determine la curva de demanda de mercado.
 
-6. En el mercado del bien $X$ participan \num{1000} consumidores
+6. En el mercado de un bien participan \num{1000} compradores
    idénticos, cada uno de ellos con curva de demanda:
    #+begin_export latex
-   \[ X^D_i = 5 - P_X, \qquad i = 1, ..., \num{1000}. \]
+   \[
+     Q^d_i = 5 - P, \qquad i = 1, ..., \num{1000}.
+   \]
    #+end_export
-   El bien $X$ es producido por \num{500} empresas idénticas, cada una
+   El bien es vendido por \num{500} empresas idénticas, cada una
    con curva de oferta:
    #+begin_export latex
-   \[ X^O_j = 2.4 P_X , \qquad j = 1, ..., \num{500}. \]
+   \[
+     Q^O_j = 2.4 P , \qquad j = 1, ..., \num{500}.
+   \]
    #+end_export
 
    a) Halle las curvas de demanda y oferta de mercado y la
-      solución de equilibrio.
+      solución de equilibrio. Represente gráficamente.
 
-   b) ¿Qué ocurriría en este mercado si los oferentes decidieran fijar
-      un precio de \price{4}? ¿Y si deciden que el mejor precio es
-      \price{1.5}?
-
-   c) Si se produce un incremento de la renta de los consumidores, de
-      forma que la curva de demanda de mercado pasa a ser: \[X^D =
-      \num{7500} - \num{1000} P_X,\] ¿cuál es el nuevo equilibrio?
-
-   d) En la situación de equilibrio inicial, una mejora tecnológica en
-      el sector desplaza la curva de oferta de mercado hasta \[X^O =
-      \num{2500} + \num{1200} P_X.\] Determine el nuevo equilibrio.
-
-   e) En la situación de equilibrio inicial, ¿qué ocurriría si el
-      gobierno decidiese fijar un precio máximo de \price{1} para este
-      bien?  ¿Y si se estableciera un precio mínimo de \price{3}?
+   b) ¿Qué ocurriría si el precio de mercado fuera \price{4}? ¿Y si
+      el precio de mercado fuera \price{1.5}?
 
 7. La empresa que gestiona un túnel se está planteando alterar el
    peaje que cobra a los usuarios del túnel. Actualmente el peaje es
