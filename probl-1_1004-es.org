@@ -4,11 +4,11 @@
 #+TITLE: Cuaderno de ejercicios 1
 
 
-1. Una economía dispone de \num{50000} horas de trabajo a la semana
-   con las que se producen dos bienes: automóviles y comida. La
-   siguiente tabla muestra las cantidades que pueden producirse
-   dependiendo de las horas de trabajo que se dediquen a cada
-   actividad:
+1. En una economía se producen dos bienes, automóviles y comida,
+   usando trabajo como único factor de producción. Se dispone de un
+   máximo de \num{50000} horas de trabajo. La siguiente tabla muestra
+   las cantidades que pueden producirse dependiendo de las horas de
+   trabajo que se dediquen a cada actividad:
 
    #+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
    |-------------+--------------+---+-------------+--------------|
@@ -25,12 +25,12 @@
    a) Represente gráficamente la Frontera de Posibilidades de
       Producción, FPP.
 
-   b) ¿Qué efectos tendría sobre la FPP una mejora transgénica que
-      mejorara la resistencia de los productos agrícolas a las
-      plagas? ¿Y una mejora organizativa en la cadena de producción
-      de automóviles? ¿Y si ambas mejoras se diesen simultáneamente
-      como consecuencia de un progreso técnico generalizado en la
-      sociedad?
+   b) ¿Qué efecto tendría sobre la FPP una mejora en las técnicas
+      agrícolas que aumentara la producción de comida por hora de
+      trabajo? ¿Y una mejora organizativa en la cadena de producción
+      de automóviles? ¿Y si ambas mejoras se produjesen
+      simultáneamente como consecuencia de un progreso técnico
+      generalizado en la sociedad?
 
    c) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad
       de las horas de trabajo como consecuencia de un conflicto
