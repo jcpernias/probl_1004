@@ -260,20 +260,24 @@
 
 15. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
-      X^d = \num{100000} - 25 P_X \\
-      X^o = \num{50000} + 25 P_X
+      X^d = \num{100000} - 20 P_X \\
+      X^o = \num{40000} + 40 P_X
     \end{gather*}
 
     a) Determine el precio y la cantidad de equilibrio.
 
     b) Describa y represente gráficamente los efectos sobre el mercado
        del bien $X$ del establecimiento de un impuesto sobre los
-       vendedores de $t\,\text{€}$ por unidad vendida.
+       vendedores de \money{150} por unidad vendida.
+
+    c) ¿Cuál habría sido el resultado si el impuesto hubiese recaido
+       sobre los compradores?
+
 
 16. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
-      X^d = \num{100000} - 20 P_X \\
-      X^o = \num{40000} + 40 P_X
+      X^d = \num{100000} - 25 P_X \\
+      X^o = \num{50000} + 25 P_X
     \end{gather*}
 
     a) Determine el precio y la cantidad de equilibrio.
