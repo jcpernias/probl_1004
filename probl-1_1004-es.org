@@ -270,9 +270,8 @@
        del bien $X$ del establecimiento de un impuesto sobre los
        vendedores de \money{150} por unidad vendida.
 
-    c) ¿Cuál habría sido el resultado si el impuesto hubiese recaido
+    c) ¿Cuál habría sido el resultado si el impuesto hubiese recaído
        sobre los compradores?
-
 
 16. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
@@ -283,8 +282,8 @@
     a) Determine el precio y la cantidad de equilibrio.
 
     b) Describa y represente gráficamente los efectos sobre el mercado
-       del bien $X$ del establecimiento de un precio máximo de
-       \price{2000}. ¿Cuántas unidades se venderían? ¿A qué precio?
+       del bien $X$ del establecimiento de un precio mínimo de
+       \price{1200}. ¿Cuántas unidades se venderían? ¿A qué precio?
 
 17. En un mercado competitivo en equilibrio se venden \num{96000}
     unidades a un precio de \price{300}. En esta situación la
