@@ -159,10 +159,15 @@
       paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
       precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
 
-9. Partiendo de una situación de equilibrio en un mercado
-   competitivo, si simultáneamente se encarecen los costes de
-   producción y aumenta la renta de los consumidores, ¿aumentarán
-   tanto el precio como la cantidad en el nuevo equilibrio?
+   c) Partiendo de la situación inicial, represente los efectos sobre
+      el equilibrio de un aumento de la renta de los consumidores,
+      /ceteris paribus/. ¿Es posible predecir inequívocamente cómo
+      cambiarán el precio y la cantidad de equilibrio?
+
+9. Si en un mercado competitivo en equilibrio simultáneamente se
+   encarecen los costes de producción y aumenta la renta de los
+   consumidores, ¿aumentarán tanto el precio como la cantidad en el
+   nuevo equilibrio?
 
 10. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
     en alimentos al año y su renta monetaria anual es de
