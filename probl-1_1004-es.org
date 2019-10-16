@@ -119,13 +119,17 @@
    \]
    #+end_export
 
-   a) Halle las curvas de demanda y oferta de mercado y la
+   a. Halle las curvas de demanda y oferta de mercado y la
       solución de equilibrio. Represente gráficamente.
 
-   b) ¿Qué ocurriría si el precio de mercado fuera \price{4}? ¿Y si
+   b. ¿Qué ocurriría si el precio de mercado fuera \price{4}? ¿Y si
       el precio de mercado fuera \price{1.5}?
 
-7. Considere un mercado competitivo de manzanas y use un diagrama de
+7. "Durante los años que van desde 2003 hasta 2006 el precio de la
+   gasolina aumentó considerablemente y, sin embargo, el consumo de
+   gasolina creció." ¿Contradice esta afirmación la ley de la demanda?
+
+8. Considere un mercado competitivo de manzanas y use un diagrama de
    oferta y demanda para analizar cómo afectaría al equilibrio una
    enfermedad de los manzanos que perjudique a la cosecha. ¿Es posible
    que los ingresos de los agricultores aumenten en este caso? ¿Qué
@@ -146,30 +150,70 @@
      demanda/.
    #+end_answer
 
-8. En el mercado del bien $X$ las curvas de demanda y de oferta son:
-   \begin{gather*}
-     X^d = \num{85000} - 20 P_X \\
-     X^o = \num{15000} + 15 P_X
-   \end{gather*}
+9. Ante el aumento del consumo de drogas en un país, los expertos han
+   señalado dos posibles explicaciones alternativas:
 
-   a) Determine el precio y la cantidad de equilibrio.
+   - Una presencia policial cada vez más reducida en las calles ha
+     facilitado el tráfico de drogas.
 
-   b) Represente gráficamente los efectos sobre el equilibrio de un
-      aumento del precio de un bien sustitutivo, /ceteris
-      paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
-      precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
+   - La reducción de programas de educación y de apoyo a los adictos
+     han reducido la concienciación de una parte de la sociedad acerca
+     de los peligros de las drogas.
 
-   c) Partiendo de la situación inicial, represente los efectos sobre
-      el equilibrio de un aumento de la renta de los consumidores,
-      /ceteris paribus/. ¿Es posible predecir inequívocamente cómo
-      cambiarán el precio y la cantidad de equilibrio?
+   Utilice diagramas de oferta y demanda para analizar cada una de
+   esas hipótesis. ¿Es posible discriminar entre esas dos
+   explicaciones observando qué ha ocurrido con el precio y la
+   cantidad consumida de drogas?
 
-9. Si en un mercado competitivo en equilibrio simultáneamente se
-   encarecen los costes de producción y aumenta la renta de los
-   consumidores, ¿aumentarán tanto el precio como la cantidad en el
-   nuevo equilibrio?
+10. Las medicinas tienen una demanda inelástica mientras que los
+    ordenadores tienen una demanda elástica. Suponga que como
+    consecuencia del progreso tecnológico la oferta de ambos productos
+    se duplica.
 
-10. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
+    a) ¿Qué ocurrirá con el equilibrio en estos mercados?
+
+    b) ¿En qué mercado se experimentará el mayor cambio en el precio?
+       ¿Y el mayor cambio en la cantidad?
+
+    c) ¿Cómo se verá afectado el gasto de los consumidores en cada
+       bien?
+
+11. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+    \begin{gather*}
+      X^d = \num{85000} - 20 P_X \\
+      X^o = \num{15000} + 15 P_X
+    \end{gather*}
+
+    a) Determine el precio y la cantidad de equilibrio.
+
+    b) Represente gráficamente los efectos sobre el equilibrio de un
+       aumento del precio de un bien sustitutivo, /ceteris
+       paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
+       precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
+
+    c) Partiendo de la situación inicial, represente los efectos sobre
+       el equilibrio de un aumento de la renta de los consumidores,
+       /ceteris paribus/. ¿Es posible predecir inequívocamente cómo
+       cambiarán el precio y la cantidad de equilibrio?
+
+12. Si en un mercado competitivo en equilibrio simultáneamente se
+    encarecen los costes de producción y aumenta la renta de los
+    consumidores, ¿aumentarán tanto el precio como la cantidad en el
+    nuevo equilibrio?
+
+13. Cuando un país subió los impuestos sobre el tabaco, el precio
+    medio de la cajetilla subió de \money{4} a \money{4.6}. Se estimó
+    que como consecuencia de esta subida de precio la cantidad
+    demandada cayó de $52$ a $47.5$ millones de cajetillas.  Calcule
+    la elasticidad de la demanda de tabaco.
+
+14. Dos conductores repostan todos los lunes en la misma
+    gasolinera. Ninguno de los dos mira nunca el precio y siempre
+    actúan igual: mientras que uno pide $15$ litros, el otro pide
+    \money{20} de gasóleo. ¿Cuál es la elasticidad precio de la
+    demanda de cada conductor?
+
+15. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
     en alimentos al año y su renta monetaria anual es de
     \money{25000}. En esta situación, la elasticidad-precio de su
     demanda anual de alimentos es $-1$ mientras que la
@@ -198,7 +242,7 @@
       lo que supone un gasto anual de \money{4900}.
     #+end_answer
 
-11. El mercado del bien $X$ está caracterizado por las siguientes
+16. El mercado del bien $X$ está caracterizado por las siguientes
     funciones de demanda y oferta:
     #+begin_export latex
     \begin{gather*}
@@ -218,7 +262,7 @@
     c) Si la renta media de los consumidores disminuye en \money{10},
        ¿se puede afirmar que $X$ es un bien inferior?
 
-12. La empresa que gestiona un túnel se está planteando alterar el
+17. La empresa que gestiona un túnel se está planteando alterar el
     peaje que cobra a los usuarios del túnel. Actualmente el peaje es
     de \money{6} y \num{2400} conductores utilizan el túnel
     diariamente. Una consultora ha estimado que la función $Q =
@@ -231,11 +275,11 @@
 
     c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
 
-13. La demanda de mercado de un bien es lineal y, al precio actual, la
+18. La demanda de mercado de un bien es lineal y, al precio actual, la
     elasticidad precio es unitaria. ¿Aumentarán los ingresos totales
     de los vendedores si disminuye el precio del bien?
 
-14. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
+19. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
     La demanda de abonos anuales de los aficionados es: \[Q =
     \num{125000} - 100 P +10 P_O + 10 M,\] donde:
 
@@ -263,7 +307,7 @@
     d) Calcule la elasticidad renta de la demanda en la situación de
        equilibrio e interprete el valor y el signo obtenidos.
 
-15. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+20. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
       X^d = \num{100000} - 20 P_X \\
       X^o = \num{40000} + 40 P_X
@@ -278,7 +322,7 @@
     c) ¿Cuál habría sido el resultado si el impuesto hubiese recaído
        sobre los compradores?
 
-16. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+21. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
       X^d = \num{100000} - 25 P_X \\
       X^o = \num{50000} + 25 P_X
@@ -290,7 +334,7 @@
        del bien $X$ del establecimiento de un precio mínimo de
        \price{1200}. ¿Cuántas unidades se venderían? ¿A qué precio?
 
-17. En un mercado competitivo en equilibrio se venden \num{96000}
+22. En un mercado competitivo en equilibrio se venden \num{96000}
     unidades a un precio de \price{300}. En esta situación la
     elasticidad precio de la demanda es $-1.5$ mientras que la
     elasticidad de la oferta es igual a $2$. Usando esta información
@@ -298,7 +342,7 @@
     ofrecida tendría una ley que establezca un precio máximo de
     \price{294}.
 
-18. Las curvas de demanda y oferta de mercado del bien $X$ son:
+23. Las curvas de demanda y oferta de mercado del bien $X$ son:
     \begin{gather*}
       X = 200 - 5 P_{X} + 3 P_{Y} + 2 R \\
       X = 100 + 2 P_{X}
@@ -342,12 +386,12 @@
          #+MATS: fig fig-probl-1_1004-eq2-*.pdf
        #+end_answer
 
-19. Razone la veracidad o falsedad de la siguiente afirmación: "Si se
+24. Razone la veracidad o falsedad de la siguiente afirmación: "Si se
     establece un precio máximo superior al precio de equilibrio, la
     cantidad comprada y la cantidad vendida coincidirá con el
     equilibrio en este mercado."
 
-20. El mercado de alquiler en una ciudad está representado por las
+25. El mercado de alquiler en una ciudad está representado por las
     curvas de demanda y de oferta:
     #+begin_export latex
     \begin{gather*}
@@ -359,5 +403,5 @@
     a) Determine el equilibrio en este mercado.
 
     b) Si se establece una subvención a cada inquilino de \money{200},
-       ¿cuál será el nuevo precio que pagarán los inquilinos? ¿Cuánto
-       recibirán por cada piso los caseros?
+       ¿cuánto dinero pagarán los inquilinos? ¿Cuál será el alquiler
+       que recibirán los caseros?
