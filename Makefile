@@ -2,7 +2,7 @@ SHELL := /bin/sh
 
 subject_code := 1004
 probl_units := 1 2 3 4 5 6
-probl_figs := 1 2 3 4 # 5A 5B 6A 6B
+probl_figs := 1 2 3 4 # 5 6
 
 TEXI2DVI_SILENT := -q
 # TEXI2DVI_SILENT :=
@@ -51,10 +51,19 @@ MAKEFIGDEPS := $(pythonbin) $(pythondir)/makefigdeps.py
 
 RSCRIPT := $(Rscriptbin) -e
 
-docs_es := $(addsuffix _$(subject_code)-es, \
+
+with_ans_es := $(addsuffix _$(subject_code)-es, \
+	$(addprefix with-ans-probl-, $(probl_units)))
+with_ans_en := $(addsuffix _$(subject_code)-en, \
+	$(addprefix with-ans-probl-, $(probl_units)))
+
+no_ans_es := $(addsuffix _$(subject_code)-es, \
 	$(addprefix no-ans-probl-, $(probl_units)))
-docs_en := $(addsuffix _$(subject_code)-en, \
+no_ans_en := $(addsuffix _$(subject_code)-en, \
 	$(addprefix no-ans-probl-, $(probl_units)))
+
+docs_es := $(with_ans_es) $(no_ans_es)
+docs_en := $(with_ans_en) $(no_ans_en)
 
 docs_base := $(docs_es) $(docs_en)
 docs_pdf := $(addprefix $(outdir)/, $(addsuffix .pdf, $(docs_base)))
@@ -151,9 +160,18 @@ $(builddir)/probl-%.tex: $(rootdir)/probl-%.org | $(builddir)
 $(builddir)/no-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex | $(figdir)
 	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,es))
 
+.PRECIOUS: $(builddir)/with-ans-probl-%-es.tex
+$(builddir)/with-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex | $(figdir)
+	$(file > $@, $(call probl-wrapper,answers,probl-$*,es))
+
 .PRECIOUS: $(builddir)/no-ans-probl-%-en.tex
 $(builddir)/no-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex | $(figdir)
 	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,en))
+
+.PRECIOUS: $(builddir)/with-ans-probl-%-en.tex
+$(builddir)/with-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex | $(figdir)
+	$(file > $@, $(call probl-wrapper,answers,probl-$*,en))
+
 
 # latex wrappers
 .PRECIOUS: $(builddir)/pres-%-es.tex
