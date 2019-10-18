@@ -5,30 +5,171 @@
 #+OPTIONS: header-args: latex :exports source :eval no :noweb yes
 
 
+* PPF shifts
+
+# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh1.tex
+
+# #+end_src
+
+# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh2.tex
+
+# #+end_src
+
+# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh3.tex
+
+# #+end_src
+
+# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh4.tex
+
+# #+end_src
+
+# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh5.tex
+
+# #+end_src
+
+
+* PPF shape
+
+** PPF
+
+#+begin_src latex :tangle fig-probl-1_1004-ppf-oc1.tex :noweb yes
+  <<coord-xy>>
+
+  \begin{tikzpicture}<<xy-scale>>
+    %% Help lines
+    \foreach \x/\y in {\Bx/\By, \Cx/\Cy, \Dx/\Dy,\Ex/\Ey}
+      \draw[help lines]
+        (0, \y) node[left] {$\y$} -- (\x, \y) --
+        (\x, 0) node[below] {$\x$} ;
+
+
+    %% Coordinates
+    <<coord-def>>
+
+    %% Plot curve
+    <<ppf-curve>>
+
+    %% Axes
+    <<axes>>
+
+    %% Dot nodes
+    <<dot-nodes>>
+
+    \draw[help lines]
+      (F) node[left] {$\Fy$}
+      (A) node[below] {$\Ax$} ;
+
+  \end{tikzpicture}
+#+end_src
+
+
+** Inefficient combination
+
+#+begin_src latex :tangle fig-probl-1_1004-ppf-oc2.tex :noweb yes
+  <<coord-xy>>
+
+  \begin{tikzpicture}<<xy-scale>>
+    %% Coordinates
+    <<coord-def>>
+
+    \draw[help lines] (0, \Gy) node[left] {$\Gy$} -- (G) --
+    (\Gx, 0) node[below] {$\Gx$} ;
+
+    %% Plot curve
+    <<ppf-curve>>
+
+    %% Axes
+    <<axes>>
+
+    %% Dot nodes
+    <<dot-nodes>>
+
+    \node[dot] at (G) {};
+
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+*** Axes
+
+#+begin_src latex :noweb-ref axes
+  \draw[axis, very thick] (0,6) node[left] {$Y$} |-
+    (24, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref xy-scale
+  [yscale = 0.833333, xscale = 0.2083333]
+#+end_src
+
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref coord-xy
+  \newcommand*{\Ax}{20}
+  \newcommand*{\Bx}{18}
+  \newcommand*{\Cx}{15}
+  \newcommand*{\Dx}{11}
+  \newcommand*{\Ex}{6}
+  \newcommand*{\Fx}{0}
+  \newcommand*{\Gx}{10}
+  \newcommand*{\Ay}{0}
+  \newcommand*{\By}{1}
+  \newcommand*{\Cy}{2}
+  \newcommand*{\Dy}{3}
+  \newcommand*{\Ey}{4}
+  \newcommand*{\Fy}{5}
+  \newcommand*{\Gy}{2}
+#+end_src
+
+#+begin_src latex :noweb-ref coord-def
+  \foreach \x/\y/\z in {\Ax/\Ay/A, \Bx/\By/B,%
+       \Cx/\Cy/C, \Dx/\Dy/D, \Ex/\Ey/E, \Fx/\Fy/F, \Gx/\Gy/G}
+    \coordinate (\z) at (\x, \y) ;
+#+end_src
+
+
+*** PPF curve
+
+#+begin_src latex :noweb-ref ppf-curve
+  \draw[curve, very thick] (A)
+    \foreach \x in {B, C, D, E, F} { -- (\x)} ;
+#+end_src
+
+
+*** Dot nodes
+
+#+begin_src latex :noweb-ref dot-nodes
+  \foreach \x/\text in {A, B, C, D, E, F}
+    \node[dot, label={above right:$\text$}] at (\x) {};
+#+end_src
+
 
 * PPF and opportunity cost
 
-  #+begin_src latex :tangle fig-probl-1_1004-ppf.tex
-     \begin{tikzpicture}[xscale = 0.4, yscale = 0.3]
+#+begin_src latex :tangle fig-probl-1_1004-ppf.tex
+  \begin{tikzpicture}[xscale = 0.4, yscale = 0.3]
 
-       \draw[curve, very thick, domain=0:8, samples=100]
-       plot (\x, {8-0.125*\x^2}) ;
+    \draw[curve, very thick, domain=0:8, samples=100]
+    plot (\x, {8-0.125*\x^2}) ;
 
-       \draw[axis, very thick] (0,10) node[left] {Cocos} |-
-       (10, 0) node[below] {Pescado} ;
+    \draw[axis, very thick] (0,10) node[left] {Cocos} |-
+    (10, 0) node[below] {Pescado} ;
 
-       \coordinate (A) at (1, 7.875) ;
-       \coordinate (B) at (2, 3) ;
-       \coordinate (C) at (6.5, 5) ;
-       \coordinate (D) at (7, 1.875) ;
+    \coordinate (A) at (1, 7.875) ;
+    \coordinate (B) at (2, 3) ;
+    \coordinate (C) at (6.5, 5) ;
+    \coordinate (D) at (7, 1.875) ;
 
-       \node[dot, label={above:$A$}] at (A) {};
-       \node[dot, label={above:$B$}] at (B) {};
-       \node[dot, label={right:$C$}] at (C) {};
-       \node[dot, label={right:$D$}] at (D) {};
+    \node[dot, label={above:$A$}] at (A) {};
+    \node[dot, label={above:$B$}] at (B) {};
+    \node[dot, label={right:$C$}] at (C) {};
+    \node[dot, label={right:$D$}] at (D) {};
 
-     \end{tikzpicture}
-   #+end_src
+  \end{tikzpicture}
+#+end_src
+
 
 
 * Apple market

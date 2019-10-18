@@ -56,14 +56,56 @@
    a) Represente la Frontera de Posibilidades de Producción, FPP. ¿Qué
       tiene de particular la forma de la FPP?
 
+      #+begin_answer
+        #+attr_latex: :options {0.6\linewidth}
+        #+begin_minipage
+          #+MATS: fig fig-probl-1_1004-ppf-oc1-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.4\linewidth}
+        #+begin_minipage
+          La FPP es cóncava.
+        #+end_minipage
+      #+end_answer
+
    b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades
       de $X$?  ¿Qué ocurre en esta situación?
+
+      #+begin_answer
+        #+attr_latex: :options {0.6\linewidth}
+        #+begin_minipage
+          #+MATS: fig fig-probl-1_1004-ppf-oc2-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.4\linewidth}
+        #+begin_minipage
+          La combinación es factible pero ineficiente.
+        #+end_minipage
+      #+end_answer
 
    c) Construya una tabla que refleje el coste de oportunidad de
       producir cada unidad del bien $Y$.
 
+      #+begin_answer
+        #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{r}*{3}{c}
+        |-----+----------+---------+------------+------------+---------------------------|
+        |     | $X$      | $Y$     | $\incr{X}$ | $\incr{Y}$ | $\abs{\incr{X}/\incr{Y}}$ |
+        |-----+----------+---------+------------+------------+---------------------------|
+        | *A* | \num{20} | \num{0} | ---        | ---        | ---                       |
+        | *B* | \num{18} | \num{1} | \num{-2}   | \num{1}    | \num{2}                   |
+        | *C* | \num{15} | \num{2} | \num{-3}   | \num{1}    | \num{3}                   |
+        | *D* | \num{11} | \num{3} | \num{-4}   | \num{1}    | \num{4}                   |
+        | *E* | \num{6}  | \num{4} | \num{-5}   | \num{1}    | \num{5}                   |
+        | *F* | \num{0}  | \num{5} | \num{-6}   | \num{1}    | \num{6}                   |
+        |-----+----------+---------+------------+------------+---------------------------|
+      #+end_answer
+
    d) ¿A cuántas unidades de $X$ se debe renunciar para producir la
       primera unidad de $Y$? ¿Y la segunda?
+
+      #+begin_answer
+        Para poder producir la primera unidad de $Y$ hay que renunciar
+        a $2$ unidades de $X$, mientras que el coste de oportunidad de
+        la segunda es $3$ unidades de $X$.
+      #+end_answer
 
 3. El siguiente gráfico representa la frontera de posibilidades de
    producción de una economía donde sólo se producen cocos y pescado:
