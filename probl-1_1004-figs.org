@@ -7,28 +7,168 @@
 
 * PPF shifts
 
-# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh1.tex
+** PPF
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh1.tex :noweb yes
+  <<coord-xy2>>
+  \begin{tikzpicture}<<xy-scale2>>
+    <<coord-def2>>
 
-# #+end_src
+    %% Help lines
+    \foreach \x/\y in {\Bx/\By, \Cx/\Cy, \Dx/\Dy}
+      \draw[help lines]
+        (0, \y) node[left] {$\y$} -- (\x, \y) --
+        (\x, 0) node[below] {$\x$} ;
 
-# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh2.tex
+      \draw[help lines]
+        (E) node[below] {$\Ex$}
+        (A) node[left] {$\Ay$} ;
 
-# #+end_src
+    <<ppf-curve2>>
 
-# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh3.tex
+    <<axes2>>
 
-# #+end_src
+    <<dot-nodes2>>
+  \end{tikzpicture}
+#+end_src
 
-# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh4.tex
+** Technological change
 
-# #+end_src
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh2.tex :noweb yes
+  <<coord-xy2>>
+  \begin{tikzpicture}<<small-xy-scale2>>
+    <<coord-def2>>
 
-# #+begin_src latex :tangle fig-probl-1_1004-ppf-sh5.tex
+    <<ppf-curve2>>
+    \draw[curve, very thick] ($(A) + 0.2*(0,\Ay)$)
+      \foreach \z/\x/\y in {B/\Bx/\By, C/\Cx/\Cy, D/\Dx/\Dy, E/\Ex/\Ey}
+        { -- ($(\z) + 0.2*(0,\y)$)} ;
+     \draw[shift arrow, thick, ->]
+       ($(A) - (0.5, 0)$) -- ($(A) - (0.5, 0) + 0.2*(0,\Ay)$) ;
+    <<small-axes2>>
+  \end{tikzpicture}
+#+end_src
 
-# #+end_src
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh3.tex :noweb yes
+  <<coord-xy2>>
+  \begin{tikzpicture}<<small-xy-scale2>>
+    <<coord-def2>>
+
+    <<ppf-curve2>>
+    \draw[curve, very thick] ($(A) + 0.2*(\Ax,0)$)
+      \foreach \z/\x/\y in {B/\Bx/\By, C/\Cx/\Cy, D/\Dx/\Dy, E/\Ex/\Ey}
+        { -- ($(\z) + 0.2*(\x,0)$)} ;
+     \draw[shift arrow, thick, ->]
+       ($(E) - (0, 0.5)$) -- ($(E) - (0, 0.5) + 0.2*(\Ex, 0)$) ;
+    <<small-axes2>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh4.tex :noweb yes
+  <<coord-xy2>>
+  \begin{tikzpicture}<<small-xy-scale2>>
+    <<coord-def2>>
+
+    <<ppf-curve2>>
+    \draw[curve, very thick] ($(A) + 0.2*(\Ax,\Ay)$)
+      \foreach \z/\x/\y in {B/\Bx/\By, C/\Cx/\Cy, D/\Dx/\Dy, E/\Ex/\Ey}
+        { -- ($(\z) + 0.2*(\x,\y)$)} ;
+     \draw[shift arrow, thick, ->]
+       ($(E) - (0, 0.5)$) -- ($(E) - (0, 0.5) + 0.2*(\Ex, 0)$) ;
+     \draw[shift arrow, thick, ->]
+       ($(A) - (0.5, 0)$) -- ($(A) - (0.5, 0) + 0.2*(0,\Ay)$) ;
+    <<small-axes2>>
+  \end{tikzpicture}
+#+end_src
+
+** War
+
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh5.tex :noweb yes
+  <<coord-xy2>>
+  \begin{tikzpicture}<<small-xy-scale2>>
+    <<coord-def2>>
+
+    <<ppf-curve2>>
+    \draw[curve, very thick] (F) -- (G) -- (H) ;
+     \draw[shift arrow, thick, ->]
+       ($(E) - (0, 0.5)$) -- ($(H) - (0, 0.5)$) ;
+     \draw[shift arrow, thick, ->]
+       ($(A) - (0.5, 0)$) -- ($(F) - (0.5, 0)$) ;
+    <<small-axes2>>
+  \end{tikzpicture}
+#+end_src
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref axes2
+  \draw[axis, very thick]
+    (0, 12) node[above,align=center] {Comida\\$(\times \units[kg]{10000})$} |-
+    (16, 0) node[below,align=center] {Automóviles\\$(\times \num{10000})$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref xy-scale2
+  [yscale = 0.4166666667, xscale = 0.375]
+#+end_src
+
+#+begin_src latex :noweb-ref small-axes2
+  \draw[axis, very thick]
+    (0, 14) node[left] {$C$} |-
+    (14, 0) node[below] {$A$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref small-xy-scale2
+  [yscale = 0.28571429, xscale = 0.28571429]
+#+end_src
+
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref coord-xy2
+  \newcommand*{\Ax}{0}
+  \newcommand*{\Bx}{4}
+  \newcommand*{\Cx}{7}
+  \newcommand*{\Dx}{9}
+  \newcommand*{\Ex}{10}
+  \newcommand*{\Fx}{0}
+  \newcommand*{\Gx}{4}
+  \newcommand*{\Hx}{7}
+  \newcommand*{\Ay}{10}
+  \newcommand*{\By}{9}
+  \newcommand*{\Cy}{7.5}
+  \newcommand*{\Dy}{5}
+  \newcommand*{\Ey}{0}
+  \newcommand*{\Fy}{7.5}
+  \newcommand*{\Gy}{5}
+  \newcommand*{\Hy}{0}
+#+end_src
+
+#+begin_src latex :noweb-ref coord-def2
+  \foreach \x/\y/\z in {\Ax/\Ay/A, \Bx/\By/B,%
+       \Cx/\Cy/C, \Dx/\Dy/D, \Ex/\Ey/E,%
+       \Fx/\Fy/F, \Gx/\Gy/G, \Hx/\Hy/H}
+    \coordinate (\z) at (\x, \y) ;
+#+end_src
+
+*** PPF curve
+
+#+begin_src latex :noweb-ref ppf-curve2
+  \draw[curve, very thick] (A)
+    \foreach \x in {B, C, D, E} { -- (\x)} ;
+#+end_src
+
+
+*** Dot nodes
+
+#+begin_src latex :noweb-ref dot-nodes2
+  \foreach \x in {A, B, C, D, E}
+    \node[dot] at (\x) {};
+#+end_src
 
 
 * PPF shape
+
 
 ** PPF
 
@@ -91,6 +231,7 @@
 
 
 ** Common
+
 
 *** Axes
 

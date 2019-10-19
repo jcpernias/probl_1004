@@ -25,6 +25,12 @@
    a) Represente gráficamente la Frontera de Posibilidades de
       Producción, FPP.
 
+      #+begin_answer
+
+          #+MATS: fig fig-probl-1_1004-ppf-sh1-*.pdf
+
+      #+end_answer
+
    b) ¿Qué efecto tendría sobre la FPP una mejora en las técnicas
       agrícolas que aumentara la producción de comida por hora de
       trabajo? ¿Y una mejora organizativa en la cadena de producción
@@ -32,9 +38,51 @@
       simultáneamente como consecuencia de un progreso técnico
       generalizado en la sociedad?
 
+      #+begin_answer
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          #+MATS: fig fig-probl-1_1004-ppf-sh2-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          Una mejora tecnológica en la producción de comida.
+        #+end_minipage
+
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          #+MATS: fig fig-probl-1_1004-ppf-sh3-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          Una mejora organizativa en la producción de automóviles.
+        #+end_minipage
+
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          #+MATS: fig fig-probl-1_1004-ppf-sh4-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          Mejoras en los dos sectores.
+        #+end_minipage
+      #+end_answer
+
    c) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad
       de las horas de trabajo como consecuencia de un conflicto
       bélico?
+
+      #+begin_answer
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          #+MATS: fig fig-probl-1_1004-ppf-sh5-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          Desplazamiento a la izquierda de la FPP.
+        #+end_minipage
+      #+end_answer
+
+#+latex: \ClearPage{}
 
 2. La tabla adjunta presenta diferentes combinaciones eficientes de
    producción para una economía en la que únicamente se producen dos
