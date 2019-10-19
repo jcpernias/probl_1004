@@ -241,7 +241,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref xy-scale
-  [yscale = 0.833333, xscale = 0.2083333]
+  [yscale = 0.833333333, xscale = 0.25]
 #+end_src
 
 
