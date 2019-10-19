@@ -81,8 +81,7 @@
           Desplazamiento a la izquierda de la FPP.
         #+end_minipage
       #+end_answer
-
-#+latex: \ClearPage{}
+      #+latex: \ClearPage{}
 
 2. La tabla adjunta presenta diferentes combinaciones eficientes de
    producción para una economía en la que únicamente se producen dos
