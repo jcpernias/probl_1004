@@ -177,15 +177,23 @@
    trabajo, se produce un desplazamiento de la frontera de
    posibilidades de producción hacia la derecha."
 
+   #+begin_answer
+
+   #+end_answer
+
 5. El mercado de un bien está formado por tres compradores cuyas
    curvas de demanda son:
 
    #+ATTR_LATEX: :center t :align lc
    | Comprador 1: | $q_1 = 1000 - 10 P$. |
-   | Comprador 2: | $q_2 = 600 - 2 P$.  |
-   | Comprador 3: | $q_3 = 750 - 5 P$.  |
+   | Comprador 2: | $q_2 = 600 - 2 P$.   |
+   | Comprador 3: | $q_3 = 750 - 5 P$.   |
 
    Determine la curva de demanda de mercado.
+
+   #+begin_answer
+
+   #+end_answer
 
 6. En el mercado de un bien participan \num{1000} compradores
    idénticos, cada uno de ellos con curva de demanda:
@@ -202,15 +210,27 @@
    \]
    #+end_export
 
-   a. Halle las curvas de demanda y oferta de mercado y la
+   a) Halle las curvas de demanda y oferta de mercado y la
       solución de equilibrio. Represente gráficamente.
 
-   b. ¿Qué ocurriría si el precio de mercado fuera \price{4}? ¿Y si
+      #+begin_answer
+
+      #+end_answer
+
+   a. ¿Qué ocurriría si el precio de mercado fuera \price{4}? ¿Y si
       el precio de mercado fuera \price{1.5}?
+
+      #+begin_answer
+
+      #+end_answer
 
 7. "Durante los años que van desde 2003 hasta 2006 el precio de la
    gasolina aumentó considerablemente y, sin embargo, el consumo de
    gasolina creció." ¿Contradice esta afirmación la ley de la demanda?
+
+   #+begin_answer
+
+   #+end_answer
 
 8. Considere un mercado competitivo de manzanas y use un diagrama de
    oferta y demanda para analizar cómo afectaría al equilibrio una
@@ -248,6 +268,10 @@
    explicaciones observando qué ha ocurrido con el precio y la
    cantidad consumida de drogas?
 
+   #+begin_answer
+
+   #+end_answer
+
 10. Las medicinas tienen una demanda inelástica mientras que los
     ordenadores tienen una demanda elástica. Suponga que como
     consecuencia del progreso tecnológico la oferta de ambos productos
@@ -255,11 +279,23 @@
 
     a) ¿Qué ocurrirá con el equilibrio en estos mercados?
 
+       #+begin_answer
+
+       #+end_answer
+
     b) ¿En qué mercado se experimentará el mayor cambio en el precio?
        ¿Y el mayor cambio en la cantidad?
 
+       #+begin_answer
+
+       #+end_answer
+
     c) ¿Cómo se verá afectado el gasto de los consumidores en cada
        bien?
+
+       #+begin_answer
+
+       #+end_answer
 
 11. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
@@ -269,20 +305,36 @@
 
     a) Determine el precio y la cantidad de equilibrio.
 
+       #+begin_answer
+
+       #+end_answer
+
     b) Represente gráficamente los efectos sobre el equilibrio de un
        aumento del precio de un bien sustitutivo, /ceteris
        paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
        precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
+
+       #+begin_answer
+
+       #+end_answer
 
     c) Partiendo de la situación inicial, represente los efectos sobre
        el equilibrio de un aumento de la renta de los consumidores,
        /ceteris paribus/. ¿Es posible predecir inequívocamente cómo
        cambiarán el precio y la cantidad de equilibrio?
 
+       #+begin_answer
+
+       #+end_answer
+
 12. Si en un mercado competitivo en equilibrio simultáneamente se
     encarecen los costes de producción y aumenta la renta de los
     consumidores, ¿aumentarán tanto el precio como la cantidad en el
     nuevo equilibrio?
+
+    #+begin_answer
+
+    #+end_answer
 
 13. Cuando un país subió los impuestos sobre el tabaco, el precio
     medio de la cajetilla subió de \money{4} a \money{4.6}. Se estimó
@@ -290,11 +342,19 @@
     demandada cayó de $52$ a $47.5$ millones de cajetillas.  Calcule
     la elasticidad de la demanda de tabaco.
 
+    #+begin_answer
+
+    #+end_answer
+
 14. Dos conductores repostan todos los lunes en la misma
     gasolinera. Ninguno de los dos mira nunca el precio y siempre
     actúan igual: mientras que uno pide $15$ litros, el otro pide
     \money{20} de gasóleo. ¿Cuál es la elasticidad precio de la
     demanda de cada conductor?
+
+    #+begin_answer
+
+    #+end_answer
 
 15. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
     en alimentos al año y su renta monetaria anual es de
@@ -339,11 +399,23 @@
     a) Calcule el precio y la cantidad de equilibrio y represéntelo
        gráficamente.
 
+       #+begin_answer
+
+       #+end_answer
+
     b) Calcule la elasticidad cruzada de la demanda. ¿Qué tipo de
        relación existe entre los bienes $X$ e $Y$?
 
+       #+begin_answer
+
+       #+end_answer
+
     c) Si la renta media de los consumidores disminuye en \money{10},
        ¿se puede afirmar que $X$ es un bien inferior?
+
+       #+begin_answer
+
+       #+end_answer
 
 17. La empresa que gestiona un túnel se está planteando alterar el
     peaje que cobra a los usuarios del túnel. Actualmente el peaje es
@@ -353,14 +425,30 @@
 
     a) ¿Cuál es la elasticidad de la demanda al precio actual?
 
+       #+begin_answer
+
+       #+end_answer
+
     b) Si la empresa persigue aumentar sus ingresos, ¿sería conveniente
        que rebajase el peaje?
 
+       #+begin_answer
+
+       #+end_answer
+
     c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
+
+       #+begin_answer
+
+       #+end_answer
 
 18. La demanda de mercado de un bien es lineal y, al precio actual, la
     elasticidad precio es unitaria. ¿Aumentarán los ingresos totales
     de los vendedores si disminuye el precio del bien?
+
+    #+begin_answer
+
+    #+end_answer
 
 19. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
     La demanda de abonos anuales de los aficionados es: \[Q =
@@ -379,16 +467,32 @@
     a) Represente gráficamente las curvas de demanda y de oferta de
        abonos y determine el equilibrio en este mercado.
 
+       #+begin_answer
+
+       #+end_answer
+
     b) Calcule las elasticidades de la demanda y de la oferta de abonos
        del club en la situación de equilibrio e interprete los valores
        y los signos de esas elasticidades.
+
+       #+begin_answer
+
+       #+end_answer
 
     c) Calcule la elasticidad de la demanda con respecto al precio del
        abono del equipo rival en la situación de equilibrio e
        interprete el valor y el signo obtenidos.
 
+       #+begin_answer
+
+       #+end_answer
+
     d) Calcule la elasticidad renta de la demanda en la situación de
        equilibrio e interprete el valor y el signo obtenidos.
+
+       #+begin_answer
+
+       #+end_answer
 
 20. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
@@ -398,12 +502,24 @@
 
     a) Determine el precio y la cantidad de equilibrio.
 
+       #+begin_answer
+
+       #+end_answer
+
     b) Describa y represente gráficamente los efectos sobre el mercado
        del bien $X$ del establecimiento de un impuesto sobre los
        vendedores de \money{150} por unidad vendida.
 
+       #+begin_answer
+
+       #+end_answer
+
     c) ¿Cuál habría sido el resultado si el impuesto hubiese recaído
        sobre los compradores?
+
+       #+begin_answer
+
+       #+end_answer
 
 21. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
@@ -413,9 +529,17 @@
 
     a) Determine el precio y la cantidad de equilibrio.
 
+       #+begin_answer
+
+       #+end_answer
+
     b) Describa y represente gráficamente los efectos sobre el mercado
        del bien $X$ del establecimiento de un precio mínimo de
        \price{1200}. ¿Cuántas unidades se venderían? ¿A qué precio?
+
+       #+begin_answer
+
+       #+end_answer
 
 22. En un mercado competitivo en equilibrio se venden \num{96000}
     unidades a un precio de \price{300}. En esta situación la
@@ -424,6 +548,10 @@
     estime el efecto que sobre la cantidad demandada y la cantidad
     ofrecida tendría una ley que establezca un precio máximo de
     \price{294}.
+
+    #+begin_answer
+
+    #+end_answer
 
 23. Las curvas de demanda y oferta de mercado del bien $X$ son:
     \begin{gather*}
@@ -474,6 +602,10 @@
     cantidad comprada y la cantidad vendida coincidirá con el
     equilibrio en este mercado."
 
+    #+begin_answer
+
+    #+end_answer
+
 25. El mercado de alquiler en una ciudad está representado por las
     curvas de demanda y de oferta:
     #+begin_export latex
@@ -485,6 +617,14 @@
 
     a) Determine el equilibrio en este mercado.
 
+       #+begin_answer
+
+       #+end_answer
+
     b) Si se establece una subvención a cada inquilino de \money{200},
        ¿cuánto dinero pagarán los inquilinos? ¿Cuál será el alquiler
        que recibirán los caseros?
+
+       #+begin_answer
+
+       #+end_answer
