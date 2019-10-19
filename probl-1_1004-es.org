@@ -165,19 +165,11 @@
    menor coste de oportunidad de producir pescado.
 
    #+begin_answer
-     En las combinaciones de producción que están sobre la FPP, $A$ y
-     $D$, la pendiente de la frontera refleja el coste de oportunidad:
-     a cuántos cocos debe renunciar la economía para poder producir
-     una unidad más de pescado. El coste de oportunidad sería mayor en
-     $D$ que en $A$, ya que la pendiente es más pronunciada en el
-     punto $D$ (para producir una unidad adicional de pescado hay que
-     renunciar a más cocos si partimos de $D$ que si partimos de $A$).
-     En puntos como $B$ existen recursos desempleados y es posible
-     producir más pescado sin tener que reducir la producción de
-     cocos: el coste de oportunidad en $B$ es $0$. Puntos como el $C$
-     son inaccesibles y el coste de oportunidad no está definido. Por
-     tanto, ordenando las combinaciones de producción de mayor a menor
-     coste de oportunidad de producir pescado: $D$, $A$ y $B$.
+     El coste de oportunidad sería mayor en $D$ que en $A$, ya que la
+     pendiente es más pronunciada en $D$.  Combinaciones como $B$ no
+     son eficientes y el coste de oportunidad es $0$. Puntos como
+     el $C$ son inaccesibles y el coste de oportunidad no está
+     definido.
    #+end_answer
 
 4. Argumente la veracidad o falsedad de la siguiente afirmación:
