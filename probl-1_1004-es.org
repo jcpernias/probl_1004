@@ -113,6 +113,7 @@
           La FPP es cóncava.
         #+end_minipage
       #+end_answer
+      #+latex: \ClearPage{}
 
    b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades
       de $X$?  ¿Qué ocurre en esta situación?
@@ -153,6 +154,7 @@
         a $2$ unidades de $X$, mientras que el coste de oportunidad de
         la segunda es $3$ unidades de $X$.
       #+end_answer
+      #+latex: \ClearPage{}
 
 3. El siguiente gráfico representa la frontera de posibilidades de
    producción de una economía donde sólo se producen cocos y pescado:
