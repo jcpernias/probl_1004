@@ -312,6 +312,28 @@
 #+end_src
 
 
+* Market demand
+
+  #+begin_src latex :tangle fig-probl-1_1004-market-demand.tex
+    \begin{tikzpicture}[xscale = 2, yscale = 1]
+
+      \draw[help lines]
+      (0, 3) node[left] {$300$}
+      (0, 1.5) node[left] {$150$} -| (0.3, 0) node[below] {$300$}
+      (0, 1) node[left] {$100$} -| (0.65, 0) node[below] {$650$}
+      (2.35, 0) node[below] {$2350$}
+      ;
+
+      \draw[curve, very thick]
+      (0, 3) -- (0.3, 1.5) -- (0.65, 1) -- (2.35, 0)
+      node[above right, pos=0.75] {$Q^d$} ;
+
+      \draw[axis, very thick] (0, 4) node[left] {$P$} |-
+      (2.75, 0) node[below] {$Q$} ;
+    \end{tikzpicture}
+  #+end_src
+
+
 
 * Apple market
 

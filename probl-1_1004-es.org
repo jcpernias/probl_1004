@@ -178,7 +178,9 @@
    posibilidades de producción hacia la derecha."
 
    #+begin_answer
-
+     La FPP no se desplaza ya que no hay más factores de producción
+     que en la situación inicial. Sólo se produce un movimiento entre
+     dos puntos, los cuales están situados debajo de la FPP.
    #+end_answer
 
 5. El mercado de un bien está formado por tres compradores cuyas
@@ -192,7 +194,46 @@
    Determine la curva de demanda de mercado.
 
    #+begin_answer
+   - Si $P \leq 100$ participan los 3 compradores:
+     #+begin_export latex
+     \[
+       Q^d(P) = q_1(P) + q_2(P) + q_3(P) = 2350 - 17 P
+     \]
+     #+end_export
 
+   - Si $100 < P \leq 150$ compran 2 y 3:
+     #+begin_export latex
+     \[
+       Q^d(P) = q_2(P) + q_3(P) = 1350 - 7 P
+     \]
+     #+end_export
+
+   - Si $150 < P \leq 300$ sólo compra 2:
+     #+begin_export latex
+     \[
+       Q^d(P) = q_2(P) = 600 - 2 P
+     \]
+     #+end_export
+
+
+   #+attr_latex: :options {0.45\linewidth}
+   #+begin_minipage
+     #+MATS: fig fig-probl-1_1004-market-demand-*.pdf
+   #+end_minipage
+   #+attr_latex: :options {0.55\linewidth}
+   #+begin_minipage
+     #+begin_export latex
+     \[
+       Q^d(P) =
+       \begin{cases}
+         600 - 2 P   & \text{si $150 < P \leq 300$} \\
+         1350 - 7 P  & \text{si $100 < P \leq 150$} \\
+         2350 - 17 P & \text{si $P \leq 100$} \\
+       \end{cases}
+     \]
+     #+end_export
+
+   #+end_minipage
    #+end_answer
 
 6. En el mercado de un bien participan \num{1000} compradores
@@ -217,7 +258,7 @@
 
       #+end_answer
 
-   a. ¿Qué ocurriría si el precio de mercado fuera \price{4}? ¿Y si
+   b) ¿Qué ocurriría si el precio de mercado fuera \price{4}? ¿Y si
       el precio de mercado fuera \price{1.5}?
 
       #+begin_answer
