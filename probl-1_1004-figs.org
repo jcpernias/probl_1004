@@ -390,61 +390,62 @@
 ** Lack of police
 
 #+begin_src latex :tangle fig-probl-1_1004-drugs1.tex :noweb yes
-  \begin{tikzpicture}<<xy-scale9>>
+  \begin{tikzpicture}<<ex9:xy-scale>>
 
-    <<coord-def9>>
-    <<curve-D1>>
-    <<curve-O1>>
+    <<ex9:coord-def>>
+    <<ex9:curve-D1>>
+    <<ex9:curve-O1>>
     \path[name intersections={of=D1 and O1, by=E1}] ;
     \node[dot] at (E1) {} ;
 
-    <<curve-O2>>
+    <<ex9:curve-O2>>
     \path[name intersections={of=D1 and O2, by=E2}] ;
     \node[dot] at (E2) {} ;
 
     \draw[shift arrow, ->] ([xshift=5pt]E1) -- ([shift={(5pt, 2pt)}]E2) ;
-    <<axes9>>
+    <<ex9:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** Fewer talks
 
 #+begin_src latex :tangle fig-probl-1_1004-drugs2.tex :noweb yes
-  \begin{tikzpicture}<<xy-scale9>>
+  \begin{tikzpicture}<<ex9:xy-scale>>
 
-    <<coord-def9>>
-    <<curve-D1>>
-    <<curve-O1>>
+    <<ex9:coord-def>>
+    <<ex9:curve-D1>>
+    <<ex9:curve-O1>>
     \path[name intersections={of=D1 and O1, by=E1}] ;
     \node[dot] at (E1) {} ;
 
-    <<curve-D2>>
+    <<ex9:curve-D2>>
     \path[name intersections={of=D2 and O1, by=E2}] ;
     \node[dot] at (E2) {} ;
 
     \draw[shift arrow, ->] ([yshift=5pt]E1) -- ([shift={(-2pt, 5pt)}]E2) ;
-    <<axes9>>
+    <<ex9:axes>>
   \end{tikzpicture}
 #+end_src
 
-** Common
 
+** Common
 
 *** Axes
 
-#+begin_src latex :noweb-ref axes9
+#+begin_src latex :noweb-ref ex9:axes
   \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
     (5.5, 0) node[below] {$Q$} ;
 #+end_src
 
-#+begin_src latex :noweb-ref xy-scale9
+#+begin_src latex :noweb-ref ex9:xy-scale
   [yscale = 0.9090909091, xscale = 0.9090909091]
 #+end_src
 
 
 *** Coordinates
 
-#+begin_src latex :noweb-ref coord-def9
+#+begin_src latex :noweb-ref ex9:coord-def
   \coordinate (DA1) at (1, 5) ;
   \coordinate (DB1) at (3, 1) ;
   \coordinate (DA2) at ($(DA1) + (1, 0)$) ;
@@ -458,28 +459,24 @@
 
 *** Curves
 
-#+begin_src latex :noweb-ref curve-D1
-  \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$D$} ;
+#+begin_src latex :noweb-ref ex9:curve-D1
+  \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[below] {$D$} ;
 #+end_src
 
-#+begin_src latex :noweb-ref curve-D2
-  \draw[curve, very thick, name path=D2] (DA2) -- (DB2) node[right] {$D'$} ;
+#+begin_src latex :noweb-ref ex9:curve-D2
+  \draw[curve, very thick, name path=D2] (DA2) -- (DB2) node[below] {$D'$} ;
 #+end_src
 
-#+begin_src latex :noweb-ref curve-O1
+#+begin_src latex :noweb-ref ex9:curve-O1
   \draw[curve, very thick, name path=O1] (OA1) -- (OB1) node[right] {$O$} ;
 #+end_src
 
-#+begin_src latex :noweb-ref curve-O2
+#+begin_src latex :noweb-ref ex9:curve-O2
   \draw[curve, very thick, name path=O2] (OA2) -- (OB2) node[right] {$O'$} ;
 #+end_src
 
 
-*** Dot nodes
 
-#+begin_src latex :noweb-ref dot-nodes
-  \foreach \x/\text in {A, B, C, D, E, F}
-    \node[dot, label={above right:$\text$}] at (\x) {};
 #+end_src
 
 
