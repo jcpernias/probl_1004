@@ -312,7 +312,9 @@
    gasolina creció." ¿Contradice esta afirmación la ley de la demanda?
 
    #+begin_answer
-
+     No: la ley de la demanda sólo es válida cuando lo único que
+     cambia es el precio. A lo largo del periodo 2003--2006 cambiaron
+     también otros determinantes de la demanda de gasolina.
    #+end_answer
 
 8. Considere un mercado competitivo de manzanas y use un diagrama de
