@@ -572,6 +572,122 @@
 
 
 
+* Ex. 11: Comparative statics
+
+** Initial equilibrium
+
+#+begin_src latex :tangle fig-probl-1_1004-comp1.tex :noweb yes
+  \begin{tikzpicture}<<ex11:xy-scale>>
+
+    <<ex11:coord-def>>
+    <<ex11:curve-D1>>
+    <<ex11:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$2500$} -|
+    (\x1, 0) node[below] {$45000$}
+    ;
+    \node[dot] at (E1) {} ;
+    <<ex11:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Demand increase
+
+#+begin_src latex :tangle fig-probl-1_1004-comp2.tex :noweb yes
+  \begin{tikzpicture}<<ex11:xy-scale>>
+
+    <<ex11:coord-def>>
+    <<ex11:curve-D1>>
+    <<ex11:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    <<ex11:curve-D2>>
+    \path[name intersections={of=D2 and O1, by=E2}] ;
+    \node[dot] at (E2) {} ;
+
+    \draw[shift arrow, ->]
+    ([shift={(-6pt, 6pt)}]E1) -- ([shift={(-6pt, 6pt)}]E2) ;
+    <<ex11:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Demand decrease
+
+#+begin_src latex :tangle fig-probl-1_1004-comp3.tex :noweb yes
+  \begin{tikzpicture}<<ex11:xy-scale>>
+
+    <<ex11:coord-def>>
+    <<ex11:curve-D1>>
+    <<ex11:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    <<ex11:curve-D3>>
+    \path[name intersections={of=D3 and O1, by=E3}] ;
+    \node[dot] at (E3) {} ;
+
+    \draw[shift arrow, ->]
+    ([shift={(6pt, -6pt)}]E1) -- ([shift={(6pt, -6pt)}]E3) ;
+
+    <<ex11:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex11:axes
+  \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
+    (5.5, 0) node[below] {$Q$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex11:xy-scale
+  [yscale = 0.9090909091, xscale = 0.9090909091]
+#+end_src
+
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex11:coord-def
+  \coordinate (DA1) at (0, 4.25) ;
+  \coordinate (DB1) at (4.25, 0) ;
+  \coordinate (DA2) at (0.75, 4.75) ;
+  \coordinate (DB2) at (4.75, 0.75) ;
+  \coordinate (DA3) at (0, 2.5) ;
+  \coordinate (DB3) at (2.5, 0) ;
+  \coordinate (OA1) at (0.75, 0) ;
+  \coordinate (OB1) at (4.25, 4.6666667) ;
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex11:curve-D1
+  \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+  node[above right, pos=0.9] {$D$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex11:curve-D2
+  \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
+  node[above right, pos=0.9] {$D'$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex11:curve-D3
+  \draw[curve, very thick, name path=D3] (DA3) -- (DB3)
+  node[above right, pos=0.9] {$D''$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex11:curve-O1
+  \draw[curve, very thick, name path=O1] (OA1) -- (OB1) node[right] {$O$} ;
+#+end_src
+
+
 * Equilibrium and price ceiling
 
   #+begin_src latex :tangle fig-probl-1_1004-eq1.tex

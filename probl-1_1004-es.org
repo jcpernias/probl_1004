@@ -442,7 +442,21 @@
     a) Determine el precio y la cantidad de equilibrio.
 
        #+begin_answer
+         #+attr_latex: :options {0.65\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-comp1-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.35\linewidth}
+         #+begin_minipage
+           Equilibrio:
+           #+begin_export latex
+           \begin{gather*}
+           P^* = \price{2500} \\
+           Q^* = \units{45000}
+           \end{gather*}
 
+           #+end_export
+         #+end_minipage
        #+end_answer
 
     b) Represente gráficamente los efectos sobre el equilibrio de un
@@ -451,7 +465,15 @@
        precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
 
        #+begin_answer
-
+         #+attr_latex: :options {0.55\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-comp2-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.45\linewidth}
+         #+begin_minipage
+           Como consecuencia del aumento de la demanda, el precio y la
+           cantidad de equilibrio aumentan.
+         #+end_minipage
        #+end_answer
 
     c) Partiendo de la situación inicial, represente los efectos sobre
@@ -460,7 +482,25 @@
        cambiarán el precio y la cantidad de equilibrio?
 
        #+begin_answer
+         #+attr_latex: :options {0.55\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-comp2-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.45\linewidth}
+         #+begin_minipage
+           En el caso de un bien normal la demanda aumenta y el precio y la
+           cantidad de equilibrio aumentan.
+         #+end_minipage
 
+         #+attr_latex: :options {0.55\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-comp3-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.45\linewidth}
+         #+begin_minipage
+           En el caso de un bien inferior la demanda disminuye y el
+           precio y la cantidad de equilibrio se reducen.
+         #+end_minipage
        #+end_answer
 
 12. Si en un mercado competitivo en equilibrio simultáneamente se
