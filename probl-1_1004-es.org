@@ -324,15 +324,18 @@
    condiciones se tendrían que cumplir?
 
    #+begin_answer
-     Una enfermedad de los manzanos afectará a la curva de oferta de
-     manzanas, que se desplazará hacia la izquierda y hacia
-     arriba. Como consecuencia en el mercado se venden menos manzanas
-     a un precio superior.
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-1_1004-apples-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       Una enfermedad de los manzanos reducirá la oferta de
+       manzanas. Como consecuencia se venden menos manzanas a un
+       precio superior.
+     #+end_minipage
 
-     #+MATS: fig fig-probl-1_1004-apples-*.pdf
-
-     El efecto sobre los ingresos de los productores puede ser
-     positivo o negativo. Los ingresos solo crecerán si disminuye la
+     Los ingresos de los productores solo crecerán si disminuye la
      producción en una proporción menor a la que aumenta el precio: el
      mercado se encontraría en un /tramo inelástico de la curva de
      demanda/.
