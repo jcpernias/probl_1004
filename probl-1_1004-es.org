@@ -31,8 +31,8 @@
 
       #+end_answer
 
-   b) ¿Qué efecto tendría sobre la FPP una mejora en las técnicas
-      agrícolas que aumentara la producción de comida por hora de
+   b) ¿Qué efecto tendría sobre la FPP una mejora en las técnicas de
+      elaboración de comida que aumentara la producción por hora de
       trabajo? ¿Y una mejora organizativa en la cadena de producción
       de automóviles? ¿Y si ambas mejoras se produjesen
       simultáneamente como consecuencia de un progreso técnico
