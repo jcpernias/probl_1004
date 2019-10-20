@@ -357,6 +357,28 @@
    cantidad consumida de drogas?
 
    #+begin_answer
+     #+attr_latex: :options {0.55\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-1_1004-drugs1-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.45\linewidth}
+     #+begin_minipage
+       La falta de presencia policial aumenta la oferta de drogas en
+       las calles.
+     #+end_minipage
+
+     #+attr_latex: :options {0.55\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-1_1004-drugs2-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.45\linewidth}
+     #+begin_minipage
+       La reducción de programas de concienciación aumenta la demanda
+       de drogas.
+     #+end_minipage
+
+     En los dos casos aumenta la cantidad consumida, pero en el primer
+     escenario disminuye el precio y en el segundo aumenta el precio.
 
    #+end_answer
 
