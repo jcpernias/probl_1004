@@ -477,7 +477,98 @@
 
 
 
+
+* Ex. 10: Medicines and computers
+
+** Medicines
+
+#+begin_src latex :tangle fig-probl-1_1004-medicines.tex :noweb yes
+  \begin{tikzpicture}<<ex10:xy-scale>>
+
+    <<ex10:coord-def>>
+    <<ex10:curve-D1>>
+    <<ex10:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    <<ex10:curve-O2>>
+    \path[name intersections={of=D1 and O2, by=E2}] ;
+    \node[dot] at (E2) {} ;
+
+    \draw[shift arrow, ->] ([shift={(5pt, 3pt)}]E1) -- ([shift={(5pt, 3pt)}]E2) ;
+    <<ex10:axes>>
+  \end{tikzpicture}
 #+end_src
+
+
+** Computers
+
+#+begin_src latex :tangle fig-probl-1_1004-computers.tex :noweb yes
+  \begin{tikzpicture}<<ex10:xy-scale>>
+
+    <<ex10:coord-def>>
+    <<ex10:curve-D2>>
+    <<ex10:curve-O1>>
+    \path[name intersections={of=D2 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    <<ex10:curve-O2>>
+    \path[name intersections={of=D2 and O2, by=E2}] ;
+    \node[dot] at (E2) {} ;
+
+    \draw[shift arrow, ->] ([shift={(6pt, 5pt)}]E1) -- ([shift={(6pt, 5pt)}]E2) ;
+    <<ex10:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex10:axes
+  \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
+    (5.5, 0) node[below] {$Q$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex10:xy-scale
+  [yscale = 0.9090909091, xscale = 0.9090909091]
+#+end_src
+
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex10:coord-def
+  \coordinate (DA1) at (0.5, 5) ;
+  \coordinate (DB1) at (2.75, 0.5) ;
+  \coordinate (DA2) at (0.5, 2.5) ;
+  \coordinate (DB2) at (5, 1) ;
+  \coordinate (OA1) at (0.5, 0.5) ;
+  \coordinate (OB1) at (5, 5) ;
+  \coordinate (OA2) at (1, 0.5) ;
+  \coordinate (OB2) at (5, 2.5) ;
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex10:curve-D1
+  \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$D$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex10:curve-D2
+  \draw[curve, very thick, name path=D2] (DA2) -- (DB2) node[right] {$D'$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex10:curve-O1
+  \draw[curve, very thick, name path=O1] (OA1) -- (OB1) node[right] {$O$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex10:curve-O2
+  \draw[curve, very thick, name path=O2] (OA2) -- (OB2) node[right] {$O'$} ;
+#+end_src
+
+
 
 
 
