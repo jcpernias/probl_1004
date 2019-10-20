@@ -334,6 +334,28 @@
   #+end_src
 
 
+* Market equilibrium
+
+  #+begin_src latex :tangle fig-probl-1_1004-market-eq.tex
+    \begin{tikzpicture}[xscale = 0.625, yscale = 0.909090909090]
+
+      \draw[help lines]
+      (0, 2) node[left] {$2$} -| (3, 0) node[below] {$3000$}
+      ;
+
+      \draw[curve, very thick]
+      (0, 5) -- (5, 0) node[right, pos=0.85] {$Q^d$}
+      (0, 0) -- (7.5, 5) node[right] {$Q^o$}
+      ;
+
+      \node[dot] at (3, 2) {} ;
+
+      \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
+      (8, 0) node[below] {$Q$} ;
+    \end{tikzpicture}
+  #+end_src
+
+
 
 * Apple market
 
