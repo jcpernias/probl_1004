@@ -187,9 +187,9 @@
    curvas de demanda son:
 
    #+ATTR_LATEX: :center t :align lc
-   | Comprador 1: | $q_1 = 1000 - 10 P$. |
-   | Comprador 2: | $q_2 = 600 - 2 P$.   |
-   | Comprador 3: | $q_3 = 750 - 5 P$.   |
+   | Comprador 1: | $q^d_1(P) = 1000 - 10 P$. |
+   | Comprador 2: | $q^d_2(P) = 600 - 2 P$.   |
+   | Comprador 3: | $q^d_3(P) = 750 - 5 P$.   |
 
    Determine la curva de demanda de mercado.
 
@@ -197,21 +197,21 @@
    - Si $P \leq 100$ participan los 3 compradores:
      #+begin_export latex
      \[
-       Q^d(P) = q_1(P) + q_2(P) + q_3(P) = 2350 - 17 P
+       Q^d(P) = q^d_1(P) + q^d_2(P) + q^d_3(P) = 2350 - 17 P
      \]
      #+end_export
 
    - Si $100 < P \leq 150$ compran 2 y 3:
      #+begin_export latex
      \[
-       Q^d(P) = q_2(P) + q_3(P) = 1350 - 7 P
+       Q^d(P) = q^d_2(P) + q^d_3(P) = 1350 - 7 P
      \]
      #+end_export
 
    - Si $150 < P \leq 300$ sólo compra 2:
      #+begin_export latex
      \[
-       Q^d(P) = q_2(P) = 600 - 2 P
+       Q^d(P) = q^d_2(P) = 600 - 2 P
      \]
      #+end_export
 
@@ -240,14 +240,14 @@
    idénticos, cada uno de ellos con curva de demanda:
    #+begin_export latex
    \[
-     Q^d_i = 5 - P, \qquad i = 1, ..., \num{1000}.
+     q^d_i = 5 - P, \qquad i = 1, ..., \num{1000}.
    \]
    #+end_export
    El bien es vendido por \num{500} empresas idénticas, cada una
    con curva de oferta:
    #+begin_export latex
    \[
-     Q^o_j = 2.4 P , \qquad j = 1, ..., \num{500}.
+     q^o_j = 2.4 P , \qquad j = 1, ..., \num{500}.
    \]
    #+end_export
 
