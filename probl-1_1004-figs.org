@@ -574,7 +574,9 @@
 
 * Ex. 11: Comparative statics
 
+
 ** Initial equilibrium
+
 
 #+begin_src latex :tangle fig-probl-1_1004-comp1.tex :noweb yes
   \begin{tikzpicture}<<ex11:xy-scale>>
@@ -593,6 +595,7 @@
     <<ex11:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** Demand increase
 
@@ -614,6 +617,7 @@
     <<ex11:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** Demand decrease
 
@@ -639,6 +643,7 @@
 
 
 ** Common
+
 
 *** Axes
 
@@ -685,6 +690,114 @@
 
 #+begin_src latex :noweb-ref ex11:curve-O1
   \draw[curve, very thick, name path=O1] (OA1) -- (OB1) node[right] {$O$} ;
+#+end_src
+
+
+
+* Ex. 12: Electric cars
+
+
+** Initial equilibrium
+
+
+#+begin_src latex :tangle fig-probl-1_1004-cars1.tex :noweb yes
+  \begin{tikzpicture}<<ex12:xy-scale>>
+
+    <<ex12:coord-def>>
+    <<ex12:curve-D1>>
+    <<ex12:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$\num{24000}$} -|
+    (\x1, 0) node[below] {$6000$}
+    ;
+    \node[dot] at (E1) {} ;
+    <<ex12:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Demand and supply increase
+
+#+begin_src latex :tangle fig-probl-1_1004-cars2.tex :noweb yes
+  \begin{tikzpicture}<<ex12:xy-scale>>
+
+    <<ex12:coord-def>>
+    <<ex12:curve-D1>>
+    <<ex12:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    <<ex12:curve-D2>>
+    <<ex12:curve-O2>>
+    \path[name intersections={of=D2 and O2, by=E2}] ;
+
+    \draw[help lines]
+    let \p1 = (E2) in
+    (0, \y1) node[left] {$\num{21000}$} -|
+    (\x1, 0) node[below] {$7800$}
+    ;
+
+    \node[dot] at (E2) {} ;
+
+    \draw[shift arrow, ->]
+    ([shift={(3pt, 0pt)}]E1) -- ([shift={(-3pt, 0pt)}]E2) ;
+    <<ex12:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex12:axes
+  \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
+    (5.5, 0) node[below] {$Q$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:xy-scale
+  [yscale = 0.9090909091, xscale = 0.9090909091]
+#+end_src
+
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex12:coord-def
+  \coordinate (DA1) at (0, 5) ;
+  \coordinate (DB1) at (3.3333, 0) ;
+  \coordinate (DA2) at (0, 5) ;
+  \coordinate (DB2) at (4, 0) ;
+  \coordinate (OA1) at (0, 1) ;
+  \coordinate (OB1) at (5, 3.5) ;
+  \coordinate (OA2) at (0, 0.45) ;
+  \coordinate (OB2) at (5, 2.95) ;
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex12:curve-D1
+  \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+  node[below left, pos=0.32] {$D$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:curve-D2
+  \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
+  node[above right, pos=0.28] {$D'$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:curve-O1
+  \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+   node[above, pos=0.975] {$O$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:curve-O2
+  \draw[curve, very thick, name path=O2] (OA2) -- (OB2)
+  node[below, pos=0.975] {$O'$} ;
 #+end_src
 
 
