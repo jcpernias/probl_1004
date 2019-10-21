@@ -1243,3 +1243,90 @@
 
     \end{tikzpicture}
   #+end_src
+
+
+* Subsidies
+
+** Subsidy to buyers
+
+#+begin_src latex :tangle fig-probl-1_1004-subsidy1.tex
+  \begin{tikzpicture}[xscale=4.1, yscale=4.5454545454]
+
+    \coordinate (DA1) at (0.16666667, 0.66666667) ;
+    \coordinate (DB1) at (1, 0.3888887) ;
+
+    \coordinate (OA1) at (0.16666667, 0.08333333) ;
+    \coordinate (OB1) at (1, 0.833333333) ;
+
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$D$}
+     ;
+
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+    node[right] {$O$} ;
+
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$500$} -|
+    (\x1, 0) node[below] {$\num{10000}$}
+    ;
+    \node[dot] at (E1) {} ;
+
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1.1) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.10] (0,0) -- (1.1, 0) node[below] {$Q$} ;
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-probl-1_1004-subsidy2.tex
+  \begin{tikzpicture}[xscale=4.1, yscale=4.5454545454]
+
+    \coordinate (DA1) at (0.16666667, 0.66666667) ;
+    \coordinate (DB1) at (1, 0.3888887) ;
+
+    \coordinate (DA2) at (0.16666667, 1) ;
+    \coordinate (DB2) at (1, 0.7222222) ;
+
+    \coordinate (OA1) at (0.16666667, 0.08333333) ;
+    \coordinate (OB1) at (1, 0.833333333) ;
+
+    \coordinate (OA2) at (0.66666667, 0.166666667) ;
+    \coordinate (OB2) at (1, 0.5) ;
+
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$D$}
+     ;
+
+    \draw[curve, very thick, name path=D2] (DA2) -- (DB2) node[right] {$D'$}
+     ;
+
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+    node[right] {$O$} ;
+
+    \path[name path=O2] (OA2) -- (OB2) ;
+
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$500$} -- (E1)
+    ;
+    \node[dot] at (E1) {} ;
+
+    \path[name intersections={of=D2 and O1, by=E2}] ;
+    \draw[help lines]
+    let \p1 = (E2) in
+    (0, \y1) node[left] {$650$} -|
+    (\x1, 0) node[below] {$\num{11500}$}
+    ;
+    \node[dot] at (E2) {} ;
+
+    \path[name intersections={of=D1 and O2, by=E3}] ;
+    \draw[help lines]
+    let \p1 = (E3) in
+    (0, \y1) node[left] {$450$} -- (E3)
+    ;
+    \node[dot] at (E3) {} ;
+
+
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1.1) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.10] (0,0) -- (1.1, 0) node[below] {$Q$} ;
+  \end{tikzpicture}
+#+end_src

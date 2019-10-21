@@ -1101,7 +1101,8 @@
     equilibrio en este mercado."
 
     #+begin_answer
-
+      Un precio máximo superior al de equilibrio no impide al mercado
+      que se ajuste por lo que la afirmación es verdadera.
     #+end_answer
 
 25. El mercado de alquiler en una ciudad está representado por las
@@ -1116,7 +1117,14 @@
     a) Determine el equilibrio en este mercado.
 
        #+begin_answer
-
+         #+attr_latex: :options {0.55\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-subsidy1-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.45\linewidth}
+         #+begin_minipage
+           En equilibrio, $P^* = \price{500}$ y $Q^* = \units{10000}$.
+         #+end_minipage
        #+end_answer
 
     b) Si se establece una subvención a cada inquilino de \money{200},
@@ -1124,5 +1132,15 @@
        que recibirán los caseros?
 
        #+begin_answer
-
+         #+attr_latex: :options {0.55\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-subsidy2-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.45\linewidth}
+         #+begin_minipage
+           Los caseros reciben \money{650} y los inquilinos pagan
+           \money{450} por casa alquilada. El coste total del programa
+           de subvenciones asciende a $200 \times 11500 =
+           \money{2300000}$.
+         #+end_minipage
        #+end_answer
