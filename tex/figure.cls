@@ -112,6 +112,28 @@
    R2/.style={curve, color=colorR2},
 }
 
+\def\MarkLt{4pt}
+\def\MarkSep{2pt}
+
+\tikzset{
+  TwoMarks/.style={
+    postaction={decorate,
+      decoration={
+        markings,
+        mark=at position #1 with
+          {
+              \begin{scope}[xslant=0.2]
+              \draw[line width=\MarkSep,white,-] (0pt,-\MarkLt) -- (0pt,\MarkLt) ;
+              \draw[-] (-0.5*\MarkSep,-\MarkLt) -- (-0.5*\MarkSep,\MarkLt) ;
+              \draw[-] (0.5*\MarkSep,-\MarkLt) -- (0.5*\MarkSep,\MarkLt) ;
+              \end{scope}
+          }
+       }
+    }
+  },
+  TwoMarks/.default={0.5},
+}
+
 \newdimen\multi@col@width
 \newdimen\multi@col@margin
 \newcount\multi@col@count
