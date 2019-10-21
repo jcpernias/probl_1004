@@ -1141,6 +1141,59 @@
 #+end_src
 
 
+* Minimum price
+
+#+begin_src latex :tangle fig-probl-1_1004-min-price.tex
+  \begin{tikzpicture}[xscale=5, yscale=5]
+
+    \coordinate (DA1) at (0.16666667, 0.9) ;
+    \coordinate (DB1) at (0.83333333, 0.1) ;
+
+    \coordinate (OA1) at (0.16666667, 0.1) ;
+    \coordinate (OB1) at (0.83333333, 0.9) ;
+
+    \coordinate (PA1) at (0.16666667, 0.7) ;
+    \coordinate (PB1) at (0.83333333, 0.7) ;
+
+
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+    node[right] {$D$} ;
+
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+    node[right] {$O$} ;
+
+    \draw[curve, very thick, name path=P1] (PA1) -- (PB1)
+    node[right] {$P_{\min}$} ;
+
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$1000$} -|
+    (\x1, 0) node[below] {$75$}
+    ;
+    \node[dot] at (E1) {} ;
+
+    \path[name intersections={of=D1 and P1, by=Dm}] ;
+    \draw[help lines]
+    let \p1 = (Dm) in
+    (Dm) -- (\x1, 0) node[below] {$70$}
+    ;
+    \node[dot] at (Dm) {} ;
+
+    \path[name intersections={of=O1 and P1, by=Om}] ;
+    \draw[help lines]
+    let \p1 = (Om) in
+    (Om) -- (\x1, 0) node[below] {$80$}
+    ;
+    \node[dot] at (Om) {} ;
+
+    \draw[help lines]  (0, 0.7) node[left] {$1200$} ;
+
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.08] (0,0) -- (1, 0) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
 
 * Equilibrium and price ceiling
 

@@ -1009,14 +1009,14 @@
 
 21. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
-      X^d = \num{100000} - 25 P_X \\
-      X^o = \num{50000} + 25 P_X
+      X^d = 100 - P_X / 40 \\
+      X^o = 50 + P_X / 40
     \end{gather*}
 
     a) Determine el precio y la cantidad de equilibrio.
 
        #+begin_answer
-
+         En equilibrio, $P_X^* = \price{1000}$ y $X^* = \units{75}$.
        #+end_answer
 
     b) Describa y represente gráficamente los efectos sobre el mercado
@@ -1024,7 +1024,16 @@
        \price{1200}. ¿Cuántas unidades se venderían? ¿A qué precio?
 
        #+begin_answer
-
+         #+attr_latex: :options {0.6\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-min-price-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.4\linewidth}
+         #+begin_minipage
+           El precio mínimo está por encima del de equilibrio, por lo
+           que se venden 70 unidades a \price{1200} y hay un exceso de
+           oferta de 10 unidades.
+         #+end_minipage
        #+end_answer
 
 22. En un mercado competitivo en equilibrio se venden \num{96000}
