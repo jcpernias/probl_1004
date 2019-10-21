@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "spanish" -*-
+# -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
 #+TITLE: Cuaderno de ejercicios 4
