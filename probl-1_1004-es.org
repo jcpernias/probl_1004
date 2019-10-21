@@ -630,7 +630,11 @@
     demanda de cada conductor?
 
     #+begin_answer
+      El primer consumidor siempre demanda la misma cantidad: su
+      demanda, $Q^d = 15$, es perfectamente inelástica, $E_d = 0$.
 
+      El segundo siempre gasta lo mismo: su curva de demanda, $Q^d =
+      20 / P$, tiene elasticidad unitaria, $E_d = -1$.
     #+end_answer
 
 16. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
