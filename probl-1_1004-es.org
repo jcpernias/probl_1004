@@ -916,31 +916,95 @@
          Los abonos son un bien de lujo.
        #+end_answer
 
-20. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+20. En el mercado de un bien las curvas de demanda y de oferta son:
     \begin{gather*}
-      X^d = \num{100000} - 20 P_X \\
-      X^o = \num{40000} + 40 P_X
+      Q^d = \num{100000} - 20 P \\
+      Q^o = \num{40000} + 40 P
     \end{gather*}
 
     a) Determine el precio y la cantidad de equilibrio.
 
        #+begin_answer
-
+         #+attr_latex: :options {0.63\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-before-tax-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.37\linewidth}
+         #+begin_minipage
+           Equilibrio:
+           #+begin_export latex
+           \begin{gather*}
+             P^* = \price{1000} \\
+             Q^* = \units{80000}
+           \end{gather*}
+           #+end_export
+         #+end_minipage
        #+end_answer
 
     b) Describa y represente gráficamente los efectos sobre el mercado
        del bien $X$ del establecimiento de un impuesto sobre los
-       vendedores de \money{150} por unidad vendida.
+       vendedores de \money{150} por unidad vendida. ¿Cuánto pagarán
+       los compradores por cada unidad? ¿Cuánto ingresarán los
+       vendedores?
 
        #+begin_answer
+         #+attr_latex: :options {0.63\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-tax-sellers-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.37\linewidth}
+         #+begin_minipage
+           Curva de oferta:
+           #+begin_export latex
+           \[
+             Q^o = \num{34000} + 40 P
+           \]
+           #+end_export
 
+           Equilibrio:
+           #+begin_export latex
+           \begin{gather*}
+             P^* = \price{1100} \\
+             Q^* = \units{78000}
+           \end{gather*}
+           #+end_export
+         #+end_minipage
+
+         Los compradores pagan \money{1000} por unidad; \money{100}
+         más que antes de impuestos. Una vez descontados los
+         impuestos, los vendedores ingresan \money{950} por unidad;
+         \money{50} menos que antes de impuestos.
        #+end_answer
 
     c) ¿Cuál habría sido el resultado si el impuesto hubiese recaído
        sobre los compradores?
 
        #+begin_answer
+         #+attr_latex: :options {0.63\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-tax-buyers-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.37\linewidth}
+         #+begin_minipage
+           Curva de demanda:
+           #+begin_export latex
+           \[
+             Q^d = \num{97000} - 20 P
+           \]
+           #+end_export
 
+           Equilibrio:
+           #+begin_export latex
+           \begin{gather*}
+             P^* = \price{950} \\
+             Q^* = \units{78000}
+           \end{gather*}
+           #+end_export
+         #+end_minipage
+
+         El resultado es idéntico al apartado anterior. Los vendedores
+         cobran \money{950} por unidad. Los compradores pagan el
+         precio más el impuesto: un total de \money{1100} por unidad.
        #+end_answer
 
 21. En el mercado del bien $X$ las curvas de demanda y de oferta son:
