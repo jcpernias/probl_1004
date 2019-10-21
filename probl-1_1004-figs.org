@@ -956,6 +956,42 @@
 #+end_src
 
 
+* Ex. 19: Football
+
+
+** Equilibrium
+
+
+#+begin_src latex :tangle fig-probl-1_1004-football.tex
+  \begin{tikzpicture}[xscale=5, yscale=5]
+
+    \coordinate (DA1) at (0, 0.9366666667) ;
+    \coordinate (DB1) at (0.9366666667, 0) ;
+
+    \coordinate (OA1) at (0.4166666667, 0.94) ;
+    \coordinate (OB1) at (0.4166666667, 0) ;
+
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+    node[above right, pos=0.85] {$Q^d$} ;
+
+    \draw[curve, very thick, name path=O1] (OA1) node[right] {$Q^o$} -- (OB1)
+    node[below] {$\num{125000}$} ;
+
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$1560$} -- (E1) ;
+    ;
+
+    \draw[axis, very thick] (0, 1) node[left] {$P$} |-
+    (1, 0) node[below] {$Q$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+
 * Equilibrium and price ceiling
 
   #+begin_src latex :tangle fig-probl-1_1004-eq1.tex

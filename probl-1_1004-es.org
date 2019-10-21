@@ -811,8 +811,13 @@
        #+end_answer
 
 19. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
-    La demanda de abonos anuales de los aficionados es: \[Q =
-    \num{125000} - 100 P +10 P_O + 10 M,\] donde:
+    La demanda de abonos anuales de los aficionados es:
+    #+begin_export latex
+    \[
+      Q^d = \num{125000} - 100 P +10 P_O + 10 M,
+    \]
+    #+end_export
+    donde:
 
     - $P$ es el precio del abono del club.
 
@@ -828,30 +833,87 @@
        abonos y determine el equilibrio en este mercado.
 
        #+begin_answer
+         #+attr_latex: :options {0.63\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-football-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.37\linewidth}
+         #+begin_minipage
+           Curva de demanda:
+           #+begin_export latex
+           \[
+             Q^d = \num{281000} - 100 P
+           \]
+           #+end_export
 
+           Curva de oferta:
+           #+begin_export latex
+           \[
+             Q^o = \num{125000}
+           \]
+           #+end_export
+
+           Equilibrio:
+           #+begin_export latex
+           \begin{gather*}
+             P^* = \price{1560} \\
+             Q^* = \units{125000}
+           \end{gather*}
+           #+end_export
+         #+end_minipage
        #+end_answer
 
     b) Calcule las elasticidades de la demanda y de la oferta de abonos
        del club en la situación de equilibrio e interprete los valores
-       y los signos de esas elasticidades.
+       de esas elasticidades.
 
        #+begin_answer
+         Elasticidad precio de la demanda:
+         #+begin_export latex
+         \[
+           E_d = \frac{\diff Q^d}{\diff P} \frac{P}{Q^d} =
+           -100 \cdot\frac{1560}{\num{125000}} = -1.248
+         \]
+         #+end_export
+         Elasticidad precio de la oferta:
+         #+begin_export latex
+         \[
+           E_o = \frac{\diff Q^o}{\diff P} \frac{P}{Q^o} =
+           0 \cdot\frac{1560}{\num{125000}} = 0
+         \]
+         #+end_export
 
+         En el punto de equilibrio la demanda es elástica. La oferta
+         es perfectamente inelástica.
        #+end_answer
 
     c) Calcule la elasticidad de la demanda con respecto al precio del
        abono del equipo rival en la situación de equilibrio e
-       interprete el valor y el signo obtenidos.
+       interprete el valor obtenido.
 
        #+begin_answer
-
+         Elasticidad cruzada de la demanda:
+         #+begin_export latex
+         \[
+           E_d^{P_O} = \frac{\diff Q^d}{\diff P_O} \frac{P_O}{Q^d} =
+           10 \cdot\frac{600}{\num{125000}} = 0.048
+         \]
+         #+end_export
+         Los abonos de los dos equipos son débilmente sustitutivos.
        #+end_answer
 
     d) Calcule la elasticidad renta de la demanda en la situación de
-       equilibrio e interprete el valor y el signo obtenidos.
+       equilibrio e interprete el valor obtenido.
 
        #+begin_answer
-
+         Elasticidad renta de la demanda:
+         #+begin_export latex
+         \[
+           E_d^{M} = \frac{\diff Q^d}{\diff M} \frac{M}{Q^d} =
+           10 \cdot\frac{\num{15000}}{\num{125000}} = 1.2
+         \]
+         #+end_export
+         Los abonos son un bien de lujo.
        #+end_answer
 
 20. En el mercado del bien $X$ las curvas de demanda y de oferta son:
