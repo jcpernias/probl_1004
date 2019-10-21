@@ -764,20 +764,50 @@
     a) ¿Cuál es la elasticidad de la demanda al precio actual?
 
        #+begin_answer
-
+         #+begin_export latex
+         \[
+           E_d = \frac{\diff Q}{\diff P} \frac{P}{Q} =
+           -600 \cdot\frac{6}{2400} = -1.5
+         \]
+         #+end_export
        #+end_answer
 
     b) Si la empresa persigue aumentar sus ingresos, ¿sería conveniente
        que rebajase el peaje?
 
        #+begin_answer
-
+         Sí: se encuentra en un tramo elástico de la demanda por lo
+         que la relación entre precio e ingresos es negativa.
        #+end_answer
 
     c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
+       ¿Cuál es la elasticidad de la demanda en este caso?
 
        #+begin_answer
+         Obtenemos los ingresos multiplicado la demanda por el precio:
+         #+begin_export latex
+         \[
+           I = P Q = P (6000 - 600 P) = 6000 P - 600 P^2
+         \]
+         #+end_export
 
+         Derivamos los ingresos con respecto a $P$:
+         #+begin_export latex
+         \[
+           \frac{\diff I}{\diff P} = 6000 - 1200 P
+         \]
+         #+end_export
+         Igualando la expresión anterior a 0 y despejando obtenemos
+         $P^* = \price{5}$. El túnel lo usarían $3000$ viajeros y la
+         empresa obtendría unos ingresos de \money{15000}.
+
+         La elasticidad de la demanda es:
+         #+begin_export latex
+         \[
+           E_d = \frac{\diff Q}{\diff P} \frac{P}{Q} =
+           -600 \cdot\frac{5}{3000} = -1
+         \]
+         #+end_export
        #+end_answer
 
 19. Un club de fútbol dispone de un cupo máximo de \num{125000} socios.
