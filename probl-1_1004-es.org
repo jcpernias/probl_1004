@@ -562,13 +562,33 @@
          #+end_minipage
        #+end_answer
 
-13. El mercado de un bien inferior se encuentra en equilibrio. Si competitivo en equilibrio simultáneamente se
-    encarecen los costes de producción y aumenta la renta de los
-    consumidores, ¿aumentarán tanto el precio como la cantidad en el
-    nuevo equilibrio?
+13. El mercado de un bien inferior se encuentra en equilibrio. Si
+    simultáneamente se encarecen los costes de producción y aumenta la
+    renta de los consumidores, ¿disminuirán tanto el precio como la
+    cantidad en el nuevo equilibrio?
 
     #+begin_answer
+      #+attr_latex: :options {0.55\linewidth}
+      #+begin_minipage
+        #+MATS: fig fig-probl-1_1004-inferior1-*.pdf
+      #+end_minipage
+      #+attr_latex: :options {0.45\linewidth}
+      #+begin_minipage
+        La cantidad de equilibrio disminuye. El precio baja si el
+        cambio en la oferta es relativamente menor que el cambio en la
+        demanda.
+      #+end_minipage
 
+      #+attr_latex: :options {0.55\linewidth}
+      #+begin_minipage
+        #+MATS: fig fig-probl-1_1004-inferior2-*.pdf
+      #+end_minipage
+      #+attr_latex: :options {0.45\linewidth}
+      #+begin_minipage
+        La cantidad de equilibrio disminuye. El precio sube si el
+        cambio en la oferta es relativamente mayor que el cambio en la
+        demanda.
+      #+end_minipage
     #+end_answer
 
 14. Cuando un país subió los impuestos sobre el tabaco, el precio
