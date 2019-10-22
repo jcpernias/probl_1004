@@ -536,7 +536,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex10:xy-scale
-  [yscale = 0.9090909091, xscale = 0.9090909091]
+  [yscale = 0.81818181818, xscale = 0.81818181818]
 #+end_src
 
 
