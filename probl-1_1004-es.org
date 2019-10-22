@@ -715,7 +715,6 @@
        ¿se puede afirmar que $X$ es un bien inferior?
 
        #+begin_answer
-         Elasticidad renta de la demanda:
          #+begin_export latex
          \[
            E_d^{R} = \frac{\partial X^d}{\partial R} \frac{R}{X^d} =
