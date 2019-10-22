@@ -954,8 +954,8 @@
     (\x1, 0) node[below] {$125$}
     ;
 
-    \draw[axis, very thick] (0, 4.5) node[left] {$P$} |-
-    (4, 0) node[below] {$Q$} ;
+    \draw[axis, very thick] (0, 4.5) node[left] {$P_X$} |-
+    (4, 0) node[below] {$X$} ;
   \end{tikzpicture}
 #+end_src
 

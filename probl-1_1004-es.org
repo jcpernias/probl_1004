@@ -669,15 +669,15 @@
            Curva de demanda:
            #+begin_export latex
            \[
-             X^d = 425 - 30 P
+             X^d = 425 - 30 P_X
            \]
            #+end_export
 
            Equilibrio:
            #+begin_export latex
            \begin{gather*}
-             P^* = \price{10} \\
-             Q^* = \units{125}
+             P_X^* = \price{10} \\
+             X^* = \units{125}
            \end{gather*}
            #+end_export
          #+end_minipage
@@ -702,10 +702,9 @@
        relación existe entre los bienes $X$ e $Y$?
 
        #+begin_answer
-         Elasticidad cruzada de la demanda:
          #+begin_export latex
          \[
-           E_d^{P_Y} = \frac{\diff X^d}{\diff P_Y} \frac{P_Y}{X^d} =
+           E_d^{P_Y} = \frac{\partial X^d}{\partial P_Y} \frac{P_Y}{X^d} =
            -5 \cdot\frac{5}{125} = -0.2
          \]
          #+end_export
@@ -719,7 +718,7 @@
          Elasticidad renta de la demanda:
          #+begin_export latex
          \[
-           E_d^{R} = \frac{\diff X^d}{\diff R} \frac{R}{X^d} =
+           E_d^{R} = \frac{\partial X^d}{\partial R} \frac{R}{X^d} =
            2 \cdot\frac{100}{125} = 1.6
          \]
          #+end_export
