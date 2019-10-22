@@ -997,6 +997,7 @@
 
 * Ex. 20: Taxes
 
+
 ** Before taxes
 
 
@@ -1087,6 +1088,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** Tax on buyers
 
 
@@ -1148,7 +1150,7 @@
 * Minimum price
 
 #+begin_src latex :tangle fig-probl-1_1004-min-price.tex
-  \begin{tikzpicture}[xscale=5, yscale=5]
+  \begin{tikzpicture}[xscale=4, yscale=4]
 
     \coordinate (DA1) at (0.16666667, 0.9) ;
     \coordinate (DB1) at (0.83333333, 0.1) ;
@@ -1193,7 +1195,7 @@
 
     \draw[help lines]  (0, 0.7) node[left] {$1200$} ;
 
-    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P_X$};
     \draw[axis, very thick, ->, TwoMarks=0.08] (0,0) -- (1, 0) node[below] {$X$} ;
   \end{tikzpicture}
 #+end_src
