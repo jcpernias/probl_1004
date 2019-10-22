@@ -760,18 +760,9 @@
            I = P Q = P (6000 - 600 P) = 6000 P - 600 P^2
          \]
          #+end_export
-
-         Derivamos los ingresos con respecto a $P$:
-         #+begin_export latex
-         \[
-           \frac{\diff I}{\diff P} = 6000 - 1200 P
-         \]
-         #+end_export
-         Igualando la expresión anterior a 0 y despejando obtenemos
-         $P^* = \price{5}$. El túnel lo usarían $3000$ viajeros y la
-         empresa obtendría unos ingresos de \money{15000}.
-
-         La elasticidad de la demanda es:
+         Maximizando con respecto a P obtenemos $P^* = \price{5}$,
+         $Q^* = 3000$ viajeros e $I^* = \money{15000}$ al día. La
+         elasticidad de la demanda es:
          #+begin_export latex
          \[
            E_d = \frac{\diff Q}{\diff P} \frac{P}{Q} =
