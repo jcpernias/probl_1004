@@ -1024,12 +1024,16 @@
        precio? Represente gráficamente.
 
        #+begin_answer
-         Igualando oferta y demanda: $P_X^* = \price{45}$ y $X^* = 190$
-         unidades. Dado que el precio máximo es superior al precio de
-         equilibrio, nada impide que se alcance el equilibrio en este
-         mercado.
-
-         #+MATS: fig fig-probl-1_1004-eq1-*.pdf
+         #+attr_latex: :options {0.55\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-eq1-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.45\linewidth}
+         #+begin_minipage
+           El precio máximo es superior al
+           precio de equilibrio: nada impide que se alcance el
+           equilibrio en este mercado.
+         #+end_minipage
        #+end_answer
 
     b) Si la renta media aumenta hasta $R = \money{170}$, calcule
@@ -1037,15 +1041,18 @@
        precio. Represente gráficamente.
 
        #+begin_answer
-         Igualando la oferta y la nueva demanda se obtiene un precio
-         de equilibrio igual a $P_X^* = \price{65}$. Puesto que éste
-         es superior al precio máximo, el mercado no puede alcanzar el
-         equilibrio. Al precio $P_X = P_{X}^{\max} = \price{50}$ se
-         venderían todas las unidades ofrecidas, $X^o(50) = 200$, y se
-         produciría una situación de escasez dado que la demanda sería
-         mucho mayor: $X^d(50) = 305$ unidades.
 
-         #+MATS: fig fig-probl-1_1004-eq2-*.pdf
+         #+attr_latex: :options {0.55\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-1_1004-eq2-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.45\linewidth}
+         #+begin_minipage
+            El nuevo precio de equilibrio es $P_X^* = \price{65}$;
+            mayor que el precio máximo. Al precio máximo $P_X =
+            \price{50}$ se venderán todas las unidades ofrecidas,
+            $X^o(50) = \units{200}$.
+         #+end_minipage
        #+end_answer
 
 24. Razone la veracidad o falsedad de la siguiente afirmación: "Si se

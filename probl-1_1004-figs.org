@@ -1204,7 +1204,7 @@
 * Equilibrium and price ceiling
 
   #+begin_src latex :tangle fig-probl-1_1004-eq1.tex
-    \begin{tikzpicture}[xscale = 1, yscale = 2.28571]
+    \begin{tikzpicture}[xscale = 0.75, yscale = 2.28571]
 
       \draw[help lines]
       (0, 0.45) node[left] {$45$} -| (1.9, 0) node[below] {$190$} ;
@@ -1227,7 +1227,7 @@
   #+end_src
 
   #+begin_src latex :tangle fig-probl-1_1004-eq2.tex
-    \begin{tikzpicture}[xscale = 1, yscale = 2.28571]
+    \begin{tikzpicture}[xscale = 0.75, yscale = 2.28571]
 
       \draw[help lines]
       (2, 0.5) -- (2, 0) node[below] {$200$}
