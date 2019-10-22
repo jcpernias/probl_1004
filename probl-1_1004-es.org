@@ -26,9 +26,7 @@
       Producción, FPP.
 
       #+begin_answer
-
-          #+MATS: fig fig-probl-1_1004-ppf-sh1-*.pdf
-
+        #+MATS: fig fig-probl-1_1004-ppf-sh1-*.pdf
       #+end_answer
 
    b) ¿Qué efecto tendría sobre la FPP una mejora en las técnicas de
@@ -42,19 +40,22 @@
         #+attr_latex: :options {0.5\linewidth}
         #+begin_minipage
           #+MATS: fig fig-probl-1_1004-ppf-sh2-*.pdf
-        #+end_minipage
-        #+attr_latex: :options {0.5\linewidth}
-        #+begin_minipage
-          Una mejora tecnológica en la producción de comida.
-        #+end_minipage
 
+          #+latex: \begin{center}
+          #+latex: \begin{minipage}{0.8\linewidth}
+            Una mejora tecnológica en la producción de comida.
+          #+latex: \end{minipage}
+          #+latex: \end{center}
+        #+end_minipage
         #+attr_latex: :options {0.5\linewidth}
         #+begin_minipage
           #+MATS: fig fig-probl-1_1004-ppf-sh3-*.pdf
-        #+end_minipage
-        #+attr_latex: :options {0.5\linewidth}
-        #+begin_minipage
-          Una mejora organizativa en la producción de automóviles.
+
+          #+latex: \begin{center}
+          #+latex: \begin{minipage}{0.8\linewidth}
+            Una mejora organizativa en la producción de automóviles.
+          #+latex: \end{minipage}
+          #+latex: \end{center}
         #+end_minipage
 
         #+attr_latex: :options {0.5\linewidth}
@@ -81,16 +82,14 @@
           Desplazamiento a la izquierda de la FPP.
         #+end_minipage
       #+end_answer
-      #+latex: \ClearPage{}
 
 2. La tabla adjunta presenta diferentes combinaciones eficientes de
    producción para una economía en la que únicamente se producen dos
    bienes: $X$ e $Y$.
 
-   #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{r}
+   #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{>{\raggedleft\arraybackslash}p{2cm}}
    |-----+------------+------------|
    |     | $X$        | $Y$        |
-   |     | (unidades) | (unidades) |
    |-----+------------+------------|
    | *A* | \num{20}   | \num{0}    |
    | *B* | \num{18}   | \num{1}    |
@@ -113,7 +112,6 @@
           La FPP es cóncava.
         #+end_minipage
       #+end_answer
-      #+latex: \ClearPage{}
 
    b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades
       de $X$?  ¿Qué ocurre en esta situación?
@@ -154,7 +152,6 @@
         a $2$ unidades de $X$, mientras que el coste de oportunidad de
         la segunda es $3$ unidades de $X$.
       #+end_answer
-      #+latex: \ClearPage{}
 
 3. El siguiente gráfico representa la frontera de posibilidades de
    producción de una economía donde sólo se producen cocos y pescado:

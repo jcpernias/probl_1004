@@ -7,6 +7,7 @@
 
 * PPF shifts
 
+
 ** PPF
 #+begin_src latex :tangle fig-probl-1_1004-ppf-sh1.tex :noweb yes
   <<coord-xy2>>
@@ -30,6 +31,7 @@
     <<dot-nodes2>>
   \end{tikzpicture}
 #+end_src
+
 
 ** Technological change
 
@@ -80,6 +82,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** War
 
 #+begin_src latex :tangle fig-probl-1_1004-ppf-sh5.tex :noweb yes
@@ -97,8 +100,8 @@
   \end{tikzpicture}
 #+end_src
 
-** Common
 
+** Common
 
 *** Axes
 
@@ -109,7 +112,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref xy-scale2
-  [yscale = 0.4166666667, xscale = 0.375]
+  [yscale = 0.354166666667, xscale = 0.31875]
 #+end_src
 
 #+begin_src latex :noweb-ref small-axes2
@@ -150,6 +153,7 @@
        \Fx/\Fy/F, \Gx/\Gy/G, \Hx/\Hy/H}
     \coordinate (\z) at (\x, \y) ;
 #+end_src
+
 
 *** PPF curve
 
