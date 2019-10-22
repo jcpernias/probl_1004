@@ -660,19 +660,13 @@
            #+end_export
          #+end_minipage
 
-         Elasticidad precio de la demanda:
          #+begin_export latex
-         \[
+         \begin{gather*}
            E_d = \frac{\diff X^d}{\diff P_X} \frac{P_X}{X^d} =
-           -30 \cdot\frac{10}{125} = -2.4
-         \]
-         #+end_export
-         Elasticidad precio de la oferta:
-         #+begin_export latex
-         \[
+           -30 \cdot\frac{10}{125} = -2.4 \\[2ex]
            E_o = \frac{\diff X^o}{\diff P_X} \frac{P_X}{X^o} =
            15 \cdot\frac{10}{125} = 1.2
-         \]
+         \end{gather*}
          #+end_export
        #+end_answer
 
