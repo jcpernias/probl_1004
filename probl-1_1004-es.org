@@ -301,15 +301,13 @@
      #+end_minipage
      #+attr_latex: :options {0.5\linewidth}
      #+begin_minipage
-       Una enfermedad de los manzanos reducirá la oferta de
-       manzanas. Como consecuencia se venden menos manzanas a un
+       La oferta de manzanas se reduce. Se venden menos manzanas a un
        precio superior.
+
+       Los ingresos de los productores solo crecerán si el mercado se
+       encuentra en un tramo inelástico de la curva de demanda.
      #+end_minipage
 
-     Los ingresos de los productores solo crecerán si disminuye la
-     producción en una proporción menor a la que aumenta el precio: el
-     mercado se encontraría en un /tramo inelástico de la curva de
-     demanda/.
    #+end_answer
 
 9. Ante el aumento del consumo de drogas en un país, los expertos han
