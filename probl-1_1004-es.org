@@ -895,10 +895,9 @@
        #+end_answer
 
     b) Describa y represente gráficamente los efectos sobre el mercado
-       del bien $X$ del establecimiento de un impuesto sobre los
-       vendedores de \money{150} por unidad vendida. ¿Cuánto pagarán
-       los compradores por cada unidad? ¿Cuánto ingresarán los
-       vendedores?
+       del establecimiento de un impuesto sobre los vendedores de
+       \money{150} por unidad vendida. ¿Cuánto pagarán los compradores
+       por cada unidad? ¿Cuánto ingresarán los vendedores?
 
        #+begin_answer
          #+attr_latex: :options {0.63\linewidth}
@@ -907,7 +906,7 @@
          #+end_minipage
          #+attr_latex: :options {0.37\linewidth}
          #+begin_minipage
-           Curva de oferta:
+           Curva de oferta con impuesto:
            #+begin_export latex
            \[
              Q^o = \num{34000} + 40 P
@@ -923,10 +922,10 @@
            #+end_export
          #+end_minipage
 
-         Los compradores pagan \money{1000} por unidad; \money{100}
-         más que antes de impuestos. Una vez descontados los
-         impuestos, los vendedores ingresan \money{950} por unidad;
-         \money{50} menos que antes de impuestos.
+         Los compradores pagan \money{1100} por unidad; \money{100}
+         más que sin impuesto. Una vez descontado el impuesto, los
+         vendedores ingresan \money{950} por unidad; \money{50} menos
+         que sin impuesto.
        #+end_answer
 
     c) ¿Cuál habría sido el resultado si el impuesto hubiese recaído
@@ -939,7 +938,7 @@
          #+end_minipage
          #+attr_latex: :options {0.37\linewidth}
          #+begin_minipage
-           Curva de demanda:
+           Curva de demanda con impuesto:
            #+begin_export latex
            \[
              Q^d = \num{97000} - 20 P
@@ -955,9 +954,10 @@
            #+end_export
          #+end_minipage
 
-         El resultado es idéntico al apartado anterior. Los vendedores
-         cobran \money{950} por unidad. Los compradores pagan el
-         precio más el impuesto: un total de \money{1100} por unidad.
+         Los resultados son idénticos al apartado anterior. Mientras
+         que los vendedores cobran \money{950} por unidad, los
+         compradores pagan el precio más el impuesto: un total de
+         \money{1100} por unidad.
        #+end_answer
 
 21. En el mercado del bien $X$ las curvas de demanda y de oferta son:
