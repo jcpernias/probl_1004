@@ -176,8 +176,8 @@
 
    #+begin_answer
      La FPP no se desplaza ya que no hay más factores de producción
-     que en la situación inicial. Sólo se produce un movimiento entre
-     dos puntos, los cuales están situados debajo de la FPP.
+     que en la situación inicial. La economía se mueve de un punto
+     ineficiente a otro, ambos situados debajo de la FPP.
    #+end_answer
 
 5. El mercado de un bien está formado por tres compradores cuyas
