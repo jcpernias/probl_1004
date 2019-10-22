@@ -563,16 +563,10 @@
     la elasticidad de la demanda de tabaco.
 
     #+begin_answer
-      Utilizamos la fórmula del punto medio:
-      #+begin_export latex
-      \[
-        E_d = \iratio{Q^d}{P} \frac{P_m}{Q^d_m}
-      \]
-      #+end_export
       La pendiente de la curva de demanda es:
       #+begin_export latex
       \[
-        \iratio{Q^d}{P} = \frac{47.5 - 52}{4.6 - 4} = -7.5
+        \incr Q^d/\incr P = (47.5 - 52)/(4.6 - 4) = -7.5
       \]
       #+end_export
       El precio y la cantidad medios son:
@@ -582,7 +576,7 @@
         P_m = (4 + 4.6)/2 = 4.3.
       \]
       #+end_export
-      La elasticidad es:
+      La elasticidad, usando la fórmula del punto medio, es:
       #+begin_export latex
       \[
         E_d = -7.5 \cdot 4.3/ 49.75 \approx -0.65
