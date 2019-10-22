@@ -341,7 +341,7 @@
 * Market equilibrium
 
   #+begin_src latex :tangle fig-probl-1_1004-market-eq.tex
-    \begin{tikzpicture}[xscale = 0.625, yscale = 0.909090909090]
+    \begin{tikzpicture}[xscale = 0.5, yscale = 0.727272727272]
 
       \draw[help lines]
       (0, 2) node[left] {$2$} -| (3, 0) node[below] {$3000$}
