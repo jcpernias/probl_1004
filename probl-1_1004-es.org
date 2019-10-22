@@ -717,15 +717,14 @@
        que rebajase el peaje?
 
        #+begin_answer
-         Sí: se encuentra en un tramo elástico de la demanda por lo
-         que la relación entre precio e ingresos es negativa.
+         Sí: se encuentra en un tramo elástico de la demanda.
        #+end_answer
 
     c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
        ¿Cuál es la elasticidad de la demanda en este caso?
 
        #+begin_answer
-         Obtenemos los ingresos multiplicado la demanda por el precio:
+         Ingresos:
          #+begin_export latex
          \[
            I = P Q = P (6000 - 600 P) = 6000 P - 600 P^2
