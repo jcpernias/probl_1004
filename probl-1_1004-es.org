@@ -212,11 +212,11 @@
      \]
      #+end_export
 
-   #+attr_latex: :options {0.45\linewidth}
+   #+attr_latex: :options {0.40\linewidth}
    #+begin_minipage
      #+MATS: fig fig-probl-1_1004-market-demand-*.pdf
    #+end_minipage
-   #+attr_latex: :options {0.55\linewidth}
+   #+attr_latex: :options [b]{0.60\linewidth}
    #+begin_minipage
      #+begin_export latex
      \[
