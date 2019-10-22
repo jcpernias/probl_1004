@@ -355,7 +355,6 @@
     ordenadores tienen una demanda elástica. Suponga que como
     consecuencia del progreso tecnológico la oferta de ambos productos
     se duplica.
-    #+latex: \ClearPage
 
     a) ¿Qué ocurrirá con el equilibrio en cada uno de estos mercados?
        Represente gráficamente.
@@ -363,26 +362,22 @@
        #+begin_answer
          #+attr_latex: :options {0.5\linewidth}
          #+begin_minipage
+           #+latex: \begin{center}
+           #+latex: \begin{minipage}{0.65\linewidth}
+            Demanda inelástica.
+           #+latex: \end{minipage}
+           #+latex: \end{center}
            #+MATS: fig fig-probl-1_1004-medicines-*.pdf
-          #+latex: \begin{center}
-          #+latex: \begin{minipage}{0.65\linewidth}
-           Demanda inelástica.
-          #+latex: \end{minipage}
-          #+latex: \end{center}
          #+end_minipage
          #+attr_latex: :options {0.5\linewidth}
          #+begin_minipage
+           #+latex: \begin{center}
+           #+latex: \begin{minipage}{0.65\linewidth}
+            Demanda elástica.
+           #+latex: \end{minipage}
+           #+latex: \end{center}
            #+MATS: fig fig-probl-1_1004-computers-*.pdf
-          #+latex: \begin{center}
-          #+latex: \begin{minipage}{0.65\linewidth}
-           Demanda elástica.
-          #+latex: \end{minipage}
-          #+latex: \end{center}
          #+end_minipage
-         #+latex: \vspace*{1ex}
-
-         En los dos casos aumenta la cantidad de equilibrio y
-         disminuye el precio.
        #+end_answer
 
     b) ¿En qué mercado se experimentará el mayor cambio en el precio?
@@ -400,7 +395,7 @@
        #+begin_answer
          Cuando se reduce el precio en el mercado con demanda
          inelástica disminuye el gasto de los consumidores. En el
-         mercado con demanda elástica, el gasto aumentará.
+         mercado con demanda elástica, el gasto aumenta.
        #+end_answer
 
 11. En el mercado del bien $X$ las curvas de demanda y de oferta son:
