@@ -429,8 +429,8 @@
            Equilibrio:
            #+begin_export latex
            \begin{gather*}
-             P^* = \price{2500} \\
-             Q^* = \units{45000}
+             P^*_X = \price{2500} \\
+             X^* = \units{45000}
            \end{gather*}
            #+end_export
          #+end_minipage
@@ -459,24 +459,23 @@
        cambiarán el precio y la cantidad de equilibrio?
 
        #+begin_answer
-         #+attr_latex: :options {0.55\linewidth}
+         #+attr_latex: :options {0.5\linewidth}
          #+begin_minipage
            #+MATS: fig fig-probl-1_1004-comp2-*.pdf
+           #+latex: \begin{center}
+           #+latex: \begin{minipage}{0.85\linewidth}
+             Bien normal: el precio y la cantidad aumentan.
+           #+latex: \end{minipage}
+           #+latex: \end{center}
          #+end_minipage
-         #+attr_latex: :options {0.45\linewidth}
-         #+begin_minipage
-           En el caso de un bien normal la demanda aumenta y el precio y la
-           cantidad de equilibrio aumentan.
-         #+end_minipage
-
          #+attr_latex: :options {0.55\linewidth}
          #+begin_minipage
            #+MATS: fig fig-probl-1_1004-comp3-*.pdf
-         #+end_minipage
-         #+attr_latex: :options {0.45\linewidth}
-         #+begin_minipage
-           En el caso de un bien inferior la demanda disminuye y el
-           precio y la cantidad de equilibrio se reducen.
+           #+latex: \begin{center}
+           #+latex: \begin{minipage}{0.85\linewidth}
+             Bien inferior: el precio y la cantidad se reducen.
+           #+latex: \end{minipage}
+           #+latex: \end{center}
          #+end_minipage
        #+end_answer
 
@@ -506,7 +505,6 @@
            #+end_export
          #+end_minipage
        #+end_answer
-       #+latex: \ClearPage
 
     b) Calcule el nuevo equilibrio si la demanda aumenta en un 20%
        (para cada precio se demanda una cantidad un 20% superior) y la
@@ -547,26 +545,27 @@
     cantidad en el nuevo equilibrio?
 
     #+begin_answer
-      #+attr_latex: :options {0.55\linewidth}
+      #+attr_latex: :options {0.5\linewidth}
       #+begin_minipage
         #+MATS: fig fig-probl-1_1004-inferior1-*.pdf
+        #+latex: \begin{center}
+        #+latex: \begin{minipage}{0.85\linewidth}
+          La cantidad de equilibrio disminuye. El precio baja si el
+          cambio en la oferta es relativamente menor que el cambio en
+          la demanda.
+        #+latex: \end{minipage}
+        #+latex: \end{center}
       #+end_minipage
-      #+attr_latex: :options {0.45\linewidth}
-      #+begin_minipage
-        La cantidad de equilibrio disminuye. El precio baja si el
-        cambio en la oferta es relativamente menor que el cambio en la
-        demanda.
-      #+end_minipage
-
-      #+attr_latex: :options {0.55\linewidth}
+      #+attr_latex: :options {0.5\linewidth}
       #+begin_minipage
         #+MATS: fig fig-probl-1_1004-inferior2-*.pdf
-      #+end_minipage
-      #+attr_latex: :options {0.45\linewidth}
-      #+begin_minipage
-        La cantidad de equilibrio disminuye. El precio sube si el
-        cambio en la oferta es relativamente mayor que el cambio en la
-        demanda.
+        #+latex: \begin{center}
+        #+latex: \begin{minipage}{0.85\linewidth}
+          La cantidad de equilibrio disminuye. El precio sube si el
+          cambio en la oferta es relativamente mayor que el cambio en
+          la demanda.
+        #+latex: \end{minipage}
+        #+latex: \end{center}
       #+end_minipage
     #+end_answer
 
