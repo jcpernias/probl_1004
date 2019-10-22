@@ -607,21 +607,18 @@
     en aquello que prefiera?
 
     #+begin_answer
-      Las unidades de alimentos que inicialmente compra Ana durante un
-      año son: $Q = 5000 / 2 = \units{2500}$.
-
       El incremento porcentual de la renta de Ana a causa de la beca
-      es: $\incrpct{M} = \num{1000} / \num{25000} \times 100 = 4\%$.
-
-      Usando la elasticidad renta calculamos la variación del consumo
-      de alimentos:
+      es: $\incrpct{M} = \num{1000} / \num{25000} \times 100 =
+      4\%$. La variación del consumo de alimentos es:
       #+begin_export latex
       \[
         \incrpct{Q} = E_{d}^{M} \times \incrpct{M} = 0.5 \times 4= 2\%
       \]
       #+end_export
-      Por tanto, el consumo de alimentos de Ana aumenta un 2% y será
-      igual a $2550$ unidades.
+      Las unidades de alimentos que inicialmente compra Ana durante un
+      año son: $Q = 5000 / 2 = \units{2500}$. Después de recibir la
+      beca, el consumo de alimentos será un 2% superior:
+      $2550$ unidades.
     #+end_answer
 
 17. El mercado del bien $X$ está caracterizado por las siguientes
