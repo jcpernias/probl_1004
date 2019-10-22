@@ -355,8 +355,8 @@
        de drogas.
      #+end_minipage
 
-     En los dos casos aumenta la cantidad consumida, pero en el primer
-     escenario disminuye el precio y en el segundo aumenta el precio.
+     En los dos casos aumenta la cantidad consumida, pero el precio
+     disminuye en el primer escenario y aumenta en el segundo.
    #+end_answer
 
 10. Las medicinas tienen una demanda inelástica mientras que los
