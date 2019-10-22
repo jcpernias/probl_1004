@@ -251,25 +251,18 @@
       solución de equilibrio. Represente gráficamente.
 
       #+begin_answer
-        Demanda y oferta de mercado:
-        #+begin_export latex
-        \begin{gather*}
-          Q^d(P) = \sum_{i=1}^{1000} Q^d_i(P) = 5000 - 1000 P \\
-          Q^o(P) = \sum_{i=1}^{625} Q^o_i(P) = 1500 P
-        \end{gather*}
-        #+end_export
-
-        #+attr_latex: :options {0.5\linewidth}
+        #+attr_latex: :options {0.4\linewidth}
         #+begin_minipage
           #+MATS: fig fig-probl-1_1004-market-eq-*.pdf
         #+end_minipage
-        #+attr_latex: :options {0.5\linewidth}
+        #+attr_latex: :options {0.6\linewidth}
         #+begin_minipage
-        - Equilibrio:
+        - Demanda y oferta de mercado:
           #+begin_export latex
-          \[
-            P^* = \price{2}; \quad Q^* = \units{3000}.
-          \]
+          \begin{gather*}
+            Q^d(P) = 5000 - 1000 P \\
+            Q^o(P) = 1500 P
+          \end{gather*}
           #+end_export
         #+end_minipage
       #+end_answer

@@ -349,7 +349,7 @@
 
       \draw[curve, very thick]
       (0, 5) -- (5, 0) node[right, pos=0.85] {$Q^d$}
-      (0, 0) -- (7.5, 5) node[right] {$Q^o$}
+      (0, 0) -- (6.5, 4.333333) node[right] {$Q^o$}
       ;
 
       \node[dot] at (3, 2) {} ;
