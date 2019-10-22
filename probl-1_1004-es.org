@@ -369,23 +369,25 @@
        Represente gráficamente.
 
        #+begin_answer
-         #+attr_latex: :options {0.6\linewidth}
+         #+attr_latex: :options {0.5\linewidth}
          #+begin_minipage
            #+MATS: fig fig-probl-1_1004-medicines-*.pdf
-         #+end_minipage
-         #+attr_latex: :options {0.4\linewidth}
-         #+begin_minipage
+          #+latex: \begin{center}
+          #+latex: \begin{minipage}{0.65\linewidth}
            Demanda inelástica.
+          #+latex: \end{minipage}
+          #+latex: \end{center}
          #+end_minipage
-
-         #+attr_latex: :options {0.6\linewidth}
+         #+attr_latex: :options {0.5\linewidth}
          #+begin_minipage
            #+MATS: fig fig-probl-1_1004-computers-*.pdf
-         #+end_minipage
-         #+attr_latex: :options {0.4\linewidth}
-         #+begin_minipage
+          #+latex: \begin{center}
+          #+latex: \begin{minipage}{0.65\linewidth}
            Demanda elástica.
+          #+latex: \end{minipage}
+          #+latex: \end{center}
          #+end_minipage
+         #+latex: \vspace*{1ex}
 
          En los dos casos aumenta la cantidad de equilibrio y
          disminuye el precio.
@@ -399,7 +401,6 @@
          la cantidad. En el mercado con demanda menos elástica se ve
          más afectado el precio.
        #+end_answer
-       #+latex: \ClearPage
 
     c) ¿Cómo se verá afectado el gasto de los consumidores en cada
        bien?
@@ -407,8 +408,7 @@
        #+begin_answer
          Cuando se reduce el precio en el mercado con demanda
          inelástica disminuye el gasto de los consumidores. En el
-         mercado con demanda elástica, el precio y el gasto de los
-         consumidores se mueven en direcciones opuestas.
+         mercado con demanda elástica, el gasto aumentará.
        #+end_answer
 
 11. En el mercado del bien $X$ las curvas de demanda y de oferta son:
