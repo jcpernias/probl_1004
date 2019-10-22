@@ -391,6 +391,7 @@
 
 * The war on drugs
 
+
 ** Lack of police
 
 #+begin_src latex :tangle fig-probl-1_1004-drugs1.tex :noweb yes
@@ -435,6 +436,7 @@
 
 ** Common
 
+
 *** Axes
 
 #+begin_src latex :noweb-ref ex9:axes
@@ -443,7 +445,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex9:xy-scale
-  [yscale = 0.9090909091, xscale = 0.9090909091]
+  [yscale = 0.7272727272, xscale = 0.7272727272]
 #+end_src
 
 

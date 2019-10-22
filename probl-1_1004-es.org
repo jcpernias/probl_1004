@@ -314,7 +314,7 @@
    señalado dos posibles explicaciones alternativas:
 
    - Una presencia policial cada vez más reducida en las calles ha
-     facilitado el tráfico de drogas.
+     favorecido el aumento del número de traficantes.
 
    - La reducción de programas de educación y de apoyo a los adictos
      han reducido la concienciación de una parte de la sociedad acerca
@@ -326,24 +326,25 @@
    cantidad consumida de drogas?
 
    #+begin_answer
-     #+attr_latex: :options {0.55\linewidth}
+     #+attr_latex: :options {0.5\linewidth}
      #+begin_minipage
+       #+latex: \begin{center}
+       #+latex: \begin{minipage}{0.85\linewidth}
+         Falta de presencia policial.
+       #+latex: \end{minipage}
+       #+latex: \end{center}
+
        #+MATS: fig fig-probl-1_1004-drugs1-*.pdf
      #+end_minipage
-     #+attr_latex: :options {0.45\linewidth}
+     #+attr_latex: :options {0.5\linewidth}
      #+begin_minipage
-       La falta de presencia policial aumenta la oferta de drogas en
-       las calles.
-     #+end_minipage
+       #+latex: \begin{center}
+       #+latex: \begin{minipage}{0.85\linewidth}
+         Reducción de concienciación.
+       #+latex: \end{minipage}
+       #+latex: \end{center}
 
-     #+attr_latex: :options {0.55\linewidth}
-     #+begin_minipage
        #+MATS: fig fig-probl-1_1004-drugs2-*.pdf
-     #+end_minipage
-     #+attr_latex: :options {0.45\linewidth}
-     #+begin_minipage
-       La reducción de programas de concienciación aumenta la demanda
-       de drogas.
      #+end_minipage
 
      En los dos casos aumenta la cantidad consumida, pero el precio
