@@ -608,11 +608,11 @@
 
     #+begin_answer
       El incremento porcentual de la renta de Ana a causa de la beca
-      es: $\incrpct{M} = \num{1000} / \num{25000} \times 100 =
+      es: $\incrpct{M} = \num{1000} / \num{25000} \cdot 100 =
       4\%$. La variación del consumo de alimentos es:
       #+begin_export latex
       \[
-        \incrpct{Q} = E_{d}^{M} \times \incrpct{M} = 0.5 \times 4= 2\%
+        \incrpct{Q} = E_{d}^{M} \cdot \incrpct{M} = 0.5 \cdot 4= 2\%
       \]
       #+end_export
       Las unidades de alimentos que inicialmente compra Ana durante un
@@ -968,12 +968,12 @@
 
     #+begin_answer
       La regulación implica una caída del precio $\incrpct{P} =
-      -6/300\times100 = 2\%$. De acuerdo con las elasticidades
+      -6/300\cdot100 = 2\%$. De acuerdo con las elasticidades
       proporcionadas:
       #+begin_export latex
       \begin{gather*}
-        \incrpct{Q^{d}} = -1.5 \times (-2\%) = 3\% \\
-        \incrpct{Q^{o}} = 2 \times (-2\%) = -4\%
+        \incrpct{Q^{d}} = -1.5 \cdot (-2\%) = 3\% \\
+        \incrpct{Q^{o}} = 2 \cdot (-2\%) = -4\%
       \end{gather*}
       #+end_export
       Por lo que se produce un exceso de demanda de un 7% con respecto
@@ -1092,6 +1092,6 @@
          #+end_minipage
          Los caseros reciben \money{650} y los inquilinos pagan
          \money{450} por casa alquilada. El coste total del programa
-         de subvenciones asciende a $200 \times \num{11500} =
+         de subvenciones asciende a $200 \cdot \num{11500} =
          \money{2300000}$.
        #+end_answer
