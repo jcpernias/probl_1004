@@ -34,7 +34,7 @@
       trabajo? ¿Y una mejora organizativa en la cadena de producción
       de automóviles? ¿Y si ambas mejoras se produjesen
       simultáneamente como consecuencia de un progreso técnico
-      generalizado en la sociedad?
+      generalizado?
 
       #+begin_answer
         #+attr_latex: :options {0.5\linewidth}
