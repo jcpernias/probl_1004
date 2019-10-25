@@ -84,8 +84,8 @@
       #+end_answer
 
 2. La tabla adjunta presenta diferentes combinaciones eficientes de
-   producción para una economía en la que únicamente se producen dos
-   bienes: $X$ e $Y$.
+   producción para una economía en la que únicamente hay dos bienes:
+   $X$ e $Y$.
 
    #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{>{\raggedleft\arraybackslash}p{2cm}}
    |-----+------------+------------|
