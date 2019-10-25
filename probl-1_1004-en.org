@@ -68,10 +68,9 @@
    Sort the production options $A$, $B$, $C$, and $D$ from higher to
    lower opportunity cost of producing fish.
 
-4. Argumente la veracidad o falsedad de la siguiente afirmación:
-   "Cuando un gran número de desempleados encuentra un puesto de
-   trabajo, se produce un desplazamiento de la frontera de
-   posibilidades de producción hacia la derecha."
+4. State whether the following sentence is true or false and justify
+   your answer: "When a great number of unemployed workers find a job,
+   the production possibilities frontier shifts to the right."
 
 5. El mercado de un bien está formado por tres compradores cuyas
    curvas de demanda son:

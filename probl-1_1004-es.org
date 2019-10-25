@@ -169,10 +169,10 @@
      definido.
    #+end_answer
 
-4. Argumente la veracidad o falsedad de la siguiente afirmación:
-   "Cuando un gran número de desempleados encuentra un puesto de
-   trabajo, se produce un desplazamiento de la frontera de
-   posibilidades de producción hacia la derecha."
+4. Determine si la siguiente afirmación es verdadera o falsa y
+   justifique su respuesta: "Cuando un gran número de desempleados
+   encuentra un puesto de trabajo, la frontera de posibilidades de
+   producción se desplaza hacia la derecha."
 
    #+begin_answer
      La FPP no se desplaza ya que no hay más factores de producción
