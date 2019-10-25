@@ -60,13 +60,13 @@
    d) How many units of $X$ must be given up to produce the first
       unit of $Y$? And the second one?
 
-3. El siguiente gráfico representa la frontera de posibilidades de
-   producción de una economía donde sólo se producen cocos y pescado:
+3. The following figure shows the production possibilities frontier of
+   an economy where only fish and coconuts are produced:
 
    #+MATS: fig fig-probl-1_1004-ppf-*.pdf
 
-   Ordene las opciones de producción $A$, $B$, $C$ y $D$ de mayor a
-   menor coste de oportunidad de producir pescado.
+   Sort the production options $A$, $B$, $C$, and $D$ from higher to
+   lower opportunity cost of producing fish.
 
 4. Argumente la veracidad o falsedad de la siguiente afirmación:
    "Cuando un gran número de desempleados encuentra un puesto de

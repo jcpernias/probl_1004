@@ -103,6 +103,7 @@
 
 ** Common
 
+
 *** Axes
 
 #+begin_src latex :noweb-ref axes2
@@ -294,13 +295,18 @@
 * PPF and opportunity cost
 
 #+begin_src latex :tangle fig-probl-1_1004-ppf.tex
+  \deftranslation[to=Spanish]{Cocos}{Cocos}
+  \deftranslation[to=English]{Cocos}{Coconuts}
+  \deftranslation[to=Spanish]{Pescado}{Pescado}
+  \deftranslation[to=English]{Pescado}{Fish}
+
   \begin{tikzpicture}[xscale = 0.4, yscale = 0.3]
 
     \draw[curve, very thick, domain=0:8, samples=100]
     plot (\x, {8-0.125*\x^2}) ;
 
-    \draw[axis, very thick] (0,10) node[left] {Cocos} |-
-    (10, 0) node[below] {Pescado} ;
+    \draw[axis, very thick] (0,10) node[left] {\translate{Cocos}} |-
+    (10, 0) node[below] {\translate{Pescado}} ;
 
     \coordinate (A) at (1, 7.875) ;
     \coordinate (B) at (2, 3) ;
