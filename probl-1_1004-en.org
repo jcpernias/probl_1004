@@ -13,7 +13,7 @@
    #+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
    |-------------+--------------+---+-------------+--------------|
    | Labor       | Vehicles     |   | Labor       | Food         |
-   | (hours)     | (units)      |   | (units)     | (kg)         |
+   | (hours)     | (units)      |   | (hours)     | (kg)         |
    |-------------+--------------+---+-------------+--------------|
    | \num{0}     | \num{0}      |   | \num{0}     | \num{0}      |
    | \num{12500} | \num{40000}  |   | \num{12500} | \num{50000}  |
@@ -34,9 +34,8 @@
    c) Which would be the consequences on the PPF of the reduction of
       the labor hours by half as a result of an armed conflict?
 
-2. La tabla adjunta presenta diferentes combinaciones eficientes de
-   producción para una economía en la que únicamente se producen dos
-   bienes: $X$ e $Y$.
+2. The table below shows different efficient production combinations
+   for an economy in which there are only two goods: $X$ and $Y$.
 
    #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{>{\raggedleft\arraybackslash}p{2cm}}
    |-----+------------+------------|
@@ -50,17 +49,16 @@
    | *F* | \num{0}    | \num{5}    |
    |-----+------------+------------|
 
-   a) Represente la Frontera de Posibilidades de Producción, FPP. ¿Qué
-      tiene de particular la forma de la FPP?
+   a) Draw the PPF. What can be said about the particular shape of PPF?
 
-   b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades
-      de $X$?  ¿Qué ocurre en esta situación?
+   b) Is it feasible to produce 2 units of $Y$ and 10 units of $X$?
+      What happens in this situation?
 
-   c) Construya una tabla que refleje el coste de oportunidad de
-      producir cada unidad del bien $Y$.
+   c) Construct a table that reflects the opportunity cost of
+      producing each unit of $Y$.
 
-   d) ¿A cuántas unidades de $X$ se debe renunciar para producir la
-      primera unidad de $Y$? ¿Y la segunda?
+   d) How many units of $X$ must be given up to produce the first
+      unit of $Y$? And the second one?
 
 3. El siguiente gráfico representa la frontera de posibilidades de
    producción de una economía donde sólo se producen cocos y pescado:
@@ -402,7 +400,7 @@
    | *F* | \num{0}    | \num{5}    |
    |-----+------------+------------|
 
-   a) Draw the PPF.
+   a) Draw the PPF. What can be said about the particular shape of PPF?
 
    b) Is it feasible to produce 2 units of $Y$ and 10 units of $X$?
       What happens in this situation?
