@@ -180,8 +180,7 @@
      ineficiente a otro, ambos situados debajo de la FPP.
    #+end_answer
 
-5. El mercado de un bien está formado por tres compradores cuyas
-   curvas de demanda son:
+5. Hay tres compradores en un mercado cuyas curvas de demanda son:
 
    #+ATTR_LATEX: :center t :align lc
    | Comprador 1: | $Q^d_1(P) = 1000 - 10 P$ |

@@ -72,15 +72,14 @@
    your answer: "When a great number of unemployed workers find a job,
    the production possibilities frontier shifts to the right."
 
-5. El mercado de un bien está formado por tres compradores cuyas
-   curvas de demanda son:
+5. There are three buyers in a market whose demand curves are:
 
    #+ATTR_LATEX: :center t :align lc
-   | Comprador 1: | $Q^d_1(P) = 1000 - 10 P$ |
-   | Comprador 2: | $Q^d_2(P) = 600 - 2 P$   |
-   | Comprador 3: | $Q^d_3(P) = 750 - 5 P$   |
+   | Buyer 1: | $Q^d_1(P) = 1000 - 10 P$ |
+   | Buyer 2: | $Q^d_2(P) = 600 - 2 P$   |
+   | Buyer 3: | $Q^d_3(P) = 750 - 5 P$   |
 
-   Determine la curva de demanda de mercado.
+   Determine the market demand curve.
 
 6. En el mercado de un bien participan \num{1000} compradores
    idénticos, cada uno de ellos con curva de demanda:
