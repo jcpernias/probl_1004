@@ -464,8 +464,8 @@
          #+end_minipage
        #+end_answer
 
-12. El mercado de coches eléctricos de un país es competitivo y
-    actualmente las curvas de demanda y oferta son:
+12. El mercado de coches eléctricos de un país es competitivo y las
+    curvas de demanda y oferta son:
     #+begin_export latex
     \begin{gather*}
       Q^{d} = \num{10000} - P/6 \\
@@ -491,15 +491,14 @@
          #+end_minipage
        #+end_answer
 
-    b) Calcule el nuevo equilibrio si la demanda aumenta en un 20%
-       (para cada precio se demanda una cantidad un 20% superior) y la
-       oferta pasa a ser:
+    b) Calcule y represente el nuevo equilibrio si la demanda aumenta
+       en un 20% (la cantidad demandada es un 20% superior para cada
+       precio) y la oferta pasa a ser:
        #+begin_export latex
        \[
          Q^o = -2700 + P/2
        \]
        #+end_export
-       Represente gráficamente.
 
        #+begin_answer
          #+attr_latex: :options {0.5\linewidth}
