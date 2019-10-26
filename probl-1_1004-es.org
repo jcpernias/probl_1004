@@ -231,23 +231,22 @@
    #+end_minipage
    #+end_answer
 
-6. En el mercado de un bien participan \num{1000} compradores
-   idénticos, cada uno de ellos con curva de demanda:
+6. Considere un mercado competitivo donde participan \num{1000}
+   compradores idénticos, cada uno de ellos con curva de demanda:
    #+begin_export latex
    \[
      Q^d_i(P) = 5 - P, \qquad i = 1, ..., \num{1000}.
    \]
    #+end_export
-   El bien es vendido por \num{625} empresas idénticas, cada una
-   con curva de oferta:
+   En el mercado hay también \num{625} empresas idénticas con curva de
+   oferta:
    #+begin_export latex
    \[
      Q^o_j(P) = 2.4 P , \qquad j = 1, ..., \num{625}.
    \]
    #+end_export
 
-   a) Halle las curvas de demanda y oferta de mercado y la
-      solución de equilibrio. Represente gráficamente.
+   a) Halle y represente el equilibrio de mercado.
 
       #+begin_answer
         #+attr_latex: :options {0.4\linewidth}
@@ -266,8 +265,8 @@
         #+end_minipage
       #+end_answer
 
-   b) ¿Qué ocurriría si el precio de mercado fuera \price{4}? ¿Y si
-      el precio de mercado fuera \price{1}?
+   b) ¿Qué ocurriría si el precio fuera \price{4}? ¿Y si fuera
+      \price{1}?
 
       #+begin_answer
       Si el precio de mercado es $P = \price{4}$ se produce un exceso

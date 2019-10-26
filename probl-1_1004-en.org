@@ -81,26 +81,25 @@
 
    Determine the market demand curve.
 
-6. En el mercado de un bien participan \num{1000} compradores
-   idénticos, cada uno de ellos con curva de demanda:
+6. Consider a competitive market where \num{1000} identical buyers
+   participate, each one with demand curve:
    #+begin_export latex
    \[
      Q^d_i(P) = 5 - P, \qquad i = 1, ..., \num{1000}.
    \]
    #+end_export
-   El bien es vendido por \num{625} empresas idénticas, cada una
-   con curva de oferta:
+   There are also
+   \num{625} identical firms, each one with supply curve:
    #+begin_export latex
    \[
      Q^o_j(P) = 2.4 P , \qquad j = 1, ..., \num{625}.
    \]
    #+end_export
 
-   a) Halle las curvas de demanda y oferta de mercado y la
-      solución de equilibrio. Represente gráficamente.
+   a) Find and plot the market equilibrium.
 
-   b) ¿Qué ocurriría si el precio de mercado fuera \price{4}? ¿Y si
-      el precio de mercado fuera \price{1}?
+   b) What would happen if the price were \price{4}? And if it were
+      \price{1}?
 
 7. "Durante los años que van desde 2003 hasta 2006 el precio de la
    gasolina aumentó considerablemente y, sin embargo, el consumo de
@@ -347,67 +346,7 @@
 * Basic principles of economic organization                        :noexport:
 
 
-1. The total resources of a country are \num{50000} units of a
-   production factor (such as labour, capital or land) used to produce
-   two types of goods: vehicles and food. From the information
-   contained in the following table, which specifies the amount of
-   vehicles and food that can be produced with different quantities of
-   production factors:
 
-   #+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
-   |-------------+--------------+---+-------------+--------------|
-   | Factor      | Vehicles     |   | Factor      | Food         |
-   | (units)     | (units)      |   | (hourss)    | (Tm)         |
-   |-------------+--------------+---+-------------+--------------|
-   | \num{0}     | \num{0}      |   | \num{0}     | \num{0}      |
-   | \num{12500} | \num{40000}  |   | \num{12500} | \num{50000}  |
-   | \num{25000} | \num{70000}  |   | \num{25000} | \num{75000}  |
-   | \num{37500} | \num{90000}  |   | \num{37500} | \num{90000}  |
-   | \num{50000} | \num{100000} |   | \num{50000} | \num{100000} |
-   |-------------+--------------+---+-------------+--------------|
-
-   a) Draw the Production Possibility Frontier (PPF) of this country.
-
-   b) What can be said about the particular shape of PPF?
-
-   c) If the production of vehicles increases, would the opportunity
-      cost of vehicles increase or decrease?
-
-   d) What effect on the PPF would have an innovation that improves
-      the resistance of agricultural products to pests? And an
-      organizational improvement in the production of vehicles? And if
-      there is an increase in production efficiency in both goods due
-      to a general technical progress in society?
-
-   e) On the contrary, what effect would have on the PPF a war that
-      destroys half the units of the production factor?
-
-2. The table below shows different efficient production combinations
-   for an economy in which there are only two goods: $X$ and $Y$.
-
-   #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{r}
-   |-----+------------+------------|
-   |     | $X$        | $Y$        |
-   |     | (units)    | (units)    |
-   |-----+------------+------------|
-   | *A* | \num{20}   | \num{0}    |
-   | *B* | \num{18}   | \num{1}    |
-   | *C* | \num{15}   | \num{2}    |
-   | *D* | \num{11}   | \num{3}    |
-   | *E* | \num{6}    | \num{4}    |
-   | *F* | \num{0}    | \num{5}    |
-   |-----+------------+------------|
-
-   a) Draw the PPF. What can be said about the particular shape of PPF?
-
-   b) Is it feasible to produce 2 units of $Y$ and 10 units of $X$?
-      What happens in this situation?
-
-   c) Construct a table that reflects the opportunity cost of
-      producing each unit of $Y$.
-
-   d) How many units of $X$ must be given up to produce the second
-      unit of $Y$?
 
 3. In the market for good $X$ there are \num{1000} identical
    consumers, each with demand curve: \[X^D_i = 5 - P_X, \qquad i
