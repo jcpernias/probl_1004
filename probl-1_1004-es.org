@@ -308,27 +308,26 @@
 
    #+end_answer
 
-9. Ante el aumento del consumo de drogas en un país, los expertos han
-   señalado dos posibles explicaciones alternativas:
+9. Un país se enfrenta a un aumento del consumo de drogas. Los
+   expertos han propuesto dos explicaciones alternativas:
 
-   - Una presencia policial cada vez más reducida en las calles ha
-     favorecido el aumento del número de traficantes.
+   - El presupuesto policial cada vez más reducido ha incrementado la
+     presencia de drogas en la calle.
 
-   - La reducción de programas de educación y de apoyo a los adictos
-     han reducido la concienciación de una parte de la sociedad acerca
-     de los peligros de las drogas.
+   - Los recortes en programas educativos han reducido la consciencia
+     acerca de los peligros de las drogas.
 
    Utilice diagramas de oferta y demanda para analizar cada una de
    esas hipótesis. ¿Es posible discriminar entre esas dos
-   explicaciones observando qué ha ocurrido con el precio y la
-   cantidad consumida de drogas?
+   explicaciones observando qué ha ocurrido con el precio y el
+   consumo de drogas?
 
    #+begin_answer
      #+attr_latex: :options {0.5\linewidth}
      #+begin_minipage
        #+latex: \begin{center}
        #+latex: \begin{minipage}{0.85\linewidth}
-         Falta de presencia policial.
+         Menor presupuesto policial.
        #+latex: \end{minipage}
        #+latex: \end{center}
 
@@ -338,7 +337,7 @@
      #+begin_minipage
        #+latex: \begin{center}
        #+latex: \begin{minipage}{0.85\linewidth}
-         Reducción de concienciación.
+         Recortes en educación.
        #+latex: \end{minipage}
        #+latex: \end{center}
 

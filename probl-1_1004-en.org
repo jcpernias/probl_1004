@@ -110,20 +110,18 @@
    tree disease that adversely affects the harvest. Could farmers'
    revenues rise in that case? What conditions must be met?
 
-9. Ante el aumento del consumo de drogas en un país, los expertos han
-   señalado dos posibles explicaciones alternativas:
+9. A country is facing an increase in drug use. Experts have
+   put forward two alternative explanations:
 
-   - Una presencia policial cada vez más reducida en las calles ha
-     favorecido el aumento del número de traficantes.
+   - The decreasing police budget has led to an increase in drugs on
+     the streets.
 
-   - La reducción de programas de educación y de apoyo a los adictos
-     han reducido la concienciación de una parte de la sociedad acerca
-     de los peligros de las drogas.
+   - Cutbacks in education efforts have decreased awareness of the
+     dangers of drug use.
 
-   Utilice diagramas de oferta y demanda para analizar cada una de
-   esas hipótesis. ¿Es posible discriminar entre esas dos
-   explicaciones observando qué ha ocurrido con el precio y la
-   cantidad consumida de drogas?
+   Use demand and supply diagrams to analyze each of these
+   hypotheses. Is it possible to discern between the two explanations
+   by observing what happened to the price and the consumption of drugs?
 
 10. Medicines have inelastic demand, while computers have elastic
     demand. Suppose that the supply doubles on each of these markets
