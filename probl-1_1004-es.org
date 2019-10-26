@@ -698,7 +698,8 @@
     peaje que cobra a los usuarios del túnel. Actualmente el peaje es
     de \money{6} y \num{2400} conductores utilizan el túnel
     diariamente. Una consultora ha estimado que la función $Q =
-    \num{6000} - \num{600} P$ describe la demanda diaria del túnel.
+    \num{6000} - \num{600} P$ describe con precisión la demanda diaria
+    del túnel.
 
     a) ¿Cuál es la elasticidad de la demanda al precio actual?
 

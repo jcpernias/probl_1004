@@ -224,19 +224,19 @@
     c) Si la renta media de los consumidores disminuye en \money{10},
        ¿se puede afirmar que $X$ es un bien inferior?
 
-18. La empresa que gestiona un túnel se está planteando alterar el
-    peaje que cobra a los usuarios del túnel. Actualmente el peaje es
-    de \money{6} y \num{2400} conductores utilizan el túnel
-    diariamente. Una consultora ha estimado que la función $Q =
-    \num{6000} - \num{600} P$ describe la demanda diaria del túnel.
+18. The firm that operates a road tunnel is considering lowering the
+    toll it charges to the users of the tunnel. Currently, the toll is
+    \money{6} and 2400 drivers pass through the tunnel daily. A
+    consulting firm has estimated that the function $Q = \num{6000} -
+    \num{600} P$ accurately describes the daily demand of the tunnel.
 
-    a) ¿Cuál es la elasticidad de la demanda al precio actual?
+    a) What is the elasticity of demand at the current toll?
 
-    b) Si la empresa persigue aumentar sus ingresos, ¿sería conveniente
-       que rebajase el peaje?
+    b) If firm seeks to get higher returns, would it be reasonable to
+       reduce the toll?
 
-    c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
-       ¿Cuál es la elasticidad de la demanda en este caso?
+    c) Which toll would maximize the returns of the firm? What would
+       be the elasticity of demand in that case?
 
 19. Por limitaciones de su estadio, un club de fútbol puede ofrecer
     \num{125000} abonos anuales, cuya demanda es:
@@ -348,31 +348,6 @@
 
 
 
-3. In the market for good $X$ there are \num{1000} identical
-   consumers, each with demand curve: \[X^D_i = 5 - P_X, \qquad i
-   = 1, ..., \num{1000},\] The good $X$ is produced by
-   \num{500} identical firms, each with supply curve: \[X^O_j =
-   2.4 P_X , \qquad j = 1, ..., \num{500}. \]
-
-   a) Compute the market demand and supply curvas as well as the market
-      equilibrium solution.
-
-   b) Which would be the consequences in this market if producers
-      decide to set a price equal to \price{4}? And if they consider
-      that the best pricing strategy is to set a price equal to
-      \price{1}?
-
-   c) After an increase in the of consumers income, the market demand
-      curve becomes: \[X^D = \num{7500} - \num{1000} P_X.\] Find the
-      new equilibrium.
-
-   d) In the initial equilibrium, a technological improvement in the
-      sector shifts the market supply curve to: \[X^O =
-      \num{2500} + \num{1200} P_X.\] Find the new equilibrium.
-
-   e) In the initial equilibrium, what would happen if the government
-      decided to set a maximum price of \price{1} for this good? What
-      if the government set a minimum price of \price{3}?
 
 4. The firm that operates a toll tunnel is considering lowering the
    toll. Currently, it charges \money{6} and the tunnel is used daily by
@@ -386,25 +361,6 @@
 
    c) Which toll level would maximize the returns of the firm?
 
-5. A university offers 100 new places each year in the Bachelor's
-   Degree in Economics and the demand of those places is: \[ Q =
-   1901 - 2 P_{EC} + 0.1 P_{BA} \] where $Q$ are the number of
-   students enrolled in the Economics program; $P_{EC}$ and $P_{BA}$
-   are the tuition fees of the Bachelor's Degree in Economics and the
-   Bachelor's Degree in Business Administration, respectively. If
-   $P_{BA} = \money{1000}$:
-
-   a) What will happen if the university sets the tuition fees of the
-      Economics program equal to $P_{EC} = \money{1000}$?
-
-   b) What is the maximum fee the university should set it they want
-      to cover all the offered places?
-
-   c) What type of good is the Bachelor's Degree in Economics with
-      respect to the Bachelor's Degree in Business Administration?
-
-   d) Which effect on the Bachelor's Degree in Economics demand would
-      have an increase of $P_{BA}$?
 
 6. A football club has a maximum quota of \num{125000} members.  The
    demand for season tickets is: \[Q = \num{125000} - 100 P +10 P_O +
