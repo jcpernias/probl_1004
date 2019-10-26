@@ -596,13 +596,12 @@
       20 / P$, tiene elasticidad unitaria, $E_d = -1$.
     #+end_answer
 
-16. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
-    en alimentos al año y su renta monetaria anual es de
-    \money{25000}. En esta situación, la elasticidad-precio de su
-    demanda anual de alimentos es $-1$ mientras que la
-    elasticidad-renta es $0.5$. ¿Cuál sería el consumo de alimentos de
-    Ana si obtiene una beca de \money{1000} que puede gastar libremente
-    en aquello que prefiera?
+16. Ana paga \money{2} por cada unidad de alimentos, gasta
+    \money{5000} en alimentos al año y su renta monetaria anual es de
+    \money{25000}. La elasticidad-precio de su demanda de alimentos es
+    $-1$ mientras que la elasticidad-renta es $0.5$. Si Ana obtiene
+    una beca de \money{1000} que puede gastar libremente en aquello
+    que prefiera, ¿cuál sería su consumo de alimentos?
 
     #+begin_answer
       El incremento porcentual de la renta de Ana a causa de la beca

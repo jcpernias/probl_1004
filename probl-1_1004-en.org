@@ -194,13 +194,12 @@
     \money{20} de gasóleo. ¿Cuál es la elasticidad precio de la
     demanda de cada conductor?
 
-16. Ana paga \money{2} por cada unidad de alimentos, gasta \money{5000}
-    en alimentos al año y su renta monetaria anual es de
-    \money{25000}. En esta situación, la elasticidad-precio de su
-    demanda anual de alimentos es $-1$ mientras que la
-    elasticidad-renta es $0.5$. ¿Cuál sería el consumo de alimentos de
-    Ana si obtiene una beca de \money{1000} que puede gastar libremente
-    en aquello que prefiera?
+16. Anna pays \money{2} for each unit of food, spends \money{5000} per
+    year in food and her annual income is \money{25000}. The price
+    elasticity of her demand for food is $-1$ while the income
+    elasticity is $0.5$. If Anna wins a \money{1000} grant that she
+    can spend freely on what she prefers, what would be her food
+    consumption?
 
 17. El mercado del bien $X$ está caracterizado por las siguientes
     funciones de demanda y oferta:
