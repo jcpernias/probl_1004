@@ -238,38 +238,37 @@
     c) Which toll would maximize the returns of the firm? What would
        be the elasticity of demand in that case?
 
-19. Por limitaciones de su estadio, un club de fútbol puede ofrecer
-    \num{125000} abonos anuales, cuya demanda es:
+19. A football club offers \num{125000} season tickets. The demand
+    function for those tickets is:
     #+begin_export latex
     \[
       Q^d = \num{125000} - 100 P +10 P_O + 10 M,
     \]
     #+end_export
-    donde:
+    where:
 
-    - $P$ es el precio del abono.
+    - $P$ is the price of the season tickets.
 
-    - $P_O$ es el precio del abono del otro club con estadio en la
-      misma ciudad
+    - $P_O$ is the price of season tickets of other rival club whose
+      stadium is located in the same city.
 
-    - $M$ es la renta anual media de los aficionados.
+    - $M$ is the average yearly income of football fans.
 
-    Este año el equipo rival ha anunciado un precio de sus abonos de $P_O
-    = \money{600}$. Por otro lado, se estima que $M =  \money{15000}$.
+    The rival club is selling its seasonal tickets at $P_O =
+    \money{600}$. It is estimated that $M = \money{15000}$.
 
-    a) Represente gráficamente las curvas de demanda y de oferta de
-       abonos y determine el equilibrio en este mercado.
+    a) Plot the demand and supply curves of season tickets and find
+       the market equilibrium.
 
-    b) Calcule las elasticidades de la demanda y de la oferta de abonos
-       del club en la situación de equilibrio e interprete los valores
-       de esas elasticidades.
+    b) Compute the price elasticities of demand and supply at
+       equilibrium and explain the obtained values.
 
-    c) Calcule la elasticidad de la demanda con respecto al precio del
-       abono del equipo rival en la situación de equilibrio e
-       interprete el valor obtenido.
+    c) Compute the elasticity of demand with respect to the price for
+       the season tickets of the other club at equilibrium and explain
+       the value obtained.
 
-    d) Calcule la elasticidad renta de la demanda en la situación de
-       equilibrio e interprete el valor obtenido.
+    d) Calculate the income elasticity of demand at equilibrium and
+       explain the value obtained.
 
 20. En el mercado de un bien las curvas de demanda y de oferta son:
     \begin{gather*}
@@ -342,51 +341,3 @@
        ¿cuánto dinero pagarán los inquilinos? ¿Cuál será el alquiler
        que recibirán los caseros? ¿Cuál sería el coste total del
        programa de subvenciones?
-
-* Basic principles of economic organization                        :noexport:
-
-
-
-
-
-4. The firm that operates a toll tunnel is considering lowering the
-   toll. Currently, it charges \money{6} and the tunnel is used daily by
-   2400 drivers. A consultant has estimated that the function $Q =
-   \num{6000} - \num{600} P$ describes the daily demand of the tunnel.
-
-   a) What is the elasticity of demand at the current toll?
-
-   b) If the objective of the company is to get higher returns, would
-      you advise to reduce or to increase the toll?
-
-   c) Which toll level would maximize the returns of the firm?
-
-
-6. A football club has a maximum quota of \num{125000} members.  The
-   demand for season tickets is: \[Q = \num{125000} - 100 P +10 P_O +
-   10 M,\] where:
-
-   - $P$ is the price of the season tickets of the club.
-
-   - $P_O$ is the price of season tickets of other rival club whose
-     stadium is located in the same city.
-
-   - $M$ is the average yearly income of the football fans.
-
-   This year the rival club is selling its seasonal tickets at $P_O =
-   \money{600}$ and it is estimated that $M = \money{15000}$.
-
-   a) Compute the price the club should set in order to sell the
-      \num{125000} season tickets. Plot the demand and supply curves
-      of season tickets in this situation.
-
-   b) Compute the price elasticities of demand and supply in the
-      equilibrium situation. Explain the signs and values of the
-      elasticities.
-
-   c) Compute the elasticity of demand with respect to the price for
-      the season tickets of the other club in the equilibrium
-      situation. Explain the sign and value obtained.
-
-   d) Calculate the income elasticity of demand in the equilibrium
-      situation. Explain the sign and value obtained.

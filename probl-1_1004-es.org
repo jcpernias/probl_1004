@@ -740,8 +740,8 @@
          #+end_export
        #+end_answer
 
-19. Por limitaciones de su estadio, un club de fútbol puede ofrecer
-    \num{125000} abonos anuales, cuya demanda es:
+19. Un club de fútbol puede ofrecer \num{125000} abonos anuales. La
+    función de demanda de esos abonos es:
     #+begin_export latex
     \[
       Q^d = \num{125000} - 100 P +10 P_O + 10 M,
@@ -756,8 +756,8 @@
 
     - $M$ es la renta anual media de los aficionados.
 
-    Este año el equipo rival ha anunciado un precio de sus abonos de $P_O
-    = \money{600}$. Por otro lado, se estima que $M =  \money{15000}$.
+    El equipo rival vende sus abonos a un precio de $P_O =
+    \money{600}$. Se estima que $M = \money{15000}$.
 
     a) Represente gráficamente las curvas de demanda y de oferta de
        abonos y determine el equilibrio en este mercado.
