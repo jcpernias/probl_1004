@@ -288,8 +288,8 @@
 
 8. Considere un mercado competitivo de manzanas y use un diagrama de
    oferta y demanda para analizar cómo afectaría al equilibrio una
-   enfermedad de los manzanos que perjudique a la cosecha. ¿Es posible
-   que los ingresos de los agricultores aumenten en este caso? ¿Qué
+   enfermedad de los manzanos que perjudique a la cosecha. ¿Podrían
+   aumentar los ingresos de los agricultores en este caso?  ¿Qué
    condiciones se tendrían que cumplir?
 
    #+begin_answer
@@ -989,7 +989,8 @@
     precio del bien $Y$, siendo $R = \money{100}$ y $P_Y =
     \price{5}$. Una ley prohíbe que el precio de $X$ supere
     los $\money{50}$.
-    a) ¿Qué cantidad se venderá del bien $X$? ¿A qué
+
+    a) <<ex23:itema>>¿Qué cantidad se venderá del bien $X$? ¿A qué
        precio? Represente gráficamente.
 
        #+begin_answer
@@ -1005,9 +1006,8 @@
          #+end_minipage
        #+end_answer
 
-    b) Si la renta media aumenta hasta $R = \money{170}$, calcule
-       cuántas unidades de $X$ se venderán ahora y a qué
-       precio. Represente gráficamente.
+    b) Describa como cambiarían sus respuestas en [[ex23:itema]] si la
+       renta media aumentara hasta $R = \money{170}$.
 
        #+begin_answer
 

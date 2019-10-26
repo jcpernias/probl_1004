@@ -105,11 +105,10 @@
    gasolina aumentó considerablemente y, sin embargo, el consumo de
    gasolina creció." ¿Contradice esta afirmación la ley de la demanda?
 
-8. Considere un mercado competitivo de manzanas y use un diagrama de
-   oferta y demanda para analizar cómo afectaría al equilibrio una
-   enfermedad de los manzanos que perjudique a la cosecha. ¿Es posible
-   que los ingresos de los agricultores aumenten en este caso? ¿Qué
-   condiciones se tendrían que cumplir?
+8. Consider a competitive market for apples and draw a demand and
+   supply diagram showing the effects on the equilibrium of an apple
+   tree disease that adversely affects the harvest. Could farmers'
+   revenues rise in that case? What conditions must be met?
 
 9. Ante el aumento del consumo de drogas en un país, los expertos han
    señalado dos posibles explicaciones alternativas:
@@ -305,21 +304,21 @@
     estime el efecto que tendría una ley que establezca un precio
     máximo de \price{294}.
 
-23. Las curvas de demanda y oferta de mercado del bien $X$ son:
+23. The market demand and supply curves for good $X$ are:
     \begin{gather*}
-      X = 200 - 5 P_{X} + 3 P_{Y} + 2 R \\
+      X = 200 - 5 P_{X} + 3 P_{Y} + 2 I \\
       X = 100 + 2 P_{X}
     \end{gather*}
-    donde $R$ es la renta media de los consumidores y $P_Y$ es el
-    precio del bien $Y$, siendo $R = \money{100}$ y $P_Y =
-    \price{5}$. Una ley prohíbe que el precio de $X$ supere
-    los $\money{50}$.
-    a) ¿Qué cantidad se venderá del bien $X$? ¿A qué
-       precio? Represente gráficamente.
+    where $I$ is the consumers' average income and $P_Y$ is the price
+    of good $Y$, with $I = \money{100}$ and $P_Y = \price{5}$. A law
+    has been passed that does not allow $P_X$ to rise above
+    $\money{50}$.
 
-    b) Si la renta media aumenta hasta $R = \money{170}$, calcule
-       cuántas unidades de $X$ se venderán ahora y a qué
-       precio. Represente gráficamente.
+    a) <<ex23:itema>>How many units of $X$ will be sold? At what
+       price? Represent graphically.
+
+    b) Describe how your answers in [[ex23:itema]] would change if average
+       income increased up to $I = \money{170}$.
 
 24. Razone la veracidad o falsedad de la siguiente afirmación: "Si se
     establece un precio máximo superior al precio de equilibrio, la
