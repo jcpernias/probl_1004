@@ -135,23 +135,25 @@
 
     c) How will consumer spending on each product be affected?
 
-11. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+11. The demand and supply curves of the market for good $X$ are:
+    #+begin_export latex
     \begin{gather*}
       X^d = \num{85000} - 20 P_X \\
       X^o = \num{15000} + 15 P_X
     \end{gather*}
+    #+end_export
 
-    a) Determine el precio y la cantidad de equilibrio.
+    a) Determine the equilibrium price and quantity.
 
-    b) Represente gráficamente los efectos sobre el equilibrio de un
-       aumento del precio de un bien sustitutivo, /ceteris
-       paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
-       precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
+    b) Plot the effects on the market equilibrium of an increase in
+       the price of a substituitive good. Is it possible to
+       unequivocally predict how the equilibrium price of good $X$
+       will change? And the equilibrium quantity?
 
-    c) Partiendo de la situación inicial, represente los efectos sobre
-       el equilibrio de un aumento de la renta de los consumidores,
-       /ceteris paribus/. ¿Es posible predecir inequívocamente cómo
-       cambiarán el precio y la cantidad de equilibrio?
+    c) Starting from the initial equilibrium, consider now the effects
+       of an increase in the consumers' income. Is it possible to
+       unambiguously predict how the equilibrium price and quantity
+       will change?
 
 12. El mercado de coches eléctricos de un país es competitivo y
     actualmente las curvas de demanda y oferta son:
@@ -161,6 +163,7 @@
       Q^{o} = -6000 + P/2
     \end{gather*}
     #+end_export
+
     a) Determine el precio y la cantidad de equilibrio.
 
     b) Calcule el nuevo equilibrio si la demanda aumenta en un 20%

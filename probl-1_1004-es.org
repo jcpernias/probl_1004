@@ -395,11 +395,13 @@
          mercado con demanda elástica, el gasto aumenta.
        #+end_answer
 
-11. En el mercado del bien $X$ las curvas de demanda y de oferta son:
+11. Las curvas de demanda y de oferta del mercado del bien $X$ son:
+    #+begin_export latex
     \begin{gather*}
       X^d = \num{85000} - 20 P_X \\
       X^o = \num{15000} + 15 P_X
     \end{gather*}
+    #+end_export
 
     a) Determine el precio y la cantidad de equilibrio.
 
@@ -421,9 +423,9 @@
        #+end_answer
 
     b) Represente gráficamente los efectos sobre el equilibrio de un
-       aumento del precio de un bien sustitutivo, /ceteris
-       paribus/. ¿Es posible predecir inequívocamente cómo cambiará el
-       precio de equilibrio del bien $X$? ¿Y la cantidad de equilibrio?
+       aumento del precio de un bien sustitutivo. ¿Es posible predecir
+       inequívocamente cómo cambiará el precio de equilibrio del bien
+       $X$? ¿Y la cantidad de equilibrio?
 
        #+begin_answer
          #+attr_latex: :options {0.55\linewidth}
@@ -432,15 +434,14 @@
          #+end_minipage
          #+attr_latex: :options {0.45\linewidth}
          #+begin_minipage
-           Como consecuencia del aumento de la demanda, el precio y la
-           cantidad de equilibrio aumentan.
+           El precio y la cantidad de equilibrio aumentan.
          #+end_minipage
        #+end_answer
 
-    c) Partiendo de la situación inicial, represente los efectos sobre
-       el equilibrio de un aumento de la renta de los consumidores,
-       /ceteris paribus/. ¿Es posible predecir inequívocamente cómo
-       cambiarán el precio y la cantidad de equilibrio?
+    c) Partiendo del equilibrio inicial, considere ahora los efectos
+       de un aumento de la renta de los consumidores. ¿Es posible
+       predecir con total certeza cómo cambiarán el precio y la
+       cantidad de equilibrio?
 
        #+begin_answer
          #+attr_latex: :options {0.5\linewidth}
