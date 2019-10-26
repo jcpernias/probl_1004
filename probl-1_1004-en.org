@@ -175,10 +175,9 @@
        \]
        #+end_export
 
-13. El mercado de un bien inferior se encuentra en equilibrio. Si
-    simultáneamente se encarecen los costes de producción y aumenta la
-    renta de los consumidores, ¿disminuirán tanto el precio como la
-    cantidad en el nuevo equilibrio?
+13. The market for an inferior good is in equilibrium. If production
+    costs and consumer income increase simultaneously, will both the
+    price and the quantity decrease in the new equilibrium?
 
 14. Cuando un país subió los impuestos sobre el tabaco, el precio
     medio de la cajetilla subió de \money{4} a \money{4.6}. Se estimó

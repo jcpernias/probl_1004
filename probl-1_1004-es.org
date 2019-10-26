@@ -524,9 +524,9 @@
        #+end_answer
 
 13. El mercado de un bien inferior se encuentra en equilibrio. Si
-    simultáneamente se encarecen los costes de producción y aumenta la
-    renta de los consumidores, ¿disminuirán tanto el precio como la
-    cantidad en el nuevo equilibrio?
+    simultáneamente aumentan los costes de producción y la renta de
+    los consumidores, ¿disminuirán tanto el precio como la cantidad en
+    el nuevo equilibrio?
 
     #+begin_answer
       #+attr_latex: :options {0.5\linewidth}
