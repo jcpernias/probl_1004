@@ -98,8 +98,8 @@
 
    a) Find and plot the market equilibrium.
 
-   b) What would happen if the price were \price{4}? And if it were
-      \price{1}?
+   b) What would happen if the price were \price{4}? And if the price
+      were \price{1}?
 
 7. "Durante los años que van desde 2003 hasta 2006 el precio de la
    gasolina aumentó considerablemente y, sin embargo, el consumo de
