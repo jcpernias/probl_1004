@@ -132,3 +132,11 @@
 
 %% Add space between exercises
 \setlist[1]{itemsep=\baselineskip}
+
+
+\ifbool{langES}{%
+  \setlist[enumerate,2]{label = \emph{\alph*})}
+  }{}
+\ifbool{langEN}{%
+  \setlist[enumerate,2]{label = (\alph*)}
+  }{}
