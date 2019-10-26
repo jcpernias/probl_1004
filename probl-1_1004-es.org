@@ -582,11 +582,11 @@
       #+end_export
     #+end_answer
 
-15. Dos conductores repostan todos los lunes en la misma
-    gasolinera. Ninguno de los dos mira nunca el precio y siempre
-    actúan igual: mientras que uno pide $15$ litros, el otro pide
-    \money{20} de gasóleo. ¿Cuál es la elasticidad precio de la
-    demanda de cada conductor?
+15. Dos conductores repostan todos los lunes en la misma gasolinera y
+    ninguno comprueba el precio antes de hacer su pedido. Mientras que
+    el primero siempre pide $15$ litros, el segundo siempre pide
+    \money{20} de gasóleo. ¿Cuáles son las elasticidades precio de la
+    demanda de gasóleo de cada conductor?
 
     #+begin_answer
       El primer consumidor siempre demanda la misma cantidad: su

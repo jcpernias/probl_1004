@@ -185,11 +185,11 @@
     $52$ to $47.5$ million packs due to the price increase.  Calculate
     the price elasticity of cigarette demand.
 
-15. Dos conductores repostan todos los lunes en la misma
-    gasolinera. Ninguno de los dos mira nunca el precio y siempre
-    actúan igual: mientras que uno pide $15$ litros, el otro pide
-    \money{20} de gasóleo. ¿Cuál es la elasticidad precio de la
-    demanda de cada conductor?
+15. Two drivers pull up to the same gas station every Monday and place
+    their orders without checking first the price. While the first
+    driver always asks for 15 liters, the second one always asks for
+    20€ worth of gas. What are the price elasticities of demand for
+    gas of each driver?
 
 16. Anna pays \money{2} for each unit of food, spends \money{5000} per
     year in food and her annual income is \money{25000}. The price
