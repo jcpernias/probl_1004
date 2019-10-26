@@ -179,11 +179,11 @@
     costs and consumer income increase simultaneously, will both the
     price and the quantity decrease in the new equilibrium?
 
-14. Cuando un país subió los impuestos sobre el tabaco, el precio
-    medio de la cajetilla subió de \money{4} a \money{4.6}. Se estimó
-    que como consecuencia de esta subida de precio la cantidad
-    demandada cayó de $52$ a $47.5$ millones de cajetillas.  Calcule
-    la elasticidad de la demanda de tabaco.
+14. When the government of a country increased the cigarette tax, the
+    price of cigarettes rose from \money{4} to \money{4.6} per
+    pack. Economists estimate that the quantity demanded dropped from
+    $52$ to $47.5$ million packs due to the price increase.  Calculate
+    the price elasticity of cigarette demand.
 
 15. Dos conductores repostan todos los lunes en la misma
     gasolinera. Ninguno de los dos mira nunca el precio y siempre
