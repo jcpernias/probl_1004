@@ -34,8 +34,8 @@
    c) Which would be the consequences on the PPF of the reduction of
       the labor hours by half as a result of an armed conflict?
 
-2. The table below shows different efficient production combinations
-   for an economy in which there are only two goods: $X$ and $Y$.
+2. The table below shows different efficient combinations for an
+   economy in which only two goods are produced: $X$ and $Y$.
 
    #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{>{\raggedleft\arraybackslash}p{2cm}}
    |-----+------------+------------|
