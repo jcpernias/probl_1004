@@ -125,19 +125,17 @@
    explicaciones observando qué ha ocurrido con el precio y la
    cantidad consumida de drogas?
 
-10. Las medicinas tienen una demanda inelástica mientras que los
-    ordenadores tienen una demanda elástica. Suponga que como
-    consecuencia del progreso tecnológico la oferta de ambos productos
-    se duplica.
+10. Medicines have inelastic demand, while computers have elastic
+    demand. Suppose that the supply doubles on each of these markets
+    as a consequence of technological progress.
 
-    a) ¿Qué ocurrirá con el equilibrio en cada uno de estos mercados?
-       Represente gráficamente.
+    a) What happens to the equilibrium of those markets?  Represent
+       graphically.
 
-    b) ¿En qué mercado se experimentará el mayor cambio en el precio?
-       ¿Y el mayor cambio en la cantidad?
+    b) Which market will experience a larger change in price?  And a
+       larger change in quantity?
 
-    c) ¿Cómo se verá afectado el gasto de los consumidores en cada
-       bien?
+    c) How will consumer spending on each product be affected?
 
 11. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}

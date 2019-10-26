@@ -349,10 +349,10 @@
      disminuye en el primer escenario y aumenta en el segundo.
    #+end_answer
 
-10. Las medicinas tienen una demanda inelástica mientras que los
-    ordenadores tienen una demanda elástica. Suponga que como
-    consecuencia del progreso tecnológico la oferta de ambos productos
-    se duplica.
+10. Las medicinas tienen demanda inelástica mientras que los
+    ordenadores tienen demanda elástica. Suponga que la oferta se
+    duplica en cada uno de esos mercados como consecuencia del
+    progreso tecnológico.
 
     a) ¿Qué ocurrirá con el equilibrio en cada uno de estos mercados?
        Represente gráficamente.
@@ -390,7 +390,7 @@
     c) ¿Cómo se verá afectado el gasto de los consumidores en cada
        bien?
 
-       #+begin_answer
+       #+Begin_answer
          Cuando se reduce el precio en el mercado con demanda
          inelástica disminuye el gasto de los consumidores. En el
          mercado con demanda elástica, el gasto aumenta.
