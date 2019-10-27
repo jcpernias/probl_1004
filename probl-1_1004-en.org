@@ -325,8 +325,8 @@
     maximum price is set above the equilibrium price, the quantity
     sold will be the same as the equilibrium quantity."
 
-25. El mercado de alquiler en una ciudad está representado por las
-    curvas de demanda y de oferta:
+25. The residential rental market in a city is represented by the
+    demand and supply curves:
     #+begin_export latex
     \begin{gather*}
       Q^{d} = \num{25000} - 30 P \\
@@ -334,9 +334,8 @@
     \end{gather*}
     #+end_export
 
-    a) Determine el equilibrio en este mercado.
+    a) Determine the market equilibrium.
 
-    b) Si se establece una subvención a cada inquilino de \money{200},
-       ¿cuánto dinero pagarán los inquilinos? ¿Cuál será el alquiler
-       que recibirán los caseros? ¿Cuál sería el coste total del
-       programa de subvenciones?
+    b) If tenants get a \money{200} rental subsidy, how much will pay
+       tenants?  How much will landlords receive? Which will be the
+       total cost of the subsidy?

@@ -1038,8 +1038,8 @@
       que se ajuste por lo que la afirmación es verdadera.
     #+end_answer
 
-25. El mercado de alquiler en una ciudad está representado por las
-    curvas de demanda y de oferta:
+25. El mercado de alquiler de viviendas en una ciudad está
+    representado por las curvas de demanda y de oferta:
     #+begin_export latex
     \begin{gather*}
       Q^{d} = \num{25000} - 30 P \\
@@ -1047,7 +1047,7 @@
     \end{gather*}
     #+end_export
 
-    a) Determine el equilibrio en este mercado.
+    a) Determine el equilibrio de mercado.
 
        #+begin_answer
          #+attr_latex: :options {0.6\linewidth}
@@ -1066,10 +1066,9 @@
          #+end_minipage
        #+end_answer
 
-    b) Si se establece una subvención a cada inquilino de \money{200},
-       ¿cuánto dinero pagarán los inquilinos? ¿Cuál será el alquiler
-       que recibirán los caseros? ¿Cuál sería el coste total del
-       programa de subvenciones?
+    b) Si los inquilinos reciben una subvención al alquiler de
+       \money{200}, ¿cuánto pagarán los inquilinos? ¿Cuánto recibirán
+       los caseros? ¿Cuál será el coste total de las subvenciones?
 
        #+begin_answer
          #+attr_latex: :options {0.6\linewidth}
