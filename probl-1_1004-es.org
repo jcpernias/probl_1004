@@ -305,7 +305,6 @@
        Los ingresos de los productores solo crecerán si el mercado se
        encuentra en un tramo inelástico de la curva de demanda.
      #+end_minipage
-
    #+end_answer
 
 9. Un país se enfrenta a un aumento del consumo de drogas. Los
