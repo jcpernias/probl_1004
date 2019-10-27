@@ -862,10 +862,11 @@
          #+end_minipage
        #+end_answer
 
-    b) Describa y represente gráficamente los efectos sobre el mercado
-       del establecimiento de un impuesto sobre los vendedores de
-       \money{150} por unidad vendida. ¿Cuánto pagarán los compradores
-       por cada unidad? ¿Cuánto ingresarán los vendedores?
+    b) <<ex20:itemb>>Describa y represente gráficamente los efectos
+       sobre el mercado del establecimiento de un impuesto sobre los
+       vendedores de \money{150} por unidad vendida. ¿Cuánto pagarán
+       los compradores por cada unidad? ¿Cuánto ingresarán los
+       vendedores por unidad?
 
        #+begin_answer
          #+attr_latex: :options {0.63\linewidth}
@@ -896,8 +897,8 @@
          que sin impuesto.
        #+end_answer
 
-    c) ¿Cuál habría sido el resultado si el impuesto hubiese recaído
-       sobre los compradores?
+    c) Explique como cambiarían sus respuestas en [[ex20:itemb]] si el
+       impuesto se estableciera sobre los compradores.
 
        #+begin_answer
          #+attr_latex: :options {0.63\linewidth}

@@ -265,21 +265,21 @@
     d) Calculate the income elasticity of demand at equilibrium and
        explain the value obtained.
 
-20. En el mercado de un bien las curvas de demanda y de oferta son:
+20. In a competitive market, the demand and supply curves are:
     \begin{gather*}
       Q^d = \num{100000} - 20 P \\
       Q^o = \num{40000} + 40 P
     \end{gather*}
 
-    a) Determine el precio y la cantidad de equilibrio.
+    a) Determine the equilibrium price and quantity.
 
-    b) Describa y represente gráficamente los efectos sobre el mercado
-       del establecimiento de un impuesto sobre los vendedores de
-       \money{150} por unidad vendida. ¿Cuánto pagarán los compradores
-       por cada unidad? ¿Cuánto ingresarán los vendedores?
+    b) <<ex20:itemb>>Describe and show graphically the effects on this
+       market of a tax of \money{150} per unit imposed on sellers. How
+       much money will buyers pay per unit? How much will sellers
+       receive per unit?
 
-    c) ¿Cuál habría sido el resultado si el impuesto hubiese recaído
-       sobre los compradores?
+    c) Explain how your answers in [[ex20:itemb]] would change if the tax
+       were levied on buyers.
 
 21. En el mercado del bien $X$ las curvas de demanda y de oferta son:
     \begin{gather*}
