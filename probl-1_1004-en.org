@@ -311,7 +311,7 @@
     \end{gather*}
     #+end_export
     where $I$ is the consumers' average income and $P_Y$ is the price
-    of good $Y$, with $I = \money{100}$ and $P_Y = \price{5}$. A law
+    of good $Y$, with $I = \money{100}$ and $P_Y = \price{5}$. A law
     has been passed that does not allow $P_X$ to rise above
     $\money{50}$.
 
@@ -321,10 +321,9 @@
     b) Describe how your answers in [[ex23:itema]] would change if average
        income increased up to $I = \money{170}$.
 
-24. Razone la veracidad o falsedad de la siguiente afirmación: "Si se
-    establece un precio máximo superior al precio de equilibrio, la
-    cantidad comprada y la cantidad vendida coincidirá con el
-    equilibrio en este mercado."
+24. Discuss the truth or falsity of the following statement: "If a
+    maximum price is set above the equilibrium price, the quantity
+    sold will be the same as the equilibrium quantity."
 
 25. El mercado de alquiler en una ciudad está representado por las
     curvas de demanda y de oferta:
