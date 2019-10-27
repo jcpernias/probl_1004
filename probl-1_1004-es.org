@@ -286,8 +286,8 @@
      también otros determinantes de la demanda de gasolina.
    #+end_answer
 
-8. Considere un mercado competitivo de manzanas y use un diagrama de
-   oferta y demanda para analizar cómo afectaría al equilibrio una
+8. Considere un mercado competitivo de manzanas y trace un diagrama de
+   oferta y demanda que muestre los efectos sobre el equilibrio de una
    enfermedad de los manzanos que perjudique a la cosecha. ¿Podrían
    aumentar los ingresos de los agricultores en este caso?  ¿Qué
    condiciones se tendrían que cumplir?
