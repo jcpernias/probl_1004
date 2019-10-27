@@ -618,16 +618,16 @@
       $2550$ unidades.
     #+end_answer
 
-17. El mercado del bien $X$ está caracterizado por las siguientes
-    funciones de demanda y oferta:
+17. El mercado del bien $X$ está caracterizado por las funciones de
+    demanda y oferta:
     #+begin_export latex
     \begin{gather*}
-      X^d = 250 - 30 P_{X} + 2 R - 5 P_{Y}, \\
-      X^o = 15 P_{X} - 25,
+      X^d = 250 - 30 P_{X} - 5 P_{Y} + 2 R \\
+      X^o = 15 P_{X} - 25
     \end{gather*}
     #+end_export
     donde $R$ es la renta media de los consumidores y $P_Y$ el precio
-    del bien $Y$. Actualmente $R = \money{100}$ y $P_Y = \price{5}$.
+    del bien $Y$. Actualmente, $R = \money{100}$ y $P_Y = \price{5}$.
 
     a) Calcule el precio y la cantidad de equilibrio y represéntelo
        gráficamente. Calcule las elasticidades precio de la demanda y

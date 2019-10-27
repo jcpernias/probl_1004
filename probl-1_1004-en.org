@@ -198,26 +198,26 @@
     can spend freely on what she prefers, what would be her food
     consumption?
 
-17. El mercado del bien $X$ está caracterizado por las siguientes
-    funciones de demanda y oferta:
+17. The market for good $X$ is characterized by the demand and supply
+    functions:
     #+begin_export latex
     \begin{gather*}
-      X^d = 250 - 30 P_{X} + 2 R - 5 P_{Y}, \\
-      X^o = 15 P_{X} - 25,
+      X^d = 250 - 30 P_{X} - 5 P_{Y} + 2 I \\
+      X^o = 15 P_{X} - 25
     \end{gather*}
     #+end_export
-    donde $R$ es la renta media de los consumidores y $P_Y$ el precio
-    del bien $Y$. Actualmente $R = \money{100}$ y $P_Y = \price{5}$.
+    where $I$ is the consumers' average income, and $P_Y$ is the price
+    of good $Y$. Currently, $I = \money{100}$ and $P_Y = \price{5}$.
 
-    a) Calcule el precio y la cantidad de equilibrio y represéntelo
-       gráficamente. Calcule las elasticidades precio de la demanda y
-       de la oferta en el equilibrio.
+    a) Calculate the equilibrium price and quantity and plot a
+       graph. Find the price elasticities of demand and supply at
+       equilibrium.
 
-    b) Calcule la elasticidad cruzada de la demanda. ¿Qué tipo de
-       relación existe entre los bienes $X$ e $Y$?
+    b) Calculate the cross elasticity of demand. What kind of
+       relationship holds between goods $X$ and $Y$?
 
-    c) Si la renta media de los consumidores disminuye en \money{10},
-       ¿se puede afirmar que $X$ es un bien inferior?
+    c) If the consumers' average income drops by \money{10},
+       can it be said that $X$ is an inferior good?
 
 18. The firm that operates a road tunnel is considering lowering the
     toll it charges to the users of the tunnel. Currently, the toll is
