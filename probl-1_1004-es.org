@@ -1031,8 +1031,7 @@
 
 24. Razone la veracidad o falsedad de la siguiente afirmación: "Si se
     establece un precio máximo superior al precio de equilibrio, la
-    cantidad comprada y la cantidad vendida coincidirá con el
-    equilibrio en este mercado."
+    cantidad vendida coincidirá con la cantidad de equilibrio."
 
     #+begin_answer
       Un precio máximo superior al de equilibrio no impide al mercado
