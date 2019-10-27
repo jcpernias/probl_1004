@@ -791,9 +791,8 @@
          #+end_minipage
        #+end_answer
 
-    b) Calcule las elasticidades de la demanda y de la oferta de abonos
-       del club en la situación de equilibrio e interprete los valores
-       de esas elasticidades.
+    b) Calcule las elasticidades de la demanda y de la oferta en el
+       equilibrio e interprete los valores de esas elasticidades.
 
        #+begin_answer
          #+begin_export latex
