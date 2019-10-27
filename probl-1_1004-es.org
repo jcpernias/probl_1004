@@ -962,12 +962,11 @@
          #+end_minipage
        #+end_answer
 
-22. En un mercado competitivo en equilibrio se venden \num{96000}
-    unidades a un precio de \price{300}. En esta situación la
-    elasticidad precio de la demanda es $-1.5$ mientras que la
-    elasticidad de la oferta es igual a $2$. Usando esta información
-    estime el efecto que tendría una ley que establezca un precio
-    máximo de \price{294}.
+22. En un mercado competitivo en equilibrio, se venden \num{96000}
+    unidades a un precio de \price{300}. La elasticidad precio de la
+    demanda es $-1.5$ y que la elasticidad precio de la oferta
+    es igual a $2$. Si se aprueba una ley que establece un precio
+    máximo de \price{294}, ¿qué efectos tendrá sobre el mercado?
 
     #+begin_answer
       La regulación implica una caída del precio $\incrpct{P} =

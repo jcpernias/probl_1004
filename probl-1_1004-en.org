@@ -297,12 +297,11 @@
        setting a minimum price at \price{1200}. How many units will
        sell? At what price?
 
-22. En un mercado competitivo en equilibrio se venden \num{96000}
-    unidades a un precio de \price{300}. En esta situación la
-    elasticidad precio de la demanda es $-1.5$ mientras que la
-    elasticidad de la oferta es igual a $2$. Usando esta información
-    estime el efecto que tendría una ley que establezca un precio
-    máximo de \price{294}.
+22. In a competitive market in equilibrium, \num{96000} units are sold
+    at a price of \price{300}. The price elasticity of demand
+    is $-1.5$, and the price elasticity of supply is equal to $2$. If
+    a law that sets a maximum price of \price{294} is passed, which
+    effect would it have on the market?
 
 23. The market demand and supply curves for good $X$ are:
     #+begin_export latex
