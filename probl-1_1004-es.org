@@ -386,8 +386,7 @@
          más afectado el precio.
        #+end_answer
 
-    c) ¿Cómo se verá afectado el gasto de los consumidores en cada
-       bien?
+    c) ¿Cómo cambiará el gasto de los consumidores en cada bien?
 
        #+Begin_answer
          Cuando se reduce el precio en el mercado con demanda
