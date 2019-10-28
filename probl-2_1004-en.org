@@ -3,7 +3,6 @@
 
 #+TITLE: Exercise Booklet 2
 
-* Consumer choice
 
 1. A consumer has an income of \money{1000} to buy the goods $X$ and
    $Y$, with prices $P_X = \price{5}$ and $P_Y = \price{1}$.

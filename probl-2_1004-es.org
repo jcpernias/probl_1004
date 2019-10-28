@@ -4,8 +4,6 @@
 #+TITLE: Cuaderno de ejercicios 2
 
 
-* La elección del consumidor
-
 1. Un consumidor dispone de una renta de \money{1000} para comprar los
    bienes $X$ e $Y$, cuyos precios son, respectivamente, $P_X =
    \price{5}$ y $P_Y = \price{1}$.
