@@ -3,8 +3,10 @@
 
 #+TITLE: Exercise Booklet 2
 
+1. A consumer has a monthly income of \money{150} to spend on bread,
+   with price \price[kg]{3.00}, and water, with price \price[kg]{0.75}.
 
-1. A consumer has an income of \money{1000} to buy the goods $X$ and
+2. A consumer has an income of \money{1000} to buy the goods $X$ and
    $Y$, with prices $P_X = \price{5}$ and $P_Y = \price{1}$.
 
    a) Represent graphically and mathematically the consumer's budget
@@ -14,12 +16,18 @@
       discount of \money{1} for each unit of good $X$ purchased above
       \num{25} units? Justify your answer.
 
-2. The preferences of a consumer are represented by the utility
+3. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
+   bien $X$ por 1 unidad del bien $Y$. El precio del bien $X$ es de
+   $4$ €/unidad y el precio del bien $Y$ es de $3$ €/unidad. Con esta
+   información, ¿es posible determinar cuantas unidades del bien $X$
+   consumirá? ¿Y del bien $Y$? Razone la respuesta.
+
+4. The preferences of a consumer are represented by the utility
    function: $U(X, Y)= 5 X Y^2$. The consumer's income is \money{900}
    and the prices of goods $X$ and $Y$ are $P_X = \price{10}$ and $P_Y
    = \price{5}$. Compute the optimal choice of the consumer.
 
-3. A consumer with regular preferences only buys two goods, $X$ and
+5. A consumer with regular preferences only buys two goods, $X$ and
    $Y$, with prices $P_X = \price{2}$ and $P_Y = \price{1}$.  At her
    current choice, if the consumer buys one additional unit of $X$ her
    total utility would increase by 8 units, whereas consuming one more
@@ -37,7 +45,7 @@
       both $X$ and $Y$ are normal goods, how the consumption levels of
       $X$ and $Y$ would change?
 
-4. The utility function of a consumer with respect to goods $X$ and
+6. The utility function of a consumer with respect to goods $X$ and
    $Y$ is given by $U (X, Y) = 3X + 3Y$. The market prices are,
    respectively, $P_X = \price{2}$ and $P_Y = \price{5}$ and the
    consumer's monetary income is $M = \money{100}$.
@@ -48,7 +56,7 @@
 
    c) How the consumer choice would be affected if $P_X = \price{10}$?
 
-5. The preferences of a consumer between gasoline, $G$ and a composite
+7. The preferences of a consumer between gasoline, $G$ and a composite
    good, $Y$, that stands for everything else that the consumer might
    want to buy, are represented by the utility function: $U(G, Y)=
    (G + 10) Y$. The gasoline price is $P_G = \price[l]{2}$ and the
