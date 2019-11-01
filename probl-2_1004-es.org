@@ -20,13 +20,12 @@
       presupuestaria.
 
 2. Un consumidor dispone de una renta de \money{1000} para comprar los
-   bienes $X$ e $Y$, cuyos precios son, respectivamente, $P_X =
-   \price{5}$ y $P_Y = \price{1}$.
+   bienes $X$ e $Y$, cuyos precios son $P_X = \price{5}$ y $P_Y =
+   \price{1}$.
 
-   a) Represente gráfica y matemáticamente el conjunto presupuestario
-      del consumidor.
+   a) Obtenga y represente el conjunto presupuestario del consumidor.
 
-   b) ¿Cómo cambiará el conjunto presupuestario si el consumidor
+   b) ¿Cómo cambiaría el conjunto presupuestario si el consumidor
       obtiene un descuento de \money{1} por cada unidad comprada del
       bien $X$ por encima de \num{25} unidades? Justifique su
       respuesta.

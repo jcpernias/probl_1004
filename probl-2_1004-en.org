@@ -19,11 +19,10 @@
 2. A consumer has an income of \money{1000} to buy the goods $X$ and
    $Y$, with prices $P_X = \price{5}$ and $P_Y = \price{1}$.
 
-   a) Represent graphically and mathematically the consumer's budget
-      set.
+   a) Obtain and depict the consumer's budget set.
 
-   b) How will the budget set be modified if the consumer gets a
-      discount of \money{1} for each unit of good $X$ purchased above
+   b) How would her budget set change if the consumer gets a discount
+      of \money{1} for each unit of good $X$ that she purchases over
       \num{25} units? Justify your answer.
 
 3. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
