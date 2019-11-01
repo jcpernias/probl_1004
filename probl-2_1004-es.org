@@ -3,8 +3,21 @@
 
 #+TITLE: Cuaderno de ejercicios 2
 
-1. A consumer has a monthly income of \money{150} to spend on bread,
-   with price \price[kg]{3.00}, and water, with price \price[kg]{0.75}.
+1. Un consumidor dispone de una renta mensual de \money{150} que puede
+   gastar en pan, con un precio de \price[kg]{3.00}, y agua, con un
+   precio de \price[kg]{0.75}.
+
+   a) Obtenga y represente la recta presupuestaria del consumidor.
+
+   b) El Gobierno establece un impuesto sobre el agua para hacer
+      frente a una persistente sequía. Como consecuencia, el precio
+      del agua se duplica. Obtenga y represente la nueva recta
+      presupuestaria.
+
+   c) En lugar de utilizar un impuesto, el Gobierno podría haber
+      racionado el agua estipulando un consumo máximo de \units[l]{20}
+      por persona y mes. Obtenga y dibuje la restricción
+      presupuestaria.
 
 2. Un consumidor dispone de una renta de \money{1000} para comprar los
    bienes $X$ e $Y$, cuyos precios son, respectivamente, $P_X =

@@ -4,7 +4,17 @@
 #+TITLE: Exercise Booklet 2
 
 1. A consumer has a monthly income of \money{150} to spend on bread,
-   with price \price[kg]{3.00}, and water, with price \price[kg]{0.75}.
+   with price \price[kg]{3.00}, and water, with price \price[l]{0.75}.
+
+   a) Obtain and draw the consumer's budget line.
+
+   b) The Government imposes a tax on water to deal with a prolonged
+      drought. As a consequence, the price of water doubles. Obtain
+      and draw the new budget line.
+
+   c) Instead of using a tax, the Government could have rationed the
+      water by stipulating a maximum consumption of \units[l]{20} per
+      head and month. Obtain and draw the budget constraint.
 
 2. A consumer has an income of \money{1000} to buy the goods $X$ and
    $Y$, with prices $P_X = \price{5}$ and $P_Y = \price{1}$.
