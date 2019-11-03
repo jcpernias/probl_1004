@@ -30,19 +30,31 @@
       bien $X$ por encima de \num{25} unidades? Justifique su
       respuesta.
 
-3. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
+3. Las preferencias entre el pollo y el pescado de Amaia y Alejandro
+   son diferentes. A Amaia le gusta el pescado, mientras que el pollo
+   le resulta indiferente; no le importa comerlo pero no le reporta
+   ninguna satisfacción. Por otro lado, a Alejandro no le gusta el
+   pescado pero sí el pollo y sólo está dispuesto a comer algo de
+   pescado si a cambio recibe una porción extra de pollo. Representa
+   gráficamente las preferencias de Amaia y de Alejandro.
+
+4. Un consumidor racional elige una cesta que contiene cantidades
+   positivas de todos los bienes. Si aumenta el precio de un bien, ¿se
+   reducirá la utilidad del consumidor? Justifique su respuesta.
+
+5. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
    bien $X$ por 1 unidad del bien $Y$. El precio del bien $X$ es de
    $4$ €/unidad y el precio del bien $Y$ es de $3$ €/unidad. Con esta
    información, ¿es posible determinar cuantas unidades del bien $X$
    consumirá? ¿Y del bien $Y$? Razone la respuesta.
 
-4. Las preferencias de un consumidor están representadas por la
+6. Las preferencias de un consumidor están representadas por la
    función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
    de \money{900} y los precios de los bienes $X$ e $Y$ son $P_X =
    \price{10}$ y $P_Y = \price{5}$. Calcule la elección óptima del
    consumidor.
 
-5. Una consumidora con preferencias regulares sólo compra dos bienes,
+7. Una consumidora con preferencias regulares sólo compra dos bienes,
    $X$ e $Y$, cuyos precios son $P_X = \price{2}$ y $P_Y =
    \price{1}$. En la situación actual si compra una unidad adicional
    de $X$ su utilidad total aumentará en 8 unidades. Por otro lado, si
@@ -60,7 +72,7 @@
    c) Suponga que la renta aumenta y ahora $M = \money{200}$. Si $X$ e
       $Y$ son bienes normales, ¿como cambiará el consumo de $X$ e $Y$?
 
-6. La función de utilidad de un individuo respecto de los bienes $X$ e
+8. La función de utilidad de un individuo respecto de los bienes $X$ e
    $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
    $P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
    consumidor es $M = \money{100}$.
@@ -72,7 +84,7 @@
    c) ¿Cómo se vería modificada la elección del consumidor si $P_X =
       \price{10}$?
 
-7. Las preferencias de un consumidor entre gasolina, $G$, y un bien
+9. Las preferencias de un consumidor entre gasolina, $G$, y un bien
    compuesto, $Y$, que recoge las compras del consumidor en los
    restantes bienes, están representadas por la función de utilidad:
    $U(G, Y)= (G + 10) Y$. El precio de la gasolina es de $P_G =
@@ -98,30 +110,30 @@
 
    c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
 
-8. Las preferencias de un consumidor pueden representarse por la
-   función de utilidad: \[ U(X, Y) = X (Y + 100) \] El precio del bien
-   $X$ es \price{1} y el del bien $Y$ es \price{4}. El consumidor
-   dispone de una renta monetaria de \money{250}.
+10. Las preferencias de un consumidor pueden representarse por la
+    función de utilidad: \[ U(X, Y) = X (Y + 100) \] El precio del bien
+    $X$ es \price{1} y el del bien $Y$ es \price{4}. El consumidor
+    dispone de una renta monetaria de \money{250}.
 
-   a) Calcule la elección óptima de consumo.
+    a) Calcule la elección óptima de consumo.
 
-   b) Si se raciona el bien $X$ de forma que no es posible consumir
-      más de 100 unidades de $X$, ¿cuál sería la elección
-      óptima?. Represente gráficamente.
+    b) Si se raciona el bien $X$ de forma que no es posible consumir
+       más de 100 unidades de $X$, ¿cuál sería la elección
+       óptima?. Represente gráficamente.
 
-9. El precio del bien $X$ cambia dependiendo de la cantidad que se
-   compre: las 50 primeras unidades cuestan \price{1}, mientras que
-   para cada unidad comprada por encima de la quincuagésima el precio
-   es \price{2}.
+11. El precio del bien $X$ cambia dependiendo de la cantidad que se
+    compre: las 50 primeras unidades cuestan \price{1}, mientras que
+    para cada unidad comprada por encima de la quincuagésima el precio
+    es \price{2}.
 
-   a) Obtenga y represente gráficamente la restricción presupuestaria
-      de un consumidor que dispone de una renta monetaria de
-      \money{200}. [/Pista/: Utilice un bien compuesto.]
+    a) Obtenga y represente gráficamente la restricción presupuestaria
+       de un consumidor que dispone de una renta monetaria de
+       \money{200}. [/Pista/: Utilice un bien compuesto.]
 
-   b) Si las preferencias de este consumidor son tales que:
-      \[\mathit{RMS} = \frac{Y}{4X},\] ¿cuál sería la elección óptima?
+    b) Si las preferencias de este consumidor son tales que:
+       \[\mathit{RMS} = \frac{Y}{4X},\] ¿cuál sería la elección óptima?
 
-10. Considere un consumidor cuyas necesidades energéticas están
+12. Considere un consumidor cuyas necesidades energéticas están
     cubiertas por el consumo de gas natural y electricidad. El precio
     del gas natural es de \money{0.05} por metro cúbico. Sin embargo,
     el precio de la electricidad depende del consumo: hasta 1000 kWh
@@ -130,12 +142,12 @@
     para gastar en energía, dibuje el conjunto presupuestario de este
     consumidor.
 
-11. Suponga que para un consumidor la relación marginal de sustitución
+13. Suponga que para un consumidor la relación marginal de sustitución
     de un bien por otro es constante sea cual sea el nivel de consumo
     de cada uno de los bienes, y es igual al precio relativo de los
     dos bienes. ¿Cuál será la elección óptima de este consumidor?
 
-12. Un consumidor dispone de una renta monetaria mensual de
+14. Un consumidor dispone de una renta monetaria mensual de
     \money{150}.  Con ella puede comprar pan, a un precio de
     \price[kg]{3}, y agua, a un precio de \price[l]{0.75}.
 
@@ -158,7 +170,7 @@
        \units[l]{20} de agua al mes, ¿cuál sería la nueva restricción
        presupuestaria?
 
-13. Un consumidor dispone de una renta de \money{100} a la semana. El
+15. Un consumidor dispone de una renta de \money{100} a la semana. El
     precio de la leche es de \price[l]{1}. Represente la restricción
     presupuestaria del consumidor en las siguientes situaciones:
 
@@ -173,7 +185,7 @@
 
     4. El consumidor recibe un cheque por valor de \money{5}.
 
-14. Un consumidor dispone de \money{20} para comprar carne y
+16. Un consumidor dispone de \money{20} para comprar carne y
     patatas. En el supermercado en el que suele hacer la compra, el kg
     de carne vale \money{4} mientras que cada kg de patatas cuesta
     \money{2}. Obtenga y represente la restricción
@@ -228,7 +240,7 @@
     #+end_minipage
     #+end_answer
 
-15. Un consumidor posee una renta de \money{4} que gasta en los bienes
+17. Un consumidor posee una renta de \money{4} que gasta en los bienes
     $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
     \price{2}$. Cuando consume $2$ unidades de $Y$ y no consume nada de
     $X$, la relación marginal de sustitución es igual a $2$. ¿Es esta
