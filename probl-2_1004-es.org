@@ -140,22 +140,42 @@
    \price{10}$ y $P_Y = \price{5}$. Calcule la elección óptima del
    consumidor.
 
+   #+begin_answer
+
+   #+end_answer
+
 5. *Añade función de utilidad* Un consumidor dispone de una renta de
    \money{1000} para comprar los bienes $X$ e $Y$, cuyos precios son
    $P_X = \price{5}$ y $P_Y = \price{1}$.
 
    a) Obtenga y represente el conjunto presupuestario del consumidor.
 
+      #+begin_answer
+
+      #+end_answer
+
    b) ¿Cómo cambiaría el conjunto presupuestario si el consumidor
       obtiene un descuento de \money{1} por cada unidad comprada del
       bien $X$ por encima de \num{25} unidades? Justifique su
       respuesta.
 
+      #+begin_answer
+
+      #+end_answer
+
 6. Un consumidor racional elige una cesta que contiene cantidades
    positivas de todos los bienes. Si aumenta el precio de un bien, ¿se
    reducirá la utilidad del consumidor? Justifique su respuesta.
 
+   #+begin_answer
+
+   #+end_answer
+
 7. *RMS*.
+
+   #+begin_answer
+
+   #+end_answer
 
 8. Las preferencias de un consumidor entre gasolina, $G$, y un bien
    compuesto, $Y$, que recoge las compras del consumidor en los
@@ -165,6 +185,10 @@
 
    a) Indique la expresión matemática de la restricción presupuestaria
       y represéntela gráficamente.
+
+      #+begin_answer
+
+      #+end_answer
 
    b) La empresa para la que trabaja este consumidor está considerando
       la posibilidad de ofrecer incentivos para los trabajadores más
@@ -181,7 +205,15 @@
       Indique la expresión matemática de la restricción presupuestaria
       en cada uno de los casos y represéntelas en un mismo gráfico.
 
+      #+begin_answer
+
+      #+end_answer
+
    c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
+
+      #+begin_answer
+
+      #+end_answer
 
 9. *Cambiar a descuento por volumen* El precio del bien $X$ cambia
    dependiendo de la cantidad que se compre: las 50 primeras unidades
@@ -192,8 +224,16 @@
       de un consumidor que dispone de una renta monetaria de
       \money{200}. [/Pista/: Utilice un bien compuesto.]
 
+      #+begin_answer
+
+      #+end_answer
+
    b) Si las preferencias de este consumidor son tales que: $\RMS = Y
       / 4X$, ¿cuál sería la elección óptima?
+
+      #+begin_answer
+
+      #+end_answer
 
 10. Las preferencias de un consumidor pueden representarse por la
     función de utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien
@@ -202,9 +242,17 @@
 
     a) Calcule la elección óptima de consumo.
 
+       #+begin_answer
+
+       #+end_answer
+
     b) Si se raciona el bien $X$ de forma que no es posible consumir
        más de 100 unidades de $X$, ¿cuál sería la elección
        óptima?. Represente gráficamente.
+
+       #+begin_answer
+
+       #+end_answer
 
 11. La función de utilidad de un individuo respecto de los bienes $X$ e
     $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
@@ -213,10 +261,22 @@
 
     a) ¿Es $(X,Y) = (10, 40)$ una cesta óptima? ¿Por qué?
 
+       #+begin_answer
+
+       #+end_answer
+
     b) ¿Cuál es la elección óptima del consumidor?
+
+       #+begin_answer
+
+       #+end_answer
 
     c) ¿Cómo se vería modificada la elección del consumidor si $P_X =
        \price{10}$?
+
+       #+begin_answer
+
+       #+end_answer
 
 12. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
     bien $X$ por 1 unidad del bien $Y$. El precio del bien $X$ es de
@@ -224,7 +284,15 @@
     información, ¿es posible determinar cuantas unidades del bien $X$
     consumirá? ¿Y del bien $Y$? Razone la respuesta.
 
+    #+begin_answer
+
+    #+end_answer
+
 13. *Complementarios perfectos*.
+
+    #+begin_answer
+
+    #+end_answer
 
 14. Un consumidor posee una renta de \money{4} que gasta en los bienes
     $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
@@ -246,3 +314,7 @@
     #+end_answer
 
 15. *Bono gimnasio*
+
+    #+begin_answer
+
+    #+end_answer
