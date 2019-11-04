@@ -10,10 +10,56 @@
       impuesto sobre el consumo que eleva el precio de los bienes en
       un 25%?
 
+      #+begin_answer
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+      # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+      *Gráfico*
+      #+end_minipage
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+        La recta presupuestaria después del impuesto al consumo es:
+        \begin{equation*}
+          M = 1.25 P_X X + 1.25 P_Y Y
+        \end{equation*}
+      #+end_minipage
+      #+end_answer
+
    b) ¿Y si, en vez del impuesto al consumo, se establece un impuesto
       sobre la renta que reduce $M$ un 25%?
 
+      #+begin_answer
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+      # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+      *Gráfico*
+      #+end_minipage
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+        La recta presupuestaria después del impuesto a la renta es:
+        \begin{equation*}
+          0.75 M = P_X X + P_Y Y
+        \end{equation*}
+      #+end_minipage
+      #+end_answer
+
    c) ¿Cuál de las dos opciones preferirá el consumidor?
+
+      #+begin_answer
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+      # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+      *Gráfico*
+      #+end_minipage
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+        La restricción del apartado /a/) puede escribirse como:
+        \begin{equation*}
+          0.8 M = P_X X + P_Y Y
+        \end{equation*}
+        El consumidor preferiría el impuesto al consumo.
+      #+end_minipage
+      #+end_answer
 
 2. Un consumidor dispone de \money{20} para comprar carne y
    patatas. En el supermercado en el que suele hacer la compra, el kg
