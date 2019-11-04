@@ -18,41 +18,46 @@
 2. Un consumidor dispone de \money{20} para comprar carne y
    patatas. En el supermercado en el que suele hacer la compra, el kg
    de carne vale \money{4} mientras que cada kg de patatas cuesta
-   \money{2}. Obtenga y represente la restricción
-   presupuestaria. ¿Cómo afectaría a la restricción presupuestaria una
-   oferta especial por la que al hacer una compra de patatas superior
-   a \units[kg]{4} se obtienen gratis \units[kg]{2} más de patatas?
-   Represente gráficamente.
+   \money{2}.
 
-   #+begin_answer
-   #+attr_latex: :options {0.5\linewidth}
-   #+begin_minipage
-   #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-   #+end_minipage
-   #+attr_latex: :options {0.5\linewidth}
-   #+begin_minipage
-     La restricción presupuestaria original es:
-     \begin{equation*}
-       20 = 4 C + 2 P
-     \end{equation*}
-   #+end_minipage
+   a) Obtenga y represente la restricción presupuestaria.
 
-   #+attr_latex: :options {0.5\linewidth}
-   #+begin_minipage
-   #+MATS: fig fig-probl-2_1004-budget2-*.pdf
-   #+end_minipage
-   #+attr_latex: :options {0.5\linewidth}
-   #+begin_minipage
-     Nueva restricción presupuestaria:
-     \begin{equation*}
-       C =
-       \begin{cases}
-         5 - P / 2 & \text{si $P < 4$} \\
-         6 - P / 2 & \text{si $P \geq 6$}
-       \end{cases}
-     \end{equation*}
-   #+end_minipage
-   #+end_answer
+      #+begin_answer
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+      #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+      #+end_minipage
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+        La restricción presupuestaria original es:
+        \begin{equation*}
+          20 = 4 C + 2 P
+        \end{equation*}
+      #+end_minipage
+      #+end_answer
+
+   b) El supermercado introduce una oferta por la que regala
+      \units[kg]{2} más de patatas a todo el que compre \units[kg]{4}
+      o más. Obtenga y represente la restricción presupuestaria en
+      este caso.
+
+      #+begin_answer
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+      #+MATS: fig fig-probl-2_1004-budget2-*.pdf
+      #+end_minipage
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+        Nueva restricción presupuestaria:
+        \begin{equation*}
+          C =
+          \begin{cases}
+            5 - P / 2 & \text{si $P < 4$} \\
+            6 - P / 2 & \text{si $P \geq 6$}
+          \end{cases}
+        \end{equation*}
+      #+end_minipage
+      #+end_answer
 
 3. Las preferencias entre el pollo y el pescado de Amaia y Alejandro
    son diferentes. A Amaia le gusta el pescado, mientras que el pollo
