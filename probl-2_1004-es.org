@@ -141,7 +141,11 @@
    consumidor.
 
    #+begin_answer
+     Recta presupuestaria: $900 = 10 X + 5 Y$.
 
+     Condición de tangencia: $Y = 4 X$.
+
+     Cesta óptima: $X^* = \units{30}$; $Y^* = \units{120}$.
    #+end_answer
 
 5. *Añade función de utilidad* Un consumidor dispone de una renta de
