@@ -111,7 +111,7 @@
    c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
 
 10. Las preferencias de un consumidor pueden representarse por la
-    función de utilidad: \[ U(X, Y) = X (Y + 100) \] El precio del bien
+    función de utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien
     $X$ es \price{1} y el del bien $Y$ es \price{4}. El consumidor
     dispone de una renta monetaria de \money{250}.
 
@@ -130,62 +130,25 @@
        de un consumidor que dispone de una renta monetaria de
        \money{200}. [/Pista/: Utilice un bien compuesto.]
 
-    b) Si las preferencias de este consumidor son tales que:
-       \[\mathit{RMS} = \frac{Y}{4X},\] ¿cuál sería la elección óptima?
+    b) Si las preferencias de este consumidor son tales que: $\RMS = Y
+       / 4X$, ¿cuál sería la elección óptima?
 
-12. Considere un consumidor cuyas necesidades energéticas están
-    cubiertas por el consumo de gas natural y electricidad. El precio
-    del gas natural es de \money{0.05} por metro cúbico. Sin embargo,
-    el precio de la electricidad depende del consumo: hasta 1000 kWh
-    el precio es de \money{0.06} por kWh, siendo el precio de cada kWh
-    adicional de \money{0.03}. Si el consumidor dispone de \money{120}
-    para gastar en energía, dibuje el conjunto presupuestario de este
-    consumidor.
-
-13. Suponga que para un consumidor la relación marginal de sustitución
-    de un bien por otro es constante sea cual sea el nivel de consumo
-    de cada uno de los bienes, y es igual al precio relativo de los
-    dos bienes. ¿Cuál será la elección óptima de este consumidor?
-
-14. Un consumidor dispone de una renta monetaria mensual de
-    \money{150}.  Con ella puede comprar pan, a un precio de
-    \price[kg]{3}, y agua, a un precio de \price[l]{0.75}.
-
-    1. Obtenga la restricción presupuestaria del consumidor y
-       represéntela gráficamente.
-
-    2. Actualmente el consumidor consume \units[l]{60} de agua y
-       \units[kg]{35} de pan al mes. ¿Cuál es el coste de oportunidad
-       de consumir un litro adicional de agua? ¿Cuál sería el coste de
-       oportunidad si el consumidor partiera de una situación en la que
-       consume \units[l]{50} de agua y \units[kg]{30} de pan?
-
-    3. Para hacer frente a la pertinaz sequía, el Gobierno establece un
-       impuesto sobre el consumo de agua. Como consecuencia, el precio
-       del agua se duplica. Obtenga y represente la nueva restricción
-       presupuestaria.
-
-    4. Si en vez de establecer un impuesto, el Gobierno racionara el
-       agua de forma que ningún consumidor puede consumir más de
-       \units[l]{20} de agua al mes, ¿cuál sería la nueva restricción
-       presupuestaria?
-
-15. Un consumidor dispone de una renta de \money{100} a la semana. El
+12. Un consumidor dispone de una renta de \money{100} a la semana. El
     precio de la leche es de \price[l]{1}. Represente la restricción
     presupuestaria del consumidor en las siguientes situaciones:
 
-    1. El consumidor recibe una subvención de \money{0.25} por cada
+    a) El consumidor recibe una subvención de \money{0.25} por cada
        litro de leche que compre.
 
-    2. El consumidor puede comprar hasta \units[l]{5} de leche y
+    b) El consumidor puede comprar hasta \units[l]{5} de leche y
        recibir una subvención de \price[l]{0.25}. Si compra más leche
        paga el precio de mercado completo.
 
-    3. El consumidor obtiene \units[l]{5} de leche gratuitamente.
+    c) El consumidor obtiene \units[l]{5} de leche gratuitamente.
 
-    4. El consumidor recibe un cheque por valor de \money{5}.
+    d) El consumidor recibe un cheque por valor de \money{5}.
 
-16. Un consumidor dispone de \money{20} para comprar carne y
+13. Un consumidor dispone de \money{20} para comprar carne y
     patatas. En el supermercado en el que suele hacer la compra, el kg
     de carne vale \money{4} mientras que cada kg de patatas cuesta
     \money{2}. Obtenga y represente la restricción
@@ -240,7 +203,7 @@
     #+end_minipage
     #+end_answer
 
-17. Un consumidor posee una renta de \money{4} que gasta en los bienes
+14. Un consumidor posee una renta de \money{4} que gasta en los bienes
     $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
     \price{2}$. Cuando consume $2$ unidades de $Y$ y no consume nada de
     $X$, la relación marginal de sustitución es igual a $2$. ¿Es esta
