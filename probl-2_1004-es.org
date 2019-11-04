@@ -107,11 +107,32 @@
 
 3. Las preferencias entre el pollo y el pescado de Amaia y Alejandro
    son diferentes. A Amaia le gusta el pescado, mientras que el pollo
-   le resulta indiferente; no le importa comerlo pero no le reporta
-   ninguna satisfacción. Por otro lado, a Alejandro no le gusta el
-   pescado pero sí el pollo y sólo está dispuesto a comer algo de
-   pescado si a cambio recibe una porción extra de pollo. Representa
-   gráficamente las preferencias de Amaia y de Alejandro.
+   ni le gusta ni le disgusta. Por su parte, a Alejandro no le gusta
+   el pescado pero sí el pollo y sólo está dispuesto a comer algo de
+   pescado si a cambio recibe una porción extra de pollo. Represente
+   las preferencias de Amaia y de Alejandro.
+
+   #+begin_answer
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+   # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+   *Gráfico*
+   #+end_minipage
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+   El pollo es un bien neutral para Amaia.
+   #+end_minipage
+
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+   # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+   *Gráfico*
+   #+end_minipage
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+   El pescado es un mal para Alejandro.
+   #+end_minipage
+   #+end_answer
 
 4. Las preferencias de un consumidor están representadas por la
    función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
