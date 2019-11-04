@@ -3,32 +3,47 @@
 
 #+TITLE: Cuaderno de ejercicios 2
 
-1. Un consumidor dispone de una renta mensual de \money{150} que puede
-   gastar en pan, con un precio de \price[kg]{3.00}, y agua, con un
-   precio de \price[kg]{0.75}.
 
-   a) Obtenga y represente la recta presupuestaria del consumidor.
+1. Impuesto: ¿precios o renta?
 
-   b) El Gobierno establece un impuesto sobre el agua para hacer
-      frente a una persistente sequía. Como consecuencia, el precio
-      del agua se duplica. Obtenga y represente la nueva recta
-      presupuestaria.
+2. Un consumidor dispone de \money{20} para comprar carne y
+   patatas. En el supermercado en el que suele hacer la compra, el kg
+   de carne vale \money{4} mientras que cada kg de patatas cuesta
+   \money{2}. Obtenga y represente la restricción
+   presupuestaria. ¿Cómo afectaría a la restricción presupuestaria una
+   oferta especial por la que al hacer una compra de patatas superior
+   a \units[kg]{4} se obtienen gratis \units[kg]{2} más de patatas?
+   Represente gráficamente.
 
-   c) En lugar de utilizar un impuesto, el Gobierno podría haber
-      racionado el agua estipulando un consumo máximo de \units[l]{20}
-      por persona y mes. Obtenga y dibuje la restricción
-      presupuestaria.
+   #+begin_answer
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+   #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+   #+end_minipage
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+     La restricción presupuestaria original es:
+     \begin{equation*}
+       20 = 4 C + 2 P
+     \end{equation*}
+   #+end_minipage
 
-2. Un consumidor dispone de una renta de \money{1000} para comprar los
-   bienes $X$ e $Y$, cuyos precios son $P_X = \price{5}$ y $P_Y =
-   \price{1}$.
-
-   a) Obtenga y represente el conjunto presupuestario del consumidor.
-
-   b) ¿Cómo cambiaría el conjunto presupuestario si el consumidor
-      obtiene un descuento de \money{1} por cada unidad comprada del
-      bien $X$ por encima de \num{25} unidades? Justifique su
-      respuesta.
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+   #+MATS: fig fig-probl-2_1004-budget2-*.pdf
+   #+end_minipage
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+     Nueva restricción presupuestaria:
+     \begin{equation*}
+       C =
+       \begin{cases}
+         5 - P / 2 & \text{si $P < 4$} \\
+         6 - P / 2 & \text{si $P \geq 6$}
+       \end{cases}
+     \end{equation*}
+   #+end_minipage
+   #+end_answer
 
 3. Las preferencias entre el pollo y el pescado de Amaia y Alejandro
    son diferentes. A Amaia le gusta el pescado, mientras que el pollo
@@ -38,53 +53,30 @@
    pescado si a cambio recibe una porción extra de pollo. Representa
    gráficamente las preferencias de Amaia y de Alejandro.
 
-4. Un consumidor racional elige una cesta que contiene cantidades
-   positivas de todos los bienes. Si aumenta el precio de un bien, ¿se
-   reducirá la utilidad del consumidor? Justifique su respuesta.
-
-5. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
-   bien $X$ por 1 unidad del bien $Y$. El precio del bien $X$ es de
-   $4$ €/unidad y el precio del bien $Y$ es de $3$ €/unidad. Con esta
-   información, ¿es posible determinar cuantas unidades del bien $X$
-   consumirá? ¿Y del bien $Y$? Razone la respuesta.
-
-6. Las preferencias de un consumidor están representadas por la
+4. Las preferencias de un consumidor están representadas por la
    función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
    de \money{900} y los precios de los bienes $X$ e $Y$ son $P_X =
    \price{10}$ y $P_Y = \price{5}$. Calcule la elección óptima del
    consumidor.
 
-7. Una consumidora con preferencias regulares sólo compra dos bienes,
-   $X$ e $Y$, cuyos precios son $P_X = \price{2}$ y $P_Y =
-   \price{1}$. En la situación actual si compra una unidad adicional
-   de $X$ su utilidad total aumentará en 8 unidades. Por otro lado, si
-   modificara su consumo actual de forma que consumiera una unidad más
-   de $Y$ su utilidad total se incrementaría en 4 unidades. La renta
-   de la consumidora es de \money{100} y consume actualmente
-   20 unidades del bien $X$.
+5. *Añade función de utilidad* Un consumidor dispone de una renta de
+   \money{1000} para comprar los bienes $X$ e $Y$, cuyos precios son
+   $P_X = \price{5}$ y $P_Y = \price{1}$.
 
-   a) Si no pudiera alterar el consumo de $X$, ¿qué cantidad consumirá
-      del bien $Y$ para maximizar su utilidad?
+   a) Obtenga y represente el conjunto presupuestario del consumidor.
 
-   b) Si pudiera modificar el consumo de los dos bienes, ¿aumentaría o
-      disminuiría el consumo de $X$? ¿Y el del bien $Y$?
+   b) ¿Cómo cambiaría el conjunto presupuestario si el consumidor
+      obtiene un descuento de \money{1} por cada unidad comprada del
+      bien $X$ por encima de \num{25} unidades? Justifique su
+      respuesta.
 
-   c) Suponga que la renta aumenta y ahora $M = \money{200}$. Si $X$ e
-      $Y$ son bienes normales, ¿como cambiará el consumo de $X$ e $Y$?
+6. Un consumidor racional elige una cesta que contiene cantidades
+   positivas de todos los bienes. Si aumenta el precio de un bien, ¿se
+   reducirá la utilidad del consumidor? Justifique su respuesta.
 
-8. La función de utilidad de un individuo respecto de los bienes $X$ e
-   $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
-   $P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
-   consumidor es $M = \money{100}$.
+7. *RMS*.
 
-   a) ¿Es $(X,Y) = (10, 40)$ una cesta óptima? ¿Por qué?
-
-   b) ¿Cuál es la elección óptima del consumidor?
-
-   c) ¿Cómo se vería modificada la elección del consumidor si $P_X =
-      \price{10}$?
-
-9. Las preferencias de un consumidor entre gasolina, $G$, y un bien
+8. Las preferencias de un consumidor entre gasolina, $G$, y un bien
    compuesto, $Y$, que recoge las compras del consumidor en los
    restantes bienes, están representadas por la función de utilidad:
    $U(G, Y)= (G + 10) Y$. El precio de la gasolina es de $P_G =
@@ -110,6 +102,18 @@
 
    c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
 
+9. *Cambiar a descuento por volumen* El precio del bien $X$ cambia
+   dependiendo de la cantidad que se compre: las 50 primeras unidades
+   cuestan \price{1}, mientras que para cada unidad comprada por
+   encima de la quincuagésima el precio es \price{2}.
+
+   a) Obtenga y represente gráficamente la restricción presupuestaria
+      de un consumidor que dispone de una renta monetaria de
+      \money{200}. [/Pista/: Utilice un bien compuesto.]
+
+   b) Si las preferencias de este consumidor son tales que: $\RMS = Y
+      / 4X$, ¿cuál sería la elección óptima?
+
 10. Las preferencias de un consumidor pueden representarse por la
     función de utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien
     $X$ es \price{1} y el del bien $Y$ es \price{4}. El consumidor
@@ -121,89 +125,27 @@
        más de 100 unidades de $X$, ¿cuál sería la elección
        óptima?. Represente gráficamente.
 
-11. El precio del bien $X$ cambia dependiendo de la cantidad que se
-    compre: las 50 primeras unidades cuestan \price{1}, mientras que
-    para cada unidad comprada por encima de la quincuagésima el precio
-    es \price{2}.
+11. La función de utilidad de un individuo respecto de los bienes $X$ e
+    $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
+    $P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
+    consumidor es $M = \money{100}$.
 
-    a) Obtenga y represente gráficamente la restricción presupuestaria
-       de un consumidor que dispone de una renta monetaria de
-       \money{200}. [/Pista/: Utilice un bien compuesto.]
+    a) ¿Es $(X,Y) = (10, 40)$ una cesta óptima? ¿Por qué?
 
-    b) Si las preferencias de este consumidor son tales que: $\RMS = Y
-       / 4X$, ¿cuál sería la elección óptima?
+    b) ¿Cuál es la elección óptima del consumidor?
 
-12. Un consumidor dispone de una renta de \money{100} a la semana. El
-    precio de la leche es de \price[l]{1}. Represente la restricción
-    presupuestaria del consumidor en las siguientes situaciones:
+    c) ¿Cómo se vería modificada la elección del consumidor si $P_X =
+       \price{10}$?
 
-    a) El consumidor recibe una subvención de \money{0.25} por cada
-       litro de leche que compre.
+12. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
+    bien $X$ por 1 unidad del bien $Y$. El precio del bien $X$ es de
+    $4$ €/unidad y el precio del bien $Y$ es de $3$ €/unidad. Con esta
+    información, ¿es posible determinar cuantas unidades del bien $X$
+    consumirá? ¿Y del bien $Y$? Razone la respuesta.
 
-    b) El consumidor puede comprar hasta \units[l]{5} de leche y
-       recibir una subvención de \price[l]{0.25}. Si compra más leche
-       paga el precio de mercado completo.
+14. *Complementarios perfectos*.
 
-    c) El consumidor obtiene \units[l]{5} de leche gratuitamente.
-
-    d) El consumidor recibe un cheque por valor de \money{5}.
-
-13. Un consumidor dispone de \money{20} para comprar carne y
-    patatas. En el supermercado en el que suele hacer la compra, el kg
-    de carne vale \money{4} mientras que cada kg de patatas cuesta
-    \money{2}. Obtenga y represente la restricción
-    presupuestaria. ¿Cómo afectaría a la restricción presupuestaria una
-    oferta especial por la que al hacer una compra de patatas superior
-    a \units[kg]{4} se obtienen gratis \units[kg]{2} más de patatas?
-    Represente gráficamente.
-
-    #+begin_answer
-    #+attr_latex: :options {0.5\linewidth}
-    #+begin_minipage
-    #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-    #+end_minipage
-    #+attr_latex: :options {0.5\linewidth}
-    #+begin_minipage
-      Usaremos las variables $C$ y $P$ para representar las compras de
-      carne y patatas, respectivamente. La restricción presupuestaria
-      original es:
-      \begin{equation*}
-        20 = 4 C + 2 P
-      \end{equation*}
-    #+end_minipage
-
-    La oferta especial del supermercado desplaza un tramo de la
-    restricción presupuestaria original hacia la derecha. Cuando $P <
-    4$ la restricción es idéntica al caso inicial. Si compra
-    \units[kg]{4} o más recibe el regalo de \units[kg]{2}, por lo que
-    $P \geq 6$. En la restricción presupuestaria debemos descontar los
-    \units[kg]{2} por los que el consumidor no paga nada:
-    \begin{equation*}
-        20 = 4 C + 2 (P - 2) \qquad (\text{si $P \geq 6$})
-    \end{equation*}
-    Por lo que:
-    \begin{equation*}
-        24 = 4 C + 2 P  \qquad (\text{si $P \geq 6$})
-    \end{equation*}
-    #+attr_latex: :options {0.5\linewidth}
-    #+begin_minipage
-    #+MATS: fig fig-probl-2_1004-budget2-*.pdf
-    #+end_minipage
-    #+attr_latex: :options {0.5\linewidth}
-    #+begin_minipage
-      Finalmente, podemos expresar la nueva restricción presupuestaria
-      como:
-      \begin{equation*}
-        C =
-        \begin{cases}
-          5 - P / 2 & \text{si $P < 4$} \\
-          6 - P / 2 & \text{si $P \geq 6$}
-        \end{cases}
-      \end{equation*}
-    #+end_minipage
-    #+end_answer
-
-14. Un consumidor posee una renta de \money{4} que gasta en los bienes
+13. Un consumidor posee una renta de \money{4} que gasta en los bienes
     $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
     \price{2}$. Cuando consume $2$ unidades de $Y$ y no consume nada de
     $X$, la relación marginal de sustitución es igual a $2$. ¿Es esta
@@ -221,3 +163,5 @@
       $1.5$ unidades de $Y$. En consecuencia, aumentaría su utilidad si
       disminuye el consumo de $Y$ y aumenta el de $X$.
     #+end_answer
+
+15. *Bono gimnasio*
