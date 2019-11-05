@@ -321,20 +321,22 @@
     a) ¿Es $(X,Y) = (10, 40)$ una cesta óptima? ¿Por qué?
 
        #+begin_answer
-
+         No, no tiene suficiente renta para comprarla.
        #+end_answer
 
     b) ¿Cuál es la elección óptima del consumidor?
 
        #+begin_answer
-
+         $\RMS = 1 > P_X / P_Y = 0.4$. Solución de esquina: $X^* = 50;
+         Y^* = 0$.
        #+end_answer
 
     c) ¿Cómo se vería modificada la elección del consumidor si $P_X =
        \price{10}$?
 
        #+begin_answer
-
+         $\RMS = 1 < P_X / P_Y = 2$. Solución de esquina: $X^* = 0;
+         Y^* = 20$.
        #+end_answer
 
 13. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
