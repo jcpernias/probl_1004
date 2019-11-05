@@ -62,9 +62,9 @@
       #+end_answer
 
 2. Un consumidor dispone de \money{20} para comprar carne y
-   patatas. En el supermercado en el que suele hacer la compra, el kg
-   de carne vale \money{4} mientras que cada kg de patatas cuesta
-   \money{2}.
+   patatas. En el supermercado en el que suele hacer la compra, la
+   carne se vende a \price[kg]{4} mientras que el kilo de patatas
+   cuesta \money{2}.
 
    a) Obtenga y represente la restricción presupuestaria.
 
