@@ -340,13 +340,15 @@
        #+end_answer
 
 13. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
-    bien $X$ por 1 unidad del bien $Y$. El precio del bien $X$ es de
+    bien $Y$ por 1 unidad del bien $X$. El precio del bien $X$ es de
     $4$ €/unidad y el precio del bien $Y$ es de $3$ €/unidad. Con esta
     información, ¿es posible determinar cuantas unidades del bien $X$
     consumirá? ¿Y del bien $Y$? Razone la respuesta.
 
     #+begin_answer
-
+      $\RMS = 2 > P_X / P_Y = 4/3$. El consumidor gastará toda su
+      renta en $X$, $X^* = M/4$, y no consumirá ninguna unidad de $Y$,
+      $Y^* = 0$.
     #+end_answer
 
 14. *Complementarios perfectos*.
