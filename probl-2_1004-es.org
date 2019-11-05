@@ -169,7 +169,12 @@
      Celia: solución de esquina y $\RMS \leq 2$.
    #+end_answer
 
-7. Un consumidor dispone de una renta de \money{800} para comprar los
+7. *Obtener precio a partir de elección óptima*
+   #+begin_answer
+
+   #+end_answer
+
+8. Un consumidor dispone de una renta de \money{800} para comprar los
    bienes $X$ e $Y$, cuyos precios son $P_X = \price{4}$ y $P_Y =
    \price{2}$. Sus preferencias pueden describirse con la función de
    utilidad:
@@ -221,7 +226,7 @@
         $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
       #+end_answer
 
-8. Las preferencias de un consumidor entre gasolina, $G$, y un bien
+9. Las preferencias de un consumidor entre gasolina, $G$, y un bien
    compuesto, $Y$, que recoge las compras del consumidor en los
    restantes bienes, están representadas por la función de utilidad:
    $U(G, Y)= (G + 10) Y$. El precio de la gasolina es de $P_G =
@@ -254,26 +259,6 @@
       #+end_answer
 
    c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
-
-      #+begin_answer
-
-      #+end_answer
-
-9. *Cambiar a descuento por volumen* El precio del bien $X$ cambia
-   dependiendo de la cantidad que se compre: las 50 primeras unidades
-   cuestan \price{1}, mientras que para cada unidad comprada por
-   encima de la quincuagésima el precio es \price{2}.
-
-   a) Obtenga y represente gráficamente la restricción presupuestaria
-      de un consumidor que dispone de una renta monetaria de
-      \money{200}. [/Pista/: Utilice un bien compuesto.]
-
-      #+begin_answer
-
-      #+end_answer
-
-   b) Si las preferencias de este consumidor son tales que: $\RMS = Y
-      / 4X$, ¿cuál sería la elección óptima?
 
       #+begin_answer
 
