@@ -197,7 +197,7 @@
         La restricción presupuestaria tiene dos tramos:
         #+begin_export latex
         \[
-          M =
+          Y =
           \begin{cases}
             400 - 2 X & \text{si $X < 75$} \\
             325 - X & \text{si $X \geq 75$}
