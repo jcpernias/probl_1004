@@ -148,7 +148,28 @@
      Cesta óptima: $X^* = \units{30}$; $Y^* = \units{120}$.
    #+end_answer
 
-5. Un consumidor dispone de una renta de \money{800} para comprar los
+5. La cesta óptima de un consumidor con preferencias regulares
+   contiene cantidades positivas de todos los bienes. Si aumenta el
+   precio de un bien, ¿se reducirá la utilidad del consumidor?
+   Justifique su respuesta.
+
+   #+begin_answer
+     Con los nuevos precios no puede comprar la cesta inicial. Tiene
+     que elegir una cesta que podría haber elegido con los precios
+     iniciales pero no lo hizo: su utilidad es menor.
+   #+end_answer
+
+6. Cuando $P_X = \price{6}$ y $P_Y = \price{3}$, Pablo consume $X = 10$
+   e $Y = 4$ mientras que Celia elige $X = 0$ e $Y = 13$. ¿Qué puede
+   decirse de la relación marginal de sustitución de Pablo y Celia?
+
+   #+begin_answer
+     Pablo: solución interior por lo que $\RMS = 2$.
+
+     Celia: solución de esquina y $\RMS \leq 2$.
+   #+end_answer
+
+7. Un consumidor dispone de una renta de \money{800} para comprar los
    bienes $X$ e $Y$, cuyos precios son $P_X = \price{4}$ y $P_Y =
    \price{2}$. Sus preferencias pueden describirse con la función de
    utilidad:
@@ -199,27 +220,6 @@
         pero la utilidad que obtiene el consumidor es mayor eligiendo
         $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
       #+end_answer
-
-6. La cesta óptima de un consumidor con preferencias regulares
-   contiene cantidades positivas de todos los bienes. Si aumenta el
-   precio de un bien, ¿se reducirá la utilidad del consumidor?
-   Justifique su respuesta.
-
-   #+begin_answer
-     Con los nuevos precios no puede comprar la cesta inicial. Tiene
-     que elegir una cesta que podría haber elegido con los precios
-     iniciales pero no lo hizo: su utilidad es menor.
-   #+end_answer
-
-7. Cuando $P_X = \price{6}$ y $P_Y = \price{3}$, Pablo consume $X = 10$
-   e $Y = 4$ mientras que Celia elige $X = 0$ e $Y = 13$. ¿Qué puede
-   decirse de la relación marginal de sustitución de Pablo y Celia?
-
-   #+begin_answer
-     Pablo: solución interior por lo que $\RMS = 2$.
-
-     Celia: solución de esquina y $\RMS \leq 2$.
-   #+end_answer
 
 8. Las preferencias de un consumidor entre gasolina, $G$, y un bien
    compuesto, $Y$, que recoge las compras del consumidor en los
