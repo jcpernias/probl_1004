@@ -148,23 +148,56 @@
      Cesta óptima: $X^* = \units{30}$; $Y^* = \units{120}$.
    #+end_answer
 
-5. *Añade función de utilidad* Un consumidor dispone de una renta de
-   \money{1000} para comprar los bienes $X$ e $Y$, cuyos precios son
-   $P_X = \price{5}$ y $P_Y = \price{1}$.
+5. Un consumidor dispone de una renta de \money{800} para comprar los
+   bienes $X$ e $Y$, cuyos precios son $P_X = \price{4}$ y $P_Y =
+   \price{2}$. Sus preferencias pueden describirse con la función de
+   utilidad:
+   #+begin_export latex
+   \[
+     U(X, Y) = X^{0.25} Y^{0.75}
+   \]
+   #+end_export
 
-   a) Obtenga y represente el conjunto presupuestario del consumidor.
+   a) Obtenga la elección óptima del consumidor.
 
       #+begin_answer
+        Restricción presupuestaria: $800 = 4 X + 2 Y$.
 
+        Condición de tangencia: $Y = 6 X$
+
+        Elección óptima: $X^* = \units{50}$; $Y^* = \units{300}$.
       #+end_answer
 
-   b) ¿Cómo cambiaría el conjunto presupuestario si el consumidor
-      obtiene un descuento de \money{1} por cada unidad comprada del
-      bien $X$ por encima de \num{25} unidades? Justifique su
-      respuesta.
+   b) ¿Cómo cambiaría la elección si el consumidor obtiene un
+      descuento de \money{2} por cada unidad comprada del bien $X$ por
+      encima de \num{75} unidades?
 
       #+begin_answer
+        La restricción presupuestaria tiene dos tramos:
+        #+begin_export latex
+        \[
+          M =
+          \begin{cases}
+            400 - 2 X & \text{si $X < 75$} \\
+            325 - X & \text{si $X \geq 75$}
+          \end{cases}
+        \]
+        #+end_export
 
+        Obtenemos la solución en cada uno de los tramos:
+
+        #+ATTR_LATEX: :booktabs t :center t :align lrr
+        |----------+-----------------------+-----------------------------|
+        |          | $X < 75$              | $X > 75$                    |
+        |----------+-----------------------+-----------------------------|
+        | RP       | $800 = 4 X + 2 Y$     | $650 = 2X + 2Y$             |
+        | CT       | $Y = 6 X$             | $Y = 3 X$                   |
+        | Óptimo   | $X^* = 50, Y^* = 300$ | $X^* = 81.25, Y^* = 243.75$ |
+        | Utilidad | $191.68$              | $185.21$                    |
+        |----------+-----------------------+-----------------------------|
+        Las dos soluciones cumplen las condiciones de óptimo interior,
+        pero la utilidad que obtiene el consumidor es mayor eligiendo
+        $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
       #+end_answer
 
 6. Un consumidor racional elige una cesta que contiene cantidades
