@@ -336,7 +336,7 @@
 
     #+end_answer
 
-15. *Bono gimnasio*
+15. *Solución de esquina*
 
     #+begin_answer
 
