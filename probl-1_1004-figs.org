@@ -600,7 +600,7 @@
 
     \draw[help lines]
     let \p1 = (E1) in
-    (0, \y1) node[left] {$2500$} -|
+    (0, \y1) node[left] {$2000$} -|
     (\x1, 0) node[below] {$45000$}
     ;
     \node[dot] at (E1) {} ;

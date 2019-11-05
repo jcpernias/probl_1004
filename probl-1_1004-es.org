@@ -413,7 +413,7 @@
            Equilibrio:
            #+begin_export latex
            \begin{gather*}
-             P^*_X = \price{2500} \\
+             P^*_X = \price{2000} \\
              X^* = \units{45000}
            \end{gather*}
            #+end_export
