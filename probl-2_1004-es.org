@@ -182,7 +182,45 @@
      de $X$.
    #+end_answer
 
-8. Un consumidor dispone de una renta de \money{800} para comprar los
+8. Las preferencias de un consumidor entre gasolina, $G$, y un bien
+   compuesto, $Y$, que recoge las compras del consumidor en los
+   restantes bienes, están representadas por la función de utilidad:
+   $U(G, Y)= (G + 10) Y$. El precio de la gasolina es de $P_G =
+   \price[l]{2}$ y la renta del consumidor es $M = \money{24}$.
+
+   a) Indique la expresión matemática de la restricción presupuestaria
+      y represéntela gráficamente.
+
+      #+begin_answer
+
+      #+end_answer
+
+   b) La empresa para la que trabaja este consumidor está considerando
+      la posibilidad de ofrecer incentivos para los trabajadores más
+      eficientes y estudia diferentes posibilidades:
+
+      + Entregar un vale al trabajador que le permite adquirir
+        \num{6} litros de gasolina de forma gratuita.
+
+      + Ofrecer al trabajador un descuento de \money{1} por cada litro
+        de gasolina que consuma.
+
+      + Entregarle una gratificación de \money{12} en metálico.
+
+      Indique la expresión matemática de la restricción presupuestaria
+      en cada uno de los casos y represéntelas en un mismo gráfico.
+
+      #+begin_answer
+
+      #+end_answer
+
+   c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
+
+      #+begin_answer
+
+      #+end_answer
+
+9. Un consumidor dispone de una renta de \money{800} para comprar los
    bienes $X$ e $Y$, cuyos precios son $P_X = \price{4}$ y $P_Y =
    \price{2}$. Sus preferencias pueden describirse con la función de
    utilidad:
@@ -232,44 +270,6 @@
         Las dos soluciones cumplen las condiciones de óptimo interior,
         pero la utilidad que obtiene el consumidor es mayor eligiendo
         $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
-      #+end_answer
-
-9. Las preferencias de un consumidor entre gasolina, $G$, y un bien
-   compuesto, $Y$, que recoge las compras del consumidor en los
-   restantes bienes, están representadas por la función de utilidad:
-   $U(G, Y)= (G + 10) Y$. El precio de la gasolina es de $P_G =
-   \price[l]{2}$ y la renta del consumidor es $M = \money{24}$.
-
-   a) Indique la expresión matemática de la restricción presupuestaria
-      y represéntela gráficamente.
-
-      #+begin_answer
-
-      #+end_answer
-
-   b) La empresa para la que trabaja este consumidor está considerando
-      la posibilidad de ofrecer incentivos para los trabajadores más
-      eficientes y estudia diferentes posibilidades:
-
-      + Entregar un vale al trabajador que le permite adquirir
-        \num{6} litros de gasolina de forma gratuita.
-
-      + Ofrecer al trabajador un descuento de \money{1} por cada litro
-        de gasolina que consuma.
-
-      + Entregarle una gratificación de \money{12} en metálico.
-
-      Indique la expresión matemática de la restricción presupuestaria
-      en cada uno de los casos y represéntelas en un mismo gráfico.
-
-      #+begin_answer
-
-      #+end_answer
-
-   c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
-
-      #+begin_answer
-
       #+end_answer
 
 10. Las preferencias de un consumidor pueden representarse por la
