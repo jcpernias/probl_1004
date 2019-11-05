@@ -290,7 +290,11 @@
     a) Calcule la elección óptima de consumo.
 
        #+begin_answer
+         Recta presupuestaria: $250 = X + 4 Y$.
 
+         $\RMS = (Y + 100) / X$.
+
+         Solución de esquina: $X^* = 250; Y^* = 0$.
        #+end_answer
 
     b) Si se raciona el bien $X$ de forma que no es posible consumir
@@ -298,7 +302,15 @@
        óptima?. Represente gráficamente.
 
        #+begin_answer
-
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+         # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+         *Gráfico*
+         #+end_minipage
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+           $X^* = 100; Y^* = 37.5$.
+         #+end_minipage
        #+end_answer
 
 12. La función de utilidad de un individuo respecto de los bienes $X$ e
