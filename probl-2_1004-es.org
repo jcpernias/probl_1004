@@ -211,10 +211,14 @@
      iniciales pero no lo hizo: su utilidad es menor.
    #+end_answer
 
-7. *RMS*.
+7. Cuando $P_X = \price{6}$ y $P_Y = \price{3}$, Pablo consume $X = 10$
+   e $Y = 4$ mientras que Celia elige $X = 0$ e $Y = 13$. ¿Qué puede
+   decirse de la relación marginal de sustitución de Pablo y Celia?
 
    #+begin_answer
+     Pablo: solución interior por lo que $\RMS = 2$.
 
+     Celia: solución de esquina y $\RMS \leq 2$.
    #+end_answer
 
 8. Las preferencias de un consumidor entre gasolina, $G$, y un bien
