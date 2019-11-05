@@ -159,17 +159,7 @@
      iniciales pero no lo hizo: su utilidad es menor.
    #+end_answer
 
-6. Cuando $P_X = \price{6}$ y $P_Y = \price{3}$, Pablo consume $X = 10$
-   e $Y = 4$ mientras que Celia elige $X = 0$ e $Y = 13$. ¿Qué puede
-   decirse de la relación marginal de sustitución de Pablo y Celia?
-
-   #+begin_answer
-     Pablo: solución interior por lo que $\RMS = 2$.
-
-     Celia: solución de esquina y $\RMS \leq 2$.
-   #+end_answer
-
-7. La función de utilidad de un consumidor es $U(X, Y) = X Y$. La
+6. La función de utilidad de un consumidor es $U(X, Y) = X Y$. La
    cesta óptima está compuesta por 10 unidades del bien $X$ y 5
    unidades del bien $Y$. Sabiendo que el precio del bien $X$ es de
    \price{6}, ¿cuál es la renta del consumidor?
@@ -179,7 +169,7 @@
      P_Y$. Por tanto, $P_Y = 12$. Entonces $M = \money{120}$.
    #+end_answer
 
-8. Un consumidor posee una renta de \money{4} que gasta en los bienes
+7. Un consumidor posee una renta de \money{4} que gasta en los bienes
    $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
    \price{2}$. Cuando consume $2$ unidades de $Y$ y no consume nada de
    $X$, la relación marginal de sustitución es igual a $2$. ¿Es esta
@@ -192,7 +182,7 @@
      de $X$.
    #+end_answer
 
-9. Un consumidor dispone de una renta de \money{800} para comprar los
+8. Un consumidor dispone de una renta de \money{800} para comprar los
    bienes $X$ e $Y$, cuyos precios son $P_X = \price{4}$ y $P_Y =
    \price{2}$. Sus preferencias pueden describirse con la función de
    utilidad:
@@ -244,45 +234,45 @@
         $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
       #+end_answer
 
-10. Las preferencias de un consumidor entre gasolina, $G$, y un bien
-    compuesto, $Y$, que recoge las compras del consumidor en los
-    restantes bienes, están representadas por la función de utilidad:
-    $U(G, Y)= (G + 10) Y$. El precio de la gasolina es de $P_G =
-    \price[l]{2}$ y la renta del consumidor es $M = \money{24}$.
+9. Las preferencias de un consumidor entre gasolina, $G$, y un bien
+   compuesto, $Y$, que recoge las compras del consumidor en los
+   restantes bienes, están representadas por la función de utilidad:
+   $U(G, Y)= (G + 10) Y$. El precio de la gasolina es de $P_G =
+   \price[l]{2}$ y la renta del consumidor es $M = \money{24}$.
 
-    a) Indique la expresión matemática de la restricción presupuestaria
-       y represéntela gráficamente.
+   a) Indique la expresión matemática de la restricción presupuestaria
+      y represéntela gráficamente.
 
-       #+begin_answer
+      #+begin_answer
 
-       #+end_answer
+      #+end_answer
 
-    b) La empresa para la que trabaja este consumidor está considerando
-       la posibilidad de ofrecer incentivos para los trabajadores más
-       eficientes y estudia diferentes posibilidades:
+   b) La empresa para la que trabaja este consumidor está considerando
+      la posibilidad de ofrecer incentivos para los trabajadores más
+      eficientes y estudia diferentes posibilidades:
 
-       + Entregar un vale al trabajador que le permite adquirir
-         \num{6} litros de gasolina de forma gratuita.
+      + Entregar un vale al trabajador que le permite adquirir
+        \num{6} litros de gasolina de forma gratuita.
 
-       + Ofrecer al trabajador un descuento de \money{1} por cada litro
-         de gasolina que consuma.
+      + Ofrecer al trabajador un descuento de \money{1} por cada litro
+        de gasolina que consuma.
 
-       + Entregarle una gratificación de \money{12} en metálico.
+      + Entregarle una gratificación de \money{12} en metálico.
 
-       Indique la expresión matemática de la restricción presupuestaria
-       en cada uno de los casos y represéntelas en un mismo gráfico.
+      Indique la expresión matemática de la restricción presupuestaria
+      en cada uno de los casos y represéntelas en un mismo gráfico.
 
-       #+begin_answer
+      #+begin_answer
 
-       #+end_answer
+      #+end_answer
 
-    c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
+   c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
 
-       #+begin_answer
+      #+begin_answer
 
-       #+end_answer
+      #+end_answer
 
-11. Las preferencias de un consumidor pueden representarse por la
+10. Las preferencias de un consumidor pueden representarse por la
     función de utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien
     $X$ es \price{1} y el del bien $Y$ es \price{4}. El consumidor
     dispone de una renta monetaria de \money{250}.
@@ -313,7 +303,7 @@
          #+end_minipage
        #+end_answer
 
-12. La función de utilidad de un individuo respecto de los bienes $X$ e
+11. La función de utilidad de un individuo respecto de los bienes $X$ e
     $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
     $P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
     consumidor es $M = \money{100}$.
@@ -339,7 +329,7 @@
          Y^* = 20$.
        #+end_answer
 
-13. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
+12. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
     bien $Y$ por 1 unidad del bien $X$. El precio del bien $X$ es de
     $4$ €/unidad y el precio del bien $Y$ es de $3$ €/unidad. Con esta
     información, ¿es posible determinar cuantas unidades del bien $X$
@@ -351,13 +341,7 @@
       $Y^* = 0$.
     #+end_answer
 
-14. *Complementarios perfectos*.
-
-    #+begin_answer
-
-    #+end_answer
-
-15. *Solución de esquina*
+13. *Complementarios perfectos*.
 
     #+begin_answer
 
