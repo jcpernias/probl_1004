@@ -200,12 +200,15 @@
         $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
       #+end_answer
 
-6. Un consumidor racional elige una cesta que contiene cantidades
-   positivas de todos los bienes. Si aumenta el precio de un bien, ¿se
-   reducirá la utilidad del consumidor? Justifique su respuesta.
+6. La cesta óptima de un consumidor con preferencias regulares
+   contiene cantidades positivas de todos los bienes. Si aumenta el
+   precio de un bien, ¿se reducirá la utilidad del consumidor?
+   Justifique su respuesta.
 
    #+begin_answer
-
+     Con los nuevos precios no puede comprar la cesta inicial. Tiene
+     que elegir una cesta que podría haber elegido con los precios
+     iniciales pero no lo hizo: su utilidad es menor.
    #+end_answer
 
 7. *RMS*.
