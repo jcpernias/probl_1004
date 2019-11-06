@@ -137,15 +137,38 @@
 4. Las preferencias de un consumidor están representadas por la
    función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
    de \money{900} y los precios de los bienes $X$ e $Y$ son $P_X =
-   \price{10}$ y $P_Y = \price{5}$. Calcule la elección óptima del
-   consumidor.
+   \price{10}$ y $P_Y = \price{5}$. Calcule y represente la elección
+   óptima del consumidor.
 
    #+begin_answer
-     Recta presupuestaria: $900 = 10 X + 5 Y$.
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+     # #+MATS: fig fig-probl-2_1004-budget2-*.pdf
+     *Gráfico*
+     #+end_minipage
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       Recta presupuestaria:
+       #+begin_export latex
+       \[
+         900 = 10 X + 5 Y
+       \]
+       #+end_export
 
-     Condición de tangencia: $Y = 4 X$.
+       Condición de tangencia:
+       #+begin_export latex
+       \[
+         Y = 4 X
+       \]
+       #+end_export
 
-     Cesta óptima: $X^* = \units{30}$; $Y^* = \units{120}$.
+       Cesta óptima:
+       #+begin_export latex
+       \[
+         X^* = \units{30} \quad Y^* = \units{120}
+       \]
+       #+end_export
+     #+end_minipage
    #+end_answer
 
 5. La cesta óptima de un consumidor con preferencias regulares
