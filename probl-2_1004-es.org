@@ -394,8 +394,66 @@
       $Y^* = 0$.
     #+end_answer
 
-13. *Complementarios perfectos*.
+13. A Rocío le gusta tomar leche con cereales. Para combinarlos
+    utiliza siempre la misma proporción: por cada \units[ml]{250} de
+    leche añade exactamente \units[g]{20} de cereales y desecha
+    cualquier cantidad sobrante de leche o cereales.
 
-    #+begin_answer
+    a) Represente las preferencias de Rocío con respecto a la leche y
+       los cereales.
 
-    #+end_answer
+       #+begin_answer
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+         # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+         *Gráfico*
+         #+end_minipage
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+           Preferencias sobre $L$, litros de leche, y $C$, kg de cereales:
+           #+begin_export latex
+           \[
+             U = \min\{L/0.250, C/0.020\}
+           \]
+           #+end_export
+           Por tanto:
+           #+begin_export latex
+           \[
+             U = \min\{4L, 50C\}
+           \]
+           #+end_export
+         #+end_minipage
+       #+end_answer
+
+    a) Si Rocío gasta \money{6} al mes en leche y cereales, el precio
+       de la leche es de \price[l]{0.80} y el de los cereales es de
+       \price[kg]{2}, ¿cuál será su elección óptima?.
+       #+begin_answer
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+         # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+         *Gráfico*
+         #+end_minipage
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+           Restricción presupuestaria:
+           #+begin_export latex
+           \[
+             6 = 0.8 L + 2 C
+           \]
+           #+end_export
+           Las combinaciones con las proporciones exactas cumplen:
+           #+begin_export latex
+           \[
+             4L = 50C
+           \]
+           #+end_export
+           Óptimo:
+           #+begin_export latex
+           \[
+             L^* = \units[l]{6.250} \quad C^* = \units[kg]{0.500}
+           \]
+           #+end_export
+         #+end_minipage
+
+       #+end_answer
