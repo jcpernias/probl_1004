@@ -200,12 +200,11 @@
    a) Obtenga y represente la elección óptima del consumidor.
 
       #+begin_answer
-        #+attr_latex: :options {0.5\linewidth}
+        #+attr_latex: :options {0.55\linewidth}
         #+begin_minipage
-        # #+MATS: fig fig-probl-2_1004-budget2-*.pdf
-        *Gráfico*
+        #+MATS: fig fig-probl-2_1004-walnut1-*.pdf
         #+end_minipage
-        #+attr_latex: :options {0.5\linewidth}
+        #+attr_latex: :options {0.45\linewidth}
         #+begin_minipage
           Recta presupuestaria:
           #+begin_export latex
@@ -223,9 +222,10 @@
 
           Cesta óptima:
           #+begin_export latex
-          \[
-            N^* = \units[kg]{0.500} \quad Y^* = \money{36.00}
-          \]
+          \begin{gather*}
+            N^* = \units[kg]{0.500} \\
+            Y^* = \money{36.00}
+          \end{gather*}
           #+end_export
         #+end_minipage
       #+end_answer
@@ -246,28 +246,59 @@
       casos?
 
       #+begin_answer
-        #+ATTR_LATEX: :booktabs t :center t :align lrr
-        |-------------------+-------------------+----------------|
-        |                   | $L^*$             | $Y^*$          |
-        |-------------------+-------------------+----------------|
-        | Subvención        | \units[kg]{1.125} | \money{32.80}  |
-        | Donación especie  | \units[kg]{1.500} | \money{40.00}  |
-        | Donación metálico | \units[kg]{1.250} | \money{42.00}  |
-        |-------------------+-------------------+----------------|
-      #+end_answer
+        #+attr_latex: :options {0.55\linewidth}
+        #+begin_minipage
+        #+MATS: fig fig-probl-2_1004-walnut2-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.45\linewidth}
+        #+begin_minipage
+          Subvención (la restricción se quiebra en $X = 1.5$ e $Y =
+          30.4$). Cesta óptima:
+          #+begin_export latex
+          \begin{gather*}
+            N^* = \units[kg]{1.125} \\
+            Y^* = \money{32.80}
+          \end{gather*}
+          #+end_export
+        #+end_minipage
 
-   c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
+        #+attr_latex: :options {0.55\linewidth}
+        #+begin_minipage
+        #+MATS: fig fig-probl-2_1004-walnut3-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.45\linewidth}
+        #+begin_minipage
+          Donación especie:
+          #+begin_export latex
+          \begin{gather*}
+            N^* = \units[kg]{1.500} \\
+            Y^* = \money{40.00}
+          \end{gather*}
+          #+end_export
+        #+end_minipage
+
+        #+attr_latex: :options {0.55\linewidth}
+        #+begin_minipage
+        #+MATS: fig fig-probl-2_1004-walnut4-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.45\linewidth}
+        #+begin_minipage
+          Donación metálico:
+          #+begin_export latex
+          \begin{gather*}
+            N^* = \units[kg]{1.250} \\
+            Y^* = \money{42.00}
+          \end{gather*}
+          #+end_export
+        #+end_minipage
+     #+end_answer
+
+   c) ¿Cuál de las opciones preferirá el consumidor? Razone su
+      respuesta.
 
       #+begin_answer
-        #+ATTR_LATEX: :booktabs t :center t :align lrr
-        |-------------------+---------|
-        |                   | $U^*$   |
-        |-------------------+---------|
-        | Situación inicial | $162.0$ |
-        | Subvención        | $168.1$ |
-        | Donación especie  | $220.0$ |
-        | Donación metálico | $220.5$ |
-        |-------------------+---------|
+        La donación en metálico le permite alcanzar un mayor nivel de
+        utilidad.
       #+end_answer
 
 9. Un consumidor dispone de una renta de \money{800} para comprar los

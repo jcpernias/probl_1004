@@ -7,6 +7,7 @@
 
 * Ex. 1: Budget line and taxes
 
+
 ** Sales tax
 
 #+begin_src latex :tangle fig-probl-2_1004-budget-tax1.tex :noweb yes
@@ -19,6 +20,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** Income tax
 
 #+begin_src latex :tangle fig-probl-2_1004-budget-tax2.tex :noweb yes
@@ -30,6 +32,10 @@
     <<ex1:axes>>
   \end{tikzpicture}
 #+end_src
+
+
+** Common
+
 
 *** Axes
 
@@ -72,6 +78,9 @@
 
 * Ex. 2: Budget line and promotions
 
+
+** Initial situation
+
 #+begin_src latex :tangle fig-probl-2_1004-budget1.tex
   \begin{tikzpicture}[xscale = 0.3, yscale = 0.3]
 
@@ -83,6 +92,9 @@
 
   \end{tikzpicture}
 #+end_src
+
+
+** Promotion
 
 #+begin_src latex :tangle fig-probl-2_1004-budget2.tex
   \begin{tikzpicture}[xscale = 0.3, yscale = 0.3]
@@ -110,6 +122,7 @@
 
 * Ex. 3: Neutral goods and bads
 
+
 ** Neutral good
 
 #+begin_src latex :tangle fig-probl-2_1004-neutral.tex :noweb yes
@@ -128,6 +141,7 @@
     <<ex3:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** Bad
 
@@ -156,6 +170,10 @@
     <<ex3:axes>>
   \end{tikzpicture}
 #+end_src
+
+
+** Common
+
 
 *** Axes
 
@@ -192,7 +210,8 @@
   ;
 #+end_src
 
-* Ex. 2: Budget line and promotions
+
+* Ex. 4: Choice
 
 #+begin_src latex :tangle fig-probl-2_1004-choice.tex
   \begin{tikzpicture}[xscale = 2.77777777778, yscale = 2.272727272727]
@@ -212,4 +231,194 @@
 
     \node[dot] at (0.3, 1.2) {} ;
   \end{tikzpicture}
+#+end_src
+
+
+* Ex. 8: Walnuts
+
+
+** Initial situation
+
+#+begin_src latex :tangle fig-probl-2_1004-walnut1.tex :noweb yes
+  \begin{tikzpicture}<<ex8:xy-scale>>
+    \draw[help lines]
+      (0, 3.6) node[left] {$36$} -|
+      (0.5, 0) node[below] {$0.5$}
+      ;
+
+    \draw[curve]
+      (0, 4) node[left] {$40$} --
+      (5, 0) node[below] {$5$}
+      ;
+
+    \draw[curve, very thick]
+       plot[domain=0:5, smooth]
+       ({\x},{16.2/(\x+4)})
+       node[right] {$U_1 = 162$}
+       ;
+    \node[dot] at (0.5, 3.6) {} ;
+    <<ex8:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Subsidy
+
+#+begin_src latex :tangle fig-probl-2_1004-walnut2.tex :noweb yes
+  \begin{tikzpicture}<<ex8:xy-scale>>
+    \draw[help lines]
+      (0, 3.28) node[left] {$32.8$} -|
+      (1.125, 0) node[below] {$1.125$}
+      ;
+
+    \draw[curve]
+      (0, 4) node[left] {$40$} --
+      (1.5, 3.04) --
+      (6.25, 0) node[below] {$6.25$}
+      ;
+
+    \draw[curve, very thick]
+       plot[domain=0:5, smooth]
+       ({\x},{16.81/(\x+4)})
+       node[right] {$U_2 = 168.1$}
+       ;
+    \node[dot] at (1.125, 3.28) {} ;
+
+    <<ex8:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Donations
+
+#+begin_src latex :tangle fig-probl-2_1004-walnut3.tex :noweb yes
+  \begin{tikzpicture}<<ex8:xy-scale>>
+    \draw[help lines]
+      (1.5, 4) --
+      (1.5, 0) node[below] {$1.5$}
+      ;
+
+    \draw[curve]
+      (0, 4) node[left] {$40$} --
+      (1.5, 4) --
+      (6.5, 0) node[below] {$6.5$}
+      ;
+
+    \draw[curve, very thick]
+       plot[domain=0:5, smooth]
+       ({\x},{22/(\x+4)})
+       node[right] {$U_3 = 220$}
+       ;
+    \node[dot] at (1.5, 4) {} ;
+
+    <<ex8:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-probl-2_1004-walnut4.tex :noweb yes
+  \begin{tikzpicture}<<ex8:xy-scale>>
+    \draw[help lines]
+      (0, 4.2) node[left] {$42$} -|
+      (1.25, 0) node[below] {$1.25$}
+      ;
+
+    \draw[curve]
+      (0, 5.2) node[left] {$52$} --
+      (6.5, 0) node[below] {$6.5$}
+      ;
+
+    \draw[curve, very thick]
+       plot[domain=0:5, smooth]
+       ({\x},{22.05/(\x+4)})
+       node[right] {$U_4 = 220.5$}
+       ;
+    \node[dot] at (1.25, 4.2) {} ;
+
+    <<ex8:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex8:axes
+  \draw[axis, very thick] (0, 6) node[above] {$Y$} |-
+    (8, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8:xy-scale
+  [yscale = 0.75, xscale = 0.625]
+#+end_src
+
+
+* Ex. 9: Quantity discount
+
+
+** Initial situation
+
+#+begin_src latex :tangle fig-probl-2_1004-walnut1.tex :noweb yes
+  \begin{tikzpicture}<<ex9:xy-scale>>
+    \draw[help lines]
+      (0, 3.6) node[left] {$36$} -|
+      (0.5, 0) node[below] {$0.5$}
+      ;
+
+    \draw[curve]
+      (0, 4) node[left] {$40$} --
+      (5, 0) node[below] {$5$}
+      ;
+
+    \draw[curve, very thick]
+       plot[domain=0:5, smooth]
+       ({\x},{16.2/(\x+4)})
+       node[right] {$U_1 = 162$}
+       ;
+    \node[dot] at (0.5, 3.6) {} ;
+    <<ex9:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Discount
+
+#+begin_src latex :tangle fig-probl-2_1004-walnut2.tex :noweb yes
+  \begin{tikzpicture}<<ex9:xy-scale>>
+    \draw[help lines]
+      (0, 3.28) node[left] {$32.8$} -|
+      (1.125, 0) node[below] {$1.125$}
+      ;
+
+    \draw[curve]
+      (0, 4) node[left] {$40$} --
+      (1.5, 3.04) --
+      (6.25, 0) node[below] {$6.25$}
+      ;
+
+    \draw[curve, very thick]
+       plot[domain=0:5, smooth]
+       ({\x},{16.81/(\x+4)})
+       node[right] {$U_2 = 168.1$}
+       ;
+    \node[dot] at (1.125, 3.28) {} ;
+
+    <<ex9:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex8:axes
+  \draw[axis, very thick] (0, 6) node[above] {$Y$} |-
+    (8, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8:xy-scale
+  [yscale = 0.75, xscale = 0.625]
 #+end_src
