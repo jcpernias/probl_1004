@@ -106,3 +106,88 @@
 
   \end{tikzpicture}
 #+end_src
+
+
+* Ex. 3: Neutral goods and bads
+
+** Neutral good
+
+#+begin_src latex :tangle fig-probl-2_1004-neutral.tex :noweb yes
+  \begin{tikzpicture}<<ex3:xy-scale>>
+    \draw[curve]
+      (0, 0.2) -- (0.85, 0.2) node[right] {$I_1$}
+      (0, 0.4) -- (0.85, 0.4) node[right] {$I_2$}
+      (0, 0.6) -- (0.85, 0.6) node[right] {$I_3$}
+      ;
+
+    \draw[shift arrow, ->]
+      (0.45, 0.65) -- (0.45, 0.85)
+      ;
+
+
+    <<ex3:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Bad
+
+#+begin_src latex :tangle fig-probl-2_1004-bad.tex :noweb yes
+  \begin{tikzpicture}<<ex3:xy-scale>>
+
+    \draw[curve] (0.1, 0.1) ..
+      controls (0.2, 0.6) and (0.6, 0.8) ..
+      (0.9, 0.9) node[right] {$I_{1}$}
+      ;
+
+    \draw[curve] (0.2, 0.1) ..
+      controls (0.35, 0.6) and (0.6, 0.65) ..
+      (0.9, 0.8) node[right] {$I_{2}$}
+      ;
+
+    \draw[curve] (0.3, 0.1) ..
+      controls (0.45, 0.45) and (0.55, 0.55) ..
+      (0.9, 0.7) node[right] {$I_{3}$}
+      ;
+
+    \draw[shift arrow, ->]
+      (0.6, 0.4) -- (0.84, 0.16)
+      ;
+
+    <<ex3:axes>>
+  \end{tikzpicture}
+#+end_src
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex3:axes
+  \draw[axis, very thick] (0, 1) node[above] {Pescado} |-
+    (1, 0) node[below] {Pollo} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex3:xy-scale
+  [yscale = 4, xscale = 4]
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex1:budget-no-tax
+  \draw[curve, very thick]
+  (0,1) node[left] {$M/P_Y$} --
+  (1,0) (1.05, 0) node[below] {$M/P_X$}
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex1:budget-sales-tax
+  \draw[curve, very thick]
+  (0, 0.8) node[left] {$(1/1.25)M/P_Y$} --
+  (0.8, 0) (0.6, 0) node[below] {$(1/1.25)M/P_X$}
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex1:budget-income-tax
+  \draw[curve, very thick]
+  (0, 0.75) node[left] {$0.75 M/P_Y$} --
+  (0.75, 0) (0.7, 0) node[below] {$0.75 M/P_X$}
+  ;
+#+end_src

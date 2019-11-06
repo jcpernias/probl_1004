@@ -109,8 +109,7 @@
          Amaia: el pollo es neutral.
        #+latex: \end{minipage}
        #+latex: \end{center}
-       # #+MATS: fig fig-probl-1_1004-medicines-*.pdf
-       *Gráfico*
+       #+MATS: fig fig-probl-2_1004-neutral-*.pdf
      #+end_minipage
      #+attr_latex: :options {0.5\linewidth}
      #+begin_minipage
@@ -119,8 +118,7 @@
         Alejandro: el pescado es un mal.
        #+latex: \end{minipage}
        #+latex: \end{center}
-       # #+MATS: fig fig-probl-1_1004-computers-*.pdf
-       *Gráfico*
+       #+MATS: fig fig-probl-2_1004-bad-*.pdf
      #+end_minipage
    #+end_answer
 
