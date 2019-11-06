@@ -188,8 +188,8 @@
    \price{6}, ¿cuál es la renta del consumidor?
 
    #+begin_answer
-     Solución interior: $\RMS = Y/X = 5 / 10 = P_X / P_Y = 6 /
-     P_Y$. Por tanto, $P_Y = 12$. Entonces $M = \money{120}$.
+     Solución interior: $\RMS = Y/X = 5 / 10$ es igual a $P_X / P_Y =
+     6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
    #+end_answer
 
 7. Un consumidor posee una renta de \money{4} que gasta en los bienes
