@@ -105,33 +105,33 @@
       #+end_minipage
       #+end_answer
 
-3. Las preferencias entre el pollo y el pescado de Amaia y Alejandro
-   son diferentes. A Amaia le gusta el pescado, mientras que el pollo
-   ni le gusta ni le disgusta. Por su parte, a Alejandro no le gusta
-   el pescado pero sí el pollo y sólo está dispuesto a comer algo de
-   pescado si a cambio recibe una porción extra de pollo. Represente
-   las preferencias de Amaia y de Alejandro.
+3. A Amaia le gusta el pescado, mientras que el pollo ni le gusta ni
+   le disgusta. Por su parte, a Alejandro no le gusta el pescado pero
+   sí el pollo y sólo está dispuesto a comer algo de pescado si a
+   cambio recibe una porción extra de pollo. Represente las
+   preferencias de Amaia y de Alejandro.
 
    #+begin_answer
-   #+attr_latex: :options {0.5\linewidth}
-   #+begin_minipage
-   # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-   *Gráfico*
-   #+end_minipage
-   #+attr_latex: :options {0.5\linewidth}
-   #+begin_minipage
-   El pollo es un bien neutral para Amaia.
-   #+end_minipage
-
-   #+attr_latex: :options {0.5\linewidth}
-   #+begin_minipage
-   # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-   *Gráfico*
-   #+end_minipage
-   #+attr_latex: :options {0.5\linewidth}
-   #+begin_minipage
-   El pescado es un mal para Alejandro.
-   #+end_minipage
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       #+latex: \begin{center}
+       #+latex: \begin{minipage}{0.85\linewidth}
+         Amaia: el pollo es neutral.
+       #+latex: \end{minipage}
+       #+latex: \end{center}
+       # #+MATS: fig fig-probl-1_1004-medicines-*.pdf
+       *Gráfico*
+     #+end_minipage
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       #+latex: \begin{center}
+       #+latex: \begin{minipage}{0.95\linewidth}
+        Alejandro: el pescado es un mal.
+       #+latex: \end{minipage}
+       #+latex: \end{center}
+       # #+MATS: fig fig-probl-1_1004-computers-*.pdf
+       *Gráfico*
+     #+end_minipage
    #+end_answer
 
 4. Las preferencias de un consumidor están representadas por la
