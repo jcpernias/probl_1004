@@ -204,11 +204,11 @@
      de $X$.
    #+end_answer
 
-8. Las preferencias de un consumidor entre leche, $L$, y un bien
-   compuesto, $Y$, que recoge las compras del consumidor en los
-   restantes bienes, están representadas por la función de utilidad:
-F   $U(L, Y)= (L + 30) Y$. El precio de la leche es de $P_L =
-   \price[l]{1}$ y la renta del consumidor es $M = \money{40}$.
+8. La función $U(N, Y) = (N+4) Y$ describe las preferencias de un
+   consumidor entre nueces, $N$, y un bien compuesto que agrega
+   las compras de otros bienes, $Y$. El precio de las nueces
+   es $P_N = \price[kg]{8}$ y la renta del consumidor es $M =
+   \money{40}$.
 
    a) Obtenga y represente la elección óptima del consumidor.
 
@@ -223,34 +223,35 @@ F   $U(L, Y)= (L + 30) Y$. El precio de la leche es de $P_L =
           Recta presupuestaria:
           #+begin_export latex
           \[
-            40 = L + Y
+            40 = 8N + Y
           \]
           #+end_export
 
           Condición de tangencia:
           #+begin_export latex
           \[
-            Y = L + 30
+            Y = 8N + 32
           \]
           #+end_export
 
           Cesta óptima:
           #+begin_export latex
           \[
-            L^* = \units[l]{5} \quad Y^* = \money{35}
+            N^* = \units[kg]{0.500} \quad Y^* = \money{36.00}
           \]
           #+end_export
         #+end_minipage
       #+end_answer
 
-   b) El Gobierno quiere fomentar el consumo de leche y está
+   b) El Gobierno quiere fomentar el consumo de nueces y está
       estudiando diferentes alternativas:
 
-      + Una subvención que reduce un 20% el precio de los primeros 12
-        litros de leche.
+      + Una subvención que reduce un 20% el precio de las nueces. La
+        subvención sólo se puede aplicar a un kilo y medio de nueces
+        por consumidor.
 
       + Entregar a cada consumidor un vale con el que puede obtener
-        gratis 12 litros de leche.
+        gratis un kilo y medio de nueces.
 
       + Entregar a cada consumidor \money{12} en metálico.
 
@@ -258,18 +259,28 @@ F   $U(L, Y)= (L + 30) Y$. El precio de la leche es de $P_L =
       casos?
 
       #+begin_answer
-        * Subvención: $L^* = \units[l]{10} \quad Y^* = \money{32}$.
-        * Donación: $L^* = \units[l]{12} \quad Y^* = \money{40}$.
-        * Metálico: $L^* = \units[l]{11} \quad Y^* = \money{41}$.
+        #+ATTR_LATEX: :booktabs t :center t :align lrr
+        |-------------------+-------------------+----------------|
+        |                   | $L^*$             | $Y^*$          |
+        |-------------------+-------------------+----------------|
+        | Subvención        | \units[kg]{1.125} | \money{32.80}  |
+        | Donación especie  | \units[kg]{1.500} | \money{40.00}  |
+        | Donación metálico | \units[kg]{1.250} | \money{42.00}  |
+        |-------------------+-------------------+----------------|
       #+end_answer
 
    c) ¿Cuál de las opciones preferirá el consumidor? Razone su respuesta.
 
       #+begin_answer
-        * Situación inicial: $U = 1225$.
-        * Subvención: $U = 1280$.
-        * Donación: $U = 1680$.
-        * Metálico: $U = 1681$.
+        #+ATTR_LATEX: :booktabs t :center t :align lrr
+        |-------------------+---------|
+        |                   | $U^*$   |
+        |-------------------+---------|
+        | Situación inicial | $162.0$ |
+        | Subvención        | $168.1$ |
+        | Donación especie  | $220.0$ |
+        | Donación metálico | $220.5$ |
+        |-------------------+---------|
       #+end_answer
 
 9. Un consumidor dispone de una renta de \money{800} para comprar los
