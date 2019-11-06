@@ -392,19 +392,7 @@
          Y^* = 20$.
        #+end_answer
 
-12. Un consumidor /siempre/ está dispuesto a intercambiar 2 unidades del
-    bien $Y$ por 1 unidad del bien $X$. El precio del bien $X$ es de
-    $4$ €/unidad y el precio del bien $Y$ es de $3$ €/unidad. Con esta
-    información, ¿es posible determinar cuantas unidades del bien $X$
-    consumirá? ¿Y del bien $Y$? Razone la respuesta.
-
-    #+begin_answer
-      $\RMS = 2 > P_X / P_Y = 4/3$. El consumidor gastará toda su
-      renta en $X$, $X^* = M/4$, y no consumirá ninguna unidad de $Y$,
-      $Y^* = 0$.
-    #+end_answer
-
-13. A Rocío le gusta tomar leche con cereales. Para combinarlos
+12. A Rocío le gusta tomar leche con cereales. Para combinarlos
     utiliza siempre la misma proporción: por cada \units[ml]{250} de
     leche añade exactamente \units[g]{20} de cereales y desecha
     cualquier cantidad sobrante de leche o cereales.
@@ -435,7 +423,7 @@
          #+end_minipage
        #+end_answer
 
-    a) Si Rocío gasta \money{6} al mes en leche y cereales, el precio
+    b) Si Rocío gasta \money{6} al mes en leche y cereales, el precio
        de la leche es de \price[l]{0.80} y el de los cereales es de
        \price[kg]{2}, ¿cuál será su elección óptima?.
        #+begin_answer
