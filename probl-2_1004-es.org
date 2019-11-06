@@ -315,11 +315,34 @@
    a) Obtenga la elección óptima del consumidor.
 
       #+begin_answer
-        Restricción presupuestaria: $800 = 4 X + 2 Y$.
+        #+attr_latex: :options {0.55\linewidth}
+        #+begin_minipage
+        #+MATS: fig fig-probl-2_1004-discount1-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.45\linewidth}
+        #+begin_minipage
+          Recta presupuestaria:
+          #+begin_export latex
+          \[
+            800 = 4 X + 2 Y
+          \]
+          #+end_export
 
-        Condición de tangencia: $Y = 6 X$
+          Condición de tangencia:
+          #+begin_export latex
+          \[
+            Y = 6 X
+          \]
+          #+end_export
 
-        Elección óptima: $X^* = \units{50}$; $Y^* = \units{300}$.
+          Cesta óptima:
+          #+begin_export latex
+          \begin{gather*}
+            X^* = \units{50} \\
+            Y^* = \units{300}
+          \end{gather*}
+          #+end_export
+        #+end_minipage
       #+end_answer
 
    b) ¿Cómo cambiaría la elección si el consumidor obtiene un
@@ -349,6 +372,7 @@
         | Óptimo   | $X^* = 50, Y^* = 300$ | $X^* = 81.25, Y^* = 243.75$ |
         | Utilidad | $191.68$              | $185.21$                    |
         |----------+-----------------------+-----------------------------|
+
         Las dos soluciones cumplen las condiciones de óptimo interior,
         pero la utilidad que obtiene el consumidor es mayor eligiendo
         $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
