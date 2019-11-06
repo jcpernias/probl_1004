@@ -413,7 +413,7 @@
 
     b) Si Rocío gasta \money{6} al mes en leche y cereales, el precio
        de la leche es de \price[l]{0.80} y el de los cereales es de
-       \price[kg]{2}, ¿cuál será su elección óptima?.
+       \price[kg]{2}, ¿cuál será su elección óptima?
        #+begin_answer
          #+attr_latex: :options {0.5\linewidth}
          #+begin_minipage
