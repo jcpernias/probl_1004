@@ -345,12 +345,12 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex8:axes
-  \draw[axis, very thick] (0, 6) node[above] {$Y$} |-
-    (8, 0) node[below] {$X$} ;
+  \draw[axis, very thick] (0, 6) node[left] {$Y$} |-
+    (8, 0) node[below] {$N$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex8:xy-scale
-  [yscale = 0.75, xscale = 0.625]
+  [yscale = 0.83, xscale = 0.625]
 #+end_src
 
 
@@ -386,7 +386,7 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex9:axes
-  \draw[axis, very thick] (0, 5) node[above] {$Y$} |-
+  \draw[axis, very thick] (0, 5) node[left] {$Y$} |-
     (5, 0) node[below] {$X$} ;
 #+end_src
 

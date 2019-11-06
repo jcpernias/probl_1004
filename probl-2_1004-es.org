@@ -292,7 +292,6 @@
           #+end_export
         #+end_minipage
      #+end_answer
-     #+latex: \ClearPage{}
 
    c) ¿Cuál de las opciones preferirá el consumidor? Razone su
       respuesta.
