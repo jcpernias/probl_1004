@@ -130,8 +130,7 @@
    #+begin_answer
      #+attr_latex: :options {0.5\linewidth}
      #+begin_minipage
-     # #+MATS: fig fig-probl-2_1004-budget2-*.pdf
-     *Gráfico*
+     #+MATS: fig fig-probl-2_1004-choice-*.pdf
      #+end_minipage
      #+attr_latex: :options {0.5\linewidth}
      #+begin_minipage
@@ -417,7 +416,7 @@
        #+begin_answer
          #+attr_latex: :options {0.5\linewidth}
          #+begin_minipage
-         # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+         # #+MATS: fig fig-probl-2_1004-choice-*.pdf
          *Gráfico*
          #+end_minipage
          #+attr_latex: :options {0.5\linewidth}

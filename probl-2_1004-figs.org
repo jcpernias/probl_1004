@@ -191,3 +191,25 @@
   (0.75, 0) (0.7, 0) node[below] {$0.75 M/P_X$}
   ;
 #+end_src
+
+* Ex. 2: Budget line and promotions
+
+#+begin_src latex :tangle fig-probl-2_1004-choice.tex
+  \begin{tikzpicture}[xscale = 2.77777777778, yscale = 2.272727272727]
+
+    \draw[help lines]
+      (0, 1.2) node[left] {$120$} -|
+      (0.3, 0) node[below] {$30$} ;
+
+    \draw[curve, very thick]
+    (0, 1.8) node[left] {$180$} -- (0.9, 0) node[below] {$90$} ;
+
+    \draw[curve, very thick]
+    plot[domain=0.12:1.2, smooth] ({\x},{0.65727/sqrt(\x)}) ;
+
+    \draw[axis, very thick] (0,2.2) node[left] {$Y$} |-
+    (1.8, 0) node[below] {$X$} ;
+
+    \node[dot] at (0.3, 1.2) {} ;
+  \end{tikzpicture}
+#+end_src
