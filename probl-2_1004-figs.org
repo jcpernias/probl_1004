@@ -5,8 +5,72 @@
 #+OPTIONS: header-args: latex :exports source :eval no :noweb yes
 
 
+* Ex. 1: Budget line and taxes
 
-* Budget line and promotions
+** Sales tax
+
+#+begin_src latex :tangle fig-probl-2_1004-budget-tax1.tex :noweb yes
+  \begin{tikzpicture}<<ex1:xy-scale>>
+
+    <<ex1:budget-no-tax>>
+    <<ex1:budget-sales-tax>>
+
+    <<ex1:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Income tax
+
+#+begin_src latex :tangle fig-probl-2_1004-budget-tax2.tex :noweb yes
+  \begin{tikzpicture}<<ex1:xy-scale>>
+
+    <<ex1:budget-no-tax>>
+    <<ex1:budget-income-tax>>
+
+    <<ex1:axes>>
+  \end{tikzpicture}
+#+end_src
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex1:axes
+  \draw[axis, very thick] (0, 1.25) node[left] {$Y$} |-
+    (1.25, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex1:xy-scale
+  [yscale = 3.2, xscale = 4]
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex1:budget-no-tax
+  \draw[curve, very thick]
+  (0,1) node[left] {$M/P_Y$} --
+  (1,0) (1.05, 0) node[below] {$M/P_X$}
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex1:budget-sales-tax
+  \draw[curve, very thick]
+  (0, 0.8) node[left] {$(1/1.25)M/P_Y$} --
+  (0.8, 0) (0.6, 0) node[below] {$(1/1.25)M/P_X$}
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex1:budget-income-tax
+  \draw[curve, very thick]
+  (0, 0.75) node[left] {$0.75 M/P_Y$} --
+  (0.75, 0) (0.7, 0) node[below] {$0.75 M/P_X$}
+  ;
+#+end_src
+
+
+
+
+
+* Ex. 2: Budget line and promotions
 
 #+begin_src latex :tangle fig-probl-2_1004-budget1.tex
   \begin{tikzpicture}[xscale = 0.3, yscale = 0.3]

@@ -13,8 +13,7 @@
       #+begin_answer
       #+attr_latex: :options {0.5\linewidth}
       #+begin_minipage
-      # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-      *Gráfico*
+      #+MATS: fig fig-probl-2_1004-budget-tax1-*.pdf
       #+end_minipage
       #+attr_latex: :options {0.5\linewidth}
       #+begin_minipage
@@ -31,8 +30,7 @@
       #+begin_answer
       #+attr_latex: :options {0.5\linewidth}
       #+begin_minipage
-      # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-      *Gráfico*
+      #+MATS: fig fig-probl-2_1004-budget-tax2-*.pdf
       #+end_minipage
       #+attr_latex: :options {0.5\linewidth}
       #+begin_minipage
@@ -46,19 +44,11 @@
    c) ¿Cuál de las dos opciones preferirá el consumidor?
 
       #+begin_answer
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
-      # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-      *Gráfico*
-      #+end_minipage
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
         La restricción del apartado /a/) puede escribirse como:
         \begin{equation*}
           0.8 M = P_X X + P_Y Y
         \end{equation*}
         El consumidor preferiría el impuesto al consumo.
-      #+end_minipage
       #+end_answer
 
 2. Un consumidor dispone de \money{20} para comprar carne y
