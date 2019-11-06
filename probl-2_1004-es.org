@@ -136,9 +136,8 @@
 
 4. Las preferencias de un consumidor están representadas por la
    función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
-   de \money{900} y los precios de los bienes $X$ e $Y$ son $P_X =
-   \price{10}$ y $P_Y = \price{5}$. Calcule y represente la elección
-   óptima del consumidor.
+   de \money{900} y los precios son $P_X = \price{10}$ y $P_Y =
+   \price{5}$. Calcule y represente la elección óptima del consumidor.
 
    #+begin_answer
      #+attr_latex: :options {0.5\linewidth}
@@ -208,7 +207,7 @@
 8. Las preferencias de un consumidor entre leche, $L$, y un bien
    compuesto, $Y$, que recoge las compras del consumidor en los
    restantes bienes, están representadas por la función de utilidad:
-   $U(L, Y)= (L + 30) Y$. El precio de la leche es de $P_L =
+F   $U(L, Y)= (L + 30) Y$. El precio de la leche es de $P_L =
    \price[l]{1}$ y la renta del consumidor es $M = \money{40}$.
 
    a) Obtenga y represente la elección óptima del consumidor.
@@ -455,5 +454,4 @@
            \]
            #+end_export
          #+end_minipage
-
        #+end_answer
