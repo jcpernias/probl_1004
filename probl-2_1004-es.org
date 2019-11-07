@@ -385,11 +385,32 @@
     a) Calcule la elección óptima de consumo.
 
        #+begin_answer
-         Recta presupuestaria: $250 = X + 4 Y$.
-
-         $\RMS = (Y + 100) / X$.
-
-         Solución de esquina: $X^* = 250; Y^* = 0$.
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+         #+MATS: fig fig-probl-2_1004-corner1-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+           Recta presupuestaria:
+           #+begin_export latex
+           \[
+             250 = X + 4 Y
+           \]
+           #+end_export
+           Relación marginal de sustitución:
+           #+begin_export latex
+           \[
+             \RMS = (Y + 100) / X
+           \]
+           #+end_export
+           Solución de esquina:
+           #+begin_export latex
+           \begin{gather*}
+             X^* = \units{250} \\
+             Y^* = \units{0}
+           \end{gather*}
+           #+end_export
+         #+end_minipage
        #+end_answer
 
     b) Si se raciona el bien $X$ de forma que no es posible consumir
@@ -399,12 +420,17 @@
        #+begin_answer
          #+attr_latex: :options {0.5\linewidth}
          #+begin_minipage
-         # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-         *Gráfico*
+         #+MATS: fig fig-probl-2_1004-corner2-*.pdf
          #+end_minipage
          #+attr_latex: :options {0.5\linewidth}
          #+begin_minipage
-           $X^* = 100; Y^* = 37.5$.
+           Elección óptima
+           #+begin_export latex
+           \begin{gather*}
+             X^* = \units{100} \\
+             Y^* = \units{37.5}
+           \end{gather*}
+           #+end_export
          #+end_minipage
        #+end_answer
 
