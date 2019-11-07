@@ -469,12 +469,11 @@
        los cereales.
 
        #+begin_answer
-         #+attr_latex: :options {0.5\linewidth}
+         #+attr_latex: :options {0.55\linewidth}
          #+begin_minipage
-         # #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-         *Gráfico*
+         #+MATS: fig fig-probl-2_1004-compl1-*.pdf
          #+end_minipage
-         #+attr_latex: :options {0.5\linewidth}
+         #+attr_latex: :options {0.45\linewidth}
          #+begin_minipage
            Preferencias sobre $L$, litros de leche, y $C$, kg de cereales:
            #+begin_export latex
@@ -495,12 +494,11 @@
        de la leche es de \price[l]{0.80} y el de los cereales es de
        \price[kg]{2}, ¿cuál será su elección óptima?
        #+begin_answer
-         #+attr_latex: :options {0.5\linewidth}
+         #+attr_latex: :options {0.55\linewidth}
          #+begin_minipage
-         # #+MATS: fig fig-probl-2_1004-choice-*.pdf
-         *Gráfico*
+         #+MATS: fig fig-probl-2_1004-compl2-*.pdf
          #+end_minipage
-         #+attr_latex: :options {0.5\linewidth}
+         #+attr_latex: :options {0.45\linewidth}
          #+begin_minipage
            Restricción presupuestaria:
            #+begin_export latex
@@ -508,7 +506,7 @@
              6 = 0.8 L + 2 C
            \]
            #+end_export
-           Las combinaciones con las proporciones exactas cumplen:
+           Proporciones exactas:
            #+begin_export latex
            \[
              4L = 50C
@@ -516,9 +514,10 @@
            #+end_export
            Óptimo:
            #+begin_export latex
-           \[
-             L^* = \units[l]{6.250} \quad C^* = \units[kg]{0.500}
-           \]
+           \begin{gather*}
+             L^* = \units[l]{6.250} \\
+             C^* = \units[kg]{0.500}
+           \end{gather*}
            #+end_export
          #+end_minipage
        #+end_answer

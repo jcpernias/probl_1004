@@ -473,3 +473,82 @@
   plot[domain=0.85:1.2, smooth] ({\x},{13.75/\x-10})
   ;
 #+end_src
+
+* Ex. 12: Perfect complements
+
+
+** Indiference curves
+
+#+begin_src latex :tangle fig-probl-2_1004-compl1.tex :noweb yes
+  \begin{tikzpicture}<<ex12:xy-scale>>
+
+    <<ex12:u1>>
+    <<ex12:u2>>
+    <<ex12:u3>>
+
+    <<ex12:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Choice
+
+#+begin_src latex :tangle fig-probl-2_1004-compl2.tex :noweb yes
+  \begin{tikzpicture}<<ex12:xy-scale>>
+
+    \draw[help lines]
+    (0, 0.5) node[left] {$0.5$} -| (6.25, 0) (6.05, 0) node[below] {$6.25$}
+    ;
+
+    \draw[curve, very thick]
+    (0, 3) node[left] {$3$} -- (7.5, 0) (7.85, 0) node[below] {$7.5$} ;
+
+    \draw[curve, thick, gray]
+    (0, 0) -- (11, 0.88) ;
+
+    <<ex12:u1>>
+    <<ex12:u2>>
+    <<ex12:u3>>
+
+
+    \draw
+    (6.25, 0.5) node[dot] {} ;
+
+    <<ex12:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex12:axes
+  \draw[axis, very thick] (0, 4) node[left] {$C$} |-
+    (12, 0) node[below] {$L$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:xy-scale
+  [yscale = 1.25, xscale = 0.4166667]
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex12:u1
+  \draw[curve, very thick]
+  (3.25, 3.5) |- (11, 0.25)
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:u2
+  \draw[curve, very thick]
+  (6.25, 3.5) |- (11, 0.5)
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:u3
+  \draw[curve, very thick]
+  (9.375, 3.5) |- (11, 0.75)
+  ;
+#+end_src
