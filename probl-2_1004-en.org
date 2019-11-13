@@ -14,13 +14,13 @@
    c) Which option would the consumer prefer?
 
 2. A consumer has \money{20} to buy meat and potatoes. He usually
-   shops at a supermarket where the meat is sold for \money{4} per
-   kilo, and one kilo of potatoes costs \money{2}.
+   shops at a supermarket where the meat is sold for \price[kg]{4},
+   and one kilo of potatoes costs \money{2}.
 
    a) Obtain and represent the budget constraint.
 
-   b) The supermarket run a sales promotion where customers that buy
-      more than \units[kg]{4} of potatoes will get two additional
+   b) The supermarket run a sales promotion where the customers that
+      buy more than \units[kg]{4} of potatoes will get two additional
       kilos for free. Obtain and represent the budget constraint in
       this case.
 

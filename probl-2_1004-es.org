@@ -52,9 +52,8 @@
       #+end_answer
 
 2. Un consumidor dispone de \money{20} para comprar carne y
-   patatas. En el supermercado en el que suele hacer la compra, la
-   carne se vende a \price[kg]{4} mientras que el kilo de patatas
-   cuesta \money{2}.
+   patatas. Suele comprar en un supermercado donde la carne se vende a
+   \price[kg]{4} y un kilo de patatas cuesta \money{2}.
 
    a) Obtenga y represente la restricción presupuestaria.
 
@@ -72,10 +71,10 @@
       #+end_minipage
       #+end_answer
 
-   b) El supermercado introduce una oferta por la que regala
-      \units[kg]{2} más de patatas a todo el que compre \units[kg]{4}
-      o más. Obtenga y represente la restricción presupuestaria en
-      este caso.
+   b) El supermercado introduce una oferta por la que los clientes que
+      compren más de \units[kg]{4} de patatas recibirán gratis 2 kilos
+      más. Obtenga y represente la restricción presupuestaria
+      en este caso.
 
       #+begin_answer
       #+attr_latex: :options {0.5\linewidth}
