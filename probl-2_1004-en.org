@@ -37,7 +37,7 @@
 
 5. The optimal basket of a consumer with regular preferences contains
    positive amounts of all goods. If the price of one of the goods
-   increased, would this reduce the consumer's utility? Justify your
+   increases, will this reduce the consumer's utility? Justify your
    answer.
 
 6. The utility function of a consumer is $U (X, Y) = X Y$. The optimal
