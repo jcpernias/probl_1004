@@ -59,12 +59,12 @@
 
    a) Obtain and represent the optimal choice of the consumer.
 
-   b) The Government wants to promote the consumption of nuts and it
-      is studying different alternatives:
+   b) The Government aims to promote the consumption of nuts and it is
+      considering different alternatives:
 
       + A subsidy that reduces the price of nuts by 20%. The subsidy
-        can only be applied to one and a half kilograms of nuts per
-        consumer.
+        can only be applied to the purchase of one and a half
+        kilograms of nuts per consumer.
 
       + Give each consumer a voucher that can be exchanged for one and
         a half kilos of nuts.

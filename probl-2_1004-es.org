@@ -191,9 +191,9 @@
    #+end_answer
 
 8. La función $U(N, Y) = (N+4) Y$ describe las preferencias de un
-   consumidor entre nueces, $N$, y un bien compuesto que agrega
-   las compras de otros bienes, $Y$. El precio de las nueces
-   es $P_N = \price[kg]{8}$ y la renta del consumidor es $M =
+   consumidor entre nueces, $N$, y un bien compuesto que recoge el
+   dinero gastado en todos los otros bienes, $Y$. El precio de las
+   nueces es $P_N = \price[kg]{8}$ y la renta del consumidor es $M =
    \money{40}$.
 
    a) Obtenga y represente la elección óptima del consumidor.
@@ -233,11 +233,11 @@
       estudiando diferentes alternativas:
 
       + Una subvención que reduce un 20% el precio de las nueces. La
-        subvención sólo se puede aplicar a un kilo y medio de nueces
-        por consumidor.
+        subvención sólo se puede aplicar a la compra de un kilo y
+        medio de nueces por consumidor.
 
-      + Entregar a cada consumidor un vale con el que puede obtener
-        gratis un kilo y medio de nueces.
+      + Entregar a cada consumidor un vale que puede canjearse por un
+        kilo y medio de nueces.
 
       + Entregar a cada consumidor \money{12} en metálico.
 
@@ -292,8 +292,7 @@
         #+end_minipage
      #+end_answer
 
-   c) ¿Cuál de las opciones preferirá el consumidor? Razone su
-      respuesta.
+   c) ¿Qué opción preferiría el consumidor? Razone su respuesta.
 
       #+begin_answer
         La donación en metálico le permite alcanzar un mayor nivel de
