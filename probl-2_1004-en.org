@@ -45,10 +45,10 @@
    $Y$. Knowing that the price of $X$ is \price{6}, how much is the
    consumer's income?
 
-7. A consumer has an income of \money{4} that she spends on goods $X$
+7. A consumer has an income of \money{40} that she spends on goods $X$
    and $Y$, whose prices are $P_X = \price{3}$ and $P_Y =
-   \price{2}$. When she consumes $2$ units of $Y$ and none of $X$, the
-   marginal rate of substitution is equal to $2$. Is this the
+   \price{2}$. When she consumes $20$ units of $Y$ and none of $X$,
+   the marginal rate of substitution is equal to $2$. Is this the
    consumer's optimal choice or would she be better off buying more
    units of good $X$ and less of good $Y$?
 

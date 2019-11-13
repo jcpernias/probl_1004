@@ -177,11 +177,11 @@
      6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
    #+end_answer
 
-7. Un consumidor posee una renta de \money{4} que gasta en los bienes
+7. Un consumidora posee una renta de \money{40} que gasta en los bienes
    $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
-   \price{2}$. Cuando consume $2$ unidades de $Y$ y no consume nada de
+   \price{2}$. Cuando consume $20$ unidades de $Y$ y no consume nada de
    $X$, la relación marginal de sustitución es igual a $2$. ¿Es esta
-   la elección óptima del consumidor o estaría mejor consumiendo más
+   la elección óptima de la consumidora o estaría mejor comprando más
    unidades de $X$ y menos de $Y$?
 
    #+begin_answer
