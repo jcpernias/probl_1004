@@ -4,10 +4,10 @@
 #+TITLE: Cuaderno de ejercicios 2
 
 
-1. Un consumidor gasta su renta $M$ en los bienes $X$ e $Y$.
+1. Una consumidora gasta su renta $M$ en los bienes $X$ e $Y$.
 
-   a) ¿Como cambiaría su recta presupuestaria si se establece un
-      impuesto sobre el consumo que eleva el precio de los bienes en
+   a) ¿Como cambiaría su recta presupuestaria si se estableciera un
+      impuesto sobre el consumo y el precio de ambos bienes aumentara
       un 25%?
 
       #+begin_answer
@@ -24,8 +24,8 @@
       #+end_minipage
       #+end_answer
 
-   b) ¿Y si, en vez del impuesto al consumo, se establece un impuesto
-      sobre la renta que reduce $M$ un 25%?
+   b) ¿Y si, en vez del impuesto al consumo, se estableciera un
+      impuesto sobre la renta y $M$ se redujera un 25%?
 
       #+begin_answer
       #+attr_latex: :options {0.5\linewidth}
@@ -41,14 +41,14 @@
       #+end_minipage
       #+end_answer
 
-   c) ¿Cuál de las dos opciones preferirá el consumidor?
+   c) ¿Qué opción preferiría la consumidora?
 
       #+begin_answer
         La restricción del apartado /a/) puede escribirse como:
         \begin{equation*}
           0.8 M = P_X X + P_Y Y
         \end{equation*}
-        El consumidor preferiría el impuesto al consumo.
+        Preferiría el impuesto al consumo.
       #+end_answer
 
 2. Un consumidor dispone de \money{20} para comprar carne y
