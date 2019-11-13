@@ -342,11 +342,11 @@
         #+end_minipage
       #+end_answer
 
-   b) ¿Cómo cambiaría la elección si el consumidor obtiene un
-      descuento de \money{2} por cada unidad comprada del bien $X$ por
-      encima de \num{75} unidades?
+   b) Si se aplicara un descuento de \money{2} a cada unidad de $X$
+      por encima de las primeras 75, ¿cómo cambiaría la elección
+      óptima?
 
-      #+begin_answer
+      #+Begin_answer
         La restricción presupuestaria tiene dos tramos:
         #+begin_export latex
         \[

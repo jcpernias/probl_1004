@@ -76,7 +76,7 @@
   c) Which option would the consumer prefer? Justify your answer.
 
 9. A consumer has an income of \money{800} to buy goods $X$ and $Y$,
-   whose prices are $P_X = \price{4}$ and $P_Y = \price{2}$. His/her
+   whose prices are $P_X = \price{4}$ and $P_Y = \price{2}$. Her
    preferences can be described by the following utility function:
    #+begin_export latex
    \[
@@ -84,11 +84,10 @@
    \]
    #+end_export
 
-   a) Obtain the optimum consumer choice.
+   a) Obtain the consumer's optimal choice.
 
-   b) How would the optimal choice change if the consumer obtains a
-      discount of \money{2} for each unit purchased from the good $X$
-      above \num{75} units?
+   b) If a price discount of \money{2} were applied to each unit of
+      $X$ beyond the first 75, how would the optimal choice change?
 
 10. The preferences of a consumer can be represented by the utility
     function: $U(X, Y) = X (Y + 100)$. The price of the good $X$ is
