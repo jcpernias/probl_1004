@@ -121,7 +121,7 @@
      #+end_minipage
    #+end_answer
 
-4. Las preferencias de un consumidor están representadas por la
+4. Las preferencias de un consumidor pueden describirse con la
    función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
    de \money{900} y los precios son $P_X = \price{10}$ y $P_Y =
    \price{5}$. Calcule y represente la elección óptima del consumidor.

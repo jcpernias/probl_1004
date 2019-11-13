@@ -30,7 +30,7 @@
    extra portion of chicken in return. Represent the preferences of
    Amaia and Alejandro.
 
-4. The preferences of a consumer are represented by the utility
+4. The preferences of a consumer can be described with the utility
    function: $U(X, Y) = 5 X Y^2$. The consumer's income is \money{900}
    and the prices are $P_X = \price{10}$ and $P_Y =
    \price{5}$. Calculate and represent the consumer's optimal choice.
