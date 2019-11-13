@@ -89,16 +89,16 @@
    b) If a price discount of \money{2} were applied to each unit of
       $X$ beyond the first 75, how would the optimal choice change?
 
-10. The preferences of a consumer can be represented by the utility
-    function: $U(X, Y) = X (Y + 100)$. The price of the good $X$ is
-    \price{1} and that of the good $Y$ is \price{4}. The consumer has
-    a monetary income of \money{250}.
+10. The preferences of a consumer are given by the utility function:
+    $U(X, Y) = X (Y + 100)$. The price of the good $X$ is \price{1}
+    and that of the good $Y$ is \price{4}. The consumer has a monetary
+    income of \money{250}.
 
-    a) Calculate the optimal choice of consumption.
+    a) Calculate the optimal consumption bundle.
 
-    b) If the good $X$ is rationed so that it is not possible to
-       consume more than 100 units of $X$, what would be the optimal
-       choice for this consumer? Represents graphically.
+    b) If the good $X$ were rationed so that the consumer were not
+       allowed to buy more than 100 units of $X$, what would be the
+       optimal choice?  Represent graphically.
 
 11. The utility function of an individual with respect to the goods
     $X$ and $Y$ is given by $U(X, Y) = 3X + 3Y$. The market prices are

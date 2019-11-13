@@ -375,12 +375,12 @@
         $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
       #+end_answer
 
-10. Las preferencias de un consumidor pueden representarse por la
-    función de utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien
-    $X$ es \price{1} y el del bien $Y$ es \price{4}. El consumidor
-    dispone de una renta monetaria de \money{250}.
+10. Las preferencias de un consumidor vienen dadas por la función de
+    utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien $X$ es
+    \price{1} y el del bien $Y$ es \price{4}. El consumidor dispone de
+    una renta monetaria de \money{250}.
 
-    a) Calcule la elección óptima de consumo.
+    a) Calcule la cesta óptima de consumo.
 
        #+begin_answer
          #+attr_latex: :options {0.5\linewidth}
@@ -411,9 +411,9 @@
          #+end_minipage
        #+end_answer
 
-    b) Si se raciona el bien $X$ de forma que no es posible consumir
-       más de 100 unidades de $X$, ¿cuál sería la elección
-       óptima?. Represente gráficamente.
+    b) Si se racionara el bien $X$ de forma que no se permitiera al
+       consumidor comprar más de 100 unidades de $X$, ¿cuál sería la
+       elección óptima?  Represente gráficamente.
 
        #+begin_answer
          #+attr_latex: :options {0.5\linewidth}
