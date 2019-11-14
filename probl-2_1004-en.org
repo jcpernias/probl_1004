@@ -111,13 +111,12 @@
 
     c) How would the consumer's choice be modified if $P_X = \price{10}$?
 
-12. Rocío likes to drink milk with cereals. To combine them she always
-    uses the same proportion: for each \units[ml]{250} of milk she adds
-    exactly \units[g]{20} of cereals and discards any excess of milk
-    or cereals.
+12. Rocío likes to eat cereal with milk. She always combines them in
+    the same proportion: she adds exactly 20 grams of cereal per every
+    \units[ml]{250} of milk and discards any excess of milk or cereal.
 
-    a) Represent Rocío's preferences regarding milk and cereals.
+    a) Represent Rocío's preferences regarding milk and cereal.
 
-    b) If Rocío spends \money{6} a month in milk and cereals, the
+    b) If Rocío spends \money{6} a month on milk and cereal, the
        price of the milk is \price[l]{0.80} and the price of cereals
        is \price[kg]{2}, what will be her optimal choice?
