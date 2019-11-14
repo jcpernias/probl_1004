@@ -105,11 +105,12 @@
     $P_X = \price{2}$ and $P_Y = \price{5}$ and the monetary income of
     the consumer is $M = \money{100}$.
 
-    a) Is $(X, Y) = (10, 40)$ an optimal basket? Why?
+    a) Is $(X, Y) = (10, 40)$ the optimal basket? Why?
 
-    b) What is the optimum consumer choice?
+    b) Which is the optimal choice for the consumer?
 
-    c) How would the consumer's choice be modified if $P_X = \price{10}$?
+    c) How would the optimal choice change if $P_X =
+       \price{10}$?
 
 12. Rocío likes to eat cereal with milk. She always combines them in
     the same proportion: she adds exactly 20 grams of cereal per every

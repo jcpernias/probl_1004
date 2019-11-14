@@ -437,7 +437,7 @@
     $P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
     consumidor es $M = \money{100}$.
 
-    a) ¿Es $(X,Y) = (10, 40)$ una cesta óptima? ¿Por qué?
+    a) ¿Es $(X,Y) = (10, 40)$ la cesta óptima? ¿Por qué?
 
        #+begin_answer
          No, no tiene suficiente renta para comprarla.
@@ -450,7 +450,7 @@
          Y^* = 0$.
        #+end_answer
 
-    c) ¿Cómo se vería modificada la elección del consumidor si $P_X =
+    c) ¿Cómo cambiaría la elección del consumidor si $P_X =
        \price{10}$?
 
        #+begin_answer
