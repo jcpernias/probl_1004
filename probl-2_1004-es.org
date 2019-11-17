@@ -177,12 +177,12 @@
      6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
    #+end_answer
 
-7. Un consumidora posee una renta de \money{40} que gasta en los bienes
-   $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
-   \price{2}$. Cuando consume $20$ unidades de $Y$ y no consume nada de
+7. Un consumidora posee una renta de \money{40} que gasta en los
+   bienes $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
+   \price{2}$. Cuando ella consume $20$ unidades de $Y$ y ninguna de
    $X$, la relación marginal de sustitución es igual a $2$. ¿Es esta
-   la elección óptima de la consumidora o estaría mejor comprando más
-   unidades de $X$ y menos de $Y$?
+   su elección óptima o estaría mejor comprando más unidades de $X$ y
+   menos de $Y$?
 
    #+begin_answer
      Cuando compra $X=0$ e $Y=2$, $\RMS = 2 > P_X/P_Y = 1.5$.  Su
@@ -241,8 +241,7 @@
 
       + Entregar a cada consumidor \money{12} en metálico.
 
-      ¿Cuál sería la elección del consumidor en cada uno de estos
-      casos?
+      ¿Qué elegiría el consumidor en cada uno de estos casos?
 
       #+begin_answer
         #+attr_latex: :options {0.55\linewidth}
@@ -292,7 +291,7 @@
         #+end_minipage
      #+end_answer
 
-   c) ¿Qué opción preferiría el consumidor? Razone su respuesta.
+   c) ¿Qué alternativa preferiría el consumidor? Razone su respuesta.
 
       #+begin_answer
         La donación en metálico le permite alcanzar un mayor nivel de
@@ -343,8 +342,8 @@
       #+end_answer
 
    b) Si se aplicara un descuento de \money{2} a cada unidad de $X$
-      por encima de las primeras 75, ¿cómo cambiaría la elección
-      óptima?
+      por encima de las primeras 75 unidades, ¿cómo cambiaría la
+      elección óptima?
 
       #+Begin_answer
         La restricción presupuestaria tiene dos tramos:
@@ -380,7 +379,7 @@
     \price{1} y el del bien $Y$ es \price{4}. El consumidor dispone de
     una renta monetaria de \money{250}.
 
-    a) Calcule la cesta óptima de consumo.
+    a) Determine la cesta óptima de consumo.
 
        #+begin_answer
          #+attr_latex: :options {0.5\linewidth}
@@ -411,8 +410,8 @@
          #+end_minipage
        #+end_answer
 
-    b) Si se racionara el bien $X$ de forma que no se permitiera al
-       consumidor comprar más de 100 unidades de $X$, ¿cuál sería la
+    b) Si se racionara el bien $X$ de forma que no se permitiera a
+       nadie comprar más de 100 unidades de $X$, ¿cuál sería la
        elección óptima?  Represente gráficamente.
 
        #+begin_answer

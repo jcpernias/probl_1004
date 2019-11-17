@@ -35,7 +35,7 @@
    and the prices are $P_X = \price{10}$ and $P_Y =
    \price{5}$. Calculate and represent the consumer's optimal choice.
 
-5. The optimal basket of a consumer with regular preferences contains
+5. The optimal basket for a consumer with regular preferences contains
    positive amounts of all goods. If the price of one of the goods
    increases, will this reduce the consumer's utility? Justify your
    answer.
@@ -48,9 +48,9 @@
 7. A consumer has an income of \money{40} that she spends on goods $X$
    and $Y$, whose prices are $P_X = \price{3}$ and $P_Y =
    \price{2}$. When she consumes $20$ units of $Y$ and none of $X$,
-   the marginal rate of substitution is equal to $2$. Is this the
-   consumer's optimal choice or would she be better off buying more
-   units of good $X$ and less of good $Y$?
+   the marginal rate of substitution is equal to $2$. Is this her
+   optimal choice or would she be better off buying more units of good
+   $X$ and less of good $Y$?
 
 8. The function $U (N, Y) = (N + 4) Y$ describes the preferences of a
    consumer between nuts, $N$, and a composite good that comprises the
@@ -66,14 +66,15 @@
         can only be applied to the purchase of one and a half
         kilograms of nuts per consumer.
 
-      + Give each consumer a voucher that can be exchanged for one and
+      + Give each consumer a voucher that can be redeemed for one and
         a half kilos of nuts.
 
       + Give each consumer \money{12} in cash.
 
-      What would be the consumer's choice in each of these cases?
+      What would the consumer choose in each of these cases?
 
-  c) Which option would the consumer prefer? Justify your answer.
+  c) Which alternative would the consumer prefer? Justify your answer.
+  #+latex: \clearpage{}
 
 9. A consumer has an income of \money{800} to buy goods $X$ and $Y$,
    whose prices are $P_X = \price{4}$ and $P_Y = \price{2}$. Her
@@ -87,21 +88,21 @@
    a) Obtain the consumer's optimal choice.
 
    b) If a price discount of \money{2} were applied to each unit of
-      $X$ beyond the first 75, how would the optimal choice change?
+      $X$ beyond the first 75 units, how would the optimal choice change?
 
 10. The preferences of a consumer are given by the utility function:
-    $U(X, Y) = X (Y + 100)$. The price of the good $X$ is \price{1}
-    and that of the good $Y$ is \price{4}. The consumer has a monetary
-    income of \money{250}.
+    $U(X, Y) = X (Y + 100)$. The price of good $X$ is \price{1} and
+    that of good $Y$ is \price{4}. The consumer has a monetary income
+    of \money{250}.
 
-    a) Calculate the optimal consumption bundle.
+    a) Determine the optimal consumption bundle.
 
-    b) If the good $X$ were rationed so that the consumer were not
-       allowed to buy more than 100 units of $X$, what would be the
-       optimal choice?  Represent graphically.
+    b) If good $X$ were rationed so that nobody were allowed to buy
+       more than 100 units of $X$, which would be the optimal choice?
+       Represent graphically.
 
-11. The utility function of an individual with respect to the goods
-    $X$ and $Y$ is given by $U(X, Y) = 3X + 3Y$. The market prices are
+11. The utility function of an individual with respect to goods $X$
+    and $Y$ is given by $U(X, Y) = 3X + 3Y$. The market prices are
     $P_X = \price{2}$ and $P_Y = \price{5}$ and the monetary income of
     the consumer is $M = \money{100}$.
 
@@ -109,12 +110,12 @@
 
     b) Which is the optimal choice for the consumer?
 
-    c) How would the optimal choice change if $P_X =
-       \price{10}$?
+    c) How would the optimal choice change if $P_X = \price{10}$?
 
-12. Rocío likes to eat cereal with milk. She always combines them in
-    the same proportion: she adds exactly 20 grams of cereal per every
-    \units[ml]{250} of milk and discards any excess of milk or cereal.
+12. Rocío likes to eat cereal with milk for breakfast. She always
+    combines them in the same proportion: she adds exactly 20 grams of
+    cereal per every \units[ml]{250} of milk and discards any excess
+    of milk or cereal.
 
     a) Represent Rocío's preferences regarding milk and cereal.
 
