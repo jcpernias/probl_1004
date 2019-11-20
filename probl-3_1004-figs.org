@@ -4,6 +4,153 @@
 
 #+OPTIONS: header-args: latex :exports source :eval no :noweb yes
 
+* Income consumption curve
+
+
+** Figures
+
+#+begin_src latex :tangle fig-probl-3_1004-crc1.tex :noweb yes
+  \begin{tikzpicture}<<ex3:xy-scale>>
+
+    <<ex3:grid>>
+
+    <<ex3:crc>>
+
+    <<ex3:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-probl-3_1004-crc2.tex :noweb yes
+  \begin{tikzpicture}<<ex3:xy-scale-small>>
+
+    <<ex3:grid>>
+
+    <<ex3:crc>>
+
+    \draw[curve, very thick] (0, 70) -- (70, 0) ;
+
+    \node[dot] at (40, 30) { } ;
+
+    <<ex3:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-probl-3_1004-crc3.tex :noweb yes
+  \begin{tikzpicture}<<ex3:xy-scale-small>>
+
+    <<ex3:grid>>
+
+    <<ex3:crc>>
+
+    \draw[curve, very thick] (40, 80) -- (120, 0) ;
+
+    \node[dot] at (80, 40) { } ;
+
+    <<ex3:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex3:axes
+  \draw[axis, very thick] (0, 100) node[left] {$Y$} |-
+    (150, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex3:xy-scale
+  [xscale = 0.0392857, yscale = 0.0392857]
+#+end_src
+
+#+begin_src latex :noweb-ref ex3:xy-scale-small
+  [xscale = 0.035, yscale = 0.035]
+#+end_src
+
+
+*** Grid
+
+#+begin_src latex :noweb-ref ex3:grid
+  \draw[help lines]
+    ( 10, 90) -- ( 10, 0)
+    ( 20, 90) -- ( 20, 0) node[below] {$20$}
+    ( 30, 90) -- ( 30, 0)
+    ( 40, 90) -- ( 40, 0) node[below] {$40$}
+    ( 50, 90) -- ( 50, 0)
+    ( 60, 90) -- ( 60, 0) node[below] {$60$}
+    ( 70, 90) -- ( 70, 0)
+    ( 80, 90) -- ( 80, 0) node[below] {$80$}
+    ( 90, 90) -- ( 90, 0)
+    (100, 90) -- (100, 0) node[below] {$100$}
+    (110, 90) -- (110, 0)
+    (120, 90) -- (120, 0) node[below] {$120$}
+  ;
+
+  \draw[help lines]
+    (130, 10) -- (0, 10)
+    (130, 20) -- (0, 20) node[left] {$20$}
+    (130, 30) -- (0, 30)
+    (130, 40) -- (0, 40) node[left] {$40$}
+    (130, 50) -- (0, 50)
+    (130, 60) -- (0, 60) node[left] {$60$}
+    (130, 70) -- (0, 70)
+    (130, 80) -- (0, 80) node[left] {$80$}
+  ;
+#+end_src
+
+
+*** Curve
+
+#+begin_src latex :noweb-ref ex3:crc
+  \draw[curve, very thick, domain=0:130, smooth]
+    plot (\x, {\x*(1-0.00625*\x)}) node[right] {$\CRC$} ;
+#+end_src
+
+
+* Price consumption curve
+
+
+** Figures
+
+#+begin_src latex :tangle fig-probl-3_1004-cpc1.tex
+  \begin{tikzpicture}[xscale = 0.07, yscale = 0.1]
+
+  \draw[curve, very thick, domain=0:45, smooth]
+    plot (\x, {30*(\x+24)/(2*\x+24)}) node[right] {$\CPC$} ;
+
+  \draw[axis, very thick] (0, 45) node[left] {$Y$} |-
+    (60, 0) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-probl-3_1004-cpc2.tex :noweb yes
+  \begin{tikzpicture}[xscale = 0.07, yscale = 0.3]
+
+  \draw[curve, very thick, domain=0:50, smooth]
+    plot (\x, {120/(\x+12)}) node[right] {$D$} ;
+
+  \draw[axis, very thick] (0, 15) node[left] {$P_X$} |-
+    (60, 0) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex5:axes
+  \draw[axis, very thick] (0, 100) node[left] {$Y$} |-
+    (150, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5:xy-scale
+
+#+end_src
+
 
 
 * Income and substitution effects
@@ -53,6 +200,40 @@
     \node[dot, label={above:$D$}] at (D) {};
   \end{tikzpicture}
 
+#+end_src
+
+
+* Perfect complements
+
+#+begin_src latex :tangle fig-probl-3_1004-compl.tex
+  \begin{tikzpicture}[xscale = 1, yscale = 1]
+
+    \draw[help lines]
+      (2, 2) -- (2, 0) node[below] {$X_1 = X_H$}
+      (0.8, 0.8) -- (0.8, 0) node[below] {$X_2$}
+    ;
+
+    \draw[curve, thick]
+      (1.75, 3) -- (2.25, 1) ;
+
+    \draw[curve, very thick]
+    (0, 4) -- (1, 0) ;
+
+    \draw[curve, very thick]
+    (0, 4) -- (4, 0) ;
+
+    \draw[curve, very thick]
+    (0.8, 4.5) |- (4.5, 0.8) node[right] {$U_2$}
+    (2, 4.5) |- (4.5, 2) node[right] {$U_1$}
+    ;
+
+    \draw[axis, very thick] (0, 5) node[left] {$Y$} |-
+    (5, 0) node[below] {$X$} ;
+
+    \node[dot, label={above right:$E_1$}] at (2, 2) {} ;
+    \node[dot, label={above right:$E_2$}] at (0.8, 0.8) {} ;
+
+  \end{tikzpicture}
 #+end_src
 
 

@@ -4,159 +4,276 @@
 #+TITLE: Cuaderno de ejercicios 3
 
 
-* Variaciones en la renta o en el precio de un bien
 
-1. Un consumidor dispone de una renta monetaria de $M =
-   \money{16}$. Sus preferencias pueden describirse con la función de
-   utilidad $U(X, Y) = X Y$. Inicialmente se encuentra en equilibrio
-   adquiriendo 4 unidades del bien $X$ y 8 unidades del bien $Y$. Los
-   precios de los bienes $X$ e $Y$ son $P_X = \price{2}$ y $P_Y =
-   \price{1}$.
+1. La función de utilidad $U = X^2 Y$ describe las preferencias de un
+   consumidor cuya renta es $M = \money{100}$. Los precios son $P_X =
+   \price{10}$ y $P_Y = \price{10}$. Obtenga la curva renta consumo y
+   la curva de Engel del bien $X$. Calcule la elasticidad renta de
+   $X$.  ¿Qué tipo de bien es?
 
-   a) Represente la situación de equilibrio inicial.
+   #+begin_answer
+     Senda de expansión de la renta, \CRC: $Y = X / 2$.
 
-   b) Suponga que el precio de $X$ disminuye hasta situarse en $P'_X =
-      \price{1}$. Deduzca y represente la nueva situación de
-      equilibrio.
+     Restricción presupuestaria, $M = 10 X + 10 Y$.
 
-   c) Obtenga y represente la curva de precio consumo y la función de
-      demanda.
+     Curva de Engel: $X(M) = M / 15$.
 
-   d) Dada la situación de equilibrio inicial, suponga un incremento
-      de la renta igual a \money{4}. Calcule el nuevo equilibrio y
-      represéntelo gráficamente.
+     Elasticidad renta:
+     #+begin_export latex
+     \[
+       E_d^M = \frac{\diff X}{\diff M} \frac{M}{X} =
+       1/15 \cdot \frac{100}{100/15} = 1
+     \]
+     #+end_export
+     La elasticidad renta es positiva: el bien $X$ es un bien normal.
+   #+end_answer
 
-   e) Obtenga y represente la curva renta consumo y la curva de Engel.
+2. Considere un consumidor que sólo consume dos bienes. ¿Pueden ser
+   inferiores los dos bienes simultáneamente?
 
-2. Las preferencias de un consumidor vienen dadas por la función de
-   utilidad: $U(X, Y) = X^2 Y$ y su renta es $M = \money{1200}$. Los
-   precios de los bienes $X$ e $Y$ son $P_X = P_Y = \price{4}$.
+   #+begin_answer
+     No. Antes del cambio en la renta el consumidor elige una cesta,
+     $A$. Supongamos que cuando aumenta la renta elige otra cesta,
+     $B$, con menos unidades de todos los bienes. Esta cesta la pudo
+     haber comprado con la renta inicial pero no lo hizo: el
+     consumidor prefiere $A$ a $B$. Finalmente, después del aumento de
+     renta tanto $A$ como $B$ son accesibles; pudiendo comprar $A$
+     nunca elegiría una cesta como la $B$.
+   #+end_answer
 
-   a) Calcule y represente la situación de equilibrio así como la
-      función de demanda del bien $X$.
+3. La figura siguiente muestra la curva renta consumo de un consumidor
+   cuando los precios de los bienes son $P_X = \price{1}$ y $P_Y =
+   \price{1}$:
 
-   b) ¿Qué tipo de relación hay entre los bienes $X$ e $Y$?
+   #+MATS: fig fig-probl-3_1004-crc1-*.pdf
 
-   c) Calcule el efecto sobre el consumo de los dos bienes de una
-      disminución en el precio por unidad del bien $X$ en \money{3}.
+   a) Si $M = \money{70}$, ¿qué cantidad demandará de cada uno de los
+      bienes?
 
-   d) Descomponga, tanto gráfica como analíticamente, el impacto sobre
-      el consumo de ambos bienes de la variación en el precio de $X$ en
-      los efectos renta y sustitución.
+      #+begin_answer
+         #+attr_latex: :options {0.62\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-3_1004-crc2-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.38\linewidth}
+         #+begin_minipage
+           Trazando la recta presupuestaria y buscando la intersección
+           con la \CRC: $X = 40$ e $Y = 30$.
+         #+end_minipage
+     #+end_answer
 
-3. La función de utilidad de un consumidor es $U(X, Y) = X^{1/4}
-   Y^{1/8}$, mientras que $P_X = \price{2}$, $P_Y = \price{3}$ y $M =
-   \money{340}$.
+   b) ¿Alguno de los bienes es inferior? ¿Para qué valores de la
+      renta?
 
-   a) Calcule la cesta de consumo óptima.
+      #+begin_answer
+         #+attr_latex: :options {0.62\linewidth}
+         #+begin_minipage
+           #+MATS: fig fig-probl-3_1004-crc3-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.38\linewidth}
+         #+begin_minipage
+           El bien $Y$ es inferior para rentas superiores a
+           \money{120}.
+         #+end_minipage
+      #+end_answer
 
-   b) Suponga que el precio por unidad del bien $X$ sube en
-      \money{2}. Calcule los efectos totales sobre las demandas de los
-      bienes $X$ e $Y$.
+4. Considere una economía competitiva donde todos los consumidores
+   tienen las mismas preferencias y consumen alguna unidad tanto del
+   bien $X$ como del bien $Y$. ¿Comprarán todos la misma cantidad del
+   bien $X$?  ¿Coincidirán las valoraciones del bien $X$ de cada uno
+   de los consumidores?
 
-   c) Descomponga los efectos totales en efecto sustitución y efecto
-      renta.
+   #+begin_answer
+     No comprarán la misma cantidad si tienen diferentes niveles de
+     renta.
 
-   d) Calcule las funciones de demanda de los bienes $X$ e $Y$.
-
-4. En una pequeña ciudad cada uno de los vecinos se gasta \money{38}
-   al mes en actividades deportivas, $D$, y culturales, $C$. El precio
-   unitario de cada una de estas actividades es de $P_D = \price{2}$ y
-   $P_C = \price{1}$. Las preferencias de cada uno de los vecinos con
-   respecto a estas actividades pueden representarse por la función de
-   utilidad: $U(D, C) = D C + C$.
-
-   a) Determine el número de actividades deportivas y culturales que
-      debería ofrecer el ayuntamiento si pretende maximizar la
-      utilidad de los vecinos.
-
-   b) Suponga que el equipo de gobierno aprueba el llamado Plan de
-      Fomento del Deporte de modo que se subvenciona el 50% del precio
-      de las actividades deportivas. Obtenga y represente gráficamente
-      el impacto que tendrá la política municipal sobre las decisiones
-      consumo de los residentes.
-
-   c) Descomponga el efecto total del Plan en los efectos renta y
-      sustitución.
+     Las valoraciones de $X$, $\RMS_i$, coincidirán: todos los
+     consumidores se enfrentan a los mismos precios y la cesta óptima
+     de cada uno de ellos cumple la condición $\RMS_i = P_x/P_Y$.
+   #+end_answer
 
 5. Las preferencias de un consumidor pueden representarse por la
-   función de utilidad: \[ U(X, Y) = X^2 Y \] El precio del bien
-   $X$ es \price{4} y el del bien $Y$ es \price{2}. El consumidor
-   dispone de una renta monetaria de \money{120}.
+   función de utilidad:
+   #+begin_export latex
+   \[
+     U(X, Y) = X Y + 24 Y
+   \]
+   #+end_export
+   El precio del bien $X$ es \price{6} y el del bien $Y$ es
+   \price{8}. El consumidor dispone de una renta monetaria de
+   \money{240}.
 
-   a) Calcule la elección óptima de consumo.
+   a) Obtenga la curva de precio-consumo. ¿Qué tipo de relación se da
+      entre los bienes $X$ e $Y$?
 
-   b) Obtenga la curva de Engel del bien $X$.
+      #+begin_answer
+        Restricción presupuestaria: $240 = P_X X + 8Y$.
 
-6. Las preferencias de un consumidor pueden representarse por la
-   función de utilidad: \[ U(X, Y) = X^3 Y^2 \] El precio del bien
-   $X$ es \price{6} y el del bien $Y$ es \price{8}. El consumidor
-   dispone de una renta monetaria de \money{240}.
+        Condición de tangencia: $Y/(X + 24) = P_X / 8$.
 
-   a) Calcule la elección óptima de consumo.
+        Operando se obtiene la \CPC:
+        #+begin_export latex
+        \[
+          Y = 30 \frac{X + 24}{2X + 24}
+        \]
+        #+end_export
 
-   b) Obtenga la curva de precio-consumo.
+        #+attr_latex: :options {0.47\linewidth}
+        #+begin_minipage
+          #+MATS: fig fig-probl-3_1004-cpc1-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.53\linewidth}
+        #+begin_minipage
+          La pendiente de la \CPC es negativa:
+          #+begin_export latex
+          \[
+            \frac{\diff Y}{\diff X} = -\frac{720}{(2X + 24)^2} < 0
+          \]
+          #+end_export
+          $X$ e $Y$ son sustitutivos.
+        #+end_minipage
+      #+end_answer
 
-7. Explique y justifique si considera correcta o incorrecta cada una
-   de las siguientes afirmaciones (use el análisis gráfico cuando lo
-   considere oportuno):
+   b) Obtenga la curva de demanda del bien $X$.
 
-   a) La función de utilidad de un consumidor es: $U(X, Y) = X
-      Y$. Partiendo de una situación de equilibrio, un aumento de la
-      renta del consumidor elevará la cantidad que consume de cada
-      uno de los bienes, ya que un aumento en la renta genera un
-      efecto sustitución en el consumo con signo positivo.
+      #+begin_answer
+        #+attr_latex: :options {0.53\linewidth}
+        #+begin_minipage
+          #+MATS: fig fig-probl-3_1004-cpc2-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.47\linewidth}
+        #+begin_minipage
+          Curva de demanda:
+          #+begin_export latex
+          \[
+            X =
+            \begin{cases}
+            -12 + 120 / P_X & \text{si $P_X < 10$} \\
+            0 & \text{si $P_{X} \geq 10$}
+            \end{cases}
+          \]
+          #+end_export
+        #+end_minipage
+      #+end_answer
 
-   b) Si un aumento del precio del bien genera un efecto renta o
-      sustitución positivo, podemos asegurar que el bien en cuestión
-      es un bien inferior.
+6. Adela y Blas sólo consumen los bienes $X$ e $Y$ y cada uno dispone
+   de \money{100}.  A Ada sólo le importa cuántas unidades de $X$
+   puede consumir ya que el bien $Y$ no le reporta ninguna
+   satisfacción. Por su parte, Blas está siempre dispuesto a
+   intercambiar una unidad del bien $X$ por una unidad del bien
+   $Y$. Los precios de los bienes son $P_X = \price{2}$ y $P_Y =
+   \price{4}$. Obtenga las curvas de demanda del bien $X$ de Adela y
+   Blas.
 
-   c) Suponiendo que el bien $X$ es un bien inferior, un aumento de
-      su precio provocaría un efecto renta negativo, dando lugar a un
-      descenso en el consumo final del bien $X$.
+   #+begin_answer
+     En el caso de Adela, $Y$ es neutro y gasta toda su renta en $X$:
+     #+begin_export latex
+       \[ X_A(P_X) = 100 / P_X \]
+     #+end_export
 
-8. Las preferencias de un consumidor están definidas por la función
-   de utilidad: \[ U(X, Y) = X Y ^{1/2}. \] Este individuo dispone de
-   una renta de \money{600} y los precios unitarios de ambos bienes son
-   iguales a \money{2}.
+     En el caso de Blas, los bienes son sustitutivos perfectos y
+     sólo compra el más barato:
+     #+begin_export latex
+     \[
+       X_B(P_X) =
+       \begin{cases}
+         100 / P_X & \text{si $P_{X} \leq 4$} \\
+         0 & \text{si $P_{X} > 4$}
+       \end{cases}
+     \]
+     #+end_export
+   #+end_answer
 
-   a) Obtenga el equilibrio del consumidor. Suponga ahora que el
-      precio unitario del bien $X$ se incrementa a \money{4}. ¿Cuál
-      será la nueva cesta óptima?
+7. Las preferencias de un consumidor vienen dadas por la función de
+   utilidad: $U(X, Y) = X^{1/4} Y^{1/8}$ y su renta es $M =
+   \money{17496}$. Los precios son $P_X = \price{54}$ y $P_Y =
+   \price{36}$.
 
-   b) Descomponga el efecto total sobre el consumo del bien $X$ en
-      efecto renta y efecto sustitución. Interprete los
-      resultados. El bien $X$, ¿es normal o inferior?
+   a) Calcule curva de demanda del bien $X$.
 
-9. Las preferencias de un consumidor están representadas por la
-   siguiente función de utilidad: $U(X, Y) = 2 X Y$. Este individuo
-   dispone de una renta de \money{40} y los precios son $P_X =
-   \price{3}$ y $P_Y = \price{4}$.
+      #+begin_answer
+        Restricción presupuestaria: $\num{17496} = P_X X + 36 Y$.
 
-   a) Calcule la cantidad que consumirá de cada uno de los bienes
-      para maximizar su utilidad.
+        Condición de tangencia: $2 Y / X = P_X / 36$
 
-   b) Calcule el efecto total sobre el consumo del bien $X$ de una
-      disminución en el precio del bien $X$ de \price{1}.
+        Curva de demanda: $X(P_X) = 11664 / P_X$.
 
-   c) Calcule el efecto sobre el consumo de $X$ de un aumento de la
-      renta de $\money{10}$ y explique el valor que toma el efecto
-      sustitución en este caso.
+      #+end_answer
 
-10. Las preferencias de un consumidor están representadas por la
-    siguiente función de utilidad: $U(X, Y) = X Y$. Este individuo
-    dispone de una renta de \money{150} y los precios son $P_X =
-    \price{10}$ y $P_Y = \price{10}$.
+   b) Calcule cuánto varía el consumo de los dos bienes cuando el
+      precio de $X$ disminuye hasta $P_X = \price{16}$.
 
-    a) Calcule la cantidad que consumirá de cada uno de los bienes
-       para maximizar su utilidad y el efecto que tendrá sobre la
-       cesta óptima un aumento en el precio del bien $X$ hasta
-       \price{12}.
+      #+begin_answer
+        Cuando $P_X = \price{54}$ y $P_Y = \price{36}$: $X_1 = 216$ e
+        $Y_1 = 162$.
 
-    b) Descomponga analítica y gráficamente el impacto sobre el
-       consumo del bien $X$ en efecto renta y efecto
-       sustitución. Teniendo en cuenta los resultados obtenidos,
-       identifique qué tipo de bien es $X$.
+        Cuando $P_X = \price{16}$ y $P_Y = \price{36}$: $X_2 = 729$ e
+        $Y_2 = 162$.
+      #+end_answer
+
+   c) Descomponga el impacto sobre el consumo de cada uno de los
+      bienes en los correspondientes efecto renta y efecto
+      sustitución. ¿Cuál es el signo de los diferentes efectos?
+
+      #+begin_answer
+        Resolviendo:
+        #+begin_export latex
+        \begin{gather*}
+          216^{1/4} 162^{1/8} = X^{1/4} Y^{1/8} \\
+          2Y/X = 16/36
+        \end{gather*}
+        #+end_export
+        se obtiene $X_H = 324$ e $Y_H = 72$.
+
+        #+ATTR_LATEX: :booktabs t :center t :align lrr
+        |-----+-------------------+------------------|
+        |     | Efecto directo    | Efecto cruzado   |
+        |-----+-------------------+------------------|
+        | \ES | $324 - 216 = 108$ | $72 - 162 = -90$ |
+        | \ER | $729 - 324 = 405$ | $162 - 72 = 90$  |
+        | \ET | $729 - 216 = 513$ | $72 - 72 = 0$    |
+        |-----+-------------------+------------------|
+
+        Todos los efectos tienen signo negativo excepto el efecto
+        sustitución cruzado (que siempre tiene signo positivo).
+      #+end_answer
+
+8. Los bienes $X$ e $Y$ son complementos perfectos. Represente
+   gráficamente como cambiaría la elección de consumo óptima si
+   aumenta el precio del bien $X$. ¿Qué ocurre con el efecto
+   sustitución y el efecto renta?
+
+   #+begin_answer
+     #+attr_latex: :options {0.55\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-3_1004-compl-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.45\linewidth}
+     #+begin_minipage
+       El efecto sustitución es nulo y coinciden efecto renta y efecto
+       total.
+     #+end_minipage
+   #+end_answer
+
+9. Dulce sigue comprando la misma cantidad de sal a pesar de que su
+   precio ha disminuido un 50%. ¿Quiere esto decir que el efecto
+   sustitución es nulo? ¿Es la sal un bien inferior para Dulce?
+
+   #+begin_answer
+     El efecto total es $0$, por lo que la suma del efecto sustitución
+     y el efecto renta es igual a 0. Por tanto, $\ER = -\ES > 0$, el
+     signo del efecto renta es positivo y la sal es inferior para
+     Dulce.
+   #+end_answer
+
+10. "La cantidad demandada de un bien Giffen aumenta cuando aumenta su
+    precio y también aumenta cuando crece la renta de los
+    consumidores."  ¿Es correcta la afirmación anterior?  Justifique
+    su respuesta.
+
+    #+begin_answer
+      No: los bienes Giffen son inferiores.
+    #+end_answer
 
 11. El siguiente gráfico muestra las elecciones óptimas de un
     consumidor antes y después de una disminución del precio del bien
@@ -164,110 +281,85 @@
 
     #+MATS: fig fig-probl-3_1004-fxs-*.pdf
 
-    Observe que la tasa a la que estaría dispuesto el consumidor a
-    sustituir $X$ por $Y$ es la misma en los puntos $A$ y $B$, por un
-    lado, y en los puntos $C$ y $D$, por otro lado.
+    Observe que coinciden las pendientes de las curvas de indiferencia
+    en las cestas $A$ y $B$, por un lado, y en las cestas $C$ y $D$,
+    por otro lado.
 
     Descomponga el efecto total sobre el consumo de $X$ en efecto renta
     y efecto sustitución. Obtenga los signos de estos efectos y
     determine qué tipo de bien es $X$ para este consumidor.
 
     #+begin_answer
-    - Las restricciones presupuestarias antes y después del cambio en
-      el precio son las rectas que cortan el eje de ordenadas en
-      $M/P_Y$. La restricción inicial es la más próxima al origen en el
-      gráfico ya que corresponde a un precio más alto de $X$. La cesta
-      óptima a los precios iniciales es $A$, mientras que la elección
-      óptima cuando disminuye el precio de $X$ es $C$.  El efecto total
-      es:
-      \begin{equation*}
-        \mathit{ET} = X_{C} - X_{A} = 30 - 15 = 15\text{\ unidades.}
-      \end{equation*}
-      La cesta $D$ corresponde a la decisión del consumidor cuando los
-      precios son los finales pero la renta real (nivel de utilidad) es
-      la inicial. El efecto sustitución sería:
-      \begin{equation*}
-        \mathit{ES} = X_{D} - X_{A} = 35 - 15 = 20\text{\ unidades.}
-      \end{equation*}
-      El efecto renta es:
-      \begin{equation*}
-        \mathit{ER} = X_{C} - X_{D} = 30 - 35 = -5\text{\ unidades.}
-      \end{equation*}
-
-    - El precio de $X$ disminuye al mismo tiempo que aumenta la
-      cantidad demandada por lo que el signo del /efecto total/ es
-      /negativo/. De la misma forma el /efecto sustitución/ es
-      /negativo/, ya que precio y cantidad se mueven en dirección
-      contraria cuando se mantiene la renta real constante. Finalmente,
-      el cambio en el precio y el cambio en la demanda atribuible a una
-      variación de la renta real son ambos negativos en nuestro caso,
-      por lo que el /efecto renta/ es /positivo/. Por lo tanto, $X$ es
-      un bien inferior y su curva de demanda tiene pendiente negativa.
-    #+end_answer
-
-12. Las preferencias de un consumidor pueden representarse por la
-    función de utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien
-    $X$ es \price{1} y el del bien $Y$ es \price{4}. El consumidor
-    dispone de una renta monetaria de \money{250}. Calcule la elección
-    óptima y represente gráficamente el equilibrio del
-    consumidor. Obtenga la curva de demanda del bien $X$.
-
-    #+begin_answer
-    - La restricción presupuestaria es:
-      \begin{equation*}
-        250 = X + 4 Y
-      \end{equation*}
-      mientras que la tangencia de la restricción y una curva de
-      indiferencia implica:
-      \begin{equation*}
-        \mathit{RMS} = (Y + 100)/X = 1/4 = P_X/P_Y
-      \end{equation*}
-      Operando en la expresión anterior: $X = 4 Y + 400$. Sustituyendo
-      en la restricción presupuestaria: $Y = \units{-18.75}$. Esto
-      quiere decir que la elección óptima del consumidor corresponde a
-      una solución de esquina donde no consume ninguna unidad del bien
-      $Y$ y gasta toda su renta en el bien $X$:
-      \begin{equation*}
-        X = M / P_X = \units{250}
-      \end{equation*}
-
-      #+MATS: fig fig-probl-3_1004-corner-*.pdf
-
-    - Los puntos de la curva de demanda tienen que satisfacer las
-      siguientes condiciones:
+      Ante una disminución del precio de $X$:
+      #+begin_export latex
       \begin{gather*}
-        250 = P_{X} X + 4 Y \\
-        (Y + 100)/X = P_{X}/4
+        \ET = X_{C} - X_{A} = 30 - 15 = 15 \quad\text{(signo negativo)}\\
+        \ES = X_{D} - X_{A} = 35 - 15 = 20 \quad\text{(signo negativo)}\\
+        \ER = X_{C} - X_{D} = 30 - 35 = -5 \quad\text{(signo positivo)}
       \end{gather*}
-      Operando en la segunda ecuación: $P_X X = 4 Y + 400$ y
-      sustituyendo en la primera ecuación se obtiene $Y =
-      \units{-18.75}$ sea cual sea $P_X$. Por tanto, sea cual sea el
-      precio de $X$ el consumidor no compra ninguna unidad del bien $Y$
-      y gasta toda su renta en el bien $X$. En estas condiciones, la
-      curva de demanda del bien $X$ es:
-      \begin{equation*}
-        X = 250 / P_X
-      \end{equation*}
+      #+end_export
+
+      $X$ es inferior y su demanda tiene pendiente negativa.
     #+end_answer
 
-13. La función de utilidad $U = X^2 Y$ describe las preferencias de un
-    consumidor que dispone de una renta de \money{100}. Los precios de
-    los bienes $X$ e $Y$ son $P_X = \price{10}$ y $P_Y =
-    \price{10}$. Obtenga la curva de Engel del bien $X$. Calcule la
-    elasticidad renta de $X$ y determine de qué tipo es.
-    #+begin_answer
-      Para obtener la curva de Engel necesitamos considerar como cambia
-      la decisión óptima del consumidor al cambiar la renta. Por un
-      lado, obtenemos la senda de expansión de la renta:
-      \[ \mathit{RMS} = 2 Y/X = 10 / 10 = P_X/P_Y \]
-      por lo que:
-      \[ Y = X / 2 \]
-      Por otro lado, consideramos la restricción presupuestaria:
-      \[ M = 10 X + 10 Y \]
-      Utilizando estas dos ecuaciones y operando, obtenemos la curva de Engel:
-      \[ X(M) = M / 15 \]
+12. El alcalde de Lazy Town ha decidido introducir un nuevo impuesto
+    sobre las refrescos azucarados de \money{0.50} por lata de
+    refresco. El impuesto se traslada por completo a los compradores y
+    el precio de la lata de refresco aumenta desde \money{0.50} hasta
+    \money{1.00}.
 
-      Elasticidad renta:
-      \[ \frac{\mathit{d}\,X}{\mathit{d}\,M} \frac{M}{X} = 1/15 \cdot \frac{100}{100/15} = 1 \]
-      La elasticidad renta es unitaria: el bien $X$ es un bien normal.
-    #+end_answer
+    Stephanie es una ciudadana típica de Lazy Town cuya función de
+    utilidad es:
+    #+begin_export latex
+    \[
+      U(R, Y) = (R + 20)^{0.1} Y^{0.9}
+    \]
+    #+end_export
+    donde $R$ es el número de latas de refresco que consume e $Y$ es
+    un bien compuesto que recoge los restantes gastos en
+    alimentación. Stephanie dispone cada mes de \money{470} para
+    gastar en $R$ e $Y$.
+
+    a) ¿Cuántas latas de refresco consumía Stephanie antes de la
+       introducción del impuesto?
+
+       #+begin_answer
+         Restricción presupuestaria: $470 = 0.5 R + Y$.
+
+         Condición de tangencia: $(1/9) Y/(R + 20) = 0.5$.
+
+         Elección óptima: $R_1 = 76$ latas e $Y_1 = \money{432}$.
+       #+end_answer
+
+    b) Calcule la elección óptima de Stephanie después de la
+       introducción del impuesto. ¿En cuántas latas se reduce su
+       consumo de refrescos? ¿Cuánto dinero pagará por el impuesto?
+
+       #+begin_answer
+         Restricción presupuestaria: $470 = R + Y$.
+
+         Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
+
+         Elección óptima: $R_2 = 29$ latas e $Y_2 = \money{432}$.
+
+         Paga: $R_2 t = \money{14.5}$.
+       #+end_answer
+
+    c) Ante las protestas de los habitantes de la ciudad, el alcalde
+       decide mantener el impuesto pero entregar a cada ciudadano un
+       cheque por valor de \money{14.50}. Calcule cuantas latas
+       consumirá ahora Stephanie. ¿Sigue consumiendo menos refrescos
+       que en la situación inicial?  ¿Gastará más el ayuntamiento en
+       los cheques de lo que recauda con el impuesto?
+
+       #+begin_answer
+         Restricción presupuestaria: $484.5 = R + Y$.
+
+         Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
+
+         Elección óptima: $R_3 = 30.45$ latas e $Y_3 = \money{454.05}$.
+
+         La recaudación del impuesto per capita, $0.5 R_3 =
+         \money{15.225}$, es superior a la cuantía del cheque,
+         \money{14.50}.
+       #+end_answer
