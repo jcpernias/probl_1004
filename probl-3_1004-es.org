@@ -41,9 +41,9 @@
      nunca elegiría una cesta como la $B$.
    #+end_answer
 
-3. La figura siguiente muestra la curva renta consumo de un consumidor
-   cuando los precios de los bienes son $P_X = \price{1}$ y $P_Y =
-   \price{1}$:
+3. Un consumidor compra solo dos bienes cuyos precios son $P_X =
+   \price{1}$ y $P_Y = \price{1}$. La figura siguiente muestra su
+   curva renta consumo:
 
    #+MATS: fig fig-probl-3_1004-crc1-*.pdf
 
