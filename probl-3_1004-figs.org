@@ -115,9 +115,10 @@
 ** Figures
 
 #+begin_src latex :tangle fig-probl-3_1004-cpc1.tex
-  \begin{tikzpicture}[xscale = 0.07, yscale = 0.1]
+  \begin{tikzpicture}[xscale = 0.0585, yscale = 0.085]
 
   \draw[curve, very thick, domain=0:45, smooth]
+    (0, 30) node[left] {$30$}
     plot (\x, {30*(\x+24)/(2*\x+24)}) node[right] {$\CPC$} ;
 
   \draw[axis, very thick] (0, 45) node[left] {$Y$} |-
@@ -125,30 +126,16 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-3_1004-cpc2.tex :noweb yes
-  \begin{tikzpicture}[xscale = 0.07, yscale = 0.3]
+#+begin_src latex :tangle fig-probl-3_1004-cpc2.tex
+  \begin{tikzpicture}[xscale = 0.0585, yscale = 0.255]
 
   \draw[curve, very thick, domain=0:50, smooth]
+    (0, 10) node[left] {$10$}
     plot (\x, {120/(\x+12)}) node[right] {$D$} ;
 
   \draw[axis, very thick] (0, 15) node[left] {$P_X$} |-
     (60, 0) node[below] {$X$} ;
   \end{tikzpicture}
-#+end_src
-
-
-** Common
-
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex5:axes
-  \draw[axis, very thick] (0, 100) node[left] {$Y$} |-
-    (150, 0) node[below] {$X$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex5:xy-scale
-
 #+end_src
 
 

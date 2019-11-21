@@ -80,8 +80,8 @@
 4. Considere una economía competitiva donde todos los consumidores
    tienen las mismas preferencias y consumen alguna unidad tanto del
    bien $X$ como del bien $Y$. ¿Comprarán todos la misma cantidad del
-   bien $X$?  ¿Coincidirán las valoraciones del bien $X$ de cada uno
-   de los consumidores?
+   bien $X$?  ¿Habrá diferencias en las valoraciones del bien $X$ por
+   parte de cada uno de los consumidores?
 
    #+begin_answer
      No comprarán la misma cantidad si tienen diferentes niveles de
@@ -99,9 +99,8 @@
      U(X, Y) = X Y + 24 Y
    \]
    #+end_export
-   El precio del bien $X$ es \price{6} y el del bien $Y$ es
-   \price{8}. El consumidor dispone de una renta monetaria de
-   \money{240}.
+   El precio del bien $X$ es \price{6}, el del bien $Y$ es \price{8} y
+   el consumidor dispone de una renta de \money{240}.
 
    a) Obtenga la curva de precio-consumo. ¿Qué tipo de relación se da
       entre los bienes $X$ e $Y$?
@@ -111,12 +110,6 @@
 
         Condición de tangencia: $Y/(X + 24) = P_X / 8$.
 
-        Operando se obtiene la \CPC:
-        #+begin_export latex
-        \[
-          Y = 30 \frac{X + 24}{2X + 24}
-        \]
-        #+end_export
 
         #+attr_latex: :options {0.47\linewidth}
         #+begin_minipage
@@ -124,7 +117,13 @@
         #+end_minipage
         #+attr_latex: :options {0.53\linewidth}
         #+begin_minipage
-          La pendiente de la \CPC es negativa:
+          \CPC:
+          #+begin_export latex
+          \[
+            Y = 30 \frac{X + 24}{2X + 24}
+          \]
+          #+end_export
+          Pendiente de la \CPC:
           #+begin_export latex
           \[
             \frac{\diff Y}{\diff X} = -\frac{720}{(2X + 24)^2} < 0
