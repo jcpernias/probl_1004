@@ -28,7 +28,7 @@
      La elasticidad renta es positiva: el bien $X$ es un bien normal.
    #+end_answer
 
-2. Considere un consumidor que sólo consume dos bienes. ¿Pueden ser
+2. Considere un consumidor que sólo compra dos bienes. ¿Pueden ser
    inferiores los dos bienes simultáneamente?
 
    #+begin_answer
