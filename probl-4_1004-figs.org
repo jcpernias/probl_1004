@@ -163,7 +163,6 @@
     <<ex2:flat-budget-line>>
     <<ex2:borrower-choice>>
 
-
     % U_1
     \draw[curve] (2.7, 6) .. controls (2.7, 3.8) and (3.2, 2.16) ..
       (3.5, 1.8) .. controls (3.8, 1.44) and (4.5, 0.7) .. (6, 0.7) ;
@@ -222,7 +221,7 @@
 * Equilibrium at different interest rates
 
 #+begin_src latex :tangle fig-probl-4_1004-r10.tex
-  \begin{tikzpicture}[xscale = 0.5, yscale = 0.5,
+  \begin{tikzpicture}[xscale = 0.4, yscale = 0.4,
     use Hobby shortcut,
     tangent/.style={
       in angle={(180+#1)},
@@ -252,7 +251,7 @@
 #+end_src
 
 #+begin_src latex :tangle fig-probl-4_1004-r5.tex
-  \begin{tikzpicture}[xscale = 0.5, yscale = 0.5,
+  \begin{tikzpicture}[xscale = 0.4, yscale = 0.4,
     use Hobby shortcut,
     tangent/.style={
       in angle={(180+#1)},
@@ -293,7 +292,7 @@
 * Intertemporal budget line
 
 #+begin_src latex :tangle fig-probl-4_1004-budget.tex
-  \begin{tikzpicture}[xscale = 0.952381, yscale = 0.952381]
+  \begin{tikzpicture}[xscale = 0.85, yscale = 0.85]
 
     \draw[help lines]
     (0, 2) node[left] {$2000$} -| (2.5, 0) node[below] {$2500$}
