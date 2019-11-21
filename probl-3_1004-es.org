@@ -5,11 +5,11 @@
 
 
 
-1. La función de utilidad $U = X^2 Y$ describe las preferencias de un
-   consumidor cuya renta es $M = \money{100}$. Los precios son $P_X =
-   \price{10}$ y $P_Y = \price{10}$. Obtenga la curva renta consumo y
-   la curva de Engel del bien $X$. Calcule la elasticidad renta de
-   $X$.  ¿Qué tipo de bien es?
+1. La función de utilidad de un consumidor es $U = X^2 Y$ y su renta
+   es $M = \money{100}$. Los precios son $P_X = \price{10}$ y $P_Y =
+   \price{10}$. Obtenga la curva renta consumo y la curva de Engel del
+   bien $X$. Calcule la elasticidad renta de $X$.  ¿Qué tipo de bien
+   es?
 
    #+begin_answer
      Senda de expansión de la renta, \CRC: $Y = X / 2$.
