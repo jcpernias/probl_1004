@@ -156,7 +156,7 @@
       #+end_answer
 
 6. Adela y Blas sólo consumen los bienes $X$ e $Y$ y cada uno dispone
-   de \money{100}.  A Ada sólo le importa cuántas unidades de $X$
+   de \money{100}.  A Adela sólo le importa cuántas unidades de $X$
    puede consumir ya que el bien $Y$ no le reporta ninguna
    satisfacción. Por su parte, Blas está siempre dispuesto a
    intercambiar una unidad del bien $X$ por una unidad del bien
@@ -165,22 +165,26 @@
    Blas.
 
    #+begin_answer
-     En el caso de Adela, $Y$ es neutro y gasta toda su renta en $X$:
-     #+begin_export latex
-       \[ X_A(P_X) = 100 / P_X \]
-     #+end_export
-
-     En el caso de Blas, los bienes son sustitutivos perfectos y
-     sólo compra el más barato:
-     #+begin_export latex
-     \[
-       X_B(P_X) =
-       \begin{cases}
-         100 / P_X & \text{si $P_{X} \leq 4$} \\
-         0 & \text{si $P_{X} > 4$}
-       \end{cases}
-     \]
-     #+end_export
+     #+attr_latex: :options [t]{0.5\linewidth}
+     #+begin_minipage
+       Adela: $Y$ es neutro.
+       #+begin_export latex
+         \[ X_A(P_X) = 100 / P_X \]
+       #+end_export
+     #+end_minipage
+     #+attr_latex: :options [t]{0.5\linewidth}
+     #+begin_minipage
+       Blas: sustitutivos perfectos.
+       #+begin_export latex
+       \[
+         X_B(P_X) =
+         \begin{cases}
+           100 / P_X & \text{si $P_{X} \leq 4$} \\
+           0 & \text{si $P_{X} > 4$}
+         \end{cases}
+       \]
+       #+end_export
+     #+end_minipage
    #+end_answer
 
 7. Las preferencias de un consumidor vienen dadas por la función de
