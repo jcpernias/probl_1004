@@ -197,7 +197,7 @@
       #+begin_answer
         Restricción presupuestaria: $\num{17496} = P_X X + 36 Y$.
 
-        Condición de tangencia: $2 Y / X = P_X / 36$
+        Condición de tangencia: $2 Y / X = P_X / 36$.
 
         Curva de demanda: $X(P_X) = 11664 / P_X$.
 
@@ -207,11 +207,13 @@
       precio de $X$ disminuye hasta $P_X = \price{16}$.
 
       #+begin_answer
-        Cuando $P_X = \price{54}$ y $P_Y = \price{36}$: $X_1 = 216$ e
-        $Y_1 = 162$.
-
-        Cuando $P_X = \price{16}$ y $P_Y = \price{36}$: $X_2 = 729$ e
-        $Y_2 = 162$.
+        #+ATTR_LATEX: :booktabs t :center t :align *{4}{r}
+        |-------+-------+-------+-------|
+        | $P_X$ | $P_Y$ | $X$   | $Y$   |
+        |-------+-------+-------+-------|
+        | $54$  | $36$  | $216$ | $162$ |
+        | $16$  | $36$  | $729$ | $162$ |
+        |-------+-------+-------+-------|
       #+end_answer
 
    c) Descomponga el impacto sobre el consumo de cada uno de los
@@ -227,6 +229,7 @@
         \end{gather*}
         #+end_export
         se obtiene $X_H = 324$ e $Y_H = 72$.
+        #+latex: \vspace*{1ex}
 
         #+ATTR_LATEX: :booktabs t :center t :align lrr
         |-----+-------------------+------------------|
