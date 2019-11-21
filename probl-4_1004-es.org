@@ -1,99 +1,66 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-#+TITLE: Cuaderno de ejercicios 4
+#+TITLE: Cuaderno de ejercicios
 
-
-* La elección intertemporal
 
 1. Un consumidor tiene unas preferencias con respecto a su consumo
    presente, $C_1$, y su consumo futuro, $C_2$, que vienen
-   representadas por la función de utilidad $U(C_1, C_2) = C_1
-   C_2$. La renta que obtiene el consumidor en cada uno de los
-   periodos es $M_1 = \money{1000}$ y $M_2 = \money{1500}$. El tipo
-   de interés es $r = 0.5$.
+   representadas por la función de utilidad $U(C_1, C_2) = \min\{C_1,
+   C_2\}$. La renta que obtiene el consumidor en cada uno de los
+   periodos es $M_1 = \money{4200}$ y $M_2 = \money{1050}$ y el tipo
+   de interés es $r = 0.1$.
 
-   a) Escriba la restricción presupuestaria intertemporal de este
-      individuo en valor futuro.
-
-      #+begin_answer
-      El equilibrio presupuestario intertemporal del consumidor
-      implica que el valor futuro de su flujo de rentas debe ser igual
-      al valor futuro de su flujo de consumos:
-      #+begin_export latex
-      \[(1 + r) M_1 + M_2 = (1 + r) C_1 + C_2.\]
-      #+end_export
-
-      Con los datos del enunciado:
-      #+begin_export latex
-      \[1.5 \times 1000 + 1500 = 1.5 C_1 + C_2.\]
-      #+end_export
-      Por tanto:
-      #+begin_export latex
-      \[C_2 = 3000 - 1.5 C_1\]
-      #+end_export
-
-      #+MATS: fig fig-probl-4_1004-ex1-1-*.pdf
-      #+end_answer
-
-
-   b) Determine si el individuo ahorra o no, así como el nivel de
-      consumo en cada periodo.
+   a) Escriba la restricción presupuestaria intertemporal en valor
+      futuro y represéntela gráficamente.
 
       #+begin_answer
-      Si la elección óptima es interior, se tiene que cumplir la
-      condición de tangencia:
-      #+begin_export latex
-      \[
-        \RMS = \frac{\UMg_{C_1}}{\UMg_{C_2}} = \frac{C_2}{C_1} = 1 + r.
-      \]
-      #+end_export
-      Puesto que $1 + r = 1.5$, la condición de tangencia implica:
-      #+begin_export latex
-      \[ C_2 = 1.5 C_1 \]
-      #+end_export
-
-      Sustituyendo esta última expresión en la restricción
-      intertemporal:
-      #+begin_export latex
-      \[ C_2 = 3000 - C_2, \]
-      #+end_export
-      de donde se obtiene que $C_2 = \money{1500}$ y $C_1 =
-      \money{1000}$.
-
-      #+MATS: fig fig-probl-4_1004-ex1-2-*.pdf
-
-      La elección óptima implica consumir completamente la renta de
-      cada uno de los periodos: $C_1 = M_1 = \money{1000}$ y $C_2 =
-      M_2 = \money{1500}$.  El ahorro de este consumidor es nulo: $S =
-      M_1 - C_1 = \money{0}$.
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+           #+MATS: fig fig-probl-4_1004-ex1-budget-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          #+begin_export latex
+          \[
+            C_2 = 5670 - 1.1 C_1
+          \]
+          #+end_export
+        #+end_minipage
       #+end_answer
 
-
-   c) Suponga ahora que el consumidor considera ambos bienes como
-      complementos perfectos y su función de utilidad es: $U(C_1, C_2)
-      = \min\{C_1, C_2\}$. Obtenga el perfil de consumo intertemporal
-      óptimo en este caso.
+   b) Determine si el consumidor ahorra o no, así como el consumo en
+      cada periodo.
 
       #+begin_answer
-      De acuerdo con las preferencias del consumidor, el perfil
-      temporal óptimo de consumo debe cumplir la condición:
-      #+begin_export latex
-      \[ C_1 = C_2. \]
-      #+end_export
+        #+attr_latex: :options [t]{0.60\linewidth}
+        #+begin_minipage
+           #+MATS: fig fig-probl-4_1004-ex1-opt-*.pdf
+        #+end_minipage
+        #+attr_latex: :options [t]{0.40\linewidth}
+        #+begin_minipage
+          Proporciones óptimas:
+          #+begin_export latex
+          \[
+            C_1 = C_2
+          \]
+          #+end_export
 
-      Sustituyendo esta condición en la restricción intertemporal:
-      #+begin_export latex
-      \[ C_2 = 3000 - 1.5 C_2. \]
-      #+end_export
-      La elección óptima es $C_1 = C_2 = \money{1200}$.
+          Elección:
+          #+begin_export latex
+          \[
+            C^*_1 = C^*_2 = \money{2700}
+          \]
+          #+end_export
 
-      #+MATS: fig fig-probl4-ex1-3-*.pdf
-
-      En el primer periodo el consumidor pediría un préstamo de $C_1 -
-      M_1 = \money{200}$.
+          Ahorro:
+          #+begin_export latex
+          \[
+            S = M_1 - C_1 = \money{1500}
+          \]
+          #+end_export
+        #+end_minipage
       #+end_answer
-
 
 2. Las preferencias entre el consumo presente, $C_1$, y consumo
    futuro, $C_2$, de un individuo están representadas por la función
@@ -406,3 +373,17 @@
 
      #+MATS: fig fig-probl-4_1004-budget-*.pdf
      #+end_answer
+
+4. Un consumidor vive dos periodos. En el primer periodo obtiene una
+   renta de \money{600} y en el segundo de \money{440}. El tipo de
+   interés es del 10%.
+
+   a) Obtenga la restricción intertemporal del consumidor y
+      represéntela gráficamente. ¿Qué interpretación tienen los
+      puntos de corte con los ejes?
+
+   b) Suponga que en esas condiciones la decisión óptima del
+      consumidor es consumir toda la renta del primer periodo de
+      forma que el ahorro es 0. ¿Cómo habría cambiado la elección si
+      el tipo de interés hubiera sido superior? Represente
+      gráficamente.
