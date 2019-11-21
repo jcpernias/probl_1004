@@ -267,7 +267,7 @@
 
    #+begin_answer
      El efecto total es $0$, por lo que la suma del efecto sustitución
-     y el efecto renta es igual a 0. Por tanto, $\ER = -\ES > 0$, el
+     y el efecto renta es igual a 0. Por tanto, $\ER = -\ES < 0$, el
      signo del efecto renta es positivo y la sal es inferior para
      Dulce.
    #+end_answer
