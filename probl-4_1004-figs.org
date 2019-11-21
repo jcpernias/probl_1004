@@ -5,7 +5,7 @@
 #+OPTIONS: header-args: latex :exports source :eval no
 
 
-* Exercise 1
+* Ex. 1: Perfect complements
 
 
 ** Intertemporal budget line
@@ -63,51 +63,43 @@
   \draw[axis] (7.5,0) node[below] {$C_1$} -| (0,6.5) node[left] {$C_2$};
 #+end_src
 
+*** Budget line
 
-The budget line:
 #+begin_src latex :noweb-ref ex1:budget-line
   \draw[curve]  (5.154, 0) -- (0, 5.670) ;
   \node[dot] at (4.2, 1.05) {} ;
 #+END_SRC
+
+*** Help lines
 
 #+begin_src latex :noweb-ref ex1:endowment-help-lines
   \draw[help lines] (4.2, 0) |- (0, 1.05)  ;
 #+end_src
 
 
-* Exercise 2
+* Ex. 2: Two interest rates
 
 ** Intertemporal budget line
-#+BEGIN_SRC latex :tangle fig-probl-4_1004-ex2-1.tex :noweb yes
+
+#+begin_src latex :tangle fig-probl-4_1004-ex2-budget.tex :noweb yes
   \begin{tikzpicture}[xscale=0.71428571,yscale=0.71428571,]
-    <<endowment-2>>
-    <<budget-line-2-1>>
-    <<axes-2>>
+    <<ex2:endowment-help-lines>>
+    <<ex2:budget-line>>
+    <<ex2:endowment>>
+    <<ex2:axes>>
+    \draw[curve]
+      (4.00, 0) node[below] {$400$}
+      (0, 4.30) node[left] {$430$}
+    ;
+
   \end{tikzpicture}
-#+END_SRC
-
-Endowment:
-#+BEGIN_SRC latex :noweb-ref endowment-2
-  \draw[help lines] (2.50, 0) node[below] {200} |- (0, 3.00) node[left] {220}
-    (2.50, 3.00) node[dot] {} ;
-#+END_SRC
-
-Axes:
-#+BEGIN_SRC latex :noweb-ref axes-2
-  \draw[axis] (7,0) node[below] {$C_1$} -| (0,7) node[left] {$C_2$};
-#+END_SRC
-
-Original budget line:
-#+BEGIN_SRC latex :noweb-ref budget-line-2-1
-  \draw[curve] (4.00, 0) node[below] {400} -- (0, 4.30) node[left] {430} ;
-#+END_SRC
-
+#+end_src
 
 ** Lender choice
-#+BEGIN_SRC latex :tangle fig-probl-4_1004-ex2-2.tex :noweb yes
+
+#+begin_src latex :tangle fig-probl-4_1004-ex2-lender.tex :noweb yes
   \begin{tikzpicture}[xscale=0.71428571,yscale=0.71428571,]
-    <<endowment-2>>
-    <<budget-line-2-1>>
+    <<ex2:budget-line>>
 
     % False original budget constraint
     \draw[curve, nearly transparent] (2.5, 3) -- (6, 1.18);
@@ -120,76 +112,110 @@ Original budget line:
     % False E_1
     \draw (5, 1.7) node[dot] {} ;
 
-    <<axes-2>>
+    <<ex2:axes>>
   \end{tikzpicture}
-#+END_SRC
+#+end_src
 
 
 ** Borrower choice
 
-#+BEGIN_SRC latex :tangle fig-probl-4_1004-ex2-3.tex :noweb yes
+#+begin_src latex :tangle fig-probl-4_1004-ex2-borrower.tex :noweb yes
   \begin{tikzpicture}[xscale=0.71428571,yscale=0.71428571,]
-    <<endowment-2>>
-    <<budget-line-2-1>>
-    <<borrower-choice-2>>
-    <<axes-2>>
+    <<ex2:budget-line>>
+
+    <<ex2:borrower-choice>>
+
+    % E_0
+    \draw (3, 2) node[dot, label={[curve label]right:$E_0$}] {} ;
+
+    <<ex2:axes>>
   \end{tikzpicture}
-#+END_SRC
-
-#+BEGIN_SRC latex :noweb-ref borrower-choice-2
-  % U_0
-  \draw[curve] (2.3, 6) .. controls (2.3, 4) and (2.8, 2.4) ..
-    (3, 2) .. controls (3.2, 1.6) and (4, 0.3) .. (6, 0.3) ;
-
-  % E_0
-  \draw (3, 2) node[dot, label={[curve label]right:$E_0$}] {} ;
-#+END_SRC
+#+end_src
 
 ** Same interest rates: budget line
 
-#+BEGIN_SRC latex :tangle fig-probl-4_1004-ex2-4.tex :noweb yes
+#+begin_src latex :tangle fig-probl-4_1004-ex2-flat-budget.tex :noweb yes
   \colorlet{proffill}{Black!10!White}
   \begin{tikzpicture}[xscale=0.71428571,yscale=0.71428571,]
 
     \fill[proffill] (0, 6) -- (2.5, 3) -- (0, 4.3) -- cycle ;
     \fill[proffill] (4, 0) -- (2.5, 3) -- (5, 0) -- cycle ;
 
-    <<endowment-2>>
     \begin{scope}[nearly transparent]
-      <<budget-line-2-1>>
+      <<ex2:budget-line>>
     \end{scope}
-    <<budget-line-2-2>>
-    <<axes-2>>
+    <<ex2:flat-budget-line>>
+    \draw[curve]
+      (5, 0) node[below] {$403.70$} --
+      (0, 6) node[left] {$436$}
+    ;
+    <<ex2:axes>>
   \end{tikzpicture}
-#+END_SRC
-
-Original budget line:
-#+BEGIN_SRC latex :noweb-ref budget-line-2-2
-  \draw[curve] (5, 0) node[below] {$403.70$} -- (0, 6) node[left] {436};
-#+END_SRC
-
+#+end_src
 
 ** Same interest rates: optimal choice
 
-#+BEGIN_SRC latex :tangle fig-probl-4_1004-ex2-5.tex :noweb yes
+#+begin_src latex :tangle fig-probl-4_1004-ex2-flat-choice.tex :noweb yes
   \begin{tikzpicture}[xscale=0.71428571,yscale=0.71428571,]
-
     \begin{scope}[nearly transparent]
-      <<budget-line-2-1>>
+      <<ex2:budget-line>>
     \end{scope}
-    <<budget-line-2-2>>
-    <<borrower-choice-2>>
+    <<ex2:flat-budget-line>>
+    <<ex2:borrower-choice>>
+
 
     % U_1
     \draw[curve] (2.7, 6) .. controls (2.7, 3.8) and (3.2, 2.16) ..
       (3.5, 1.8) .. controls (3.8, 1.44) and (4.5, 0.7) .. (6, 0.7) ;
 
+    % E_0
+    \draw (3, 2) node[dot, label={[curve label]left:$E_0$}] {} ;
+
     % E_1
     \draw (3.5, 1.8) node[dot, label={[curve label]right:$E_1$}] {} ;
 
-    <<axes-2>>
+    <<ex2:axes>>
   \end{tikzpicture}
-#+END_SRC
+#+end_src
+
+
+** Common
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex2:axes
+  \draw[axis] (7,0) node[below] {$C_1$} -| (0,7) node[left] {$C_2$};
+#+end_src
+
+*** Budget lines
+
+#+begin_src latex :noweb-ref ex2:budget-line
+  \draw[curve] (4.00, 0) --  (2.50, 3.00) -- (0, 4.30) ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2:flat-budget-line
+  \draw[curve] (5, 0) -- (0, 6);
+#+end_src
+
+*** Endowment
+
+#+begin_src latex :noweb-ref ex2:endowment
+  \draw[curve] (2.50, 3.00) node[dot] {} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2:endowment-help-lines
+  \draw[help lines]
+    (2.50, 0) node[below] {$200$} |-
+    (0, 3.00) node[left] {$220$}
+    ;
+#+end_src
+
+*** Borrower choice
+
+#+begin_src latex :noweb-ref ex2:borrower-choice
+  \draw[curve] (2.3, 6) .. controls (2.3, 4) and (2.8, 2.4) ..
+    (3, 2) .. controls (3.2, 1.6) and (4, 0.3) .. (6, 0.3) ;
+#+end_src
 
 
 
