@@ -311,7 +311,7 @@
 12. El alcalde de Lazy Town ha decidido introducir un nuevo impuesto
     sobre las refrescos azucarados de \money{0.50} por lata de
     refresco. El impuesto se traslada por completo a los compradores y
-    el precio de la lata de refresco aumenta desde \money{0.50} hasta
+    el precio de la lata aumenta desde \money{0.50} hasta
     \money{1.00}.
 
     Stephanie es una ciudadana típica de Lazy Town cuya función de
@@ -326,8 +326,8 @@
     alimentación. Stephanie dispone cada mes de \money{470} para
     gastar en $R$ e $Y$.
 
-    a) ¿Cuántas latas de refresco consumía Stephanie antes de la
-       introducción del impuesto?
+    a) ¿Cuántas latas de refresco consumía Stephanie al mes antes de
+       la introducción del impuesto?
 
        #+begin_answer
          Restricción presupuestaria: $470 = 0.5 R + Y$.
@@ -352,11 +352,11 @@
        #+end_answer
 
     c) Ante las protestas de los habitantes de la ciudad, el alcalde
-       decide mantener el impuesto pero entregar a cada ciudadano un
-       cheque por valor de \money{14.50}. Calcule cuantas latas
-       consumirá ahora Stephanie. ¿Sigue consumiendo menos refrescos
-       que en la situación inicial?  ¿Gastará más el ayuntamiento en
-       los cheques de lo que recauda con el impuesto?
+       decide mantener el impuesto pero entregar a cada ciudadano
+       \money{14.50} en metálico. Calcule cuantas latas consumirá
+       ahora Stephanie. ¿Sigue consumiendo menos refrescos que en la
+       situación inicial?  ¿Entregará el ayuntamiento más dinero que
+       el que recaude con el impuesto?
 
        #+begin_answer
          Restricción presupuestaria: $484.5 = R + Y$.
