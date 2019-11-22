@@ -352,7 +352,9 @@
           \num{10000} \cdot 1.1 + M_2 = 9750 \cdot 1.1 + 3575
         \]
         #+end_export
-        Por lo que $M_2 = \money{3300}$. Restricción intertemporal:
+        Por lo que $M_2 = \money{3300}$.
+
+        Restricción intertemporal:
         #+begin_export latex
         \[
           \num{14300} =  1.1 C_1 + C_2
