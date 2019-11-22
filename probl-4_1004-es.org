@@ -244,6 +244,7 @@
         #+end_minipage
         #+attr_latex: :options {0.5\linewidth}
         #+begin_minipage
+          Restricción intertemporal:
           #+begin_export latex
           \[
             C_2 = 5670 - 1.1 C_1
@@ -311,9 +312,10 @@
       #+end_minipage
       #+attr_latex: :options {0.45\linewidth}
       #+begin_minipage
-      #+begin_export latex
-        \[ 4525 = 1.01 C_1 + C_2 \]
-      #+end_export
+        Restricción intertemporal:
+        #+begin_export latex
+          \[ 4525 = 1.01 C_1 + C_2 \]
+        #+end_export
       #+end_minipage
    #+end_answer
 

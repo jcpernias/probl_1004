@@ -311,15 +311,15 @@
 * Ex. 6: Intertemporal budget line
 
 #+begin_src latex :tangle fig-probl-4_1004-ex6-budget.tex
-  \begin{tikzpicture}[xscale = 0.85, yscale = 0.85]
+  \begin{tikzpicture}[xscale = 0.75, yscale = 0.75]
 
     \draw[help lines]
-    (0, 2) node[left] {$2000$} -| (2.5, 0) node[below] {$2500$}
-    (0, 3.01) node[left] {$3010$} -| (1.5, 0) node[below] {$1500$}
+    (0, 2) node[left] {$2000$} -| (2.5, 0) (2.75, 0) node[below] {$2500$}
+    (0, 3.01) node[left] {$3010$} -| (1.5, 0) (1.25, 0) node[below] {$1500$}
     ;
 
     \draw[curve, very thick]
-    (0, 4.525) node[left] {$4525$} -- (4.48020, 0) node[below] {$4480.2$} ;
+    (0, 4.525) node[left] {$4525$} -- (4.48020, 0) (4.3, 0) node[below] {$4480.2$} ;
 
     \draw[curve, very thick, domain=0.6746908:4.5, samples=100]
     plot (\x, {3.691451/(\x^0.5033223)})
