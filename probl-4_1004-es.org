@@ -309,11 +309,12 @@
       #+end_answer
 
 6. Un consumidor vive dos periodos y puede prestar y pedir prestado a
-   un mismo tipo de interés. Obtiene una renta de \money{2500}, ahorra
-   \money{1000}, y su renta en el segundo periodo es un 20%
-   inferior. Calcule el tipo de interés sabiendo que la elección
-   óptima del consumidor en el segundo periodo es \money{3010}. Obtenga
-   y represente gráficamente la restricción intertemporal.
+   un mismo tipo de interés. Durante el primer periodo obtiene una
+   renta de \money{2500}, ahorra \money{1000}, y su renta en el
+   segundo periodo es un 20% inferior a la del primer periodo. Calcule
+   el tipo de interés sabiendo que la elección óptima en el segundo
+   periodo es consumir \money{3010}. Obtenga y represente gráficamente
+   la restricción intertemporal.
    #+begin_answer
      Consumo en el primer periodo:
      #+begin_export latex
