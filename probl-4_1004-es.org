@@ -109,19 +109,14 @@
       represéntela gráficamente.
 
       #+begin_answer
-        La restricción tiene dos tramos:
 
-      - Si el consumidor pide prestado: $C_1 \leq M_1 = 200$.
-        #+begin_export latex
-        \[
-          C_2 = 430 - 1.05 C_1
-        \]
-        #+end_export
-
-      - Si el consumidor presta: $C_1 \geq M_1 = 200$.
-        #+begin_export latex
-        \[ C_2 = 440 - 1.10 C_1. \]
-        #+end_export
+        #+ATTR_LATEX: :booktabs t :center t :align lrr
+        |---------------+----------------------+------------------------|
+        | Situación     | Condición            | Restricción            |
+        |---------------+----------------------+------------------------|
+        | Pide prestado | $C_1 \leq 200$       | $C_2 = 430 - 1.05 C_1$ |
+        | Presta        | $C_1 \geq 200$       | $C_2 = 440 - 1.10 C_1$ |
+        |---------------+----------------------+------------------------|
 
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
@@ -152,11 +147,11 @@
 
         Condición de tangencia: $2 C_2 = 1.05 C_1$.
 
-        #+attr_latex: :options {0.50\linewidth}
+        #+attr_latex: :options {0.55\linewidth}
         #+begin_minipage
            #+MATS: fig fig-probl-4_1004-ex4-lender-*.pdf
         #+end_minipage
-        #+attr_latex: :options {0.50\linewidth}
+        #+attr_latex: :options {0.45\linewidth}
         #+begin_minipage
         No puede ser la solución óptima ya que $C_1 > M_1$:
         #+begin_export latex
@@ -173,22 +168,22 @@
 
         Condición de tangencia: $2 C_2 = 1.1 C_1$.
 
-        #+attr_latex: :options {0.50\linewidth}
+        #+attr_latex: :options {0.55\linewidth}
         #+begin_minipage
            #+MATS: fig fig-probl-4_1004-ex4-borrower-*.pdf
         #+end_minipage
-        #+attr_latex: :options {0.50\linewidth}
+        #+attr_latex: :options {0.45\linewidth}
         #+begin_minipage
-        #+begin_export latex
-          \begin{gather*}
-            C_1 = \money{266.67} \\
-            C_2 = \money{146.67}
-          \end{gather*}
-        #+end_export
-        #+end_minipage
+          Elección óptima, $E_0$:
+          #+begin_export latex
+            \begin{gather*}
+              C_1 = \money{266.67} \\
+              C_2 = \money{146.67}
+            \end{gather*}
+          #+end_export
 
-        El consumidor pide prestado $C_1 - M_1 = 266.67 - 200 =
-        \money{66.67}$.
+          El consumidor pide prestado $C_1 - M_1 = \money{66.67}$.
+        #+end_minipage
       #+end_answer
 
    c) Si el Banco Central Europeo fija un tipo de interés único del 8%
@@ -200,28 +195,26 @@
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
           #+MATS: fig fig-probl-4_1004-ex4-flat-budget-*.pdf
-        #+end_minipage
-        #+attr_latex: :options {0.50\linewidth}
-        #+begin_minipage
-        #+begin_export latex
-          \[
-            C_2 = 436 - 1.08 C_2
-          \]
-        #+end_export
-        #+end_minipage
 
+          Restricción intertemporal:
+          #+begin_export latex
+            \[
+              C_2 = 436 - 1.08 C_2
+            \]
+          #+end_export
+          #+latex: \vspace*{3ex}
+        #+end_minipage
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
           #+MATS: fig fig-probl-4_1004-ex4-flat-choice-*.pdf
-          #+end_minipage
-        #+attr_latex: :options {0.50\linewidth}
-        #+begin_minipage
-        #+begin_export latex
-          \begin{gather*}
-            C_1 = \money{269.14} \\
-            C_2 = \money{145.33} \\
-          \end{gather*}
-        #+end_export
+
+          Elección óptima, $E_1$:
+          #+begin_export latex
+            \begin{gather*}
+              C_1 = \money{269.14} \\
+              C_2 = \money{145.33} \\
+            \end{gather*}
+          #+end_export
         #+end_minipage
 
         El consumidor disfruta de un mayor nivel de utilidad con un
@@ -263,11 +256,11 @@
       cada periodo.
 
       #+begin_answer
-        #+attr_latex: :options [t]{0.60\linewidth}
+        #+attr_latex: :options {0.60\linewidth}
         #+begin_minipage
            #+MATS: fig fig-probl-4_1004-ex5-opt-*.pdf
         #+end_minipage
-        #+attr_latex: :options [t]{0.40\linewidth}
+        #+attr_latex: :options {0.40\linewidth}
         #+begin_minipage
           Proporciones óptimas:
           #+begin_export latex
