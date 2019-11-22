@@ -64,39 +64,39 @@
    gráficamente.
 
    #+begin_answer
-   #+attr_latex: :options {0.55\linewidth}
-   #+begin_minipage
-   #+MATS: fig fig-probl-4_1004-r10-*.pdf
-   #+end_minipage
-   #+attr_latex: :options {0.45\linewidth}
-   #+begin_minipage
-     Restricción intertemporal:
-     #+begin_export latex
-     \[
-       C_2 = 1850 - 1.1 C_1
-     \]
-     #+end_export
-     En el óptimo:
-     \begin{equation*}
-       \RMS(E_0) = 1.1
-     \end{equation*}
-   #+end_minipage
+     #+attr_latex: :options {0.55\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-4_1004-ex3-r10-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.45\linewidth}
+     #+begin_minipage
+       Restricción intertemporal:
+       #+begin_export latex
+       \[
+         C_2 = 1850 - 1.1 C_1
+       \]
+       #+end_export
+       En el óptimo:
+       \begin{equation*}
+         \RMS(E_0) = 1.1
+       \end{equation*}
+     #+end_minipage
 
-   #+attr_latex: :options {0.55\linewidth}
-   #+begin_minipage
-   #+MATS: fig fig-probl-4_1004-r5-*.pdf
-   #+end_minipage
-   #+attr_latex: :options {0.45\linewidth}
-   #+begin_minipage
-     Con un tipo de interés del 5%, $E_0$ no puede ser óptima:
-     \begin{equation*}
-       \RMS(E_0) = 1.1 > 1 + r = 1.05
-     \end{equation*}
+     #+attr_latex: :options {0.55\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-4_1004-ex3-r5-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.45\linewidth}
+     #+begin_minipage
+       Con un tipo de interés del 5%, $E_0$ no puede ser óptima:
+       \begin{equation*}
+         \RMS(E_0) = 1.1 > 1 + r = 1.05
+       \end{equation*}
 
-     Aumentará $C_1$ y $S < 0$. Cuando $r= 0.05$ tanto $E_0$ como
-     $E_1$ son factibles. Al elegir $E_1$, revela que $E_1$ es
-     preferida a $E_0$.
-   #+end_minipage
+       Aumentará $C_1$ y $S < 0$. Cuando $r= 0.05$ tanto $E_0$ como
+       $E_1$ son factibles. Al elegir $E_1$, revela que $E_1$ es
+       preferida a $E_0$.
+     #+end_minipage
    #+end_answer
 
 4. Las preferencias intertemporales de un consumidor vienen dadas por
@@ -125,7 +125,7 @@
 
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
-           #+MATS: fig fig-probl-4_1004-ex2-budget-*.pdf
+           #+MATS: fig fig-probl-4_1004-ex4-budget-*.pdf
         #+end_minipage
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
@@ -154,7 +154,7 @@
 
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
-           #+MATS: fig fig-probl-4_1004-ex2-lender-*.pdf
+           #+MATS: fig fig-probl-4_1004-ex4-lender-*.pdf
         #+end_minipage
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
@@ -175,7 +175,7 @@
 
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
-           #+MATS: fig fig-probl-4_1004-ex2-borrower-*.pdf
+           #+MATS: fig fig-probl-4_1004-ex4-borrower-*.pdf
         #+end_minipage
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
@@ -199,7 +199,7 @@
       #+begin_answer
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
-          #+MATS: fig fig-probl-4_1004-ex2-flat-budget-*.pdf
+          #+MATS: fig fig-probl-4_1004-ex4-flat-budget-*.pdf
         #+end_minipage
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
@@ -212,7 +212,7 @@
 
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
-          #+MATS: fig fig-probl-4_1004-ex2-flat-choice-*.pdf
+          #+MATS: fig fig-probl-4_1004-ex4-flat-choice-*.pdf
           #+end_minipage
         #+attr_latex: :options {0.50\linewidth}
         #+begin_minipage
@@ -247,7 +247,7 @@
       #+begin_answer
         #+attr_latex: :options {0.5\linewidth}
         #+begin_minipage
-           #+MATS: fig fig-probl-4_1004-ex1-budget-*.pdf
+           #+MATS: fig fig-probl-4_1004-ex5-budget-*.pdf
         #+end_minipage
         #+attr_latex: :options {0.5\linewidth}
         #+begin_minipage
@@ -265,7 +265,7 @@
       #+begin_answer
         #+attr_latex: :options [t]{0.60\linewidth}
         #+begin_minipage
-           #+MATS: fig fig-probl-4_1004-ex1-opt-*.pdf
+           #+MATS: fig fig-probl-4_1004-ex5-opt-*.pdf
         #+end_minipage
         #+attr_latex: :options [t]{0.40\linewidth}
         #+begin_minipage
@@ -314,7 +314,7 @@
 
       #+attr_latex: :options {0.55\linewidth}
       #+begin_minipage
-        #+MATS: fig fig-probl-4_1004-budget-*.pdf
+        #+MATS: fig fig-probl-4_1004-ex6-budget-*.pdf
       #+end_minipage
       #+attr_latex: :options {0.45\linewidth}
       #+begin_minipage
