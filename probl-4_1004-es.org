@@ -259,9 +259,9 @@
 5. Un consumidor tiene unas preferencias con respecto a su consumo
    presente, $C_1$, y su consumo futuro, $C_2$, que vienen
    representadas por la función de utilidad $U(C_1, C_2) = \min\{C_1,
-   C_2\}$. La renta que obtiene el consumidor en cada uno de los
-   periodos es $M_1 = \money{4200}$ y $M_2 = \money{1050}$ y el tipo
-   de interés es $r = 0.1$.
+   C_2\}$. La renta del consumidor en cada periodo es $M_1 =
+   \money{4200}$ y $M_2 = \money{1050}$, y el tipo de interés es $r =
+   0.1$.
 
    a) Escriba la restricción presupuestaria intertemporal en valor
       futuro y represéntela gráficamente.
