@@ -289,13 +289,6 @@
         #+end_minipage
         #+attr_latex: :options {0.40\linewidth}
         #+begin_minipage
-          Proporciones óptimas:
-          #+begin_export latex
-          \[
-            C_1 = C_2
-          \]
-          #+end_export
-
           Elección:
           #+begin_export latex
           \[

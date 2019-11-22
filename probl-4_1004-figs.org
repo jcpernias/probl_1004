@@ -349,9 +349,9 @@
     <<ex5:endowment-help-lines>>
     <<ex5:budget-line>>
     \draw[curve]
-      (5.7, 0) node[below] {$5154.54$}
+      (5.9, 0) node[below] {$5154.54$}
       (0, 5.670) node[left] {$5670$}
-      (3.9, 0)  node[below] {$4200$}
+      (3.5, 0)  node[below] {$4200$}
       (0, 1.05) node[left] {$1050$}
     ;
     <<ex5:axes>>
@@ -364,7 +364,7 @@
 #+begin_src latex :tangle fig-probl-4_1004-ex5-opt.tex :noweb yes
   \begin{tikzpicture}<<ex5:xy-scale>>
     <<ex5:endowment-help-lines>>
-    \draw[help lines] (2.7, 0)  node[below] {$2700$} (2.7, 0) |-
+    \draw[help lines] (2.5, 0)  node[below] {$2700$} (2.7, 0) |-
       (0, 2.7) node[left] {$2700$} ;
 
     <<ex5:budget-line>>
@@ -374,7 +374,7 @@
 
 
     \draw[curve]
-      (4.2, 0)  node[below] {$4200$}
+      (4.5, 0)  node[below] {$4200$}
       (0, 1.05) node[left] {$1050$}
     ;
 
@@ -390,11 +390,11 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex5:xy-scale
-  [xscale=0.65,yscale=0.65]
+  [xscale=0.5,yscale=0.5]
 #+end_src
 
 #+begin_src latex :noweb-ref ex5:axes
-  \draw[axis] (7.5,0) node[below] {$C_1$} -| (0,6.5) node[left] {$C_2$};
+  \draw[axis] (8,0) node[below] {$C_1$} -| (0,6.5) node[left] {$C_2$};
 #+end_src
 
 
