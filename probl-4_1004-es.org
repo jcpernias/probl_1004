@@ -18,28 +18,47 @@
       puntos de corte con los ejes?
 
       #+begin_answer
-        #+begin_export latex
-        \[
-          4400 = 1.1 C_1 + C_2
-        \]
-        #+end_export
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+           #+MATS: fig fig-probl-4_1004-ex1-budget-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          Restricción intertemporal:
+          #+begin_export latex
+          \[
+            4400 = 1.1 C_1 + C_2
+          \]
+          #+end_export
+        #+end_minipage
       #+end_answer
 
    b) Obtenga el consumo óptimo del consumidor en cada
       periodo. ¿Cuánto ahorrara?  Represente gráficamente.
 
       #+begin_answer
-        #+begin_export latex
-        \[
-          3 C_2 / C_1 = 1.1
-        \]
-        #+end_export
-        #+begin_export latex
-        \[
-          C^*_1 = 3000 \qquad C^*_2 = 1100
-        \]
-        #+end_export
-        Ahorra $S = -\money{2000}$.
+        #+attr_latex: :options {0.60\linewidth}
+        #+begin_minipage
+           #+MATS: fig fig-probl-4_1004-ex1-opt-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.40\linewidth}
+        #+begin_minipage
+          Condición de tangencia:
+          #+begin_export latex
+          \[
+            3 C_2 / C_1 = 1.1
+          \]
+          #+end_export
+
+          Elección óptima:
+          #+begin_export latex
+          \[
+            C^*_1 = 3000 \qquad C^*_2 = 1100
+          \]
+          #+end_export
+
+          Ahorra $S = -\money{2000}$.
+        #+end_minipage
       #+end_answer
 
 2. "Si no existiera un mercado de crédito que permitiera al consumidor
