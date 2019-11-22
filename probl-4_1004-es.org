@@ -363,8 +363,8 @@
         Por lo que $r = 0.1$.
       #+end_answer
 
-   b) El ahorro de este consumidor es $S = \money{250}$. Obtenga su
-      restricción intertemporal.
+   b) El ahorro de este consumidor es $S = \money{250}$. Exprese la
+      restricción intertemporal en valor presente.
 
       #+begin_answer
         Si $S = 250$, entonces $M_1 = S_1 + C_1 = \money{10000}$.
@@ -380,7 +380,7 @@
         Restricción intertemporal:
         #+begin_export latex
         \[
-          \num{14300} =  1.1 C_1 + C_2
+          \num{12390,91} =  C_1 + 0.91 C_2
         \]
         #+end_export
       #+end_answer
