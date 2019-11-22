@@ -276,7 +276,7 @@
           Restricción intertemporal:
           #+begin_export latex
           \[
-            C_2 = 5670 - 1.1 C_1
+             5670 = 1.1 C_1 + C_2
           \]
           #+end_export
         #+end_minipage
