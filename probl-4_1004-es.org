@@ -30,11 +30,14 @@
             4400 = 1.1 C_1 + C_2
           \]
           #+end_export
+
+          Los puntos de corte son los consumos máximos en cada
+          periodo.
         #+end_minipage
       #+end_answer
 
-   b) Obtenga el consumo óptimo del consumidor en cada
-      periodo. ¿Cuánto ahorrara?  Represente gráficamente.
+   b) Obtenga el consumo óptimo en cada periodo. ¿Cuánto ahorrará el
+      consumidor?  Represente gráficamente.
 
       #+begin_answer
         #+attr_latex: :options {0.60\linewidth}
