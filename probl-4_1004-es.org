@@ -69,8 +69,15 @@
    que no tenga acceso al mercado de crédito.
 
    #+begin_answer
-     Es incorrecta: puede ahorrar para gastar en el futuro, aunque no
-     recibirá intereses. Por otro lado, no puede pedir prestado.
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+        #+MATS: fig fig-probl-4_1004-ex2-budget-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       Es incorrecta: puede ahorrar para gastar en el futuro, aunque
+       no recibirá intereses. Por otro lado, no puede pedir prestado.
+     #+end_minipage
    #+end_answer
 
 3. Un consumidor vive dos periodos y puede prestar y pedir prestado

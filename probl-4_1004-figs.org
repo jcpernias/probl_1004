@@ -83,6 +83,33 @@
 
 
 
+* Ex. 2: No credit market
+
+
+** Intertemporal budget line
+
+#+begin_src latex :tangle fig-probl-4_1004-ex2-budget.tex
+  \begin{tikzpicture}[xscale=3, yscale=3]
+
+    \draw[help lines]
+      (0, 0.3) -- (0.6, 0.3) ;
+
+    \draw[curve]
+      (0, 0.9) -- (0.6, 0.3) -- (0.6, 0) ;
+
+    \draw[curve]
+      (0, 0.9) node[left] {$M_1 + M_2$}
+      (0, 0.3) node[left] {$M_2$}
+      (0.6, 0)  node[below] {$M_1$}
+    ;
+    \draw[axis] (1,0) node[below] {$C_1$} -| (0,1.1) node[left] {$C_2$};
+
+  \end{tikzpicture}
+#+end_src
+
+
+
+
 * Ex. 3: Equilibrium at different interest rates
 
 ** r = 10%
