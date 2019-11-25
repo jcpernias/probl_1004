@@ -380,7 +380,7 @@
         Restricción intertemporal:
         #+begin_export latex
         \[
-          \num{12390,91} =  C_1 + 0.91 C_2
+          \num{13000} =  C_1 + 0.91 C_2
         \]
         #+end_export
       #+end_answer
