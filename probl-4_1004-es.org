@@ -143,8 +143,8 @@
         |---------------+----------------------+------------------------|
         | Situación     | Condición            | Restricción            |
         |---------------+----------------------+------------------------|
-        | Pide prestado | $C_1 \leq 200$       | $C_2 = 430 - 1.05 C_1$ |
-        | Presta        | $C_1 \geq 200$       | $C_2 = 440 - 1.10 C_1$ |
+        | Pide prestado | $C_1 \geq 200$       | $C_2 = 440 - 1.10 C_1$ |
+        | Presta        | $C_1 \leq 200$       | $C_2 = 430 - 1.05 C_1$ |
         |---------------+----------------------+------------------------|
 
         #+attr_latex: :options {0.50\linewidth}
@@ -158,8 +158,8 @@
           \[
             C_2 =
             \begin{cases}
-              430 - 1.05 C_1 & \text{si $C_1 \leq 200$} \\
-              440 - 1.10 C_1 & \text{si $C_1 \geq 200$}
+              440 - 1.10 C_1 & \text{si $C_1 \geq 200$} \\
+              430 - 1.05 C_1 & \text{si $C_1 \leq 200$}
             \end{cases}
           \]
           #+end_export
@@ -170,7 +170,7 @@
       prestamista o prestatario.
 
       #+begin_answer
-      - Si el consumidor pide prestado: $C_1 \leq 200$.
+      - Si el consumidor presta: $C_1 \leq 200$.
 
         Restricción intertemporal es: $C_2 =  430 - 1.05 C_1$.
 
@@ -182,7 +182,7 @@
         #+end_minipage
         #+attr_latex: :options {0.45\linewidth}
         #+begin_minipage
-        No puede ser la solución óptima ya que $C_1 > M_1$:
+        No puede ser la solución óptima ya que $C_1 > 200$:
         #+begin_export latex
           \begin{gather*}
             C_1 = \money{273.02} \\
