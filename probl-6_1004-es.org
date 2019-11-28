@@ -4,7 +4,7 @@
 #+TITLE: Cuaderno de ejercicios 6
 
 
-* Los costes
+
 
 1. La función de producción de una empresa viene dada por: $Q = 2 K
    L$. El salario por hora es \wage{2} y el precio unitario del factor
@@ -14,9 +14,64 @@
       contratar factores, ¿cuál será la combinación óptima de
       $L$ y $K$? ¿Cuál será la producción de la empresa?
 
+      #+begin_answer
+        En el óptimo la $\RMST$ coincide con los precios relativos de
+        los factores:
+        \begin{equation*}
+          \RMST = \frac{K}{L} = \frac{1}{2} = \frac{w}{r}.
+        \end{equation*}
+        Por tanto, la elección óptima cumple la condición:
+        \begin{equation*}
+          L = 2 K.
+        \end{equation*}
+        Por otro lado, los costes son \money{200}:
+        \begin{equation*}
+          200 = 2 L + 4 K
+        \end{equation*}
+        Resolviendo estas dos ecuaciones se obtiene la combinación
+        óptima de factores:
+        \begin{equation*}
+        K = \units{25}; \quad L = \hours{50}.
+        \end{equation*}
+        Finalmente, la producción óptima de la empresa es:
+        \begin{equation*}
+          Q = 2 K L = 2 \times 25 \times 50 = \units{2500}.
+        \end{equation*}
+      #+end_answer
+
    b) La función de producción de la empresa pasa a ser $Q = 4 K
       L$. Calcule el coste total asociado y las cantidades de factores
       utilizados si el nivel de producción es de \units{2500}.
+
+      #+begin_answer
+        En el óptimo la $\RMST$ coincide con los precios relativos de
+        los factores:
+        \begin{equation*}
+          \RMST = \frac{K}{L} = \frac{1}{2} = \frac{w}{r}.
+        \end{equation*}
+        Por tanto, la elección óptima de factores cumple la condición:
+        #+name: eq:1.2
+        \begin{equation}
+        L = 2 K.
+        \end{equation}
+        Si el nivel de producción es de \units{2500}:
+        \begin{equation*}
+        2500 = 4 K L.
+        \end{equation*}
+        Sustituyendo la ecuación [[[eq:1.2]]] en la expresión anterior:
+        \begin{equation*}
+        2500  = 8 K^2.
+        \end{equation*}
+        La combinación óptima de factores es:
+        \begin{equation*}
+        K = \units{17.68}; \quad L = \hours{35.36}
+        \end{equation*}
+        El coste que minimiza la producción de \units{2500} es:
+        \begin{equation*}
+        C = 2 \times 35.36 + 4 \times 17.68 = \money{141.42}.
+        \end{equation*}
+      #+end_answer
+
 
 2. La tecnología que usa una empresa puede representarse mediante la
    función de producción: $Q = (KL)^{1/2}$
@@ -24,14 +79,105 @@
    a) Calcule la demanda condicionada para cada uno de los factores
       de producción.
 
+      #+begin_answer
+        La elección óptima de factores debe cumplir:
+        \begin{equation*}
+          \RMST = \frac{K}{L} = \frac{w}{r}.
+        \end{equation*}
+        La expresión anterior puede escribirse como:
+        #+NAME: eqn:2.1
+        \begin{equation}
+          K = \left(\frac{w}{r}\right) L,
+        \end{equation}
+        y sustituyendo en la función de producción:
+        \begin{equation*}
+          Q = L^{1/2} \left(\frac{w}{r}\right)^{1/2} L^{1/2} =
+          \left(\frac{w}{r}\right)^{1/2} L.
+        \end{equation*}
+        Despejando $L$ obtenemos la *demanda condicionada de trabajo*:
+        \begin{equation*}
+          L(Q) = \left(\frac{r}{w}\right)^{1/2} Q.
+        \end{equation*}
+        Sustituyendo la expresión anterior en [[[eqn:2.1]]] y simplificando,
+        obtenemos la *demanda condicionada de capital*:
+        \begin{equation*}
+          K(Q) = \left(\frac{w}{r}\right)^{1/2} Q.
+        \end{equation*}
+      #+end_answer
+
    b) Obtenga la función de costes a largo plazo si $w =\wage{1}$ y $r
       = \price{1}$.
 
+      #+begin_answer
+        Para esos valores de $w$ y $r$ los costes de la empresa son:
+        \begin{equation*}
+          \CT = L + K,
+        \end{equation*}
+        y las demandas condicionadas del apartado anterior se
+        simplifican a: $L(Q) = Q$ y $K(Q) = Q$.  Por lo que:
+        \begin{equation*}
+          \CT_{\LP}(Q) = 2 Q.
+        \end{equation*}
+      #+end_answer
+
    c) Obtenga las funciones de coste marginal y coste medio a largo plazo.
+
+      #+begin_answer
+        El coste medio es el coste total dividido por la producción:
+        \begin{equation*}
+          \CMe_{\LP}(Q) = \frac{\CT_{\LP}(Q)}{Q} = 2.
+        \end{equation*}
+        El coste marginal es la tasa a la que crece el coste total por
+        unidad adicional de producción:
+        \begin{equation*}
+          \CMg_{\LP}(Q) = \frac{\diff\, \CT_{\LP}(Q)}{\diff Q} = 2.
+        \end{equation*}
+      #+end_answer
 
    d) Obtenga las funciones de coste total medio, coste variable medio
       y coste marginal a corto plazo para un nivel de capital $K =
       \units{25}$.
+
+      #+begin_answer
+        Producción a corto plazo:
+        \begin{equation*}
+         Q = L^{1/2} 25^{1/2} = 5 L^{1/2}.
+        \end{equation*}
+        Invirtiendo la función de producción se obtiene la demanda
+        condicional de trabajo a corto plazo:
+        \begin{equation*}
+         L(Q) = \frac{Q^2}{25}.
+        \end{equation*}
+        Coste variable es:
+        \begin{equation*}
+         \CV(Q) = w L(Q) = \frac{Q^2}{25}.
+        \end{equation*}
+        Coste fijo es:
+        \begin{equation*}
+         CF(Q) = r \Kbar = 25.
+        \end{equation*}
+        Coste total a corto plazo es:
+        \begin{equation*}
+          CT_{\CP}(Q) =  \CF(Q) + \CV(Q) = 25 + \frac{Q^2}{25}.
+         \end{equation*}
+        Coste fijo medio:
+        \begin{equation*}
+          \CFMe(Q) = \frac{\CF(Q)}{Q} = \frac{25}{Q}.
+         \end{equation*}
+        Coste variable medio:
+        \begin{equation*}
+          \CVMe(Q) = \frac{\CV(Q)}{Q} = \frac{Q}{25}.
+         \end{equation*}
+        Coste total medio a corto plazo:
+        \begin{equation*}
+         \CMe_{\CP} = \frac{\CT_{\CP}(Q)}{Q} = \frac{25}{Q} + \frac{Q}{25}.
+        \end{equation*}
+        Coste marginal a corto plazo:
+        \begin{equation*}
+         \CMg_{\CP} = \frac{\diff\, \CT_{\CP}(Q)}{\diff Q} = \frac{2}{25} Q.
+        \end{equation*}
+      #+end_answer
+
 
 3. La función de producción de una empresa es: $F(K, L) = K
    L^{2}$. Los precios de los factores son: $r = \price{5}$ y $w =
@@ -40,18 +186,114 @@
    a) Señale el tipo de rendimientos de escala que presenta la
       tecnología que usa la empresa.
 
+      #+begin_answer
+        Cuando todos los factores se multiplican por $\lambda > 1$, se
+        obtiene una producción igual a:
+        \begin{equation*}
+        F(\lambda K, \lambda L) =
+           \lambda K (\lambda L)^2 = \lambda^3 K L^2 = \lambda^3 F(K, L).
+        \end{equation*}
+        Como $\lambda > 1$:
+        \begin{equation*}
+         F(\lambda K, \lambda L) > \lambda F(K, L).
+        \end{equation*}
+        La función de producción presenta rendimientos crecientes de
+        escala, puesto que la producción crece en una mayor proporción
+        que la utilización de los factores.
+      #+end_answer
+
    b) Si se desea alcanzar un nivel de producción igual a \units{200},
       calcule las cantidades de cada factor de producción que debería
       adquirir la empresa para minimizar el coste de producción.
 
+      #+begin_answer
+        En el óptimo la $\RMST$ coincide con los precios relativos de los factores:
+        \begin{equation*}
+         \RMST = 2 \frac{K}{L} = \frac{2}{5} = \frac{w}{r}.
+        \end{equation*}
+        Por tanto, la elección óptima cumple la condición:
+        #+NAME: eq:3.1
+        \begin{equation}
+         L = 5 K.
+        \end{equation}
+        El nivel de producción es \units{200}. Por tanto:
+        \begin{equation*}
+          200 = L^2 K
+        \end{equation*}
+        Sustituyendo [[[eq:3.1]]] en la expresión anterior:
+        \begin{equation*}
+         200 = (5 K)^2 K = 25 K^3.
+        \end{equation*}
+        La combinación óptima de factores es, por tanto:
+        \begin{equation*}
+         K = \units{2}; \quad L = \hours{10}.
+        \end{equation*}
+        El coste de producción es:
+        \begin{equation*}
+         \CT = 2 \times 10 + 5 \times 2 = \money{30}.
+        \end{equation*}
+      #+end_answer
+
    c) Determine la función de costes de producción y el coste total
       para un nivel de producción $Q = \units{200}$.
+
+      #+begin_answer
+        Sustituyendo la expresión [[[eq:3.1]]] en la función de producción:
+        \begin{equation*}
+          Q = (5 K)^2 K = 5^2 K^3.
+        \end{equation*}
+        De la expresión anterior se obtiene la demanda condicionada de capital:
+        \begin{equation*}
+         K(Q) = \frac{Q^{1/3}}{5^{2/3}}.
+        \end{equation*}
+        Sustituyendo esta expresión en [[[eq:3.1]]] se obtiene la demanda
+        condicionada de trabajo:
+        \begin{equation*}
+         L(Q) = 5 \frac{Q^{1/3}}{5^{2/3}} = 5^{1/3} Q^{1/3}.
+        \end{equation*}
+        El coste de largo plazo es:
+        \begin{equation*}
+          \CT_{\LP}(Q) = w L(Q) + r K(Q) =
+          2 \times 5^{1/3} Q^{1/3} + 5 \frac{Q^{1/3}}{5^{2/3}} =
+          3 \times 5^{1/3} Q^{1/3}.
+        \end{equation*}
+        El coste de producir $200$ unidades es:
+        \begin{equation*}
+          \CT_{\LP}(200) =  3 \times 5^{1/3} (200)^{1/3}  = \money{30}.
+        \end{equation*}
+     #+end_answer
 
 4. Una empresa tiene la función de producción: $Q = 2 K^{1/2}
    L^{3/2}$. Actualmente contrata 8 unidades de trabajo y 2 unidades
    de capital. Si esta es la combinación óptima de factores a largo
    plazo y si los costes totales son iguales a \money{16}, ¿cuáles son
    los precios del capital y del trabajo?
+
+   #+begin_answer
+     La combinación óptima de factores a largo plazo debe satisfacer la
+     condición de tangencia entre una isocuanta y una isocoste:
+     \begin{equation*}
+      \RMST = 3 \frac{K}{L} = 3 \frac{2}{8} = \frac{w}{r}.
+     \end{equation*}
+     De la expresión anterior se deduce:
+     #+NAME: eq:4.1
+     \begin{equation}
+       3 r = 4 w.
+     \end{equation}
+     Por otro lado los costes de producción son:
+     \begin{equation*}
+       C = r K + w L.
+     \end{equation*}
+     Usando los datos del enunciado:
+     #+NAME: eq:4.2
+     \begin{equation}
+       16 = 2 r + 8 w.
+     \end{equation}
+     Resolviendo el sistema de ecuaciones [[[eq:4.1]]]--[[[eq:4.2]]]:
+     \begin{equation*}
+      r = \price{2}; \quad w = \price{1.5}.
+     \end{equation*}
+   #+end_answer
 
 5. Una empresa opera con la tecnología $Q = K L$ y usa 3 unidades de
    capital a corto plazo. Los precios de los factores son $w=
@@ -60,9 +302,82 @@
    a) ¿Cuál es la demanda condicionada del factor trabajo en el corto
       plazo? ¿Y la función de costes? ¿Y la de costes marginales?
 
+      #+begin_answer
+        Producción a corto plazo:
+        \begin{equation*}
+         Q = 3 L.
+        \end{equation*}
+        Demanda condicionada de trabajo a corto plazo:
+        \begin{equation*}
+         L(Q) = \frac{Q}{3}.
+        \end{equation*}
+        Costes a corto plazo:
+        \begin{equation*}
+         \CT_{\CP}(Q) = CF + CV(Q) = r \Kbar + w L(Q) = 3 + \frac{Q}{3}.
+        \end{equation*}
+        Coste marginal a corto plazo:
+        \begin{equation*}
+        \CMg_{\CP} = \frac{\diff\,\CT_{\CP}(Q)}{\diff\,Q} = \frac{1}{3}.
+        \end{equation*}
+      #+end_answer
+
    b) ¿Cuál es el único nivel de producción en el que coinciden los
       costes a largo plazo y los costes a corto plazo? ¿Por qué? ¿Qué
       ocurre en cualquier otro nivel de producción?
+
+      #+begin_answer
+        - Los costes a corto y a largo sólo coinciden en el nivel de
+          producción para el que $\Kbar$, la dotación de capital a corto
+          plazo, coincide con la elección óptima de capital a largo
+          plazo.
+
+          Elección óptima de los factores:
+          \begin{equation*}
+           \RMST = \frac{L}{K} = 1 = \frac{w}{r}.
+          \end{equation*}
+          Por tanto, a largo plazo:
+          #+NAME: eq:5.1
+          \begin{equation}
+          L = K.
+          \end{equation}
+          Si $K = \Kbar = \units{3}$, la elección óptima de trabajo a
+          largo plazo es $L = \hours{3}$. La producción sería: $Q = L K
+          = 3 \times 3 = \units{9}$.
+
+          Para este nivel de producción coinciden el coste a largo plazo
+          y el coste a corto plazo:
+          \begin{gather*}
+            \CT_{\LP} = w L + r K = 3 + 3 = \money{6} \\
+            \CT_{\CP} = 3 + \frac{Q}{3} = 3 + \frac{9}{3} =  \money{6}
+          \end{gather*}
+
+        - Para niveles distintos de producción, los costes a corto plazo
+          son mayores que los costes a largo plazo, porque la empresa no
+          puede sustituir un factor por otro; tan solo puede modificar
+          $L$.
+
+          Sustituyendo la ecuación [[[eq:5.1]]] en la función de producción,
+          $Q = K L$, obtenemos la demanda condicional de capital:
+          \begin{equation*}
+            K(Q) = Q^{1/2}
+          \end{equation*}
+          y la demanda condicional de trabajo:
+          \begin{equation*}
+            L(Q) = Q^{1/2}
+          \end{equation*}
+          La curva de costes a largo plazo es:
+          \begin{equation*}
+            \CT_{\LP}(Q) = 2 Q^{1/2}
+          \end{equation*}
+
+
+          #+MATS: fig fig-probl-6_1004-short-long-*.pdf
+
+          Las función de costes a corto plazo es tangente a la función
+          de costes a largo plazo cuando $Q = \units{9}$.  Para
+          cualquier otro nivel de producción los costes de corto plazo
+          son superiores a los costes de largo plazo.
+      #+end_answer
 
 6. Explique y justifique si considera correcta o incorrecta cada una
    de las siguientes afirmaciones (use el análisis gráfico cuando lo

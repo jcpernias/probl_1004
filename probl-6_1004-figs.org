@@ -1,0 +1,33 @@
+#+STARTUP: indent hidestars content
+
+#+TITLE: Problems 6 Figures
+
+#+OPTIONS: header-args: latex :exports source :eval no :noweb yes
+
+
+
+* Short-run and long-run cost curves
+
+  #+begin_src latex :tangle fig-probl-6_1004-short-long.tex
+    \begin{tikzpicture}[yscale=0.5, xscale=0.277778]
+
+      \draw[help lines] (0, 6) node[left, font=\small] {$6$} -|
+        (9, 0) node[below, font=\small] {$9$} ;
+
+      \draw[curve, very thick]
+        (0, 3) node[left, font=\footnotesize] {$3$} -- (17, 8.6667)
+        node[above, font=\footnotesize] {$\CT_{\CP}$ }
+        ;
+
+      \draw[curve, very thick]
+         plot[domain=0:17, smooth, samples = 128] (\x,{2*sqrt(\x)})
+       node[right, font=\footnotesize] {$\CT_{\LP}$ }
+       ;
+
+       \node[dot] at (9, 6) {} ;
+
+    \draw[axis] (0, 10)  node[left] {$\CT$} |-
+       (18, 0) node[below] {$Q$}
+       ;
+    \end{tikzpicture}
+   #+end_src
