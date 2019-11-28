@@ -3,76 +3,243 @@
 
 #+TITLE: Cuaderno de ejercicios 5
 
-* La producción
 
-1. Discuta la veracidad o falsedad de las siguientes afirmaciones:
+1. Complete la tabla siguiente que representa la producción a corto
+   plazo de una empresa.
 
-   a) Si el producto marginal es decreciente, el producto medio debe
-      ser también decreciente.
+   #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
+   |--------------+------------+----------+----------|
+   |              | Producción | Producto | Producto |
+   | Trabajadores | total      | marginal | medio    |
+   |--------------+------------+----------+----------|
+   | $0$          | $0$        | ---      | ---      |
+   | $1$          |            | $120$    |          |
+   | $2$          | $210$      |          |          |
+   | $3$          |            |          | $95$     |
+   | $4$          |            | $31$     |          |
+   | $5$          |            |          | $64$     |
+   | $6$          | $306$      |          |          |
+   |--------------+------------+----------+----------|
 
-   b) Una fábrica contrata a un trabajador y posteriormente descubre
-      que el producto medio de todos sus trabajadores ha aumentado. De
-      esto se deduce que el producto marginal del nuevo trabajador
-      está por debajo de la producción por trabajador antes de la
-      nueva incorporación.
+   ¿Se cumple la ley de rendimientos decrecientes del factor trabajo?
+   ¿Son técnicamente eficientes todos los niveles de contratación de
+   trabajadores mostrados en la tabla? ¿Por qué?
 
-   c) En una empresa el producto marginal del trabajo es actualmente
-      igual al producto medio. Si fuera uno de los trabajadores a
-      contratar por la empresa preferiría que su salario
-      correspondiera al valor del producto medio y no del producto
-      marginal.
+   #+begin_answer
+     #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
+     |--------------+------------+----------+----------|
+     |              | Producción | Producto | Producto |
+     | Trabajadores | total      | marginal | medio    |
+     |--------------+------------+----------+----------|
+     | $0$          | $0$        | ---      | ---      |
+     | $1$          | $120$      | $120$    | $120$    |
+     | $2$          | $210$      | $90$     | $105$    |
+     | $3$          | $285$      | $75$     | $95$     |
+     | $4$          | $316$      | $31$     | $79$     |
+     | $5$          | $320$      | $4$      | $64$     |
+     | $6$          | $306$      | $-14$    | $51$     |
+     |--------------+------------+----------+----------|
 
-2. Dada la función de producción $Q = L^2K - L^3$ y sabiendo que $K =
-   \units{4}$, determine:
+     - La ley de rendimientos decrecientes del factor trabajo se
+       cumple: el \PMgL es decreciente.
+
+     - No es técnicamente eficiente contratar 6 trabajadores: el
+       producto marginal es negativo.
+   #+end_answer
+
+2. Si el producto marginal del trabajo es decreciente en el corto
+   plazo, ¿el producto medio debe ser también decreciente?
+
+   #+begin_answer
+     No: el producto medio decrece cuando el producto marginal es
+     inferior al medio, independientemente de que el producto marginal
+     sea creciente o no.
+   #+end_answer
+
+3. La producción por trabajador en una empresa es de 20 sillas al
+   día. El propietario está pensando en contratar otro trabajador y ha
+   calculado que la producción total diaria aumentaría en 10
+   sillas. Si contrata un trabajador más, ¿aumentará el producto
+   medio?
+
+   #+begin_answer
+     No: el producto marginal es menor que el medio, por lo que el
+     producto medio es decreciente.
+   #+end_answer
+
+4. Dada la función de producción $Q = L^2 K - 0.01 L^3$ y sabiendo que
+   el capital es fijo, $\Kbar = 6$, determine:
 
    a) La función de producto total del trabajo.
 
+      #+begin_answer
+        Función de producto total: $Q = 6 L^2 - 0.01 L^3$.
+      #+end_answer
+
    b) Las funciones de producto medio y marginal del trabajo.
+
+      #+begin_answer
+        #+ATTR_LATEX: :booktabs t :center t :align @{}ll@{}
+        |--------------------+---------------------------|
+        | Producto medio:    | $\PMeL = 6 L - 0.01 L^2$  |
+        | Producto marginal: | $\PMgL = 12 L - 0.03 L^2$ |
+        |--------------------+---------------------------|
+      #+end_answer
 
    c) Los niveles de trabajo que hacen máximo el producto marginal, el
       producto medio y el producto total. Represente gráficamente los
       resultados obtenidos.
 
-3. Considere las siguientes funciones de producción:
+      #+begin_answer
+        #+ATTR_LATEX: :booktabs t :center t :align @{}llr@{}
+        |--------------+-----------------------------+--------------|
+        |              | Condición                   | Trabajadores |
+        |--------------+-----------------------------+--------------|
+        | $\max \PMgL$ | $\diff \PMgL / \diff L = 0$ | $200$        |
+        | $\max \PMeL$ | $\PMgL = \PMeL$             | $300$        |
+        | $\max Q$     | $\PMgL = 0$                 | $400$        |
+        |--------------+-----------------------------+--------------|
 
-   + $Q  = K^{1/4} L^{1/4}$
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          #+MATS: fig fig-probl-5_1004-ex4-pmgl-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          \vspace*{1.5ex}
 
-   + $Q  = (2KL)^{1/2}$
+          #+MATS: fig fig-probl-5_1004-ex4-fprod-*.pdf
+        #+end_minipage
+      #+end_answer
 
-   + $Q  = 2K + 3L$
+5. Considere las siguientes funciones de producción:
 
-   + $Q  = K^2 L^2$
+   #+ATTR_LATEX: :options [labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
+   A. $Q  = L^{1/4} K^{3/4}$
 
-   Para cada caso:
+   B. $Q  = L^{1/2} K$
 
-   a) ¿Qué tipo de rendimientos presenta la función de producción?
+   C. $Q  = 4L + 2K$
+
+   D. $Q  = (L + K)^{1/2}$
+
+   Responda a las siguientes preguntas para cada una de las funciones
+   de producción:
+
+   a) ¿Qué tipo de rendimientos de escala presenta la función de
+      producción?
+
+      #+begin_answer
+        #+ATTR_LATEX: :booktabs t :center t :align @{}lp{2.5cm}l@{}
+        |---------+-------------------+------------------------|
+        | Función | $F(s L, s K)$     | Rendimientos de escala |
+        |---------+-------------------+------------------------|
+        | I       | $s F(L, K)$       | Constantes             |
+        | II      | $s^{3/2} F(K, L)$ | Crecientes             |
+        | III     | $s F(L, K)$       | Constantes             |
+        | IV      | $s^{1/2} F(L, K)$ | Decrecientes           |
+        |---------+-------------------+------------------------|
+      #+end_answer
 
    b) Obtenga la tasa de sustitución entre los factores de producción.
 
+      #+begin_answer
+        #+ATTR_LATEX: :booktabs t :center t :align @{}ll@{}
+        |---------+------------|
+        | Función | $\RMST$    |
+        |---------+------------|
+        | I       | $(1/3)K/L$ |
+        | II      | $(1/2)K/L$ |
+        | III     | $3/2$      |
+        | IV      | $1$        |
+        |---------+------------|
+      #+end_answer
+
    c) Compruebe si se cumple la ley de rendimientos decrecientes del
-      factor trabajo cuando $K=\units{4}$.
+      factor trabajo cuando $\Kbar=16 \text{\ unidades}$.
 
-4. Explique y justifique si considera correcta o incorrecta cada una
-   de las siguientes afirmaciones (use el análisis gráfico cuando lo
-   considere oportuno):
+      #+begin_answer
+        #+ATTR_LATEX: :booktabs t :center t :align @{}lp{3.25cm}l@{}
+        |---------+-------------------------+-------------------------|
+        | Función | $\diff \PMgL / \diff L$ | Rendimientos del factor |
+        |---------+-------------------------+-------------------------|
+        | I       | $-(6/4)L^{-7/4}$        | Decrecientes            |
+        | II      | $-4 L^{-3/2}$           | Decrecientes            |
+        | III     | $0$                     | Constantes              |
+        | IV      | $-(1/4)(L + 16)^{-3/2}$ | Decrecientes            |
+        |---------+-------------------------+-------------------------|
+      #+end_answer
 
-   a) En una empresa cuya función de producción, $Q = F(K, L)$, presenta
-      rendimientos decrecientes de escala, si duplicamos el uso del
-      factor capital se duplicará su producción.
+6. Explique y justifique si considera correcta o incorrecta la
+   siguiente afirmación: "Una empresa con rendimientos constantes de
+   escala verá duplicada su producción cuando duplique el uso del
+   factor capital."
 
-   b) La función de producción $Q = K + L$, presenta rendimientos
-      crecientes de escala.
+   #+begin_answer
+     Es incorrecta. Se duplicará la producción cuando se duplique el
+     uso de /todos/ los factores de producción.
+   #+end_answer
 
-1. Una fábrica utiliza trabajo y capital para producir
+7. Una fábrica utiliza trabajo y capital para producir
    zapatos. Después de aumentar el número de trabajadores en un 50% la
    producción crece en un 60%. ¿Quiere esto decir que la función de
    producción de la empresa presenta rendimientos crecientes a escala?
 
    #+begin_answer
-     No. Cuando se habla de rendimientos a escala se hace referencia a
-     una situación en la que /todos/ los factores de producción
-     aumentan en la /misma/ proporción. En el caso descrito en el
-     enunciado sólo aumenta el trabajo por lo que no es posible
-     deducir qué tipo de rendimientos a escala presenta la función de
-     producción.
+     No: si sólo aumenta el trabajo no es posible deducir nada sobre
+     los rendimientos a escala.
    #+end_answer
+
+8. El siguiente gráfico muestra algunas isocuantas de la función de
+   producción de una empresa:
+
+   #+MATS: fig fig-probl-5_1004-ex8-const-returns-*.pdf
+
+   a) Si la empresa produce 250 unidades y contrata 5 trabajadores,
+      ¿cuántas unidades de capital está utilizando?
+
+      #+begin_answer
+        En la isocuanta $Q = 250$, $K = 5$ cuando $L = 5$.
+      #+end_answer
+
+   b) ¿Qué tipo de rendimientos de escala presenta la función de
+      producción?
+
+      #+begin_answer
+        Rendimientos constantes a escala. Se puede comprobar, por
+        ejemplo, con un rayo que pase por $(5, 5)$ y leyendo en el
+        gráfico la producción que se obtiene al duplicar ambos
+        factores.
+      #+end_answer
+
+9. El siguiente gráfico muestra algunas isocuantas de la función de
+   producción de una empresa:
+
+   #+MATS: fig fig-probl-5_1004-ex8-incr-returns-*.pdf
+
+   a) ¿Qué tipo de rendimientos a escala se observan?
+
+      #+begin_answer
+        Rendimientos crecientes a escala.
+      #+end_answer
+
+   b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos decrecientes?
+
+      #+begin_answer
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          #+ATTR_LATEX: :booktabs t :center t :align @{}*{4}{r}@{}
+          |---------+------+-------+---------------------|
+          | $\Kbar$ | $L$  | $Q$   | $\incr Q / \incr L$ |
+          |---------+------+-------+---------------------|
+          | $5$     | $2$  | $100$ | ---                 |
+          | $5$     | $5$  | $250$ | $50$                |
+          | $5$     | $10$ | $500$ | $50$                |
+          | $5$     | $15$ | $750$ | $50$                |
+          |---------+------+-------+---------------------|
+        #+end_minipage
+        #+attr_latex: :options {0.5\linewidth}
+        #+begin_minipage
+          No: los rendimientos del factor trabajo son constantes.
+        #+end_minipage
+      #+end_answer
