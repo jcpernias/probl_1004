@@ -69,7 +69,7 @@
 
 ** Constant returns
 
-  #+begin_src latex :tangle fig-probl-5_1004-ex4-const-returns.tex :noweb yes
+  #+begin_src latex :tangle fig-probl-5_1004-ex8-const-returns.tex :noweb yes
     \begin{tikzpicture}<<ex8:xy-scale>>
 
       \draw [help lines, step = 1] (0, 0) grid (15,15) ;
@@ -108,6 +108,7 @@
     \end{tikzpicture}
    #+end_src
 
+** Increasing returns
 
   #+begin_src latex :tangle fig-probl-5_1004-ex8-incr-returns.tex :noweb yes
     \begin{tikzpicture}<<ex8:xy-scale>>
@@ -148,8 +149,6 @@
     \end{tikzpicture}
    #+end_src
 
-
-** Increasing returns
 
 
 ** Common
