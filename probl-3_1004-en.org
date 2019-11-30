@@ -3,75 +3,128 @@
 
 #+TITLE: Exercise Booklet 3
 
-* The effect of price and income changes on individual demand
 
-1. A consumer has a monetary income $M = \money{16}$ and preferences
-   that may be described by the utility function $U(X, Y) = X Y$.  The
-   consumer is initially in equilibrium and buys 4 units of good
-   $X$ and 8 units of good $Y$. The prices of good $X$ and good $Y$
-   are $P_X = \price{2}$ and $P_Y = \price{1}$.
+1. La función de utilidad de un consumidor es $U = X^2 Y$, su renta es
+   $M = \money{100}$ y los precios del bienes son $P_X = \price{10}$ y
+   $P_Y = \price{10}$. Obtenga la curva renta consumo y la curva de
+   Engel del bien $X$. Calcule la elasticidad renta de $X$.  ¿Qué tipo
+   de bien es?
 
-   a) Draw the initial equilibrium.
+2. Considere un consumidor que sólo compra dos bienes. ¿Pueden ser
+   inferiores los dos bienes simultáneamente?
 
-   b) Assume that the price of $X$ falls and it is now $P_X =
-      \price{1}$. Compute and represent the new equilibrium.
+3. Un consumidor compra solo dos bienes cuyos precios son $P_X =
+   \price{1}$ y $P_Y = \price{1}$. La figura siguiente muestra su
+   curva renta consumo:
 
-   c) Draw the price offer curve and the demand function of the
-      consumer.
+   #+MATS: fig fig-probl-3_1004-crc1-*.pdf
 
-   d) Starting from the initial equilibrium, consider an income
-      increase equal to \money{4}. Compute and plot the new
-      equilibrium.
+   a) Si $M = \money{70}$, ¿qué cantidad demandará de cada uno de los
+      bienes?
 
-   e) Work out and draw the income offer curve and the Engel curve.
+   b) ¿Alguno de los bienes es inferior? ¿Para qué valores de la
+      renta?
 
-2. The preferences of a consumer are represented by the utility
-   function: $U(X, Y) = X^2 Y$ and her income is $M =
-   \money{1200}$. The prices of good $X$ and good $Y$ are $P_X = P_Y =
-   \price{4}$.
+4. Considere una economía competitiva donde todos los consumidores
+   tienen las mismas preferencias y consumen alguna unidad tanto del
+   bien $X$ como del bien $Y$. ¿Comprarán todos la misma cantidad del
+   bien $X$?  ¿Habrá diferencias en las valoraciones del bien $X$ por
+   parte de cada uno de los consumidores?
 
-   a) Calculate and represent the equilibrium situation and the demand
-      function for good $X$.
+5. Las preferencias de un consumidor pueden representarse por la
+   función de utilidad:
+   #+begin_export latex
+   \[
+     U(X, Y) = X Y + 24 Y
+   \]
+   #+end_export
+   El precio del bien $X$ es \price{6}, el del bien $Y$ es \price{8} y
+   el consumidor dispone de una renta de \money{240}.
 
-   b) What kind of relationship exists between goods $X$ and $Y$?
+   a) Obtenga la curva de precio-consumo. ¿Qué tipo de relación se da
+      entre los bienes $X$ e $Y$?
 
-   c) Calculate the effect on consumption of both goods of a reduction
-      of \money{3} in the unit price of good $X$.
+   b) Obtenga la curva de demanda del bien $X$.
 
-   d) Decompose graphically and analytically the impact on the
-      consumption of both goods of the variation in the price of $X$
-      distinguishing between the income and the substitution effects.
+6. Adela y Blas sólo consumen los bienes $X$ e $Y$ y cada uno dispone
+   de \money{100}.  A Adela sólo le importa cuántas unidades de $X$
+   puede consumir ya que el bien $Y$ no le reporta ninguna
+   satisfacción. Por su parte, Blas está siempre dispuesto a
+   intercambiar una unidad del bien $X$ por una unidad del bien
+   $Y$. Los precios de los bienes son $P_X = \price{2}$ y $P_Y =
+   \price{4}$. Obtenga las curvas de demanda del bien $X$ de Adela y
+   Blas.
 
-3. The utility function of a consumer is:  $U(X, Y) = X^{1/4}
-   Y^{1/8}$, while $P_X = \price{2}$, $P_Y = \price{3}$ and $M =
-   \money{340}$.
+7. Las preferencias de un consumidor vienen dadas por la función de
+   utilidad: $U(X, Y) = X^{1/4} Y^{1/8}$ y su renta es $M =
+   \money{17496}$. Los precios son $P_X = \price{54}$ y $P_Y =
+   \price{36}$.
 
-   a) Compute the optimal consumption basket.
+   a) Calcule curva de demanda del bien $X$.
 
-   b) Suppose the unit price of good $X$ rises by
-      $\money{2}$. Calculate the total effects on the demands of goods
-      $X$ and $Y$.
+   b) Calcule cuánto varía el consumo de los dos bienes cuando el
+      precio de $X$ disminuye hasta $P_X = \price{16}$.
 
-   c) Decompose the total effects into the substitution effects and
-      the income effects.
+   c) Descomponga el impacto sobre el consumo de cada uno de los
+      bienes en los correspondientes efecto renta y efecto
+      sustitución. ¿Cuál es el signo de los diferentes efectos?
 
-   d) Compute the demand functions for good $X$ and good $Y$.
+8. Los bienes $X$ e $Y$ son complementos perfectos. Represente
+   gráficamente como cambiaría la elección de consumo óptima si
+   aumenta el precio del bien $X$. ¿Qué ocurre con el efecto
+   sustitución y el efecto renta?
 
-4. Each resident in a small town spends \money{38} per month between
-   sport activities, $S$, and cultural activities, $C$. The unit price
-   of these activities is $P_S = \price{2}$ y $P_C = \price{1}$. The
-   preferences of each resident with respect to sport and cultural
-   activities may be represented by the utility function: $U(S, C) =
-   S C + C$.
+9. Dulce sigue comprando la misma cantidad de sal a pesar de que su
+   precio ha disminuido un 50%. ¿Quiere esto decir que el efecto
+   sustitución es nulo? ¿Es la sal un bien inferior para Dulce?
 
-   a) Determine the number of sports and cultural activities that the
-      local authorities should provide if their objective is the
-      maximization of the residents utility.
+10. "La cantidad demandada de un bien Giffen aumenta cuando aumenta su
+    precio y también aumenta cuando crece la renta de los
+    consumidores."  ¿Es correcta la afirmación anterior?  Justifique
+    su respuesta.
 
-   b) Suppose that the local authorities approve the Sports
-      Development Plan that subsidizes 50% of the price of sport
-      activities. Compute and plot the effect of this policy on the
-      consumption choices by the residents.
+11. El siguiente gráfico muestra las elecciones óptimas de un
+    consumidor antes y después de una disminución del precio del bien
+    $X$:
 
-   c) Decompose the total impact of the Plan into income and
-      substitution effects.
+    #+MATS: fig fig-probl-3_1004-fxs-*.pdf
+
+    Observe que coinciden las pendientes de las curvas de indiferencia
+    en las cestas $A$ y $B$, por un lado, y en las cestas $C$ y $D$,
+    por otro lado.
+
+    Descomponga el efecto total sobre el consumo de $X$ en efecto renta
+    y efecto sustitución. Obtenga los signos de estos efectos y
+    determine qué tipo de bien es $X$ para este consumidor.
+
+12. El alcalde de Lazy Town ha decidido introducir un nuevo impuesto
+    sobre las refrescos azucarados de \money{0.50} por lata de
+    refresco. El impuesto se traslada por completo a los compradores y
+    el precio de la lata aumenta desde \money{0.50} hasta
+    \money{1.00}.
+
+    Stephanie es una ciudadana típica de Lazy Town cuya función de
+    utilidad es:
+    #+begin_export latex
+    \[
+      U(R, Y) = (R + 20)^{0.1} Y^{0.9}
+    \]
+    #+end_export
+    donde $R$ es el número de latas de refresco que consume e $Y$ es
+    un bien compuesto que recoge los restantes gastos en
+    alimentación. Stephanie dispone cada mes de \money{470} para
+    gastar en $R$ e $Y$.
+
+    a) ¿Cuántas latas de refresco consumía Stephanie al mes antes de
+       la introducción del impuesto?
+
+    b) Calcule la elección óptima de Stephanie después de la
+       introducción del impuesto. ¿En cuántas latas se reduce su
+       consumo de refrescos? ¿Cuánto dinero pagará por el impuesto?
+
+    c) Ante las protestas de los habitantes de la ciudad, el alcalde
+       decide mantener el impuesto pero entregar a cada ciudadano
+       \money{14.50} en metálico. Calcule cuantas latas consumirá
+       ahora Stephanie. ¿Sigue consumiendo menos refrescos que en la
+       situación inicial?  ¿Entregará el ayuntamiento más dinero que
+       el que recaude con el impuesto?
