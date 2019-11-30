@@ -177,7 +177,7 @@
      6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
    #+end_answer
 
-7. Un consumidora posee una renta de \money{40} que gasta en los
+7. Una consumidora posee una renta de \money{40} que gasta en los
    bienes $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
    \price{2}$. Cuando ella consume $20$ unidades de $Y$ y ninguna de
    $X$, la relación marginal de sustitución es igual a $2$. ¿Es esta
