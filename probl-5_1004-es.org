@@ -118,7 +118,7 @@
    #+ATTR_LATEX: :options [labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
    A. $Q  = L^{1/4} K^{3/4}$
 
-   B. $Q  = L^{1/2} K$
+   B. $Q  = L^{3/2} K^{1/2}$
 
    C. $Q  = 4L + 2K$
 
@@ -136,7 +136,7 @@
         | Función | $F(s L, s K)$     | Rendimientos de escala |
         |---------+-------------------+------------------------|
         | I       | $s F(L, K)$       | Constantes             |
-        | II      | $s^{3/2} F(K, L)$ | Crecientes             |
+        | II      | $s^2 F(K, L)$     | Crecientes             |
         | III     | $s F(L, K)$       | Constantes             |
         | IV      | $s^{1/2} F(L, K)$ | Decrecientes           |
         |---------+-------------------+------------------------|
@@ -150,7 +150,7 @@
         | Función | $\RMST$    |
         |---------+------------|
         | I       | $(1/3)K/L$ |
-        | II      | $(1/2)K/L$ |
+        | II      | $3K/L$     |
         | III     | $3/2$      |
         | IV      | $1$        |
         |---------+------------|
@@ -165,7 +165,7 @@
         | Función | $\diff \PMgL / \diff L$ | Rendimientos del factor |
         |---------+-------------------------+-------------------------|
         | I       | $-(6/4)L^{-7/4}$        | Decrecientes            |
-        | II      | $-4 L^{-3/2}$           | Decrecientes            |
+        | II      | $3 L^{-1/2}$            | Crecientes              |
         | III     | $0$                     | Constantes              |
         | IV      | $-(1/4)(L + 16)^{-3/2}$ | Decrecientes            |
         |---------+-------------------------+-------------------------|
