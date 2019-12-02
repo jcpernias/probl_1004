@@ -2,14 +2,160 @@
 
 #+TITLE: Problems 6 Figures
 
-#+OPTIONS: header-args: latex :exports source :eval no :noweb yes
+#+OPTIONS: header-args: latex :exports source :eval no
+
+
+* Ex. 1: Short-run curves
+
+  #+begin_src latex :tangle fig-probl-6_1004-short-curves1.tex
+    \begin{tikzpicture}[yscale=0.9, xscale=0.045]
+
+      \draw[curve, very thick]
+        (0, 0.5) -- (100, 0.5)
+        node[right] {$\CF$ }
+        ;
+
+      \draw[curve, very thick]
+        plot[domain=0:100, smooth, samples = 128] (\x,{0.0004*\x^2})
+        node[right] {$\CV$ }
+        ;
+
+      \draw[curve, very thick]
+        plot[domain=0:100, smooth, samples = 128] (\x,{0.5+0.0004*\x^2})
+        node[above right] {$\CT$ }
+        ;
+
+      \draw[axis] (0, 5)  node[left] {$\CT$} |-
+       (110, 0) node[below] {$Q$}
+       ;
+    \end{tikzpicture}
+   #+end_src
+
+  #+begin_src latex :tangle fig-probl-6_1004-short-curves2.tex
+    \begin{tikzpicture}[yscale=0.1, xscale=0.045]
+      \draw[help lines]
+         (0, 28.28427) node[left] {$28.28$ } -|
+         (35.35534, 0) node[below] {$35.35$ } ;
+
+      \draw[curve, very thick]
+        (0, 0) -- (100, 40)
+        node[right] {$\CVMe$ }
+        (0, 0) -- (50, 40)
+        node[above] {$\CMg$ }
+        ;
+
+      \draw[curve, very thick]
+        (14.64467, 40) node[above] {$\CMe$}
+        plot[domain=14.64467:85.3534, smooth, samples = 128] (\x,{500/\x+0.4*\x})
+        ;
+
+      \draw[axis] (0, 45)  node[left] {$\CMe$} |-
+       (110, 0) node[below] {$Q$}
+       ;
+
+      \node[dot] at (35.35534, 28.28427) {} ;
+    \end{tikzpicture}
+   #+end_src
+
+
+* Ex. 4: Long-run choice
+
+  #+begin_src latex :tangle fig-probl-6_1004-choice.tex
+    \begin{tikzpicture}[yscale=0.32, xscale=0.32]
+
+      \draw[curve]
+        plot[domain=5.5:31, smooth, samples = 128] (\x,{62.5/\x})
+        node[right] { $Q=150$ }
+        ;
+
+      \draw[curve]
+        (0, 12) -- (30, 0)
+        (0, 10) -- (25, 0)
+        (0,  8) -- (20, 0)
+        ;
+
+      \draw[axis] (0, 15)  node[left] {$K$} |-
+       (37, 0) node[below] {$L$}
+       ;
+
+      \draw
+       (0,  8) node[left] { $8$}
+       (0, 10) node[left] { $10$}
+       (0, 12) node[left] { $12$}
+       ;
+
+    \end{tikzpicture}
+   #+end_src
+
+  #+begin_src latex :tangle fig-probl-6_1004-choice2.tex
+    \begin{tikzpicture}[yscale=0.25, xscale=0.25]
+
+      \draw[curve]
+        plot[domain=5.5:31, smooth, samples = 128] (\x,{62.5/\x})
+        node[right] { $Q=150$ }
+        ;
+
+      \draw[curve]
+        (0, 12) -- (30, 0)
+        (0, 10) -- (25, 0)
+        (0,  8) -- (20, 0)
+        ;
+
+      \draw[axis] (0, 15)  node[left] {$K$} |-
+       (37, 0) node[below] {$L$}
+       ;
+
+
+      \draw
+       (0,  8) node[left] { $8$}
+       (0, 10) node[left] { $10$}
+       (0, 12) node[left] { $12$}
+       ;
+
+      \draw
+       (20, 0) node[below] { $20$}
+       (25, 0) node[below] { $25$}
+       (30, 0) node[below] { $30$}
+       ;
+
+    \end{tikzpicture}
+   #+end_src
 
 
 
-* Short-run and long-run cost curves
+
+* Ex. 8: Long-run marginal and average cost curves
+
+  #+begin_src latex :tangle fig-probl-6_1004-cmg-cme-long.tex
+    \begin{tikzpicture}[yscale=0.11, xscale=0.32]
+
+      \draw[help lines] (0, 6) node[left] {$6$} -|
+        (4, 0) node[below] {$4$}
+        ;
+
+      \draw[curve, very thick]
+        plot[domain=0:8, smooth, samples = 128] (\x,{\x^2-8*\x+22})
+        node[above] {$\CMe$ }
+        ;
+
+      \draw[curve, very thick]
+        plot[domain=0:5.333333, smooth, samples = 128] (\x,{3*\x^2-16*\x+22})
+        node[above] {$\CMg$ }
+        ;
+
+      \node[dot] at (4, 6) {} ;
+
+      \draw[axis] (0, 30)  node[left, align = right] {$\CMe$ \\ $\CMg$} |-
+       (10, 0) node[below] {$Q$}
+       ;
+    \end{tikzpicture}
+   #+end_src
+
+
+* Ex.9: Short-run and long-run cost curves
 
   #+begin_src latex :tangle fig-probl-6_1004-short-long.tex
-    \begin{tikzpicture}[yscale=0.5, xscale=0.277778]
+    \begin{tikzpicture}[yscale=0.4, xscale=0.2222222]
 
       \draw[help lines] (0, 6) node[left, font=\small] {$6$} -|
         (9, 0) node[below, font=\small] {$9$} ;
@@ -26,8 +172,136 @@
 
        \node[dot] at (9, 6) {} ;
 
-    \draw[axis] (0, 10)  node[left] {$\CT$} |-
+      \draw[axis] (0, 10)  node[left] {$\CT$} |-
        (18, 0) node[below] {$Q$}
+       ;
+    \end{tikzpicture}
+   #+end_src
+
+
+* Ex. 10: Expansion paths
+
+  #+begin_src latex :tangle fig-probl-6_1004-expansion.tex
+    \begin{tikzpicture}[yscale=0.85, xscale=0.85]
+
+      \draw[help lines] (0, 0) grid (10, 8) ;
+
+      \draw[curve]
+        plot[domain=0.5:10, smooth, samples = 128] (\x,{4/\x})
+        node[right] {$Q_1=40$ }
+        ;
+
+      \draw[curve]
+        plot[domain=2:10, smooth, samples = 128] (\x,{16/\x})
+        node[right] {$Q_2=160$ }
+        ;
+
+      \draw[curve]
+        plot[domain=4.5:10, smooth, samples = 128] (\x,{36/\x})
+        node[right] {$Q_3=360$ }
+        ;
+
+      \draw[axis] (0, 9)  node[left] {$K$} |-
+       (12, 0) node[below] {$L$}
+       ;
+
+      \draw[font=\small]
+       ( 1, 0) node[below] { $1$}
+       ( 2, 0) node[below] { $2$}
+       ( 3, 0) node[below] { $3$}
+       ( 4, 0) node[below] { $4$}
+       ( 5, 0) node[below] { $5$}
+       ( 6, 0) node[below] { $6$}
+       ( 7, 0) node[below] { $7$}
+       ( 8, 0) node[below] { $8$}
+       ( 9, 0) node[below] { $9$}
+       (10, 0) node[below] {$10$}
+       ;
+
+      \draw[font=\small]
+       (0, 1) node[left] { $1$}
+       (0, 2) node[left] { $2$}
+       (0, 3) node[left] { $3$}
+       (0, 4) node[left] { $4$}
+       (0, 5) node[left] { $5$}
+       (0, 6) node[left] { $6$}
+       (0, 7) node[left] { $7$}
+       (0, 8) node[left] { $8$}
+       ;
+
+    \end{tikzpicture}
+   #+end_src
+
+  #+begin_src latex :tangle fig-probl-6_1004-expansion2.tex
+    \begin{tikzpicture}[yscale=0.5, xscale=0.5]
+
+      \draw[help lines] (0, 0) grid (10, 8) ;
+
+      \draw[curve]
+        plot[domain=0.5:10, smooth, samples = 128] (\x,{4/\x})
+        node[right, font=\footnotesize] {$Q_1=40$ }
+        ;
+
+      \draw[curve]
+        plot[domain=2:10, smooth, samples = 128] (\x,{16/\x})
+        node[right, font=\footnotesize] {$Q_2=160$ }
+        ;
+
+      \draw[curve]
+        plot[domain=4.5:10, smooth, samples = 128] (\x,{36/\x})
+        node[right, font=\footnotesize] {$Q_3=360$ }
+        ;
+
+
+      \draw[curve]
+        (0, 4) -- (10, 4)
+        (0, 0) -- (8, 8)
+        ;
+
+      \draw[axis] (0, 9)  node[left, font=\small] {$K$} |-
+       (12, 0) node[below, font=\small] {$L$}
+       ;
+
+      \draw[font=\small]
+       ( 4, 0) node[below] { $4$}
+       ( 0, 4) node[left] { $4$}
+       ;
+
+
+    \end{tikzpicture}
+   #+end_src
+
+
+* Ex. 12: Envelop
+
+  #+begin_src latex :tangle fig-probl-6_1004-envelop.tex
+    \begin{tikzpicture}[yscale=0.25, xscale=0.5]
+
+      \draw[help lines] (4.5, 7.25) --
+        (4.5, 0) node[below] {$450$}
+        ;
+
+      \draw[curve, thin]
+        plot[domain=4.5:6.15, smooth, samples = 128] (\x,{\x^2-6*\x+14})
+        node[above] {$\CMe_1$ }
+        ;
+
+      \draw[curve, thin]
+        (2.85, 14.9225) node[above] {$\CMe_2$ }
+        plot[domain=2.85:4.5, smooth, samples = 128] (\x,{\x^2-12*\x+41})
+        ;
+
+      \draw[curve, ultra thick]
+        plot[domain=0:4.5, smooth, samples = 128] (\x,{\x^2-6*\x+14})
+        ;
+
+      \draw[curve, ultra thick]
+        plot[domain=4.5:8, smooth, samples = 128] (\x,{\x^2-12*\x+41})
+        node[right] {$\CMe_{\LP}$ }
+        ;
+
+      \draw[axis] (0, 20)  node[left] {$\CMe$} |-
+       (10, 0) node[below] {$Q$}
        ;
     \end{tikzpicture}
    #+end_src
