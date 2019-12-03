@@ -246,8 +246,8 @@
 
 8. Los bienes $X$ e $Y$ son complementos perfectos. Represente
    gráficamente como cambiaría la elección de consumo óptima si
-   aumenta el precio del bien $X$. ¿Qué ocurre con el efecto
-   sustitución y el efecto renta?
+   aumenta el precio del bien $X$. Descomponga el cambio total en el
+   consumo de $X$ en el efecto sustitución y el efecto renta.
 
    #+begin_answer
      #+attr_latex: :options {0.55\linewidth}
