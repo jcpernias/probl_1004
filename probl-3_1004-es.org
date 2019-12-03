@@ -155,8 +155,8 @@
         #+end_minipage
       #+end_answer
 
-6. Adela y Blas sólo consumen los bienes $X$ e $Y$ y cada uno dispone
-   de \money{100}.  A Adela sólo le importa cuántas unidades de $X$
+6. Tanto Adela como Blas disponen de \money{100} para gastar en los
+   bienes $X$ e $Y$.  A Adela sólo le importa cuántas unidades de $X$
    puede consumir ya que el bien $Y$ no le reporta ninguna
    satisfacción. Por su parte, Blas está siempre dispuesto a
    intercambiar una unidad del bien $X$ por una unidad del bien
