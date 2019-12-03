@@ -4,8 +4,8 @@
 #+TITLE: Cuaderno de ejercicios 4
 
 
-1. Un consumidor vive dos periodos. En el primer periodo obtiene una
-   renta de \money{1000} y en el segundo de \money{3300}. El tipo de
+1. Un consumidor vive dos periodos. En el primer periodo su
+   renta es \money{1000} y en el segundo periodo esd \money{3300}. El tipo de
    interés es del 10%. Sus preferencias vienen dadas por:
    #+begin_export latex
    \[
@@ -217,8 +217,8 @@
 
    c) Si el Banco Central Europeo fija un tipo de interés único del 8%
       tanto para prestar como para pedir prestado, calcule el nuevo
-      equilibrio y determine si el consumidor mejora o empeora en
-      términos de bienestar.
+      equilibrio y determine si el bienestar del consumidor mejora o
+      empeora.
 
       #+begin_answer
         #+attr_latex: :options {0.50\linewidth}
@@ -257,7 +257,7 @@
       #+end_answer
 
 5. Un consumidor tiene unas preferencias con respecto a su consumo
-   presente, $C_1$, y su consumo futuro, $C_2$, que vienen
+   presente, $C_1$, y a su consumo futuro, $C_2$, que vienen
    representadas por la función de utilidad $U(C_1, C_2) = \min\{C_1,
    C_2\}$. La renta del consumidor en cada periodo es $M_1 =
    \money{4200}$ y $M_2 = \money{1050}$, y el tipo de interés es $r =
