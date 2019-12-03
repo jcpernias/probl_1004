@@ -192,7 +192,7 @@
    \money{17496}$. Los precios son $P_X = \price{54}$ y $P_Y =
    \price{36}$.
 
-   a) Calcule curva de demanda del bien $X$.
+   a) Obtenga la curva de demanda del bien $X$.
 
       #+begin_answer
         Restricción presupuestaria: $\num{17496} = P_X X + 36 Y$.
@@ -218,7 +218,7 @@
 
    c) Descomponga el impacto sobre el consumo de cada uno de los
       bienes en los correspondientes efecto renta y efecto
-      sustitución. ¿Cuál es el signo de los diferentes efectos?
+      sustitución. ¿Cuál es el signo de estos efectos?
 
       #+begin_answer
         Resolviendo:
