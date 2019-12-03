@@ -114,12 +114,13 @@
        the introduction of the tax?
 
     b) Calculate the optimum choice of Stephanie after the
-       introduction of the tax. Does the tax reduce her consumption of
-       sugary drinks? How much money will she pay for the tax?
+       introduction of the tax. Is the tax effective in reducing her
+       consumption of sugary drinks? How much money will she pay for
+       the tax?
 
     c) In view of the increasing complaints from the inhabitants of
        the city, the mayor decides to keep the tax but give to each
        citizen \money{14.50} in cash. Calculate how many cans will
        Stephany consume now. Is she still consuming less soda than in
-       the initial situation?  Will the city council spend more money
+       the initial situation?  Is the city council spending more money
        than the amount collected with the tax?
