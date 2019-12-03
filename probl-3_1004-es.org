@@ -103,7 +103,7 @@
    el consumidor dispone de una renta de \money{240}.
 
    a) Obtenga la curva de precio-consumo. ¿Qué tipo de relación se da
-      entre los bienes $X$ e $Y$?
+      entre $X$ e $Y$?
 
       #+begin_answer
         Restricción presupuestaria: $240 = P_X X + 8Y$.
