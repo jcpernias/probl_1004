@@ -338,8 +338,9 @@
        #+end_answer
 
     b) Calcule la elección óptima de Stephanie después de la
-       introducción del impuesto. ¿En cuántas latas se reduce su
-       consumo de refrescos? ¿Cuánto dinero pagará por el impuesto?
+       introducción del impuesto. ¿Consigue el impuesto reducir su
+       consumo de refrescos azucarados?  ¿Cuánto dinero pagará por el
+       impuesto?
 
        #+begin_answer
          Restricción presupuestaria: $470 = R + Y$.
