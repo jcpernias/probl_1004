@@ -3,39 +3,85 @@
 
 #+TITLE: Exercise Booklet 4
 
+1. A consumer lives for two periods. In the first period her income is
+   \money{1000} and in the second period her income is
+   \money{3300}. The interest rate is 10%. Her preferences are given
+   by:
+   #+begin_export latex
+   \[
+     U(C_1, C_2) = C_1^{3/4} C_2^{1/4}
+   \]
+   #+end_export
 
-* Intertemporal choice
+   a) Obtain the consumer's intertemporal budget constraint and
+      represent it graphically. Which is the meaning of the points of
+      intersection with the axes?
 
-1. Consider a consumer with preferences with respect to present
-   consumption, $C_1$, and future consumption, $C_2$, that can be
-   expressed by the utility function: $U(C_1, C_2) = C_1 C_2$.  The
-   income the consumer will have in each period is $M_1 =
-   \money{1000}$ and $M_2 = \money{1500}$. The interest rate is $r =
-   0.5$.
-   a) Write the intertemporal budget constraint of the individual in
-      future value.
+   b) Obtain each period's optimal consumption. How much will the
+      consumer save? Represent graphically.
 
-   b) Determine if the consumer borrows or lends money and the
-      consumption level in each period.
+2. "If there were no credit markets in which money could be lent and
+   borrowed, no consumer could save in the present period to consume
+   above her monetary income in the future." Is the previous statement
+   correct? Justify your answer. Represent the intertemporal budget
+   constraint of a consumer that does not have access to the credit
+   market.
 
-   c) Now assume that the consumer regards both goods as perfect
-      complements and his utility function can be written as: $U(C_1,
-      C_2) = \min\{C_1, C_2\}$. Obtain the optimal intertemporal
-      consumption profile in this case.
+3. A consumer lives for two periods and can lend and borrow money at
+   an interest rate of 10%. In the first period she gets a monetary
+   income of \money{1000} while in the second period gets
+   \money{750}. Under these conditions the consumer decides not to
+   save anything. If the interest rate decreases to 5%, What would
+   happen to her savings? What situation would the consumer prefer: an
+   interest rate of 10% or 5%? Represent graphically.
 
-2. The preferences between present consumption, $C_1$, and future
-   consumption, $C_2$, of a consumer are represented by the utility
-   function: $U(C_1, C_2)= C_1^2 C_2$. In the first period the
-   individual has an income of \money{200}, while in the second period
-   he has an income of \money{220}. Money can be lent at an interest
-   rate of 5% and can be borrowed at an interest rate of 10%.
+4. The intertemporal preferences of a consumer are given by the
+   function: $U(C_1, C_2) = C_1 C_2^{1/2}$. Her income in the first
+   period is \money{200} and in the second period it is
+   \money{220}. The interest rate to which money is lent is 5%, and
+   the interest rate for borrowing is 10%.
 
-   a) Express analytically the individual's budget constraint and draw it.
+   a) Obtain the individual's budget constraint and represent it
+      graphically.
 
-   b) Calculate the consumer equilibrium and determine whether it will
-      be a lender or a borrower.
+   b) Calculate the consumer's equilibrium and determine whether she
+      will lend or borrow.
 
-   c) If the European Central Bank sets a single interest rate of 8%
-      for both lending and borrowing money, compute the new
-      equilibrium and determine whether the consumer is better or
-      worse in terms of his utility.
+   c) If the European Central Bank sets a single interest rate of 8%,
+      both to lend and to borrow money, calculate the new equilibrium
+      and determine whether the consumer's welfare improves or
+      worsens.
+
+5. A consumer has preferences regarding her present consumption,
+   $C_1$, and her future consumption, $C_2$, that are represented by
+   the utility function $U(C_1, C_2) = \min \{C_1, C_2\}$. The
+   consumer's income in each period is $M_1 = \money{4200}$ and $M_2 =
+   \money{1050}$, and the interest rate is $r = 0.1$.
+
+   a) Determine the intertemporal budget constraint in future value
+      and represent it graphically.
+
+   b) Determine whether the consumer saves or not, as well as her
+      consumption in each period.
+
+6. A consumer lives for two periods and can lend and borrow money at the
+   same interest rate. During the first period she gets an income of
+   \money{2500}, saves \money{1000}, and her income in the second
+   period is 20% lower than that the first period. Calculate the
+   interest rate knowing that the optimal choice in the second period
+   is to consume \money{3010}. Determine and represent the
+   intertemporal budget constraint.
+
+7. A consumer lives two periods and her preferences are represented
+   by:
+   #+begin_export latex
+   \[
+     U(C_1, C_2) = C_1^{3} C_2
+   \]
+   #+end_export
+
+   a) Knowing that her optimal choice is $C_1 = \money{9750}$ and $C_2
+      = \money{3575}$, which is the interest rate?
+
+   b) The savings of this consumer are $S = \money{250}$. Express the
+      intertemporal budget constraint in present value.
