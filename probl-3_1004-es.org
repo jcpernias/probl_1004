@@ -47,8 +47,8 @@
 
    #+MATS: fig fig-probl-3_1004-crc1-*.pdf
 
-   a) Si $M = \money{70}$, ¿qué cantidad demandará de cada uno de los
-      bienes?
+   a) Si $M = \money{70}$, ¿cuántas unidades demandará de cada uno de
+      los bienes?
 
       #+begin_answer
          #+attr_latex: :options {0.62\linewidth}
