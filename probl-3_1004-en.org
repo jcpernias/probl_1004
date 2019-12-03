@@ -4,127 +4,122 @@
 #+TITLE: Exercise Booklet 3
 
 
-1. La función de utilidad de un consumidor es $U = X^2 Y$, su renta es
-   $M = \money{100}$ y los precios del bienes son $P_X = \price{10}$ y
-   $P_Y = \price{10}$. Obtenga la curva renta consumo y la curva de
-   Engel del bien $X$. Calcule la elasticidad renta de $X$.  ¿Qué tipo
-   de bien es?
+1. The utility function of a consumer is $U = X^2 Y$, her income is $M
+   = \money{100}$ and the prices of the goods are $P_X = \price{10}$
+   and $P_Y = \price{10}$. Obtain the income consumption curve and the
+   Engel curve for good $X$. Calculate the income elasticity of
+   $X$. What kind of good is X?
 
-2. Considere un consumidor que sólo compra dos bienes. ¿Pueden ser
-   inferiores los dos bienes simultáneamente?
+2. Consider a consumer who only buys two goods. Is it possible that
+   they are both inferior goods simultaneously?
 
-3. Un consumidor compra solo dos bienes cuyos precios son $P_X =
-   \price{1}$ y $P_Y = \price{1}$. La figura siguiente muestra su
-   curva renta consumo:
+3. A consumer purchases only two goods whose prices are $P_X =
+   \price{1}$ and $P_Y = \price{1}$. The following figure shows her
+   income consumption curve:
 
    #+MATS: fig fig-probl-3_1004-crc1-*.pdf
 
-   a) Si $M = \money{70}$, ¿qué cantidad demandará de cada uno de los
-      bienes?
+   a) If $M = \money{70}$, how many units would she demand of each one
+      of the goods?
 
-   b) ¿Alguno de los bienes es inferior? ¿Para qué valores de la
-      renta?
+   b) Is any of the two goods an inferior good? For what values of the
+      income?
 
-4. Considere una economía competitiva donde todos los consumidores
-   tienen las mismas preferencias y consumen alguna unidad tanto del
-   bien $X$ como del bien $Y$. ¿Comprarán todos la misma cantidad del
-   bien $X$?  ¿Habrá diferencias en las valoraciones del bien $X$ por
-   parte de cada uno de los consumidores?
+4. Consider a competitive economy where all consumers have the same
+   preferences and consume some units of good $X$ and good $Y$. Will
+   they all buy the same amount of $X$? Will there be differences in
+   the valuation of good $X$ by each consumer?
 
-5. Las preferencias de un consumidor pueden representarse por la
-   función de utilidad:
+5. The preferences of a consumer can be represented by the utility
+   function:
    #+begin_export latex
    \[
-     U(X, Y) = X Y + 24 Y
+     U (X, Y) = X Y + 24 Y
    \]
    #+end_export
-   El precio del bien $X$ es \price{6}, el del bien $Y$ es \price{8} y
-   el consumidor dispone de una renta de \money{240}.
+   The price of good $X$ is \price{6}, the price of good $Y$ is
+   \price{8} and the consumer has an income of \money{240}.
 
-   a) Obtenga la curva de precio-consumo. ¿Qué tipo de relación se da
-      entre los bienes $X$ e $Y$?
+   a) Obtain the price-consumption curve. What kind of relationship
+      exists between $X$ and $Y$?
 
-   b) Obtenga la curva de demanda del bien $X$.
+   b) Obtain the demand curve for good $X$.
 
-6. Adela y Blas sólo consumen los bienes $X$ e $Y$ y cada uno dispone
-   de \money{100}.  A Adela sólo le importa cuántas unidades de $X$
-   puede consumir ya que el bien $Y$ no le reporta ninguna
-   satisfacción. Por su parte, Blas está siempre dispuesto a
-   intercambiar una unidad del bien $X$ por una unidad del bien
-   $Y$. Los precios de los bienes son $P_X = \price{2}$ y $P_Y =
-   \price{4}$. Obtenga las curvas de demanda del bien $X$ de Adela y
-   Blas.
+6. Both Adela and Blas have \money{100} to spend on goods $X$ and
+   $Y$. Adela only cares about how many units of $X$ she can consume,
+   since the she do not get any satisfaction from good $Y$. On the
+   other side, Blas is always willing to exchange a unit of good $X$
+   for a unit of good $Y$. The prices of the goods are $P_X =
+   \price{2}$ and $P_Y = \ price{4}$. Obtain the demand curves for
+   good $X$ of Adela and Blas.
 
-7. Las preferencias de un consumidor vienen dadas por la función de
-   utilidad: $U(X, Y) = X^{1/4} Y^{1/8}$ y su renta es $M =
-   \money{17496}$. Los precios son $P_X = \price{54}$ y $P_Y =
-   \price{36}$.
+7. The preferences of a consumer are given by the utility function:
+   $U(X, Y) = X^{1/4} Y^{1/8}$ and her income is $M = \money{17496}$.
+   Prices are $P_X = \price{54}$ and $P_Y = \price{36}$.
 
-   a) Calcule curva de demanda del bien $X$.
+   a) Obtain the demand curve for good $X$.
 
-   b) Calcule cuánto varía el consumo de los dos bienes cuando el
-      precio de $X$ disminuye hasta $P_X = \price{16}$.
+   b) Calculate how much the consumption of the two goods varies when the
+      price of good $X$ decreases to $P_X = \price{16}$.
 
-   c) Descomponga el impacto sobre el consumo de cada uno de los
-      bienes en los correspondientes efecto renta y efecto
-      sustitución. ¿Cuál es el signo de los diferentes efectos?
+   c) Decompose the impact on each good's consumption into the
+      corresponding income and substitution effects.  What is
+      the sign of these effects?
 
-8. Los bienes $X$ e $Y$ son complementos perfectos. Represente
-   gráficamente como cambiaría la elección de consumo óptima si
-   aumenta el precio del bien $X$. ¿Qué ocurre con el efecto
-   sustitución y el efecto renta?
+8. The goods $X$ and $Y$ are perfect complements. Represent
+   graphically how the optimal consumption choice would change if the
+   price of good $X$ increases. Decompose the total effect on the
+   consumption of $X$ into the substitution effect and the income
+   effect.
 
-9. Dulce sigue comprando la misma cantidad de sal a pesar de que su
-   precio ha disminuido un 50%. ¿Quiere esto decir que el efecto
-   sustitución es nulo? ¿Es la sal un bien inferior para Dulce?
+9. Dulce keeps buying the same amount of salt even though its price
+   has decreased by 50%. Does this mean that the substitution effect
+   is zero? Is salt an inferior good for Dulce?
 
-10. "La cantidad demandada de un bien Giffen aumenta cuando aumenta su
-    precio y también aumenta cuando crece la renta de los
-    consumidores."  ¿Es correcta la afirmación anterior?  Justifique
-    su respuesta.
+10. "The quantity demanded of a Giffen good increases with its price
+    and also increases when the income of the consumers increases." Is
+    the previous statement correct? Justify your answer.
 
-11. El siguiente gráfico muestra las elecciones óptimas de un
-    consumidor antes y después de una disminución del precio del bien
-    $X$:
+11. The following graph shows the optimal choices of a consumer before
+    and after a decrease in the price of good $X$:
 
     #+MATS: fig fig-probl-3_1004-fxs-*.pdf
 
-    Observe que coinciden las pendientes de las curvas de indiferencia
-    en las cestas $A$ y $B$, por un lado, y en las cestas $C$ y $D$,
-    por otro lado.
+    Note that the slopes of the indifference curves are the same in
+    the baskets $A$ and $B$, on the one hand, and in the baskets $C$
+    and $D$, on the other hand.
 
-    Descomponga el efecto total sobre el consumo de $X$ en efecto renta
-    y efecto sustitución. Obtenga los signos de estos efectos y
-    determine qué tipo de bien es $X$ para este consumidor.
+    Decompose the total effect on consumption of $X$ into the income
+    effect and the substitution effect. Obtain the signs of these
+    effects and determine what kind of good is $X$ for this consumer.
 
-12. El alcalde de Lazy Town ha decidido introducir un nuevo impuesto
-    sobre las refrescos azucarados de \money{0.50} por lata de
-    refresco. El impuesto se traslada por completo a los compradores y
-    el precio de la lata aumenta desde \money{0.50} hasta
-    \money{1.00}.
+12. The mayor of Lazy Town has decided to introduce a new tax on
+    sugary drinks of \money{0.50} per can of soda. The tax is
+    completely transferred to buyers and the price of the can
+    increases from \money{0.50} to \money{1.00}.
 
-    Stephanie es una ciudadana típica de Lazy Town cuya función de
-    utilidad es:
+    Stephanie is a typical citizen of Lazy Town whose utility function
+    is:
     #+begin_export latex
     \[
-      U(R, Y) = (R + 20)^{0.1} Y^{0.9}
+      U (S, Y) = (S + 20)^{0.1} Y^{0.9}
     \]
     #+end_export
-    donde $R$ es el número de latas de refresco que consume e $Y$ es
-    un bien compuesto que recoge los restantes gastos en
-    alimentación. Stephanie dispone cada mes de \money{470} para
-    gastar en $R$ e $Y$.
+    where $S$ is the number of soda cans you consume and $Y$ is
+    a composite good that includes the remaining expenditure in
+    feeding. Stephanie has \money{470} every month for
+    spending on $S$ and $Y$.
 
-    a) ¿Cuántas latas de refresco consumía Stephanie al mes antes de
-       la introducción del impuesto?
+    a) How many cans of soda did Stephanie consume per month before
+       the introduction of the tax?
 
-    b) Calcule la elección óptima de Stephanie después de la
-       introducción del impuesto. ¿En cuántas latas se reduce su
-       consumo de refrescos? ¿Cuánto dinero pagará por el impuesto?
+    b) Calculate the optimum choice of Stephanie after the
+       introduction of the tax. Does the tax reduce her consumption of
+       sugary drinks? How much money will she pay for the tax?
 
-    c) Ante las protestas de los habitantes de la ciudad, el alcalde
-       decide mantener el impuesto pero entregar a cada ciudadano
-       \money{14.50} en metálico. Calcule cuantas latas consumirá
-       ahora Stephanie. ¿Sigue consumiendo menos refrescos que en la
-       situación inicial?  ¿Entregará el ayuntamiento más dinero que
-       el que recaude con el impuesto?
+    c) In view of the increasing complaints from the inhabitants of
+       the city, the mayor decides to keep the tax but give to each
+       citizen \money{14.50} in cash. Calculate how many cans will
+       Stephany consume now. Is she still consuming less soda than in
+       the initial situation?  Will the city council spend more money
+       than the amount collected with the tax?
