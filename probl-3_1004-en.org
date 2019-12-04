@@ -47,11 +47,11 @@
 
 6. Both Adela and Blas have \money{100} to spend on goods $X$ and
    $Y$. Adela only cares about how many units of $X$ she can consume,
-   since the she do not get any satisfaction from good $Y$. On the
-   other side, Blas is always willing to exchange a unit of good $X$
-   for a unit of good $Y$. The prices of the goods are $P_X =
-   \price{2}$ and $P_Y = \ price{4}$. Obtain the demand curves for
-   good $X$ of Adela and Blas.
+   since she do not get any satisfaction from good $Y$. On the other
+   side, Blas is always willing to exchange a unit of good $X$ for a
+   unit of good $Y$. The prices of the goods are $P_X = \price{2}$ and
+   $P_Y = \price{4}$. Obtain the demand curves for good $X$ of Adela
+   and Blas.
 
 7. The preferences of a consumer are given by the utility function:
    $U(X, Y) = X^{1/4} Y^{1/8}$ and her income is $M = \money{17496}$.
@@ -77,8 +77,8 @@
    is zero? Is salt an inferior good for Dulce?
 
 10. "The quantity demanded of a Giffen good increases with its price
-    and also increases when the income of the consumers increases." Is
-    the previous statement correct? Justify your answer.
+    and also increases when the consumer's income increases." Is the
+    previous statement correct? Justify your answer.
 
 11. The following graph shows the optimal choices of a consumer before
     and after a decrease in the price of good $X$:
@@ -105,22 +105,21 @@
       U (S, Y) = (S + 20)^{0.1} Y^{0.9}
     \]
     #+end_export
-    where $S$ is the number of soda cans you consume and $Y$ is
-    a composite good that includes the remaining expenditure in
-    feeding. Stephanie has \money{470} every month for
-    spending on $S$ and $Y$.
+    where $S$ is the number of soda cans she consumes and $Y$ is a
+    composite good that includes her remaining expenditure on
+    food. Stephanie has \money{470} every month to spend on $S$ and
+    $Y$.
 
     a) How many cans of soda did Stephanie consume per month before
        the introduction of the tax?
 
-    b) Calculate the optimum choice of Stephanie after the
-       introduction of the tax. Is the tax effective in reducing her
-       consumption of sugary drinks? How much money will she pay for
-       the tax?
+    b) Calculate Stephanie's optimal choice after the introduction of
+       the tax. Is this tax effective in reducing her consumption of
+       sugary drinks? How much money will she pay for the tax?
 
     c) In view of the increasing complaints from the inhabitants of
-       the city, the mayor decides to keep the tax but give to each
-       citizen \money{14.50} in cash. Calculate how many cans will
-       Stephany consume now. Is she still consuming less soda than in
-       the initial situation?  Is the city council spending more money
-       than the amount collected with the tax?
+       the city, the mayor decides to keep the tax and give
+       \money{14.50} in cash to each citizen. Calculate how many cans
+       will Stephany consume now. Is she still consuming less soda
+       than in the initial situation?  Is the city council spending
+       more money than the amount collected with the tax?
