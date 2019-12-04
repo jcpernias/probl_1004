@@ -3,10 +3,9 @@
 
 #+TITLE: Exercise Booklet 4
 
-1. A consumer lives for two periods. In the first period her income is
-   \money{1000} and in the second period her income is
-   \money{3300}. The interest rate is 10%. Her preferences are given
-   by:
+1. A consumer lives for two periods. Her income in the first period is
+   \money{1000} and in the second period is \money{3300}. The interest
+   rate is 10%. Her preferences are given by:
    #+begin_export latex
    \[
      U(C_1, C_2) = C_1^{3/4} C_2^{1/4}
@@ -28,8 +27,8 @@
    market.
 
 3. A consumer lives for two periods and can lend and borrow money at
-   an interest rate of 10%. In the first period she gets a monetary
-   income of \money{1000} while in the second period gets
+   an interest rate of 10%. In the first period she earns an income of
+   \money{1000} while in the second period she earns
    \money{750}. Under these conditions the consumer decides not to
    save anything. If the interest rate decreases to 5%, What would
    happen to her savings? What situation would the consumer prefer: an
@@ -38,7 +37,7 @@
 4. The intertemporal preferences of a consumer are given by the
    function: $U(C_1, C_2) = C_1 C_2^{1/2}$. Her income in the first
    period is \money{200} and in the second period it is
-   \money{220}. The interest rate to which money is lent is 5%, and
+   \money{220}. The interest rate at which money is lent is 5%, and
    the interest rate for borrowing is 10%.
 
    a) Obtain the individual's budget constraint and represent it
@@ -54,7 +53,7 @@
 
 5. A consumer has preferences regarding her present consumption,
    $C_1$, and her future consumption, $C_2$, that are represented by
-   the utility function $U(C_1, C_2) = \min \{C_1, C_2\}$. The
+   the utility function: $U(C_1, C_2) = \min \{C_1, C_2\}$. The
    consumer's income in each period is $M_1 = \money{4200}$ and $M_2 =
    \money{1050}$, and the interest rate is $r = 0.1$.
 
@@ -64,10 +63,10 @@
    b) Determine whether the consumer saves or not, as well as her
       consumption in each period.
 
-6. A consumer lives for two periods and can lend and borrow money at the
-   same interest rate. During the first period she gets an income of
-   \money{2500}, saves \money{1000}, and her income in the second
-   period is 20% lower than that the first period. Calculate the
+6. A consumer lives for two periods and can lend and borrow money at
+   the same interest rate. During the first period she gets an income
+   of \money{2500} and saves \money{1000}. Her income in the second
+   period is 20% lower than that in the first period. Calculate the
    interest rate knowing that the optimal choice in the second period
    is to consume \money{3010}. Determine and represent the
    intertemporal budget constraint.
