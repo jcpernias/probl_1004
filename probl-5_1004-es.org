@@ -4,7 +4,7 @@
 #+TITLE: Cuaderno de ejercicios 5
 
 
-1. Complete la tabla siguiente que representa la producción a corto
+1. Complete la siguiente tabla que describe la producción a corto
    plazo de una empresa.
 
    #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
@@ -21,8 +21,8 @@
    | $6$          | $306$      |          |          |
    |--------------+------------+----------+----------|
 
-   ¿Se cumple la ley de rendimientos decrecientes del factor trabajo?
-   ¿Son técnicamente eficientes todos los niveles de contratación de
+   ¿Se cumple la ley de rendimientos marginales decrecientes?  ¿Son
+   técnicamente eficientes todos los niveles de contratación de
    trabajadores mostrados en la tabla? ¿Por qué?
 
    #+begin_answer
@@ -57,10 +57,9 @@
    #+end_answer
 
 3. La producción por trabajador en una empresa es de 20 sillas al
-   día. El propietario está pensando en contratar otro trabajador y ha
-   calculado que la producción total diaria aumentaría en 10
-   sillas. Si contrata un trabajador más, ¿aumentará el producto
-   medio?
+   día. El propietario de la empresa ha calculado que un trabajador
+   adicional elevaría la producción diaria en 10 sillas. ¿Aumentará
+   el producto medio si la empresa contrata otro trabajador?
 
    #+begin_answer
      No: el producto marginal es menor que el medio, por lo que el
@@ -70,13 +69,13 @@
 4. Dada la función de producción $Q = L^2 K - 0.01 L^3$ y sabiendo que
    el capital es fijo, $\Kbar = 6$, determine:
 
-   a) La función de producto total del trabajo.
+   a) La curva de producto total.
 
       #+begin_answer
-        Función de producto total: $Q = 6 L^2 - 0.01 L^3$.
+        Curva de producto total: $Q = 6 L^2 - 0.01 L^3$.
       #+end_answer
 
-   b) Las funciones de producto medio y marginal del trabajo.
+   b) Las curvas de producto medio y marginal del trabajo.
 
       #+begin_answer
         #+ATTR_LATEX: :booktabs t :center t :align @{}ll@{}
@@ -86,9 +85,9 @@
         |--------------------+---------------------------|
       #+end_answer
 
-   c) Los niveles de trabajo que hacen máximo el producto marginal, el
-      producto medio y el producto total. Represente gráficamente los
-      resultados obtenidos.
+   c) Los niveles del factor trabajo que hacen máximo el producto
+      marginal, el producto medio y el producto total. Represente
+      gráficamente los resultados obtenidos.
 
       #+begin_answer
         #+ATTR_LATEX: :booktabs t :center t :align @{}llr@{}
@@ -156,8 +155,8 @@
         |---------+------------|
       #+end_answer
 
-   c) Compruebe si se cumple la ley de rendimientos decrecientes del
-      factor trabajo cuando $\Kbar=16 \text{\ unidades}$.
+   c) Compruebe si se cumple la ley de rendimientos marginales
+      decrecientes cuando $\Kbar=16 \text{\ unidades}$.
 
       #+begin_answer
         #+ATTR_LATEX: :booktabs t :center t :align @{}lp{3.25cm}l@{}
@@ -171,10 +170,9 @@
         |---------+-------------------------+-------------------------|
       #+end_answer
 
-6. Explique y justifique si considera correcta o incorrecta la
-   siguiente afirmación: "Una empresa con rendimientos constantes de
-   escala verá duplicada su producción cuando duplique el uso del
-   factor capital."
+6. ¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
+   empresa con rendimientos constantes de escala verá duplicada su
+   producción cuando duplique el uso del factor capital."
 
    #+begin_answer
      Es incorrecta. Se duplicará la producción cuando se duplique el
@@ -234,13 +232,15 @@
 
    #+MATS: fig fig-probl-5_1004-ex8-incr-returns-*.pdf
 
-   a) ¿Con qué tipo de rendimientos a escala opera esta empresa?
+   a) ¿Qué tipo de rendimientos a escala exhibe la función de
+      producción de la empresa?
 
       #+begin_answer
         Rendimientos crecientes a escala.
       #+end_answer
 
-   b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos decrecientes?
+   b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos marginales
+      decrecientes?
 
       #+begin_answer
         #+attr_latex: :options {0.5\linewidth}
