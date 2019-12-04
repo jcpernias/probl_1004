@@ -4,8 +4,8 @@
 #+TITLE: Cuaderno de ejercicios 4
 
 
-1. Un consumidor vive dos periodos. En el primer periodo su
-   renta es \money{1000} y en el segundo periodo esd \money{3300}. El tipo de
+1. Un consumidor vive dos periodos. Su renta en el primer periodo es
+   \money{1000} y en el segundo periodo es \money{3300}. El tipo de
    interés es del 10%. Sus preferencias vienen dadas por:
    #+begin_export latex
    \[
@@ -85,12 +85,11 @@
 
 3. Un consumidor vive dos periodos y puede prestar y pedir prestado
    dinero a un tipo de interés del 10%. En el primer periodo obtiene
-   una renta monetaria de \money{1000} mientras que en el segundo
-   período obtiene \money{750}. En estas condiciones el consumidor
-   decide no ahorrar nada. Si el tipo de interés disminuyera al 5%,
-   ¿qué ocurriría con el ahorro? ¿Qué situación preferiría el
-   consumidor: un tipo de interés del 10% o del 5%? Represente
-   gráficamente.
+   una renta de \money{1000} mientras que en el segundo período
+   obtiene \money{750}. En estas condiciones el consumidor decide no
+   ahorrar nada. Si el tipo de interés disminuyera al 5%, ¿qué
+   ocurriría con el ahorro? ¿Qué situación preferiría el consumidor:
+   un tipo de interés del 10% o del 5%? Represente gráficamente.
 
    #+begin_answer
      #+attr_latex: :options {0.55\linewidth}
