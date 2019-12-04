@@ -45,7 +45,7 @@
 
 5. Consider the following production functions:
 
-   #+ATTR_LATEX:: options [labelwidth=\widthof{XX.}, Align=left, label=\Roman*. ]
+   #+ATTR_LATEX: :options [labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
    A. $Q = L^{1/4} K^{3/4}$
 
    B. $Q = L^{3/2} K^{1/2}$
