@@ -347,7 +347,7 @@
 
          Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
 
-         Elección óptima: $R_2 = 29$ latas e $Y_2 = \money{432}$.
+         Elección óptima: $R_2 = 29$ latas e $Y_2 = \money{441}$.
 
          Paga: $R_2 t = \money{14.5}$.
        #+end_answer
