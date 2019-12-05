@@ -13,7 +13,6 @@
       coste variable.
 
       #+begin_answer
-
         #+attr_latex: :options {0.5\linewidth}
         #+begin_minipage
           #+MATS: fig fig-probl-6_1004-short-curves1-*.pdf
@@ -60,7 +59,7 @@
         cuando $Q \approx 35.35$ unidades.
       #+end_answer
 
-2. Complete la siguiente tabla que representa los costes a corto plazo
+2. Complete la siguiente tabla que describe los costes a corto plazo
    de una empresa.
 
    #+ATTR_LATEX: :booktabs t :center t :align @{}l*{7}{R{1.3cm}}@{}
@@ -103,14 +102,14 @@
      $\CT = \money{400}$.
    #+end_answer
 
-4. La propietaria de una empresa ha dibujado el siguiente gráfico para
-   decidir qué cantidad de factores que debe de contratar a largo
+4. La propietaria de una empresa ha dibujado el siguiente diagrama
+   para decidir qué cantidad de factores que debe de contratar a largo
    plazo. Para dibujar las isocostes ha utilizado los precios de los
    factores $w = \money{16}$ y $r = \money{40}$.
 
    #+MATS: fig fig-probl-6_1004-choice-*.pdf
 
-   a) Complete el gráfico etiquetando las intersecciones de las
+   a) Complete el diagrama etiquetando las intersecciones de las
       isocostes con el eje horizontal. ¿Qué interpretación tienen
       estos puntos de corte?
 
@@ -118,8 +117,8 @@
          #+MATS: fig fig-probl-6_1004-choice2-*.pdf
       #+end_answer
 
-   b) Si la empresa produce 150 unidades y sus costes son de
-      \money{440}, ¿se están minimizando los costes?
+   b) Si se producen 150 unidades con un costes de \money{440}, ¿están
+      minimizando la empresa los costes de producción?
 
       #+begin_answer
         No: en la isocoste tangente a la isocuanta $Q=150$, el coste
@@ -134,14 +133,14 @@
       #+end_answer
 
 5. Sauron SA es una empresa dedicada a la producción de anillos
-   exclusivos empleando trabajadores e impresoras 3D. En la situación
-   actual, la producción diaria se incrementaría en 18 anillos si se
-   contratara un trabajador más. Si en vez de aumentar la plantilla se
-   alquilara una impresora adicional, la producción diaria se elevaría
-   en 6 anillos. Sabiendo que el salario al día es 4 veces el alquiler
+   exclusivos empleando trabajadores e impresoras 3D. La producción
+   diaria se incrementaría en 18 anillos si se contratara un
+   trabajador más. Si en vez de aumentar la plantilla se alquilara una
+   impresora adicional, la producción diaria se elevaría en 6
+   anillos. Sabiendo que el salario al día es 4 veces el alquiler
    diario de una impresora 3D, ¿está minimizando Sauron SA sus costes?
-   Si su respuesta es negativa, ¿qué podría hacer Sauron SA para
-   reducir sus costes? Justifique sus respuestas.
+   Si su respuesta es no, ¿qué podría hacer Sauron SA para reducir sus
+   costes? Justifique sus respuestas.
 
    #+begin_answer
      No se están minimizando los costes a largo: La $\RMST = \PMgL /
@@ -153,7 +152,7 @@
      costes disminuyen en la cuarta parte del salario.
    #+end_answer
 
-6. Una empresa tiene la función de producción: $Q = L^{3/2}
+6. La función de producción de una empresa es: $Q = L^{3/2}
    K^{1/2}$. Actualmente contrata 144 horas de trabajo y 12 unidades
    de capital. Si ésta es la combinación óptima de factores a largo
    plazo y si los costes totales son iguales a \money{1152}, ¿cuáles
@@ -166,9 +165,8 @@
      \price{24}$.
    #+end_answer
 
-7. La función de producción de una empresa es: $F(L, K) = L^{2}
-   K$. Los precios de los factores son: $w = \wage{16}$ y $r =
-   \price{8}$.
+7. La función de producción de una empresa es: $F(L, K) = L^{2} K$ y
+   los precios de los factores son: $w = \wage{16}$ y $r = \price{8}$.
 
    a) Obtenga las curvas de demanda condicionada de cada factor de
       producción a largo plazo.
@@ -203,7 +201,8 @@
    Obtenga y represente las curvas de costes medios y costes
    marginales.  ¿Cuál es el coste unitario mínimo? ¿Para qué nivel de
    producción se minimiza el coste unitario? ¿En que rango de la
-   producción existen economías de escala? ¿Y deseconomías de escala?
+   producción experimenta la empresa economías de escala? ¿Y
+   deseconomías de escala?
 
    #+begin_answer
      #+attr_latex: :options {0.5\linewidth}
@@ -220,11 +219,11 @@
      #+end_minipage
    #+end_answer
 
-9. Una empresa opera con la tecnología $Q = K L$ y usa 3 unidades de
-   capital a corto plazo. Los precios de los factores son $w=
-   \wage{1}$ y $r=\price{1}$.
+9. Considere la función de producción: $Q = K L$. Los precios de los
+   factores son $w = \wage{1}$ y $r=\price{1}$. A corto plazo el
+   capital es fijo, $\Kbar = \units{3}$.
 
-   a) ¿Cuál es la curva de costes a corto plazo?
+   a) Determine la curva de costes a corto plazo.
 
       #+begin_answer
         \begin{equation*}
@@ -244,9 +243,8 @@
       #+end_answer
 
    b) ¿Cuál es el único nivel de producción en el que coinciden los
-      costes a largo plazo y los costes a corto plazo? ¿Por qué? ¿Qué
-      ocurre en cualquier otro nivel de producción? Represente
-      gráficamente.
+      costes a largo plazo y a corto plazo? ¿Por qué? ¿Qué ocurre en
+      cualquier otro nivel de producción? Represente gráficamente.
 
       #+begin_answer
         #+attr_latex: :options {0.55\linewidth}
@@ -293,8 +291,8 @@
        #+end_answer
 
     b) Calcule los costes a largo plazo de producir $40$, $160$ y
-       $360$ unidades. ¿Coincide en algún caso los costes a corto y a
-       largo plazo?
+       $360$ unidades. ¿Coinciden los costes a corto y a
+       largo plazo para algún nivel de producción?
 
        #+begin_answer
          #+ATTR_LATEX: :booktabs t :center t :align @{}*{6}{R{1.3cm}}@{}
@@ -316,19 +314,17 @@
        #+end_answer
 
 11. Explique y justifique si considera correcta o incorrecta cada una
-    de las siguientes afirmaciones (use el análisis gráfico cuando lo
-    considere oportuno):
+    de las siguientes afirmaciones (use gráficos si lo considera
+    oportuno):
 
-    a) El coste medio se maximiza cuando coincide con el coste
-       marginal.
+    a) El coste medio se maximiza cuando coincide con el coste marginal.
 
        #+begin_answer
          Incorrecta: el coste medio se minimizaría en esas condiciones.
        #+end_answer
 
-    c) A largo plazo y si el coste marginal es superior al coste
-       medio, la empresa está operando con rendimientos crecientes de
-       escala.
+    c) Si el coste marginal es superior al coste medio a largo plazo,
+       la empresa está operando con rendimientos crecientes de escala.
 
        #+begin_answer
          Incorrecta: el coste medio sería creciente, hay deseconomías
@@ -344,15 +340,16 @@
        #+end_answer
 
 12. Una pequeña empresa dedicada a la producción de guitarras
-    eléctricas está planteándose la posibilidad de utilizar un taller
-    adicional. Los costes medios cuando utiliza un único taller son:
+    eléctricas está planteándose la posibilidad de abrir una nueva
+    fábrica. Cuando utiliza una sola fábrica la curva de costes medios
+    es:
     #+begin_export latex
     \[
       \CMe_1(Q) = 0.01 Q^2 - 6 Q + 1400
     \]
     #+end_export
-    donde $Q$ es el número de guitarras que produce al año. Si opera
-    con dos talleres su curva de costes medios sería:
+    donde $Q$ es el número de guitarras que produce al año. Con dos
+    fábricas la curva de costes medios sería:
     #+begin_export latex
     \[
       \CMe_2(Q) = 0.01 Q^2 -12 Q + 4100
@@ -360,7 +357,7 @@
     #+end_export
 
     a) Si la empresa espera poder vender 600 guitarras el próximo año,
-       ¿debería usar uno o dos talleres?
+       ¿debería usar una o dos fábricas?
 
        #+begin_answer
          Con dos talleres el coste medio es más bajo:
@@ -372,8 +369,7 @@
          #+end_export
        #+end_answer
 
-    b) Obtenga y represente la curva de costes medios totales a largo
-       plazo.
+    b) Obtenga y represente la curva de costes medios a largo plazo.
 
        #+begin_answer
          #+begin_export latex
