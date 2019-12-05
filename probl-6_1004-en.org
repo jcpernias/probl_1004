@@ -3,59 +3,156 @@
 
 #+TITLE: Exercise Booklet 6
 
+#+latex: \newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
+#+MACRO: Inc Inc@@latex:\@.@@
 
-* Costs
+1. The production function of a firm is: $Q = L^{1/2} K^{1/2}$ and the
+   input prices are $w =\price{10}$ and $r = \price{20}$. In the short
+   run the capital input is fixed at $\Kbar = \units{25}$.
 
-1. The production function of a firm is: $Q = 2 K L$.  The hourly wage
-   is \wage{2} and the unit price of capital is \price{4}
+   a) Obtain and represent the total cost, fixed cost and variable
+      cost curves.
 
-   a) If the company has \money{200} to invest in the purchase of
-      factors, which is the optimal combination of input? How many
-      units will the company produce?
+   b) Obtain and represent the average cost, average variable cost and
+      marginal cost curves.
 
-   b) The production function of the company becomes $Q = 4 K
-      L$. Calculate the total cost associated and the quantities of
-      factors used if the output level is \units{2500}.
+   c) At which output level is average cost minimized?  Which is
+      the minimum average cost?
 
-2. A firm uses a technology that might be represented by the
-   production function: $Q = (KL)^{1/2}$.
+2. Complete the following table describing the short run costs of a
+   company.
 
-   a) Calculate the conditional demand for each production factor.
+   #+ATTR_LATEX: :booktabs t :center t :align @{}l*{7}{R{1.3cm}}@{}
+   |-----+-------+-------+-------+--------+--------+---------+---------|
+   | $Q$ | $\CT$ | $\CF$ | $\CV$ | $\CMg$ | $\CMe$ | $\CFMe$ | $\CVMe$ |
+   |-----+-------+-------+-------+--------+--------+---------+---------|
+   | $0$ |       |       |       | ---    | ---    | ---     | ---     |
+   | $1$ | $86$  |       |       |        |        |         |         |
+   | $2$ |       |       | $46$  |        |        |         |         |
+   | $3$ |       |       |       | $17$   |        |         |         |
+   | $4$ |       |       |       |        |        |         | $19$    |
+   | $5$ |       |       |       |        | $29$   |         |         |
+   | $6$ | $150$ |       | $90$  |        |        |         |         |
+   |-----+-------+-------+-------+--------+--------+---------+---------|
 
-   b) Determine the long-run cost function if $w = \wage{1}$ and $r =
-      \price{1}$.
+3. The production function of a company is given by: $Q = K L$. The
+   hourly wage is \wage{2} and the price of capital input is
+   \price{4}. Determine the input combination that minimizes the cost
+   of producing 5000 units. Which is the minimum cost?
 
-   c) Obtain the long-run marginal and average cost functions.
+4. The owner of a company has drawn the following diagram to decide
+   how many units of labor and capital she should hire in the long
+   run. In order to draw the isocost lines she has used the input
+   prices $w = \money{16}$ and $r = \money{40}$.
 
-   d) Obtain the average total cost, average variable cost and
-      marginal cost short-run functions when the capital level is $K =
-      \units{25}$.
+   #+MATS: fig fig-probl-6_1004-choice-*.pdf
 
-3. The production function of a firm is: $F(K, L) = K L^{2}$. The
-   factor prices are: $r = \price{5}$ and $w = \wage{2}$.
+   a) Complete the diagram by labeling the intersections of the
+      isocost lines with the horizontal axis. What is the meaning of
+      these intersection points?
 
-   a) Indicate the type of returns to scale of the technology used by
-      the firm.
+   b) If 150 units are produced at a total cost of \money{440}, is the
+      firm minimizing the cost of production?
 
-   b) If the firm wants to achieve a production level equal to
-      \units{200}, calculate the amount of inputs the firm must
-      acquire to minimize production cost.
+   c) If $\PMgK = 30$ when costs are minimized, which is the value of
+      $\PMgL$?
 
-   c) Determine the cost function and the total cost when the ouput
-      level is $Q = \units{200}$.
+5. Sauron {{{Inc}}} is a company dedicated to the production of
+   exclusive rings using labor and 3D printers. The daily production
+   would increase by 18 rings if the company hires one more
+   worker. If, instead of increasing the staff, the company rents an
+   additional printer the daily production would rise by 6
+   rings. Knowing that the daily wage is 4 times the daily rental
+   price of a 3D printer, is Sauron {{{Inc}}} minimizing its costs?
+   If your answer is no, what could Sauron {{{Inc}}} do to reduce its
+   costs? Justify your answers.
 
-4. A company with production function: $Q = 2 K^{1/2} L^{3/2}$. It
-   currently hires 8 units of labor and 2 units of capital. If this is
-   the optimal input combination and if the total costs are equal to
-   \money{16}, which are the prices of capital and labor?
+6. A company's production function is: $Q = L^{3/2} K^{1/2}$. The
+   company currently hires 144 hours of labor and 12 units of
+   capital. If this is the optimal long run input combination and if
+   total costs are equal to \money{1152}, which are the prices of
+   capital and labor inputs?
 
-5. A company operates with technology: $Q = K L$ and is using 3 units
-   of capital in the short-run. The input prices are $w = \wage{1}$
-   and $r = \price{1}$
+7. The production function of a company is: $F(L, K) = L^{2} K$ and
+   the input prices are: $w = \wage{16}$ and $r = \price{8}$.
 
-   a) Which is the conditional demand for labor in the short run? And
-      the costs function? And the marginal costs function?
+   a) Obtain the long run conditional demand curves for each factor of
+      production.
 
-   b) Which is the only output level where the production costs in the
-      long-run are equal to the short-run production costs? Why?
-      What happens at any other output level?
+   b) Determine the long run cost curve, as well as the average and
+      marginal cost curves. Which is the total cost of producing
+      $8000$ units?
+
+8. The long run total cost curve of a company is:
+   #+begin_export latex
+   \[
+     \CT(Q) = Q^3 - 8 Q^2 + 22 Q
+   \]
+   #+end_export
+   Obtain and represent the average cost and marginal cost
+   curves. Which is the minimum unit cost? At which output level is
+   the unit cost minimized? Over which range of output does the
+   company experience economies of scale? And diseconomies of scale?
+
+9. Consider the production function: $Q = K L$. The factor prices are
+   $w= \wage{1}$ and $r=\price{1}$ and the capital input in the short
+   run is fixed at $\Kbar = \units{3}$.
+
+   a) Determine the short run cost curve.
+
+   b) Obtain the long run cost curve.
+
+   b) What is the single output level at which the long run and
+      short run costs coincide? Why? What does happen at any other
+      output level? Represent graphically.
+      #+latex: \clearpage
+
+10. The following figure shows some isoquants of a firm's production
+    function:
+
+    #+MATS: fig fig-probl-6_1004-expansion-*.pdf
+
+    The daily wage amounts to \money{80} per worker.  Each unit of
+    capital that uses the company also costs \money{80} per day. In
+    the short run the firm can only use 4 units of capital: $\Kbar =
+    4$.
+
+    a) Calculate the short run cost of producing $40$ units. Calculate
+       also the short run cost of producing $160$ and $360$ units.
+
+    b) Calculate the long run cost of producing $40$, $160$ and $360$
+       units. Do the short run and long run costs coincide at any
+       output level?
+
+11. Explain why the following statements are correct or incorrect (if
+    appropriate, use diagrams to illustrate your points):
+
+    a) The average cost is maximized when it coincides with the
+       marginal cost.
+
+    c) If marginal cost is higher than the average cost in the long
+       run, the company is operating under increasing returns to
+       scale.
+
+    c) The long run cost can never be greater than the short run cost.
+
+12. A small company dedicated to the production of electrical guitars
+    is considering the possibility of opening a new factory. When
+    using a single factory, the average cost curve is:
+    #+begin_export latex
+    \[
+      \CMe_1(Q) = 0.01 Q^2 - 6 Q + 1400
+    \]
+    #+end_export
+    where $Q$ is the number of guitars produced per year. With two
+    factories the average cost curve would be:
+    #+begin_export latex
+    \[
+      \CMe_2(Q) = 0.01 Q^2 -12 Q + 4100
+    \]
+    #+end_export
+
+    a) If the company expects to sell 600 guitars next year, should it
+       run one or two factories?
+
+    b) Obtain and represent the long run average cost curve.
