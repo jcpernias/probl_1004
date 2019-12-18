@@ -122,7 +122,7 @@
 
       #+begin_answer
         No: en la isocoste tangente a la isocuanta $Q=150$, el coste
-        es $40\cdot 10 = 16 \cdot 25 = \money{400}$.
+        es $40\cdot 10 + 16 \cdot 25 = \money{400}$.
       #+end_answer
 
    c) Si $\PMgK = 30$ cuando se minimizan los costes, ¿cuál es el
