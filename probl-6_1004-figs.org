@@ -1,15 +1,14 @@
-#+STARTUP: indent hidestars content
+#+SETUPFILE: ./course-figs.org
 
 #+TITLE: Problem Figures 3
 
-#+OPTIONS: header-args: latex :exports source :eval no :noweb yes
 
 * Income consumption curve
 
 
 ** Figures
 
-#+begin_src latex :tangle fig-probl-3_1004-crc1.tex :noweb yes
+#+begin_src latex :tangle fig-probl-3_1004-crc1.tex
   \begin{tikzpicture}<<ex3:xy-scale>>
 
     <<ex3:grid>>
@@ -20,7 +19,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-3_1004-crc2.tex :noweb yes
+#+begin_src latex :tangle fig-probl-3_1004-crc2.tex
   \begin{tikzpicture}<<ex3:xy-scale-small>>
 
     <<ex3:grid>>
@@ -35,7 +34,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-3_1004-crc3.tex :noweb yes
+#+begin_src latex :tangle fig-probl-3_1004-crc3.tex
   \begin{tikzpicture}<<ex3:xy-scale-small>>
 
     <<ex3:grid>>
@@ -114,7 +113,7 @@
 
 ** Figures
 
-#+begin_src latex :tangle fig-probl-3_1004-cpc1.tex
+#+begin_src latex :tangle fig-probl-3_1004-cpc1.tex :noweb no
   \begin{tikzpicture}[xscale = 0.0585, yscale = 0.085]
 
   \draw[curve, very thick, domain=0:45, smooth]
@@ -126,7 +125,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-3_1004-cpc2.tex
+#+begin_src latex :tangle fig-probl-3_1004-cpc2.tex :noweb no
   \begin{tikzpicture}[xscale = 0.0585, yscale = 0.255]
 
   \draw[curve, very thick, domain=0:50, smooth]
@@ -142,7 +141,7 @@
 
 * Income and substitution effects
 
-#+begin_src latex :tangle fig-probl-3_1004-fxs.tex
+#+begin_src latex :tangle fig-probl-3_1004-fxs.tex :noweb no
   \begin{tikzpicture}[xscale = 0.15, yscale = 0.1,
     use Hobby shortcut,
     tangent/.style={
@@ -192,7 +191,7 @@
 
 * Perfect complements
 
-#+begin_src latex :tangle fig-probl-3_1004-compl.tex
+#+begin_src latex :tangle fig-probl-3_1004-compl.tex :noweb no
   \begin{tikzpicture}[xscale = 1, yscale = 1]
 
     \draw[help lines]
@@ -226,7 +225,7 @@
 
 * Corner solution and demand curve
 
-#+begin_src latex :tangle fig-probl-3_1004-corner.tex
+#+begin_src latex :tangle fig-probl-3_1004-corner.tex :noweb no
   \begin{tikzpicture}[xscale = 1.66667, yscale = 1.66667]
 
     \draw[curve, very thick]

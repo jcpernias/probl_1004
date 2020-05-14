@@ -1,15 +1,13 @@
-#+STARTUP: indent hidestars content
+#+SETUPFILE: ./course-figs.org
 
 #+TITLE: Exercises 1
-
-#+OPTIONS: header-args: latex :exports source :eval no :noweb yes
 
 
 * PPF shifts
 
 
 ** PPF
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh1.tex :noweb yes
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh1.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<xy-scale2>>
     <<coord-def2>>
@@ -35,7 +33,7 @@
 
 ** Technological change
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh2.tex :noweb yes
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh2.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<small-xy-scale2>>
     <<coord-def2>>
@@ -50,7 +48,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh3.tex :noweb yes
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh3.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<small-xy-scale2>>
     <<coord-def2>>
@@ -65,7 +63,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh4.tex :noweb yes
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh4.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<small-xy-scale2>>
     <<coord-def2>>
@@ -85,7 +83,7 @@
 
 ** War
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh5.tex :noweb yes
+#+begin_src latex :tangle fig-probl-1_1004-ppf-sh5.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<small-xy-scale2>>
     <<coord-def2>>
@@ -177,7 +175,7 @@
 
 ** PPF
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-oc1.tex :noweb yes
+#+begin_src latex :tangle fig-probl-1_1004-ppf-oc1.tex
   <<coord-xy>>
 
   \begin{tikzpicture}<<xy-scale>>
@@ -210,7 +208,7 @@
 
 ** Inefficient combination
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-oc2.tex :noweb yes
+#+begin_src latex :tangle fig-probl-1_1004-ppf-oc2.tex
   <<coord-xy>>
 
   \begin{tikzpicture}<<xy-scale>>
@@ -294,7 +292,7 @@
 
 * PPF and opportunity cost
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf.tex
+#+begin_src latex :tangle fig-probl-1_1004-ppf.tex :noweb no
   \deftranslation[to=Spanish]{Cocos}{Cocos}
   \deftranslation[to=English]{Cocos}{Coconuts}
   \deftranslation[to=Spanish]{Pescado}{Pescado}

@@ -1,13 +1,11 @@
-#+STARTUP: indent hidestars content
+#+SETUPFILE: ./course-figs.org
 
 #+TITLE: Problems 6 Figures
-
-#+OPTIONS: header-args: latex :exports source :eval no
 
 
 * Ex. 1: Short-run curves
 
-  #+begin_src latex :tangle fig-probl-6_1004-short-curves1.tex
+  #+begin_src latex :tangle fig-probl-6_1004-short-curves1.tex :noweb no
     \begin{tikzpicture}[yscale=0.9, xscale=0.045]
 
       \draw[curve, very thick]
@@ -31,7 +29,7 @@
     \end{tikzpicture}
    #+end_src
 
-  #+begin_src latex :tangle fig-probl-6_1004-short-curves2.tex
+  #+begin_src latex :tangle fig-probl-6_1004-short-curves2.tex :noweb no
     \begin{tikzpicture}[yscale=0.1, xscale=0.045]
       \draw[help lines]
          (0, 28.28427) node[left] {$28.28$ } -|
@@ -60,7 +58,7 @@
 
 * Ex. 4: Long-run choice
 
-  #+begin_src latex :tangle fig-probl-6_1004-choice.tex
+  #+begin_src latex :tangle fig-probl-6_1004-choice.tex :noweb no
     \begin{tikzpicture}[yscale=0.32, xscale=0.32]
 
       \draw[curve]
@@ -87,7 +85,7 @@
     \end{tikzpicture}
    #+end_src
 
-  #+begin_src latex :tangle fig-probl-6_1004-choice2.tex
+  #+begin_src latex :tangle fig-probl-6_1004-choice2.tex :noweb no
     \begin{tikzpicture}[yscale=0.25, xscale=0.25]
 
       \draw[curve]
@@ -122,11 +120,9 @@
    #+end_src
 
 
-
-
 * Ex. 8: Long-run marginal and average cost curves
 
-  #+begin_src latex :tangle fig-probl-6_1004-cmg-cme-long.tex
+  #+begin_src latex :tangle fig-probl-6_1004-cmg-cme-long.tex :noweb no
     \begin{tikzpicture}[yscale=0.11, xscale=0.32]
 
       \draw[help lines] (0, 6) node[left] {$6$} -|
@@ -154,7 +150,7 @@
 
 * Ex.9: Short-run and long-run cost curves
 
-  #+begin_src latex :tangle fig-probl-6_1004-short-long.tex
+  #+begin_src latex :tangle fig-probl-6_1004-short-long.tex :noweb no
     \begin{tikzpicture}[yscale=0.4, xscale=0.2222222]
 
       \draw[help lines] (0, 6) node[left, font=\small] {$6$} -|
@@ -181,7 +177,7 @@
 
 * Ex. 10: Expansion paths
 
-  #+begin_src latex :tangle fig-probl-6_1004-expansion.tex
+  #+begin_src latex :tangle fig-probl-6_1004-expansion.tex :noweb no
     \begin{tikzpicture}[yscale=0.85, xscale=0.85]
 
       \draw[help lines] (0, 0) grid (10, 8) ;
@@ -232,7 +228,7 @@
     \end{tikzpicture}
    #+end_src
 
-  #+begin_src latex :tangle fig-probl-6_1004-expansion2.tex
+  #+begin_src latex :tangle fig-probl-6_1004-expansion2.tex :noweb no
     \begin{tikzpicture}[yscale=0.5, xscale=0.5]
 
       \draw[help lines] (0, 0) grid (10, 8) ;
@@ -274,7 +270,7 @@
 
 * Ex. 12: Envelop
 
-  #+begin_src latex :tangle fig-probl-6_1004-envelop.tex
+  #+begin_src latex :tangle fig-probl-6_1004-envelop.tex :noweb no
     \begin{tikzpicture}[yscale=0.25, xscale=0.5]
 
       \draw[help lines] (4.5, 7.25) --
