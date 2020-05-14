@@ -1,0 +1,33 @@
+# -*- ispell-dictionary: "castellano" -*-
+#+SETUPFILE: ./course-es.org
+#+TITLE: Cuaderno de ejercicios
+
+* Conceptos básicos de la economía
+
+#+include: "probl-1_1004-es.org" :lines "6-"
+
+* Mercados competitivos
+
+* La elasticidad
+
+* El Estado y los mercados competitivos
+
+* La elección del consumidor
+
+#+include: "probl-2_1004-es.org" :lines "6-"
+
+* La demanda
+
+#+include: "probl-3_1004-es.org" :lines "6-"
+
+* La elección intertemporal
+
+#+include: "probl-4_1004-es.org" :lines "6-"
+
+* La producción
+
+#+include: "probl-5_1004-es.org" :lines "6-"
+
+* Los costes
+
+#+include: "probl-6_1004-es.org" :lines "6-"

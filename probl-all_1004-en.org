@@ -1,0 +1,34 @@
+# -*- ispell-dictionary: "english" -*-
+#+SETUPFILE: ./course-en.org
+
+#+TITLE: Exercise Booklet
+
+* Basic economic concepts
+
+#+include: "probl-1_1004-en.org" :lines "6-"
+
+* Competitive markets
+
+* Elasticity
+
+* Government intervention in competitive markets
+
+* Consumeer choice
+
+#+include: "probl-2_1004-en.org" :lines "6-"
+
+* Demand
+
+#+include: "probl-3_1004-en.org" :lines "6-"
+
+* Intertemporal choice
+
+#+include: "probl-4_1004-en.org" :lines "6-"
+
+* Ptoduction
+
+#+include: "probl-5_1004-en.org" :lines "6-"
+
+* Costs
+
+#+include: "probl-6_1004-en.org" :lines "6-"
