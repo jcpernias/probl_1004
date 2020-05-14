@@ -2,7 +2,7 @@
 #+SETUPFILE: ./course-es.org
 #+TITLE: Cuaderno de ejercicios
 
-* Conceptos básicos de la economía
+* Conceptos básicos de la Economía
 
 #+include: "probl-1_1004-es.org" :lines "6-"
 
@@ -10,7 +10,7 @@
 
 * La elasticidad
 
-* El Estado y los mercados competitivos
+* La intervención del Estado en mercados competitivos
 
 * La elección del consumidor
 

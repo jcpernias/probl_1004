@@ -3,7 +3,7 @@
 
 #+TITLE: Exercise Booklet
 
-* Basic economic concepts
+* Basic concepts of economics
 
 #+include: "probl-1_1004-en.org" :lines "6-"
 
@@ -13,7 +13,7 @@
 
 * Government intervention in competitive markets
 
-* Consumeer choice
+* Consumer choice
 
 #+include: "probl-2_1004-en.org" :lines "6-"
 
@@ -25,7 +25,7 @@
 
 #+include: "probl-4_1004-en.org" :lines "6-"
 
-* Ptoduction
+* Production
 
 #+include: "probl-5_1004-en.org" :lines "6-"
 
