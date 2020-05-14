@@ -8,26 +8,32 @@
 
 * Mercados competitivos
 
-* La elasticidad
-
-* La intervención del Estado en mercados competitivos
-
-* La elección del consumidor
-
 #+include: "probl-2_1004-es.org" :lines "6-"
 
-* La demanda
+* La elasticidad
 
 #+include: "probl-3_1004-es.org" :lines "6-"
 
-* La elección intertemporal
+* La intervención del Estado en mercados competitivos
 
 #+include: "probl-4_1004-es.org" :lines "6-"
 
-* La producción
+* La elección del consumidor
 
 #+include: "probl-5_1004-es.org" :lines "6-"
 
-* Los costes
+* La demanda
 
 #+include: "probl-6_1004-es.org" :lines "6-"
+
+* La elección intertemporal
+
+#+include: "probl-7_1004-es.org" :lines "6-"
+
+* La producción
+
+#+include: "probl-8_1004-es.org" :lines "6-"
+
+* Los costes
+
+#+include: "probl-9_1004-es.org" :lines "6-"

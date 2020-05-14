@@ -1,262 +1,521 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-#+TITLE: Cuaderno de ejercicios 5
+#+TITLE: Cuaderno de ejercicios 2
 
 
-1. Complete la siguiente tabla que describe la producción a corto
-   plazo de una empresa.
+1. Una consumidora gasta su renta $M$ en los bienes $X$ e $Y$.
 
-   #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
-   |--------------+------------+----------+----------|
-   |              | Producción | Producto | Producto |
-   | Trabajadores | total      | marginal | medio    |
-   |--------------+------------+----------+----------|
-   | $0$          | $0$        | ---      | ---      |
-   | $1$          |            | $120$    |          |
-   | $2$          | $210$      |          |          |
-   | $3$          |            |          | $95$     |
-   | $4$          |            | $31$     |          |
-   | $5$          |            |          | $64$     |
-   | $6$          | $306$      |          |          |
-   |--------------+------------+----------+----------|
-
-   ¿Se cumple la ley de rendimientos marginales decrecientes?  ¿Son
-   técnicamente eficientes todos los niveles de contratación de
-   trabajadores mostrados en la tabla? ¿Por qué?
-
-   #+begin_answer
-     #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
-     |--------------+------------+----------+----------|
-     |              | Producción | Producto | Producto |
-     | Trabajadores | total      | marginal | medio    |
-     |--------------+------------+----------+----------|
-     | $0$          | $0$        | ---      | ---      |
-     | $1$          | $120$      | $120$    | $120$    |
-     | $2$          | $210$      | $90$     | $105$    |
-     | $3$          | $285$      | $75$     | $95$     |
-     | $4$          | $316$      | $31$     | $79$     |
-     | $5$          | $320$      | $4$      | $64$     |
-     | $6$          | $306$      | $-14$    | $51$     |
-     |--------------+------------+----------+----------|
-
-     - La ley de rendimientos decrecientes del factor trabajo se
-       cumple: el \PMgL es decreciente.
-
-     - No es técnicamente eficiente contratar 6 trabajadores: el
-       producto marginal es negativo.
-   #+end_answer
-
-2. Si el producto marginal del trabajo es decreciente en el corto
-   plazo, ¿el producto medio debe ser también decreciente?
-
-   #+begin_answer
-     No: el producto medio decrece cuando el producto marginal es
-     inferior al medio, independientemente de que el producto marginal
-     sea creciente o no.
-   #+end_answer
-
-3. La producción por trabajador en una empresa es de 20 sillas al
-   día. El propietario de la empresa ha calculado que un trabajador
-   adicional elevaría la producción diaria en 10 sillas. ¿Aumentará
-   el producto medio si la empresa contrata otro trabajador?
-
-   #+begin_answer
-     No: el producto marginal es menor que el medio, por lo que el
-     producto medio es decreciente.
-   #+end_answer
-
-4. Dada la función de producción $Q = L^2 K - 0.01 L^3$ y sabiendo que
-   el capital es fijo, $\Kbar = 6$, determine:
-
-   a) La curva de producto total.
+   a) ¿Como cambiaría su recta presupuestaria si se estableciera un
+      impuesto sobre el consumo y el precio de ambos bienes aumentara
+      un 25%?
 
       #+begin_answer
-        Curva de producto total: $Q = 6 L^2 - 0.01 L^3$.
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+      #+MATS: fig fig-probl-2_1004-budget-tax1-*.pdf
+      #+end_minipage
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+        La recta presupuestaria después del impuesto al consumo es:
+        \begin{equation*}
+          M = 1.25 P_X X + 1.25 P_Y Y
+        \end{equation*}
+      #+end_minipage
       #+end_answer
 
-   b) Las curvas de producto medio y marginal del trabajo.
+   b) ¿Y si, en vez del impuesto al consumo, se estableciera un
+      impuesto sobre la renta y $M$ se redujera un 25%?
 
       #+begin_answer
-        #+ATTR_LATEX: :booktabs t :center t :align @{}ll@{}
-        |--------------------+---------------------------|
-        | Producto medio:    | $\PMeL = 6 L - 0.01 L^2$  |
-        | Producto marginal: | $\PMgL = 12 L - 0.03 L^2$ |
-        |--------------------+---------------------------|
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+      #+MATS: fig fig-probl-2_1004-budget-tax2-*.pdf
+      #+end_minipage
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+        La recta presupuestaria después del impuesto a la renta es:
+        \begin{equation*}
+          0.75 M = P_X X + P_Y Y
+        \end{equation*}
+      #+end_minipage
       #+end_answer
 
-   c) Los niveles del factor trabajo que hacen máximo el producto
-      marginal, el producto medio y el producto total. Represente
-      gráficamente los resultados obtenidos.
+   c) ¿Qué opción preferiría la consumidora?
 
       #+begin_answer
-        #+ATTR_LATEX: :booktabs t :center t :align @{}llr@{}
-        |---------------------+-----------------------------+--------------|
-        |                     | Condición                   | Trabajadores |
-        |---------------------+-----------------------------+--------------|
-        | $A$: $\ \max \PMgL$ | $\diff \PMgL / \diff L = 0$ | $200$        |
-        | $B$: $\ \max \PMeL$ | $\PMgL = \PMeL$             | $300$        |
-        | $C$: $\ \max Q$     | $\PMgL = 0$                 | $400$        |
-        |---------------------+-----------------------------+--------------|
+        La restricción del apartado /a/) puede escribirse como:
+        \begin{equation*}
+          0.8 M = P_X X + P_Y Y
+        \end{equation*}
+        Preferiría el impuesto al consumo.
+      #+end_answer
 
-        #+latex: \vspace*{1.5ex}
-        #+attr_latex: :options {0.5\linewidth}
+2. Un consumidor dispone de \money{20} para comprar carne y
+   patatas. Suele comprar en un supermercado donde la carne se vende a
+   \price[kg]{4} y un kilo de patatas cuesta \money{2}.
+
+   a) Obtenga y represente la restricción presupuestaria.
+
+      #+begin_answer
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+      #+MATS: fig fig-probl-2_1004-budget1-*.pdf
+      #+end_minipage
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+        La restricción presupuestaria original es:
+        \begin{equation*}
+          20 = 4 C + 2 P
+        \end{equation*}
+      #+end_minipage
+      #+end_answer
+
+   b) El supermercado introduce una oferta por la que los clientes que
+      compren más de \units[kg]{4} de patatas recibirán gratis 2 kilos
+      más. Obtenga y represente la restricción presupuestaria
+      en este caso.
+
+      #+begin_answer
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+      #+MATS: fig fig-probl-2_1004-budget2-*.pdf
+      #+end_minipage
+      #+attr_latex: :options {0.5\linewidth}
+      #+begin_minipage
+        Nueva restricción presupuestaria:
+        \begin{equation*}
+          C =
+          \begin{cases}
+            5 - P / 2 & \text{si $P < 4$} \\
+            6 - P / 2 & \text{si $P \geq 6$}
+          \end{cases}
+        \end{equation*}
+      #+end_minipage
+      #+end_answer
+
+3. A Amaia le gusta el pescado, mientras que el pollo ni le gusta ni
+   le disgusta. Por su parte, a Alejandro no le gusta el pescado pero
+   sí el pollo y sólo está dispuesto a comer algo de pescado si a
+   cambio recibe una porción extra de pollo. Represente las
+   preferencias de Amaia y de Alejandro.
+
+   #+begin_answer
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       #+latex: \begin{center}
+       #+latex: \begin{minipage}{0.85\linewidth}
+         Amaia: el pollo es neutral.
+       #+latex: \end{minipage}
+       #+latex: \end{center}
+       #+MATS: fig fig-probl-2_1004-neutral-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       #+latex: \begin{center}
+       #+latex: \begin{minipage}{0.95\linewidth}
+        Alejandro: el pescado es un mal.
+       #+latex: \end{minipage}
+       #+latex: \end{center}
+       #+MATS: fig fig-probl-2_1004-bad-*.pdf
+     #+end_minipage
+   #+end_answer
+
+4. Las preferencias de un consumidor pueden describirse con la
+   función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
+   de \money{900} y los precios son $P_X = \price{10}$ y $P_Y =
+   \price{5}$. Calcule y represente la elección óptima del consumidor.
+
+   #+begin_answer
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+     #+MATS: fig fig-probl-2_1004-choice-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       Recta presupuestaria:
+       #+begin_export latex
+       \[
+         900 = 10 X + 5 Y
+       \]
+       #+end_export
+
+       Condición de tangencia:
+       #+begin_export latex
+       \[
+         Y = 4 X
+       \]
+       #+end_export
+
+       Cesta óptima:
+       #+begin_export latex
+       \[
+         X^* = \units{30} \quad Y^* = \units{120}
+       \]
+       #+end_export
+     #+end_minipage
+   #+end_answer
+
+5. La cesta óptima de un consumidor con preferencias regulares
+   contiene cantidades positivas de todos los bienes. Si aumenta el
+   precio de un bien, ¿se reducirá la utilidad del consumidor?
+   Justifique su respuesta.
+
+   #+begin_answer
+     Con los nuevos precios no puede comprar la cesta inicial. Tiene
+     que elegir una cesta que podría haber elegido con los precios
+     iniciales pero no lo hizo: su utilidad es menor.
+   #+end_answer
+
+6. La función de utilidad de un consumidor es $U(X, Y) = X Y$. La
+   cesta óptima está compuesta por 10 unidades del bien $X$ y 5
+   unidades del bien $Y$. Sabiendo que el precio del bien $X$ es de
+   \price{6}, ¿cuál es la renta del consumidor?
+
+   #+begin_answer
+     Solución interior: $\RMS = Y/X = 5 / 10$ es igual a $P_X / P_Y =
+     6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
+   #+end_answer
+
+7. Una consumidora posee una renta de \money{40} que gasta en los
+   bienes $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
+   \price{2}$. Cuando ella consume $20$ unidades de $Y$ y ninguna de
+   $X$, la relación marginal de sustitución es igual a $2$. ¿Es esta
+   su elección óptima o estaría mejor comprando más unidades de $X$ y
+   menos de $Y$?
+
+   #+begin_answer
+     Cuando compra $X=0$ e $Y=2$, $\RMS = 2 > P_X/P_Y = 1.5$.  Su
+     utilidad aumentaría si disminuye el consumo de $Y$ y aumenta el
+     de $X$.
+   #+end_answer
+
+8. La función $U(N, Y) = (N+4) Y$ describe las preferencias de un
+   consumidor entre nueces, $N$, y un bien compuesto que recoge el
+   dinero gastado en todos los otros bienes, $Y$. El precio de las
+   nueces es $P_N = \price[kg]{8}$ y la renta del consumidor es $M =
+   \money{40}$.
+
+   a) Obtenga y represente la elección óptima del consumidor.
+
+      #+begin_answer
+        #+attr_latex: :options {0.55\linewidth}
         #+begin_minipage
-          #+MATS: fig fig-probl-5_1004-ex4-pmgl-*.pdf
+        #+MATS: fig fig-probl-2_1004-walnut1-*.pdf
         #+end_minipage
-        #+attr_latex: :options {0.5\linewidth}
+        #+attr_latex: :options {0.45\linewidth}
         #+begin_minipage
-          \vspace*{1.5ex}
+          Recta presupuestaria:
+          #+begin_export latex
+          \[
+            40 = 8N + Y
+          \]
+          #+end_export
 
-          #+MATS: fig fig-probl-5_1004-ex4-fprod-*.pdf
-        #+end_minipage
-      #+end_answer
+          Condición de tangencia:
+          #+begin_export latex
+          \[
+            Y = 8N + 32
+          \]
+          #+end_export
 
-5. Considere las siguientes funciones de producción:
-
-   #+ATTR_LATEX: :options [labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
-   A. $Q  = L^{1/4} K^{3/4}$
-
-   B. $Q  = L^{3/2} K^{1/2}$
-
-   C. $Q  = 4L + 2K$
-
-   D. $Q  = (L + K)^{1/2}$
-
-   Responda a las siguientes preguntas para cada una de las funciones
-   de producción:
-
-   a) ¿Qué tipo de rendimientos de escala presenta la función de
-      producción?
-
-      #+begin_answer
-        #+ATTR_LATEX: :booktabs t :center t :align @{}lp{2.5cm}l@{}
-        |---------+-------------------+------------------------|
-        | Función | $F(s L, s K)$     | Rendimientos de escala |
-        |---------+-------------------+------------------------|
-        | I       | $s F(L, K)$       | Constantes             |
-        | II      | $s^2 F(K, L)$     | Crecientes             |
-        | III     | $s F(L, K)$       | Constantes             |
-        | IV      | $s^{1/2} F(L, K)$ | Decrecientes           |
-        |---------+-------------------+------------------------|
-      #+end_answer
-
-   b) Obtenga la tasa de sustitución entre los factores de producción.
-
-      #+begin_answer
-        #+ATTR_LATEX: :booktabs t :center t :align @{}ll@{}
-        |---------+------------|
-        | Función | $\RMST$    |
-        |---------+------------|
-        | I       | $(1/3)K/L$ |
-        | II      | $3K/L$     |
-        | III     | $2$        |
-        | IV      | $1$        |
-        |---------+------------|
-      #+end_answer
-
-   c) Compruebe si se cumple la ley de rendimientos marginales
-      decrecientes cuando $\Kbar=16 \text{\ unidades}$.
-
-      #+begin_answer
-        #+ATTR_LATEX: :booktabs t :center t :align @{}lp{3.25cm}l@{}
-        |---------+-------------------------+-------------------------|
-        | Función | $\diff \PMgL / \diff L$ | Rendimientos del factor |
-        |---------+-------------------------+-------------------------|
-        | I       | $-(6/4)L^{-7/4}$        | Decrecientes            |
-        | II      | $3 L^{-1/2}$            | Crecientes              |
-        | III     | $0$                     | Constantes              |
-        | IV      | $-(1/4)(L + 16)^{-3/2}$ | Decrecientes            |
-        |---------+-------------------------+-------------------------|
-      #+end_answer
-
-6. ¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
-   empresa con rendimientos constantes de escala verá duplicada su
-   producción cuando duplique el uso del factor capital."
-
-   #+begin_answer
-     Es incorrecta. Se duplicará la producción cuando se duplique el
-     uso de /todos/ los factores de producción.
-   #+end_answer
-   #+latex: \ClearPage{}
-
-7. Una fábrica utiliza trabajo y capital para producir
-   zapatos. Después de aumentar el número de trabajadores en un 50% la
-   producción crece en un 60%. ¿Quiere esto decir que la función de
-   producción de la empresa presenta rendimientos crecientes a escala?
-
-   #+begin_answer
-     No: si sólo aumenta el trabajo no es posible deducir nada sobre
-     los rendimientos a escala.
-   #+end_answer
-
-8. El siguiente gráfico muestra algunas isocuantas de la función de
-   producción de una empresa:
-
-   #+MATS: fig fig-probl-5_1004-ex8-const-returns-*.pdf
-
-   a) Si la empresa produce 250 unidades y contrata 5 trabajadores,
-      ¿cuántas unidades de capital está utilizando? ¿Y si produce 125
-      unidades con 4 trabajadores?
-
-      #+begin_answer
-        En la isocuanta $Q = 250$, $K = 5$ cuando $L = 5$.
-
-        En la isocuanta $Q = 125$, $K = 2$ cuando $L = 4$.
-      #+end_answer
-
-   b) Si la empresa está empleando 8 trabajadores y 6 unidades de
-      capital, ¿es posible que la producción sea de 400 unidades?
-      ¿Sería posible producir 200 unidades? ¿Qué ocurriría en este
-      caso?
-
-      #+begin_answer
-        - La producción no puede ser de $400$ unidades: la combinación
-          $L = 8$ y $K = 6$ está debajo de la isocuanta $Q = 375$.
-
-        - Es posible pero no eficiente producir $200$: se pueden
-          producir $250$ unidades con $L=8$ y $K < 6$.
-      #+end_answer
-
-   b) ¿Qué tipo de rendimientos de escala presenta la función de
-      producción?
-
-      #+begin_answer
-        Rendimientos constantes a escala: por ejemplo, comparar
-        producción en $(5, 5)$ y $(10, 10)$.
-      #+end_answer
-      #+latex: \ifbool{answers}{}{\clearpage}
-
-9. El siguiente gráfico muestra algunas isocuantas de la función de
-   producción de una empresa:
-
-   #+MATS: fig fig-probl-5_1004-ex8-incr-returns-*.pdf
-
-   a) ¿Qué tipo de rendimientos a escala exhibe la función de
-      producción de la empresa?
-
-      #+begin_answer
-        Rendimientos crecientes a escala.
-      #+end_answer
-
-   b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos marginales
-      decrecientes?
-
-      #+begin_answer
-        #+attr_latex: :options {0.5\linewidth}
-        #+begin_minipage
-          #+ATTR_LATEX: :booktabs t :center t :align @{}*{4}{r}@{}
-          |---------+------+-------+---------------------|
-          | $\Kbar$ | $L$  | $Q$   | $\incr Q / \incr L$ |
-          |---------+------+-------+---------------------|
-          | $5$     | $2$  | $100$ | ---                 |
-          | $5$     | $5$  | $250$ | $50$                |
-          | $5$     | $10$ | $500$ | $50$                |
-          | $5$     | $15$ | $750$ | $50$                |
-          |---------+------+-------+---------------------|
-        #+end_minipage
-        #+attr_latex: :options {0.5\linewidth}
-        #+begin_minipage
-          No: los rendimientos del factor trabajo son constantes.
+          Cesta óptima:
+          #+begin_export latex
+          \begin{gather*}
+            N^* = \units[kg]{0.500} \\
+            Y^* = \money{36.00}
+          \end{gather*}
+          #+end_export
         #+end_minipage
       #+end_answer
+
+   b) El Gobierno quiere fomentar el consumo de nueces y está
+      estudiando diferentes alternativas:
+
+      + Una subvención que reduce un 20% el precio de las nueces. La
+        subvención sólo se puede aplicar a la compra de un kilo y
+        medio de nueces por consumidor.
+
+      + Entregar a cada consumidor un vale que puede canjearse por un
+        kilo y medio de nueces.
+
+      + Entregar a cada consumidor \money{12} en metálico.
+
+      ¿Qué elegiría el consumidor en cada uno de estos casos?
+
+      #+begin_answer
+        #+attr_latex: :options {0.55\linewidth}
+        #+begin_minipage
+        #+MATS: fig fig-probl-2_1004-walnut2-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.45\linewidth}
+        #+begin_minipage
+          Subvención (la restricción se quiebra en $X = 1.5$ e $Y =
+          30.4$). Cesta óptima:
+          #+begin_export latex
+          \begin{gather*}
+            N^* = \units[kg]{1.125} \\
+            Y^* = \money{32.80}
+          \end{gather*}
+          #+end_export
+        #+end_minipage
+
+        #+attr_latex: :options {0.55\linewidth}
+        #+begin_minipage
+        #+MATS: fig fig-probl-2_1004-walnut3-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.45\linewidth}
+        #+begin_minipage
+          Donación especie:
+          #+begin_export latex
+          \begin{gather*}
+            N^* = \units[kg]{1.500} \\
+            Y^* = \money{40.00}
+          \end{gather*}
+          #+end_export
+        #+end_minipage
+
+        #+attr_latex: :options {0.55\linewidth}
+        #+begin_minipage
+        #+MATS: fig fig-probl-2_1004-walnut4-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.45\linewidth}
+        #+begin_minipage
+          Donación metálico:
+          #+begin_export latex
+          \begin{gather*}
+            N^* = \units[kg]{1.250} \\
+            Y^* = \money{42.00}
+          \end{gather*}
+          #+end_export
+        #+end_minipage
+     #+end_answer
+
+   c) ¿Qué alternativa preferiría el consumidor? Razone su respuesta.
+
+      #+begin_answer
+        La donación en metálico le permite alcanzar un mayor nivel de
+        utilidad.
+      #+end_answer
+
+9. Un consumidor dispone de una renta de \money{800} para comprar los
+   bienes $X$ e $Y$, cuyos precios son $P_X = \price{4}$ y $P_Y =
+   \price{2}$. Sus preferencias pueden describirse con la función de
+   utilidad:
+   #+begin_export latex
+   \[
+     U(X, Y) = X^{0.25} Y^{0.75}
+   \]
+   #+end_export
+
+   a) Obtenga la elección óptima del consumidor.
+
+      #+begin_answer
+        #+attr_latex: :options {0.55\linewidth}
+        #+begin_minipage
+        #+MATS: fig fig-probl-2_1004-discount1-*.pdf
+        #+end_minipage
+        #+attr_latex: :options {0.45\linewidth}
+        #+begin_minipage
+          Recta presupuestaria:
+          #+begin_export latex
+          \[
+            800 = 4 X + 2 Y
+          \]
+          #+end_export
+
+          Condición de tangencia:
+          #+begin_export latex
+          \[
+            Y = 6 X
+          \]
+          #+end_export
+
+          Cesta óptima:
+          #+begin_export latex
+          \begin{gather*}
+            X^* = \units{50} \\
+            Y^* = \units{300}
+          \end{gather*}
+          #+end_export
+        #+end_minipage
+      #+end_answer
+
+   b) Si se aplicara un descuento de \money{2} a cada unidad de $X$
+      por encima de las primeras 75 unidades, ¿cómo cambiaría la
+      elección óptima?
+
+      #+Begin_answer
+        La restricción presupuestaria tiene dos tramos:
+        #+begin_export latex
+        \[
+          Y =
+          \begin{cases}
+            400 - 2 X & \text{si $X < 75$} \\
+            325 - X & \text{si $X \geq 75$}
+          \end{cases}
+        \]
+        #+end_export
+
+        Obtenemos la solución en cada uno de los tramos:
+
+        #+ATTR_LATEX: :booktabs t :center t :align lrr
+        |----------+-----------------------+-----------------------------|
+        |          | $X < 75$              | $X > 75$                    |
+        |----------+-----------------------+-----------------------------|
+        | RP       | $800 = 4 X + 2 Y$     | $650 = 2X + 2Y$             |
+        | CT       | $Y = 6 X$             | $Y = 3 X$                   |
+        | Óptimo   | $X^* = 50, Y^* = 300$ | $X^* = 81.25, Y^* = 243.75$ |
+        | Utilidad | $191.68$              | $185.21$                    |
+        |----------+-----------------------+-----------------------------|
+
+        Las dos soluciones cumplen las condiciones de óptimo interior,
+        pero la utilidad que obtiene el consumidor es mayor eligiendo
+        $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
+      #+end_answer
+
+10. Las preferencias de un consumidor vienen dadas por la función de
+    utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien $X$ es
+    \price{1} y el del bien $Y$ es \price{4}. El consumidor dispone de
+    una renta monetaria de \money{250}.
+
+    a) Determine la cesta óptima de consumo.
+
+       #+begin_answer
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+         #+MATS: fig fig-probl-2_1004-corner1-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+           Recta presupuestaria:
+           #+begin_export latex
+           \[
+             250 = X + 4 Y
+           \]
+           #+end_export
+           Relación marginal de sustitución:
+           #+begin_export latex
+           \[
+             \RMS = (Y + 100) / X
+           \]
+           #+end_export
+           Solución de esquina:
+           #+begin_export latex
+           \begin{gather*}
+             X^* = \units{250} \\
+             Y^* = \units{0}
+           \end{gather*}
+           #+end_export
+         #+end_minipage
+       #+end_answer
+
+    b) Si se racionara el bien $X$ de forma que no se permitiera a
+       nadie comprar más de 100 unidades de $X$, ¿cuál sería la
+       elección óptima?  Represente gráficamente.
+
+       #+begin_answer
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+         #+MATS: fig fig-probl-2_1004-corner2-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.5\linewidth}
+         #+begin_minipage
+           Elección óptima
+           #+begin_export latex
+           \begin{gather*}
+             X^* = \units{100} \\
+             Y^* = \units{37.5}
+           \end{gather*}
+           #+end_export
+         #+end_minipage
+       #+end_answer
+
+11. La función de utilidad de un individuo respecto de los bienes $X$ e
+    $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
+    $P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
+    consumidor es $M = \money{100}$.
+
+    a) ¿Es $(X,Y) = (10, 40)$ la cesta óptima? ¿Por qué?
+
+       #+begin_answer
+         No, no tiene suficiente renta para comprarla.
+       #+end_answer
+
+    b) ¿Cuál es la elección óptima del consumidor?
+
+       #+begin_answer
+         $\RMS = 1 > P_X / P_Y = 0.4$. Solución de esquina: $X^* = 50;
+         Y^* = 0$.
+       #+end_answer
+
+    c) ¿Cómo cambiaría la elección del consumidor si $P_X =
+       \price{10}$?
+
+       #+begin_answer
+         $\RMS = 1 < P_X / P_Y = 2$. Solución de esquina: $X^* = 0;
+         Y^* = 20$.
+       #+end_answer
+
+12. A Rocío le gusta tomar leche con cereales. Siempre los combina en
+    la misma proporción: añade exactamente \units[g]{20} de cereales
+    por cada \units[ml]{250} de leche y desecha cualquier cantidad
+    sobrante de leche o cereales.
+
+    a) Represente las preferencias de Rocío con respecto a la leche y
+       los cereales.
+
+       #+begin_answer
+         #+attr_latex: :options {0.55\linewidth}
+         #+begin_minipage
+         #+MATS: fig fig-probl-2_1004-compl1-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.45\linewidth}
+         #+begin_minipage
+           Preferencias sobre $L$, litros de leche, y $C$, kg de cereales:
+           #+begin_export latex
+           \[
+             U = \min\{L/0.250, C/0.020\}
+           \]
+           #+end_export
+           Por tanto:
+           #+begin_export latex
+           \[
+             U = \min\{4L, 50C\}
+           \]
+           #+end_export
+         #+end_minipage
+       #+end_answer
+
+    b) Si Rocío gasta \money{6} al mes en leche y cereales, el precio
+       de la leche es de \price[l]{0.80} y el de los cereales es de
+       \price[kg]{2}, ¿cuál será su elección óptima?
+
+       #+begin_answer
+         #+attr_latex: :options {0.55\linewidth}
+         #+begin_minipage
+         #+MATS: fig fig-probl-2_1004-compl2-*.pdf
+         #+end_minipage
+         #+attr_latex: :options {0.45\linewidth}
+         #+begin_minipage
+           Restricción presupuestaria:
+           #+begin_export latex
+           \[
+             6 = 0.8 L + 2 C
+           \]
+           #+end_export
+           Proporciones exactas:
+           #+begin_export latex
+           \[
+             4L = 50C
+           \]
+           #+end_export
+           Óptimo:
+           #+begin_export latex
+           \begin{gather*}
+             L^* = \units[l]{6.250} \\
+             C^* = \units[kg]{0.500}
+           \end{gather*}
+           #+end_export
+         #+end_minipage
+       #+end_answer

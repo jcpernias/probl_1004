@@ -1,307 +1,249 @@
 #+STARTUP: indent hidestars content
 
-#+TITLE: Problems 6 Figures
-
-#+OPTIONS: header-args: latex :exports source :eval no
-
-
-* Ex. 1: Short-run curves
+#+TITLE: Problem Figures 3
 
-  #+begin_src latex :tangle fig-probl-6_1004-short-curves1.tex
-    \begin{tikzpicture}[yscale=0.9, xscale=0.045]
-
-      \draw[curve, very thick]
-        (0, 0.5) -- (100, 0.5)
-        node[right] {$\CF$ }
-        ;
-
-      \draw[curve, very thick]
-        plot[domain=0:100, smooth, samples = 128] (\x,{0.0004*\x^2})
-        node[right] {$\CV$ }
-        ;
-
-      \draw[curve, very thick]
-        plot[domain=0:100, smooth, samples = 128] (\x,{0.5+0.0004*\x^2})
-        node[above right] {$\CT$ }
-        ;
+#+OPTIONS: header-args: latex :exports source :eval no :noweb yes
 
-      \draw[axis] (0, 5)  node[left] {$\CT$} |-
-       (110, 0) node[below] {$Q$}
-       ;
-    \end{tikzpicture}
-   #+end_src
+* Income consumption curve
 
-  #+begin_src latex :tangle fig-probl-6_1004-short-curves2.tex
-    \begin{tikzpicture}[yscale=0.1, xscale=0.045]
-      \draw[help lines]
-         (0, 28.28427) node[left] {$28.28$ } -|
-         (35.35534, 0) node[below] {$35.35$ } ;
 
-      \draw[curve, very thick]
-        (0, 0) -- (100, 40)
-        node[right] {$\CVMe$ }
-        (0, 0) -- (50, 40)
-        node[above] {$\CMg$ }
-        ;
+** Figures
 
-      \draw[curve, very thick]
-        (14.64467, 40) node[above] {$\CMe$}
-        plot[domain=14.64467:85.3534, smooth, samples = 128] (\x,{500/\x+0.4*\x})
-        ;
+#+begin_src latex :tangle fig-probl-3_1004-crc1.tex :noweb yes
+  \begin{tikzpicture}<<ex3:xy-scale>>
 
-      \draw[axis] (0, 45)  node[left] {$\CMe$} |-
-       (110, 0) node[below] {$Q$}
-       ;
+    <<ex3:grid>>
 
-      \node[dot] at (35.35534, 28.28427) {} ;
-    \end{tikzpicture}
-   #+end_src
+    <<ex3:crc>>
 
+    <<ex3:axes>>
+  \end{tikzpicture}
+#+end_src
 
-* Ex. 4: Long-run choice
+#+begin_src latex :tangle fig-probl-3_1004-crc2.tex :noweb yes
+  \begin{tikzpicture}<<ex3:xy-scale-small>>
 
-  #+begin_src latex :tangle fig-probl-6_1004-choice.tex
-    \begin{tikzpicture}[yscale=0.32, xscale=0.32]
+    <<ex3:grid>>
 
-      \draw[curve]
-        plot[domain=5.5:31, smooth, samples = 128] (\x,{62.5/\x})
-        node[right] { $Q=150$ }
-        ;
+    <<ex3:crc>>
 
-      \draw[curve]
-        (0, 12) -- (30, 0)
-        (0, 10) -- (25, 0)
-        (0,  8) -- (20, 0)
-        ;
+    \draw[curve, very thick] (0, 70) -- (70, 0) ;
 
-      \draw[axis] (0, 15)  node[left] {$K$} |-
-       (37, 0) node[below] {$L$}
-       ;
+    \node[dot] at (40, 30) { } ;
 
-      \draw
-       (0,  8) node[left] { $8$}
-       (0, 10) node[left] { $10$}
-       (0, 12) node[left] { $12$}
-       ;
+    <<ex3:axes>>
+  \end{tikzpicture}
+#+end_src
 
-    \end{tikzpicture}
-   #+end_src
+#+begin_src latex :tangle fig-probl-3_1004-crc3.tex :noweb yes
+  \begin{tikzpicture}<<ex3:xy-scale-small>>
 
-  #+begin_src latex :tangle fig-probl-6_1004-choice2.tex
-    \begin{tikzpicture}[yscale=0.25, xscale=0.25]
+    <<ex3:grid>>
 
-      \draw[curve]
-        plot[domain=5.5:31, smooth, samples = 128] (\x,{62.5/\x})
-        node[right] { $Q=150$ }
-        ;
+    <<ex3:crc>>
 
-      \draw[curve]
-        (0, 12) -- (30, 0)
-        (0, 10) -- (25, 0)
-        (0,  8) -- (20, 0)
-        ;
+    \draw[curve, very thick] (40, 80) -- (120, 0) ;
 
-      \draw[axis] (0, 15)  node[left] {$K$} |-
-       (37, 0) node[below] {$L$}
-       ;
+    \node[dot] at (80, 40) { } ;
 
+    <<ex3:axes>>
+  \end{tikzpicture}
+#+end_src
 
-      \draw
-       (0,  8) node[left] { $8$}
-       (0, 10) node[left] { $10$}
-       (0, 12) node[left] { $12$}
-       ;
 
-      \draw
-       (20, 0) node[below] { $20$}
-       (25, 0) node[below] { $25$}
-       (30, 0) node[below] { $30$}
-       ;
+** Common
 
-    \end{tikzpicture}
-   #+end_src
 
+*** Axes
 
+#+begin_src latex :noweb-ref ex3:axes
+  \draw[axis, very thick] (0, 100) node[left] {$Y$} |-
+    (150, 0) node[below] {$X$} ;
+#+end_src
 
+#+begin_src latex :noweb-ref ex3:xy-scale
+  [xscale = 0.0392857, yscale = 0.0392857]
+#+end_src
 
-* Ex. 8: Long-run marginal and average cost curves
+#+begin_src latex :noweb-ref ex3:xy-scale-small
+  [xscale = 0.035, yscale = 0.035]
+#+end_src
 
-  #+begin_src latex :tangle fig-probl-6_1004-cmg-cme-long.tex
-    \begin{tikzpicture}[yscale=0.11, xscale=0.32]
 
-      \draw[help lines] (0, 6) node[left] {$6$} -|
-        (4, 0) node[below] {$4$}
-        ;
+*** Grid
 
-      \draw[curve, very thick]
-        plot[domain=0:8, smooth, samples = 128] (\x,{\x^2-8*\x+22})
-        node[above] {$\CMe$ }
-        ;
+#+begin_src latex :noweb-ref ex3:grid
+  \draw[help lines]
+    ( 10, 90) -- ( 10, 0)
+    ( 20, 90) -- ( 20, 0) node[below] {$20$}
+    ( 30, 90) -- ( 30, 0)
+    ( 40, 90) -- ( 40, 0) node[below] {$40$}
+    ( 50, 90) -- ( 50, 0)
+    ( 60, 90) -- ( 60, 0) node[below] {$60$}
+    ( 70, 90) -- ( 70, 0)
+    ( 80, 90) -- ( 80, 0) node[below] {$80$}
+    ( 90, 90) -- ( 90, 0)
+    (100, 90) -- (100, 0) node[below] {$100$}
+    (110, 90) -- (110, 0)
+    (120, 90) -- (120, 0) node[below] {$120$}
+  ;
 
-      \draw[curve, very thick]
-        plot[domain=0:5.333333, smooth, samples = 128] (\x,{3*\x^2-16*\x+22})
-        node[above] {$\CMg$ }
-        ;
+  \draw[help lines]
+    (130, 10) -- (0, 10)
+    (130, 20) -- (0, 20) node[left] {$20$}
+    (130, 30) -- (0, 30)
+    (130, 40) -- (0, 40) node[left] {$40$}
+    (130, 50) -- (0, 50)
+    (130, 60) -- (0, 60) node[left] {$60$}
+    (130, 70) -- (0, 70)
+    (130, 80) -- (0, 80) node[left] {$80$}
+  ;
+#+end_src
 
-      \node[dot] at (4, 6) {} ;
 
-      \draw[axis] (0, 30)  node[left, align = right] {$\CMe$ \\ $\CMg$} |-
-       (10, 0) node[below] {$Q$}
-       ;
-    \end{tikzpicture}
-   #+end_src
+*** Curve
 
+#+begin_src latex :noweb-ref ex3:crc
+  \draw[curve, very thick, domain=0:130, smooth]
+    plot (\x, {\x*(1-0.00625*\x)}) node[right] {$\CRC$} ;
+#+end_src
 
-* Ex.9: Short-run and long-run cost curves
 
-  #+begin_src latex :tangle fig-probl-6_1004-short-long.tex
-    \begin{tikzpicture}[yscale=0.4, xscale=0.2222222]
+* Price consumption curve
 
-      \draw[help lines] (0, 6) node[left, font=\small] {$6$} -|
-        (9, 0) node[below, font=\small] {$9$} ;
 
-      \draw[curve, very thick]
-        (0, 3) node[left, font=\footnotesize] {$3$} -- (17, 8.6667)
-        node[above, font=\footnotesize] {$\CT_{\CP}$ }
-        ;
+** Figures
 
-      \draw[curve, very thick]
-         plot[domain=0:17, smooth, samples = 128] (\x,{2*sqrt(\x)})
-       node[right, font=\footnotesize] {$\CT_{\LP}$ }
-       ;
+#+begin_src latex :tangle fig-probl-3_1004-cpc1.tex
+  \begin{tikzpicture}[xscale = 0.0585, yscale = 0.085]
 
-       \node[dot] at (9, 6) {} ;
+  \draw[curve, very thick, domain=0:45, smooth]
+    (0, 30) node[left] {$30$}
+    plot (\x, {30*(\x+24)/(2*\x+24)}) node[right] {$\CPC$} ;
 
-      \draw[axis] (0, 10)  node[left] {$\CT$} |-
-       (18, 0) node[below] {$Q$}
-       ;
-    \end{tikzpicture}
-   #+end_src
+  \draw[axis, very thick] (0, 45) node[left] {$Y$} |-
+    (60, 0) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
 
+#+begin_src latex :tangle fig-probl-3_1004-cpc2.tex
+  \begin{tikzpicture}[xscale = 0.0585, yscale = 0.255]
 
-* Ex. 10: Expansion paths
+  \draw[curve, very thick, domain=0:50, smooth]
+    (0, 10) node[left] {$10$}
+    plot (\x, {120/(\x+12)}) node[right] {$D$} ;
 
-  #+begin_src latex :tangle fig-probl-6_1004-expansion.tex
-    \begin{tikzpicture}[yscale=0.85, xscale=0.85]
+  \draw[axis, very thick] (0, 15) node[left] {$P_X$} |-
+    (60, 0) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
 
-      \draw[help lines] (0, 0) grid (10, 8) ;
 
-      \draw[curve]
-        plot[domain=0.5:10, smooth, samples = 128] (\x,{4/\x})
-        node[right] {$Q_1=40$ }
-        ;
 
-      \draw[curve]
-        plot[domain=2:10, smooth, samples = 128] (\x,{16/\x})
-        node[right] {$Q_2=160$ }
-        ;
+* Income and substitution effects
 
-      \draw[curve]
-        plot[domain=4.5:10, smooth, samples = 128] (\x,{36/\x})
-        node[right] {$Q_3=360$ }
-        ;
+#+begin_src latex :tangle fig-probl-3_1004-fxs.tex
+  \begin{tikzpicture}[xscale = 0.15, yscale = 0.1,
+    use Hobby shortcut,
+    tangent/.style={
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,
+    },
+    ]
+    \coordinate (A) at (15, 15) ;
+    \coordinate (B) at (20, 27) ;
+    \coordinate (C) at (30, 21.42857) ;
+    \coordinate (D) at (35, 5) ;
 
-      \draw[axis] (0, 9)  node[left] {$K$} |-
-       (12, 0) node[below] {$L$}
-       ;
+    \draw[help lines] (A) -- (15, 0) node[below] { $15$ } ;
+    \draw[help lines] (B) -- (20, 0) node[below] { $20$ } ;
+    \draw[help lines] (C) -- (30, 0) node[below] { $30$ } ;
+    \draw[help lines] (D) -- (35, 0) node[below] { $35$ } ;
 
-      \draw[font=\small]
-       ( 1, 0) node[below] { $1$}
-       ( 2, 0) node[below] { $2$}
-       ( 3, 0) node[below] { $3$}
-       ( 4, 0) node[below] { $4$}
-       ( 5, 0) node[below] { $5$}
-       ( 6, 0) node[below] { $6$}
-       ( 7, 0) node[below] { $7$}
-       ( 8, 0) node[below] { $8$}
-       ( 9, 0) node[below] { $9$}
-       (10, 0) node[below] {$10$}
-       ;
+    \draw[curve, very thick]
+    (0, 30) -- (30, 0) (0, 30) -- (45, 17.1429) ;
 
-      \draw[font=\small]
-       (0, 1) node[left] { $1$}
-       (0, 2) node[left] { $2$}
-       (0, 3) node[left] { $3$}
-       (0, 4) node[left] { $4$}
-       (0, 5) node[left] { $5$}
-       (0, 6) node[left] { $6$}
-       (0, 7) node[left] { $7$}
-       (0, 8) node[left] { $8$}
-       ;
+    \draw[curve, very thick]
+    (3, 45) .. ([tangent=-45] A) ..
+    ([tangent=-15.9454] D) .. (45, 3) ;
 
-    \end{tikzpicture}
-   #+end_src
+    \draw[curve, very thick]
+    (12, 45) .. ([tangent=-45] B) ..
+    ([tangent=-15.9454] C) .. (45, 19) ;
 
-  #+begin_src latex :tangle fig-probl-6_1004-expansion2.tex
-    \begin{tikzpicture}[yscale=0.5, xscale=0.5]
+    \draw[axis, very thick]
+    (0, 50) node[left] {$Y$} |- (50, 0) node[below] {$X$} ;
 
-      \draw[help lines] (0, 0) grid (10, 8) ;
 
-      \draw[curve]
-        plot[domain=0.5:10, smooth, samples = 128] (\x,{4/\x})
-        node[right, font=\footnotesize] {$Q_1=40$ }
-        ;
+    \draw ($(B) + 2.5*(1, -1)$) -- ($(B) - 5*(1, -1)$) ;
+    \draw ($(D) + 10*(1, -0.2857)$) -- ($(D) - 10*(1, -0.2857)$) ;
 
-      \draw[curve]
-        plot[domain=2:10, smooth, samples = 128] (\x,{16/\x})
-        node[right, font=\footnotesize] {$Q_2=160$ }
-        ;
+    \node[left] at (0, 30) {$M/P_{Y}$};
+    \node[dot, label={above:$A$}] at (A) {};
+    \node[dot, label={above:$B$}] at (B) {};
+    \node[dot, label={above:$C$}] at (C) {};
+    \node[dot, label={above:$D$}] at (D) {};
+  \end{tikzpicture}
 
-      \draw[curve]
-        plot[domain=4.5:10, smooth, samples = 128] (\x,{36/\x})
-        node[right, font=\footnotesize] {$Q_3=360$ }
-        ;
+#+end_src
 
 
-      \draw[curve]
-        (0, 4) -- (10, 4)
-        (0, 0) -- (8, 8)
-        ;
+* Perfect complements
 
-      \draw[axis] (0, 9)  node[left, font=\small] {$K$} |-
-       (12, 0) node[below, font=\small] {$L$}
-       ;
+#+begin_src latex :tangle fig-probl-3_1004-compl.tex
+  \begin{tikzpicture}[xscale = 1, yscale = 1]
 
-      \draw[font=\small]
-       ( 4, 0) node[below] { $4$}
-       ( 0, 4) node[left] { $4$}
-       ;
+    \draw[help lines]
+      (2, 2) -- (2, 0) node[below] {$X_1 = X_H$}
+      (0.8, 0.8) -- (0.8, 0) node[below] {$X_2$}
+    ;
 
+    \draw[curve, thick]
+      (1.75, 3) -- (2.25, 1) ;
 
-    \end{tikzpicture}
-   #+end_src
+    \draw[curve, very thick]
+    (0, 4) -- (1, 0) ;
 
+    \draw[curve, very thick]
+    (0, 4) -- (4, 0) ;
 
-* Ex. 12: Envelop
+    \draw[curve, very thick]
+    (0.8, 4.5) |- (4.5, 0.8) node[right] {$U_2$}
+    (2, 4.5) |- (4.5, 2) node[right] {$U_1$}
+    ;
 
-  #+begin_src latex :tangle fig-probl-6_1004-envelop.tex
-    \begin{tikzpicture}[yscale=0.25, xscale=0.5]
+    \draw[axis, very thick] (0, 5) node[left] {$Y$} |-
+    (5, 0) node[below] {$X$} ;
 
-      \draw[help lines] (4.5, 7.25) --
-        (4.5, 0) node[below] {$450$}
-        ;
+    \node[dot, label={above right:$E_1$}] at (2, 2) {} ;
+    \node[dot, label={above right:$E_2$}] at (0.8, 0.8) {} ;
 
-      \draw[curve, thin]
-        plot[domain=4.5:6.15, smooth, samples = 128] (\x,{\x^2-6*\x+14})
-        node[above] {$\CMe_1$ }
-        ;
+  \end{tikzpicture}
+#+end_src
 
-      \draw[curve, thin]
-        (2.85, 14.9225) node[above] {$\CMe_2$ }
-        plot[domain=2.85:4.5, smooth, samples = 128] (\x,{\x^2-12*\x+41})
-        ;
 
-      \draw[curve, ultra thick]
-        plot[domain=0:4.5, smooth, samples = 128] (\x,{\x^2-6*\x+14})
-        ;
+* Corner solution and demand curve
 
-      \draw[curve, ultra thick]
-        plot[domain=4.5:8, smooth, samples = 128] (\x,{\x^2-12*\x+41})
-        node[right] {$\CMe_{\LP}$ }
-        ;
+#+begin_src latex :tangle fig-probl-3_1004-corner.tex
+  \begin{tikzpicture}[xscale = 1.66667, yscale = 1.66667]
 
-      \draw[axis] (0, 20)  node[left] {$\CMe$} |-
-       (10, 0) node[below] {$Q$}
-       ;
-    \end{tikzpicture}
-   #+end_src
+    \draw[curve, very thick]
+    (0, 0.625) node[left] {$62.5$} -- (2.50, 0) node[below] {$250$} ;
+
+    \draw[curve, very thick, domain=1.25:2.5, samples=100]
+    plot (\x, {2.5/\x-1}) ;
+
+    \draw[curve, very thick, domain=0.75:1.5, samples=100]
+    plot (\x, {1.5/\x-1}) ;
+
+    \draw[curve, very thick, domain=0.25:0.5, samples=100]
+    plot (\x, {0.5/\x-1}) ;
+
+    \draw[axis, very thick] (0,1.50) node[left] {$Y$} |-
+    (3, 0) node[below] {$X$} ;
+
+    \node[dot] at (2.5, 0) {} ;
+  \end{tikzpicture}
+#+end_src

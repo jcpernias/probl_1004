@@ -1,125 +1,102 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-#+TITLE: Exercise Booklet 3
 
 
-1. The utility function of a consumer is $U = X^2 Y$, her income is $M
-   = \money{100}$ and the prices of the goods are $P_X = \price{10}$
-   and $P_Y = \price{10}$. Obtain the income consumption curve and the
-   Engel curve for good $X$. Calculate the income elasticity of
-   $X$. What kind of good is X?
+1. Medicines have inelastic demand, while computers have elastic
+   demand. Suppose that the supply doubles on each of these markets
+   as a consequence of technological progress.
 
-2. Consider a consumer who only buys two goods. Is it possible that
-   they are both inferior goods simultaneously?
+   a) What happens to the equilibrium of those markets?  Represent
+      graphically.
 
-3. A consumer purchases only two goods whose prices are $P_X =
-   \price{1}$ and $P_Y = \price{1}$. The following figure shows her
-   income consumption curve:
+   b) Which market will experience a larger change in price?  And a
+      larger change in quantity?
 
-   #+MATS: fig fig-probl-3_1004-crc1-*.pdf
+   c) How will consumer spending on each product be affected?
 
-   a) If $M = \money{70}$, how many units would she demand of each one
-      of the goods?
+2. When the government of a country increased the cigarette tax, the
+   price of cigarettes rose from \money{4} to \money{4.6} per
+   pack. Economists estimate that the quantity demanded dropped from
+   $52$ to $47.5$ million packs due to the price increase.  Calculate
+   the price elasticity of cigarette demand.
 
-   b) Is any of the two goods an inferior good? For what values of the
-      income?
+3. Two drivers pull up to the same gas station every Monday and place
+   their orders without checking first the price. While the first
+   driver always asks for 15 liters, the second one always asks for
+   20€ worth of gas. What are the price elasticities of demand for
+   gas of each driver?
 
-4. Consider a competitive economy where all consumers have the same
-   preferences and consume some units of good $X$ and good $Y$. Will
-   they all buy the same amount of $X$? Will there be differences in
-   the valuation of good $X$ by each consumer?
+4. Anna pays \money{2} for each unit of food, spends \money{5000} per
+   year in food and her annual income is \money{25000}. The price
+   elasticity of her demand for food is $-1$ while the income
+   elasticity is $0.5$. If Anna wins a \money{1000} grant that she
+   can spend freely on what she prefers, what would be her food
+   consumption?
 
-5. The preferences of a consumer can be represented by the utility
-   function:
+5. The market for good $X$ is characterized by the demand and supply
+   functions:
+   #+begin_export latex
+   \begin{gather*}
+     X^d = 250 - 30 P_{X} - 5 P_{Y} + 2 I \\
+     X^o = 15 P_{X} - 25
+   \end{gather*}
+   #+end_export
+   where $I$ is the consumers' average income, and $P_Y$ is the price
+   of good $Y$. Currently, $I = \money{100}$ and $P_Y = \price{5}$.
+
+   a) Calculate the equilibrium price and quantity and plot a
+      graph. Find the price elasticities of demand and supply at
+      equilibrium.
+
+   b) Calculate the cross elasticity of demand. What kind of
+      relationship holds between goods $X$ and $Y$?
+
+   c) If the consumers' average income drops by \money{10},
+      can it be said that $X$ is an inferior good?
+
+6. The firm that operates a road tunnel is considering lowering the
+   toll it charges to the users of the tunnel. Currently, the toll is
+   \money{6} and 2400 drivers pass through the tunnel daily. A
+   consulting firm has estimated that the function $Q = \num{6000} -
+   \num{600} P$ accurately describes the daily demand of the tunnel.
+
+   a) What is the elasticity of demand at the current toll?
+
+   b) If firm seeks to get higher returns, would it be reasonable to
+      reduce the toll?
+
+   c) Which toll would maximize the returns of the firm? What would
+      be the elasticity of demand in that case?
+
+7. A football club offers \num{125000} season tickets. The demand
+   function for those tickets is:
    #+begin_export latex
    \[
-     U (X, Y) = X Y + 24 Y
+     Q^d = \num{125000} - 100 P +10 P_O + 10 M,
    \]
    #+end_export
-   The price of good $X$ is \price{6}, the price of good $Y$ is
-   \price{8} and the consumer has an income of \money{240}.
+   where:
 
-   a) Obtain the price-consumption curve. What kind of relationship
-      exists between $X$ and $Y$?
+   - $P$ is the price of the season tickets.
 
-   b) Obtain the demand curve for good $X$.
+   - $P_O$ is the price of season tickets of other rival club whose
+     stadium is located in the same city.
 
-6. Both Adela and Blas have \money{100} to spend on goods $X$ and
-   $Y$. Adela only cares about how many units of $X$ she can consume,
-   since she do not get any satisfaction from good $Y$. On the other
-   side, Blas is always willing to exchange a unit of good $X$ for a
-   unit of good $Y$. The prices of the goods are $P_X = \price{2}$ and
-   $P_Y = \price{4}$. Obtain the demand curves for good $X$ of Adela
-   and Blas.
+   - $M$ is the average yearly income of football fans.
 
-7. The preferences of a consumer are given by the utility function:
-   $U(X, Y) = X^{1/4} Y^{1/8}$ and her income is $M = \money{17496}$.
-   Prices are $P_X = \price{54}$ and $P_Y = \price{36}$.
+   The rival club is selling its seasonal tickets at $P_O =
+   \money{600}$. It is estimated that $M = \money{15000}$.
 
-   a) Obtain the demand curve for good $X$.
+   a) Plot the demand and supply curves of season tickets and find
+      the market equilibrium.
 
-   b) Calculate how much the consumption of the two goods varies when the
-      price of good $X$ decreases to $P_X = \price{16}$.
+   b) Compute the price elasticities of demand and supply at
+      equilibrium and explain the obtained values.
 
-   c) Decompose the impact on each good's consumption into the
-      corresponding income and substitution effects.  What is
-      the sign of these effects?
+   c) Compute the elasticity of demand with respect to the price for
+      the season tickets of the other club at equilibrium and explain
+      the value obtained.
 
-8. The goods $X$ and $Y$ are perfect complements. Represent
-   graphically how the optimal consumption choice would change if the
-   price of good $X$ increases. Decompose the total effect on the
-   consumption of $X$ into the substitution effect and the income
-   effect.
-
-9. Dulce keeps buying the same amount of salt even though its price
-   has decreased by 50%. Does this mean that the substitution effect
-   is zero? Is salt an inferior good for Dulce?
-
-10. "The quantity demanded of a Giffen good increases with its price
-    and also increases when the consumer's income increases." Is the
-    previous statement correct? Justify your answer.
-
-11. The following graph shows the optimal choices of a consumer before
-    and after a decrease in the price of good $X$:
-
-    #+MATS: fig fig-probl-3_1004-fxs-*.pdf
-
-    Note that the slopes of the indifference curves are the same in
-    the baskets $A$ and $B$, on the one hand, and in the baskets $C$
-    and $D$, on the other hand.
-
-    Decompose the total effect on consumption of $X$ into the income
-    effect and the substitution effect. Obtain the signs of these
-    effects and determine what kind of good is $X$ for this consumer.
-
-12. The mayor of Lazy Town has decided to introduce a new tax on
-    sugary drinks of \money{0.50} per can of soda. The tax is
-    completely transferred to buyers and the price of the can
-    increases from \money{0.50} to \money{1.00}.
-
-    Stephanie is a typical citizen of Lazy Town whose utility function
-    is:
-    #+begin_export latex
-    \[
-      U (S, Y) = (S + 20)^{0.1} Y^{0.9}
-    \]
-    #+end_export
-    where $S$ is the number of soda cans she consumes and $Y$ is a
-    composite good that includes her remaining expenditure on
-    food. Stephanie has \money{470} every month to spend on $S$ and
-    $Y$.
-
-    a) How many cans of soda did Stephanie consume per month before
-       the introduction of the tax?
-
-    b) Calculate Stephanie's optimal choice after the introduction of
-       the tax. Is this tax effective in reducing her consumption of
-       sugary drinks? How much money will she pay for the tax?
-
-    c) In view of the increasing complaints from the inhabitants of
-       the city, the mayor decides to keep the tax and give
-       \money{14.50} in cash to each citizen. Calculate how many cans
-       will Stephany consume now. Is she still consuming less soda
-       than in the initial situation?  Is the city council spending
-       more money than the amount collected with the tax?
+   d) Calculate the income elasticity of demand at equilibrium and
+      explain the value obtained.

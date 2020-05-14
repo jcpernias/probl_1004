@@ -1,443 +1,348 @@
 #+STARTUP: indent hidestars content
 
-#+TITLE: Problem Figures 4
+#+TITLE: Exercises 4
 
-#+OPTIONS: header-args: latex :exports source :eval no
-
-* Ex. 1: Intertemporal choice
+#+OPTIONS: header-args: latex :exports source :eval no :noweb yes
 
 
-** Intertemporal budget line
-
-#+begin_src latex :tangle fig-probl-4_1004-ex1-budget.tex :noweb yes
-  \begin{tikzpicture}<<ex1:xy-scale>>
-    <<ex1:endowment-help-lines>>
-    <<ex1:budget-line>>
-    \draw[curve]
-      (1, 0) node[below] {$1000$}
-      (0, 4.4) node[left] {$4400$}
-      (4, 0)  node[below] {$4000$}
-      (0, 3.3) node[left] {$3300$}
-    ;
-    <<ex1:axes>>
-  \end{tikzpicture}
-#+end_src
+* Ex. 20: Taxes
 
 
-** Optimal choice
-
-#+begin_src latex :tangle fig-probl-4_1004-ex1-opt.tex :noweb yes
-  \begin{tikzpicture}<<ex1:xy-scale>>
-    <<ex1:endowment-help-lines>>
-    \draw[help lines] (3, 0) |- (0, 1.1) ;
-
-    <<ex1:budget-line>>
-
-    \draw[curve, domain=2:4, smooth]
-      plot (\x, {29.7/\x^3})
-      node[right] {$U_E$}
-    ;
+** Before taxes
 
 
-    \draw[curve]
-      (0, 1.1) node[left] {$1100$}
-      (3, 0)  node[below] {$3000$}
-      (1, 0) node[below] {$1000$}
-      (0, 3.3) node[left] {$3300$}
-    ;
+#+begin_src latex :tangle fig-probl-4_1004-before-tax.tex
+  \begin{tikzpicture}[xscale=5, yscale=5]
 
+    \coordinate (DA1) at (0.53333333, 0.8) ;
+    \coordinate (DB1) at (0.76666667, 0.1) ;
 
-    \node[dot, label={above right:$E$}] at (3, 1.1) {};
+    \coordinate (OA1) at (0.46666667, 0.1) ;
+    \coordinate (OB1) at (0.93333333, 0.8) ;
 
-    <<ex1:axes>>
-  \end{tikzpicture}
-#+end_src
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+    node[right] {$D$} ;
 
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+    node[right] {$O$} ;
 
-** Common
-
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex1:xy-scale
-  [xscale=0.75,yscale=0.75]
-#+end_src
-
-#+begin_src latex :noweb-ref ex1:axes
-  \draw[axis] (5,0) node[below] {$C_1$} -| (0,5) node[left] {$C_2$};
-#+end_src
-
-
-*** Budget line
-
-#+begin_src latex :noweb-ref ex1:budget-line
-  \draw[curve]  (4, 0) -- (0, 4.4) ;
-  \node[dot] at (1, 3.3) {} ;
-#+END_SRC
-
-
-*** Help lines
-
-#+begin_src latex :noweb-ref ex1:endowment-help-lines
-  \draw[help lines] (1, 0) |- (0, 3.3)  ;
-#+end_src
-
-
-
-* Ex. 2: No credit market
-
-
-** Intertemporal budget line
-
-#+begin_src latex :tangle fig-probl-4_1004-ex2-budget.tex
-  \begin{tikzpicture}[xscale=3, yscale=3]
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
 
     \draw[help lines]
-      (0, 0.3) -- (0.6, 0.3) ;
-
-    \draw[curve]
-      (0, 0.9) -- (0.6, 0.3) -- (0.6, 0) ;
-
-    \draw[curve]
-      (0, 0.9) node[left] {$M_1 + M_2$}
-      (0, 0.3) node[left] {$M_2$}
-      (0.6, 0)  node[below] {$M_1$}
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$1000$} -|
+    (\x1, 0) node[below] {$\num{80000}$}
     ;
-    \draw[axis] (1,0) node[below] {$C_1$} -| (0,1.1) node[left] {$C_2$};
 
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.15] (0,0) -- (1, 0) node[below] {$Q$} ;
   \end{tikzpicture}
 #+end_src
 
 
+** Tax on sellers
 
 
-* Ex. 3: Equilibrium at different interest rates
+#+begin_src latex :tangle fig-probl-4_1004-tax-sellers.tex
+  \begin{tikzpicture}[xscale=5, yscale=5]
 
+    \coordinate (DA1) at (0.53333333, 0.8) ;
+    \coordinate (DB1) at (0.76666667, 0.1) ;
 
-** r = 10%
+    \coordinate (DA2) at (0.43333333, 0.8) ;
+    \coordinate (DB2) at (0.66666667, 0.1) ;
 
-#+begin_src latex :tangle fig-probl-4_1004-ex3-r10.tex
-  \begin{tikzpicture}[xscale = 0.4, yscale = 0.4,
-    use Hobby shortcut,
-    tangent/.style={
-      in angle={(180+#1)},
-      Hobby finish,
-      designated Hobby path=next,
-      out angle=#1,
-    },
-    ]
-    \coordinate (A) at (4, 3) ;
+    \coordinate (OA1) at (0.46666667, 0.1) ;
+    \coordinate (OB1) at (0.93333333, 0.8) ;
 
+    \coordinate (OA2) at (0.26666667, 0.1) ;
+    \coordinate (OB2) at (0.73333333, 0.8) ;
+
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+    node[right] {$D$} ;
+
+    \path[name path=D2] (DA2) -- (DB2) ;
+
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+    node[right] {$O$} ;
+
+    \draw[curve, very thick, name path=O2] (OA2) -- (OB2)
+    node[right] {$O'$} ;
+
+    \path[name intersections={of=D1 and O1, by=E1}] ;
     \draw[help lines]
-    (0, 3) node[left] { $750$ } -| (4, 0) node[below] { $1000$ } ;
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$1000$} -- (E1)
+    ;
+    \node[dot] at (E1) {} ;
 
-    \draw[curve, very thick]
-    (0, 7) node[left] { $1850$ } -- (7, 0) node[below] { $1681.8$ } ;
-
-    \draw[curve, very thick]
-    (1.25, 9) .. ([tangent=-45] A) .. (10, 0.5) ;
-
-
-    \draw[axis, very thick]
-    (0, 10) node[left] {$C_{2}$} |- (12, 0) node[below] {$C_{1}$} ;
-
-    \node[dot, label={above right:$E_{0}$}] at (A) {};
-
-  \end{tikzpicture}
-#+end_src
-
-
-** r = 5%
-
-#+begin_src latex :tangle fig-probl-4_1004-ex3-r5.tex
-  \begin{tikzpicture}[xscale = 0.4, yscale = 0.4,
-    use Hobby shortcut,
-    tangent/.style={
-      in angle={(180+#1)},
-      Hobby finish,
-      designated Hobby path=next,
-      out angle=#1,
-    },
-    ]
-    \coordinate (A) at (4, 3) ;
-    \coordinate (B) at (7, 1.5) ;
-
+    \path[name intersections={of=D1 and O2, by=E2}] ;
     \draw[help lines]
-    (0, 3) node[left] { $750$ } -| (4, 0) node[below] { $1000$ } ;
-
-    \draw[curve, very thick, shaded]
-    (0, 7) -- (7, 0) ;
-
-    \draw[curve, very thick]
-    (0, 5) node[left] { $1800$ } -- (10, 0) node[below] { $1714.3$ } ;
-
-    \draw[curve, very thick, shaded]
-    (1.25, 9) .. ([tangent=-45] A) .. (10, 0.5) ;
-
-    \draw[curve, very thick]
-    (2, 9) .. ([tangent=-26.565] B) .. (10, 1) ;
-
-
-    \draw[axis, very thick]
-    (0, 10) node[left] {$C_{2}$} |- (12, 0) node[below] {$C_{1}$} ;
-
-    \node[dot, label={below left:$E_{0}$}] at (A) {};
-    \node[dot, label={above right:$E_{1}$}] at (B) {};
-
-  \end{tikzpicture}
-#+end_src
-
-
-* Ex. 4: Two interest rates
-
-
-** Intertemporal budget line
-
-#+begin_src latex :tangle fig-probl-4_1004-ex4-budget.tex :noweb yes
-  \begin{tikzpicture}<<ex4:xy-scale>>
-    <<ex4:endowment-help-lines>>
-    <<ex4:budget-line>>
-    <<ex4:endowment>>
-    <<ex4:axes>>
-    \draw[curve]
-      (4.00, 0) node[below] {$400$}
-      (0, 4.30) node[left] {$430$}
+    let \p1 = (E2) in
+    (0, \y1) node[left] {$1100$} -|
+    (\x1, 0) node[below] {$\num{78000}$}
     ;
+    \node[dot] at (E2) {} ;
 
-  \end{tikzpicture}
-#+end_src
-
-
-** Lender choice
-
-#+begin_src latex :tangle fig-probl-4_1004-ex4-lender.tex :noweb yes
-  \begin{tikzpicture}<<ex4:xy-scale>>
-    <<ex4:budget-line>>
-
-    % False original budget constraint
-    \draw[curve, nearly transparent] (2.5, 3) -- (6, 1.18);
-
-    % U false
-    \draw[curve]
-       (2.5, 6) .. controls (2.5, 4) and (2.5, 3) ..
-       (3.2, 2.636) -- (4, 2.4) ;
-
-    % False E_1
-    \draw (3.2, 2.636) node[dot] {} ;
-
-    <<ex4:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Borrower choice
-
-#+begin_src latex :tangle fig-probl-4_1004-ex4-borrower.tex :noweb yes
-  \begin{tikzpicture}<<ex4:xy-scale>>
-    <<ex4:budget-line>>
-
-    <<ex4:borrower-choice>>
-
-    % E_0
-    \draw (3, 2) node[dot, label={[curve label]right:$E_0$}] {} ;
-
-    <<ex4:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Same interest rates: budget line
-
-#+begin_src latex :tangle fig-probl-4_1004-ex4-flat-budget.tex :noweb yes
-  \colorlet{proffill}{Black!10!White}
-  \begin{tikzpicture}<<ex4:xy-scale>>
-
-    \fill[proffill] (0, 6) -- (2.5, 3) -- (0, 4.3) -- cycle ;
-    \fill[proffill] (4, 0) -- (2.5, 3) -- (5, 0) -- cycle ;
-
-    \begin{scope}[nearly transparent]
-      <<ex4:budget-line>>
-    \end{scope}
-    <<ex4:flat-budget-line>>
-    \draw[curve]
-      (5, 0) node[below] {$403.70$} --
-      (0, 6) node[left] {$436$}
-    ;
-    <<ex4:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Same interest rates: optimal choice
-
-#+begin_src latex :tangle fig-probl-4_1004-ex4-flat-choice.tex :noweb yes
-  \begin{tikzpicture}<<ex4:xy-scale>>
-    \begin{scope}[nearly transparent]
-      <<ex4:budget-line>>
-    \end{scope}
-    <<ex4:flat-budget-line>>
-    <<ex4:borrower-choice>>
-
-    % U_1
-    \draw[curve] (2.7, 6) .. controls (2.7, 3.8) and (3.2, 2.16) ..
-      (3.5, 1.8) .. controls (3.8, 1.44) and (4.5, 0.7) .. (6, 0.7) ;
-
-    % E_0
-    \draw (3, 2) node[dot, label={[curve label]left:$E_0$}] {} ;
-
-    % E_1
-    \draw (3.5, 1.8) node[dot, label={[curve label]right:$E_1$}] {} ;
-
-    <<ex4:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Common
-
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex4:xy-scale
-  [xscale=0.6,yscale=0.6]
-#+end_src
-
-#+begin_src latex :noweb-ref ex4:axes
-  \draw[axis] (7,0) node[below] {$C_1$} -| (0,7) node[left] {$C_2$};
-#+end_src
-
-
-*** Budget lines
-
-#+begin_src latex :noweb-ref ex4:budget-line
-  \draw[curve] (4.00, 0) --  (2.50, 3.00) -- (0, 4.30) ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex4:flat-budget-line
-  \draw[curve] (5, 0) -- (0, 6);
-#+end_src
-
-
-*** Endowment
-
-#+begin_src latex :noweb-ref ex4:endowment
-  \draw[curve] (2.50, 3.00) node[dot] {} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex4:endowment-help-lines
-  \draw[help lines]
-    (2.50, 0) node[below] {$200$} |-
-    (0, 3.00) node[left] {$220$}
-    ;
-#+end_src
-
-
-*** Borrower choice
-
-#+begin_src latex :noweb-ref ex4:borrower-choice
-  \draw[curve] (2.3, 6) .. controls (2.3, 4) and (2.8, 2.4) ..
-    (3, 2) .. controls (3.2, 1.6) and (4, 0.3) .. (6, 0.3) ;
-#+end_src
-
-
-
-* Ex. 5: Perfect complements
-
-
-** Intertemporal budget line
-
-#+begin_src latex :tangle fig-probl-4_1004-ex5-budget.tex :noweb yes
-  \begin{tikzpicture}<<ex5:xy-scale>>
-    <<ex5:endowment-help-lines>>
-    <<ex5:budget-line>>
-    \draw[curve]
-      (5.9, 0) node[below] {$5154.54$}
-      (0, 5.670) node[left] {$5670$}
-      (3.5, 0)  node[below] {$4200$}
-      (0, 1.05) node[left] {$1050$}
-    ;
-    <<ex5:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Optimal choice
-
-#+begin_src latex :tangle fig-probl-4_1004-ex5-opt.tex :noweb yes
-  \begin{tikzpicture}<<ex5:xy-scale>>
-    <<ex5:endowment-help-lines>>
-    \draw[help lines] (2.5, 0)  node[below] {$2700$} (2.7, 0) |-
-      (0, 2.7) node[left] {$2700$} ;
-
-    <<ex5:budget-line>>
-
-    \draw[curve]
-      (2.7, 5) |- (5, 2.7) node[right] {$U_E$};
-
-
-    \draw[curve]
-      (4.5, 0)  node[below] {$4200$}
-      (0, 1.05) node[left] {$1050$}
-    ;
-
-    \node[dot, label={above right:$E$}] at (2.7, 2.7) {};
-
-    <<ex5:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Common
-
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex5:xy-scale
-  [xscale=0.5,yscale=0.5]
-#+end_src
-
-#+begin_src latex :noweb-ref ex5:axes
-  \draw[axis] (8,0) node[below] {$C_1$} -| (0,6.5) node[left] {$C_2$};
-#+end_src
-
-
-*** Budget line
-
-#+begin_src latex :noweb-ref ex5:budget-line
-  \draw[curve]  (5.154, 0) -- (0, 5.670) ;
-  \node[dot] at (4.2, 1.05) {} ;
-#+END_SRC
-
-
-*** Help lines
-
-#+begin_src latex :noweb-ref ex5:endowment-help-lines
-  \draw[help lines] (4.2, 0) |- (0, 1.05)  ;
-#+end_src
-
-
-* Ex. 6: Intertemporal budget line
-
-#+begin_src latex :tangle fig-probl-4_1004-ex6-budget.tex
-  \begin{tikzpicture}[xscale = 0.75, yscale = 0.75]
-
+    \path[name intersections={of=D2 and O1, by=E3}] ;
     \draw[help lines]
-    (0, 2) node[left] {$2000$} -| (2.5, 0) (2.75, 0) node[below] {$2500$}
-    (0, 3.01) node[left] {$3010$} -| (1.5, 0) (1.25, 0) node[below] {$1500$}
+    let \p1 = (E3) in
+    (0, \y1) node[left] {$950$} -- (E3)
     ;
+    \node[dot] at (E3) {} ;
 
-    \draw[curve, very thick]
-    (0, 4.525) node[left] {$4525$} -- (4.48020, 0) (4.3, 0) node[below] {$4480.2$} ;
 
-    \draw[curve, very thick, domain=0.6746908:4.5, samples=100]
-    plot (\x, {3.691451/(\x^0.5033223)})
-    node[right] {$U_{E}$} ;
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.15] (0,0) -- (1, 0) node[below] {$Q$} ;
+  \end{tikzpicture}
+#+end_src
 
-    \draw[axis, very thick] (0, 5.25) node[left] {$C_{2}$} |-
-    (5.5, 0) node[below] {$C_{1}$} ;
 
-    % \node[dot] at (2.5, 2) {} ;
-    \node[dot, label={above right:$E$}] at (1.5, 3.01) {} ;
+** Tax on buyers
 
+
+#+begin_src latex :tangle fig-probl-4_1004-tax-buyers.tex
+  \begin{tikzpicture}[xscale=5, yscale=5]
+
+    \coordinate (DA1) at (0.53333333, 0.8) ;
+    \coordinate (DB1) at (0.76666667, 0.1) ;
+
+    \coordinate (DA2) at (0.43333333, 0.8) ;
+    \coordinate (DB2) at (0.66666667, 0.1) ;
+
+    \coordinate (OA1) at (0.46666667, 0.1) ;
+    \coordinate (OB1) at (0.93333333, 0.8) ;
+
+    \coordinate (OA2) at (0.26666667, 0.1) ;
+    \coordinate (OB2) at (0.73333333, 0.8) ;
+
+    \draw[curve, very thick, name path=D1] (DA1) node[right] {$D$} -- (DB1)
+     ;
+
+    \draw[curve, very thick, name path=D2] (DA2) node[left] {$D'$} -- (DB2)
+     ;
+
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+    node[right] {$O$} ;
+
+    \path[name path=O2] (OA2) -- (OB2) ;
+
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$1000$} -- (E1)
+    ;
+    \node[dot] at (E1) {} ;
+
+    \path[name intersections={of=D1 and O2, by=E2}] ;
+    \draw[help lines]
+    let \p1 = (E2) in
+    (0, \y1) node[left] {$1100$} -|
+    (\x1, 0) node[below] {$\num{78000}$}
+    ;
+    \node[dot] at (E2) {} ;
+
+    \path[name intersections={of=D2 and O1, by=E3}] ;
+    \draw[help lines]
+    let \p1 = (E3) in
+    (0, \y1) node[left] {$950$} -- (E3)
+    ;
+    \node[dot] at (E3) {} ;
+
+
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.15] (0,0) -- (1, 0) node[below] {$Q$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+* Minimum price
+
+#+begin_src latex :tangle fig-probl-4_1004-min-price.tex
+  \begin{tikzpicture}[xscale=4, yscale=4]
+
+    \coordinate (DA1) at (0.16666667, 0.9) ;
+    \coordinate (DB1) at (0.83333333, 0.1) ;
+
+    \coordinate (OA1) at (0.16666667, 0.1) ;
+    \coordinate (OB1) at (0.83333333, 0.9) ;
+
+    \coordinate (PA1) at (0.16666667, 0.7) ;
+    \coordinate (PB1) at (0.83333333, 0.7) ;
+
+
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+    node[right] {$D$} ;
+
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+    node[right] {$O$} ;
+
+    \draw[curve, very thick, name path=P1] (PA1) -- (PB1)
+    node[right] {$P_{\min}$} ;
+
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$1000$} -|
+    (\x1, 0) node[below] {$75$}
+    ;
+    \node[dot] at (E1) {} ;
+
+    \path[name intersections={of=D1 and P1, by=Dm}] ;
+    \draw[help lines]
+    let \p1 = (Dm) in
+    (Dm) -- (\x1, 0) node[below] {$70$}
+    ;
+    \node[dot] at (Dm) {} ;
+
+    \path[name intersections={of=O1 and P1, by=Om}] ;
+    \draw[help lines]
+    let \p1 = (Om) in
+    (Om) -- (\x1, 0) node[below] {$80$}
+    ;
+    \node[dot] at (Om) {} ;
+
+    \draw[help lines]  (0, 0.7) node[left] {$1200$} ;
+
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P_X$};
+    \draw[axis, very thick, ->, TwoMarks=0.08] (0,0) -- (1, 0) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+* Equilibrium and price ceiling
+
+  #+begin_src latex :tangle fig-probl-4_1004-eq1.tex
+    \begin{tikzpicture}[xscale = 0.75, yscale = 2.28571]
+
+      \draw[help lines]
+      (0, 0.45) node[left] {$45$} -| (1.9, 0) node[below] {$190$} ;
+
+      \draw[curve, very thick]
+      (0, 0.83) -- (4.15, 0) node[above right, pos=0.95] {$D$} ;
+
+      \draw[curve, very thick]
+      (1, 0) -- (4.15, 1.5715) node[right] {$O$} ;
+
+      \draw[curve, very thick]
+      (0, 0.5) -- (5.15, 0.5) node[right] {$P_{X}^{\max}$} ;
+
+      \draw[axis, very thick] (0,1.75) node[left] {$P_{X}$} |-
+      (6.50, 0) node[below] {$X$} ;
+
+      \node[dot] at (1.9, 0.45) {} ;
+
+    \end{tikzpicture}
+  #+end_src
+
+  #+begin_src latex :tangle fig-probl-4_1004-eq2.tex
+    \begin{tikzpicture}[xscale = 0.75, yscale = 2.28571]
+
+      \draw[help lines]
+      (2, 0.5) -- (2, 0) node[below] {$200$}
+      (3.05, 0.5) -- (3.05, 0) node[below] {$305$} ;
+
+      \draw[curve, very thick]
+      (0, 1.11) -- (5.55, 0) node[above right, pos=0.95] {$D$} ;
+
+      \draw[curve, very thick]
+      (1, 0) -- (4.15, 1.5715) node[right] {$O$} ;
+
+      \draw[curve, very thick]
+      (0, 0.5) node[left] {$50$} -- (4.65, 0.5) node[right] {$P_{X}^{\max}$} ;
+
+      \draw[axis, very thick] (0,1.75) node[left] {$P_{X}$} |-
+      (6.50, 0) node[below] {$X$} ;
+
+      \node[dot] at (2, 0.5) {} ;
+
+    \end{tikzpicture}
+  #+end_src
+
+
+* Subsidies
+
+** Subsidy to buyers
+
+#+begin_src latex :tangle fig-probl-4_1004-subsidy1.tex
+  \begin{tikzpicture}[xscale=3.89, yscale=4.5454545454]
+
+    \coordinate (DA1) at (0.16666667, 0.66666667) ;
+    \coordinate (DB1) at (1, 0.3888887) ;
+
+    \coordinate (OA1) at (0.16666667, 0.08333333) ;
+    \coordinate (OB1) at (1, 0.833333333) ;
+
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$D$}
+     ;
+
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+    node[right] {$O$} ;
+
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$500$} -|
+    (\x1, 0) node[below] {$\num{10000}$}
+    ;
+    \node[dot] at (E1) {} ;
+
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1.1) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.10] (0,0) -- (1.2, 0) node[below] {$Q$} ;
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-probl-4_1004-subsidy2.tex
+  \begin{tikzpicture}[xscale=3.89, yscale=4.5454545454]
+
+    \coordinate (DA1) at (0.16666667, 0.66666667) ;
+    \coordinate (DB1) at (1, 0.3888887) ;
+
+    \coordinate (DA2) at (0.16666667, 1) ;
+    \coordinate (DB2) at (1, 0.7222222) ;
+
+    \coordinate (OA1) at (0.16666667, 0.08333333) ;
+    \coordinate (OB1) at (1, 0.833333333) ;
+
+    \coordinate (OA2) at (0.66666667, 0.166666667) ;
+    \coordinate (OB2) at (1, 0.5) ;
+
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$D$}
+     ;
+
+    \draw[curve, very thick, name path=D2] (DA2) -- (DB2) node[right] {$D'$}
+     ;
+
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+    node[right] {$O$} ;
+
+    \path[name path=O2] (OA2) -- (OB2) ;
+
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$500$} -- (E1)
+    ;
+    \node[dot] at (E1) {} ;
+
+    \path[name intersections={of=D2 and O1, by=E2}] ;
+    \draw[help lines]
+    let \p1 = (E2) in
+    (0, \y1) node[left] {$650$} -|
+    (\x1, 0) node[below] {$\num{11500}$}
+    ;
+    \node[dot] at (E2) {} ;
+
+    \path[name intersections={of=D1 and O2, by=E3}] ;
+    \draw[help lines]
+    let \p1 = (E3) in
+    (0, \y1) node[left] {$450$} -- (E3)
+    ;
+    \node[dot] at (E3) {} ;
+
+
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1.1) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.10] (0,0) -- (1.2, 0) node[below] {$Q$} ;
   \end{tikzpicture}
 #+end_src

@@ -9,26 +9,32 @@
 
 * Competitive markets
 
-* Elasticity
-
-* Government intervention in competitive markets
-
-* Consumer choice
-
 #+include: "probl-2_1004-en.org" :lines "6-"
 
-* Demand
+* Elasticity
 
 #+include: "probl-3_1004-en.org" :lines "6-"
 
-* Intertemporal choice
+* Government intervention in competitive markets
 
 #+include: "probl-4_1004-en.org" :lines "6-"
 
-* Production
+* Consumer choice
 
 #+include: "probl-5_1004-en.org" :lines "6-"
 
-* Costs
+* Demand
 
 #+include: "probl-6_1004-en.org" :lines "6-"
+
+* Intertemporal choice
+
+#+include: "probl-7_1004-en.org" :lines "6-"
+
+* Production
+
+#+include: "probl-8_1004-en.org" :lines "6-"
+
+* Costs
+
+#+include: "probl-9_1004-en.org" :lines "6-"
