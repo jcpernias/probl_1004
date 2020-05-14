@@ -1,7 +1,7 @@
 SHELL := /bin/sh
 
 subject_code := 1004
-probl_units := 1 2 3 4 5 6 all
+probl_units := all
 probl_figs := 1 2 3 4 5 6
 
 TEXI2DVI_SILENT := -q
