@@ -1,4 +1,4 @@
-#+STARTUP: indent hidestars content
+#+STARTUP: indent hidestars overview
 
 #+AUTHOR: Introducción a la Microeconomía \\
 #+AUTHOR: AE / EC / FC 1004 \\
