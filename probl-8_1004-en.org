@@ -1,103 +1,116 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-#+TITLE: Exercise Booklet 5
+* 8.1
+
+Complete the following table that describes a firm's short run
+production.
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
+|---------+--------+----------+---------|
+|         | Total  | Marginal | Average |
+| Workers | output | product  | product |
+|---------+--------+----------+---------|
+| $0$     | $0$    | ---      | ---     |
+| $1$     |        | $120$    |         |
+| $2$     | $210$  |          |         |
+| $3$     |        |          | $95$    |
+| $4$     |        | $31$     |         |
+| $5$     |        |          | $64$    |
+| $6$     | $306$  |          |         |
+|---------+--------+----------+---------|
+
+Does the law of diminishing marginal returns hold?  Are all the
+labor input levels shown in the table technically efficient?  Why?
+
+* 8.2.
+
+If the marginal product of labor is decreasing in the short run,
+should the average product also be decreasing?
+
+* 8.3.
+
+The output per worker in a company is 20 chairs per day. The company's
+owner has calculated that an additional worker would increase the
+daily output by 10 chairs. Will the average product increase if the
+company hires another worker?
+
+* 8.4.
+
+Given the production function $Q = L^{2} K - 0.01 L^{3}$ and knowing
+that the capital input is fixed at $\Kbar = 6$, determine:
+
+a) The total product curve.
+
+b) The average and marginal product of labor curves.
+
+c) The levels of labor input that maximize the marginal product, the
+   average product and total product. Represent the results obtained.
+
+* 8.5.
+
+Consider the following production functions:
+
+#+ATTR_LATEX: :options [labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
+A. $Q = L^{1/4} K^{3/4}$
+
+B. $Q = L^{3/2} K^{1/2}$
+
+C. $Q = 4L + 2K$
+
+D. $Q = (L + K)^{1/2}$
+
+For each of these production functions:
+
+a) What kind of returns to scale returns shows the production
+   function?
+
+b) Obtain the rate of input substitution.
+
+c) Check whether the law of diminishing marginal returns holds when
+   $\Kbar = 16\text{\ units}$.
+
+* 8.6.
+
+Is the following statement correct? Justify your answer: "A company
+with constant returns to scale will double its production when it
+doubles the use of capital input."
+
+* 8.7.
+
+A factory uses labor and capital inputs to produce shoes. After
+increasing the number of workers by 50% the output grows by
+60%. Does this mean that the production function of this factory
+shows increasing returns to scale?
 
 
-1. Complete the following table that describes a firm's short run
-   production.
+* 8.8.
 
-   #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
-   |---------+--------+----------+---------|
-   |         | Total  | Marginal | Average |
-   | Workers | output | product  | product |
-   |---------+--------+----------+---------|
-   | $0$     | $0$    | ---      | ---     |
-   | $1$     |        | $120$    |         |
-   | $2$     | $210$  |          |         |
-   | $3$     |        |          | $95$    |
-   | $4$     |        | $31$     |         |
-   | $5$     |        |          | $64$    |
-   | $6$     | $306$  |          |         |
-   |---------+--------+----------+---------|
+The following figure shows some isoquants from the production
+function of a firm:
 
-   Does the law of diminishing marginal returns hold?  Are all the
-   labor input levels shown in the table technically efficient?  Why?
+#+MATS: fig fig-probl-8_1004-ex8-const-returns-*.pdf
 
-2. If the marginal product of labor is decreasing in the short run,
-   should the average product also be decreasing?
+a) If the firm produces 250 units and hires 5 workers, how many
+   units of capital are being used? And if it produces 125 units
+   with 4 workers?
 
-3. The output per worker in a company is 20 chairs per day. The
-   company's owner has calculated that an additional worker would
-   increase the daily output by 10 chairs. Will the average product
-   increase if the company hires another worker?
+b) If the company is hiring 8 workers and 6 units of capital, is it
+   possible that the output level is 400 units?  Would it be
+   possible to produce 200 units? What would happen in this case?
 
-4. Given the production function $Q = L^{2} K - 0.01 L^{3}$ and
-   knowing that the capital input is fixed at $\Kbar = 6$, determine:
+c) What kind of returns to scale are observed in the production
+   function?
 
-   a) The total product curve.
+* 8.9.
 
-   b) The average and marginal product of labor curves.
+The following figure shows some isoquants from the production
+function of a firm:
 
-   c) The levels of labor input that maximize the marginal product,
-      the average product and total product. Represent the results
-      obtained.
+#+MATS: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
 
-5. Consider the following production functions:
+a) What kind of returns to scale does the production function
+   exhibit?
 
-   #+ATTR_LATEX: :options [labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
-   A. $Q = L^{1/4} K^{3/4}$
-
-   B. $Q = L^{3/2} K^{1/2}$
-
-   C. $Q = 4L + 2K$
-
-   D. $Q = (L + K)^{1/2}$
-
-   For each of these production functions:
-
-   a) What kind of returns to scale returns shows the production
-      function?
-
-   b) Obtain the rate of input substitution.
-
-   c) Check whether the law of diminishing marginal returns holds when
-      $\Kbar = 16\text{\ units}$.
-
-6. Is the following statement correct? Justify your answer: "A company
-   with constant returns to scale will double its production when it
-   doubles the use of capital input."
-
-7. A factory uses labor and capital inputs to produce shoes. After
-   increasing the number of workers by 50% the output grows by
-   60%. Does this mean that the production function of this factory
-   shows increasing returns to scale?
-   #+latex: \ifbool{answers}{}{\clearpage}
-
-8. The following figure shows some isoquants from the production
-   function of a firm:
-
-   #+MATS: fig fig-probl-5_1004-ex8-const-returns-*.pdf
-
-   a) If the firm produces 250 units and hires 5 workers, how many
-      units of capital are being used? And if it produces 125 units
-      with 4 workers?
-
-   b) If the company is hiring 8 workers and 6 units of capital, is it
-      possible that the output level is 400 units?  Would it be
-      possible to produce 200 units? What would happen in this case?
-
-   c) What kind of returns to scale are observed in the production
-      function?
-      #+latex: \ifbool{answers}{}{\clearpage}
-
-9. The following figure shows some isoquants from the production
-   function of a firm:
-
-   #+MATS: fig fig-probl-5_1004-ex8-incr-returns-*.pdf
-
-   a) What kind of returns to scale does the production function
-      exhibit?
-
-   b) If $\Kbar = 5$, is the law of diminishing marginal returns
-      satisfied?
+b) If $\Kbar = 5$, is the law of diminishing marginal returns
+   satisfied?

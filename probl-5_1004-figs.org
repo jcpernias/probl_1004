@@ -1,14 +1,14 @@
 #+SETUPFILE: ./course-figs.org
 
-#+TITLE: Problem Figures 2
+#+TITLE: Exercises 5
 
 
-* Ex. 1: Budget line and taxes
+* 5.1 Budget line and taxes
 
 
 ** Sales tax
 
-#+begin_src latex :tangle fig-probl-2_1004-budget-tax1.tex
+#+begin_src latex :tangle fig-probl-5_1004-budget-tax1.tex
   \begin{tikzpicture}<<ex1:xy-scale>>
 
     <<ex1:budget-no-tax>>
@@ -21,7 +21,7 @@
 
 ** Income tax
 
-#+begin_src latex :tangle fig-probl-2_1004-budget-tax2.tex
+#+begin_src latex :tangle fig-probl-5_1004-budget-tax2.tex
   \begin{tikzpicture}<<ex1:xy-scale>>
 
     <<ex1:budget-no-tax>>
@@ -74,12 +74,12 @@
 
 
 
-* Ex. 2: Budget line and promotions
+* 5.2 Budget line and promotions
 
 
 ** Initial situation
 
-#+begin_src latex :tangle fig-probl-2_1004-budget1.tex :noweb no
+#+begin_src latex :tangle fig-probl-5_1004-budget1.tex :noweb no
   \begin{tikzpicture}[xscale = 0.3, yscale = 0.3]
 
     \draw[curve, very thick]
@@ -94,7 +94,7 @@
 
 ** Promotion
 
-#+begin_src latex :tangle fig-probl-2_1004-budget2.tex :noweb no
+#+begin_src latex :tangle fig-probl-5_1004-budget2.tex :noweb no
   \begin{tikzpicture}[xscale = 0.3, yscale = 0.3]
 
     \draw[help lines]
@@ -118,12 +118,12 @@
 #+end_src
 
 
-* Ex. 3: Neutral goods and bads
+* 5.3 Neutral goods and bads
 
 
 ** Neutral good
 
-#+begin_src latex :tangle fig-probl-2_1004-neutral.tex
+#+begin_src latex :tangle fig-probl-5_1004-neutral.tex
   \begin{tikzpicture}<<ex3:xy-scale>>
     \draw[curve]
       (0, 0.2) -- (0.85, 0.2) node[right] {$I_1$}
@@ -143,7 +143,7 @@
 
 ** Bad
 
-#+begin_src latex :tangle fig-probl-2_1004-bad.tex
+#+begin_src latex :tangle fig-probl-5_1004-bad.tex
   \begin{tikzpicture}<<ex3:xy-scale>>
 
     \draw[curve] (0.1, 0.1) ..
@@ -209,9 +209,9 @@
 #+end_src
 
 
-* Ex. 4: Choice
+* 5.4 Choice
 
-#+begin_src latex :tangle fig-probl-2_1004-choice.tex :noweb no
+#+begin_src latex :tangle fig-probl-5_1004-choice.tex :noweb no
   \begin{tikzpicture}[xscale = 2.77777777778, yscale = 2.272727272727]
 
     \draw[help lines]
@@ -232,12 +232,12 @@
 #+end_src
 
 
-* Ex. 8: Walnuts
+* 5.8 Walnuts
 
 
 ** Initial situation
 
-#+begin_src latex :tangle fig-probl-2_1004-walnut1.tex
+#+begin_src latex :tangle fig-probl-5_1004-walnut1.tex
   \begin{tikzpicture}<<ex8:xy-scale>>
     \draw[help lines]
       (0, 3.6) node[left] {$36$} -|
@@ -262,7 +262,7 @@
 
 ** Subsidy
 
-#+begin_src latex :tangle fig-probl-2_1004-walnut2.tex
+#+begin_src latex :tangle fig-probl-5_1004-walnut2.tex
   \begin{tikzpicture}<<ex8:xy-scale>>
     \draw[help lines]
       (0, 3.28) node[left] {$32.8$} -|
@@ -289,7 +289,7 @@
 
 ** Donations
 
-#+begin_src latex :tangle fig-probl-2_1004-walnut3.tex
+#+begin_src latex :tangle fig-probl-5_1004-walnut3.tex
   \begin{tikzpicture}<<ex8:xy-scale>>
     \draw[help lines]
       (1.5, 4) --
@@ -313,7 +313,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-2_1004-walnut4.tex
+#+begin_src latex :tangle fig-probl-5_1004-walnut4.tex
   \begin{tikzpicture}<<ex8:xy-scale>>
     \draw[help lines]
       (0, 4.2) node[left] {$42$} -|
@@ -352,12 +352,12 @@
 #+end_src
 
 
-* Ex. 9: Quantity discount
+* 5.9 Quantity discount
 
 
 ** Initial situation
 
-#+begin_src latex :tangle fig-probl-2_1004-discount1.tex
+#+begin_src latex :tangle fig-probl-5_1004-discount1.tex
   \begin{tikzpicture}<<ex9:xy-scale>>
     \draw[help lines]
       (0, 3) node[left] {$300$} -|
@@ -392,12 +392,13 @@
   [yscale = 1, xscale = 1]
 #+end_src
 
-* Ex. 10: Corner solitions and rationing
+
+* 5.10 Corner solitions and rationing
 
 
 ** Initial situation
 
-#+begin_src latex :tangle fig-probl-2_1004-corner1.tex
+#+begin_src latex :tangle fig-probl-5_1004-corner1.tex
   \begin{tikzpicture}<<ex10:xy-scale>>
 
     \draw[curve, very thick]
@@ -417,7 +418,7 @@
 
 ** Rationing
 
-#+begin_src latex :tangle fig-probl-2_1004-corner2.tex
+#+begin_src latex :tangle fig-probl-5_1004-corner2.tex
   \begin{tikzpicture}<<ex10:xy-scale>>
 
     \draw[help lines]
@@ -472,12 +473,13 @@
   ;
 #+end_src
 
-* Ex. 12: Perfect complements
+
+* 5.12 Perfect complements
 
 
 ** Indiference curves
 
-#+begin_src latex :tangle fig-probl-2_1004-compl1.tex
+#+begin_src latex :tangle fig-probl-5_1004-compl1.tex
   \begin{tikzpicture}<<ex12:xy-scale>>
 
     <<ex12:u1>>
@@ -491,7 +493,7 @@
 
 ** Choice
 
-#+begin_src latex :tangle fig-probl-2_1004-compl2.tex
+#+begin_src latex :tangle fig-probl-5_1004-compl2.tex
   \begin{tikzpicture}<<ex12:xy-scale>>
 
     \draw[help lines]

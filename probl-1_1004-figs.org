@@ -3,7 +3,7 @@
 #+TITLE: Exercises 1
 
 
-* PPF shifts
+* 1.1 PPF shifts
 
 
 ** PPF
@@ -170,7 +170,7 @@
 #+end_src
 
 
-* PPF shape
+* 1.2 PPF shape
 
 
 ** PPF
@@ -290,7 +290,7 @@
 #+end_src
 
 
-* PPF and opportunity cost
+* 1.3 PPF and opportunity cost
 
 #+begin_src latex :tangle fig-probl-1_1004-ppf.tex :noweb no
   \deftranslation[to=Spanish]{Cocos}{Cocos}

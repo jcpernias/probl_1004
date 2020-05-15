@@ -1,79 +1,89 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
+* 4.1
 
+In a competitive market, the demand and supply curves are:
+#+begin_export latex
+\begin{gather*}
+  Q^d = \num{100000} - 20 P \\
+  Q^o = \num{40000} + 40 P
+\end{gather*}
+#+end_export
 
-1. In a competitive market, the demand and supply curves are:
-   #+begin_export latex
-   \begin{gather*}
-     Q^d = \num{100000} - 20 P \\
-     Q^o = \num{40000} + 40 P
-   \end{gather*}
-   #+end_export
+a) Determine the equilibrium price and quantity.
 
-   a) Determine the equilibrium price and quantity.
+b) <<ex4.1:item-b>>Describe and show graphically the effects on this
+   market of a tax of \money{150} per unit imposed on sellers. How
+   much money will buyers pay per unit? How much will sellers
+   receive per unit?
 
-   b) <<ex20:itemb>>Describe and show graphically the effects on this
-      market of a tax of \money{150} per unit imposed on sellers. How
-      much money will buyers pay per unit? How much will sellers
-      receive per unit?
+c) Explain how your answers in [[ex4.1:item-b]] would change if the tax
+   were levied on buyers.
 
-   c) Explain how your answers in [[ex20:itemb]] would change if the tax
-      were levied on buyers.
+* 4.2
 
-2. The market demand and supply curves for good $X$ are:
-   #+begin_export latex
-   \begin{gather*}
-     X^d = 100 - P_X / 40 \\
-     X^o = 50 + P_X / 40
-   \end{gather*}
-   #+end_export
+The market demand and supply curves for good $X$ are:
+#+begin_export latex
+\begin{gather*}
+  X^d = 100 - P_X / 40 \\
+  X^o = 50 + P_X / 40
+\end{gather*}
+#+end_export
 
-   a) Determine the equilibrium price and quantity.
+a) Determine the equilibrium price and quantity.
 
-   b) Describe and show graphically the effects on this market of
-      setting a minimum price at \price{1200}. How many units will
-      sell? At what price?
+b) Describe and show graphically the effects on this market of
+   setting a minimum price at \price{1200}. How many units will
+   sell? At what price?
 
-3. In a competitive market in equilibrium, \num{96000} units are sold
-   at a price of \price{300}. The price elasticity of demand
-   is $-1.5$, and the price elasticity of supply is equal to $2$. If
-   a law that sets a maximum price of \price{294} is passed, which
-   effect would it have on the market?
+* 4.3
 
-4. The market demand and supply curves for good $X$ are:
-   #+begin_export latex
-   \begin{gather*}
-     X = 200 - 5 P_{X} + 3 P_{Y} + 2 I \\
-     X = 100 + 2 P_{X}
-   \end{gather*}
-   #+end_export
-   where $I$ is the consumers' average income and $P_Y$ is the price
-   of good $Y$, with $I = \money{100}$ and $P_Y = \price{5}$. A law
-   has been passed that does not allow $P_X$ to rise above
-   $\money{50}$.
+In a competitive market in equilibrium, \num{96000} units are sold
+at a price of \price{300}. The price elasticity of demand
+is $-1.5$, and the price elasticity of supply is equal to $2$. If
+a law that sets a maximum price of \price{294} is passed, which
+effect would it have on the market?
 
-   a) <<ex23:itema>>How many units of $X$ will be sold? At what
-      price? Represent graphically.
+* 4.4
 
-   b) Describe how your answers in [[ex23:itema]] would change if average
-      income increased up to $I = \money{170}$.
+The market demand and supply curves for good $X$ are:
+#+begin_export latex
+\begin{gather*}
+  X = 200 - 5 P_{X} + 3 P_{Y} + 2 I \\
+  X = 100 + 2 P_{X}
+\end{gather*}
+#+end_export
+where $I$ is the consumers' average income and $P_Y$ is the price
+of good $Y$, with $I = \money{100}$ and $P_Y = \price{5}$. A law
+has been passed that does not allow $P_X$ to rise above
+$\money{50}$.
 
-5. Discuss the truth or falsity of the following statement: "If a
-   maximum price is set above the equilibrium price, the quantity
-   sold will be the same as the equilibrium quantity."
+a) <<ex4.4:item-a>>How many units of $X$ will be sold? At what
+   price? Represent graphically.
 
-6. The residential rental market in a city is represented by the
-   demand and supply curves:
-   #+begin_export latex
-   \begin{gather*}
-     Q^{d} = \num{25000} - 30 P \\
-     Q^{o} = \num{5000} +10 P
-   \end{gather*}
-   #+end_export
+b) Describe how your answers in [[ex4.4:item-a]] would change if average
+   income increased up to $I = \money{170}$.
 
-   a) Determine the market equilibrium.
+* 4.5
 
-   b) If tenants get a \money{200} rental subsidy, how much will pay
-      tenants?  How much will landlords receive? Which will be the
-      total cost of the subsidy?
+Discuss the truth or falsity of the following statement: "If a
+maximum price is set above the equilibrium price, the quantity
+sold will be the same as the equilibrium quantity."
+
+* 4.6
+
+The residential rental market in a city is represented by the
+demand and supply curves:
+#+begin_export latex
+\begin{gather*}
+  Q^{d} = \num{25000} - 30 P \\
+  Q^{o} = \num{5000} +10 P
+\end{gather*}
+#+end_export
+
+a) Determine the market equilibrium.
+
+b) If tenants get a \money{200} rental subsidy, how much will pay
+   tenants?  How much will landlords receive? Which will be the
+   total cost of the subsidy?

@@ -1,99 +1,119 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
+* 2.1
+
+There are three buyers in a market whose demand curves are:
+
+#+ATTR_LATEX: :center t :align lc
+| Buyer 1: | $Q^d_1(P) = 1000 - 10 P$ |
+| Buyer 2: | $Q^d_2(P) = 600 - 2 P$   |
+| Buyer 3: | $Q^d_3(P) = 750 - 5 P$   |
+
+Determine the market demand curve.
 
 
-1. There are three buyers in a market whose demand curves are:
+* 2.2
 
-   #+ATTR_LATEX: :center t :align lc
-   | Buyer 1: | $Q^d_1(P) = 1000 - 10 P$ |
-   | Buyer 2: | $Q^d_2(P) = 600 - 2 P$   |
-   | Buyer 3: | $Q^d_3(P) = 750 - 5 P$   |
+Consider a competitive market where \num{1000} identical buyers
+participate, each one with demand curve:
+#+begin_export latex
+\[
+  Q^d_i(P) = 5 - P, \qquad i = 1, ..., \num{1000}.
+\]
+#+end_export
+There are also \num{625} identical firms, each one with supply curve:
+#+begin_export latex
+\[
+  Q^o_j(P) = 2.4 P , \qquad j = 1, ..., \num{625}.
+\]
+#+end_export
 
-   Determine the market demand curve.
+a) Find and plot the market equilibrium.
 
-2. Consider a competitive market where \num{1000} identical buyers
-   participate, each one with demand curve:
+b) What would happen if the price were \price{4}? And if the price
+   were \price{1}?
+
+
+* 2.3
+
+"The price of gasoline considerably increased during the years from
+2003 to 2006, and yet the consumption of gasoline grew."  Does this
+claim contradict the law of demand?
+
+
+* 2.4
+
+Consider a competitive market for apples and draw a demand and supply
+diagram showing the effects on the equilibrium of an apple tree
+disease that adversely affects the harvest. Could farmers' revenues
+rise in that case? What conditions must be met?
+
+
+* 2.5
+
+A country is facing an increase in drug use. Experts have put forward
+two alternative explanations:
+
+- The decreasing police budget has led to an increase in drugs on the
+  streets.
+
+- Cutbacks in education efforts have decreased awareness of the
+  dangers of drug use.
+
+Use demand and supply diagrams to analyze each of these hypotheses. Is
+it possible to discern between the two explanations by observing what
+happened to the price and the consumption of drugs?
+
+
+* 2.6
+
+The demand and supply curves of the market for good $X$ are:
+#+begin_export latex
+\begin{gather*}
+  X^d = \num{85000} - 20 P_X \\
+  X^o = \num{15000} + 15 P_X
+\end{gather*}
+#+end_export
+
+a) Determine the equilibrium price and quantity.
+
+b) Plot the effects on the market equilibrium of an increase in the
+   price of a substituitive good. Is it possible to unequivocally
+   predict how the equilibrium price of good $X$ will change? And the
+   equilibrium quantity?
+
+c) Starting from the initial equilibrium, consider now the effects of
+   an increase in the consumers' income. Is it possible to
+   unambiguously predict how the equilibrium price and quantity will
+   change?
+
+
+* 2.7
+
+The electric car market of a country is competitive, and the demand
+and supply curves are:
+#+begin_export latex
+\begin{gather*}
+  Q^{d} = \num{10000} - P/6 \\
+  Q^{o} = -6000 + P/2
+\end{gather*}
+#+end_export
+
+a) Determine the equilibrium price and quantity.
+
+b) Find and plot the new equilibrium if demand increases by 20% (the
+   quantity demanded is 20% greater at each price) and the supply
+   curve becomes:
    #+begin_export latex
    \[
-     Q^d_i(P) = 5 - P, \qquad i = 1, ..., \num{1000}.
-   \]
-   #+end_export
-   There are also
-   \num{625} identical firms, each one with supply curve:
-   #+begin_export latex
-   \[
-     Q^o_j(P) = 2.4 P , \qquad j = 1, ..., \num{625}.
+     Q^o = -2700 + P/2
    \]
    #+end_export
 
-   a) Find and plot the market equilibrium.
 
-   b) What would happen if the price were \price{4}? And if the price
-      were \price{1}?
+* 2.8
 
-3. "The price of gasoline considerably increased during the years from
-   2003 to 2006, and yet the consumption of gasoline grew."  Does this
-   claim contradict the law of demand?
-
-4. Consider a competitive market for apples and draw a demand and
-   supply diagram showing the effects on the equilibrium of an apple
-   tree disease that adversely affects the harvest. Could farmers'
-   revenues rise in that case? What conditions must be met?
-
-5. A country is facing an increase in drug use. Experts have
-   put forward two alternative explanations:
-
-   - The decreasing police budget has led to an increase in drugs on
-     the streets.
-
-   - Cutbacks in education efforts have decreased awareness of the
-     dangers of drug use.
-
-   Use demand and supply diagrams to analyze each of these
-   hypotheses. Is it possible to discern between the two explanations
-   by observing what happened to the price and the consumption of drugs?
-
-6. The demand and supply curves of the market for good $X$ are:
-   #+begin_export latex
-   \begin{gather*}
-     X^d = \num{85000} - 20 P_X \\
-     X^o = \num{15000} + 15 P_X
-   \end{gather*}
-   #+end_export
-
-   a) Determine the equilibrium price and quantity.
-
-   b) Plot the effects on the market equilibrium of an increase in
-      the price of a substituitive good. Is it possible to
-      unequivocally predict how the equilibrium price of good $X$
-      will change? And the equilibrium quantity?
-
-   c) Starting from the initial equilibrium, consider now the effects
-      of an increase in the consumers' income. Is it possible to
-      unambiguously predict how the equilibrium price and quantity
-      will change?
-
-7. The electric car market of a country is competitive, and the
-   demand and supply curves are:
-   #+begin_export latex
-   \begin{gather*}
-     Q^{d} = \num{10000} - P/6 \\
-     Q^{o} = -6000 + P/2
-   \end{gather*}
-   #+end_export
-
-   a) Determine the equilibrium price and quantity.
-
-   b) Find and plot the new equilibrium if demand increases by 20% (the
-      quantity demanded is 20% greater at each price) and the supply
-      curve becomes:
-      #+begin_export latex
-      \[
-        Q^o = -2700 + P/2
-      \]
-      #+end_export
-
-8. The market for an inferior good is in equilibrium. If production
-   costs and consumer income increase simultaneously, will both the
-   price and the quantity decrease in the new equilibrium?
+The market for an inferior good is in equilibrium. If production costs
+and consumer income increase simultaneously, will both the price and
+the quantity decrease in the new equilibrium?

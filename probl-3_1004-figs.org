@@ -3,7 +3,7 @@
 #+TITLE: Exercises 3
 
 
-* Ex. 10: Medicines and computers
+* 3.1 Medicines and computers
 
 ** Medicines
 
@@ -98,7 +98,7 @@
 
 
 
-* Ex. 17: Market equilibrium and elasticities
+* 3.5 Market equilibrium and elasticities
 
 
 ** Equilibrium
@@ -134,7 +134,7 @@
 #+end_src
 
 
-* Ex. 19: Football
+* 3.7 Football
 
 
 ** Equilibrium

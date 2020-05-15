@@ -1,102 +1,112 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
+* 3.1
 
+Medicines have inelastic demand, while computers have elastic
+demand. Suppose that the supply doubles on each of these markets
+as a consequence of technological progress.
 
-1. Medicines have inelastic demand, while computers have elastic
-   demand. Suppose that the supply doubles on each of these markets
-   as a consequence of technological progress.
+a) What happens to the equilibrium of those markets?  Represent
+   graphically.
 
-   a) What happens to the equilibrium of those markets?  Represent
-      graphically.
+b) Which market will experience a larger change in price?  And a
+   larger change in quantity?
 
-   b) Which market will experience a larger change in price?  And a
-      larger change in quantity?
+c) How will consumer spending on each product be affected?
 
-   c) How will consumer spending on each product be affected?
+* 3.1
 
-2. When the government of a country increased the cigarette tax, the
-   price of cigarettes rose from \money{4} to \money{4.6} per
-   pack. Economists estimate that the quantity demanded dropped from
-   $52$ to $47.5$ million packs due to the price increase.  Calculate
-   the price elasticity of cigarette demand.
+When the government of a country increased the cigarette tax, the
+price of cigarettes rose from \money{4} to \money{4.6} per
+pack. Economists estimate that the quantity demanded dropped from
+$52$ to $47.5$ million packs due to the price increase.  Calculate
+the price elasticity of cigarette demand.
 
-3. Two drivers pull up to the same gas station every Monday and place
-   their orders without checking first the price. While the first
-   driver always asks for 15 liters, the second one always asks for
-   20€ worth of gas. What are the price elasticities of demand for
-   gas of each driver?
+* 3.1
 
-4. Anna pays \money{2} for each unit of food, spends \money{5000} per
-   year in food and her annual income is \money{25000}. The price
-   elasticity of her demand for food is $-1$ while the income
-   elasticity is $0.5$. If Anna wins a \money{1000} grant that she
-   can spend freely on what she prefers, what would be her food
-   consumption?
+Two drivers pull up to the same gas station every Monday and place
+their orders without checking first the price. While the first driver
+always asks for 15 liters, the second one always asks for 20€ worth of
+gas. What are the price elasticities of demand for gas of each driver?
 
-5. The market for good $X$ is characterized by the demand and supply
-   functions:
-   #+begin_export latex
-   \begin{gather*}
-     X^d = 250 - 30 P_{X} - 5 P_{Y} + 2 I \\
-     X^o = 15 P_{X} - 25
-   \end{gather*}
-   #+end_export
-   where $I$ is the consumers' average income, and $P_Y$ is the price
-   of good $Y$. Currently, $I = \money{100}$ and $P_Y = \price{5}$.
+* 3.1
 
-   a) Calculate the equilibrium price and quantity and plot a
-      graph. Find the price elasticities of demand and supply at
-      equilibrium.
+Anna pays \money{2} for each unit of food, spends \money{5000} per
+year in food and her annual income is \money{25000}. The price
+elasticity of her demand for food is $-1$ while the income elasticity
+is $0.5$. If Anna wins a \money{1000} grant that she can spend freely
+on what she prefers, what would be her food consumption?
 
-   b) Calculate the cross elasticity of demand. What kind of
-      relationship holds between goods $X$ and $Y$?
+* 3.1
 
-   c) If the consumers' average income drops by \money{10},
-      can it be said that $X$ is an inferior good?
+The market for good $X$ is characterized by the demand and supply
+functions:
+#+begin_export latex
+\begin{gather*}
+  X^d = 250 - 30 P_{X} - 5 P_{Y} + 2 I \\
+  X^o = 15 P_{X} - 25
+\end{gather*}
+#+end_export
+where $I$ is the consumers' average income, and $P_Y$ is the price
+of good $Y$. Currently, $I = \money{100}$ and $P_Y = \price{5}$.
 
-6. The firm that operates a road tunnel is considering lowering the
-   toll it charges to the users of the tunnel. Currently, the toll is
-   \money{6} and 2400 drivers pass through the tunnel daily. A
-   consulting firm has estimated that the function $Q = \num{6000} -
-   \num{600} P$ accurately describes the daily demand of the tunnel.
+a) Calculate the equilibrium price and quantity and plot a
+   graph. Find the price elasticities of demand and supply at
+   equilibrium.
 
-   a) What is the elasticity of demand at the current toll?
+b) Calculate the cross elasticity of demand. What kind of
+   relationship holds between goods $X$ and $Y$?
 
-   b) If firm seeks to get higher returns, would it be reasonable to
-      reduce the toll?
+c) If the consumers' average income drops by \money{10}, can it be
+   said that $X$ is an inferior good?
 
-   c) Which toll would maximize the returns of the firm? What would
-      be the elasticity of demand in that case?
+* 3.1
 
-7. A football club offers \num{125000} season tickets. The demand
-   function for those tickets is:
-   #+begin_export latex
-   \[
-     Q^d = \num{125000} - 100 P +10 P_O + 10 M,
-   \]
-   #+end_export
-   where:
+The firm that operates a road tunnel is considering lowering the
+toll it charges to the users of the tunnel. Currently, the toll is
+\money{6} and 2400 drivers pass through the tunnel daily. A
+consulting firm has estimated that the function $Q = \num{6000} -
+\num{600} P$ accurately describes the daily demand of the tunnel.
 
-   - $P$ is the price of the season tickets.
+a) What is the elasticity of demand at the current toll?
 
-   - $P_O$ is the price of season tickets of other rival club whose
-     stadium is located in the same city.
+b) If firm seeks to get higher returns, would it be reasonable to
+   reduce the toll?
 
-   - $M$ is the average yearly income of football fans.
+c) Which toll would maximize the returns of the firm? What would
+   be the elasticity of demand in that case?
 
-   The rival club is selling its seasonal tickets at $P_O =
-   \money{600}$. It is estimated that $M = \money{15000}$.
+* 3.7
 
-   a) Plot the demand and supply curves of season tickets and find
-      the market equilibrium.
+A football club offers \num{125000} season tickets. The demand
+function for those tickets is:
+#+begin_export latex
+\[
+  Q^d = \num{125000} - 100 P +10 P_O + 10 M,
+\]
+#+end_export
+where:
 
-   b) Compute the price elasticities of demand and supply at
-      equilibrium and explain the obtained values.
+- $P$ is the price of the season tickets.
 
-   c) Compute the elasticity of demand with respect to the price for
-      the season tickets of the other club at equilibrium and explain
-      the value obtained.
+- $P_O$ is the price of season tickets of other rival club whose
+  stadium is located in the same city.
 
-   d) Calculate the income elasticity of demand at equilibrium and
-      explain the value obtained.
+- $M$ is the average yearly income of football fans.
+
+The rival club is selling its seasonal tickets at $P_O =
+\money{600}$. It is estimated that $M = \money{15000}$.
+
+a) Plot the demand and supply curves of season tickets and find
+   the market equilibrium.
+
+b) Compute the price elasticities of demand and supply at
+   equilibrium and explain the obtained values.
+
+c) Compute the elasticity of demand with respect to the price for
+   the season tickets of the other club at equilibrium and explain
+   the value obtained.
+
+d) Calculate the income elasticity of demand at equilibrium and
+   explain the value obtained.

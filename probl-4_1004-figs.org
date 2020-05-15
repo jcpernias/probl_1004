@@ -3,7 +3,7 @@
 #+TITLE: Exercises 4
 
 
-* Ex. 20: Taxes
+* 4.1 Taxes
 
 
 ** Before taxes
@@ -155,7 +155,7 @@
 #+end_src
 
 
-* Minimum price
+* 4.2 Minimum price
 
 #+begin_src latex :tangle fig-probl-4_1004-min-price.tex :noweb no
   \begin{tikzpicture}[xscale=4, yscale=4]
@@ -209,7 +209,7 @@
 #+end_src
 
 
-* Equilibrium and price ceiling
+* 4.4 Equilibrium and price ceiling
 
   #+begin_src latex :tangle fig-probl-4_1004-eq1.tex :noweb no
     \begin{tikzpicture}[xscale = 0.75, yscale = 2.28571]
@@ -259,7 +259,7 @@
   #+end_src
 
 
-* Subsidies
+* 4.6 Subsidies
 
 ** Subsidy to buyers
 

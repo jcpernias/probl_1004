@@ -3,12 +3,12 @@
 #+TITLE: Problems 5 Figures
 
 
-* Average and marginal product
+* 8.4 Average and marginal product
 
 
 ** Average and marginal product
 
-#+begin_src latex :tangle fig-probl-5_1004-ex4-pmgl.tex :noweb no
+#+begin_src latex :tangle fig-probl-8_1004-ex4-pmgl.tex :noweb no
   \begin{tikzpicture}[yscale=0.26666667, xscale=0.66666667]
 
     \draw[help lines]
@@ -40,7 +40,7 @@
 
 ** Total product
 
-#+begin_src latex :tangle fig-probl-5_1004-ex4-fprod.tex :noweb no
+#+begin_src latex :tangle fig-probl-8_1004-ex4-fprod.tex :noweb no
   \begin{tikzpicture}[yscale=0.1143, xscale=0.66666667]
     \draw[help lines]
        (4, 32) node[dot, label={above:$C$}] {}  -- (4, 0)
@@ -61,12 +61,12 @@
 #+end_src
 
 
-* Returns to scale
+* 8.8 Returns to scale
 
 
 ** Constant returns
 
-  #+begin_src latex :tangle fig-probl-5_1004-ex8-const-returns.tex
+  #+begin_src latex :tangle fig-probl-8_1004-ex8-const-returns.tex
     \begin{tikzpicture}<<ex8:xy-scale>>
 
       \draw [help lines, step = 1] (0, 0) grid (15,15) ;
@@ -105,9 +105,9 @@
     \end{tikzpicture}
    #+end_src
 
-** Increasing returns
+** 8.9 Increasing returns
 
-  #+begin_src latex :tangle fig-probl-5_1004-ex8-incr-returns.tex
+  #+begin_src latex :tangle fig-probl-8_1004-ex8-incr-returns.tex
     \begin{tikzpicture}<<ex8:xy-scale>>
 
       \draw [help lines, step = 1] (0, 0) grid (15,15) ;

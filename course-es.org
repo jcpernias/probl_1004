@@ -5,11 +5,11 @@
 #+AUTHOR: DA0204
 #+DATE: Curso 2020--2021
 
-#+OPTIONS: toc:nil ':t ^:{} num:1 H:2 title:nil
+#+OPTIONS: toc:nil ':t ^:{} num:2 H:2 title:nil
 
 
 #+LATEX_CLASS: probl
-#+LATEX_CLASS_OPTIONS: [notoc, Spanish]
+#+LATEX_CLASS_OPTIONS: [Spanish]
 
 #+LANGUAGE: es
 #+LATEX_HEADER: \newcommand*{\LANG}{es}

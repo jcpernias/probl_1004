@@ -1,72 +1,81 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
+* 1.1
+
+An economy produces two goods, vehicles and food, using labor as
+the only factor of production. There are \num{50000} labor hours
+available. The following table shows how many units of each good
+can be produced according to the labor hours devoted to each
+activity:
+
+#+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
+|-------------+--------------+---+-------------+--------------|
+| Labor       | Vehicles     |   | Labor       | Food         |
+| (hours)     | (units)      |   | (hours)     | (kg)         |
+|-------------+--------------+---+-------------+--------------|
+| \num{0}     | \num{0}      |   | \num{0}     | \num{0}      |
+| \num{12500} | \num{40000}  |   | \num{12500} | \num{50000}  |
+| \num{25000} | \num{70000}  |   | \num{25000} | \num{75000}  |
+| \num{37500} | \num{90000}  |   | \num{37500} | \num{90000}  |
+| \num{50000} | \num{100000} |   | \num{50000} | \num{100000} |
+|-------------+--------------+---+-------------+--------------|
+
+a) Draw the Production Possibility Frontier, PPF.
+
+b) What effect on the PPF would have an improvement on the
+   procedures used in the production of food that raises the output
+   per labor hour? And an organizational improvement in the
+   production chain of vehicles? And what would happen if both
+   improvements occur simultaneously as a result of a widespread
+   technical progress?
+
+c) Which would be the consequences on the PPF of the reduction of
+   the labor hours by half as a result of an armed conflict?
 
 
-1. An economy produces two goods, vehicles and food, using labor as
-   the only factor of production. There are \num{50000} labor hours
-   available. The following table shows how many units of each good
-   can be produced according to the labor hours devoted to each
-   activity:
+* 1.2
 
-   #+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
-   |-------------+--------------+---+-------------+--------------|
-   | Labor       | Vehicles     |   | Labor       | Food         |
-   | (hours)     | (units)      |   | (hours)     | (kg)         |
-   |-------------+--------------+---+-------------+--------------|
-   | \num{0}     | \num{0}      |   | \num{0}     | \num{0}      |
-   | \num{12500} | \num{40000}  |   | \num{12500} | \num{50000}  |
-   | \num{25000} | \num{70000}  |   | \num{25000} | \num{75000}  |
-   | \num{37500} | \num{90000}  |   | \num{37500} | \num{90000}  |
-   | \num{50000} | \num{100000} |   | \num{50000} | \num{100000} |
-   |-------------+--------------+---+-------------+--------------|
+The table below shows different efficient combinations for an
+economy in which only two goods are produced: $X$ and $Y$.
 
-   a) Draw the Production Possibility Frontier, PPF.
+#+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{>{\raggedleft\arraybackslash}p{2cm}}
+|-----+------------+------------|
+|     | $X$        | $Y$        |
+|-----+------------+------------|
+| *A* | \num{20}   | \num{0}    |
+| *B* | \num{18}   | \num{1}    |
+| *C* | \num{15}   | \num{2}    |
+| *D* | \num{11}   | \num{3}    |
+| *E* | \num{6}    | \num{4}    |
+| *F* | \num{0}    | \num{5}    |
+|-----+------------+------------|
 
-   b) What effect on the PPF would have an improvement on the
-      procedures used in the production of food that raises the output
-      per labor hour? And an organizational improvement in the
-      production chain of vehicles? And what would happen if both
-      improvements occur simultaneously as a result of a widespread
-      technical progress?
+a) Draw the PPF. What can be said about the particular shape of PPF?
 
-   c) Which would be the consequences on the PPF of the reduction of
-      the labor hours by half as a result of an armed conflict?
+b) Is it feasible to produce 2 units of $Y$ and 10 units of $X$?
+   What happens in this situation?
 
-2. The table below shows different efficient combinations for an
-   economy in which only two goods are produced: $X$ and $Y$.
+c) Construct a table that reflects the opportunity cost of
+   producing each unit of $Y$.
 
-   #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{>{\raggedleft\arraybackslash}p{2cm}}
-   |-----+------------+------------|
-   |     | $X$        | $Y$        |
-   |-----+------------+------------|
-   | *A* | \num{20}   | \num{0}    |
-   | *B* | \num{18}   | \num{1}    |
-   | *C* | \num{15}   | \num{2}    |
-   | *D* | \num{11}   | \num{3}    |
-   | *E* | \num{6}    | \num{4}    |
-   | *F* | \num{0}    | \num{5}    |
-   |-----+------------+------------|
+d) How many units of $X$ must be given up to produce the first
+   unit of $Y$? And the second one?
 
-   a) Draw the PPF. What can be said about the particular shape of PPF?
 
-   b) Is it feasible to produce 2 units of $Y$ and 10 units of $X$?
-      What happens in this situation?
+* 1.3
 
-   c) Construct a table that reflects the opportunity cost of
-      producing each unit of $Y$.
+The following figure shows the production possibilities frontier of
+an economy where only fish and coconuts are produced:
 
-   d) How many units of $X$ must be given up to produce the first
-      unit of $Y$? And the second one?
+#+MATS: fig fig-probl-1_1004-ppf-*.pdf
 
-3. The following figure shows the production possibilities frontier of
-   an economy where only fish and coconuts are produced:
+Sort the production options $A$, $B$, $C$, and $D$ from higher to
+lower opportunity cost of producing fish.
 
-   #+MATS: fig fig-probl-1_1004-ppf-*.pdf
 
-   Sort the production options $A$, $B$, $C$, and $D$ from higher to
-   lower opportunity cost of producing fish.
+* 1.4
 
-4. State whether the following sentence is true or false and justify
-   your answer: "When a great number of unemployed workers find a job,
-   the production possibilities frontier shifts to the right."
+State whether the following sentence is true or false and justify your
+answer: "When a great number of unemployed workers find a job, the
+production possibilities frontier shifts to the right."
