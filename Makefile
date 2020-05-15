@@ -192,7 +192,7 @@ $(builddir)/hdout-%-en.tex: $(builddir)/unit-%-en.tex | $(figdir)
 	$(file > $@, $(call tex-wrapper,Handout,unit-$*,en))
 
 ## latex to pdf
-$(outdir)/%.pdf: $(builddir)/%.tex | $(outdir)
+$(outdir)/%.pdf: $(builddir)/%.tex $(texdir)/probl.cls | $(outdir)
 	$(TEXI2DVI) --output=$@ $<
 
 # pdf dependencies
