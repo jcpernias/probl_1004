@@ -40,7 +40,7 @@
 %% Class loading
 %% --------------------------------------------------------------------------------
 \LoadClass[a4paper, 11pt, twoside]{article}
-
+\RequirePackage[11pt]{moresize}
 
 %% Load packages
 %% --------------------------------------------------------------------------------
@@ -86,7 +86,7 @@
 
 \RequirePackage{titling}
 
-\pretitle{\begin{flushleft}\LARGE\sffamily\bfseries\color{Title}}
+\pretitle{\begin{flushleft}\HUGE\sffamily\bfseries\color{Title}}
 \posttitle{\par\end{flushleft}}
 
 \preauthor{\begin{flushleft}\LARGE\sffamily\bfseries\color{Title}}
@@ -133,12 +133,12 @@ compact]{titlesec}
 
 \titleformat{name=\section}[hang]{%
   \color{Section}\LARGE\sffamily\bfseries}{%
-  \makebox[1.25cm][l]{\Huge\thesection.}}{0pt}{}
+  \makebox[1.25cm][l]{\rmfamily\slshape\HUGE\thesection}}{0pt}{}
 
 \titlespacing*{name=\section}{-1.25cm}{*7}{*1.5}
 
 \titleformat{name=\section, numberless}
-{\color{Section}\Large\sffamily\bfseries}
+{\color{Section}\LARGE\sffamily\bfseries}
 {}{0pt}{}
 
 \titlespacing*{name=\section, numberless}{0pc}{*7}{*1.5}
