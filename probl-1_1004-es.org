@@ -25,10 +25,6 @@ que se dediquen a cada actividad:
 a) Represente gráficamente la Frontera de Posibilidades de
    Producción, FPP.
 
-   #+begin_answer
-     #+MATS: fig fig-probl-1_1004-ppf-sh1-*.pdf
-   #+end_answer
-
 b) ¿Qué efecto tendría sobre la FPP una mejora en las técnicas de
    elaboración de comida que aumentara la producción por hora de
    trabajo? ¿Y una mejora organizativa en la cadena de producción
@@ -36,52 +32,58 @@ b) ¿Qué efecto tendría sobre la FPP una mejora en las técnicas de
    simultáneamente como consecuencia de un progreso técnico
    generalizado?
 
-   #+begin_answer
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       #+MATS: fig fig-probl-1_1004-ppf-sh2-*.pdf
-
-       #+latex: \begin{center}
-       #+latex: \begin{minipage}{0.8\linewidth}
-         Una mejora tecnológica en la producción de comida.
-       #+latex: \end{minipage}
-       #+latex: \end{center}
-     #+end_minipage
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       #+MATS: fig fig-probl-1_1004-ppf-sh3-*.pdf
-
-       #+latex: \begin{center}
-       #+latex: \begin{minipage}{0.8\linewidth}
-         Una mejora organizativa en la producción de automóviles.
-       #+latex: \end{minipage}
-       #+latex: \end{center}
-     #+end_minipage
-
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       #+MATS: fig fig-probl-1_1004-ppf-sh4-*.pdf
-     #+end_minipage
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       Mejoras en los dos sectores.
-     #+end_minipage
-   #+end_answer
-
 c) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad
    de las horas de trabajo como consecuencia de un conflicto
    bélico?
 
-   #+begin_answer
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       #+MATS: fig fig-probl-1_1004-ppf-sh5-*.pdf
-     #+end_minipage
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       Desplazamiento a la izquierda de la FPP.
-     #+end_minipage
-   #+end_answer
+
+** Answer                                                           :answer:
+
+a)
+   #+MATS: fig fig-probl-1_1004-ppf-sh1-*.pdf
+
+
+b)
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+     #+MATS: fig fig-probl-1_1004-ppf-sh2-*.pdf
+
+     #+latex: \begin{center}
+     #+latex: \begin{minipage}{0.8\linewidth}
+       Una mejora tecnológica en la producción de comida.
+     #+latex: \end{minipage}
+     #+latex: \end{center}
+   #+end_minipage
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+     #+MATS: fig fig-probl-1_1004-ppf-sh3-*.pdf
+
+     #+latex: \begin{center}
+     #+latex: \begin{minipage}{0.8\linewidth}
+       Una mejora organizativa en la producción de automóviles.
+     #+latex: \end{minipage}
+     #+latex: \end{center}
+   #+end_minipage
+
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+     #+MATS: fig fig-probl-1_1004-ppf-sh4-*.pdf
+   #+end_minipage
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+     Mejoras en los dos sectores.
+   #+end_minipage
+
+c)
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+     #+MATS: fig fig-probl-1_1004-ppf-sh5-*.pdf
+   #+end_minipage
+   #+attr_latex: :options {0.5\linewidth}
+   #+begin_minipage
+     Desplazamiento a la izquierda de la FPP.
+   #+end_minipage
+
 
 
 * 1.2
@@ -104,7 +106,19 @@ economía en la que únicamente se producen dos bienes: $X$ e $Y$.
 a) Represente la Frontera de Posibilidades de Producción, FPP. ¿Qué
    tiene de particular la forma de la FPP?
 
-   #+begin_answer
+b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades de
+   $X$?  ¿Qué ocurre en esta situación?
+
+c) Construya una tabla que refleje el coste de oportunidad de producir
+   cada unidad del bien $Y$.
+
+d) ¿A cuántas unidades de $X$ se debe renunciar para producir la
+   primera unidad de $Y$? ¿Y la segunda?
+
+
+** Answer                                                           :answer:
+
+a)
      #+attr_latex: :options {0.6\linewidth}
      #+begin_minipage
        #+MATS: fig fig-probl-1_1004-ppf-oc1-*.pdf
@@ -113,12 +127,8 @@ a) Represente la Frontera de Posibilidades de Producción, FPP. ¿Qué
      #+begin_minipage
        La FPP es cóncava.
      #+end_minipage
-   #+end_answer
 
-b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades de
-   $X$?  ¿Qué ocurre en esta situación?
-
-   #+begin_answer
+b)
      #+attr_latex: :options {0.6\linewidth}
      #+begin_minipage
        #+MATS: fig fig-probl-1_1004-ppf-oc2-*.pdf
@@ -127,33 +137,25 @@ b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades de
      #+begin_minipage
        La combinación es factible pero ineficiente.
      #+end_minipage
-   #+end_answer
 
-c) Construya una tabla que refleje el coste de oportunidad de producir
-   cada unidad del bien $Y$.
+c)
+   #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{r}*{3}{c}
+   |-----+----------+---------+------------+------------+---------------------------|
+   |     | $X$      | $Y$     | $\incr{X}$ | $\incr{Y}$ | $\abs{\incr{X}/\incr{Y}}$ |
+   |-----+----------+---------+------------+------------+---------------------------|
+   | *A* | \num{20} | \num{0} | ---        | ---        | ---                       |
+   | *B* | \num{18} | \num{1} | \num{-2}   | \num{1}    | \num{2}                   |
+   | *C* | \num{15} | \num{2} | \num{-3}   | \num{1}    | \num{3}                   |
+   | *D* | \num{11} | \num{3} | \num{-4}   | \num{1}    | \num{4}                   |
+   | *E* | \num{6}  | \num{4} | \num{-5}   | \num{1}    | \num{5}                   |
+   | *F* | \num{0}  | \num{5} | \num{-6}   | \num{1}    | \num{6}                   |
+   |-----+----------+---------+------------+------------+---------------------------|
 
-   #+begin_answer
-     #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{r}*{3}{c}
-     |-----+----------+---------+------------+------------+---------------------------|
-     |     | $X$      | $Y$     | $\incr{X}$ | $\incr{Y}$ | $\abs{\incr{X}/\incr{Y}}$ |
-     |-----+----------+---------+------------+------------+---------------------------|
-     | *A* | \num{20} | \num{0} | ---        | ---        | ---                       |
-     | *B* | \num{18} | \num{1} | \num{-2}   | \num{1}    | \num{2}                   |
-     | *C* | \num{15} | \num{2} | \num{-3}   | \num{1}    | \num{3}                   |
-     | *D* | \num{11} | \num{3} | \num{-4}   | \num{1}    | \num{4}                   |
-     | *E* | \num{6}  | \num{4} | \num{-5}   | \num{1}    | \num{5}                   |
-     | *F* | \num{0}  | \num{5} | \num{-6}   | \num{1}    | \num{6}                   |
-     |-----+----------+---------+------------+------------+---------------------------|
-   #+end_answer
 
-d) ¿A cuántas unidades de $X$ se debe renunciar para producir la
-   primera unidad de $Y$? ¿Y la segunda?
+d) Para poder producir la primera unidad de $Y$ hay que renunciar a
+   $2$ unidades de $X$, mientras que el coste de oportunidad de la
+   segunda es $3$ unidades de $X$.
 
-   #+begin_answer
-     Para poder producir la primera unidad de $Y$ hay que renunciar
-     a $2$ unidades de $X$, mientras que el coste de oportunidad de
-     la segunda es $3$ unidades de $X$.
-   #+end_answer
 
 
 * 1.3
@@ -166,24 +168,26 @@ producción de una economía donde sólo se producen cocos y pescado:
 Ordene las opciones de producción $A$, $B$, $C$ y $D$ de mayor a
 menor coste de oportunidad de producir pescado.
 
-#+begin_answer
-  El coste de oportunidad sería mayor en $D$ que en $A$, ya que la
-  pendiente es más pronunciada en $D$.  Combinaciones como $B$ no
-  son eficientes y el coste de oportunidad es $0$. Puntos como
-  el $C$ son inaccesibles y el coste de oportunidad no está
-  definido.
-#+end_answer
+
+** Answer                                                           :answer:
+
+El coste de oportunidad sería mayor en $D$ que en $A$, ya que la
+pendiente es más pronunciada en $D$.  Combinaciones como $B$ no son
+eficientes y el coste de oportunidad es $0$. Puntos como el $C$ son
+inaccesibles y el coste de oportunidad no está definido.
+
 
 
 * 1.4
 
-Determine si la siguiente afirmación es verdadera o falsa y
-justifique su respuesta: "Cuando un gran número de desempleados
-encuentra trabajo, la frontera de posibilidades de producción se
-desplaza hacia la derecha."
+Determine si la siguiente afirmación es verdadera o falsa y justifique
+su respuesta: "Cuando un gran número de desempleados encuentra
+trabajo, la frontera de posibilidades de producción se desplaza hacia
+la derecha."
 
-#+begin_answer
-  La FPP no se desplaza ya que no hay más factores de producción
-  que en la situación inicial. La economía se mueve de un punto
-  ineficiente a otro, ambos situados debajo de la FPP.
-#+end_answer
+
+** Answer                                                           :answer:
+
+La FPP no se desplaza ya que no hay más factores de producción que en
+la situación inicial. La economía se mueve de un punto ineficiente a
+otro, ambos situados debajo de la FPP.

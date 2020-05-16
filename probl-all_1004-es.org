@@ -6,34 +6,34 @@
 
 #+include: "probl-1_1004-es.org" :lines "3-"
 
-# * Mercados competitivos
+* COMMENT Mercados competitivos
 
-# #+include: "probl-2_1004-es.org" :lines "3-"
+#+include: "probl-2_1004-es.org" :lines "3-"
 
-# * La elasticidad
+* COMMENT La elasticidad
 
-# #+include: "probl-3_1004-es.org" :lines "3-"
+#+include: "probl-3_1004-es.org" :lines "3-"
 
-# * La intervención del Estado en mercados competitivos
+* COMMENT La intervención del Estado en mercados competitivos
 
-# #+include: "probl-4_1004-es.org" :lines "3-"
+#+include: "probl-4_1004-es.org" :lines "3-"
 
-# * La elección del consumidor
+* COMMENT La elección del consumidor
 
-# #+include: "probl-5_1004-es.org" :lines "3-"
+#+include: "probl-5_1004-es.org" :lines "3-"
 
-# * La demanda
+* COMMENT La demanda
 
-# #+include: "probl-6_1004-es.org" :lines "3-"
+#+include: "probl-6_1004-es.org" :lines "3-"
 
-# * La elección intertemporal
+* COMMENT La elección intertemporal
 
-# #+include: "probl-7_1004-es.org" :lines "3-"
+#+include: "probl-7_1004-es.org" :lines "3-"
 
-# * La producción
+* COMMENT La producción
 
-# #+include: "probl-8_1004-es.org" :lines "3-"
+#+include: "probl-8_1004-es.org" :lines "3-"
 
-# * Los costes
+* COMMENT Los costes
 
-# #+include: "probl-9_1004-es.org" :lines "3-"
+#+include: "probl-9_1004-es.org" :lines "3-"
