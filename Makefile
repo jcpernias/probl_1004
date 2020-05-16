@@ -2,7 +2,8 @@ SHELL := /bin/sh
 
 subject_code := 1004
 probl_units := all
-probl_figs := 1 2 3 4 5 6 7 8 9
+# probl_figs := 1 2 3 4 5 6 7 8 9
+probl_figs := 1
 
 TEXI2DVI_SILENT := -q
 # TEXI2DVI_SILENT :=
@@ -64,7 +65,7 @@ no_ans_en := $(addsuffix _$(subject_code)-en, \
 
 docs_es := $(no_ans_es) $(with_ans_es)
 # docs_en := $(no_ans_en) $(with_ans_en)
-docs_en := $(no_ans_en)
+# docs_en := $(no_ans_en)
 
 docs_base := $(docs_es) $(docs_en)
 docs_pdf := $(addprefix $(outdir)/, $(addsuffix .pdf, $(docs_base)))
