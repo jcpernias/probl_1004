@@ -1,158 +1,157 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-#+TITLE: Exercise Booklet 6
+* 6.1
 
-#+latex: \newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
-#+MACRO: Inc Inc@@latex:\@.@@
+The utility function of a consumer is $U = X^2 Y$, her income is $M =
+\money{100}$ and the prices of the goods are $P_X = \price{10}$ and
+$P_Y = \price{10}$. Obtain the income consumption curve and the Engel
+curve for good $X$. Calculate the income elasticity of $X$. What kind
+of good is X?
 
-1. The production function of a firm is: $Q = L^{1/2} K^{1/2}$ and the
-   input prices are $w =\price{10}$ and $r = \price{20}$. In the short
-   run the capital input is fixed at $\Kbar = \units{25}$.
 
-   a) Obtain and represent the total cost, fixed cost and variable
-      cost curves.
+* 6.2
 
-   b) Obtain and represent the average cost, average variable cost and
-      marginal cost curves.
+Consider a consumer who only buys two goods. Is it possible that they
+are both inferior goods simultaneously?
 
-   c) At which output level is average cost minimized?  Which is
-      the minimum average cost?
 
-2. Complete the following table describing the short run costs of a
-   company.
+* 6.3
 
-   #+ATTR_LATEX: :booktabs t :center t :align @{}l*{7}{R{1.3cm}}@{}
-   |-----+-------+-------+-------+--------+--------+---------+---------|
-   | $Q$ | $\CT$ | $\CF$ | $\CV$ | $\CMg$ | $\CMe$ | $\CFMe$ | $\CVMe$ |
-   |-----+-------+-------+-------+--------+--------+---------+---------|
-   | $0$ |       |       |       | ---    | ---    | ---     | ---     |
-   | $1$ | $86$  |       |       |        |        |         |         |
-   | $2$ |       |       | $46$  |        |        |         |         |
-   | $3$ |       |       |       | $17$   |        |         |         |
-   | $4$ |       |       |       |        |        |         | $19$    |
-   | $5$ |       |       |       |        | $29$   |         |         |
-   | $6$ | $150$ |       | $90$  |        |        |         |         |
-   |-----+-------+-------+-------+--------+--------+---------+---------|
+A consumer purchases only two goods whose prices are $P_X =
+\price{1}$ and $P_Y = \price{1}$. The following figure shows her
+income consumption curve:
 
-3. The production function of a company is given by: $Q = K L$. The
-   hourly wage is \wage{2} and the price of capital input is
-   \price{4}. Determine the input combination that minimizes the cost
-   of producing 5000 units. Which is the minimum cost?
+#+MATS: fig fig-probl-6_1004-crc1-*.pdf
 
-4. The owner of a company has drawn the following diagram to decide
-   how many units of labor and capital she should hire in the long
-   run. In order to draw the isocost lines she has used the input
-   prices $w = \money{16}$ and $r = \money{40}$.
+a) If $M = \money{70}$, how many units would she demand of each one
+   of the goods?
 
-   #+MATS: fig fig-probl-6_1004-choice-*.pdf
+b) Is any of the two goods an inferior good? For what values of the
+   income?
 
-   a) Complete the diagram by labeling the intersections of the
-      isocost lines with the horizontal axis. What is the meaning of
-      these intersection points?
 
-   b) If 150 units are produced at a total cost of \money{440}, is the
-      firm minimizing the cost of production?
+* 6.4
 
-   c) If $\PMgK = 30$ when costs are minimized, which is the value of
-      $\PMgL$?
+Consider a competitive economy where all consumers have the same
+preferences and consume some units of good $X$ and good $Y$. Will they
+all buy the same amount of $X$? Will there be differences in the
+valuation of good $X$ by each consumer?
 
-5. Sauron {{{Inc}}} is a company dedicated to the production of
-   exclusive rings using labor and 3D printers. The daily production
-   would increase by 18 rings if the company hires one more
-   worker. If, instead of increasing the staff, the company rents an
-   additional printer the daily production would rise by 6
-   rings. Knowing that the daily wage is 4 times the daily rental
-   price of a 3D printer, is Sauron {{{Inc}}} minimizing its costs?
-   If your answer is no, what could Sauron {{{Inc}}} do to reduce its
-   costs? Justify your answers.
 
-6. A company's production function is: $Q = L^{3/2} K^{1/2}$. The
-   company currently hires 144 hours of labor and 12 units of
-   capital. If this is the optimal long run input combination and if
-   total costs are equal to \money{1152}, which are the prices of
-   capital and labor inputs?
+* 6.5
 
-7. The production function of a company is: $F(L, K) = L^{2} K$ and
-   the input prices are: $w = \wage{16}$ and $r = \price{8}$.
+The preferences of a consumer can be represented by the utility
+function:
+#+begin_export latex
+\[
+  U (X, Y) = X Y + 24 Y
+\]
+#+end_export
+The price of good $X$ is \price{6}, the price of good $Y$ is
+\price{8} and the consumer has an income of \money{240}.
 
-   a) Obtain the long run conditional demand curves for each factor of
-      production.
+a) Obtain the price-consumption curve. What kind of relationship
+   exists between $X$ and $Y$?
 
-   b) Determine the long run cost curve, as well as the average and
-      marginal cost curves. Which is the total cost of producing
-      $8000$ units?
+b) Obtain the demand curve for good $X$.
 
-8. The long run total cost curve of a company is:
-   #+begin_export latex
-   \[
-     \CT(Q) = Q^3 - 8 Q^2 + 22 Q
-   \]
-   #+end_export
-   Obtain and represent the average cost and marginal cost
-   curves. Which is the minimum unit cost? At which output level is
-   the unit cost minimized? Over which range of output does the
-   company experience economies of scale? And diseconomies of scale?
 
-9. Consider the production function: $Q = K L$. The factor prices are
-   $w= \wage{1}$ and $r=\price{1}$ and the capital input in the short
-   run is fixed at $\Kbar = \units{3}$.
+* 6.6
 
-   a) Determine the short run cost curve.
+Both Adela and Blas have \money{100} to spend on goods $X$ and
+$Y$. Adela only cares about how many units of $X$ she can consume,
+since she do not get any satisfaction from good $Y$. On the other
+side, Blas is always willing to exchange a unit of good $X$ for a
+unit of good $Y$. The prices of the goods are $P_X = \price{2}$ and
+$P_Y = \price{4}$. Obtain the demand curves for good $X$ of Adela
+and Blas.
 
-   b) Obtain the long run cost curve.
 
-   b) What is the single output level at which the long run and
-      short run costs coincide? Why? What does happen at any other
-      output level? Represent graphically.
-      #+latex: \clearpage
+* 6.7
 
-10. The following figure shows some isoquants of a firm's production
-    function:
+The preferences of a consumer are given by the utility function:
+$U(X, Y) = X^{1/4} Y^{1/8}$ and her income is $M = \money{17496}$.
+Prices are $P_X = \price{54}$ and $P_Y = \price{36}$.
 
-    #+MATS: fig fig-probl-6_1004-expansion-*.pdf
+a) Obtain the demand curve for good $X$.
 
-    The daily wage amounts to \money{80} per worker.  Each unit of
-    capital that uses the company also costs \money{80} per day. In
-    the short run the firm can only use 4 units of capital: $\Kbar =
-    4$.
+b) Calculate how much the consumption of the two goods varies when the
+   price of good $X$ decreases to $P_X = \price{16}$.
 
-    a) Calculate the short run cost of producing $40$ units. Calculate
-       also the short run cost of producing $160$ and $360$ units.
+c) Decompose the impact on each good's consumption into the
+   corresponding income and substitution effects.  What is
+   the sign of these effects?
 
-    b) Calculate the long run cost of producing $40$, $160$ and $360$
-       units. Do the short run and long run costs coincide at any
-       output level?
 
-11. Explain why the following statements are correct or incorrect (if
-    appropriate, use diagrams to illustrate your points):
+* 6.8
 
-    a) The average cost is maximized when it coincides with the
-       marginal cost.
+The goods $X$ and $Y$ are perfect complements. Represent
+graphically how the optimal consumption choice would change if the
+price of good $X$ increases. Decompose the total effect on the
+consumption of $X$ into the substitution effect and the income
+effect.
 
-    c) If marginal cost is higher than the average cost in the long
-       run, the company is operating under increasing returns to
-       scale.
 
-    c) The long run cost can never be greater than the short run cost.
+* 6.9
 
-12. A small company dedicated to the production of electrical guitars
-    is considering the possibility of opening a new factory. When
-    using a single factory, the average cost curve is:
-    #+begin_export latex
-    \[
-      \CMe_1(Q) = 0.01 Q^2 - 6 Q + 1400
-    \]
-    #+end_export
-    where $Q$ is the number of guitars produced per year. With two
-    factories the average cost curve would be:
-    #+begin_export latex
-    \[
-      \CMe_2(Q) = 0.01 Q^2 -12 Q + 4100
-    \]
-    #+end_export
+Dulce keeps buying the same amount of salt even though its price
+has decreased by 50%. Does this mean that the substitution effect
+is zero? Is salt an inferior good for Dulce?
 
-    a) If the company expects to sell 600 guitars next year, should it
-       run one or two factories?
 
-    b) Obtain and represent the long run average cost curve.
+* 6.10
+
+"The quantity demanded of a Giffen good increases with its price
+and also increases when the consumer's income increases." Is the
+previous statement correct? Justify your answer.
+
+
+* 6.11
+
+The following graph shows the optimal choices of a consumer before
+and after a decrease in the price of good $X$:
+
+#+MATS: fig fig-probl-6_1004-fxs-*.pdf
+
+Note that the slopes of the indifference curves are the same in
+the baskets $A$ and $B$, on the one hand, and in the baskets $C$
+and $D$, on the other hand.
+
+Decompose the total effect on consumption of $X$ into the income
+effect and the substitution effect. Obtain the signs of these
+effects and determine what kind of good is $X$ for this consumer.
+
+
+* 6.12
+
+The mayor of Lazy Town has decided to introduce a new tax on
+sugary drinks of \money{0.50} per can of soda. The tax is
+completely transferred to buyers and the price of the can
+increases from \money{0.50} to \money{1.00}.
+
+Stephanie is a typical citizen of Lazy Town whose utility function
+is:
+#+begin_export latex
+\[
+  U (S, Y) = (S + 20)^{0.1} Y^{0.9}
+\]
+#+end_export
+where $S$ is the number of soda cans she consumes and $Y$ is a
+composite good that includes her remaining expenditure on
+food. Stephanie has \money{470} every month to spend on $S$ and
+$Y$.
+
+a) How many cans of soda did Stephanie consume per month before
+   the introduction of the tax?
+
+b) Calculate Stephanie's optimal choice after the introduction of
+   the tax. Is this tax effective in reducing her consumption of
+   sugary drinks? How much money will she pay for the tax?
+
+c) In view of the increasing complaints from the inhabitants of
+   the city, the mayor decides to keep the tax and give
+   \money{14.50} in cash to each citizen. Calculate how many cans
+   will Stephany consume now. Is she still consuming less soda
+   than in the initial situation?  Is the city council spending
+   more money than the amount collected with the tax?

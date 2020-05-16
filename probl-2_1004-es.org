@@ -1,521 +1,350 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-#+TITLE: Cuaderno de ejercicios 2
+* 2.1
+
+Hay tres compradores en un mercado cuyas curvas de demanda son:
+
+#+ATTR_LATEX: :center t :align lc
+| Comprador 1: | $Q^d_1(P) = 1000 - 10 P$ |
+| Comprador 2: | $Q^d_2(P) = 600 - 2 P$   |
+| Comprador 3: | $Q^d_3(P) = 750 - 5 P$   |
+
+Determine la curva de demanda de mercado.
+
+#+begin_answer
+- Si $P \leq 100$ participan los 3 compradores:
+  #+begin_export latex
+  \[
+    Q^d(P) = Q^d_1(P) + Q^d_2(P) + Q^d_3(P) = 2350 - 17 P
+  \]
+  #+end_export
+
+- Si $100 < P \leq 150$ compran 2 y 3:
+  #+begin_export latex
+  \[
+    Q^d(P) = Q^d_2(P) + Q^d_3(P) = 1350 - 7 P
+  \]
+  #+end_export
+
+- Si $150 < P \leq 300$ sólo compra 2:
+  #+begin_export latex
+  \[
+    Q^d(P) = Q^d_2(P) = 600 - 2 P
+  \]
+  #+end_export
+
+#+attr_latex: :options {0.40\linewidth}
+#+begin_minipage
+  #+MATS: fig fig-probl-2_1004-market-demand-*.pdf
+#+end_minipage
+#+attr_latex: :options [b]{0.60\linewidth}
+#+begin_minipage
+  #+begin_export latex
+  \[
+    Q^d(P) =
+    \begin{cases}
+      600 - 2 P   & \text{si $150 < P \leq 300$} \\
+      1350 - 7 P  & \text{si $100 < P \leq 150$} \\
+      2350 - 17 P & \text{si $P \leq 100$} \\
+    \end{cases}
+  \]
+  #+end_export
+
+#+end_minipage
+#+end_answer
 
 
-1. Una consumidora gasta su renta $M$ en los bienes $X$ e $Y$.
+* 2.2
 
-   a) ¿Como cambiaría su recta presupuestaria si se estableciera un
-      impuesto sobre el consumo y el precio de ambos bienes aumentara
-      un 25%?
+Considere un mercado competitivo donde participan \num{1000}
+compradores idénticos, cada uno de ellos con curva de demanda:
+#+begin_export latex
+\[
+  Q^d_i(P) = 5 - P, \qquad i = 1, ..., \num{1000}.
+\]
+#+end_export
+En el mercado hay también \num{625} empresas idénticas con curva de
+oferta:
+#+begin_export latex
+\[
+  Q^o_j(P) = 2.4 P , \qquad j = 1, ..., \num{625}.
+\]
+#+end_export
 
-      #+begin_answer
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
-      #+MATS: fig fig-probl-2_1004-budget-tax1-*.pdf
-      #+end_minipage
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
-        La recta presupuestaria después del impuesto al consumo es:
-        \begin{equation*}
-          M = 1.25 P_X X + 1.25 P_Y Y
-        \end{equation*}
-      #+end_minipage
-      #+end_answer
+a) Halle y represente el equilibrio de mercado.
 
-   b) ¿Y si, en vez del impuesto al consumo, se estableciera un
-      impuesto sobre la renta y $M$ se redujera un 25%?
+   #+begin_answer
+     #+attr_latex: :options {0.4\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-2_1004-market-eq-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.6\linewidth}
+     #+begin_minipage
+     - Demanda y oferta de mercado:
+       #+begin_export latex
+       \begin{gather*}
+         Q^d(P) = 5000 - 1000 P \\
+         Q^o(P) = 1500 P
+       \end{gather*}
+       #+end_export
+     #+end_minipage
+   #+end_answer
 
-      #+begin_answer
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
-      #+MATS: fig fig-probl-2_1004-budget-tax2-*.pdf
-      #+end_minipage
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
-        La recta presupuestaria después del impuesto a la renta es:
-        \begin{equation*}
-          0.75 M = P_X X + P_Y Y
-        \end{equation*}
-      #+end_minipage
-      #+end_answer
+b) ¿Qué ocurriría si el precio fuera \price{4}? ¿Y si fuera
+   \price{1}?
 
-   c) ¿Qué opción preferiría la consumidora?
+   #+begin_answer
+   Si el precio de mercado es $P = \price{4}$ se produce un exceso
+   de oferta de \units{5000}.
 
-      #+begin_answer
-        La restricción del apartado /a/) puede escribirse como:
-        \begin{equation*}
-          0.8 M = P_X X + P_Y Y
-        \end{equation*}
-        Preferiría el impuesto al consumo.
-      #+end_answer
+   Si el precio de mercado es $P = \price{1}$ se produce un exceso
+   de demanda de \units{2500}.
+   #+end_answer
 
-2. Un consumidor dispone de \money{20} para comprar carne y
-   patatas. Suele comprar en un supermercado donde la carne se vende a
-   \price[kg]{4} y un kilo de patatas cuesta \money{2}.
 
-   a) Obtenga y represente la restricción presupuestaria.
+* 2.3
 
-      #+begin_answer
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
-      #+MATS: fig fig-probl-2_1004-budget1-*.pdf
-      #+end_minipage
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
-        La restricción presupuestaria original es:
-        \begin{equation*}
-          20 = 4 C + 2 P
-        \end{equation*}
-      #+end_minipage
-      #+end_answer
+"El precio de la gasolina aumentó considerablemente durante los
+años que van desde 2003 hasta 2006 y, sin embargo, el consumo de
+gasolina creció." ¿Contradice esta afirmación la ley de la demanda?
 
-   b) El supermercado introduce una oferta por la que los clientes que
-      compren más de \units[kg]{4} de patatas recibirán gratis 2 kilos
-      más. Obtenga y represente la restricción presupuestaria
-      en este caso.
+#+begin_answer
+  No: la ley de la demanda sólo es válida cuando lo único que
+  cambia es el precio. A lo largo del periodo 2003--2006 cambiaron
+  también otros determinantes de la demanda de gasolina.
+#+end_answer
 
-      #+begin_answer
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
-      #+MATS: fig fig-probl-2_1004-budget2-*.pdf
-      #+end_minipage
-      #+attr_latex: :options {0.5\linewidth}
-      #+begin_minipage
-        Nueva restricción presupuestaria:
-        \begin{equation*}
-          C =
-          \begin{cases}
-            5 - P / 2 & \text{si $P < 4$} \\
-            6 - P / 2 & \text{si $P \geq 6$}
-          \end{cases}
-        \end{equation*}
-      #+end_minipage
-      #+end_answer
 
-3. A Amaia le gusta el pescado, mientras que el pollo ni le gusta ni
-   le disgusta. Por su parte, a Alejandro no le gusta el pescado pero
-   sí el pollo y sólo está dispuesto a comer algo de pescado si a
-   cambio recibe una porción extra de pollo. Represente las
-   preferencias de Amaia y de Alejandro.
+* 2.4
+
+Considere un mercado competitivo de manzanas y trace un diagrama de
+oferta y demanda que muestre los efectos sobre el equilibrio de una
+enfermedad de los manzanos que perjudique a la cosecha. ¿Podrían
+aumentar los ingresos de los agricultores en este caso?  ¿Qué
+condiciones se tendrían que cumplir?
+
+#+begin_answer
+  #+attr_latex: :options {0.5\linewidth}
+  #+begin_minipage
+    #+MATS: fig fig-probl-2_1004-apples-*.pdf
+  #+end_minipage
+  #+attr_latex: :options {0.5\linewidth}
+  #+begin_minipage
+    La oferta de manzanas se reduce. Se venden menos manzanas a un
+    precio superior.
+
+    Los ingresos de los productores solo crecerán si el mercado se
+    encuentra en un tramo inelástico de la curva de demanda.
+  #+end_minipage
+#+end_answer
+
+
+* 2.5
+
+Un país se enfrenta a un aumento del consumo de drogas. Los
+expertos han propuesto dos explicaciones alternativas:
+
+- El presupuesto policial cada vez más reducido ha incrementado la
+  presencia de drogas en la calle.
+
+- Los recortes en programas educativos han reducido la consciencia
+  acerca de los peligros de las drogas.
+
+Utilice diagramas de oferta y demanda para analizar cada una de
+esas hipótesis. ¿Es posible discriminar entre esas dos
+explicaciones observando qué ha ocurrido con el precio y el
+consumo de drogas?
+
+#+begin_answer
+  #+attr_latex: :options {0.5\linewidth}
+  #+begin_minipage
+    #+latex: \begin{center}
+    #+latex: \begin{minipage}{0.85\linewidth}
+      Menor presupuesto policial.
+    #+latex: \end{minipage}
+    #+latex: \end{center}
+
+    #+MATS: fig fig-probl-2_1004-drugs1-*.pdf
+  #+end_minipage
+  #+attr_latex: :options {0.5\linewidth}
+  #+begin_minipage
+    #+latex: \begin{center}
+    #+latex: \begin{minipage}{0.85\linewidth}
+      Recortes en educación.
+    #+latex: \end{minipage}
+    #+latex: \end{center}
+
+    #+MATS: fig fig-probl-2_1004-drugs2-*.pdf
+  #+end_minipage
+
+  En los dos casos aumenta la cantidad consumida, pero el precio
+  disminuye en el primer escenario y aumenta en el segundo.
+#+end_answer
+
+
+* 2.6
+
+Las curvas de demanda y de oferta del mercado del bien $X$ son:
+#+begin_export latex
+\begin{gather*}
+  X^d = \num{85000} - 20 P_X \\
+  X^o = \num{15000} + 15 P_X
+\end{gather*}
+#+end_export
+
+a) Determine el precio y la cantidad de equilibrio.
+
+   #+begin_answer
+     #+attr_latex: :options {0.65\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-2_1004-comp1-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.35\linewidth}
+     #+begin_minipage
+       Equilibrio:
+       #+begin_export latex
+       \begin{gather*}
+         P^*_X = \price{2000} \\
+         X^* = \units{45000}
+       \end{gather*}
+       #+end_export
+     #+end_minipage
+   #+end_answer
+
+b) Represente gráficamente los efectos sobre el equilibrio de un
+   aumento del precio de un bien sustitutivo. ¿Es posible predecir
+   inequívocamente cómo cambiará el precio de equilibrio del bien
+   $X$? ¿Y la cantidad de equilibrio?
+
+   #+begin_answer
+     #+attr_latex: :options {0.55\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-2_1004-comp2-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.45\linewidth}
+     #+begin_minipage
+       El precio y la cantidad de equilibrio aumentan.
+     #+end_minipage
+   #+end_answer
+
+c) Partiendo del equilibrio inicial, considere ahora los efectos
+   de un aumento de la renta de los consumidores. ¿Es posible
+   predecir con total certeza cómo cambiarán el precio y la
+   cantidad de equilibrio?
 
    #+begin_answer
      #+attr_latex: :options {0.5\linewidth}
      #+begin_minipage
+       #+MATS: fig fig-probl-2_1004-comp2-*.pdf
        #+latex: \begin{center}
        #+latex: \begin{minipage}{0.85\linewidth}
-         Amaia: el pollo es neutral.
+         Bien normal: el precio y la cantidad aumentan.
        #+latex: \end{minipage}
        #+latex: \end{center}
-       #+MATS: fig fig-probl-2_1004-neutral-*.pdf
      #+end_minipage
-     #+attr_latex: :options {0.5\linewidth}
+     #+attr_latex: :options {0.55\linewidth}
      #+begin_minipage
+       #+MATS: fig fig-probl-2_1004-comp3-*.pdf
        #+latex: \begin{center}
-       #+latex: \begin{minipage}{0.95\linewidth}
-        Alejandro: el pescado es un mal.
+       #+latex: \begin{minipage}{0.85\linewidth}
+         Bien inferior: el precio y la cantidad se reducen.
        #+latex: \end{minipage}
        #+latex: \end{center}
-       #+MATS: fig fig-probl-2_1004-bad-*.pdf
      #+end_minipage
    #+end_answer
 
-4. Las preferencias de un consumidor pueden describirse con la
-   función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
-   de \money{900} y los precios son $P_X = \price{10}$ y $P_Y =
-   \price{5}$. Calcule y represente la elección óptima del consumidor.
+
+* 2.7
+
+El mercado de coches eléctricos de un país es competitivo y las
+curvas de demanda y oferta son:
+#+begin_export latex
+\begin{gather*}
+  Q^{d} = \num{10000} - P/6 \\
+  Q^{o} = -6000 + P/2
+\end{gather*}
+#+end_export
+a) Determine el precio y la cantidad de equilibrio.
 
    #+begin_answer
-     #+attr_latex: :options {0.5\linewidth}
+     #+attr_latex: :options {0.65\linewidth}
      #+begin_minipage
-     #+MATS: fig fig-probl-2_1004-choice-*.pdf
+       #+MATS: fig fig-probl-2_1004-cars1-*.pdf
      #+end_minipage
-     #+attr_latex: :options {0.5\linewidth}
+     #+attr_latex: :options {0.35\linewidth}
      #+begin_minipage
-       Recta presupuestaria:
+       Equilibrio:
        #+begin_export latex
-       \[
-         900 = 10 X + 5 Y
-       \]
-       #+end_export
-
-       Condición de tangencia:
-       #+begin_export latex
-       \[
-         Y = 4 X
-       \]
-       #+end_export
-
-       Cesta óptima:
-       #+begin_export latex
-       \[
-         X^* = \units{30} \quad Y^* = \units{120}
-       \]
+       \begin{gather*}
+         P^* = \price{24000} \\
+         Q^* = \units{6000}
+       \end{gather*}
        #+end_export
      #+end_minipage
    #+end_answer
 
-5. La cesta óptima de un consumidor con preferencias regulares
-   contiene cantidades positivas de todos los bienes. Si aumenta el
-   precio de un bien, ¿se reducirá la utilidad del consumidor?
-   Justifique su respuesta.
-
-   #+begin_answer
-     Con los nuevos precios no puede comprar la cesta inicial. Tiene
-     que elegir una cesta que podría haber elegido con los precios
-     iniciales pero no lo hizo: su utilidad es menor.
-   #+end_answer
-
-6. La función de utilidad de un consumidor es $U(X, Y) = X Y$. La
-   cesta óptima está compuesta por 10 unidades del bien $X$ y 5
-   unidades del bien $Y$. Sabiendo que el precio del bien $X$ es de
-   \price{6}, ¿cuál es la renta del consumidor?
-
-   #+begin_answer
-     Solución interior: $\RMS = Y/X = 5 / 10$ es igual a $P_X / P_Y =
-     6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
-   #+end_answer
-
-7. Una consumidora posee una renta de \money{40} que gasta en los
-   bienes $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
-   \price{2}$. Cuando ella consume $20$ unidades de $Y$ y ninguna de
-   $X$, la relación marginal de sustitución es igual a $2$. ¿Es esta
-   su elección óptima o estaría mejor comprando más unidades de $X$ y
-   menos de $Y$?
-
-   #+begin_answer
-     Cuando compra $X=0$ e $Y=2$, $\RMS = 2 > P_X/P_Y = 1.5$.  Su
-     utilidad aumentaría si disminuye el consumo de $Y$ y aumenta el
-     de $X$.
-   #+end_answer
-
-8. La función $U(N, Y) = (N+4) Y$ describe las preferencias de un
-   consumidor entre nueces, $N$, y un bien compuesto que recoge el
-   dinero gastado en todos los otros bienes, $Y$. El precio de las
-   nueces es $P_N = \price[kg]{8}$ y la renta del consumidor es $M =
-   \money{40}$.
-
-   a) Obtenga y represente la elección óptima del consumidor.
-
-      #+begin_answer
-        #+attr_latex: :options {0.55\linewidth}
-        #+begin_minipage
-        #+MATS: fig fig-probl-2_1004-walnut1-*.pdf
-        #+end_minipage
-        #+attr_latex: :options {0.45\linewidth}
-        #+begin_minipage
-          Recta presupuestaria:
-          #+begin_export latex
-          \[
-            40 = 8N + Y
-          \]
-          #+end_export
-
-          Condición de tangencia:
-          #+begin_export latex
-          \[
-            Y = 8N + 32
-          \]
-          #+end_export
-
-          Cesta óptima:
-          #+begin_export latex
-          \begin{gather*}
-            N^* = \units[kg]{0.500} \\
-            Y^* = \money{36.00}
-          \end{gather*}
-          #+end_export
-        #+end_minipage
-      #+end_answer
-
-   b) El Gobierno quiere fomentar el consumo de nueces y está
-      estudiando diferentes alternativas:
-
-      + Una subvención que reduce un 20% el precio de las nueces. La
-        subvención sólo se puede aplicar a la compra de un kilo y
-        medio de nueces por consumidor.
-
-      + Entregar a cada consumidor un vale que puede canjearse por un
-        kilo y medio de nueces.
-
-      + Entregar a cada consumidor \money{12} en metálico.
-
-      ¿Qué elegiría el consumidor en cada uno de estos casos?
-
-      #+begin_answer
-        #+attr_latex: :options {0.55\linewidth}
-        #+begin_minipage
-        #+MATS: fig fig-probl-2_1004-walnut2-*.pdf
-        #+end_minipage
-        #+attr_latex: :options {0.45\linewidth}
-        #+begin_minipage
-          Subvención (la restricción se quiebra en $X = 1.5$ e $Y =
-          30.4$). Cesta óptima:
-          #+begin_export latex
-          \begin{gather*}
-            N^* = \units[kg]{1.125} \\
-            Y^* = \money{32.80}
-          \end{gather*}
-          #+end_export
-        #+end_minipage
-
-        #+attr_latex: :options {0.55\linewidth}
-        #+begin_minipage
-        #+MATS: fig fig-probl-2_1004-walnut3-*.pdf
-        #+end_minipage
-        #+attr_latex: :options {0.45\linewidth}
-        #+begin_minipage
-          Donación especie:
-          #+begin_export latex
-          \begin{gather*}
-            N^* = \units[kg]{1.500} \\
-            Y^* = \money{40.00}
-          \end{gather*}
-          #+end_export
-        #+end_minipage
-
-        #+attr_latex: :options {0.55\linewidth}
-        #+begin_minipage
-        #+MATS: fig fig-probl-2_1004-walnut4-*.pdf
-        #+end_minipage
-        #+attr_latex: :options {0.45\linewidth}
-        #+begin_minipage
-          Donación metálico:
-          #+begin_export latex
-          \begin{gather*}
-            N^* = \units[kg]{1.250} \\
-            Y^* = \money{42.00}
-          \end{gather*}
-          #+end_export
-        #+end_minipage
-     #+end_answer
-
-   c) ¿Qué alternativa preferiría el consumidor? Razone su respuesta.
-
-      #+begin_answer
-        La donación en metálico le permite alcanzar un mayor nivel de
-        utilidad.
-      #+end_answer
-
-9. Un consumidor dispone de una renta de \money{800} para comprar los
-   bienes $X$ e $Y$, cuyos precios son $P_X = \price{4}$ y $P_Y =
-   \price{2}$. Sus preferencias pueden describirse con la función de
-   utilidad:
+b) Calcule y represente el nuevo equilibrio si la demanda aumenta
+   en un 20% (la cantidad demandada es un 20% superior para cada
+   precio) y la oferta pasa a ser:
    #+begin_export latex
    \[
-     U(X, Y) = X^{0.25} Y^{0.75}
+     Q^o = -2700 + P/2
    \]
    #+end_export
 
-   a) Obtenga la elección óptima del consumidor.
+   #+begin_answer
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       #+MATS: fig fig-probl-2_1004-cars2-*.pdf
+     #+end_minipage
+     #+attr_latex: :options {0.5\linewidth}
+     #+begin_minipage
+       - Curva de demanda:
+         #+begin_export latex
+         \[
+           Q^d = \num{12000} - P/5
+         \]
+         #+end_export
+   - Equilibrio:
+     #+begin_export latex
+     \begin{gather*}
+       P^* = \price{21000} \\
+       Q^* = \units{7800}
+     \end{gather*}
+     #+end_export
+     #+end_minipage
+   #+end_answer
 
-      #+begin_answer
-        #+attr_latex: :options {0.55\linewidth}
-        #+begin_minipage
-        #+MATS: fig fig-probl-2_1004-discount1-*.pdf
-        #+end_minipage
-        #+attr_latex: :options {0.45\linewidth}
-        #+begin_minipage
-          Recta presupuestaria:
-          #+begin_export latex
-          \[
-            800 = 4 X + 2 Y
-          \]
-          #+end_export
 
-          Condición de tangencia:
-          #+begin_export latex
-          \[
-            Y = 6 X
-          \]
-          #+end_export
+* 2.8
 
-          Cesta óptima:
-          #+begin_export latex
-          \begin{gather*}
-            X^* = \units{50} \\
-            Y^* = \units{300}
-          \end{gather*}
-          #+end_export
-        #+end_minipage
-      #+end_answer
+El mercado de un bien inferior se encuentra en equilibrio. Si
+simultáneamente aumentan los costes de producción y la renta de
+los consumidores, ¿disminuirán tanto el precio como la cantidad en
+el nuevo equilibrio?
 
-   b) Si se aplicara un descuento de \money{2} a cada unidad de $X$
-      por encima de las primeras 75 unidades, ¿cómo cambiaría la
-      elección óptima?
-
-      #+Begin_answer
-        La restricción presupuestaria tiene dos tramos:
-        #+begin_export latex
-        \[
-          Y =
-          \begin{cases}
-            400 - 2 X & \text{si $X < 75$} \\
-            325 - X & \text{si $X \geq 75$}
-          \end{cases}
-        \]
-        #+end_export
-
-        Obtenemos la solución en cada uno de los tramos:
-
-        #+ATTR_LATEX: :booktabs t :center t :align lrr
-        |----------+-----------------------+-----------------------------|
-        |          | $X < 75$              | $X > 75$                    |
-        |----------+-----------------------+-----------------------------|
-        | RP       | $800 = 4 X + 2 Y$     | $650 = 2X + 2Y$             |
-        | CT       | $Y = 6 X$             | $Y = 3 X$                   |
-        | Óptimo   | $X^* = 50, Y^* = 300$ | $X^* = 81.25, Y^* = 243.75$ |
-        | Utilidad | $191.68$              | $185.21$                    |
-        |----------+-----------------------+-----------------------------|
-
-        Las dos soluciones cumplen las condiciones de óptimo interior,
-        pero la utilidad que obtiene el consumidor es mayor eligiendo
-        $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
-      #+end_answer
-
-10. Las preferencias de un consumidor vienen dadas por la función de
-    utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien $X$ es
-    \price{1} y el del bien $Y$ es \price{4}. El consumidor dispone de
-    una renta monetaria de \money{250}.
-
-    a) Determine la cesta óptima de consumo.
-
-       #+begin_answer
-         #+attr_latex: :options {0.5\linewidth}
-         #+begin_minipage
-         #+MATS: fig fig-probl-2_1004-corner1-*.pdf
-         #+end_minipage
-         #+attr_latex: :options {0.5\linewidth}
-         #+begin_minipage
-           Recta presupuestaria:
-           #+begin_export latex
-           \[
-             250 = X + 4 Y
-           \]
-           #+end_export
-           Relación marginal de sustitución:
-           #+begin_export latex
-           \[
-             \RMS = (Y + 100) / X
-           \]
-           #+end_export
-           Solución de esquina:
-           #+begin_export latex
-           \begin{gather*}
-             X^* = \units{250} \\
-             Y^* = \units{0}
-           \end{gather*}
-           #+end_export
-         #+end_minipage
-       #+end_answer
-
-    b) Si se racionara el bien $X$ de forma que no se permitiera a
-       nadie comprar más de 100 unidades de $X$, ¿cuál sería la
-       elección óptima?  Represente gráficamente.
-
-       #+begin_answer
-         #+attr_latex: :options {0.5\linewidth}
-         #+begin_minipage
-         #+MATS: fig fig-probl-2_1004-corner2-*.pdf
-         #+end_minipage
-         #+attr_latex: :options {0.5\linewidth}
-         #+begin_minipage
-           Elección óptima
-           #+begin_export latex
-           \begin{gather*}
-             X^* = \units{100} \\
-             Y^* = \units{37.5}
-           \end{gather*}
-           #+end_export
-         #+end_minipage
-       #+end_answer
-
-11. La función de utilidad de un individuo respecto de los bienes $X$ e
-    $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
-    $P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
-    consumidor es $M = \money{100}$.
-
-    a) ¿Es $(X,Y) = (10, 40)$ la cesta óptima? ¿Por qué?
-
-       #+begin_answer
-         No, no tiene suficiente renta para comprarla.
-       #+end_answer
-
-    b) ¿Cuál es la elección óptima del consumidor?
-
-       #+begin_answer
-         $\RMS = 1 > P_X / P_Y = 0.4$. Solución de esquina: $X^* = 50;
-         Y^* = 0$.
-       #+end_answer
-
-    c) ¿Cómo cambiaría la elección del consumidor si $P_X =
-       \price{10}$?
-
-       #+begin_answer
-         $\RMS = 1 < P_X / P_Y = 2$. Solución de esquina: $X^* = 0;
-         Y^* = 20$.
-       #+end_answer
-
-12. A Rocío le gusta tomar leche con cereales. Siempre los combina en
-    la misma proporción: añade exactamente \units[g]{20} de cereales
-    por cada \units[ml]{250} de leche y desecha cualquier cantidad
-    sobrante de leche o cereales.
-
-    a) Represente las preferencias de Rocío con respecto a la leche y
-       los cereales.
-
-       #+begin_answer
-         #+attr_latex: :options {0.55\linewidth}
-         #+begin_minipage
-         #+MATS: fig fig-probl-2_1004-compl1-*.pdf
-         #+end_minipage
-         #+attr_latex: :options {0.45\linewidth}
-         #+begin_minipage
-           Preferencias sobre $L$, litros de leche, y $C$, kg de cereales:
-           #+begin_export latex
-           \[
-             U = \min\{L/0.250, C/0.020\}
-           \]
-           #+end_export
-           Por tanto:
-           #+begin_export latex
-           \[
-             U = \min\{4L, 50C\}
-           \]
-           #+end_export
-         #+end_minipage
-       #+end_answer
-
-    b) Si Rocío gasta \money{6} al mes en leche y cereales, el precio
-       de la leche es de \price[l]{0.80} y el de los cereales es de
-       \price[kg]{2}, ¿cuál será su elección óptima?
-
-       #+begin_answer
-         #+attr_latex: :options {0.55\linewidth}
-         #+begin_minipage
-         #+MATS: fig fig-probl-2_1004-compl2-*.pdf
-         #+end_minipage
-         #+attr_latex: :options {0.45\linewidth}
-         #+begin_minipage
-           Restricción presupuestaria:
-           #+begin_export latex
-           \[
-             6 = 0.8 L + 2 C
-           \]
-           #+end_export
-           Proporciones exactas:
-           #+begin_export latex
-           \[
-             4L = 50C
-           \]
-           #+end_export
-           Óptimo:
-           #+begin_export latex
-           \begin{gather*}
-             L^* = \units[l]{6.250} \\
-             C^* = \units[kg]{0.500}
-           \end{gather*}
-           #+end_export
-         #+end_minipage
-       #+end_answer
+#+begin_answer
+  #+attr_latex: :options {0.5\linewidth}
+  #+begin_minipage
+    #+MATS: fig fig-probl-2_1004-inferior1-*.pdf
+    #+latex: \begin{center}
+    #+latex: \begin{minipage}{0.85\linewidth}
+      La cantidad de equilibrio disminuye. El precio baja si el
+      cambio en la oferta es relativamente menor que el cambio en
+      la demanda.
+    #+latex: \end{minipage}
+    #+latex: \end{center}
+  #+end_minipage
+  #+attr_latex: :options {0.5\linewidth}
+  #+begin_minipage
+    #+MATS: fig fig-probl-2_1004-inferior2-*.pdf
+    #+latex: \begin{center}
+    #+latex: \begin{minipage}{0.85\linewidth}
+      La cantidad de equilibrio disminuye. El precio sube si el
+      cambio en la oferta es relativamente mayor que el cambio en
+      la demanda.
+    #+latex: \end{minipage}
+    #+latex: \end{center}
+  #+end_minipage
+#+end_answer

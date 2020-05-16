@@ -1,86 +1,89 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-#+TITLE: Exercise Booklet 4
+* 4.1
 
-1. A consumer lives for two periods. Her income in the first period is
-   \money{1000} and in the second period is \money{3300}. The interest
-   rate is 10%. Her preferences are given by:
-   #+begin_export latex
-   \[
-     U(C_1, C_2) = C_1^{3/4} C_2^{1/4}
-   \]
-   #+end_export
+In a competitive market, the demand and supply curves are:
+#+begin_export latex
+\begin{gather*}
+  Q^d = \num{100000} - 20 P \\
+  Q^o = \num{40000} + 40 P
+\end{gather*}
+#+end_export
 
-   a) Obtain the consumer's intertemporal budget constraint and
-      represent it graphically. Which is the meaning of the points of
-      intersection with the axes?
+a) Determine the equilibrium price and quantity.
 
-   b) Obtain each period's optimal consumption. How much will the
-      consumer save? Represent graphically.
+b) <<ex4.1:item-b>>Describe and show graphically the effects on this
+   market of a tax of \money{150} per unit imposed on sellers. How
+   much money will buyers pay per unit? How much will sellers
+   receive per unit?
 
-2. "If there were no credit markets in which money could be lent and
-   borrowed, no consumer could save in the present period to consume
-   above her monetary income in the future." Is the previous statement
-   correct? Justify your answer. Represent the intertemporal budget
-   constraint of a consumer that does not have access to the credit
-   market.
+c) Explain how your answers in [[ex4.1:item-b]] would change if the tax
+   were levied on buyers.
 
-3. A consumer lives for two periods and can lend and borrow money at
-   an interest rate of 10%. In the first period she earns an income of
-   \money{1000} while in the second period she earns
-   \money{750}. Under these conditions the consumer decides not to
-   save anything. If the interest rate decreases to 5%, What would
-   happen to her savings? What situation would the consumer prefer: an
-   interest rate of 10% or 5%? Represent graphically.
+* 4.2
 
-4. The intertemporal preferences of a consumer are given by the
-   function: $U(C_1, C_2) = C_1 C_2^{1/2}$. Her income in the first
-   period is \money{200} and in the second period it is
-   \money{220}. The interest rate at which money is lent is 5%, and
-   the interest rate for borrowing is 10%.
+The market demand and supply curves for good $X$ are:
+#+begin_export latex
+\begin{gather*}
+  X^d = 100 - P_X / 40 \\
+  X^o = 50 + P_X / 40
+\end{gather*}
+#+end_export
 
-   a) Obtain the individual's budget constraint and represent it
-      graphically.
+a) Determine the equilibrium price and quantity.
 
-   b) Calculate the consumer's equilibrium and determine whether she
-      will lend or borrow.
+b) Describe and show graphically the effects on this market of
+   setting a minimum price at \price{1200}. How many units will
+   sell? At what price?
 
-   c) If the European Central Bank sets a single interest rate of 8%,
-      both to lend and to borrow money, calculate the new equilibrium
-      and determine whether the consumer's welfare improves or
-      worsens.
+* 4.3
 
-5. A consumer has preferences regarding her present consumption,
-   $C_1$, and her future consumption, $C_2$, that are represented by
-   the utility function: $U(C_1, C_2) = \min \{C_1, C_2\}$. The
-   consumer's income in each period is $M_1 = \money{4200}$ and $M_2 =
-   \money{1050}$, and the interest rate is $r = 0.1$.
+In a competitive market in equilibrium, \num{96000} units are sold
+at a price of \price{300}. The price elasticity of demand
+is $-1.5$, and the price elasticity of supply is equal to $2$. If
+a law that sets a maximum price of \price{294} is passed, which
+effect would it have on the market?
 
-   a) Determine the intertemporal budget constraint in future value
-      and represent it graphically.
+* 4.4
 
-   b) Determine whether the consumer saves or not, as well as her
-      consumption in each period.
+The market demand and supply curves for good $X$ are:
+#+begin_export latex
+\begin{gather*}
+  X = 200 - 5 P_{X} + 3 P_{Y} + 2 I \\
+  X = 100 + 2 P_{X}
+\end{gather*}
+#+end_export
+where $I$ is the consumers' average income and $P_Y$ is the price
+of good $Y$, with $I = \money{100}$ and $P_Y = \price{5}$. A law
+has been passed that does not allow $P_X$ to rise above
+$\money{50}$.
 
-6. A consumer lives for two periods and can lend and borrow money at
-   the same interest rate. During the first period she gets an income
-   of \money{2500} and saves \money{1000}. Her income in the second
-   period is 20% lower than that in the first period. Calculate the
-   interest rate knowing that the optimal choice in the second period
-   is to consume \money{3010}. Determine and represent the
-   intertemporal budget constraint.
+a) <<ex4.4:item-a>>How many units of $X$ will be sold? At what
+   price? Represent graphically.
 
-7. A consumer lives two periods and her preferences are represented
-   by:
-   #+begin_export latex
-   \[
-     U(C_1, C_2) = C_1^{3} C_2
-   \]
-   #+end_export
+b) Describe how your answers in [[ex4.4:item-a]] would change if average
+   income increased up to $I = \money{170}$.
 
-   a) Knowing that her optimal choice is $C_1 = \money{9750}$ and $C_2
-      = \money{3575}$, which is the interest rate?
+* 4.5
 
-   b) The savings of this consumer are $S = \money{250}$. Express the
-      intertemporal budget constraint in present value.
+Discuss the truth or falsity of the following statement: "If a
+maximum price is set above the equilibrium price, the quantity
+sold will be the same as the equilibrium quantity."
+
+* 4.6
+
+The residential rental market in a city is represented by the
+demand and supply curves:
+#+begin_export latex
+\begin{gather*}
+  Q^{d} = \num{25000} - 30 P \\
+  Q^{o} = \num{5000} +10 P
+\end{gather*}
+#+end_export
+
+a) Determine the market equilibrium.
+
+b) If tenants get a \money{200} rental subsidy, how much will pay
+   tenants?  How much will landlords receive? Which will be the
+   total cost of the subsidy?

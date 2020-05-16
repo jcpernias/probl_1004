@@ -1,0 +1,2 @@
+#+STARTUP: indent hidestars overview
+#+PROPERTY: header-args:latex :exports source :eval no :noweb yes

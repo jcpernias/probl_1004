@@ -39,17 +39,26 @@
 
 %% Class loading
 %% --------------------------------------------------------------------------------
-\LoadClass[a4paper, 12pt]{article}
-
+\LoadClass[a4paper, 11pt, twoside]{article}
+\RequirePackage[11pt]{moresize}
 
 %% Load packages
 %% --------------------------------------------------------------------------------
 \RequirePackage{docs-base}
-\RequirePackage{docs-pages}
-\RequirePackage{docs-math}
 \RequirePackage{docs-colors}
-\RequirePackage{docs-rules}
-\RequirePackage{docs-lists}
+
+% Page layout
+%\RequirePackage{docs-pages}
+\RequirePackage{geometry}
+\geometry{twoside, hmargin={2cm,5.7cm}, bindingoffset=0.7cm, vmargin=4cm}
+%\geometry{vmargin=4cm,hmargin=3.6cm}
+\RequirePackage[strict]{changepage}
+\RequirePackage{parskip}
+
+
+\RequirePackage{docs-math}
+%\RequirePackage{docs-rules}
+%\RequirePackage{docs-lists}
 \RequirePackage{docs-units}
 \RequirePackage{docs-tables}
 \RequirePackage{docs-hyper}
@@ -62,13 +71,14 @@
 %% -----------------------------------------------------------------
 
 \RequirePackage{titletoc}
-\contentsmargin{2pc}
+\contentsmargin{1.5pc}
 \titlecontents{section}[0pc]
 {\addvspace{1ex}\sffamily\bfseries}
-{\contentslabel{2pc}}
+{\contentslabel{1.5pc}}
 {}
 {\hfill\contentspage}
 
+\setcounter{tocdepth}{1}
 
 
 %% Title
@@ -76,7 +86,7 @@
 
 \RequirePackage{titling}
 
-\pretitle{\begin{flushleft}\LARGE\sffamily\bfseries\color{Title}}
+\pretitle{\begin{flushleft}\HUGE\sffamily\bfseries\color{Title}}
 \posttitle{\par\end{flushleft}}
 
 \preauthor{\begin{flushleft}\LARGE\sffamily\bfseries\color{Title}}
@@ -84,7 +94,6 @@
 
 \predate{\begin{flushleft}\Large\sffamily\bfseries\color{Title}}
 \postdate{\par\end{flushleft}}
-
 
 
 \AtBeginDocument{%
@@ -95,11 +104,12 @@
     \oldmaketitle%
     \ifbool{toc}{\tableofcontents}{}%
     \thispagestyle{empty}%
-    \cleardoublepage{}%
+    %\cleardoublepage{}%
     \ccpage%
     \pagenumbering{arabic}
-    \oldmaketitle
+    %\oldmaketitle
     \let\maketitle\oldmaketitle%
+    \preto\section{\clearpage{\cleardoublepage}}
   }
   \maketitle
 }
@@ -108,35 +118,72 @@
 
 %% Section headings
 %% -----------------------------------------------------------------
-\RequirePackage[pagestyles, outermarks, nobottomtitles*, compact]{titlesec}
+\RequirePackage[%
+pagestyles,%
+outermarks,%
+nobottomtitles*,%
+compact]{titlesec}
 
+\deftranslation[to=Spanish]{Exercise}{Ejercicio}
+\deftranslation[to=English]{Exercise}{Exercise}
+\newcommand*{\ExerciseName}{\translate{Exercise}}
+
+%\newcommand{\sectionbreak}{\cleardoublepage}
+%\preto\section{\ifnum\value{section}=0 \else\clearpage{\cleardoublepage}\fi}
 
 \titleformat{name=\section}[hang]{%
-  \color{Section}\Large\sffamily\bfseries}{%
-  \makebox[1.25cm][l]{\thesection.}}{0pt}{}
+  \color{Section}\LARGE\sffamily\bfseries}{%
+  \makebox[1.25cm][l]{\rmfamily\slshape\HUGE\thesection}}{0pt}{}
 
 \titlespacing*{name=\section}{-1.25cm}{*7}{*1.5}
 
 \titleformat{name=\section, numberless}
-{\color{Section}\Large\sffamily\bfseries}
+{\color{Section}\LARGE\sffamily\bfseries}
 {}{0pt}{}
 
 \titlespacing*{name=\section, numberless}{0pc}{*7}{*1.5}
 
-\titleformat{\subsection}
-{\color{Subsection}\large\sffamily\bfseries}
-{\makebox[1cm][l]{\thesubsection.}}{0.3cm}{}
+\newcommand*{\eat}[1]{}
+\titleformat{name=\subsection}[hang]
+{\normalfont\large\bfseries\sffamily}
+{\color{Subsection}\ExerciseName\ \thesubsection}{0em}{\eat}
+
+\titlespacing*{name=\subsection}
+{0pt}{*4}{*1.5}
 
 
-\titlespacing*{\subsection}{0pt}{*3.5}{*1.5}
+%% Page headers and footers
+%% -----------------------------------------------------------------
 
-%% Add space between exercises
-\setlist[1]{itemsep=\baselineskip}
+%\usepackage[outermarks]{titleps}
+\newcommand*{\headfmt}{\small\bfseries\scshape\sffamily}
+\newcommand*{\footfmt}{\small\bfseries\sffamily}
 
+\newpagestyle{fancy}{%
+  % \sethead[\headfmt\color{Section}\thesection{} \sectiontitle\filright][][] % even
+  %         {}{}{\headfmt\color{Subsection}\ExerciseName\ \thesubsection}    % odd
+  \setfoot*{}{}{\footfmt\thepage}   % odd
+}
+\newpagestyle{first}{%
+  \setfoot*{}{}{\footfmt\thepage}   % odd
+}
+%\widenhead[2cm][0pt]{0pt}{0pt}
+\pagestyle{fancy}
+
+
+
+
+
+\RequirePackage{enumitem}
+
+\setlist{noitemsep}
+\setlist[1]{leftmargin=*}
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=-}
 
 \ifbool{langES}{%
-  \setlist[enumerate,2]{label = \emph{\alph*})}
+  \setlist[enumerate,1]{label = \emph{\alph*})}
   }{}
 \ifbool{langEN}{%
-  \setlist[enumerate,2]{label = (\alph*)}
+  \setlist[enumerate,1]{label = (\alph*)}
   }{}

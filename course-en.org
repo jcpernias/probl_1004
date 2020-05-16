@@ -1,14 +1,14 @@
-#+STARTUP: indent hidestars content
+#+STARTUP: indent hidestars overview
 
 #+AUTHOR: Introduction to Microeconomics \\
 #+AUTHOR: AE / EC / FC 1004 \\
 #+AUTHOR: DA0204
-#+DATE: Academic year 2019--2020
+#+DATE: Academic year 2020--2021
 
 #+OPTIONS: toc:nil ':t ^:{} num:1 H:2 title:nil
 
 #+LATEX_CLASS: probl
-#+LATEX_CLASS_OPTIONS: [notoc, English]
+#+LATEX_CLASS_OPTIONS: [English]
 
 #+LANGUAGE: en
 #+LATEX_HEADER: \newcommand*{\LANG}{en}
