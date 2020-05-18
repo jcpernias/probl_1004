@@ -13,3 +13,4 @@
 
 #+LANGUAGE: es
 #+LATEX_HEADER: \newcommand*{\LANG}{es}
+#+LATEX_HEADER: \newcommand*{\SolutionsName}{Soluciones}

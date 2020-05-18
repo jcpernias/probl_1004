@@ -12,3 +12,4 @@
 
 #+LANGUAGE: en
 #+LATEX_HEADER: \newcommand*{\LANG}{en}
+#+LATEX_HEADER: \newcommand*{\SolutionsName}{Solutions}
