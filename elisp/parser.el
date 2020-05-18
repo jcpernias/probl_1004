@@ -84,6 +84,14 @@
    (make-property-drawer
     (make-node-property "UNNUMBERED" t))))
 
+;; Special blocks
+;; --------------------------------------------------------------------------------
+(defun make-special-block (type &optional post-blank)
+  "Return an empty special block of type TYPE"
+  (let ((props (list :type type)))
+    (and post-blank (setq props (append props (list :post-blank post-blank))))
+    (org-element-create 'special-block props)))
+
 
 ;; Paragraphs
 ;; --------------------------------------------------------------------------------
@@ -183,16 +191,14 @@ It only works after parse-xxx-keywords"
 
 (defun xxx-col (element)
   (let ((contents (find-contents element #'end-xxx-col-contents-p))
-        (minipage (org-element-create 'special-block (list :type "minipage" :raw-value "")))
+        (minipage (make-special-block "minipage"))
         (affiliated (get-affiliated element)))
     (apply 'org-element-adopt-elements minipage
            (seq-map #'org-element-extract-element contents))
-    (setq minipage (if affiliated (list affiliated minipage) minipage))
+    (and affiliated (setq minipage (list affiliated minipage)))
     (org-element-set-element
      element
-     (apply 'org-element-create
-      'paragraph nil
-      minipage))))
+     (make-paragraph minipage (get-post-blank element)))))
 
 
 ;; ================================================================================
