@@ -28,6 +28,28 @@
       (and (org-element-property :commentedp hl)
            (org-element-extract-element hl)))))
 
+(defun find-all-siblings (element)
+  "Return a list with all siblings of ELEMENT including itself"
+  (org-element-contents (org-element-property :parent element)))
+
+(defun find-contents (element end-contents-p)
+  "Return all siblings after ELEMENT and before END-CONTENS-P returns true"
+  (let ((siblings (find-all-siblings element))
+        (before t)
+        (after))
+    (seq-filter
+     (lambda (e)
+       (cond
+        (before (progn
+                  (when (eq e element)
+                    (setq before nil))
+                  nil))
+        (after nil)
+        (t (if (funcall end-contents-p e)
+               (progn (setq after t) nil)
+             t))))
+     siblings)))
+
 (defun headline-p (element)
   (eq (org-element-type element) 'headline))
 
@@ -153,33 +175,14 @@ It only works after parse-xxx-keywords"
 ;; Columns
 ;; --------------------------------------------------------------------------------
 
-(defun find-all-siblings (element)
-  "Return a list with all siblings of ELEMENT including itself"
-  (org-element-contents (org-element-property :parent element)))
-
-(defun find-col-contents (element)
-  "Return the contents of a xxx col
-
-Return all siblings after ELEMENT and before a headline, a list item or
-another xxx col."
-  (let ((siblings (find-all-siblings element))
-        (before t)
-        (after))
-    (seq-filter
-     (lambda (e)
-       (cond
-        (before (progn
-                  (when (eq e element)
-                    (setq before nil))
-                  nil))
-        (after nil)
-        (t (if (or (headline-p e) (item-p e) (xxx-col-p e))
-               (progn (setq after t) nil)
-             t))))
-     siblings)))
+(defun end-xxx-col-contents-p (element)
+  "Return t if ELEMENT is a headline, a list item or another xxx col."
+  (or (headline-p element)
+      (item-p element)
+      (xxx-col-p element)))
 
 (defun xxx-col (element)
-  (let ((contents (find-col-contents element))
+  (let ((contents (find-contents element #'end-xxx-col-contents-p))
         (minipage (org-element-create 'special-block (list :type "minipage" :raw-value "")))
         (affiliated (get-affiliated element)))
     (apply 'org-element-adopt-elements minipage
