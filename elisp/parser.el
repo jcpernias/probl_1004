@@ -158,6 +158,10 @@ It only works after parse-xxx-keywords"
   (org-element-contents (org-element-property :parent element)))
 
 (defun find-col-contents (element)
+  "Return the contents of a xxx col
+
+Return all siblings after ELEMENT and before a headline, a list item or
+another xxx col."
   (let ((siblings (find-all-siblings element))
         (before t)
         (after))
@@ -173,7 +177,6 @@ It only works after parse-xxx-keywords"
                (progn (setq after t) nil)
              t))))
      siblings)))
-
 
 (defun xxx-col (element)
   (let ((contents (find-col-contents element))
