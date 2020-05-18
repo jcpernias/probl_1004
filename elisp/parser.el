@@ -237,7 +237,7 @@ of the document."
               (and (= (org-element-property :level hl) 1)
                    (handle-section hl)))))
     (when sections
-      (setq new-section (make-headline-unnumbered "{{{Solutions}}}" 1))
+      (setq new-section (make-headline-unnumbered "\\SolutionsName" 1))
       (apply 'org-element-adopt-elements new-section sections))))
 
 (defun prepare-buffer ()
