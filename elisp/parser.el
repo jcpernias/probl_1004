@@ -1,6 +1,7 @@
 (require 'ox)
 (require 'seq)
 
+
 ;; ================================================================================
 ;; Org utility functions
 ;; ================================================================================
@@ -9,8 +10,7 @@
   "Get the level to which ELEMENT belongs"
   (let ((headline (org-element-lineage element '(headline) t)))
     (if headline
-        (org-element-property :level headline)
-      0)))
+        (org-element-property :level headline) 0)))
 
 (defun get-affiliated (element)
   (buffer-substring (org-element-property :begin element)
@@ -28,86 +28,165 @@
       (and (org-element-property :commentedp hl)
            (org-element-extract-element hl)))))
 
+(defun headline-p (element)
+  (eq (org-element-type element) 'headline))
+
+(defun item-p (element)
+  (eq (org-element-type element) 'item))
+
 ;; Property drawers
 ;; --------------------------------------------------------------------------------
 (defun make-node-property (key value)
-  "Make a node property"
+  "Return a node property"
   (org-element-create
        'node-property
        (list :key key :value value)))
 
 (defun make-property-drawer (&rest nodes)
-  "Make a property drawer"
+  "Return a property drawer with property nodes NODES"
   (apply 'org-element-create
          'property-drawer nil nodes))
 
 ;; Headlines
 ;; --------------------------------------------------------------------------------
 (defun make-headline (title level &rest children)
-  "Build a headline with the given TITLE and LEVEL"
+  "Return a headline with the given TITLE and LEVEL"
   (apply 'org-element-create
          'headline (list :title title :level level)
          children))
 
 (defun make-headline-unnumbered (title level)
-  "Build an umnnumbered headline with the given TITLE and LEVEL"
+  "Return an unnumbered headline with the given TITLE and LEVEL"
   (make-headline
    title level
    (make-property-drawer
     (make-node-property "UNNUMBERED" t))))
 
 
+;; Paragraphs
+;; --------------------------------------------------------------------------------
+(defun make-paragraph (contents &optional post-blank)
+  "Return a paragraph with the given CONTENTS"
+  (let ((props (and post-blank (list :post-blank post-blank))))
+    (apply 'org-element-create
+           'paragraph props contents)))
+
 ;; Links
 ;; --------------------------------------------------------------------------------
 (defun make-link (type path)
-  "Makes a link"
+  "Return a link"
   (org-element-create 'link (list :type type :path path)))
 
 
-(defun make-par-link (type path affiliated post-blank)
-  "Returns an Org paragraph with a link"
-  (org-element-create
-   'paragraph
-   (list :post-blank post-blank)
-   affiliated
-   (make-link type path)))
+(defun make-par-link (type path &optional affiliated post-blank)
+  "Return a paragraph with a link"
+  (let ((link (make-link type path))
+        (contents))
+    (setq contents (if affiliated (list affiliated link) link))
+    (make-paragraph contents post-blank)))
+
 
 
 ;; ================================================================================
 ;; XXX keywords
 ;; ================================================================================
 
-(defun process-xxx-keywords (doc)
-  "Get the different parts of a XXX keyword and call the appropriate handler"
+
+(defun xxx-keyword-p (element)
+  "Returns t if ELEMENT is a xxx-keyword"
+  (and (eq (org-element-type element) 'keyword)
+       (string= (org-element-property :key element) "XXX")))
+
+(defun xxx-col-p (element)
+  "Returns t if ELEMENT is a col xxx-keyword
+It only works after parse-xxx-keywords"
+  (and (xxx-keyword-p element)
+       (string= (org-element-property :xxx-type element) "col")))
+
+(defun parse-xxx-keywords (doc)
+  "Add xxx-type and xxx-value properties to a xxx-keyword"
   (org-element-map doc 'keyword
     (lambda (keyword)
       (let ((type)
             (text)
             (value))
-        (when (string= (org-element-property :key keyword) "XXX")
+        (when (xxx-keyword-p keyword)
           (setq text (org-element-property :value keyword))
           (when (string-match
                  "[[:blank:]]*\\([^[:blank:]]+\\)\\(?:[[:blank:]]+\\(.*\\)\\)?[[:blank:]]*\\'" text)
-            (setq type (match-string 1 text)
-                  value (match-string 2 text))
-            (cond ((string= type "col") (xxx-col keyword value))
-                  ((string= type "fig") (xxx-fig keyword value))
-                  (t nil))))))))
+            (setq keyword (org-element-put-property keyword :xxx-type (match-string 1 text)))
+            (setq keyword (org-element-put-property keyword :xxx-value (match-string 2 text)))))))))
 
 
+(defun process-xxx-keywords (doc)
+  "Get the different parts of a XXX keyword and call the appropriate handler"
+  (parse-xxx-keywords doc)
+  (org-element-map doc 'keyword
+    (lambda (keyword)
+      (let ((type)
+            (text)
+            (value))
+        (when (xxx-keyword-p keyword)
+          (setq type (org-element-property :xxx-type keyword))
+            (cond ((string= type "col") (xxx-col keyword))
+                  ((string= type "fig") (xxx-fig keyword))
+                  (t nil)))))))
+
+
+;; Figures
+;; --------------------------------------------------------------------------------
 (defun fig-file-path (value lang)
   (if (string-match "\\*" value)
       (replace-match (or lang "\\LANG") nil t value)
     value))
 
-(defun xxx-fig (element value)
+(defun xxx-fig (element)
   (org-element-set-element
    element
    (make-par-link
     "file"
-    (fig-file-path value nil)
+    (fig-file-path (org-element-property :xxx-value element) nil)
     (get-affiliated element)
     (get-post-blank element))))
+
+
+;; Columns
+;; --------------------------------------------------------------------------------
+
+(defun find-all-siblings (element)
+  "Return a list with all siblings of ELEMENT including itself"
+  (org-element-contents (org-element-property :parent element)))
+
+(defun find-col-contents (element)
+  (let ((siblings (find-all-siblings element))
+        (before t)
+        (after))
+    (seq-filter
+     (lambda (e)
+       (cond
+        (before (progn
+                  (when (eq e element)
+                    (setq before nil))
+                  nil))
+        (after nil)
+        (t (if (or (headline-p e) (item-p e) (xxx-col-p e))
+               (progn (setq after t) nil)
+             t))))
+     siblings)))
+
+
+(defun xxx-col (element)
+  (let ((contents (find-col-contents element))
+        (minipage (org-element-create 'special-block (list :type "minipage" :raw-value "")))
+        (affiliated (get-affiliated element)))
+    (apply 'org-element-adopt-elements minipage
+           (seq-map #'org-element-extract-element contents))
+    (setq minipage (if affiliated (list affiliated minipage) minipage))
+    (org-element-set-element
+     element
+     (apply 'org-element-create
+      'paragraph nil
+      minipage))))
 
 
 ;; ================================================================================
@@ -166,5 +245,14 @@ of the document."
     (insert new)))
 
 
-(remove-hook 'org-export-before-parsing-hook 'preprocess-probl)
-(add-hook 'org-export-before-parsing-hook 'preprocess-probl)
+;; (remove-hook 'org-export-before-parsing-hook 'preprocess-probl)
+;; (add-hook 'org-export-before-parsing-hook 'preprocess-probl)
+
+
+(defun print-tree (tree &optional indent)
+  (setq indent (or indent 0))
+  (dolist (node tree)
+    (princ (format "%s%s\n" (make-string (* 2 indent) ? ) (org-element-type node)) (get-buffer "*scratch*"))
+    (setq contents (org-element-contents node))
+    (when contents
+      (print-tree contents (+ indent 1)))))
