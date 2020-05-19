@@ -74,6 +74,15 @@
 {}
 {\hfill\contentspage}
 
+
+\titlecontents{part}
+[0pc] % left
+{\addvspace{1ex}\sffamily\bfseries} % above code
+{} % numbered
+{} % numberless
+{\hfill\contentspage} % filler page
+
+
 \setcounter{tocdepth}{1}
 
 
@@ -115,6 +124,7 @@
 %% Section headings
 %% -----------------------------------------------------------------
 \RequirePackage[%
+newparttoc,%
 pagestyles,%
 outermarks,%
 nobottomtitles*,%
@@ -148,6 +158,10 @@ compact]{titlesec}
 {0pt}{*4}{*1.5}
 
 
+\titleformat{name=\part}[hang]{%
+  \color{Section}\LARGE\sffamily\bfseries}{}{0pt}{}
+
+\titlespacing*{name=\part}{0pt}{*7}{*1.5}
 %% Page headers and footers
 %% -----------------------------------------------------------------
 
