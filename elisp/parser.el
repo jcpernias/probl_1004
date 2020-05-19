@@ -56,6 +56,12 @@
 (defun item-p (element)
   (eq (org-element-type element) 'item))
 
+;; Sections
+;; --------------------------------------------------------------------------------
+(defun make-section ()
+  (org-element-create 'section))
+
+
 ;; Property drawers
 ;; --------------------------------------------------------------------------------
 (defun make-node-property (key value)
@@ -116,6 +122,14 @@
     (make-paragraph contents post-blank)))
 
 
+;; Keywords
+;; --------------------------------------------------------------------------------
+(defun make-keyword (key value)
+  (org-element-create 'keyword (list :key key :value value)))
+
+
+(defun make-latex-keyword (value)
+  (make-paragraph (list (make-keyword "LATEX" value))))
 
 ;; ================================================================================
 ;; XXX keywords
