@@ -16,7 +16,6 @@ builddir := $(rootdir)/build
 outdir := $(rootdir)/pdf
 elispdir := $(rootdir)/elisp
 pythondir := $(rootdir)/python
-Rdir := $(rootdir)/R
 texdir := $(rootdir)/tex
 depsdir := $(rootdir)/.deps
 imgdir := $(rootdir)/img
@@ -29,7 +28,6 @@ emacsbin := /usr/local/bin/emacs
 texi2dvibin := /usr/local/opt/texinfo/bin/texi2dvi
 envbin  := /usr/local/opt/coreutils/libexec/gnubin/env
 pythonbin := /usr/local/bin/python3
-Rscriptbin := /usr/local/bin/Rscript
 
 ## Variables
 ## ================================================================================
@@ -38,7 +36,6 @@ EMACS := $(emacsbin) -Q -nw --batch
 emacs_loads := --load=$(elispdir)/setup-org.el \
 	--load=$(elispdir)/parser.el
 org_to_latex := --eval "(tolatex (file-name-as-directory \"$(builddir)\"))"
-org_to_beamer := --eval "(tobeamer (file-name-as-directory \"$(builddir)\"))"
 tangle := --eval "(tangle-to (file-name-as-directory \"$(builddir)\"))"
 
 TEXI2DVI := $(envbin) TEXI2DVI_USE_RECORDER=yes \
@@ -49,9 +46,6 @@ TEXI2DVI := $(envbin) TEXI2DVI_USE_RECORDER=yes \
 MAKEORGDEPS := $(pythonbin) $(pythondir)/makeorgdeps.py
 MAKETEXDEPS := $(pythonbin) $(pythondir)/maketexdeps.py
 MAKEFIGDEPS := $(pythonbin) $(pythondir)/makefigdeps.py
-
-RSCRIPT := $(Rscriptbin) -e
-
 
 with_ans_es := $(addsuffix _$(subject_code)-es, \
 	$(addprefix with-ans-probl-, $(probl_units)))
@@ -96,42 +90,22 @@ ifneq (,$(findstring clean,$(MAKECMDGOALS)))
 INCLUDEDEPS := no
 endif
 
-# $(call tex-wrapper,pres-or-hdout,tex-src,lang) -> write to a file
-define tex-wrapper
-\PassOptionsToClass{$1}{unit}
-\AtBeginDocument{\graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}}
-\RequirePackage{etoolbox}
-\AtEndPreamble{%
-  \InputIfFileExists{$(subject_code)-macros.tex}{}{}%
-  \InputIfFileExists{$2-macros.tex}{}{}}
-\input{$(realpath $(builddir))/$2-$3}
-endef
-
 # $(call probl-wrapper,ans-option,tex-src,lang) -> write to a file
 define probl-wrapper
 \PassOptionsToClass{$1}{probl}
 \AtBeginDocument{\graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}}
 \RequirePackage{etoolbox}
-\AtEndPreamble{%
-  \InputIfFileExists{$(subject_code)-macros.tex}{}{}%
-  \InputIfFileExists{$2-macros.tex}{}{}}
+\AtEndPreamble{\InputIfFileExists{$(subject_code)-macros.tex}{}{}}
 \input{$(realpath $(builddir))/$2-$3}
 endef
 
-# $(call tex-wrapper,spanish-or-english,fig-basename,unit-code) -> write to a file
+# $(call fig-wrapper,spanish-or-english,fig-basename) -> write to a file
 define fig-wrapper
 \documentclass[$1]{figure}
 \InputIfFileExists{$(subject_code)-macros.tex}{}{}
-\InputIfFileExists{unit-$3-macros.tex}{}{}
 \begin{document}
 \input{$(realpath $(builddir))/$2}
 \end{document}
-endef
-
-
-# $(call knit,in,out)
-define knit
-"source(\"./R/common.R\"); library(knitr); options(knitr.package.root.dir=\"${rootdir}\"); knit(\"$1\", \"$2\")"
 endef
 
 vpath %.pdf $(figdir)
@@ -142,11 +116,6 @@ vpath %.jpg $(imgdir)
 ## ================================================================================
 
 all: $(docs_pdf)
-
-# org to latex
-.PRECIOUS: $(builddir)/%.tex
-$(builddir)/%.tex: $(rootdir)/%.org | $(builddir)
-	$(EMACS) $(emacs_loads) --visit=$< $(org_to_beamer)
 
 # dependencies for latex file
 $(depsdir)/%.tex.d: $(rootdir)/%.org | $(depsdir)
@@ -160,37 +129,19 @@ $(builddir)/probl-%.tex: $(rootdir)/probl-%.org | $(builddir)
 # probl wrappers
 .PRECIOUS: $(builddir)/no-ans-probl-%-es.tex
 $(builddir)/no-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex | $(figdir)
-	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,es))
+	$(file > $@,$(call probl-wrapper,noanswers,probl-$*,es))
 
 .PRECIOUS: $(builddir)/with-ans-probl-%-es.tex
 $(builddir)/with-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex | $(figdir)
-	$(file > $@, $(call probl-wrapper,answers,probl-$*,es))
+	$(file > $@,$(call probl-wrapper,answers,probl-$*,es))
 
 .PRECIOUS: $(builddir)/no-ans-probl-%-en.tex
 $(builddir)/no-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex | $(figdir)
-	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,en))
+	$(file > $@,$(call probl-wrapper,noanswers,probl-$*,en))
 
 .PRECIOUS: $(builddir)/with-ans-probl-%-en.tex
 $(builddir)/with-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex | $(figdir)
-	$(file > $@, $(call probl-wrapper,answers,probl-$*,en))
-
-
-# latex wrappers
-.PRECIOUS: $(builddir)/pres-%-es.tex
-$(builddir)/pres-%-es.tex: $(builddir)/unit-%-es.tex | $(figdir)
-	$(file > $@, $(call tex-wrapper,Presentation,unit-$*,es))
-
-.PRECIOUS: $(builddir)/hdout-%-es.tex
-$(builddir)/hdout-%-es.tex: $(builddir)/unit-%-es.tex | $(figdir)
-	$(file > $@, $(call tex-wrapper,Handout,unit-$*,es))
-
-.PRECIOUS: $(builddir)/pres-%-en.tex
-$(builddir)/pres-%-en.tex: $(builddir)/unit-%-en.tex | $(figdir)
-	$(file > $@, $(call tex-wrapper,Presentation,unit-$*,en))
-
-.PRECIOUS: $(builddir)/hdout-%-en.tex
-$(builddir)/hdout-%-en.tex: $(builddir)/unit-%-en.tex | $(figdir)
-	$(file > $@, $(call tex-wrapper,Handout,unit-$*,en))
+	$(file > $@,$(call probl-wrapper,answers,probl-$*,en))
 
 ## latex to pdf
 $(outdir)/%.pdf: $(builddir)/%.tex $(texdir)/probl.cls | $(outdir)
@@ -203,11 +154,11 @@ $(depsdir)/%.pdf.d: $(builddir)/%.tex | $(outdir) $(depsdir)
 # figure wrappers
 .PRECIOUS: $(builddir)/fig-%-en.tex
 $(builddir)/fig-%-en.tex: $(builddir)/fig-%.tex
-	$(file > $@, $(call fig-wrapper,English,fig-$*,$(shell echo $* | sed 's/\([^-]*\)-.*/\1/')))
+	$(file > $@,$(call fig-wrapper,English,fig-$*))
 
 .PRECIOUS: $(builddir)/fig-%-es.tex
 $(builddir)/fig-%-es.tex: $(builddir)/fig-%.tex
-	$(file > $@, $(call fig-wrapper,Spanish,fig-$*,$(shell echo $* | sed 's/\([^-]*\)-.*/\1/')))
+	$(file > $@,$(call fig-wrapper,Spanish,fig-$*))
 
 # figure latex to pdf
 $(figdir)/fig-%.pdf: $(builddir)/fig-%.tex | $(figdir)
@@ -215,10 +166,6 @@ $(figdir)/fig-%.pdf: $(builddir)/fig-%.tex | $(figdir)
 
 $(depsdir)/%-figs.d: %-figs.org | $(depsdir)
 	$(MAKEFIGDEPS) -o $@ $<
-
-# from R to latex
-$(builddir)/%.tex: $(builddir)/%.Rnw | $(builddir)
-	$(RSCRIPT) $(call knit,$<,$@)
 
 ## automatic dependencies
 ifeq ($(INCLUDEDEPS),yes)
