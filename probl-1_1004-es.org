@@ -10,17 +10,34 @@ trabajo como único factor de producción. Se dispone de un máximo de
 cantidades que pueden producirse dependiendo de las horas de trabajo
 que se dediquen a cada actividad:
 
-#+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
-|-------------+--------------+---+-------------+--------------|
-| Trabajo     | Automóviles  |   | Trabajo     | Comida       |
-| (horas)     | (unidades)   |   | (horas)     | (kg)         |
-|-------------+--------------+---+-------------+--------------|
-| \num{0}     | \num{0}      |   | \num{0}     | \num{0}      |
-| \num{12500} | \num{40000}  |   | \num{12500} | \num{50000}  |
-| \num{25000} | \num{70000}  |   | \num{25000} | \num{75000}  |
-| \num{37500} | \num{90000}  |   | \num{37500} | \num{90000}  |
-| \num{50000} | \num{100000} |   | \num{50000} | \num{100000} |
-|-------------+--------------+---+-------------+--------------|
+#+ATTR_LATEX: :options {0.5\linewidth}
+#+xxx: col
+#+ATTR_LATEX: :booktabs t :center t :align @{}rR{2.5cm}@{}
+|-------------+--------------|
+| Trabajo     | Automóviles  |
+| (horas)     | (unidades)   |
+|-------------+--------------|
+| \num{0}     | \num{0}      |
+| \num{12500} | \num{40000}  |
+| \num{25000} | \num{70000}  |
+| \num{37500} | \num{90000}  |
+| \num{50000} | \num{100000} |
+|-------------+--------------|
+
+#+ATTR_LATEX: :options {0.5\linewidth}
+#+xxx: col
+#+ATTR_LATEX: :booktabs t :center t :align @{}rR{2.5cm}@{}
+|-------------+--------------|
+| Trabajo     | Comida       |
+| (horas)     | (kg)         |
+|-------------+--------------|
+| \num{0}     | \num{0}      |
+| \num{12500} | \num{50000}  |
+| \num{25000} | \num{75000}  |
+| \num{37500} | \num{90000}  |
+| \num{50000} | \num{100000} |
+|-------------+--------------|
+#+xxx: endcol
 
 a) Represente gráficamente la Frontera de Posibilidades de
    Producción, FPP.

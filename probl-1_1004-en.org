@@ -9,17 +9,34 @@ available. The following table shows how many units of each good
 can be produced according to the labor hours devoted to each
 activity:
 
-#+ATTR_LATEX: :booktabs t :center t :align rrp{1cm}rr
-|-------------+--------------+---+-------------+--------------|
-| Labor       | Vehicles     |   | Labor       | Food         |
-| (hours)     | (units)      |   | (hours)     | (kg)         |
-|-------------+--------------+---+-------------+--------------|
-| \num{0}     | \num{0}      |   | \num{0}     | \num{0}      |
-| \num{12500} | \num{40000}  |   | \num{12500} | \num{50000}  |
-| \num{25000} | \num{70000}  |   | \num{25000} | \num{75000}  |
-| \num{37500} | \num{90000}  |   | \num{37500} | \num{90000}  |
-| \num{50000} | \num{100000} |   | \num{50000} | \num{100000} |
-|-------------+--------------+---+-------------+--------------|
+#+ATTR_LATEX: :options {0.5\linewidth}
+#+xxx: col
+#+ATTR_LATEX: :booktabs t :center t :align @{}rR{2.5cm}@{}
+|-------------+--------------|
+| Labor       | Vehicles     |
+| (hours)     | (units)      |
+|-------------+--------------|
+| \num{0}     | \num{0}      |
+| \num{12500} | \num{40000}  |
+| \num{25000} | \num{70000}  |
+| \num{37500} | \num{90000}  |
+| \num{50000} | \num{100000} |
+|-------------+--------------|
+
+#+ATTR_LATEX: :options {0.5\linewidth}
+#+xxx: col
+#+ATTR_LATEX: :booktabs t :center t :align @{}rR{2.5cm}@{}
+|-------------+--------------|
+| Labor       | Food         |
+| (hours)     | (kg)         |
+|-------------+--------------|
+| \num{0}     | \num{0}      |
+| \num{12500} | \num{50000}  |
+| \num{25000} | \num{75000}  |
+| \num{37500} | \num{90000}  |
+| \num{50000} | \num{100000} |
+|-------------+--------------|
+#+xxx: endcol
 
 a) Draw the Production Possibility Frontier, PPF.
 
