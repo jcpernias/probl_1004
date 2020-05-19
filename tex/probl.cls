@@ -52,6 +52,10 @@
 \RequirePackage[strict]{changepage}
 \RequirePackage{parskip}
 
+\RequirePackage{adjustbox}
+\RequirePackage{multicol}
+
+
 \RequirePackage{docs-math}
 %\RequirePackage{docs-rules}
 %\RequirePackage{docs-lists}
