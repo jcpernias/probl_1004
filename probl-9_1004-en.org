@@ -1,7 +1,6 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-#+latex: \newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
 #+MACRO: Inc Inc@@latex:\@.@@
 
 * 9.1.
@@ -18,6 +17,7 @@ b) Obtain and represent the average cost, average variable cost and
 
 c) At which output level is average cost minimized?  Which is
    the minimum average cost?
+
 
 * 9.2.
 
@@ -37,12 +37,14 @@ company.
 | $6$ | $150$ |       | $90$  |        |        |         |         |
 |-----+-------+-------+-------+--------+--------+---------+---------|
 
+
 * 9.3.
 
 The production function of a company is given by: $Q = K L$. The
 hourly wage is \wage{2} and the price of capital input is
 \price{4}. Determine the input combination that minimizes the cost
 of producing 5000 units. Which is the minimum cost?
+
 
 * 9.4.
 
@@ -63,6 +65,7 @@ b) If 150 units are produced at a total cost of \money{440}, is the
 c) If $\PMgK = 30$ when costs are minimized, which is the value of
    $\PMgL$?
 
+
 * 9.5.
 
 Sauron {{{Inc}}} is a company dedicated to the production of
@@ -75,6 +78,7 @@ price of a 3D printer, is Sauron {{{Inc}}} minimizing its costs?
 If your answer is no, what could Sauron {{{Inc}}} do to reduce its
 costs? Justify your answers.
 
+
 * 9.6.
 
 A company's production function is: $Q = L^{3/2} K^{1/2}$. The
@@ -82,6 +86,7 @@ company currently hires 144 hours of labor and 12 units of
 capital. If this is the optimal long run input combination and if
 total costs are equal to \money{1152}, which are the prices of
 capital and labor inputs?
+
 
 * 9.7.
 
@@ -94,6 +99,7 @@ a) Obtain the long run conditional demand curves for each factor of
 b) Determine the long run cost curve, as well as the average and
    marginal cost curves. Which is the total cost of producing
    $8000$ units?
+
 
 * 9.8.
 
@@ -108,6 +114,7 @@ curves. Which is the minimum unit cost? At which output level is
 the unit cost minimized? Over which range of output does the
 company experience economies of scale? And diseconomies of scale?
 
+
 * 9.9.
 
 Consider the production function: $Q = K L$. The factor prices are
@@ -121,6 +128,7 @@ b) Obtain the long run cost curve.
 b) What is the single output level at which the long run and
    short run costs coincide? Why? What does happen at any other
    output level? Represent graphically.
+
 
 * 9.10.
 
@@ -141,6 +149,7 @@ b) Calculate the long run cost of producing $40$, $160$ and $360$
    units. Do the short run and long run costs coincide at any
    output level?
 
+
 * 9.11.
 
 Explain why the following statements are correct or incorrect (if
@@ -154,6 +163,7 @@ c) If marginal cost is higher than the average cost in the long
    scale.
 
 c) The long run cost can never be greater than the short run cost.
+
 
 * 9.12.
 

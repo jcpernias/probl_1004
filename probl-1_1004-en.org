@@ -39,7 +39,7 @@ c) Which would be the consequences on the PPF of the reduction of
 The table below shows different efficient combinations for an
 economy in which only two goods are produced: $X$ and $Y$.
 
-#+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{>{\raggedleft\arraybackslash}p{2cm}}
+#+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{R{2cm}}
 |-----+------------+------------|
 |     | $X$        | $Y$        |
 |-----+------------+------------|

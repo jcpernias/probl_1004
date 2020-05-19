@@ -1,8 +1,6 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-#+latex: \newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
-
 * 9.1.
 
 La función de producción de una empresa es: $Q = L^{1/2} K^{1/2}$ y
@@ -59,6 +57,7 @@ c) ¿Para qué nivel de producción se minimiza el coste medio? ¿Cuál
      cuando $Q \approx 35.35$ unidades.
    #+end_answer
 
+
 * 9.2.
 
 Complete la siguiente tabla que describe los costes a corto plazo
@@ -92,6 +91,7 @@ de una empresa.
   |-----+-------+-------+-------+--------+--------+---------+---------|
 #+end_answer
 
+
 * 9.3.
 
 La función de producción de una empresa viene dada por: $Q = K
@@ -105,6 +105,7 @@ mínimo?
   $5000 = K L$ se obtiene $L^* = 100$ y $K^* = 50$. El coste es
   $\CT = \money{400}$.
 #+end_answer
+
 
 * 9.4.
 
@@ -138,6 +139,7 @@ c) Si $\PMgK = 30$ cuando se minimizan los costes, ¿cuál es el
      La tangencia implica $\PMgL/30 = 16 / 40$ por lo que $\PMgL = 12$.
    #+end_answer
 
+
 * 9.5.
 
 Sauron SA es una empresa dedicada a la producción de anillos
@@ -160,6 +162,7 @@ costes? Justifique sus respuestas.
   costes disminuyen en la cuarta parte del salario.
 #+end_answer
 
+
 * 9.6.
 
 La función de producción de una empresa es: $Q = L^{3/2}
@@ -174,6 +177,7 @@ son los precios del capital y del trabajo?
   r$. Resolviendo las dos ecuaciones $w = \wage{6}$ y $r =
   \price{24}$.
 #+end_answer
+
 
 * 9.7.
 
@@ -204,6 +208,7 @@ b) Determine la curva de costes a largo plazo, así como las curvas
      El coste de producir $8000$ unidades es $C(8000) = \money{480}$.
    #+end_answer
 
+
 * 9.8.
 
 La curva de costes totales a largo plazo de un empresa es:
@@ -232,6 +237,7 @@ deseconomías de escala?
     - Economías si $0 \leq Q \leq 4$; deseconomías si $Q > 4$.
   #+end_minipage
 #+end_answer
+
 
 * 9.9.
 
@@ -278,6 +284,7 @@ c) ¿Cuál es el único nivel de producción en el que coinciden los
        modificar $L$.
      #+end_minipage
    #+end_answer
+
 
 * 9.10.
 
@@ -331,6 +338,7 @@ b) Calcule los costes a largo plazo de producir $40$, $160$ y
      160$.
    #+end_answer
 
+
 * 9.11.
 
 Explique y justifique si considera correcta o incorrecta cada una
@@ -358,6 +366,7 @@ c) El coste a largo plazo nunca puede ser mayor que el coste a
      Correcta: a largo plazo siempre existe la opción de hacer lo
      mismo que a corto plazo y no incurrir en costes adicionales.
    #+end_answer
+
 
 * 9.12.
 
