@@ -189,6 +189,8 @@ compact]{titlesec}
 
 
 
+%% Lists
+%% -----------------------------------------------------------------
 
 \RequirePackage{enumitem}
 
@@ -199,7 +201,47 @@ compact]{titlesec}
 
 \ifbool{langES}{%
   \setlist[enumerate,1]{label = \emph{\alph*})}
-  }{}
+}{}
 \ifbool{langEN}{%
   \setlist[enumerate,1]{label = (\alph*)}
-  }{}
+}{}
+
+%% Solutions
+%% -----------------------------------------------------------------
+
+\newcommand{\solutions}{
+  \cleardoublepage
+  \newgeometry{twoside, hmargin={2cm,2.7cm}, bindingoffset=0.7cm,
+    vmargin=4cm}
+
+  % Do not include anything in toc
+  \addtocontents{toc}{\string\setcounter{tocdepth}{0}}
+
+  \part{\SolutionsName}
+  \thispagestyle{fancy}
+
+  % Change font size
+  \footnotesize\selectfont%
+
+  % Space between list items
+  \setlist{itemsep=1ex}
+
+  % Do no start a page with every section
+  \renewcommand{\sectionbreak}{}
+
+  % Reset section counter
+  \setcounter{section}{0}
+
+  % Change section heading format
+  \titleformat{name=\section}[hang]{%
+    \color{Section}\normalfont\large\sffamily\bfseries}{\thesection.}{1ex}{}
+
+  \titlespacing*{name=\section}{0pt}{*3}{*2}
+
+  \titleformat{name=\subsection}[hang]
+  {\normalfont\bfseries\sffamily}
+  {\color{Subsection}\ExerciseName\ \thesubsection}{0em}{\eat}
+
+  \titlespacing*{name=\subsection}
+  {0pt}{*1.5}{*1}
+}
