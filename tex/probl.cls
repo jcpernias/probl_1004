@@ -36,6 +36,7 @@
 
 %% Class loading
 %% --------------------------------------------------------------------------------
+\PassOptionsToPackage{fleqn, tbtags}{amsmath}
 \LoadClass[a4paper, 11pt, twoside]{article}
 \RequirePackage[11pt]{moresize}
 
