@@ -140,6 +140,11 @@ compact]{titlesec}
 \deftranslation[to=English]{Exercise}{Exercise}
 \newcommand*{\ExerciseName}{\translate{Exercise}}
 
+\deftranslation[to=Spanish]{Solutions}{Soluciones}
+\deftranslation[to=English]{Solutions}{Solutions}
+\newcommand*{\SolutionsName}{\translate{Solutions}}
+
+
 %\newcommand{\sectionbreak}{\cleardoublepage}
 %\preto\section{\ifnum\value{section}=0 \else\clearpage{\cleardoublepage}\fi}
 
