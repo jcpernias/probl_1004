@@ -114,7 +114,8 @@
     \pagenumbering{arabic}
     %\oldmaketitle
     \let\maketitle\oldmaketitle%
-    \preto\section{\clearpage{\cleardoublepage}}
+    % \preto\section{\clearpage{\cleardoublepage}}
+    \newcommand{\sectionbreak}{\clearpage{\cleardoublepage}}
   }
   \maketitle
 }
@@ -125,6 +126,7 @@
 %% -----------------------------------------------------------------
 \RequirePackage[%
 newparttoc,%
+clearempty,%
 pagestyles,%
 outermarks,%
 nobottomtitles*,%
@@ -162,6 +164,14 @@ compact]{titlesec}
   \color{Section}\LARGE\sffamily\bfseries}{}{0pt}{}
 
 \titlespacing*{name=\part}{0pt}{*7}{*1.5}
+
+
+
+
+\titleclass{\part}{top}
+\newcommand{\partbreak}{\cleardoublepage}
+
+
 %% Page headers and footers
 %% -----------------------------------------------------------------
 
