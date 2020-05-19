@@ -6,7 +6,7 @@
 
 * 2.1 Market demand
 
-  #+begin_src latex :tangle fig-probl-2_1004-market-demand.tex :noweb no
+  #+begin_src latex :tangle fig-ans-probl-2_1004-market-demand.tex :noweb no
     \begin{tikzpicture}[xscale = 2, yscale = 1]
 
       \draw[help lines]
@@ -28,7 +28,7 @@
 
 * 2.2 Market equilibrium
 
-  #+begin_src latex :tangle fig-probl-2_1004-market-eq.tex :noweb no
+  #+begin_src latex :tangle fig-ans-probl-2_1004-market-eq.tex :noweb no
     \begin{tikzpicture}[xscale = 0.5, yscale = 0.727272727272]
 
       \draw[help lines]
@@ -51,7 +51,7 @@
 
 * 2.4 Apple market
 
-  #+begin_src latex :tangle fig-probl-2_1004-apples.tex :noweb no
+  #+begin_src latex :tangle fig-ans-probl-2_1004-apples.tex :noweb no
     \begin{tikzpicture}[xscale = 1, yscale = 1]
 
       \draw[help lines]
@@ -82,7 +82,7 @@
 
 ** Lack of police
 
-#+begin_src latex :tangle fig-probl-2_1004-drugs1.tex
+#+begin_src latex :tangle fig-ans-probl-2_1004-drugs1.tex
   \begin{tikzpicture}<<ex9:xy-scale>>
 
     <<ex9:coord-def>>
@@ -103,7 +103,7 @@
 
 ** Fewer talks
 
-#+begin_src latex :tangle fig-probl-2_1004-drugs2.tex
+#+begin_src latex :tangle fig-ans-probl-2_1004-drugs2.tex
   \begin{tikzpicture}<<ex9:xy-scale>>
 
     <<ex9:coord-def>>
@@ -178,7 +178,7 @@
 ** Initial equilibrium
 
 
-#+begin_src latex :tangle fig-probl-2_1004-comp1.tex
+#+begin_src latex :tangle fig-ans-probl-2_1004-comp1.tex
   \begin{tikzpicture}<<ex11:xy-scale>>
 
     <<ex11:coord-def>>
@@ -199,7 +199,7 @@
 
 ** Demand increase
 
-#+begin_src latex :tangle fig-probl-2_1004-comp2.tex
+#+begin_src latex :tangle fig-ans-probl-2_1004-comp2.tex
   \begin{tikzpicture}<<ex11:xy-scale>>
 
     <<ex11:coord-def>>
@@ -221,7 +221,7 @@
 
 ** Demand decrease
 
-#+begin_src latex :tangle fig-probl-2_1004-comp3.tex
+#+begin_src latex :tangle fig-ans-probl-2_1004-comp3.tex
   \begin{tikzpicture}<<ex11:xy-scale>>
 
     <<ex11:coord-def>>
@@ -300,7 +300,7 @@
 ** Initial equilibrium
 
 
-#+begin_src latex :tangle fig-probl-2_1004-cars1.tex
+#+begin_src latex :tangle fig-ans-probl-2_1004-cars1.tex
   \begin{tikzpicture}<<ex12:xy-scale>>
 
     <<ex12:coord-def>>
@@ -321,7 +321,7 @@
 
 ** Demand and supply increase
 
-#+begin_src latex :tangle fig-probl-2_1004-cars2.tex
+#+begin_src latex :tangle fig-ans-probl-2_1004-cars2.tex
   \begin{tikzpicture}<<ex12:xy-scale>>
 
     <<ex12:coord-def>>
@@ -407,7 +407,7 @@
 ** Price reduction
 
 
-#+begin_src latex :tangle fig-probl-2_1004-inferior1.tex
+#+begin_src latex :tangle fig-ans-probl-2_1004-inferior1.tex
   \begin{tikzpicture}<<ex13:xy-scale>>
 
     <<ex13:coord-def>>
@@ -432,7 +432,7 @@
 
 ** Price rises
 
-#+begin_src latex :tangle fig-probl-2_1004-inferior2.tex
+#+begin_src latex :tangle fig-ans-probl-2_1004-inferior2.tex
   \begin{tikzpicture}<<ex13:xy-scale>>
 
     <<ex13:coord-def>>

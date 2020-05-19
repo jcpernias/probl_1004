@@ -17,14 +17,17 @@
 %% --------------------------------------------------------------------------------
 \newbool{langES}
 \newbool{langEN}
+\newbool{isAnswer}
 
 \DeclareOption{Spanish}{\booltrue{langES}\boolfalse{langEN}}
 \DeclareOption{English}{\booltrue{langEN}\boolfalse{langES}}
+\DeclareOption{answer}{\booltrue{isAnswer}}
+\DeclareOption{noanswer}{\boolfalse{isAnswer}}
 
 \DeclareOption*{%
   \ClassError{exam}{Unknown option `\CurrentOption'}{%
     Check the options passed to the `figure' class}}
-\ExecuteOptions{Spanish}
+\ExecuteOptions{Spanish,noanswer}
 \ProcessOptions*\relax
 
 %% Class loading
@@ -32,7 +35,7 @@
 \PassOptionsToPackage{svgnames}{xcolor}
 \PassOptionsToPackage{english, spanish}{translator}
 \PassOptionsToPackage{fleqn, tbtags, leqno}{amsmath}
-\LoadClass[12pt, tikz, crop]{standalone}
+\LoadClass[11pt, tikz, crop]{standalone}
 
 
 %% Load packages
@@ -92,7 +95,7 @@
    },
    use tangent/.default=1,
    axis/.style={thick, <->, >=stealth', line join=miter},
-   curve label/.style={font=\small},
+   curve label/.style={font=\ifbool{isAnswer}{\footnotesize}{\small}},
    curve/.style={very thick, curve label},
    shaded/.style={opacity=0.4},
    help lines/.style = {thin, gray, curve label},
@@ -176,3 +179,5 @@
     }
   }
 }
+
+\AfterEndPreamble{\ifbool{isAnswer}{\footnotesize\selectfont}{}}

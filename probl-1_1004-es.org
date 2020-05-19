@@ -40,12 +40,12 @@ c) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad
 ** Answer
 
 a)
-   #+xxx: fig fig-probl-1_1004-ppf-sh1-*.pdf
+   #+xxx: fig fig-ans-probl-1_1004-ppf-sh1-*.pdf
 
 b)
    #+attr_latex: :options {0.5\linewidth}
    #+xxx: col
-   #+xxx: fig fig-probl-1_1004-ppf-sh2-*.pdf
+   #+xxx: fig fig-ans-probl-1_1004-ppf-sh2-*.pdf
 
    #+latex: \begin{center}
    #+latex: \begin{minipage}{0.8\linewidth}
@@ -55,7 +55,7 @@ b)
 
    #+attr_latex: :options {0.5\linewidth}
    #+xxx: col
-   #+xxx: fig fig-probl-1_1004-ppf-sh3-*.pdf
+   #+xxx: fig fig-ans-probl-1_1004-ppf-sh3-*.pdf
 
    #+latex: \begin{center}
    #+latex: \begin{minipage}{0.8\linewidth}
@@ -65,7 +65,7 @@ b)
 
    #+attr_latex: :options {0.5\linewidth}
    #+xxx: col
-   #+xxx: fig fig-probl-1_1004-ppf-sh4-*.pdf
+   #+xxx: fig fig-ans-probl-1_1004-ppf-sh4-*.pdf
 
    #+attr_latex: :options {0.5\linewidth}
    #+xxx: col
@@ -75,7 +75,7 @@ c)
    #+attr_latex: :options {0.5\linewidth}
    #+xxx: col
 
-   #+xxx: fig fig-probl-1_1004-ppf-sh5-*.pdf
+   #+xxx: fig fig-ans-probl-1_1004-ppf-sh5-*.pdf
 
    #+attr_latex: :options {0.5\linewidth}
    #+xxx: col
@@ -119,7 +119,7 @@ a)
     #+attr_latex: :options {0.6\linewidth}
     #+xxx: col
 
-    #+xxx: fig fig-probl-1_1004-ppf-oc1-*.pdf
+    #+xxx: fig fig-ans-probl-1_1004-ppf-oc1-*.pdf
 
     #+attr_latex: :options {0.4\linewidth}
     #+xxx: col
@@ -129,7 +129,7 @@ b)
     #+attr_latex: :options {0.6\linewidth}
     #+xxx: col
 
-    #+xxx: fig fig-probl-1_1004-ppf-oc2-*.pdf
+    #+xxx: fig fig-ans-probl-1_1004-ppf-oc2-*.pdf
 
     #+attr_latex: :options {0.4\linewidth}
     #+xxx: col

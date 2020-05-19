@@ -7,7 +7,7 @@
 
 
 ** PPF
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh1.tex
+#+begin_src latex :tangle fig-ans-probl-1_1004-ppf-sh1.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<xy-scale2>>
     <<coord-def2>>
@@ -33,7 +33,7 @@
 
 ** Technological change
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh2.tex
+#+begin_src latex :tangle fig-ans-probl-1_1004-ppf-sh2.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<small-xy-scale2>>
     <<coord-def2>>
@@ -48,7 +48,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh3.tex
+#+begin_src latex :tangle fig-ans-probl-1_1004-ppf-sh3.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<small-xy-scale2>>
     <<coord-def2>>
@@ -63,7 +63,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh4.tex
+#+begin_src latex :tangle fig-ans-probl-1_1004-ppf-sh4.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<small-xy-scale2>>
     <<coord-def2>>
@@ -83,7 +83,7 @@
 
 ** War
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-sh5.tex
+#+begin_src latex :tangle fig-ans-probl-1_1004-ppf-sh5.tex
   <<coord-xy2>>
   \begin{tikzpicture}<<small-xy-scale2>>
     <<coord-def2>>
@@ -175,7 +175,7 @@
 
 ** PPF
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-oc1.tex
+#+begin_src latex :tangle fig-ans-probl-1_1004-ppf-oc1.tex
   <<coord-xy>>
 
   \begin{tikzpicture}<<xy-scale>>
@@ -208,7 +208,7 @@
 
 ** Inefficient combination
 
-#+begin_src latex :tangle fig-probl-1_1004-ppf-oc2.tex
+#+begin_src latex :tangle fig-ans-probl-1_1004-ppf-oc2.tex
   <<coord-xy>>
 
   \begin{tikzpicture}<<xy-scale>>

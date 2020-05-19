@@ -38,7 +38,7 @@ Determine la curva de demanda de mercado.
 
 #+attr_latex: :options {0.40\linewidth}
 #+xxx: col
-#+xxx: fig fig-probl-2_1004-market-demand-*.pdf
+#+xxx: fig fig-ans-probl-2_1004-market-demand-*.pdf
 
 #+attr_latex: :options [b]{0.60\linewidth}
 #+xxx: col
@@ -81,7 +81,7 @@ b) ¿Qué ocurriría si el precio fuera \price{4}? ¿Y si fuera
 a)
    #+attr_latex: :options {0.4\linewidth}
    #+xxx: col
-   #+xxx: fig fig-probl-2_1004-market-eq-*.pdf
+   #+xxx: fig fig-ans-probl-2_1004-market-eq-*.pdf
 
    #+attr_latex: :options {0.6\linewidth}
    #+xxx: col
@@ -126,7 +126,7 @@ condiciones se tendrían que cumplir?
 
 #+attr_latex: :options {0.5\linewidth}
 #+xxx: col
-#+xxx: fig fig-probl-2_1004-apples-*.pdf
+#+xxx: fig fig-ans-probl-2_1004-apples-*.pdf
 
 #+attr_latex: :options {0.5\linewidth}
 #+xxx: col
@@ -164,7 +164,7 @@ consumo de drogas?
   #+latex: \end{minipage}
   #+latex: \end{center}
 
-  #+xxx: fig fig-probl-2_1004-drugs1-*.pdf
+  #+xxx: fig fig-ans-probl-2_1004-drugs1-*.pdf
 
 #+attr_latex: :options {0.5\linewidth}
 #+xxx: col
@@ -174,7 +174,7 @@ consumo de drogas?
   #+latex: \end{minipage}
   #+latex: \end{center}
 
-  #+xxx: fig fig-probl-2_1004-drugs2-*.pdf
+  #+xxx: fig fig-ans-probl-2_1004-drugs2-*.pdf
 
 En los dos casos aumenta la cantidad consumida, pero el precio
 disminuye en el primer escenario y aumenta en el segundo.
@@ -207,7 +207,7 @@ c) Partiendo del equilibrio inicial, considere ahora los efectos
 a)
    #+attr_latex: :options {0.65\linewidth}
    #+xxx: col
-   #+xxx: fig fig-probl-2_1004-comp1-*.pdf
+   #+xxx: fig fig-ans-probl-2_1004-comp1-*.pdf
 
    #+attr_latex: :options {0.35\linewidth}
    #+xxx: col
@@ -222,7 +222,7 @@ a)
 b)
    #+attr_latex: :options {0.55\linewidth}
    #+xxx: col
-   #+xxx: fig fig-probl-2_1004-comp2-*.pdf
+   #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
 
    #+attr_latex: :options {0.45\linewidth}
    #+xxx: col
@@ -231,7 +231,7 @@ b)
 c)
    #+attr_latex: :options {0.5\linewidth}
    #+xxx: col
-     #+xxx: fig fig-probl-2_1004-comp2-*.pdf
+     #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
      #+latex: \begin{center}
      #+latex: \begin{minipage}{0.85\linewidth}
        Bien normal: el precio y la cantidad aumentan.
@@ -240,7 +240,7 @@ c)
 
    #+attr_latex: :options {0.55\linewidth}
    #+xxx: col
-     #+xxx: fig fig-probl-2_1004-comp3-*.pdf
+     #+xxx: fig fig-ans-probl-2_1004-comp3-*.pdf
      #+latex: \begin{center}
      #+latex: \begin{minipage}{0.85\linewidth}
        Bien inferior: el precio y la cantidad se reducen.
@@ -274,7 +274,7 @@ b) Calcule y represente el nuevo equilibrio si la demanda aumenta
 a)
    #+attr_latex: :options {0.65\linewidth}
    #+xxx: col
-   #+xxx: fig fig-probl-2_1004-cars1-*.pdf
+   #+xxx: fig fig-ans-probl-2_1004-cars1-*.pdf
 
    #+attr_latex: :options {0.35\linewidth}
    #+xxx: col
@@ -289,7 +289,7 @@ a)
 b)
    #+attr_latex: :options {0.5\linewidth}
    #+xxx: col
-   #+xxx: fig fig-probl-2_1004-cars2-*.pdf
+   #+xxx: fig fig-ans-probl-2_1004-cars2-*.pdf
 
    #+attr_latex: :options {0.5\linewidth}
    #+xxx: col
@@ -319,7 +319,7 @@ el nuevo equilibrio?
 
 #+attr_latex: :options {0.5\linewidth}
 #+xxx: col
-  #+xxx: fig fig-probl-2_1004-inferior1-*.pdf
+  #+xxx: fig fig-ans-probl-2_1004-inferior1-*.pdf
   #+latex: \begin{center}
   #+latex: \begin{minipage}{0.85\linewidth}
     La cantidad de equilibrio disminuye. El precio baja si el
@@ -330,7 +330,7 @@ el nuevo equilibrio?
 
 #+attr_latex: :options {0.5\linewidth}
 #+xxx: col
-  #+xxx: fig fig-probl-2_1004-inferior2-*.pdf
+  #+xxx: fig fig-ans-probl-2_1004-inferior2-*.pdf
   #+latex: \begin{center}
   #+latex: \begin{minipage}{0.85\linewidth}
     La cantidad de equilibrio disminuye. El precio sube si el

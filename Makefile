@@ -99,12 +99,12 @@ define probl-wrapper
 \input{$(realpath $(builddir))/$2-$3}
 endef
 
-# $(call fig-wrapper,spanish-or-english,fig-basename) -> write to a file
+# $(call fig-wrapper,answer,spanish-or-english,fig-basename) -> write to a file
 define fig-wrapper
-\documentclass[$1]{figure}
+\documentclass[$1,$2]{figure}
 \InputIfFileExists{$(subject_code)-macros.tex}{}{}
 \begin{document}
-\input{$(realpath $(builddir))/$2}
+\input{$(realpath $(builddir))/$3}
 \end{document}
 endef
 
@@ -154,11 +154,20 @@ $(depsdir)/%.pdf.d: $(builddir)/%.tex | $(outdir) $(depsdir)
 # figure wrappers
 .PRECIOUS: $(builddir)/fig-%-en.tex
 $(builddir)/fig-%-en.tex: $(builddir)/fig-%.tex
-	$(file > $@,$(call fig-wrapper,English,fig-$*))
+	$(file > $@,$(call fig-wrapper,noanswer,English,fig-$*))
 
 .PRECIOUS: $(builddir)/fig-%-es.tex
 $(builddir)/fig-%-es.tex: $(builddir)/fig-%.tex
-	$(file > $@,$(call fig-wrapper,Spanish,fig-$*))
+	$(file > $@,$(call fig-wrapper,noanswer,Spanish,fig-$*))
+
+.PRECIOUS: $(builddir)/fig-ans-%-en.tex
+$(builddir)/fig-ans-%-en.tex: $(builddir)/fig-ans-%.tex
+	$(file > $@,$(call fig-wrapper,answer,English,fig-ans-$*))
+
+.PRECIOUS: $(builddir)/fig-ans-%-es.tex
+$(builddir)/fig-ans-%-es.tex: $(builddir)/fig-ans-%.tex
+	$(file > $@,$(call fig-wrapper,answer,Spanish,fig-ans-$*))
+
 
 # figure latex to pdf
 $(figdir)/fig-%.pdf: $(builddir)/fig-%.tex | $(figdir)
