@@ -231,9 +231,9 @@ with the same title as the original one.
           (org-element-map section 'headline
             (lambda (hl)
               (when (= (org-element-property :level hl) 3)
-                (org-element-extract-element hl)))))
+                (org-element-put-property (org-element-extract-element hl) :level 2)))))
     (when answers
-      (setq new-section (make-headline (org-element-property :title section) 2))
+      (setq new-section (make-headline (org-element-property :title section) 1))
       (apply 'org-element-adopt-elements new-section answers))))
 
 
@@ -251,8 +251,11 @@ of the document."
               (and (= (org-element-property :level hl) 1)
                    (handle-section hl)))))
     (when sections
-      (setq new-section (make-headline-unnumbered "\\SolutionsName" 1))
-      (apply 'org-element-adopt-elements new-section sections))))
+      (setq new-section (make-section))
+      (org-element-adopt-elements new-section (make-latex-keyword "\\solutions{}"))
+      (org-element-adopt-elements new-section (make-latex-keyword "\\begin{multicols}{2}"))
+      (apply 'org-element-adopt-elements new-section sections)
+      (org-element-adopt-elements new-section (make-latex-keyword "\\end{multicols}")))))
 
 (defun prepare-buffer ()
   "Parse problems document"
