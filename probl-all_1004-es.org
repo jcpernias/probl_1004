@@ -6,7 +6,7 @@
 
 #+include: "probl-1_1004-es.org" :lines "3-"
 
-* COMMENT Mercados competitivos
+* Mercados competitivos
 
 #+include: "probl-2_1004-es.org" :lines "3-"
 
