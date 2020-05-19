@@ -19,9 +19,7 @@
 \newbool{langEN}
 \newbool{answers}
 \newbool{shortanswers}
-\newbool{toc}
 
-\booltrue{toc}
 \boolfalse{answers}
 \boolfalse{shortanswers}
 
@@ -30,7 +28,6 @@
 \DeclareOption{noanswers}{\boolfalse{answers}\boolfalse{shortanswers}}
 \DeclareOption{answers}{\booltrue{answers}\boolfalse{shortanswers}}
 \DeclareOption{shortanswers}{\boolfalse{answers}\booltrue{shortanswers}}
-\DeclareOption{notoc}{\boolfalse{toc}}
 \DeclareOption*{%
   \ClassError{syllabus}{Unknown option `\CurrentOption'}{%
     Check the options passed to the `syllabus' class}}
@@ -54,7 +51,6 @@
 %\geometry{vmargin=4cm,hmargin=3.6cm}
 \RequirePackage[strict]{changepage}
 \RequirePackage{parskip}
-
 
 \RequirePackage{docs-math}
 %\RequirePackage{docs-rules}
@@ -102,7 +98,7 @@
   \let\oldmaketitle\maketitle
   \renewcommand{\maketitle}{%
     \oldmaketitle%
-    \ifbool{toc}{\tableofcontents}{}%
+    \tableofcontents%
     \thispagestyle{empty}%
     %\cleardoublepage{}%
     \ccpage%
