@@ -143,7 +143,7 @@ compact]{titlesec}
   \color{Section}\LARGE\sffamily\bfseries}{%
   \makebox[1.25cm][l]{\rmfamily\slshape\HUGE\thesection}}{0pt}{}
 
-\titlespacing*{name=\section}{-1.25cm}{*7}{*1.5}
+\titlespacing*{name=\section}{-1.25cm}{0pt}{*1.5}
 
 \titleformat{name=\section, numberless}
 {\color{Section}\LARGE\sffamily\bfseries}
@@ -163,14 +163,10 @@ compact]{titlesec}
 \titleformat{name=\part}[hang]{%
   \color{Section}\LARGE\sffamily\bfseries}{}{0pt}{}
 
-\titlespacing*{name=\part}{0pt}{*7}{*1.5}
-
-
-
+\titlespacing*{name=\part}{0pt}{0pt}{*1.5}
 
 \titleclass{\part}{top}
 \newcommand{\partbreak}{\cleardoublepage}
-
 
 %% Page headers and footers
 %% -----------------------------------------------------------------
