@@ -4,12 +4,13 @@
 * 2.1
 
 Hay tres compradores en un mercado cuyas curvas de demanda son:
-
-#+ATTR_LATEX: :center t :align lc
-| Comprador 1: | $Q^d_1(P) = 1000 - 10 P$ |
-| Comprador 2: | $Q^d_2(P) = 600 - 2 P$   |
-| Comprador 3: | $Q^d_3(P) = 750 - 5 P$   |
-
+#+begin_export latex
+\begin{gather*}
+  \text{Comprador 1:\ } Q^d_1(P) = 1000 - 10 P \\
+  \text{Comprador 2:\ } Q^d_2(P) = 600 - 2 P \\
+  \text{Comprador 3:\ } Q^d_3(P) = 750 - 5 P
+\end{gather*}
+#+end_export
 Determine la curva de demanda de mercado.
 
 ** Answer
