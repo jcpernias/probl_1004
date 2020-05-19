@@ -120,8 +120,7 @@
     %\oldmaketitle
     \let\maketitle\oldmaketitle%
     % \preto\section{\clearpage{\cleardoublepage}}
-    \newcommand{\sectionbreak}{\clearpage{\cleardoublepage}}
-  }
+    \newcommand{\sectionbreak}{\clearpage{\cleardoublepage}\thispagestyle{first}}}
   \maketitle
 }
 
@@ -181,20 +180,25 @@ compact]{titlesec}
 %% Page headers and footers
 %% -----------------------------------------------------------------
 
-%\usepackage[outermarks]{titleps}
-\newcommand*{\headfmt}{\small\bfseries\scshape\sffamily}
-\newcommand*{\footfmt}{\small\bfseries\sffamily}
+\newpagestyle{problems}[\color{Section}\small\bfseries\sffamily]{%
+  \renewcommand{\makeheadrule}{%
+    \color{Section}\rule{\linewidth}{1.2pt}}
+  \renewcommand{\makefootrule}{%
+    \color{Section}\rule[0.8\baselineskip]{\linewidth}{1.2pt}}
+  \sethead{}{}{}
+  \setfoot*{}{}{\thepage}
+}
 
-\newpagestyle{fancy}{%
-  % \sethead[\headfmt\color{Section}\thesection{} \sectiontitle\filright][][] % even
-  %         {}{}{\headfmt\color{Subsection}\ExerciseName\ \thesubsection}    % odd
-  \setfoot*{}{}{\footfmt\thepage}   % odd
+\newpagestyle{first}[\color{Section}\small\bfseries\sffamily]{%
+  \renewcommand{\makefootrule}{%
+    \color{Section}\rule[0.8\baselineskip]{\linewidth}{1.2pt}}
+  \sethead{}{}{}
+  \setfoot*{}{}{\thepage}
 }
-\newpagestyle{first}{%
-  \setfoot*{}{}{\footfmt\thepage}   % odd
-}
-%\widenhead[2cm][0pt]{0pt}{0pt}
-\pagestyle{fancy}
+
+
+\widenhead*{0.8cm}{4.5cm}
+\pagestyle{problems}
 
 
 
@@ -221,14 +225,16 @@ compact]{titlesec}
 
 \newcommand{\solutions}{
   \cleardoublepage
-  \newgeometry{twoside, hmargin={2cm,2.7cm}, bindingoffset=0.7cm,
+  \widenhead*{0cm}{0cm}
+  \newgeometry{twoside, hmargin={1.2cm,1.2cm}, bindingoffset=0.7cm,
     vmargin=4cm}
+
 
   % Do not include anything in toc
   \addtocontents{toc}{\string\setcounter{tocdepth}{0}}
 
   \part{\SolutionsName}
-  \thispagestyle{fancy}
+  \thispagestyle{first}
 
   % Change font size
   \footnotesize\selectfont%
