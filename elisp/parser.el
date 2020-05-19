@@ -56,6 +56,18 @@
 (defun item-p (element)
   (eq (org-element-type element) 'item))
 
+(defun comment-p (element)
+  (eq (org-element-type element) 'comment))
+
+
+;; Comments
+;; --------------------------------------------------------------------------------
+(defun make-comment (value)
+  "Return a comment"
+  (org-element-create
+       'comment
+       (list :value (concat "# " value))))
+
 ;; Sections
 ;; --------------------------------------------------------------------------------
 (defun make-section ()
@@ -147,6 +159,12 @@ It only works after parse-xxx-keywords"
   (and (xxx-keyword-p element)
        (string= (org-element-property :xxx-type element) "col")))
 
+(defun xxx-endcol-p (element)
+  "Returns t if ELEMENT is a col xxx-keyword
+It only works after parse-xxx-keywords"
+  (and (xxx-keyword-p element)
+       (string= (org-element-property :xxx-type element) "endcol")))
+
 (defun parse-xxx-keywords (doc)
   "Add xxx-type and xxx-value properties to a xxx-keyword"
   (org-element-map doc 'keyword
@@ -172,9 +190,10 @@ It only works after parse-xxx-keywords"
             (value))
         (when (xxx-keyword-p keyword)
           (setq type (org-element-property :xxx-type keyword))
-            (cond ((string= type "col") (xxx-col keyword))
-                  ((string= type "fig") (xxx-fig keyword))
-                  (t nil)))))))
+          (cond ((string= type "endcol") (xxx-endcol keyword))
+                ((string= type "col") (xxx-col keyword))
+                ((string= type "fig") (xxx-fig keyword))
+                (t nil)))))))
 
 
 ;; Figures
@@ -201,6 +220,7 @@ It only works after parse-xxx-keywords"
   "Return t if ELEMENT is a headline, a list item or another xxx col."
   (or (headline-p element)
       (item-p element)
+      (xxx-endcol-p element)
       (xxx-col-p element)))
 
 (defun xxx-col (element)
@@ -214,6 +234,9 @@ It only works after parse-xxx-keywords"
      element
      (make-paragraph minipage (get-post-blank element)))))
 
+(defun xxx-endcol (element)
+  (org-element-set-element
+   element (make-comment "endcol")))
 
 ;; ================================================================================
 ;; Problems
