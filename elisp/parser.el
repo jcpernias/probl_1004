@@ -267,7 +267,7 @@ of the document."
     (process-xxx-keywords doc)
     (org-element-interpret-data doc)))
 
-(defun preprocess-probl ()
+(defun preprocess-probl (backend)
   "Replace buffer with preprocessed probl document"
   (let ((new (prepare-buffer)))
     (erase-buffer)
@@ -275,7 +275,7 @@ of the document."
 
 
 ;; (remove-hook 'org-export-before-parsing-hook 'preprocess-probl)
-;; (add-hook 'org-export-before-parsing-hook 'preprocess-probl)
+(add-hook 'org-export-before-parsing-hook 'preprocess-probl)
 
 
 (defun print-tree (tree &optional indent)
