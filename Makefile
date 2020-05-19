@@ -36,7 +36,7 @@ Rscriptbin := /usr/local/bin/Rscript
 
 EMACS := $(emacsbin) -Q -nw --batch
 emacs_loads := --load=$(elispdir)/setup-org.el \
-	--load=$(elispdir)/mats.el
+	--load=$(elispdir)/parser.el
 org_to_latex := --eval "(tolatex (file-name-as-directory \"$(builddir)\"))"
 org_to_beamer := --eval "(tobeamer (file-name-as-directory \"$(builddir)\"))"
 tangle := --eval "(tangle-to (file-name-as-directory \"$(builddir)\"))"
