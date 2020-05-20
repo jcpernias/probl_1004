@@ -56,47 +56,23 @@ c) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad
 
 ** Answer
 
-a)
+a) En los gráficos siguientes $A$ representa automóviles, en decenas
+   de miles, y $C$ denota comida, en decenas de miles de kilos.
+
    #+xxx: fig fig-ans-probl-1_1004-ppf-sh1-*.pdf
 
-b)
-   #+attr_latex: :options {0.5\linewidth}
-   #+xxx: col
+b) Una mejora tecnológica en la producción de comida:
    #+xxx: fig fig-ans-probl-1_1004-ppf-sh2-*.pdf
 
-   #+latex: \begin{center}
-   #+latex: \begin{minipage}{0.8\linewidth}
-   Una mejora tecnológica en la producción de comida.
-   #+latex: \end{minipage}
-   #+latex: \end{center}
-
-   #+attr_latex: :options {0.5\linewidth}
-   #+xxx: col
+   Una mejora organizativa en la producción de automóviles:
    #+xxx: fig fig-ans-probl-1_1004-ppf-sh3-*.pdf
 
-   #+latex: \begin{center}
-   #+latex: \begin{minipage}{0.8\linewidth}
-   Una mejora organizativa en la producción de automóviles.
-   #+latex: \end{minipage}
-   #+latex: \end{center}
-
-   #+attr_latex: :options {0.5\linewidth}
-   #+xxx: col
+   Si las mejoras en los dos sectores se producen smultáneamente:
    #+xxx: fig fig-ans-probl-1_1004-ppf-sh4-*.pdf
 
-   #+attr_latex: :options {0.5\linewidth}
-   #+xxx: col
-   Mejoras en los dos sectores.
-
-c)
-   #+attr_latex: :options {0.5\linewidth}
-   #+xxx: col
-
+c) Una reducción de un factor de producción desplaza la FPP hacia la
+   izquierda:
    #+xxx: fig fig-ans-probl-1_1004-ppf-sh5-*.pdf
-
-   #+attr_latex: :options {0.5\linewidth}
-   #+xxx: col
-   Desplazamiento a la izquierda de la FPP.
 
 
 
@@ -129,46 +105,37 @@ c) Construya una tabla que refleje el coste de oportunidad de producir
 d) ¿A cuántas unidades de $X$ se debe renunciar para producir la
    primera unidad de $Y$? ¿Y la segunda?
 
+e) ¿Qué relación existe entre la forma de la FPP y el coste de
+   oportunidad?
 
 ** Answer
 
-a)
-    #+attr_latex: :options {0.6\linewidth}
-    #+xxx: col
+a) La frontera de posibilidades de producción es cóncava.
+   #+xxx: fig fig-ans-probl-1_1004-ppf-oc1-*.pdf
 
-    #+xxx: fig fig-ans-probl-1_1004-ppf-oc1-*.pdf
+b) Es factible producir 2 unidades de $Y$ y 10 de $X$, pero es una
+   combinación de producción ineficiente:
+   #+xxx: fig fig-ans-probl-1_1004-ppf-oc2-*.pdf
 
-    #+attr_latex: :options {0.4\linewidth}
-    #+xxx: col
-    La FPP es cóncava.
-
-b)
-    #+attr_latex: :options {0.6\linewidth}
-    #+xxx: col
-
-    #+xxx: fig fig-ans-probl-1_1004-ppf-oc2-*.pdf
-
-    #+attr_latex: :options {0.4\linewidth}
-    #+xxx: col
-    La combinación es factible pero ineficiente.
-
-c)
-    #+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{r}*{3}{c}
-    |-----+----------+---------+------------+------------+---------------------------|
-    |     | $X$      | $Y$     | $\incr{X}$ | $\incr{Y}$ | $\abs{\incr{X}/\incr{Y}}$ |
-    |-----+----------+---------+------------+------------+---------------------------|
-    | *A* | \num{20} | \num{0} | ---        | ---        | ---                       |
-    | *B* | \num{18} | \num{1} | \num{-2}   | \num{1}    | \num{2}                   |
-    | *C* | \num{15} | \num{2} | \num{-3}   | \num{1}    | \num{3}                   |
-    | *D* | \num{11} | \num{3} | \num{-4}   | \num{1}    | \num{4}                   |
-    | *E* | \num{6}  | \num{4} | \num{-5}   | \num{1}    | \num{5}                   |
-    | *F* | \num{0}  | \num{5} | \num{-6}   | \num{1}    | \num{6}                   |
-    |-----+----------+---------+------------+------------+---------------------------|
+c) La útima columna muestra el coste de oportunidad de cada unidad del
+   bien $Y$:
+   #+ATTR_LATEX: :booktabs t :center t :align @{}p{0.75cm}*{4}{R{0.75cm}}r@{}
+   |-----+----------+---------+------------+------------+---------------------------|
+   |     | $X$      | $Y$     | $\incr{X}$ | $\incr{Y}$ | $\abs{\incr{X}/\incr{Y}}$ |
+   |-----+----------+---------+------------+------------+---------------------------|
+   | *A* | \num{20} | \num{0} | ---        | ---        | ---                       |
+   | *B* | \num{18} | \num{1} | \num{-2}   | \num{1}    | \num{2}                   |
+   | *C* | \num{15} | \num{2} | \num{-3}   | \num{1}    | \num{3}                   |
+   | *D* | \num{11} | \num{3} | \num{-4}   | \num{1}    | \num{4}                   |
+   | *E* | \num{6}  | \num{4} | \num{-5}   | \num{1}    | \num{5}                   |
+   | *F* | \num{0}  | \num{5} | \num{-6}   | \num{1}    | \num{6}                   |
+   |-----+----------+---------+------------+------------+---------------------------|
 
 d) Para poder producir la primera unidad de $Y$ hay que renunciar a
    $2$ unidades de $X$, mientras que el coste de oportunidad de la
    segunda es $3$ unidades de $X$.
 
+e) Cuando el coste de oportunidad es creciente, la FPP es cóncava.
 
 
 * 1.3

@@ -13,7 +13,10 @@ Hay tres compradores en un mercado cuyas curvas de demanda son:
 #+end_export
 Determine la curva de demanda de mercado.
 
+
 ** Answer
+Dependiendo de cuál sea el precio algunos compradores dejan de
+adquirir el bien:
 
 - Si $P \leq 100$ participan los 3 compradores:
   #+begin_export latex
@@ -36,12 +39,7 @@ Determine la curva de demanda de mercado.
   \]
   #+end_export
 
-#+attr_latex: :options {0.40\linewidth}
-#+xxx: col
-#+xxx: fig fig-ans-probl-2_1004-market-demand-*.pdf
-
-#+attr_latex: :options [b]{0.60\linewidth}
-#+xxx: col
+Por tanto, la curva de demanda de mercado es:
 #+begin_export latex
 \[
   Q^d(P) =
@@ -52,6 +50,9 @@ Determine la curva de demanda de mercado.
   \end{cases}
 \]
 #+end_export
+
+Su representación gráfica es una línea que se quiebra en dos puntos:
+#+xxx: fig fig-ans-probl-2_1004-market-demand-*.pdf
 
 
 * 2.2
@@ -78,21 +79,16 @@ b) ¿Qué ocurriría si el precio fuera \price{4}? ¿Y si fuera
 
 ** Answer
 
-a)
-   #+attr_latex: :options {0.4\linewidth}
-   #+xxx: col
-   #+xxx: fig fig-ans-probl-2_1004-market-eq-*.pdf
-
-   #+attr_latex: :options {0.6\linewidth}
-   #+xxx: col
-   Demanda y oferta de mercado:
+a) Demanda y oferta de mercado:
    #+begin_export latex
    \begin{gather*}
      Q^d(P) = 5000 - 1000 P \\
      Q^o(P) = 1500 P
    \end{gather*}
    #+end_export
-
+   En el equilibrio de este mercado $P^{*} = \price{2}$ y $Q^{*} =
+   \units{3000}$:
+   #+xxx: fig fig-ans-probl-2_1004-market-eq-*.pdf
 
 b) Si el precio de mercado es $P = \price{4}$ se produce un exceso de
    oferta de \units{5000}.
@@ -124,18 +120,12 @@ condiciones se tendrían que cumplir?
 
 ** Answer
 
-#+attr_latex: :options {0.5\linewidth}
-#+xxx: col
+La oferta de manzanas se reduce. Se venden menos manzanas a un precio
+superior.
 #+xxx: fig fig-ans-probl-2_1004-apples-*.pdf
-
-#+attr_latex: :options {0.5\linewidth}
-#+xxx: col
-La oferta de manzanas se reduce. Se venden menos manzanas a un
-precio superior.
 
 Los ingresos de los productores solo crecerán si el mercado se
 encuentra en un tramo inelástico de la curva de demanda.
-
 
 
 * 2.5
@@ -156,25 +146,11 @@ consumo de drogas?
 
 ** Answer
 
-#+attr_latex: :options {0.5\linewidth}
-#+xxx: col
-  #+latex: \begin{center}
-  #+latex: \begin{minipage}{0.85\linewidth}
-    Menor presupuesto policial.
-  #+latex: \end{minipage}
-  #+latex: \end{center}
+Menor presupuesto policial:
+#+xxx: fig fig-ans-probl-2_1004-drugs1-*.pdf
 
-  #+xxx: fig fig-ans-probl-2_1004-drugs1-*.pdf
-
-#+attr_latex: :options {0.5\linewidth}
-#+xxx: col
-  #+latex: \begin{center}
-  #+latex: \begin{minipage}{0.85\linewidth}
-    Recortes en educación.
-  #+latex: \end{minipage}
-  #+latex: \end{center}
-
-  #+xxx: fig fig-ans-probl-2_1004-drugs2-*.pdf
+Recortes en educación:
+#+xxx: fig fig-ans-probl-2_1004-drugs2-*.pdf
 
 En los dos casos aumenta la cantidad consumida, pero el precio
 disminuye en el primer escenario y aumenta en el segundo.
@@ -204,49 +180,17 @@ c) Partiendo del equilibrio inicial, considere ahora los efectos
 
 ** Answer
 
-a)
-   #+attr_latex: :options {0.65\linewidth}
-   #+xxx: col
+a) En equilibrio $P^*_X = \price{2000}$ y $X^* = \units{45000}$:
    #+xxx: fig fig-ans-probl-2_1004-comp1-*.pdf
 
-   #+attr_latex: :options {0.35\linewidth}
-   #+xxx: col
-   Equilibrio:
-   #+begin_export latex
-   \begin{gather*}
-     P^*_X = \price{2000} \\
-     X^* = \units{45000}
-   \end{gather*}
-   #+end_export
-
-b)
-   #+attr_latex: :options {0.55\linewidth}
-   #+xxx: col
+b) El precio y la cantidad de equilibrio aumentan.
    #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
 
-   #+attr_latex: :options {0.45\linewidth}
-   #+xxx: col
-   El precio y la cantidad de equilibrio aumentan.
+c) Bien normal: el precio y la cantidad aumentan.
+   #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
 
-c)
-   #+attr_latex: :options {0.5\linewidth}
-   #+xxx: col
-     #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
-     #+latex: \begin{center}
-     #+latex: \begin{minipage}{0.85\linewidth}
-       Bien normal: el precio y la cantidad aumentan.
-     #+latex: \end{minipage}
-     #+latex: \end{center}
-
-   #+attr_latex: :options {0.55\linewidth}
-   #+xxx: col
-     #+xxx: fig fig-ans-probl-2_1004-comp3-*.pdf
-     #+latex: \begin{center}
-     #+latex: \begin{minipage}{0.85\linewidth}
-       Bien inferior: el precio y la cantidad se reducen.
-     #+latex: \end{minipage}
-     #+latex: \end{center}
-
+   Bien inferior: el precio y la cantidad se reducen.
+   #+xxx: fig fig-ans-probl-2_1004-comp3-*.pdf
 
 * 2.7
 
@@ -254,8 +198,8 @@ El mercado de coches eléctricos de un país es competitivo y las
 curvas de demanda y oferta son:
 #+begin_export latex
 \begin{gather*}
-  Q^{d} = \num{10000} - P/6 \\
-  Q^{o} = -6000 + P/2
+  Q_{d} = \num{10000} - P/6 \\
+  Q_{o} = -6000 + P/2
 \end{gather*}
 #+end_export
 a) Determine el precio y la cantidad de equilibrio.
@@ -265,48 +209,26 @@ b) Calcule y represente el nuevo equilibrio si la demanda aumenta
    precio) y la oferta pasa a ser:
    #+begin_export latex
    \[
-     Q^o = -2700 + P/2
+     Q_o = -2700 + P/2
    \]
    #+end_export
 
 ** Answer
 
 a)
-   #+attr_latex: :options {0.65\linewidth}
-   #+xxx: col
+   En equilibrio: $P^* = \price{24000}$ y $Q^* = \units{6000}$.
    #+xxx: fig fig-ans-probl-2_1004-cars1-*.pdf
 
-   #+attr_latex: :options {0.35\linewidth}
-   #+xxx: col
-   Equilibrio:
+b) Las nuevas curvas de demanda y oferta son:
    #+begin_export latex
    \begin{gather*}
-     P^* = \price{24000} \\
-     Q^* = \units{6000}
+     Q'_{d} = \num{12000} - P/5 \\
+     Q'_{o} = \num{-2700} + P/2
    \end{gather*}
    #+end_export
-
-b)
-   #+attr_latex: :options {0.5\linewidth}
-   #+xxx: col
+   En el nuevo equilibrio: $P^* = \price{21000}$ y $Q^* =
+   \units{7800}$.
    #+xxx: fig fig-ans-probl-2_1004-cars2-*.pdf
-
-   #+attr_latex: :options {0.5\linewidth}
-   #+xxx: col
-   - Curva de demanda:
-     #+begin_export latex
-     \[
-       Q^d = \num{12000} - P/5
-     \]
-     #+end_export
-   - Equilibrio:
-     #+begin_export latex
-     \begin{gather*}
-       P^* = \price{21000} \\
-       Q^* = \units{7800}
-     \end{gather*}
-     #+end_export
-
 
 * 2.8
 
@@ -317,24 +239,10 @@ el nuevo equilibrio?
 
 ** Answer
 
-#+attr_latex: :options {0.5\linewidth}
-#+xxx: col
-  #+xxx: fig fig-ans-probl-2_1004-inferior1-*.pdf
-  #+latex: \begin{center}
-  #+latex: \begin{minipage}{0.85\linewidth}
-    La cantidad de equilibrio disminuye. El precio baja si el
-    cambio en la oferta es relativamente menor que el cambio en
-    la demanda.
-  #+latex: \end{minipage}
-  #+latex: \end{center}
+La cantidad de equilibrio disminuye. El precio baja si el cambio en la
+oferta es relativamente menor que el cambio en la demanda.
+#+xxx: fig fig-ans-probl-2_1004-inferior1-*.pdf
 
-#+attr_latex: :options {0.5\linewidth}
-#+xxx: col
-  #+xxx: fig fig-ans-probl-2_1004-inferior2-*.pdf
-  #+latex: \begin{center}
-  #+latex: \begin{minipage}{0.85\linewidth}
-    La cantidad de equilibrio disminuye. El precio sube si el
-    cambio en la oferta es relativamente mayor que el cambio en
-    la demanda.
-  #+latex: \end{minipage}
-  #+latex: \end{center}
+La cantidad de equilibrio disminuye. El precio sube si el cambio en la
+oferta es relativamente mayor que el cambio en la demanda.
+#+xxx: fig fig-ans-probl-2_1004-inferior2-*.pdf
