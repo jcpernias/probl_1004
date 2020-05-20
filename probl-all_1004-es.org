@@ -14,7 +14,7 @@
 
 #+include: "probl-3_1004-es.org" :lines "3-"
 
-* COMMENT La intervención del Estado en mercados competitivos
+* La intervención del Estado en mercados competitivos
 
 #+include: "probl-4_1004-es.org" :lines "3-"
 
