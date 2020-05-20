@@ -34,6 +34,6 @@
 
 #+include: "probl-8_1004-es.org" :lines "3-"
 
-* COMMENT Los costes
+* Los costes
 
 #+include: "probl-9_1004-es.org" :lines "3-"

@@ -2,8 +2,8 @@ SHELL := /bin/sh
 
 subject_code := 1004
 probl_units := all
-# probl_figs := 1 2 3 4 5 6 7 8 9
-probl_figs := 1 2 3 4 5 6 7 8
+probl_figs := 1 2 3 4 5 6 7 8 9
+
 
 TEXI2DVI_SILENT := -q
 # TEXI2DVI_SILENT :=

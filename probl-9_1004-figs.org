@@ -5,7 +5,7 @@
 
 * 9.1: Short-run curves
 
-  #+begin_src latex :tangle fig-probl-9_1004-short-curves1.tex :noweb no
+  #+begin_src latex :tangle fig-ans-probl-9_1004-short-curves1.tex :noweb no
     \begin{tikzpicture}[yscale=0.9, xscale=0.045]
 
       \draw[curve, very thick]
@@ -29,7 +29,7 @@
     \end{tikzpicture}
    #+end_src
 
-  #+begin_src latex :tangle fig-probl-9_1004-short-curves2.tex :noweb no
+  #+begin_src latex :tangle fig-ans-probl-9_1004-short-curves2.tex :noweb no
     \begin{tikzpicture}[yscale=0.1, xscale=0.045]
       \draw[help lines]
          (0, 28.28427) node[left] {$28.28$ } -|
@@ -59,7 +59,7 @@
 * 9.4: Long-run choice
 
   #+begin_src latex :tangle fig-probl-9_1004-choice.tex :noweb no
-    \begin{tikzpicture}[yscale=0.32, xscale=0.32]
+    \begin{tikzpicture}[yscale=0.3, xscale=0.3]
 
       \draw[curve]
         plot[domain=5.5:31, smooth, samples = 128] (\x,{62.5/\x})
@@ -85,8 +85,8 @@
     \end{tikzpicture}
    #+end_src
 
-  #+begin_src latex :tangle fig-probl-9_1004-choice2.tex :noweb no
-    \begin{tikzpicture}[yscale=0.25, xscale=0.25]
+  #+begin_src latex :tangle fig-ans-probl-9_1004-choice2.tex :noweb no
+    \begin{tikzpicture}[yscale=0.17, xscale=0.17]
 
       \draw[curve]
         plot[domain=5.5:31, smooth, samples = 128] (\x,{62.5/\x})
@@ -122,7 +122,7 @@
 
 * 9.8: Long-run marginal and average cost curves
 
-  #+begin_src latex :tangle fig-probl-9_1004-cmg-cme-long.tex :noweb no
+  #+begin_src latex :tangle fig-ans-probl-9_1004-cmg-cme-long.tex :noweb no
     \begin{tikzpicture}[yscale=0.11, xscale=0.32]
 
       \draw[help lines] (0, 6) node[left] {$6$} -|
@@ -150,7 +150,7 @@
 
 * 9.9: Short-run and long-run cost curves
 
-  #+begin_src latex :tangle fig-probl-9_1004-short-long.tex :noweb no
+  #+begin_src latex :tangle fig-ans-probl-9_1004-short-long.tex :noweb no
     \begin{tikzpicture}[yscale=0.4, xscale=0.2222222]
 
       \draw[help lines] (0, 6) node[left, font=\small] {$6$} -|
@@ -178,7 +178,7 @@
 * 9.10: Expansion paths
 
   #+begin_src latex :tangle fig-probl-9_1004-expansion.tex :noweb no
-    \begin{tikzpicture}[yscale=0.85, xscale=0.85]
+    \begin{tikzpicture}[yscale=0.7, xscale=0.7]
 
       \draw[help lines] (0, 0) grid (10, 8) ;
 
@@ -228,7 +228,7 @@
     \end{tikzpicture}
    #+end_src
 
-  #+begin_src latex :tangle fig-probl-9_1004-expansion2.tex :noweb no
+  #+begin_src latex :tangle fig-ans-probl-9_1004-expansion2.tex :noweb no
     \begin{tikzpicture}[yscale=0.5, xscale=0.5]
 
       \draw[help lines] (0, 0) grid (10, 8) ;
@@ -270,7 +270,7 @@
 
 * 9.12: Envelop
 
-  #+begin_src latex :tangle fig-probl-9_1004-envelop.tex :noweb no
+  #+begin_src latex :tangle fig-ans-probl-9_1004-envelop.tex :noweb no
     \begin{tikzpicture}[yscale=0.25, xscale=0.5]
 
       \draw[help lines] (4.5, 7.25) --
