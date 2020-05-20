@@ -11,74 +11,61 @@ progreso tecnológico.
 a) ¿Qué ocurrirá con el equilibrio en cada uno de estos mercados?
    Represente gráficamente.
 
-   #+begin_answer
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       #+latex: \begin{center}
-       #+latex: \begin{minipage}{0.65\linewidth}
-        Demanda inelástica.
-       #+latex: \end{minipage}
-       #+latex: \end{center}
-       #+MATS: fig fig-probl-3_1004-medicines-*.pdf
-     #+end_minipage
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       #+latex: \begin{center}
-       #+latex: \begin{minipage}{0.65\linewidth}
-        Demanda elástica.
-       #+latex: \end{minipage}
-       #+latex: \end{center}
-       #+MATS: fig fig-probl-3_1004-computers-*.pdf
-     #+end_minipage
-   #+end_answer
-
 b) ¿En qué mercado se experimentará el mayor cambio en el precio?
    ¿Y el mayor cambio en la cantidad?
 
-   #+begin_answer
-     En el mercado con la demanda más elástica se ve más afectada
-     la cantidad. En el mercado con demanda menos elástica se ve
-     más afectado el precio.
-   #+end_answer
-
 c) ¿Cómo cambiará el gasto de los consumidores en cada bien?
 
-   #+Begin_answer
-     Cuando se reduce el precio en el mercado con demanda
-     inelástica disminuye el gasto de los consumidores. En el
-     mercado con demanda elástica, el gasto aumenta.
-   #+end_answer
+
+** Answer
+
+a) Demanda inelástica.
+   #+xxx: fig fig-ans-probl-3_1004-medicines-*.pdf
+
+   Demanda elástica.
+   #+xxx: fig fig-ans-probl-3_1004-computers-*.pdf
+
+b) En el mercado con la demanda más elástica se ve más afectada la
+   cantidad. En el mercado con demanda menos elástica se ve más
+   afectado el precio.
+
+c) Cuando se reduce el precio en el mercado con demanda inelástica
+   disminuye el gasto de los consumidores. En el mercado con demanda
+   elástica, el gasto aumenta.
+
+
 
 * 3.2
 
-Cuando un país subió los impuestos sobre el tabaco, el precio de
-los cigarrillos subió de \money{4} a \money{4.6} por
-cajetilla. Los economistas estiman que la cantidad demandada cayó
-de $52$ a $47.5$ millones de cajetillas como consecuencia de esta
-subida de precio.  Calcule la elasticidad de la demanda de
-cigarrillos.
+Cuando un país subió los impuestos sobre el tabaco, el precio de los
+cigarrillos subió de \money{4} a \money{4.6} por cajetilla. Los
+economistas estiman que la cantidad demandada cayó de $52$ a $47.5$
+millones de cajetillas como consecuencia de esta subida de precio.
+Calcule la elasticidad de la demanda de cigarrillos.
 
-#+begin_answer
-  La pendiente de la curva de demanda es:
-  #+begin_export latex
-  \[
-    \incr Q^d/\incr P = (47.5 - 52)/(4.6 - 4) = -7.5
-  \]
-  #+end_export
-  El precio y la cantidad medios son:
-  #+begin_export latex
-  \[
-    Q^d_m = (52 + 47.5)/2 = 49.75; \qquad
-    P_m = (4 + 4.6)/2 = 4.3.
-  \]
-  #+end_export
-  La elasticidad, usando la fórmula del punto medio, es:
-  #+begin_export latex
-  \[
-    E_d = -7.5 \cdot 4.3/ 49.75 \approx -0.65
-  \]
-  #+end_export
-#+end_answer
+
+** Answer
+
+La pendiente de la curva de demanda es:
+#+begin_export latex
+\[
+  \incr Q^d/\incr P = (47.5 - 52)/(4.6 - 4) = -7.5
+\]
+#+end_export
+El precio y la cantidad medios son:
+#+begin_export latex
+\[
+  Q^d_m = (52 + 47.5)/2 = 49.75; \qquad
+  P_m = (4 + 4.6)/2 = 4.3.
+\]
+#+end_export
+La elasticidad, usando la fórmula del punto medio, es:
+#+begin_export latex
+\[
+  E_d = -7.5 \cdot 4.3/ 49.75 \approx -0.65
+\]
+#+end_export
+
 
 * 3.3
 
@@ -88,13 +75,15 @@ el primero siempre pide $15$ litros, el segundo siempre pide
 \money{20} de gasóleo. ¿Cuáles son las elasticidades precio de la
 demanda de gasóleo de cada conductor?
 
-#+begin_answer
-  El primer consumidor siempre demanda la misma cantidad: su
-  demanda, $Q^d = 15$, es perfectamente inelástica, $E_d = 0$.
 
-  El segundo siempre gasta lo mismo: su curva de demanda, $Q^d =
-  20 / P$, tiene elasticidad unitaria, $E_d = -1$.
-#+end_answer
+** Answer
+
+El primer consumidor siempre demanda la misma cantidad: su demanda,
+$Q^d = 15$, es perfectamente inelástica, $E_d = 0$.
+
+El segundo siempre gasta lo mismo: su curva de demanda, $Q^d = 20 /
+P$, tiene elasticidad unitaria, $E_d = -1$.
+
 
 * 3.4
 
@@ -105,20 +94,22 @@ $-1$ mientras que la elasticidad-renta es $0.5$. Si Ana obtiene
 una beca de \money{1000} que puede gastar libremente en aquello
 que prefiera, ¿cuál sería su consumo de alimentos?
 
-#+begin_answer
-  El incremento porcentual de la renta de Ana a causa de la beca
-  es: $\incrpct{M} = \num{1000} / \num{25000} \cdot 100 =
-  4\%$. La variación del consumo de alimentos es:
-  #+begin_export latex
-  \[
-    \incrpct{Q} = E_{d}^{M} \cdot \incrpct{M} = 0.5 \cdot 4= 2\%
-  \]
-  #+end_export
-  Las unidades de alimentos que inicialmente compra Ana durante un
-  año son: $Q = 5000 / 2 = \units{2500}$. Después de recibir la
-  beca, el consumo de alimentos será un 2% superior:
-  $2550$ unidades.
-#+end_answer
+
+** Answer
+
+El incremento porcentual de la renta de Ana a causa de la beca
+es: $\incrpct{M} = \num{1000} / \num{25000} \cdot 100 =
+4\%$. La variación del consumo de alimentos es:
+#+begin_export latex
+\[
+  \incrpct{Q} = E_{d}^{M} \cdot \incrpct{M} = 0.5 \cdot 4= 2\%
+\]
+#+end_export
+Las unidades de alimentos que inicialmente compra Ana durante un
+año son: $Q = 5000 / 2 = \units{2500}$. Después de recibir la
+beca, el consumo de alimentos será un 2% superior:
+$2550$ unidades.
+
 
 * 3.5
 
@@ -137,44 +128,36 @@ a) Calcule el precio y la cantidad de equilibrio y represéntelo
    gráficamente. Calcule las elasticidades precio de la demanda y
    de la oferta en el equilibrio.
 
-   #+begin_answer
-
-     #+attr_latex: :options {0.55\linewidth}
-     #+begin_minipage
-       #+MATS: fig fig-probl-3_1004-eq-elast-*.pdf
-     #+end_minipage
-     #+attr_latex: :options {0.45\linewidth}
-     #+begin_minipage
-       Curva de demanda:
-       #+begin_export latex
-       \[
-         X^d = 425 - 30 P_X
-       \]
-       #+end_export
-
-       Equilibrio:
-       #+begin_export latex
-       \begin{gather*}
-         P_X^* = \price{10} \\
-         X^* = \units{125}
-       \end{gather*}
-       #+end_export
-     #+end_minipage
-
-     #+begin_export latex
-     \begin{gather*}
-       E_d = \frac{\diff X^d}{\diff P_X} \frac{P_X}{X^d} =
-       -30 \cdot\frac{10}{125} = -2.4 \\[2ex]
-       E_o = \frac{\diff X^o}{\diff P_X} \frac{P_X}{X^o} =
-       15 \cdot\frac{10}{125} = 1.2
-     \end{gather*}
-     #+end_export
-   #+end_answer
-
 b) Calcule la elasticidad cruzada de la demanda. ¿Qué tipo de
    relación existe entre los bienes $X$ e $Y$?
 
-   #+begin_answer
+c) Si la renta media de los consumidores disminuye en \money{10},
+   ¿se puede afirmar que $X$ es un bien inferior?
+
+
+** Answer
+
+a) La curva de demanda es: $X^d = 425 - 30 P_X$ y en equilibrio:
+   $P_X^* = \price{10}$ y $X^* = \units{125}$.
+   #+xxx: fig fig-ans-probl-3_1004-eq-elast-*.pdf
+
+   Elasticidad de la demanda:
+   #+begin_export latex
+   \[
+     E_d = \frac{\diff X^d}{\diff P_X} \frac{P_X}{X^d} =
+     -30 \cdot\frac{10}{125} = -2.4
+   \]
+   #+end_export
+
+   Elasticidad de la oferta:
+   #+begin_export latex
+   \[
+     E_o = \frac{\diff X^o}{\diff P_X} \frac{P_X}{X^o} =
+     15 \cdot\frac{10}{125} = 1.2
+   \]
+   #+end_export
+
+b) Elasticidad cruzada de la demanda:
      #+begin_export latex
      \[
        E_d^{P_Y} = \frac{\partial X^d}{\partial P_Y} \frac{P_Y}{X^d} =
@@ -182,20 +165,17 @@ b) Calcule la elasticidad cruzada de la demanda. ¿Qué tipo de
      \]
      #+end_export
      El bien $Y$ es complementario del bien $X$.
-   #+end_answer
 
-c) Si la renta media de los consumidores disminuye en \money{10},
-   ¿se puede afirmar que $X$ es un bien inferior?
 
-   #+begin_answer
+c) Elasticidad renta de la demanda:
      #+begin_export latex
      \[
        E_d^{R} = \frac{\partial X^d}{\partial R} \frac{R}{X^d} =
        2 \cdot\frac{100}{125} = 1.6
      \]
      #+end_export
-     $X$ es un bien normal.
-   #+end_answer
+     El bien $X$ es normal.
+
 
 * 3.6
 
@@ -208,42 +188,42 @@ del túnel.
 
 a) ¿Cuál es la elasticidad de la demanda al precio actual?
 
-   #+begin_answer
-     #+begin_export latex
-     \[
-       E_d = \frac{\diff Q}{\diff P} \frac{P}{Q} =
-       -600 \cdot\frac{6}{2400} = -1.5
-     \]
-     #+end_export
-   #+end_answer
-
 b) Si la empresa persigue aumentar sus ingresos, ¿sería conveniente
    que rebajase el peaje?
-
-   #+begin_answer
-     Sí: se encuentra en un tramo elástico de la demanda.
-   #+end_answer
 
 c) ¿Cuál es el peaje que maximizaría los ingresos de la empresa?
    ¿Cuál es la elasticidad de la demanda en este caso?
 
-   #+begin_answer
-     Ingresos:
-     #+begin_export latex
-     \[
-       I = P Q = P (6000 - 600 P) = 6000 P - 600 P^2
-     \]
-     #+end_export
-     Maximizando con respecto a P obtenemos $P^* = \price{5}$,
-     $Q^* = 3000$ viajeros e $I^* = \money{15000}$ al día. La
-     elasticidad de la demanda es:
-     #+begin_export latex
-     \[
-       E_d = \frac{\diff Q}{\diff P} \frac{P}{Q} =
-       -600 \cdot\frac{5}{3000} = -1
-     \]
-     #+end_export
-   #+end_answer
+
+** Answer
+
+a) Elasticidad de la demanda:
+   #+begin_export latex
+   \[
+     E_d = \frac{\diff Q}{\diff P} \frac{P}{Q} =
+     -600 \cdot\frac{6}{2400} = -1.5
+   \]
+   #+end_export
+
+b) Sí: se encuentra en un tramo elástico de la demanda.
+
+
+c) Ingresos:
+   #+begin_export latex
+   \[
+     I = P Q = P (6000 - 600 P) = 6000 P - 600 P^2
+   \]
+   #+end_export
+   Maximizando con respecto a P obtenemos $P^* = \price{5}$,
+   $Q^* = 3000$ viajeros e $I^* = \money{15000}$ al día. La
+   elasticidad de la demanda es:
+   #+begin_export latex
+   \[
+     E_d = \frac{\diff Q}{\diff P} \frac{P}{Q} =
+     -600 \cdot\frac{5}{3000} = -1
+   \]
+   #+end_export
+
 
 * 3.7
 
@@ -269,42 +249,27 @@ El equipo rival vende sus abonos a un precio de $P_O =
 a) Represente gráficamente las curvas de demanda y de oferta de
    abonos y determine el equilibrio en este mercado.
 
-   #+begin_answer
-     #+attr_latex: :options {0.63\linewidth}
-     #+begin_minipage
-       #+MATS: fig fig-probl-3_1004-football-*.pdf
-     #+end_minipage
-     #+attr_latex: :options {0.37\linewidth}
-     #+begin_minipage
-       Curva de demanda:
-       #+begin_export latex
-       \[
-         Q^d = \num{281000} - 100 P
-       \]
-       #+end_export
-
-       Curva de oferta:
-       #+begin_export latex
-       \[
-         Q^o = \num{125000}
-       \]
-       #+end_export
-
-       Equilibrio:
-       #+begin_export latex
-       \begin{gather*}
-         P^* = \price{1560} \\
-         Q^* = \units{125000}
-       \end{gather*}
-       #+end_export
-     #+end_minipage
-   #+end_answer
-
 b) Calcule las elasticidades de la demanda y de la oferta en el
    equilibrio e interprete los valores de esas elasticidades.
 
-   #+begin_answer
-     #+begin_export latex
+c) Calcule la elasticidad de la demanda con respecto al precio del
+   abono del equipo rival en la situación de equilibrio e
+   interprete el valor obtenido.
+
+d) Calcule la elasticidad renta de la demanda en la situación de
+   equilibrio e interprete el valor obtenido.
+
+
+** Answer
+
+a) La urva de demanda es $Q^d = \num{281000} - 100 P$. La curva de
+   oferta es $Q^o = \num{125000}$. En equilibrio: $P^* = \price{1560}$
+   y $Q^* = \units{125000}$.
+   #+xxx: fig fig-ans-probl-3_1004-football-*.pdf
+
+b) Elasticidades de la demanda y de la oferta en el
+   equilibrio:
+   #+begin_export latex
      \begin{gather*}
        E_d = \frac{\diff Q^d}{\diff P} \frac{P}{Q^d} =
        -100 \cdot\frac{1560}{\num{125000}} = -1.248 \\[2ex]
@@ -315,13 +280,9 @@ b) Calcule las elasticidades de la demanda y de la oferta en el
 
      En el punto de equilibrio la demanda es elástica. La oferta
      es perfectamente inelástica.
-   #+end_answer
 
-c) Calcule la elasticidad de la demanda con respecto al precio del
-   abono del equipo rival en la situación de equilibrio e
-   interprete el valor obtenido.
 
-   #+begin_answer
+c) Elasticidad cruzada de la demanda en el equilibrio:
      #+begin_export latex
      \[
        E_d^{P_O} = \frac{\partial Q^d}{\partial P_O} \frac{P_O}{Q^d} =
@@ -329,12 +290,10 @@ c) Calcule la elasticidad de la demanda con respecto al precio del
      \]
      #+end_export
      Los abonos de los dos equipos son débilmente sustitutivos.
-   #+end_answer
 
-d) Calcule la elasticidad renta de la demanda en la situación de
-   equilibrio e interprete el valor obtenido.
 
-   #+begin_answer
+d) Elasticidad renta de la demanda en la situación de
+   equilibrio:
      #+begin_export latex
      \[
        E_d^{M} = \frac{\partial Q^d}{\partial M} \frac{M}{Q^d} =
@@ -342,4 +301,3 @@ d) Calcule la elasticidad renta de la demanda en la situación de
      \]
      #+end_export
      Los abonos son un bien de lujo.
-   #+end_answer

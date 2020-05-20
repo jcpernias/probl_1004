@@ -7,7 +7,7 @@
 
 ** Medicines
 
-#+begin_src latex :tangle fig-probl-3_1004-medicines.tex
+#+begin_src latex :tangle fig-ans-probl-3_1004-medicines.tex
   \begin{tikzpicture}<<ex10:xy-scale>>
 
     <<ex10:coord-def>>
@@ -28,7 +28,7 @@
 
 ** Computers
 
-#+begin_src latex :tangle fig-probl-3_1004-computers.tex
+#+begin_src latex :tangle fig-ans-probl-3_1004-computers.tex
   \begin{tikzpicture}<<ex10:xy-scale>>
 
     <<ex10:coord-def>>
@@ -104,7 +104,7 @@
 ** Equilibrium
 
 
-#+begin_src latex :tangle fig-probl-3_1004-eq-elast.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-3_1004-eq-elast.tex :noweb no
   \begin{tikzpicture}[xscale=0.8, yscale=0.9]
 
     \coordinate (DA1) at (0.5, 4.16666667) ;
@@ -140,7 +140,7 @@
 ** Equilibrium
 
 
-#+begin_src latex :tangle fig-probl-3_1004-football.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-3_1004-football.tex :noweb no
   \begin{tikzpicture}[xscale=5, yscale=5]
 
     \coordinate (DA1) at (0, 0.9366666667) ;

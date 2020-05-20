@@ -10,7 +10,7 @@
 
 #+include: "probl-2_1004-es.org" :lines "3-"
 
-* COMMENT La elasticidad
+* La elasticidad
 
 #+include: "probl-3_1004-es.org" :lines "3-"
 
