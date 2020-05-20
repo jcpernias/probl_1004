@@ -8,7 +8,7 @@
 
 ** Average and marginal product
 
-#+begin_src latex :tangle fig-probl-8_1004-ex4-pmgl.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-8_1004-ex4-pmgl.tex :noweb no
   \begin{tikzpicture}[yscale=0.26666667, xscale=0.66666667]
 
     \draw[help lines]
@@ -40,7 +40,7 @@
 
 ** Total product
 
-#+begin_src latex :tangle fig-probl-8_1004-ex4-fprod.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-8_1004-ex4-fprod.tex :noweb no
   \begin{tikzpicture}[yscale=0.1143, xscale=0.66666667]
     \draw[help lines]
        (4, 32) node[dot, label={above:$C$}] {}  -- (4, 0)
@@ -151,5 +151,5 @@
 ** Common
 
 #+begin_src latex :noweb-ref ex8:xy-scale
-  [xscale=0.5,yscale=0.5]
+  [xscale=0.45,yscale=0.45]
 #+end_src

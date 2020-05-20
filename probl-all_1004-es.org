@@ -26,11 +26,11 @@
 
 #+include: "probl-6_1004-es.org" :lines "3-"
 
-* COMMENT La elección intertemporal
+* La elección intertemporal
 
 #+include: "probl-7_1004-es.org" :lines "3-"
 
-* COMMENT La producción
+* La producción
 
 #+include: "probl-8_1004-es.org" :lines "3-"
 

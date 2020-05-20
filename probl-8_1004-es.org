@@ -24,52 +24,57 @@ plazo de una empresa.
 técnicamente eficientes todos los niveles de contratación de
 trabajadores mostrados en la tabla? ¿Por qué?
 
-#+begin_answer
-  #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
-  |--------------+------------+----------+----------|
-  |              | Producción | Producto | Producto |
-  | Trabajadores | total      | marginal | medio    |
-  |--------------+------------+----------+----------|
-  | $0$          | $0$        | ---      | ---      |
-  | $1$          | $120$      | $120$    | $120$    |
-  | $2$          | $210$      | $90$     | $105$    |
-  | $3$          | $285$      | $75$     | $95$     |
-  | $4$          | $316$      | $31$     | $79$     |
-  | $5$          | $320$      | $4$      | $64$     |
-  | $6$          | $306$      | $-14$    | $51$     |
-  |--------------+------------+----------+----------|
+** Answer
 
-  - La ley de rendimientos decrecientes del factor trabajo se
-    cumple: el \PMgL es decreciente.
+#+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
+|--------------+------------+----------+----------|
+|              | Producción | Producto | Producto |
+| Trabajadores | total      | marginal | medio    |
+|--------------+------------+----------+----------|
+| $0$          | $0$        | ---      | ---      |
+| $1$          | $120$      | $120$    | $120$    |
+| $2$          | $210$      | $90$     | $105$    |
+| $3$          | $285$      | $75$     | $95$     |
+| $4$          | $316$      | $31$     | $79$     |
+| $5$          | $320$      | $4$      | $64$     |
+| $6$          | $306$      | $-14$    | $51$     |
+|--------------+------------+----------+----------|
 
-  - No es técnicamente eficiente contratar 6 trabajadores: el
-    producto marginal es negativo.
-#+end_answer
+La ley de rendimientos decrecientes del factor trabajo se cumple: el
+\PMgL es decreciente.
+
+No es técnicamente eficiente contratar 6 trabajadores: el producto
+marginal es negativo.
+
 
 
 * 8.2.
 
-Si el producto marginal del trabajo es decreciente en el corto
-plazo, ¿el producto medio debe ser también decreciente?
+Si el producto marginal del trabajo es decreciente en el corto plazo,
+¿el producto medio debe ser también decreciente?
 
-#+begin_answer
-  No: el producto medio decrece cuando el producto marginal es
-  inferior al medio, independientemente de que el producto marginal
-  sea creciente o no.
-#+end_answer
+
+** Answer
+
+No: el producto medio decrece cuando el producto marginal es inferior
+al medio, independientemente de que el producto marginal sea creciente
+o no.
+
 
 
 * 8.3.
 
-La producción por trabajador en una empresa es de 20 sillas al
-día. El propietario de la empresa ha calculado que un trabajador
-adicional elevaría la producción diaria en 10 sillas. ¿Aumentará
-el producto medio si la empresa contrata otro trabajador?
+La producción por trabajador en una empresa es de 20 sillas al día. El
+propietario de la empresa ha calculado que un trabajador adicional
+elevaría la producción diaria en 10 sillas. ¿Aumentará el producto
+medio si la empresa contrata otro trabajador?
 
-#+begin_answer
-  No: el producto marginal es menor que el medio, por lo que el
-  producto medio es decreciente.
-#+end_answer
+
+** Answer
+
+No: el producto marginal es menor que el medio, por lo que el producto
+medio es decreciente.
+
 
 
 * 8.4.
@@ -79,48 +84,130 @@ el capital es fijo, $\Kbar = 6$, determine:
 
 a) La curva de producto total.
 
-   #+begin_answer
-     Curva de producto total: $Q = 6 L^2 - 0.01 L^3$.
-   #+end_answer
-
 b) Las curvas de producto medio y marginal del trabajo.
-
-   #+begin_answer
-     #+ATTR_LATEX: :booktabs t :center t :align @{}ll@{}
-     |--------------------+---------------------------|
-     | Producto medio:    | $\PMeL = 6 L - 0.01 L^2$  |
-     | Producto marginal: | $\PMgL = 12 L - 0.03 L^2$ |
-     |--------------------+---------------------------|
-   #+end_answer
 
 c) Los niveles del factor trabajo que hacen máximo el producto
    marginal, el producto medio y el producto total. Represente
    gráficamente los resultados obtenidos.
 
-   #+begin_answer
-     #+ATTR_LATEX: :booktabs t :center t :align @{}llr@{}
-     |---------------------+-----------------------------+--------------|
-     |                     | Condición                   | Trabajadores |
-     |---------------------+-----------------------------+--------------|
-     | $A$: $\ \max \PMgL$ | $\diff \PMgL / \diff L = 0$ | $200$        |
-     | $B$: $\ \max \PMeL$ | $\PMgL = \PMeL$             | $300$        |
-     | $C$: $\ \max Q$     | $\PMgL = 0$                 | $400$        |
-     |---------------------+-----------------------------+--------------|
 
-     #+latex: \vspace*{1.5ex}
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       #+MATS: fig fig-probl-8_1004-ex4-pmgl-*.pdf
-     #+end_minipage
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       \vspace*{1.5ex}
+** Answer
 
-       #+MATS: fig fig-probl-8_1004-ex4-fprod-*.pdf
-     #+end_minipage
-   #+end_answer
+a) Curva de producto total: $Q = 6 L^2 - 0.01 L^3$.
+
+b) Producto medio:    $\PMeL = 6 L - 0.01 L^2$.
+
+   Producto marginal: $\PMgL = 12 L - 0.03 L^2$.
+
+c)
+   #+latex: \begin{adjustbox}{valign=t}
+   #+ATTR_LATEX: :booktabs t :center nil :align @{}llr@{}
+   |---------------------+-----------------------------+--------------|
+   |                     | Condición                   | Trabajadores |
+   |---------------------+-----------------------------+--------------|
+   | $A$: $\ \max \PMgL$ | $\diff \PMgL / \diff L = 0$ | $200$        |
+   | $B$: $\ \max \PMeL$ | $\PMgL = \PMeL$             | $300$        |
+   | $C$: $\ \max Q$     | $\PMgL = 0$                 | $400$        |
+   |---------------------+-----------------------------+--------------|
+   #+latex: \end{adjustbox}
+
+   #+xxx: fig fig-ans-probl-8_1004-ex4-pmgl-*.pdf
+
+   #+xxx: fig fig-ans-probl-8_1004-ex4-fprod-*.pdf
 
 
+* 8.6.
+
+¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
+empresa con rendimientos constantes de escala verá duplicada su
+producción cuando duplique el uso del factor capital."
+
+
+** Answer
+
+  Es incorrecta. Se duplicará la producción cuando se duplique el
+  uso de /todos/ los factores de producción.
+
+
+* 8.8.
+
+El siguiente gráfico muestra algunas isocuantas de la función de
+producción de una empresa:
+
+#+xxx: fig fig-probl-8_1004-ex8-const-returns-*.pdf
+
+a) Si la empresa produce 250 unidades y contrata 5 trabajadores,
+   ¿cuántas unidades de capital está utilizando? ¿Y si produce 125
+   unidades con 4 trabajadores?
+
+b) Si la empresa está empleando 8 trabajadores y 6 unidades de
+   capital, ¿es posible que la producción sea de 400 unidades?
+   ¿Sería posible producir 200 unidades? ¿Qué ocurriría en este
+   caso?
+
+c) ¿Qué tipo de rendimientos de escala presenta la función de
+   producción?
+
+
+** Answer
+
+a) En la isocuanta $Q = 250$, $K = 5$ cuando $L = 5$.
+
+   En la isocuanta $Q = 125$, $K = 2$ cuando $L = 4$.
+
+b) La producción no puede ser de $400$ unidades: la combinación
+   $L = 8$ y $K = 6$ está debajo de la isocuanta $Q = 375$.
+
+   Es posible pero no eficiente producir $200$: se pueden
+   producir $250$ unidades con $L=8$ y $K < 6$.
+
+c) Rendimientos constantes a escala: por ejemplo, comparar producción
+   en $(5, 5)$ y $(10, 10)$.
+
+
+
+* 8.9.
+
+El siguiente gráfico muestra algunas isocuantas de la función de
+producción de una empresa:
+
+#+xxx: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
+
+a) ¿Qué tipo de rendimientos a escala exhibe la función de producción
+   de la empresa?
+
+b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos marginales
+   decrecientes?
+
+
+** Answer
+
+a) Rendimientos crecientes a escala.
+
+
+b) No: los rendimientos del factor trabajo son constantes.
+
+   #+ATTR_LATEX: :booktabs t :center t :align @{}*{4}{r}@{}
+   |---------+------+-------+---------------------|
+   | $\Kbar$ | $L$  | $Q$   | $\incr Q / \incr L$ |
+   |---------+------+-------+---------------------|
+   | $5$     | $2$  | $100$ | ---                 |
+   | $5$     | $5$  | $250$ | $50$                |
+   | $5$     | $10$ | $500$ | $50$                |
+   | $5$     | $15$ | $750$ | $50$                |
+   |---------+------+-------+---------------------|
+* 8.7.
+
+Una fábrica utiliza trabajo y capital para producir
+zapatos. Después de aumentar el número de trabajadores en un 50% la
+producción crece en un 60%. ¿Quiere esto decir que la función de
+producción de la empresa presenta rendimientos crecientes a escala?
+
+
+** Answer
+
+  No: si sólo aumenta el trabajo no es posible deducir nada sobre
+  los rendimientos a escala.
 * 8.5.
 
 Considere las siguientes funciones de producción:
@@ -140,144 +227,49 @@ de producción:
 a) ¿Qué tipo de rendimientos de escala presenta la función de
    producción?
 
-   #+begin_answer
-     #+ATTR_LATEX: :booktabs t :center t :align @{}lp{2.5cm}l@{}
-     |---------+-------------------+------------------------|
-     | Función | $F(s L, s K)$     | Rendimientos de escala |
-     |---------+-------------------+------------------------|
-     | I       | $s F(L, K)$       | Constantes             |
-     | II      | $s^2 F(K, L)$     | Crecientes             |
-     | III     | $s F(L, K)$       | Constantes             |
-     | IV      | $s^{1/2} F(L, K)$ | Decrecientes           |
-     |---------+-------------------+------------------------|
-   #+end_answer
-
 b) Obtenga la tasa de sustitución entre los factores de producción.
-
-   #+begin_answer
-     #+ATTR_LATEX: :booktabs t :center t :align @{}ll@{}
-     |---------+------------|
-     | Función | $\RMST$    |
-     |---------+------------|
-     | I       | $(1/3)K/L$ |
-     | II      | $3K/L$     |
-     | III     | $2$        |
-     | IV      | $1$        |
-     |---------+------------|
-   #+end_answer
 
 c) Compruebe si se cumple la ley de rendimientos marginales
    decrecientes cuando $\Kbar=16 \text{\ unidades}$.
 
-   #+begin_answer
-     #+ATTR_LATEX: :booktabs t :center t :align @{}lp{3.25cm}l@{}
-     |---------+-------------------------+-------------------------|
-     | Función | $\diff \PMgL / \diff L$ | Rendimientos del factor |
-     |---------+-------------------------+-------------------------|
-     | I       | $-(6/4)L^{-7/4}$        | Decrecientes            |
-     | II      | $3 L^{-1/2}$            | Crecientes              |
-     | III     | $0$                     | Constantes              |
-     | IV      | $-(1/4)(L + 16)^{-3/2}$ | Decrecientes            |
-     |---------+-------------------------+-------------------------|
-   #+end_answer
 
+** Answer
 
-* 8.6.
+a)
+   #+latex: \begin{adjustbox}{valign=t}
+   #+ATTR_LATEX: :booktabs t :center nil :align @{}lp{2.5cm}l@{}
+   |---------+-------------------+------------------------|
+   | Función | $F(s L, s K)$     | Rendimientos de escala |
+   |---------+-------------------+------------------------|
+   | I       | $s F(L, K)$       | Constantes             |
+   | II      | $s^2 F(K, L)$     | Crecientes             |
+   | III     | $s F(L, K)$       | Constantes             |
+   | IV      | $s^{1/2} F(L, K)$ | Decrecientes           |
+   |---------+-------------------+------------------------|
+   #+latex: \end{adjustbox}
 
-¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
-empresa con rendimientos constantes de escala verá duplicada su
-producción cuando duplique el uso del factor capital."
+b)
+   #+latex: \begin{adjustbox}{valign=t}
+   #+ATTR_LATEX: :booktabs t :center nil :align @{}ll@{}
+   |---------+------------|
+   | Función | $\RMST$    |
+   |---------+------------|
+   | I       | $(1/3)K/L$ |
+   | II      | $3K/L$     |
+   | III     | $2$        |
+   | IV      | $1$        |
+   |---------+------------|
+   #+latex: \end{adjustbox}
 
-#+begin_answer
-  Es incorrecta. Se duplicará la producción cuando se duplique el
-  uso de /todos/ los factores de producción.
-#+end_answer
-
-
-* 8.7.
-
-Una fábrica utiliza trabajo y capital para producir
-zapatos. Después de aumentar el número de trabajadores en un 50% la
-producción crece en un 60%. ¿Quiere esto decir que la función de
-producción de la empresa presenta rendimientos crecientes a escala?
-
-#+begin_answer
-  No: si sólo aumenta el trabajo no es posible deducir nada sobre
-  los rendimientos a escala.
-#+end_answer
-
-
-* 8.8.
-
-El siguiente gráfico muestra algunas isocuantas de la función de
-producción de una empresa:
-
-#+MATS: fig fig-probl-8_1004-ex8-const-returns-*.pdf
-
-a) Si la empresa produce 250 unidades y contrata 5 trabajadores,
-   ¿cuántas unidades de capital está utilizando? ¿Y si produce 125
-   unidades con 4 trabajadores?
-
-   #+begin_answer
-     En la isocuanta $Q = 250$, $K = 5$ cuando $L = 5$.
-
-     En la isocuanta $Q = 125$, $K = 2$ cuando $L = 4$.
-   #+end_answer
-
-b) Si la empresa está empleando 8 trabajadores y 6 unidades de
-   capital, ¿es posible que la producción sea de 400 unidades?
-   ¿Sería posible producir 200 unidades? ¿Qué ocurriría en este
-   caso?
-
-   #+begin_answer
-     - La producción no puede ser de $400$ unidades: la combinación
-       $L = 8$ y $K = 6$ está debajo de la isocuanta $Q = 375$.
-
-     - Es posible pero no eficiente producir $200$: se pueden
-       producir $250$ unidades con $L=8$ y $K < 6$.
-   #+end_answer
-
-c) ¿Qué tipo de rendimientos de escala presenta la función de
-   producción?
-
-   #+begin_answer
-     Rendimientos constantes a escala: por ejemplo, comparar
-     producción en $(5, 5)$ y $(10, 10)$.
-   #+end_answer
-
-
-* 8.9.
-
-El siguiente gráfico muestra algunas isocuantas de la función de
-producción de una empresa:
-
-#+MATS: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
-
-a) ¿Qué tipo de rendimientos a escala exhibe la función de
-   producción de la empresa?
-
-   #+begin_answer
-     Rendimientos crecientes a escala.
-   #+end_answer
-
-b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos marginales
-   decrecientes?
-
-   #+begin_answer
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       #+ATTR_LATEX: :booktabs t :center t :align @{}*{4}{r}@{}
-       |---------+------+-------+---------------------|
-       | $\Kbar$ | $L$  | $Q$   | $\incr Q / \incr L$ |
-       |---------+------+-------+---------------------|
-       | $5$     | $2$  | $100$ | ---                 |
-       | $5$     | $5$  | $250$ | $50$                |
-       | $5$     | $10$ | $500$ | $50$                |
-       | $5$     | $15$ | $750$ | $50$                |
-       |---------+------+-------+---------------------|
-     #+end_minipage
-     #+attr_latex: :options {0.5\linewidth}
-     #+begin_minipage
-       No: los rendimientos del factor trabajo son constantes.
-     #+end_minipage
-   #+end_answer
+c)
+   #+latex: \begin{adjustbox}{valign=t}
+   #+ATTR_LATEX: :booktabs t :center nil :align @{}lp{3.25cm}l@{}
+   |---------+-------------------------+-------------------------|
+   | Función | $\diff \PMgL / \diff L$ | Rdtos. del factor       |
+   |---------+-------------------------+-------------------------|
+   | I       | $-(6/4)L^{-7/4}$        | Decrecientes            |
+   | II      | $3 L^{-1/2}$            | Crecientes              |
+   | III     | $0$                     | Constantes              |
+   | IV      | $-(1/4)(L + 16)^{-3/2}$ | Decrecientes            |
+   |---------+-------------------------+-------------------------|
+   #+latex: \end{adjustbox}

@@ -7,7 +7,7 @@
 
 ** Intertemporal budget line
 
-#+begin_src latex :tangle fig-probl-7_1004-ex1-budget.tex
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex1-budget.tex
   \begin{tikzpicture}<<ex1:xy-scale>>
     <<ex1:endowment-help-lines>>
     <<ex1:budget-line>>
@@ -24,7 +24,7 @@
 
 ** Optimal choice
 
-#+begin_src latex :tangle fig-probl-7_1004-ex1-opt.tex
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex1-opt.tex
   \begin{tikzpicture}<<ex1:xy-scale>>
     <<ex1:endowment-help-lines>>
     \draw[help lines] (3, 0) |- (0, 1.1) ;
@@ -87,7 +87,7 @@
 
 ** Intertemporal budget line
 
-#+begin_src latex :tangle fig-probl-7_1004-ex2-budget.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex2-budget.tex :noweb no
   \begin{tikzpicture}[xscale=3, yscale=3]
 
     \draw[help lines]
@@ -114,7 +114,7 @@
 
 ** r = 10%
 
-#+begin_src latex :tangle fig-probl-7_1004-ex3-r10.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex3-r10.tex :noweb no
   \begin{tikzpicture}[xscale = 0.4, yscale = 0.4,
     use Hobby shortcut,
     tangent/.style={
@@ -147,7 +147,7 @@
 
 ** r = 5%
 
-#+begin_src latex :tangle fig-probl-7_1004-ex3-r5.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex3-r5.tex :noweb no
   \begin{tikzpicture}[xscale = 0.4, yscale = 0.4,
     use Hobby shortcut,
     tangent/.style={
@@ -191,7 +191,7 @@
 
 ** Intertemporal budget line
 
-#+begin_src latex :tangle fig-probl-7_1004-ex4-budget.tex
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex4-budget.tex
   \begin{tikzpicture}<<ex4:xy-scale>>
     <<ex4:endowment-help-lines>>
     <<ex4:budget-line>>
@@ -208,7 +208,7 @@
 
 ** Lender choice
 
-#+begin_src latex :tangle fig-probl-7_1004-ex4-lender.tex
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex4-lender.tex
   \begin{tikzpicture}<<ex4:xy-scale>>
     <<ex4:budget-line>>
 
@@ -230,7 +230,7 @@
 
 ** Borrower choice
 
-#+begin_src latex :tangle fig-probl-7_1004-ex4-borrower.tex
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex4-borrower.tex
   \begin{tikzpicture}<<ex4:xy-scale>>
     <<ex4:budget-line>>
 
@@ -246,7 +246,7 @@
 
 ** Same interest rates: budget line
 
-#+begin_src latex :tangle fig-probl-7_1004-ex4-flat-budget.tex
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex4-flat-budget.tex
   \colorlet{proffill}{Black!10!White}
   \begin{tikzpicture}<<ex4:xy-scale>>
 
@@ -268,7 +268,7 @@
 
 ** Same interest rates: optimal choice
 
-#+begin_src latex :tangle fig-probl-7_1004-ex4-flat-choice.tex
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex4-flat-choice.tex
   \begin{tikzpicture}<<ex4:xy-scale>>
     \begin{scope}[nearly transparent]
       <<ex4:budget-line>>
@@ -344,7 +344,7 @@
 
 ** Intertemporal budget line
 
-#+begin_src latex :tangle fig-probl-7_1004-ex5-budget.tex
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex5-budget.tex
   \begin{tikzpicture}<<ex5:xy-scale>>
     <<ex5:endowment-help-lines>>
     <<ex5:budget-line>>
@@ -361,7 +361,7 @@
 
 ** Optimal choice
 
-#+begin_src latex :tangle fig-probl-7_1004-ex5-opt.tex
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex5-opt.tex
   \begin{tikzpicture}<<ex5:xy-scale>>
     <<ex5:endowment-help-lines>>
     \draw[help lines] (2.5, 0)  node[below] {$2700$} (2.7, 0) |-
@@ -416,7 +416,7 @@
 
 * 7.6: Intertemporal budget line
 
-#+begin_src latex :tangle fig-probl-7_1004-ex6-budget.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-7_1004-ex6-budget.tex :noweb no
   \begin{tikzpicture}[xscale = 0.75, yscale = 0.75]
 
     \draw[help lines]
