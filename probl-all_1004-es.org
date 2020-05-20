@@ -22,7 +22,7 @@
 
 #+include: "probl-5_1004-es.org" :lines "3-"
 
-* COMMENT La demanda
+* La demanda
 
 #+include: "probl-6_1004-es.org" :lines "3-"
 

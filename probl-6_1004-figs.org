@@ -19,7 +19,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-6_1004-crc2.tex
+#+begin_src latex :tangle fig-ans-probl-6_1004-crc2.tex
   \begin{tikzpicture}<<ex3:xy-scale-small>>
 
     <<ex3:grid>>
@@ -34,7 +34,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-6_1004-crc3.tex
+#+begin_src latex :tangle fig-ans-probl-6_1004-crc3.tex
   \begin{tikzpicture}<<ex3:xy-scale-small>>
 
     <<ex3:grid>>
@@ -113,7 +113,7 @@
 
 ** Figures
 
-#+begin_src latex :tangle fig-probl-6_1004-cpc1.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-6_1004-cpc1.tex :noweb no
   \begin{tikzpicture}[xscale = 0.0585, yscale = 0.085]
 
   \draw[curve, very thick, domain=0:45, smooth]
@@ -125,7 +125,7 @@
   \end{tikzpicture}
 #+end_src
 
-#+begin_src latex :tangle fig-probl-6_1004-cpc2.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-6_1004-cpc2.tex :noweb no
   \begin{tikzpicture}[xscale = 0.0585, yscale = 0.255]
 
   \draw[curve, very thick, domain=0:50, smooth]
@@ -191,7 +191,7 @@
 
 * 6.8 Perfect complements
 
-#+begin_src latex :tangle fig-probl-6_1004-compl.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-6_1004-compl.tex :noweb no
   \begin{tikzpicture}[xscale = 1, yscale = 1]
 
     \draw[help lines]
@@ -228,7 +228,7 @@
 :header-args: :tangle no
 :END:
 
-#+begin_src latex :tangle fig-probl-6_1004-corner.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-6_1004-corner.tex :noweb no
   \begin{tikzpicture}[xscale = 1.66667, yscale = 1.66667]
 
     \draw[curve, very thick]
