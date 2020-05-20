@@ -105,7 +105,7 @@ c)
 La tabla adjunta presenta diferentes combinaciones eficientes para una
 economía en la que únicamente se producen dos bienes: $X$ e $Y$.
 
-#+ATTR_LATEX: :booktabs t :center t :align p{1cm}*{2}{R{2cm}}
+#+ATTR_LATEX: :booktabs t :center t :align @{}p{1cm}*{2}{R{2cm}}@{}
 |-----+------------+------------|
 |     | $X$        | $Y$        |
 |-----+------------+------------|
