@@ -18,7 +18,7 @@
 
 #+include: "probl-4_1004-es.org" :lines "3-"
 
-* COMMENT La elección del consumidor
+* La elección del consumidor
 
 #+include: "probl-5_1004-es.org" :lines "3-"
 
