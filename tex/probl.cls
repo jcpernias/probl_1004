@@ -41,10 +41,8 @@
 \RequirePackage{docs-colors}
 
 % Page layout
-%\RequirePackage{docs-pages}
 \RequirePackage{geometry}
 \geometry{twoside, hmargin={2cm,5.7cm}, bindingoffset=0.7cm, vmargin=4cm}
-%\geometry{vmargin=4cm,hmargin=3.6cm}
 \RequirePackage[strict]{changepage}
 \RequirePackage{parskip}
 
