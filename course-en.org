@@ -5,7 +5,7 @@
 #+AUTHOR: DA0204
 #+DATE: Academic year 2020--2021
 
-#+OPTIONS: toc:nil ':t ^:{} num:1 H:2 title:nil
+#+OPTIONS: toc:nil ':t ^:{} num:2 H:2 title:nil
 
 #+LATEX_CLASS: probl
 #+LATEX_CLASS_OPTIONS: [English]
