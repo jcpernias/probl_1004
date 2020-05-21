@@ -1,7 +1,6 @@
 (require 'ox)
 (require 'seq)
 
-
 ;; ================================================================================
 ;; Org utility functions
 ;; ================================================================================
@@ -273,12 +272,11 @@ of the document."
             (lambda (hl)
               (and (= (org-element-property :level hl) 1)
                    (handle-section hl)))))
+    (setq new-section (make-section))
+    (org-element-adopt-elements new-section (make-latex-keyword "\\begin{solutions}"))
     (when sections
-      (setq new-section (make-section))
-      (org-element-adopt-elements new-section (make-latex-keyword "\\solutions{}"))
-      (org-element-adopt-elements new-section (make-latex-keyword "\\begin{multicols}{2}"))
-      (apply 'org-element-adopt-elements new-section sections)
-      (org-element-adopt-elements new-section (make-latex-keyword "\\end{multicols}")))))
+      (apply 'org-element-adopt-elements new-section sections))
+    (org-element-adopt-elements new-section (make-latex-keyword "\\end{solutions}"))))
 
 (defun prepare-buffer ()
   "Parse problems document"
@@ -304,7 +302,9 @@ of the document."
 (defun print-tree (tree &optional indent)
   (setq indent (or indent 0))
   (dolist (node tree)
-    (princ (format "%s%s\n" (make-string (* 2 indent) ? ) (org-element-type node)) (get-buffer "*scratch*"))
+    (princ
+     (format "%s%s\n" (make-string (* 2 indent) ? )
+             (org-element-type node)) (get-buffer "*scratch*"))
     (setq contents (org-element-contents node))
     (when contents
       (print-tree contents (+ indent 1)))))

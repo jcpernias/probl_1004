@@ -18,20 +18,15 @@
 \newbool{langES}
 \newbool{langEN}
 \newbool{answers}
-\newbool{shortanswers}
-
-\boolfalse{answers}
-\boolfalse{shortanswers}
 
 \DeclareOption{Spanish}{\booltrue{langES}\boolfalse{langEN}}
 \DeclareOption{English}{\booltrue{langEN}\boolfalse{langES}}
-\DeclareOption{noanswers}{\boolfalse{answers}\boolfalse{shortanswers}}
-\DeclareOption{answers}{\booltrue{answers}\boolfalse{shortanswers}}
-\DeclareOption{shortanswers}{\boolfalse{answers}\booltrue{shortanswers}}
+\DeclareOption{noanswers}{\boolfalse{answers}}
+\DeclareOption{answers}{\booltrue{answers}}
 \DeclareOption*{%
   \ClassError{syllabus}{Unknown option `\CurrentOption'}{%
     Check the options passed to the `syllabus' class}}
-\ExecuteOptions{Spanish}
+\ExecuteOptions{Spanish,noanswers}
 \ProcessOptions*\relax
 
 %% Class loading
@@ -60,13 +55,11 @@
 \def\columnseprulecolor{\color{Subsection!30!White}}
 
 \RequirePackage{docs-math}
-%\RequirePackage{docs-rules}
-%\RequirePackage{docs-lists}
 \RequirePackage{docs-units}
 \RequirePackage{docs-tables}
 \RequirePackage{docs-hyper}
 \RequirePackage{docs-cclic}
-\RequirePackage{docs-answers}
+
 
 
 
@@ -203,8 +196,6 @@ compact]{titlesec}
 \pagestyle{problems}
 
 
-
-
 %% Lists
 %% -----------------------------------------------------------------
 
@@ -224,8 +215,7 @@ compact]{titlesec}
 
 %% Solutions
 %% -----------------------------------------------------------------
-
-\newcommand{\solutions}{
+\newcommand{\@solutions}{
   \cleardoublepage
   \widenhead*{0cm}{0cm}
   \newgeometry{twoside, hmargin={1.2cm,1.2cm}, bindingoffset=0.7cm,
@@ -263,3 +253,8 @@ compact]{titlesec}
   \titlespacing*{name=\subsection}
   {0pt}{*1.5}{*1}
 }
+
+\RequirePackage{comment}
+\ifbool{answers}{%
+  \newenvironment{solutions}{\@solutions\begin{multicols}{2}}{\end{multicols}}%
+}{\excludecomment{solutions}}
