@@ -22,11 +22,8 @@
 \providebool{langES}
 \providebool{langEN}
 
-\ifbool{langES}{%
-  \RequirePackage[english, spanish, es-noindentfirst]{babel}%
-}{% English is the default language
-  \RequirePackage[spanish,  es-noindentfirst, english]{babel}}
-
+\RequirePackage[spanish, es-noindentfirst, english]{babel}
+\AtBeginDocument{\selectlanguage{\ifbool{langES}{spanish}{english}}}
 \addto\shorthandsspanish{\spanishdeactivate{"<>}}%
 \RequirePackage[english, spanish]{translator}
 
