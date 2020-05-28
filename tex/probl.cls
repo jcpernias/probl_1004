@@ -19,14 +19,14 @@
 \newbool{langEN}
 \newbool{answers}
 
-\DeclareOption{Spanish}{\booltrue{langES}\boolfalse{langEN}}
-\DeclareOption{English}{\booltrue{langEN}\boolfalse{langES}}
+\DeclareOption{spanish}{\booltrue{langES}\boolfalse{langEN}}
+\DeclareOption{english}{\booltrue{langEN}\boolfalse{langES}}
 \DeclareOption{noanswers}{\boolfalse{answers}}
 \DeclareOption{answers}{\booltrue{answers}}
 % \DeclareOption*{%
 %   \ClassError{probl}{Unknown option `\CurrentOption'}{%
 %     Check the options passed to the `probl' class}}
-\ExecuteOptions{Spanish,noanswers}
+\ExecuteOptions{spanish,noanswers}
 \ProcessOptions\relax
 
 %% Class loading
