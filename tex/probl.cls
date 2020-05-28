@@ -23,17 +23,17 @@
 \DeclareOption{English}{\booltrue{langEN}\boolfalse{langES}}
 \DeclareOption{noanswers}{\boolfalse{answers}}
 \DeclareOption{answers}{\booltrue{answers}}
-\DeclareOption*{%
-  \ClassError{syllabus}{Unknown option `\CurrentOption'}{%
-    Check the options passed to the `syllabus' class}}
+% \DeclareOption*{%
+%   \ClassError{probl}{Unknown option `\CurrentOption'}{%
+%     Check the options passed to the `probl' class}}
 \ExecuteOptions{Spanish,noanswers}
-\ProcessOptions*\relax
+\ProcessOptions\relax
 
 %% Class loading
 %% --------------------------------------------------------------------------------
 \PassOptionsToPackage{fleqn, tbtags}{amsmath}
-\LoadClass[a4paper, 11pt, twoside]{article}
-\RequirePackage[11pt]{moresize}
+\LoadClassWithOptions{article}
+\RequirePackage{moresize}
 
 %% Load packages
 %% --------------------------------------------------------------------------------

@@ -9,7 +9,7 @@
 
 
 #+LATEX_CLASS: probl
-#+LATEX_CLASS_OPTIONS: [Spanish]
+#+LATEX_CLASS_OPTIONS: [Spanish, a4paper, 11pt, twoside]
 
 #+LANGUAGE: es
 #+LATEX_HEADER: \newcommand*{\LANG}{es}
