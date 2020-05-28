@@ -53,7 +53,16 @@
 \def\columnseprulecolor{\color{Subsection!30!White}}
 
 \RequirePackage{docs-math}
-\RequirePackage{docs-tables}
+
+% Tables
+%% -----------------------------------------------------------------
+\RequirePackage{array}
+\RequirePackage{tabularx}
+\RequirePackage{booktabs}
+
+\newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
+
+
 \RequirePackage{docs-hyper}
 \RequirePackage{docs-cclic}
 
