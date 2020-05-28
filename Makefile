@@ -154,23 +154,23 @@ $(depsdir)/%.pdf.d: $(builddir)/%.tex | $(outdir) $(depsdir)
 # figure wrappers
 .PRECIOUS: $(builddir)/fig-%-en.tex
 $(builddir)/fig-%-en.tex: $(builddir)/fig-%.tex
-	$(file > $@,$(call fig-wrapper,noanswer,English,fig-$*))
+	$(file > $@,$(call fig-wrapper,noanswer,english,fig-$*))
 
 .PRECIOUS: $(builddir)/fig-%-es.tex
 $(builddir)/fig-%-es.tex: $(builddir)/fig-%.tex
-	$(file > $@,$(call fig-wrapper,noanswer,Spanish,fig-$*))
+	$(file > $@,$(call fig-wrapper,noanswer,spanish,fig-$*))
 
 .PRECIOUS: $(builddir)/fig-ans-%-en.tex
 $(builddir)/fig-ans-%-en.tex: $(builddir)/fig-ans-%.tex
-	$(file > $@,$(call fig-wrapper,answer,English,fig-ans-$*))
+	$(file > $@,$(call fig-wrapper,answer,english,fig-ans-$*))
 
 .PRECIOUS: $(builddir)/fig-ans-%-es.tex
 $(builddir)/fig-ans-%-es.tex: $(builddir)/fig-ans-%.tex
-	$(file > $@,$(call fig-wrapper,answer,Spanish,fig-ans-$*))
+	$(file > $@,$(call fig-wrapper,answer,spanish,fig-ans-$*))
 
 
 # figure latex to pdf
-$(figdir)/fig-%.pdf: $(builddir)/fig-%.tex | $(figdir)
+$(figdir)/fig-%.pdf: $(builddir)/fig-%.tex $(rootdir)/standalone.cfg | $(figdir)
 	$(TEXI2DVI) --output=$@ $<
 
 $(depsdir)/%-figs.d: %-figs.org | $(depsdir)

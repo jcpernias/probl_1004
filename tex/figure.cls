@@ -19,23 +19,19 @@
 \newbool{langEN}
 \newbool{isAnswer}
 
-\DeclareOption{Spanish}{\booltrue{langES}\boolfalse{langEN}}
-\DeclareOption{English}{\booltrue{langEN}\boolfalse{langES}}
+\DeclareOption{spanish}{\booltrue{langES}\boolfalse{langEN}}
+\DeclareOption{english}{\booltrue{langEN}\boolfalse{langES}}
 \DeclareOption{answer}{\booltrue{isAnswer}}
 \DeclareOption{noanswer}{\boolfalse{isAnswer}}
 
-\DeclareOption*{%
-  \ClassError{exam}{Unknown option `\CurrentOption'}{%
-    Check the options passed to the `figure' class}}
-\ExecuteOptions{Spanish,noanswer}
-\ProcessOptions*\relax
+\ProcessOptions\relax
 
 %% Class loading
 %% --------------------------------------------------------------------------------
 \PassOptionsToPackage{svgnames}{xcolor}
 \PassOptionsToPackage{english, spanish}{translator}
 \PassOptionsToPackage{fleqn, tbtags, leqno}{amsmath}
-\LoadClass[11pt, tikz, crop]{standalone}
+\LoadClass{standalone}
 
 
 %% Load packages
