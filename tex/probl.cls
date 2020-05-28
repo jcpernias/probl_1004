@@ -23,9 +23,6 @@
 \DeclareOption{english}{\booltrue{langEN}\boolfalse{langES}}
 \DeclareOption{noanswers}{\boolfalse{answers}}
 \DeclareOption{answers}{\booltrue{answers}}
-% \DeclareOption*{%
-%   \ClassError{probl}{Unknown option `\CurrentOption'}{%
-%     Check the options passed to the `probl' class}}
 \ExecuteOptions{spanish,noanswers}
 \ProcessOptions\relax
 
