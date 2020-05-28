@@ -53,7 +53,6 @@
 \def\columnseprulecolor{\color{Subsection!30!White}}
 
 \RequirePackage{docs-math}
-\RequirePackage{docs-units}
 \RequirePackage{docs-tables}
 \RequirePackage{docs-hyper}
 \RequirePackage{docs-cclic}

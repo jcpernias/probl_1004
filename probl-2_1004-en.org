@@ -96,7 +96,7 @@ and supply curves are:
 #+begin_export latex
 \begin{gather*}
   Q^{d} = \num{10000} - P/6 \\
-  Q^{o} = -6000 + P/2
+  Q^{o} = \num{-6000} + P/2
 \end{gather*}
 #+end_export
 
@@ -107,7 +107,7 @@ b) Find and plot the new equilibrium if demand increases by 20% (the
    curve becomes:
    #+begin_export latex
    \[
-     Q^o = -2700 + P/2
+     Q^o = \num{-2700} + P/2
    \]
    #+end_export
 

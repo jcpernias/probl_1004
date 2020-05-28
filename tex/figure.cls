@@ -43,7 +43,6 @@
 \RequirePackage{docs-base}
 \RequirePackage{docs-math}
 \RequirePackage{docs-colors}
-\RequirePackage{docs-units}
 \RequirePackage{docs-hyper}
 
 
