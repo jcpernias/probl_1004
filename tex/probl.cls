@@ -118,7 +118,7 @@
     %\oldmaketitle
     \let\maketitle\oldmaketitle%
     % \preto\section{\clearpage{\cleardoublepage}}
-    \newcommand{\sectionbreak}{\clearpage{\cleardoublepage}\thispagestyle{first}}}
+    \newcommand{\sectionbreak}{\cleardoublepage\phantomsection\thispagestyle{first}}}
   \maketitle
 }
 
