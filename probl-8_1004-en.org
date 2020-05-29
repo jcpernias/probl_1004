@@ -23,10 +23,12 @@ production.
 Does the law of diminishing marginal returns hold?  Are all the
 labor input levels shown in the table technically efficient?  Why?
 
+
 * 8.2.
 
 If the marginal product of labor is decreasing in the short run,
 should the average product also be decreasing?
+
 
 * 8.3.
 
@@ -34,6 +36,7 @@ The output per worker in a company is 20 chairs per day. The company's
 owner has calculated that an additional worker would increase the
 daily output by 10 chairs. Will the average product increase if the
 company hires another worker?
+
 
 * 8.4.
 
@@ -46,6 +49,7 @@ b) The average and marginal product of labor curves.
 
 c) The levels of labor input that maximize the marginal product, the
    average product and total product. Represent the results obtained.
+
 
 * 8.5.
 
@@ -70,11 +74,13 @@ b) Obtain the rate of input substitution.
 c) Check whether the law of diminishing marginal returns holds when
    $\Kbar = 16\text{\ units}$.
 
+
 * 8.6.
 
 Is the following statement correct? Justify your answer: "A company
 with constant returns to scale will double its production when it
 doubles the use of capital input."
+
 
 * 8.7.
 
@@ -89,7 +95,7 @@ shows increasing returns to scale?
 The following figure shows some isoquants from the production
 function of a firm:
 
-#+MATS: fig fig-probl-8_1004-ex8-const-returns-*.pdf
+#+xxx: fig fig-probl-8_1004-ex8-const-returns-*.pdf
 
 a) If the firm produces 250 units and hires 5 workers, how many
    units of capital are being used? And if it produces 125 units
@@ -102,12 +108,13 @@ b) If the company is hiring 8 workers and 6 units of capital, is it
 c) What kind of returns to scale are observed in the production
    function?
 
+
 * 8.9.
 
 The following figure shows some isoquants from the production
 function of a firm:
 
-#+MATS: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
+#+xxx: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
 
 a) What kind of returns to scale does the production function
    exhibit?

@@ -22,7 +22,7 @@ A consumer purchases only two goods whose prices are $P_X =
 \price{1}$ and $P_Y = \price{1}$. The following figure shows her
 income consumption curve:
 
-#+MATS: fig fig-probl-6_1004-crc1-*.pdf
+#+xxx: fig fig-probl-6_1004-crc1-*.pdf
 
 a) If $M = \money{70}$, how many units would she demand of each one
    of the goods?
@@ -112,7 +112,7 @@ previous statement correct? Justify your answer.
 The following graph shows the optimal choices of a consumer before
 and after a decrease in the price of good $X$:
 
-#+MATS: fig fig-probl-6_1004-fxs-*.pdf
+#+xxx: fig fig-probl-6_1004-fxs-*.pdf
 
 Note that the slopes of the indifference curves are the same in
 the baskets $A$ and $B$, on the one hand, and in the baskets $C$

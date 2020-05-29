@@ -88,7 +88,7 @@ e) What is the relationship between the PPF shape and the opportunity
 The following figure shows the production possibilities frontier of
 an economy where only fish and coconuts are produced:
 
-#+MATS: fig fig-probl-1_1004-ppf-*.pdf
+#+xxx: fig fig-probl-1_1004-ppf-*.pdf
 
 Sort the production options $A$, $B$, $C$, and $D$ from higher to
 lower opportunity cost of producing fish.
