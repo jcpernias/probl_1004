@@ -273,6 +273,7 @@ of the document."
               (and (= (org-element-property :level hl) 1)
                    (handle-section hl)))))
     (setq new-section (make-section))
+    (org-element-adopt-elements new-section (make-latex-keyword "\\SolutionsGeometry{}"))
     (org-element-adopt-elements new-section (make-latex-keyword "\\begin{solutions}"))
     (when sections
       (apply 'org-element-adopt-elements new-section sections))

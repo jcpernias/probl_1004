@@ -216,13 +216,15 @@ compact]{titlesec}
 
 %% Solutions
 %% -----------------------------------------------------------------
+
+\newcommand*{\SolutionsGeometry}{
+  \ifbool{answers}{%
+    \cleardoublepage%
+    \widenhead*{0cm}{0cm}%
+    \newgeometry{twoside, hmargin={1.2cm,1.2cm},
+      bindingoffset=0.7cm, vmargin=4cm}}{}}
+
 \newcommand{\@solutions}{
-  \cleardoublepage
-  \widenhead*{0cm}{0cm}
-  \newgeometry{twoside, hmargin={1.2cm,1.2cm}, bindingoffset=0.7cm,
-    vmargin=4cm}
-
-
   % Do not include anything in toc
   \addtocontents{toc}{\string\setcounter{tocdepth}{0}}
 
