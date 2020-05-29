@@ -23,7 +23,10 @@
 \providebool{langEN}
 
 \RequirePackage[spanish, es-noindentfirst, english]{babel}
-\AtBeginDocument{\selectlanguage{\ifbool{langES}{spanish}{english}}}
+\AtBeginDocument{%
+  \ifbool{langES}{%
+    \selectlanguage{spanish}}{%
+    \selectlanguage{english}}}
 \addto\shorthandsspanish{\spanishdeactivate{"<>}}%
 \RequirePackage[english, spanish]{translator}
 

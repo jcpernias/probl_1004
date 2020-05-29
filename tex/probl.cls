@@ -194,10 +194,8 @@ compact]{titlesec}
   \setfoot*{}{}{\thepage}
 }
 
-
 \widenhead*{0.8cm}{4.5cm}
 \pagestyle{problems}
-
 
 %% Lists
 %% -----------------------------------------------------------------
