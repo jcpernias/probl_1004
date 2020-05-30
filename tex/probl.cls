@@ -35,6 +35,11 @@
 %% Load packages
 %% --------------------------------------------------------------------------------
 \RequirePackage{docs-base}
+
+% Graphics
+\RequirePackage{graphicx}
+
+%% Common colors
 \RequirePackage{docs-colors}
 
 % Page layout
