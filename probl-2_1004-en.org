@@ -4,12 +4,13 @@
 * 2.1
 
 There are three buyers in a market whose demand curves are:
-
-#+ATTR_LATEX: :center t :align lc
-| Buyer 1: | $Q^d_1(P) = 1000 - 10 P$ |
-| Buyer 2: | $Q^d_2(P) = 600 - 2 P$   |
-| Buyer 3: | $Q^d_3(P) = 750 - 5 P$   |
-
+#+begin_export latex
+\begin{gather*}
+  \text{Buyer 1:\ } Q^d_1(P) = 1000 - 10 P \\
+  \text{Buyer 2:\ } Q^d_2(P) = 600 - 2 P \\
+  \text{Buyer 3:\ } Q^d_3(P) = 750 - 5 P
+\end{gather*}
+#+end_export
 Determine the market demand curve.
 
 

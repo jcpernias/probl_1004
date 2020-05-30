@@ -53,6 +53,54 @@ c) The levels of labor input that maximize the marginal product, the
 
 * 8.5.
 
+Is the following statement correct? Justify your answer: "A company
+with constant returns to scale will double its production when it
+doubles the use of capital input."
+
+
+* 8.6.
+
+The following figure shows some isoquants from the production
+function of a firm:
+
+#+xxx: fig fig-probl-8_1004-ex8-const-returns-*.pdf
+
+a) If the firm produces 250 units and hires 5 workers, how many
+   units of capital are being used? And if it produces 125 units
+   with 4 workers?
+
+b) If the company is hiring 8 workers and 6 units of capital, is it
+   possible that the output level is 400 units?  Would it be
+   possible to produce 200 units? What would happen in this case?
+
+c) What kind of returns to scale are observed in the production
+   function?
+
+
+* 8.7.
+
+The following figure shows some isoquants from the production
+function of a firm:
+
+#+xxx: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
+
+a) What kind of returns to scale does the production function
+   exhibit?
+
+b) If $\Kbar = 5$, is the law of diminishing marginal returns
+   satisfied?
+
+
+* 8.8.
+
+A factory uses labor and capital inputs to produce shoes. After
+increasing the number of workers by 50% the output grows by
+60%. Does this mean that the production function of this factory
+shows increasing returns to scale?
+
+
+* 8.9.
+
 Consider the following production functions:
 
 #+ATTR_LATEX: :options [labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
@@ -73,51 +121,3 @@ b) Obtain the rate of input substitution.
 
 c) Check whether the law of diminishing marginal returns holds when
    $\Kbar = 16\text{\ units}$.
-
-
-* 8.6.
-
-Is the following statement correct? Justify your answer: "A company
-with constant returns to scale will double its production when it
-doubles the use of capital input."
-
-
-* 8.7.
-
-A factory uses labor and capital inputs to produce shoes. After
-increasing the number of workers by 50% the output grows by
-60%. Does this mean that the production function of this factory
-shows increasing returns to scale?
-
-
-* 8.8.
-
-The following figure shows some isoquants from the production
-function of a firm:
-
-#+xxx: fig fig-probl-8_1004-ex8-const-returns-*.pdf
-
-a) If the firm produces 250 units and hires 5 workers, how many
-   units of capital are being used? And if it produces 125 units
-   with 4 workers?
-
-b) If the company is hiring 8 workers and 6 units of capital, is it
-   possible that the output level is 400 units?  Would it be
-   possible to produce 200 units? What would happen in this case?
-
-c) What kind of returns to scale are observed in the production
-   function?
-
-
-* 8.9.
-
-The following figure shows some isoquants from the production
-function of a firm:
-
-#+xxx: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
-
-a) What kind of returns to scale does the production function
-   exhibit?
-
-b) If $\Kbar = 5$, is the law of diminishing marginal returns
-   satisfied?
