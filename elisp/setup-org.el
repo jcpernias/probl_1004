@@ -4,7 +4,7 @@
 (use-package org)
 
 
-(require 'ox-beamer)
+(require 'ox-latex)
 
 ;; Template for hyperref package options.
 ;; This format string may contain these elements:
@@ -35,15 +35,6 @@
  pdflang={%L}}}
 ")
 
-(setq docs-labq-class
-      '("labq"
-        "\\documentclass{labq}
-[NO-DEFAULT-PACKAGES]
-[EXTRA]
-[NO-PACKAGES]"
-        ("\\section{%s}" . "\\section*{%s}")
-        ("\\subsection{%s}" . "\\subsection*{%s}")))
-
 (setq docs-probl-class
       '("probl"
         "\\documentclass{probl}
@@ -56,35 +47,11 @@
         ("\\paragraph{%s}" . "\\paragraph*{%s}")
         ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
 
-(setq docs-syllabus-class
-      '("syllabus"
-        "\\documentclass{syllabus}
-\\usepackage[AUTO]{inputenc}
-[NO-DEFAULT-PACKAGES]
-[EXTRA]
-[NO-PACKAGES]"
-        ("\\section{%s}" . "\\section*{%s}")
-        ("\\subsection{%s}" . "\\subsection*{%s}")
-        ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
-        ("\\paragraph{%s}" . "\\paragraph*{%s}")
-        ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
-
-(setq docs-unit-class
-      '("unit"
-        "\\documentclass{unit}
-[NO-DEFAULT-PACKAGES]
-[EXTRA]
-[NO-PACKAGES]"
-        ("\\section{%s}" . "\\section*{%s}")
-        ("\\subsection{%s}" . "\\subsection*{%s}")))
-
-
 (defun install-custom-class (description)
   "Make a LaTeX class available to use with Org"
   (let ((class (car description)))
     (unless (assoc class org-latex-classes)
       (add-to-list 'org-latex-classes description))))
-
 
 (defun uninstall-custom-class (class)
   "Remove the given LaTeX class from the list of classes
@@ -96,11 +63,7 @@ available to use with Org"
         (setq org-latex-classes
               (delq elem org-latex-classes)))))
 
-
-(install-custom-class docs-labq-class)
 (install-custom-class docs-probl-class)
-(install-custom-class docs-syllabus-class)
-(install-custom-class docs-unit-class)
 
 ;; Export settings
 ;; --------------------------------------------------------------------------------
@@ -113,10 +76,6 @@ available to use with Org"
 (setcar org-emphasis-regexp-components " \t('\"{¿¡[")
 (setcar (nthcdr 4 org-emphasis-regexp-components) 2)
 (org-set-emph-re 'org-emphasis-regexp-components org-emphasis-regexp-components)
-
-
-;; Do not insert a default Beamer theme
-(setq org-beamer-theme nil)
 
 ;; Support of csquotes package
 (add-to-list
@@ -138,7 +97,6 @@ available to use with Org"
    (apostrophe :utf-8 "’" :html "&rsquo;")))
 
 
-
 ;; Export functions
 ;; --------------------------------------------------------------------------------
 
@@ -149,32 +107,8 @@ available to use with Org"
     (org-latex-export-as-latex)
     (write-file (concat dir name ".tex"))))
 
-(defun tobeamer (&optional dir)
-  "Export current org buffer to a latex file in directory DIR."
-  (interactive "DDirectory: ")
-  (let ((name (file-name-base (buffer-file-name))))
-    (org-beamer-export-as-latex)
-    (write-file (concat dir name ".tex"))))
-
-
 ;; Babel
 ;; --------------------------------------------------------------------------------
-
-(defun my-org-confirm-babel-evaluate (lang body)
-  (not (string-match "^\\(R\\|emacs-lisp\\)$" lang)))
-(setq org-confirm-babel-evaluate 'my-org-confirm-babel-evaluate)
-(setq ess-ask-for-ess-directory nil)
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((emacs-lisp . t)
-   (shell . t)
-   (R . t)
-   (python . t)
-   (latex . t)
-   (ditaa . t)))
-
-(add-to-list 'org-src-lang-modes
-   '("r" . R))
 
 (defun tangle (file dir)
   (find-file (expand-file-name file))
