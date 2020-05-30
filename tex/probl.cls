@@ -137,14 +137,6 @@ compact]{titlesec}
 \deftranslation[to=English]{Exercise}{Exercise}
 \newcommand*{\ExerciseName}{\translate{Exercise}}
 
-\deftranslation[to=Spanish]{Solutions}{Soluciones}
-\deftranslation[to=English]{Solutions}{Solutions}
-\newcommand*{\SolutionsName}{\translate{Solutions}}
-
-
-%\newcommand{\sectionbreak}{\cleardoublepage}
-%\preto\section{\ifnum\value{section}=0 \else\clearpage{\cleardoublepage}\fi}
-
 \titleformat{name=\section}[hang]{%
   \color{Section}\LARGE\sffamily\bfseries}{%
   \makebox[1.25cm][l]{\rmfamily\slshape\HUGE\thesection}}{0pt}{}
@@ -223,11 +215,14 @@ compact]{titlesec}
     \newgeometry{twoside, hmargin={1.2cm,1.2cm},
       bindingoffset=0.7cm, vmargin=4cm}}{}}
 
+\deftranslation[to=Spanish]{Solutions}{Soluciones}
+\deftranslation[to=English]{Solutions}{Solutions}
+
 \newcommand{\@solutions}{
   % Do not include anything in toc
   \addtocontents{toc}{\string\setcounter{tocdepth}{0}}
 
-  \part{\SolutionsName}
+  \part{\translate{Solutions}}
   \thispagestyle{first}
 
   % Change font size
