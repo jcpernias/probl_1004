@@ -38,7 +38,6 @@
 %% --------------------------------------------------------------------------------
 \RequirePackage{docs-base}
 \RequirePackage{docs-math}
-\RequirePackage{docs-hyper}
 
 
 \colorlet{colorIMg}{DarkBlue!70!Black}
