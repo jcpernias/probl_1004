@@ -206,9 +206,7 @@ compact]{titlesec}
 {\normalfont\large\bfseries\sffamily}
 {\color{Subsection}\ExerciseName\ \thesubsection}{0em}{\eat}
 
-\titlespacing*{name=\subsection}
-{0pt}{*4}{*1.5}
-
+\titlespacing*{name=\subsection}{0pt}{*1.5}{*0.75}
 
 \titleformat{name=\part}[hang]{%
   \color{Section}\LARGE\sffamily\bfseries}{}{0pt}{}
