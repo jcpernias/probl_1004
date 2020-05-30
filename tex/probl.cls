@@ -44,8 +44,6 @@
 % Page layout
 \RequirePackage{geometry}
 \geometry{twoside, hmargin={2cm,5.7cm}, bindingoffset=0.7cm, vmargin=4cm}
-\RequirePackage[strict]{changepage}
-\RequirePackage{parskip}
 
 \RequirePackage{adjustbox}
 \RequirePackage{multicol}
@@ -206,7 +204,7 @@ compact]{titlesec}
 {\normalfont\large\bfseries\sffamily}
 {\color{Subsection}\ExerciseName\ \thesubsection}{0em}{\eat}
 
-\titlespacing*{name=\subsection}{0pt}{*1.5}{*0.75}
+\titlespacing*{name=\subsection}{0pt}{*3.5}{*0.75}
 
 \titleformat{name=\part}[hang]{%
   \color{Section}\LARGE\sffamily\bfseries}{}{0pt}{}
