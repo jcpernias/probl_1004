@@ -66,6 +66,15 @@ docs_pdf := $(addprefix $(outdir)/, $(addsuffix .pdf, $(docs_base)))
 
 tex_check_dirs := $(builddir) $(figdir) $(depsdir)
 
+probl_tex_deps := $(texdir)/probl.cls \
+	$(texdir)/docs-base.sty \
+	$(rootdir)/hyperref.cfg
+
+fig_tex_deps := $(texdir)/figure.cls \
+	$(texdir)/docs-base.sty \
+	$(rootdir)/standalone.cfg
+
+
 ## Automatic dependencies
 ## ================================================================================
 docs_deps := $(addprefix $(depsdir)/, \
@@ -144,7 +153,7 @@ $(builddir)/with-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex | $(figdir)
 	$(file > $@,$(call probl-wrapper,answers,probl-$*,en))
 
 ## latex to pdf
-$(outdir)/%.pdf: $(builddir)/%.tex $(texdir)/probl.cls | $(outdir)
+$(outdir)/%.pdf: $(builddir)/%.tex $(probl_tex_deps) | $(outdir)
 	$(TEXI2DVI) --output=$@ $<
 
 # pdf dependencies
@@ -170,7 +179,7 @@ $(builddir)/fig-ans-%-es.tex: $(builddir)/fig-ans-%.tex
 
 
 # figure latex to pdf
-$(figdir)/fig-%.pdf: $(builddir)/fig-%.tex $(rootdir)/standalone.cfg | $(figdir)
+$(figdir)/fig-%.pdf: $(builddir)/fig-%.tex $(fig_tex_deps) | $(figdir)
 	$(TEXI2DVI) --output=$@ $<
 
 $(depsdir)/%-figs.d: %-figs.org | $(depsdir)
