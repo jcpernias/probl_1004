@@ -38,6 +38,8 @@
 
 % Graphics
 \RequirePackage{graphicx}
+\ifbool{langES}{\newcommand*{\LANG}{es}}{}
+\ifbool{langEN}{\newcommand*{\LANG}{en}}{}
 
 % Page layout
 \RequirePackage{geometry}

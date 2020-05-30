@@ -12,4 +12,3 @@
 #+LATEX_CLASS_OPTIONS: [spanish, a4paper, 11pt, twoside]
 
 #+LANGUAGE: es
-#+LATEX_HEADER: \newcommand*{\LANG}{es}
