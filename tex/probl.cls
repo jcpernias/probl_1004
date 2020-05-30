@@ -39,9 +39,6 @@
 % Graphics
 \RequirePackage{graphicx}
 
-%% Common colors
-\RequirePackage{docs-colors}
-
 % Page layout
 \RequirePackage{geometry}
 \geometry{twoside, hmargin={2cm,5.7cm}, bindingoffset=0.7cm, vmargin=4cm}
