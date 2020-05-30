@@ -27,6 +27,7 @@
   \ifbool{langES}{%
     \selectlanguage{spanish}}{%
     \selectlanguage{english}}}
+\AddBabelHook{french}{afterextras}{\frenchspacing}
 \addto\shorthandsspanish{\spanishdeactivate{"<>}}%
 \RequirePackage[english, spanish]{translator}
 
