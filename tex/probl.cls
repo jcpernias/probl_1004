@@ -112,13 +112,12 @@
     \oldmaketitle%
     \tableofcontents%
     \thispagestyle{empty}%
-    %\cleardoublepage{}%
     \ccpage%
     \pagenumbering{arabic}
-    %\oldmaketitle
     \let\maketitle\oldmaketitle%
-    % \preto\section{\clearpage{\cleardoublepage}}
-    \newcommand{\sectionbreak}{\cleardoublepage\phantomsection\thispagestyle{first}}}
+    \newcommand{\sectionbreak}{%
+      \cleardoublepage\phantomsection%
+      \thispagestyle{first}}}
   \maketitle
 }
 
