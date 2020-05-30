@@ -1,15 +1,8 @@
 %% Identification
 %% ----------------------------------------------------------------------
 
-% A very recent version of LaTeX is required to ensure that default
-% input encoding is utf8. This saves to explicitely require utf8
-% encoding and especial handling of some characters:
-%
-\usepackage[utf8]{inputenc}     % Make csquotes package happy
-% \DeclareUnicodeCharacter{00A0}{~}
-
 \NeedsTeXFormat{LaTeX2e}[2018/04/01]
-\ProvidesPackage{docs-base}[2018/10/04 v 0.1 Part of docs-bundle]
+\ProvidesPackage{probl-base}[2018/10/04 v 0.9 Part of probl-bundle]
 
 %% Load packages required by all documents
 %% ----------------------------------------------------------------------
@@ -52,6 +45,7 @@
 \RequirePackage{microtype}
 
 %% Units
+%% ----------------------------------------------------------------------
 \RequirePackage{siunitx}
 
 \DeclareSIUnit{\@EUR}{\text{\texteuro}}
@@ -85,9 +79,43 @@
 \newcommand*{\hours}[1]{\units[hour]{#1}}
 
 %% Common colors
-\RequirePackage{docs-colors}
+%% ----------------------------------------------------------------------
+% Load xcolor
+\RequirePackage[svgnames]{xcolor}
+
+
+% Solarized colors: https://ethanschoonover.com/solarized/
+\definecolor{solarizedBase03}{HTML}{002b36}
+\definecolor{solarizedBase02}{HTML}{073642}
+\definecolor{solarizedBase01}{HTML}{586e75}
+\definecolor{solarizedBase00}{HTML}{657b83}
+\definecolor{solarizedBase0}{HTML}{839496}
+\definecolor{solarizedBase1}{HTML}{93a1a1}
+\definecolor{solarizedBase2}{HTML}{eee8d5}
+\definecolor{solarizedBase3}{HTML}{fdf6e3}
+\definecolor{solarizedYellow}{HTML}{b58900}
+\definecolor{solarizedOrange}{HTML}{cb4b16}
+\definecolor{solarizedRed}{HTML}{dc322f}
+\definecolor{solarizedMagenta}{HTML}{d33682}
+\definecolor{solarizedViolet}{HTML}{6c71c4}
+\definecolor{solarizedBlue}{HTML}{268bd2}
+\definecolor{solarizedCyan}{HTML}{2aa198}
+\definecolor{solarizedGreen}{HTML}{859900}
+
+
+% Document colors
+\definecolor{titleRed}{HTML}{cb3c5f}
+
+\colorlet{MainText}{Black}
+\colorlet{Title}{titleRed!45!Black}
+\colorlet{Section}{titleRed!55!Black}
+\colorlet{Subsection}{titleRed!65!Black}
+\colorlet{Paragraph}{DarkGreen!55!Black}
+\colorlet{Subparagraph}{DarkGreen!70!Black}
+
 
 %% Math
+%% ----------------------------------------------------------------------
 \RequirePackage{latexsym}
 \RequirePackage{amssymb}
 \RequirePackage{mathtools}

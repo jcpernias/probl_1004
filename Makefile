@@ -67,11 +67,11 @@ docs_pdf := $(addprefix $(outdir)/, $(addsuffix .pdf, $(docs_base)))
 tex_check_dirs := $(builddir) $(figdir) $(depsdir)
 
 probl_tex_deps := $(texdir)/probl.cls \
-	$(texdir)/docs-base.sty \
+	$(texdir)/probl-base.sty \
 	$(rootdir)/hyperref.cfg
 
-fig_tex_deps := $(texdir)/figure.cls \
-	$(texdir)/docs-base.sty \
+fig_tex_deps := $(texdir)/probl-figure.cls \
+	$(texdir)/probl-base.sty \
 	$(rootdir)/standalone.cfg
 
 
@@ -110,7 +110,7 @@ endef
 
 # $(call fig-wrapper,answer,spanish-or-english,fig-basename) -> write to a file
 define fig-wrapper
-\documentclass[$1,$2]{figure}
+\documentclass[$1,$2]{probl-figure}
 \InputIfFileExists{$(subject_code)-macros.tex}{}{}
 \begin{document}
 \input{$(realpath $(builddir))/$3}

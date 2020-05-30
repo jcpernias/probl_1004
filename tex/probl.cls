@@ -34,7 +34,7 @@
 
 %% Load packages
 %% --------------------------------------------------------------------------------
-\RequirePackage{docs-base}
+\RequirePackage{probl-base}
 
 % Graphics
 \RequirePackage{graphicx}
@@ -60,10 +60,60 @@
 \newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
 
 
-\RequirePackage{docs-hyper}
-\RequirePackage{docs-cclic}
+
+% Hyperlinks
+%% -----------------------------------------------------------------
+\RequirePackage{hyperref}%
+\RequirePackage{bookmark}%
+
+% Fix problem with bookmark
+\RequirePackage{auxhook}
+\AddLineBeginAux{%
+  \string\providecommand{\string\BKM@Entry}[1]{}%
+}
+
+% Web links
+\newcommand*{\link}[1]{\url{#1}}
 
 
+% CC notice
+%% -----------------------------------------------------------------
+
+%% Two minipages side by side that fill the width of the line.
+%% 1st arg (optional): width of the left cell (default 3.5cm).
+%% 2nd arg: contents of the left cell.
+%% 3rd arg: contents of the right cell.
+\newlength{\@leftcell}
+\newlength{\@rightcell}
+
+\newcommand{\@twocells}[3][3.5cm]{
+  {\scriptsize%
+    \setlength{\@leftcell}{#1}%
+    \setlength{\@rightcell}{\linewidth}%
+    \addtolength{\@rightcell}{-\@leftcell}%
+    \begin{minipage}{\@leftcell}#2\end{minipage}%
+    \begin{minipage}{\@rightcell}#3\end{minipage}}}
+
+
+%% License translations
+\deftranslation[to=English]{CCstart}{This work is licensed under a}
+\deftranslation[to=English]{CClink}{Creative Commons Attribution-ShareAlike
+  4.0 International License.}
+\deftranslation[to=Spanish]{CCstart}{Esta obra está bajo una}
+\deftranslation[to=Spanish]{CClink}{licencia de Reconocimiento-CompartirIgual
+  4.0 de Creative Commons.}
+
+
+%% Inserts a page stating the CC license
+\newcommand{\ccpage}{%
+  \newpage%
+  \vspace*{\stretch{5}}%
+  \thispagestyle{empty}%
+  \@twocells{\includegraphics[scale=1]{by-sa}}{%
+    \translate{CCstart}
+    \href{http://creativecommons.org/licenses/by-sa/4.0/}{%
+      \translate{CClink}}}%
+  \cleardoublepage{}}
 
 
 %% TOC

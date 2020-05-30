@@ -1,15 +1,8 @@
 %% Identification
 %% ----------------------------------------------------------------------
 
-% A very recent version of LaTeX is required to ensure that default
-% input encoding is utf8. This saves to explicitely require utf8
-% encoding and especial handling of some characters:
-%
-% \usepackage[utf8]{inputenc}
-% \DeclareUnicodeCharacter{00A0}{~}
-
 \NeedsTeXFormat{LaTeX2e}[2018/04/01]
-\ProvidesClass{figure}[2019/09/08 v 0.1 Part of docs-bundle]
+\ProvidesClass{probl-figure}[2019/09/08 v 0.9 Part of probl-bundle]
 
 \RequirePackage{etoolbox}
 
@@ -36,7 +29,7 @@
 
 %% Load packages
 %% --------------------------------------------------------------------------------
-\RequirePackage{docs-base}
+\RequirePackage{probl-base}
 
 
 \colorlet{colorIMg}{DarkBlue!70!Black}
