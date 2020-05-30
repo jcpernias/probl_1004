@@ -37,7 +37,6 @@
 %% Load packages
 %% --------------------------------------------------------------------------------
 \RequirePackage{docs-base}
-\RequirePackage{docs-math}
 
 
 \colorlet{colorIMg}{DarkBlue!70!Black}

@@ -51,8 +51,6 @@
 \setlength{\columnsep}{0.8cm}
 \def\columnseprulecolor{\color{Subsection!30!White}}
 
-\RequirePackage{docs-math}
-
 % Tables
 %% -----------------------------------------------------------------
 \RequirePackage{array}
