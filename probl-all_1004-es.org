@@ -2,7 +2,7 @@
 #+SETUPFILE: ./course-es.org
 #+TITLE: Cuaderno de ejercicios
 
-* Conceptos básicos de la Economía
+* La frontera de posibilidades de producción
 
 #+include: "probl-1_1004-es.org" :lines "3-"
 

@@ -4,54 +4,73 @@
 
 * 1.1
 
-En una economía se producen dos bienes, automóviles y comida, usando
-trabajo como único factor de producción. Se dispone de un máximo de
-\num{50000} horas de trabajo. La siguiente tabla muestra las
-cantidades que pueden producirse dependiendo de las horas de trabajo
-que se dediquen a cada actividad:
+En una economía se producen dos bienes: vehículos y alimentos, y sólo
+se utiliza trabajo como único factor de producción. Se dispone de un
+máximo de \num{100000} horas de trabajo al mes. La siguiente tabla
+muestra las cantidades que pueden producirse dependiendo de las horas
+de trabajo que se dediquen a cada actividad:
+#+latex: \vspace*{2ex}
 
 #+ATTR_LATEX: :options {0.5\linewidth}
 #+xxx: col
 #+ATTR_LATEX: :booktabs t :center t :align @{}rR{2.5cm}@{}
-|-------------+--------------|
-| Trabajo     | Automóviles  |
-| (horas)     | (unidades)   |
-|-------------+--------------|
-| \num{0}     | \num{0}      |
-| \num{12500} | \num{40000}  |
-| \num{25000} | \num{70000}  |
-| \num{37500} | \num{90000}  |
-| \num{50000} | \num{100000} |
-|-------------+--------------|
+|---------------+-----------|
+|       Trabajo | Vehículos |
+| (miles horas) |   (miles) |
+|---------------+-----------|
+|             0 |         0 |
+|            10 |        50 |
+|            20 |        95 |
+|            30 |       135 |
+|            40 |       170 |
+|            50 |       200 |
+|            60 |       225 |
+|            70 |       245 |
+|            80 |       260 |
+|            90 |       270 |
+|           100 |       275 |
+|---------------+-----------|
 
 #+ATTR_LATEX: :options {0.5\linewidth}
 #+xxx: col
 #+ATTR_LATEX: :booktabs t :center t :align @{}rR{2.5cm}@{}
-|-------------+--------------|
-| Trabajo     | Comida       |
-| (horas)     | (kg)         |
-|-------------+--------------|
-| \num{0}     | \num{0}      |
-| \num{12500} | \num{50000}  |
-| \num{25000} | \num{75000}  |
-| \num{37500} | \num{90000}  |
-| \num{50000} | \num{100000} |
-|-------------+--------------|
+|---------------+------------|
+|       Trabajo |  Alimentos |
+| (miles horas) | (miles kg) |
+|---------------+------------|
+|             0 |          0 |
+|            10 |         80 |
+|            20 |        150 |
+|            30 |        200 |
+|            40 |        240 |
+|            50 |        270 |
+|            60 |        290 |
+|            70 |        305 |
+|            80 |        315 |
+|            90 |        320 |
+|           100 |        322 |
+|---------------+------------|
 #+xxx: endcol
 
-a) Represente gráficamente la Frontera de Posibilidades de
-   Producción, FPP.
+a) <<ex1.1:item-a>>Obtenga y represente gráficamente la frontera de
+   posibilidades de producción, FPP.
 
-b) ¿Qué efecto tendría sobre la FPP una mejora en las técnicas de
-   elaboración de comida que aumentara la producción por hora de
-   trabajo? ¿Y una mejora organizativa en la cadena de producción
-   de automóviles? ¿Y si ambas mejoras se produjesen
-   simultáneamente como consecuencia de un progreso técnico
-   generalizado?
+b) Si se producen \units[kg]{150000} de alimentos, ¿es posible
+   producir \num{300000} vehículos? Si su respuesta es negativa,
+   indique cuántos vehículos podrían fabricarse como máximo.
 
-c) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad
-   de las horas de trabajo como consecuencia de un conflicto
-   bélico?
+c) ¿Qué efecto tendría sobre la FPP una mejora organizativa en la
+   producción de vehículos? Obtenga y represente la FPP si la mejora
+   incrementa en un 20% la producción por hora de vehículos. Compare
+   los resultados con los obtenidos en el apartado [[ex1.1:item-a]]. ¿Es
+   posible producir ahora \units[kg]{150000} de alimentos y
+   \num{300000} vehículos? ¿Es eficiente?
+
+d) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad de
+   las horas de trabajo como consecuencia de un conflicto bélico?
+   Represente gráficamente la FPP si sólo se pueden usar \num{50000}
+   horas de trabajo y compare los resultados con los obtenidos en el
+   apartado [[ex1.1:item-a]].
 
 
 ** Answer
@@ -79,34 +98,32 @@ c) Una reducción de un factor de producción desplaza la FPP hacia la
 * 1.2
 
 La tabla adjunta presenta diferentes combinaciones eficientes para una
-economía en la que únicamente se producen dos bienes: $X$ e $Y$.
+economía en la que únicamente se producen dos bienes: cañones y mantequilla.
 
 #+ATTR_LATEX: :booktabs t :center t :align @{}p{1cm}*{2}{R{2cm}}@{}
-|-----+------------+------------|
-|     | $X$        | $Y$        |
-|-----+------------+------------|
-| *A* | \num{20}   | \num{0}    |
-| *B* | \num{18}   | \num{1}    |
-| *C* | \num{15}   | \num{2}    |
-| *D* | \num{11}   | \num{3}    |
-| *E* | \num{6}    | \num{4}    |
-| *F* | \num{0}    | \num{5}    |
-|-----+------------+------------|
+|-----+-------------+------------|
+|     | Mantequilla |    Cañones |
+|     | (Toneladas) | (Unidades) |
+|-----+-------------+------------|
+| *A* |          20 |          0 |
+| *B* |          18 |          1 |
+| *C* |          15 |          2 |
+| *D* |          11 |          3 |
+| *E* |           6 |          4 |
+| *F* |           0 |          5 |
+|-----+-------------+------------|
 
-a) Represente la Frontera de Posibilidades de Producción, FPP. ¿Qué
-   tiene de particular la forma de la FPP?
-
-b) ¿Se pueden producir \num{2} unidades de $Y$ y \num{10} unidades de
-   $X$?  ¿Qué ocurre en esta situación?
+a) Represente la frontera de posibilidades de producción, FPP.
 
 c) Construya una tabla que refleje el coste de oportunidad de producir
-   cada unidad del bien $Y$.
+   cada cañón.
 
-d) ¿A cuántas unidades de $X$ se debe renunciar para producir la
-   primera unidad de $Y$? ¿Y la segunda?
+d) ¿A cuántas toneladas de mantequilla se debe renunciar para producir
+   el primer cañón? ¿Y el segundo?
 
 e) ¿Qué relación existe entre la forma de la FPP y el coste de
    oportunidad?
+
 
 ** Answer
 
@@ -140,6 +157,30 @@ e) Cuando el coste de oportunidad es creciente, la FPP es cóncava.
 
 * 1.3
 
+La frontera de posibilidades de producción, FPP, de un país que sólo
+produce dos bienes, $X$ e $Y$ puede expresarse como:
+#+begin_export latex
+\[
+  Y = \num{1000} - 0.1 X
+\]
+#+end_export
+
+a) Represente gráficamente la FPP.
+
+b) Si la economía está utilizando eficientemente todos los factores de
+   producción y se producen \num{1000} unidades del bien $X$, ¿cuál es
+   el coste de oportunidad de producir una unidad adicional del bien
+   $X$?
+
+c) Si en vez de \num{1000} se produjeran \num{5000} unidades del bien
+   $X$, ¿cómo cambiaría la respuesta al apartado anterior?
+
+d) ¿Que relación existe entre el comportamiento del coste de
+   oportunidad y la forma de la FPP?
+
+
+* 1.4
+
 El siguiente gráfico representa la frontera de posibilidades de
 producción de una economía donde sólo se producen cocos y pescado:
 
@@ -158,16 +199,24 @@ inaccesibles y el coste de oportunidad no está definido.
 
 
 
-* 1.4
+* 1.5
 
-Determine si la siguiente afirmación es verdadera o falsa y justifique
-su respuesta: "Cuando un gran número de desempleados encuentra
-trabajo, la frontera de posibilidades de producción se desplaza hacia
-la derecha."
+Considere una economía donde sólo se producen dos bienes: $X$ e $Y$.
 
+#+xxx: fig fig-probl-1_1004-ppf-multi-*.pdf
 
-** Answer
+Relacione cada uno de los gráficos anteriores con las siguientes
+afirmaciones. Razone sus respuestas.
 
-La FPP no se desplaza ya que no hay más factores de producción que en
-la situación inicial. La economía se mueve de un punto ineficiente a
-otro, ambos situados debajo de la FPP.
+a) El incremento de la natalidad en las décadas previas hace que el
+   número personas en edad de trabajar aumente
+   considerablemente.
+
+b) Una gran parte de los trabajadores que estaban desempleados han
+   encontrado un empleo.
+
+c) Una gran parte de los trabajadores emigra al extranjero buscando un
+   mejor empleo.
+
+d) Una reforma administrativa hace mucho más difícil y costosa la
+   contratación de trabajadores.
