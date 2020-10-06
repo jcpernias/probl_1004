@@ -1,6 +1,25 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
+* 2.4
+
+Considere un mercado competitivo de manzanas y trace un diagrama de
+oferta y demanda que muestre los efectos sobre el equilibrio de una
+enfermedad de los manzanos que perjudique a la cosecha. ¿Podrían
+aumentar los ingresos de los agricultores en este caso?  ¿Qué
+condiciones se tendrían que cumplir?
+
+** Answer
+
+La oferta de manzanas se reduce. Se venden menos manzanas a un precio
+superior.
+#+xxx: fig fig-ans-probl-2_1004-apples-*.pdf
+
+Los ingresos de los productores solo crecerán si el mercado se
+encuentra en un tramo inelástico de la curva de demanda.
+
+
+
 * 3.1
 
 Las medicinas tienen demanda inelástica mientras que los

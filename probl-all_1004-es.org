@@ -7,7 +7,7 @@
 #+include: "probl-1_1004-es.org" :lines "3-"
 
 * Mercados competitivos
-
+#+latex: \pagenumbering{arabic}
 #+include: "probl-2_1004-es.org" :lines "3-"
 
 * La elasticidad
