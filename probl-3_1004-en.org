@@ -1,6 +1,15 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
+
+* 2.4
+
+Consider a competitive market for apples and draw a demand and supply
+diagram showing the effects on the equilibrium of an apple tree
+disease that adversely affects the harvest. Could farmers' revenues
+rise in that case? What conditions must be met?
+
+
 * 3.1
 
 Medicines have inelastic demand, while computers have elastic

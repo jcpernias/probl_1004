@@ -3,13 +3,14 @@
 
 #+TITLE: Exercise Booklet
 
-* Basic concepts of economics
+* The Production Possibility Frontier
 
 #+include: "probl-1_1004-en.org" :lines "3-"
 
 
 * Competitive markets
 
+#+latex: \pagenumbering{arabic}
 #+include: "probl-2_1004-en.org" :lines "3-"
 
 

@@ -3,87 +3,129 @@
 
 * 1.1
 
-An economy produces two goods, vehicles and food, using labor as
-the only factor of production. There are \num{50000} labor hours
-available. The following table shows how many units of each good
-can be produced according to the labor hours devoted to each
-activity:
+An economy produces two goods, vehicles and food, using labor as the
+only factor of production. There are \num{100000} labor hours per
+month available. The following table shows how many units of each good
+can be produced according to the labor hours devoted to each activity:
 
-#+ATTR_LATEX: :options {0.5\linewidth}
+#+latex: \vspace*{2ex}
+#+ATTR_LATEX: :options {0.48\linewidth}
 #+xxx: col
 #+ATTR_LATEX: :booktabs t :center t :align @{}rR{2.5cm}@{}
-|-------------+--------------|
-| Labor       | Vehicles     |
-| (hours)     | (units)      |
-|-------------+--------------|
-| \num{0}     | \num{0}      |
-| \num{12500} | \num{40000}  |
-| \num{25000} | \num{70000}  |
-| \num{37500} | \num{90000}  |
-| \num{50000} | \num{100000} |
-|-------------+--------------|
+|------------------+-------------|
+|            Labor |    Vehicles |
+| (thousand hours) | (thousands) |
+|------------------+-------------|
+|                0 |           0 |
+|               10 |          50 |
+|               20 |          95 |
+|               30 |         135 |
+|               40 |         170 |
+|               50 |         200 |
+|               60 |         225 |
+|               70 |         245 |
+|               80 |         260 |
+|               90 |         270 |
+|              100 |         275 |
+|------------------+-------------|
 
-#+ATTR_LATEX: :options {0.5\linewidth}
+#+ATTR_LATEX: :options {0.48\linewidth}
 #+xxx: col
 #+ATTR_LATEX: :booktabs t :center t :align @{}rR{2.5cm}@{}
-|-------------+--------------|
-| Labor       | Food         |
-| (hours)     | (kg)         |
-|-------------+--------------|
-| \num{0}     | \num{0}      |
-| \num{12500} | \num{50000}  |
-| \num{25000} | \num{75000}  |
-| \num{37500} | \num{90000}  |
-| \num{50000} | \num{100000} |
-|-------------+--------------|
+|------------------+---------------|
+|            Labor |          Food |
+| (thousand hours) | (thousand kg) |
+|------------------+---------------|
+|                0 |             0 |
+|               10 |            80 |
+|               20 |           150 |
+|               30 |           200 |
+|               40 |           240 |
+|               50 |           270 |
+|               60 |           290 |
+|               70 |           305 |
+|               80 |           315 |
+|               90 |           320 |
+|              100 |           322 |
+|------------------+---------------|
 #+xxx: endcol
 
-a) Draw the Production Possibility Frontier, PPF.
+a) <<ex1.1:item-a>>Obtain and draw the Production Possibility
+   Frontier, PPF.
 
-b) What effect on the PPF would have an improvement on the
-   procedures used in the production of food that raises the output
-   per labor hour? And an organizational improvement in the
-   production chain of vehicles? And what would happen if both
-   improvements occur simultaneously as a result of a widespread
-   technical progress?
+b) Si se producen \units[kg]{150000} de alimentos, ¿es posible
+   producir \num{300000} vehículos? Si su respuesta es negativa,
+   indique cuántos vehículos podrían fabricarse como máximo.
 
-c) Which would be the consequences on the PPF of the reduction of
-   the labor hours by half as a result of an armed conflict?
+b) What effect on the PPF would have an organizational improvement in
+   the production of vehicles? Obtain and draw the PPF if the
+   improvement caused a 20% increase in the production of vehicles per
+   hour.
 
+c) Which would be the consequences on the PPF of the reduction of the
+   labor hours by half as a result of an armed conflict?  Represente
+   gráficamente la FPP si sólo se pueden usar \num{50000} horas de
+   trabajo y compare los resultados con los obtenidos en el apartado
+   [[ex1.1:item-a]].
+
+#+latex: \clearpage{}
 
 * 1.2
 
-The table below shows different efficient combinations for an
-economy in which only two goods are produced: $X$ and $Y$.
+The table below shows different efficient combinations for an economy
+in which only two goods are produced: guns and butter.
 
 #+ATTR_LATEX: :booktabs t :center t :align @{}p{1cm}*{2}{R{2cm}}@{}
-|-----+------------+------------|
-|     | $X$        | $Y$        |
-|-----+------------+------------|
-| *A* | \num{20}   | \num{0}    |
-| *B* | \num{18}   | \num{1}    |
-| *C* | \num{15}   | \num{2}    |
-| *D* | \num{11}   | \num{3}    |
-| *E* | \num{6}    | \num{4}    |
-| *F* | \num{0}    | \num{5}    |
-|-----+------------+------------|
+|-----+----------+-------------|
+|     | Butter   | Cannons     |
+|     | (Tons)   | (Units)     |
+|-----+----------+-------------|
+| *A* | \num{20} | \num{0}     |
+| *B* | \num{18} | \num{1}     |
+| *C* | \num{15} | \num{2}     |
+| *D* | \num{11} | \num{3}     |
+| *E* | \num{6}  | \num{4}     |
+| *F* | \num{0}  | \num{5}     |
+|-----+----------+-------------|
 
-a) Draw the PPF. What can be said about the particular shape of PPF?
+a) Draw the Production Possibility Frontier, PPF.
 
-b) Is it feasible to produce 2 units of $Y$ and 10 units of $X$?
-   What happens in this situation?
+c) Construct a table that reflects the opportunity cost of producing
+   each cannon.
 
-c) Construct a table that reflects the opportunity cost of
-   producing each unit of $Y$.
-
-d) How many units of $X$ must be given up to produce the first
-   unit of $Y$? And the second one?
+d) How many tons of butter must be given up to produce the first
+   cannon? And the second one?
 
 e) What is the relationship between the PPF shape and the opportunity
    cost?
 
 
 * 1.3
+
+La frontera de posibilidades de producción, FPP, de un país que sólo
+produce dos bienes, $X$ e $Y$ puede expresarse como:
+#+begin_export latex
+\[
+  Y = \num{1000} - 0.1 X
+\]
+#+end_export
+
+a) Represente gráficamente la FPP.
+
+b) Si la economía está utilizando eficientemente todos los factores de
+   producción y se producen \num{1000} unidades del bien $X$, ¿cuál es
+   el coste de oportunidad de producir una unidad adicional del bien
+   $X$?
+
+c) Si en vez de \num{1000} se produjeran \num{5000} unidades del bien
+   $X$, ¿cómo cambiaría la respuesta al apartado anterior?
+
+d) ¿Que relación existe entre el comportamiento del coste de
+   oportunidad y la forma de la FPP?
+
+
+
+* 1.4
 
 The following figure shows the production possibilities frontier of
 an economy where only fish and coconuts are produced:
@@ -94,8 +136,24 @@ Sort the production options $A$, $B$, $C$, and $D$ from higher to
 lower opportunity cost of producing fish.
 
 
-* 1.4
+* 1.5
 
-State whether the following sentence is true or false and justify your
-answer: "When a great number of unemployed workers find a job, the
-production possibilities frontier shifts to the right."
+Considere una economía donde sólo se producen dos bienes: $X$ e $Y$.
+
+#+xxx: fig fig-probl-1_1004-ppf-multi-*.pdf
+
+Relacione cada uno de los gráficos anteriores con las siguientes
+afirmaciones. Razone sus respuestas.
+
+a) El incremento de la natalidad en las décadas previas hace que el
+   número personas en edad de trabajar aumente
+   considerablemente.
+
+b) Una gran parte de los trabajadores que estaban desempleados han
+   encontrado un empleo.
+
+c) Una gran parte de los trabajadores emigra al extranjero buscando un
+   mejor empleo.
+
+d) Una reforma administrativa hace mucho más difícil y costosa la
+   contratación de trabajadores.
