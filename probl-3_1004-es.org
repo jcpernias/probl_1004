@@ -40,8 +40,9 @@ elasticidad precio igual a $-0.2$ en el corto plazo y a $-0.7$ en el
 largo plazo.
 
 a) Si el precio del gas aumenta desde \price[\kWh]{0.054} hasta
-   \price[\kWh]{0.066}, ¿qué ocurrirá con la cantidad demandada a corto
-   plazo? ¿Y a largo plazo? (Use la fórmula del punto medio)
+   \price[\kWh]{0.066}, ¿qué ocurrirá con la cantidad demandada a
+   corto plazo? ¿Y a largo plazo? Use la fórmula del punto medio en
+   sus cálculos.
 
 b) ¿Por qué podría depender la demanda de gas natural del horizonte
    temporal?
