@@ -344,3 +344,45 @@
     \draw[axis, very thick, ->, TwoMarks=0.10] (0,0) -- (1.2, 0) node[below] {$Q$} ;
   \end{tikzpicture}
 #+end_src
+
+
+* 4.8 Price controls
+
+#+begin_src latex :tangle fig-probl-4_1004-price-controls.tex :noweb no
+  \begin{tikzpicture}[xscale = 1, yscale = 1]
+
+    \coordinate (D1) at (0, 4.25) ;
+    \coordinate (D2) at (7, 0.75) ;
+    \coordinate (S1) at (1, 0) ;
+    \coordinate (S2) at (6, 5) ;
+
+    \draw[curve]
+    (D1) -- (D2) node[right] {$D$};
+
+    \draw[curve]
+    (S1) -- (S2) node[above right] {$O$};
+
+    \begin{scope}[on background layer]
+    \draw[help lines, step=0.5] (0, 0) grid (7.5, 5.5) ;
+    \end{scope}
+
+    \draw[curve]
+      (1, 0) node[below] {$100$}
+      (2, 0) node[below] {$200$}
+      (3, 0) node[below] {$300$}
+      (4, 0) node[below] {$400$}
+      (5, 0) node[below] {$500$}
+      (6, 0) node[below] {$600$}
+      (7, 0) node[below] {$700$}
+      (0, 1) node[left] {$1.00$}
+      (0, 2) node[left] {$2.00$}
+      (0, 3) node[left] {$3.00$}
+      (0, 4) node[left] {$4.00$}
+      (0, 5) node[left] {$5.00$}
+      ;
+
+    \draw[axis, very thick]
+    (0, 6) node[left] {$P$} |- (8, 0) node[below] {$Q$} ;
+
+  \end{tikzpicture}
+#+end_src
