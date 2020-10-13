@@ -47,6 +47,7 @@ a) Si el precio del gas aumenta desde \price[\kWh]{0.054} hasta
 b) ¿Por qué podría depender la demanda de gas natural del horizonte
    temporal?
 
+
 * 3.3
 
 Dos conductores repostan todos los lunes en la misma gasolinera y
@@ -68,8 +69,8 @@ P$, tiene elasticidad unitaria, $E_d = -1$.
 * 3.9
 
 A causa de un cambio en el precio, la cantidad demandada de un bien
-disminuye un 30%, mientras que los ingresos de los vendedores aumentan
-en un 10%. ¿Es elástica o inelástica la demanda?  Calcule el valor de
+disminuye un 5%, mientras que los ingresos de los vendedores aumentan
+en un 3%. ¿Es elástica o inelástica la demanda?  Calcule el valor de
 la elasticidad precio con la información proporcionada.
 
 
@@ -187,7 +188,7 @@ demanda y oferta:
 donde $M$ es la renta media de los consumidores y $P_Y$ el precio
 del bien $Y$. Actualmente, $M = \money{100}$ y $P_Y = \price{5}$.
 
-a) Calcule el precio y la cantidad de equilibrio y represéntelo
+a) Obtenga el precio y la cantidad de equilibrio y represéntelo
    gráficamente. Calcule las elasticidades precio de la demanda y
    de la oferta en el equilibrio.
 
@@ -247,7 +248,7 @@ Ana paga \money{2} por cada unidad de alimentos, gasta
 \money{25000}. La elasticidad-precio de su demanda de alimentos es
 $-1$ mientras que la elasticidad-renta es $0.5$. Si Ana obtiene
 una beca de \money{1000} que puede gastar libremente en aquello
-que prefiera, ¿cuál sería su consumo de alimentos?
+que prefiera, ¿cuál sería ahora la cantidad demandada de alimentos?
 
 
 ** Answer
