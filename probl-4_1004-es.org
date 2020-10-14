@@ -44,6 +44,7 @@ b) El precio mínimo está por encima del de equilibrio, por lo que se
 
    #+xxx: fig fig-ans-probl-4_1004-min-price-*.pdf
 
+
 * 4.7
 
 El precio en un mercado competitivo de azúcar es \money{0.75} por
@@ -81,8 +82,8 @@ cantidad inicial: se produce una escasez de unas 6720 unidades.
 Las curvas de demanda y oferta de mercado del bien $X$ son:
 #+begin_export latex
 \begin{gather*}
-  X = 200 - 5 P_{X} + 3 P_{Y} + 2 M \\
-  X = 100 + 2 P_{X}
+  X^{d} = 200 - 5 P_{X} + 3 P_{Y} + 2 M \\
+  X^{o} = 100 + 2 P_{X}
 \end{gather*}
 #+end_export
 donde $M$ es la renta media de los consumidores y $P_Y$ es el precio
@@ -184,9 +185,9 @@ a) Determine el equilibrio de mercado.
 b) El ayuntamiento establece un programa de ayudas al alquiler por el
    que los inquilinos reciben una subvención de \money{200} al
    mes. ¿Cómo afectará este programa al alquier mensual que cobran los
-   caseros? ¿Cómo cambiará la cantidad que paga cada inquilino por el
-   alquiler? ¿Cuál será el coste total del programa de subvenciones
-   para el ayuntamiento?
+   caseros? Represente gráficamente. ¿Cómo cambiará la cantidad que
+   paga cada inquilino por el alquiler? ¿Cuál será el coste total del
+   programa de subvenciones para el ayuntamiento?
 
 ** Answer
 
