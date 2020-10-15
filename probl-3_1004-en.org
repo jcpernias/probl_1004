@@ -2,6 +2,64 @@
 #+SETUPFILE: ./course-en.org
 
 
+* 3.2
+
+When the government of a country increased the cigarette tax, the
+price of cigarettes rose from \money{4} to \money{4.6} per
+pack. Some estimates indicate that the quantity demanded dropped from
+$52$ to $47.5$ million packs due to the price increase.  Calculate
+the price elasticity of cigarette demand.
+
+
+* 3.10
+
+La demanda de gas natural por parte de los hogares presenta una
+elasticidad precio igual a $-0.2$ en el corto plazo y a $-0.7$ en el
+largo plazo.
+
+a) Si el precio del gas aumenta desde \price[\kWh]{0.054} hasta
+   \price[\kWh]{0.066}, ¿qué ocurrirá con la cantidad demandada a
+   corto plazo? ¿Y a largo plazo? Use la fórmula del punto medio en
+   sus cálculos.
+
+b) ¿Por qué podría depender la demanda de gas natural del horizonte
+   temporal?
+
+
+* 3.3
+
+Two drivers pull up to the same gas station every Monday and place
+their orders without checking first the price. While the first driver
+always asks for 15 liters, the second one always asks for 20€ worth of
+gas. What are the price elasticities of demand for gas of each driver?
+
+
+* 3.9
+
+A causa de un cambio en el precio, la cantidad demandada de un bien
+disminuye un 5%, mientras que los ingresos de los vendedores aumentan
+en un 3%. ¿Es elástica o inelástica la demanda?  Calcule el valor de
+la elasticidad precio con la información proporcionada.
+
+
+
+* 3.6
+
+The firm that operates a road tunnel is considering lowering the
+toll it charges to the users of the tunnel. Currently, the toll is
+\money{6} and 2400 drivers pass through the tunnel daily. A
+consulting firm has estimated that the function $Q = \num{6000} -
+\num{600} P$ accurately describes the daily demand of the tunnel.
+
+a) What is the elasticity of demand at the current toll?
+
+b) If firm seeks to get higher returns, would it be reasonable to
+   reduce the toll?
+
+c) Which toll would maximize the returns of the firm? What would
+   be the elasticity of demand in that case?
+
+
 * 2.4
 
 Consider a competitive market for apples and draw a demand and supply
@@ -25,21 +83,27 @@ b) Which market will experience a larger change in price?  And a
 c) How will consumer spending on each product be affected?
 
 
-* 3.2
+* 3.5
 
-When the government of a country increased the cigarette tax, the
-price of cigarettes rose from \money{4} to \money{4.6} per
-pack. Economists estimate that the quantity demanded dropped from
-$52$ to $47.5$ million packs due to the price increase.  Calculate
-the price elasticity of cigarette demand.
+The market for good $X$ is characterized by the demand and supply
+functions:
+#+begin_export latex
+\begin{gather*}
+  X^d = 250 - 30 P_{X} - 5 P_{Y} + 2 M \\
+  X^o = 15 P_{X} - 25
+\end{gather*}
+#+end_export
+where $M$ is the consumers' average income, and $P_Y$ is the price
+of good $Y$. Currently, $M = \money{100}$ and $P_Y = \price{5}$.
 
+a) Calculate the equilibrium price and quantity and plot a
+   graph. Find the price elasticities of demand and supply at
+   equilibrium.
 
-* 3.3
+b) Calculate the cross elasticity of demand. What kind of
+   relationship holds between goods $X$ and $Y$?
 
-Two drivers pull up to the same gas station every Monday and place
-their orders without checking first the price. While the first driver
-always asks for 15 liters, the second one always asks for 20€ worth of
-gas. What are the price elasticities of demand for gas of each driver?
+c) Calculate the income elasticity of demand. Is $X$ an inferior good?
 
 
 * 3.4
@@ -51,77 +115,19 @@ is $0.5$. If Anna wins a \money{1000} grant that she can spend freely
 on what she prefers, what would be her food consumption?
 
 
-* 3.5
+* 3.8
 
-The market for good $X$ is characterized by the demand and supply
-functions:
-#+begin_export latex
-\begin{gather*}
-  X^d = 250 - 30 P_{X} - 5 P_{Y} + 2 I \\
-  X^o = 15 P_{X} - 25
-\end{gather*}
-#+end_export
-where $I$ is the consumers' average income, and $P_Y$ is the price
-of good $Y$. Currently, $I = \money{100}$ and $P_Y = \price{5}$.
+The manager of a firm that organizes musical shows must set the
+ticket price for a concert that will take place next spring. The
+concert hall has a capacity of \num{5000} people while the amount
+of people attending this type of concerts, $Q$, can be estimated by
+the demand curve: $Q = \num{8000} - 160 P$, where $P$ is the ticket
+price.
 
-a) Calculate the equilibrium price and quantity and plot a
-   graph. Find the price elasticities of demand and supply at
-   equilibrium.
+a) What price should be set if the objective is to sell out all seats
+   in the concert hall? Calculate and interpret the elasticity of
+   demand at that price.
 
-b) Calculate the cross elasticity of demand. What kind of
-   relationship holds between goods $X$ and $Y$?
-
-c) If the consumers' average income drops by \money{10}, can it be
-   said that $X$ is an inferior good?
-
-
-* 3.6
-
-The firm that operates a road tunnel is considering lowering the
-toll it charges to the users of the tunnel. Currently, the toll is
-\money{6} and 2400 drivers pass through the tunnel daily. A
-consulting firm has estimated that the function $Q = \num{6000} -
-\num{600} P$ accurately describes the daily demand of the tunnel.
-
-a) What is the elasticity of demand at the current toll?
-
-b) If firm seeks to get higher returns, would it be reasonable to
-   reduce the toll?
-
-c) Which toll would maximize the returns of the firm? What would
-   be the elasticity of demand in that case?
-
-
-* 3.7
-
-A football club offers \num{125000} season tickets. The demand
-function for those tickets is:
-#+begin_export latex
-\[
-  Q^d = \num{125000} - 100 P +10 P_O + 10 M,
-\]
-#+end_export
-where:
-
-- $P$ is the price of the season tickets.
-
-- $P_O$ is the price of season tickets of other rival club whose
-  stadium is located in the same city.
-
-- $M$ is the average yearly income of football fans.
-
-The rival club is selling its seasonal tickets at $P_O =
-\money{600}$. It is estimated that $M = \money{15000}$.
-
-a) Plot the demand and supply curves of season tickets and find
-   the market equilibrium.
-
-b) Compute the price elasticities of demand and supply at
-   equilibrium and explain the obtained values.
-
-c) Compute the elasticity of demand with respect to the price for
-   the season tickets of the other club at equilibrium and explain
-   the value obtained.
-
-d) Calculate the income elasticity of demand at equilibrium and
-   explain the value obtained.
+b) Calculate the price at which returns would be maximized. How many
+   tickets would be sold? What is the elasticity of demand in this
+   case?
