@@ -184,7 +184,7 @@ a) Determine el equilibrio de mercado.
 
 b) El ayuntamiento establece un programa de ayudas al alquiler por el
    que los inquilinos reciben una subvención de \money{200} al
-   mes. ¿Cómo afectará este programa al alquier mensual que cobran los
+   mes. ¿Cómo afectará este programa al alquiler mensual que cobran los
    caseros? Represente gráficamente. ¿Cómo cambiará la cantidad que
    paga cada inquilino por el alquiler? ¿Cuál será el coste total del
    programa de subvenciones para el ayuntamiento?
