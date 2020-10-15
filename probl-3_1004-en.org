@@ -2,7 +2,7 @@
 #+SETUPFILE: ./course-en.org
 
 
-* 3.2
+* 3.1
 
 When the government of a country increased the cigarette tax, the
 price of cigarettes rose from \money{4} to \money{4.6} per
@@ -11,19 +11,17 @@ $52$ to $47.5$ million packs due to the price increase.  Calculate
 the price elasticity of cigarette demand.
 
 
-* 3.10
+* 3.2
 
-La demanda de gas natural por parte de los hogares presenta una
-elasticidad precio igual a $-0.2$ en el corto plazo y a $-0.7$ en el
-largo plazo.
+Household demand for natural gas has a price elasticity equal to
+$-0.2$ in the short term and $-0.7$ in the long term.
 
-a) Si el precio del gas aumenta desde \price[\kWh]{0.054} hasta
-   \price[\kWh]{0.066}, ¿qué ocurrirá con la cantidad demandada a
-   corto plazo? ¿Y a largo plazo? Use la fórmula del punto medio en
-   sus cálculos.
+a) If the price of gas increases from \price[\kWh]{0.054} to
+   \price[\kWh]{0.066}, what will happen to the quantity demanded in
+   the short term? And in the long term? Use the midpoint formula in
+   your calculations.
 
-b) ¿Por qué podría depender la demanda de gas natural del horizonte
-   temporal?
+b) Why might the demand for natural gas depend on the time horizon?
 
 
 * 3.3
@@ -34,16 +32,15 @@ always asks for 15 liters, the second one always asks for 20€ worth of
 gas. What are the price elasticities of demand for gas of each driver?
 
 
-* 3.9
+* 3.4
 
-A causa de un cambio en el precio, la cantidad demandada de un bien
-disminuye un 5%, mientras que los ingresos de los vendedores aumentan
-en un 3%. ¿Es elástica o inelástica la demanda?  Calcule el valor de
-la elasticidad precio con la información proporcionada.
+Due to a change in price, the quantity demanded of a good decreases by
+5%, while the sellers' revenue increases by 3%. Is the demand elastic
+or inelastic? Calculate the value of the price elasticity with the
+information provided.
 
 
-
-* 3.6
+* 3.5
 
 The firm that operates a road tunnel is considering lowering the
 toll it charges to the users of the tunnel. Currently, the toll is
@@ -60,7 +57,7 @@ c) Which toll would maximize the returns of the firm? What would
    be the elasticity of demand in that case?
 
 
-* 2.4
+* 3.6
 
 Consider a competitive market for apples and draw a demand and supply
 diagram showing the effects on the equilibrium of an apple tree
@@ -68,7 +65,7 @@ disease that adversely affects the harvest. Could farmers' revenues
 rise in that case? What conditions must be met?
 
 
-* 3.1
+* 3.7
 
 Medicines have inelastic demand, while computers have elastic
 demand. Suppose that the supply doubles on each of these markets
@@ -83,7 +80,7 @@ b) Which market will experience a larger change in price?  And a
 c) How will consumer spending on each product be affected?
 
 
-* 3.5
+* 3.8
 
 The market for good $X$ is characterized by the demand and supply
 functions:
@@ -106,7 +103,7 @@ b) Calculate the cross elasticity of demand. What kind of
 c) Calculate the income elasticity of demand. Is $X$ an inferior good?
 
 
-* 3.4
+* 3.9
 
 Anna pays \money{2} for each unit of food, spends \money{5000} per
 year in food and her annual income is \money{25000}. The price
@@ -115,7 +112,7 @@ is $0.5$. If Anna wins a \money{1000} grant that she can spend freely
 on what she prefers, what would be her food consumption?
 
 
-* 3.8
+* 3.10
 
 The manager of a firm that organizes musical shows must set the
 ticket price for a concert that will take place next spring. The

@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 3.2
+* 3.1
 
 Cuando un país subió los impuestos sobre el tabaco, el precio de los
 cigarrillos subió de \money{4} a \money{4.6} por cajetilla. Se estima
@@ -33,7 +33,7 @@ La elasticidad, usando la fórmula del punto medio, es:
 #+end_export
 
 
-* 3.10
+* 3.2
 
 La demanda de gas natural por parte de los hogares presenta una
 elasticidad precio igual a $-0.2$ en el corto plazo y a $-0.7$ en el
@@ -66,7 +66,7 @@ El segundo siempre gasta lo mismo: su curva de demanda, $Q^d = 20 /
 P$, tiene elasticidad unitaria, $E_d = -1$.
 
 
-* 3.9
+* 3.4
 
 A causa de un cambio en el precio, la cantidad demandada de un bien
 disminuye un 5%, mientras que los ingresos de los vendedores aumentan
@@ -74,7 +74,7 @@ en un 3%. ¿Es elástica o inelástica la demanda?  Calcule el valor de
 la elasticidad precio con la información proporcionada.
 
 
-* 3.6
+* 3.5
 
 La empresa que gestiona un túnel se está planteando alterar el
 peaje que cobra a los usuarios del túnel. Actualmente el peaje es
@@ -122,7 +122,7 @@ c) Ingresos:
    #+end_export
 
 
-* 2.4
+* 3.6
 
 Considere un mercado competitivo de manzanas y trace un diagrama de
 oferta y demanda que muestre los efectos sobre el equilibrio de una
@@ -141,7 +141,7 @@ encuentra en un tramo inelástico de la curva de demanda.
 
 
 
-* 3.1
+* 3.7
 
 Las medicinas tienen demanda inelástica mientras que los
 ordenadores tienen demanda elástica. Suponga que la oferta se
@@ -175,7 +175,7 @@ c) Cuando se reduce el precio en el mercado con demanda inelástica
 
 
 
-* 3.5
+* 3.8
 
 El mercado del bien $X$ está caracterizado por las funciones de
 demanda y oferta:
@@ -241,7 +241,7 @@ c) Elasticidad renta de la demanda:
      El bien $X$ es normal.
 
 
-* 3.4
+* 3.9
 
 Ana paga \money{2} por cada unidad de alimentos, gasta
 \money{5000} en alimentos al año y su renta monetaria anual es de
@@ -267,7 +267,7 @@ beca, el consumo de alimentos será un 2% superior:
 $2550$ unidades.
 
 
-* 3.8
+* 3.10
 
 La directora de una empresa que organiza espectáculos musicales
 debe fijar el precio de las entradas de un concierto que se
