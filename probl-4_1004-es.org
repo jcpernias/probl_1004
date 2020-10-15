@@ -1,13 +1,15 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 4.8
+* 4.1
 
-El siguiente gráfico muestra las curvas de demanda y de oferta de un mercado competitivo:
+El siguiente gráfico muestra las curvas de demanda y de oferta de un
+mercado competitivo:
 
 #+xxx: fig fig-probl-4_1004-price-controls-*.pdf
 
-Calcule la cantidad que se vendería y a qué precio en cada una de las siguientes situaciones:
+Encuentre la cantidad que se vendería y a qué precio en cada una de
+las siguientes situaciones:
 
 a) Se establece un precio mínimo de \price{1.50}.
 
@@ -45,7 +47,7 @@ b) El precio mínimo está por encima del de equilibrio, por lo que se
    #+xxx: fig fig-ans-probl-4_1004-min-price-*.pdf
 
 
-* 4.7
+* 4.3
 
 El precio en un mercado competitivo de azúcar es \money{0.75} por
 kilo. Represente gráficamente y explique las efectos sobre
@@ -54,7 +56,7 @@ este mercado del establecimiento de un precio mínimo de
 
 
 
-* 4.3
+* 4.4
 
 En un mercado competitivo en equilibrio, se venden \num{96000}
 unidades a un precio de \price{300}. La elasticidad precio de la
@@ -77,7 +79,7 @@ Por lo que se produce un exceso de demanda de un 7% con respecto a la
 cantidad inicial: se produce una escasez de unas 6720 unidades.
 
 
-* 4.4
+* 4.5
 
 Las curvas de demanda y oferta de mercado del bien $X$ son:
 #+begin_export latex
@@ -108,7 +110,7 @@ b) El nuevo precio de equilibrio es $P_X^* = \price{65}$; mayor que el
    #+xxx: fig fig-ans-probl-4_1004-eq2-*.pdf
 
 
-* 4.5
+* 4.6
 
 Razone la veracidad o falsedad de la siguiente afirmación: "Si se
 establece un precio máximo superior al precio de equilibrio, la
@@ -120,7 +122,7 @@ Un precio máximo superior al de equilibrio no impide al mercado que se
 ajuste por lo que la afirmación es verdadera.
 
 
-* 4.1
+* 4.7
 
 En el mercado de un bien las curvas de demanda y de oferta son:
 #+begin_export latex
@@ -169,7 +171,7 @@ c) La curva de demanda después del impuesto es: $Q^d = \num{97000} -
    precio más el impuesto: un total de \money{1100} por unidad.
 
 
-* 4.6
+* 4.8
 
 El mercado de alquiler de viviendas en una ciudad está representado
 por las curvas de demanda y de oferta:
@@ -184,10 +186,10 @@ a) Determine el equilibrio de mercado.
 
 b) El ayuntamiento establece un programa de ayudas al alquiler por el
    que los inquilinos reciben una subvención de \money{200} al
-   mes. ¿Cómo afectará este programa al alquiler mensual que cobran los
-   caseros? Represente gráficamente. ¿Cómo cambiará la cantidad que
-   paga cada inquilino por el alquiler? ¿Cuál será el coste total del
-   programa de subvenciones para el ayuntamiento?
+   mes. ¿Cómo afectará este programa al alquiler mensual que cobran
+   los caseros? ¿Cómo cambiará la cantidad que paga cada inquilino por
+   el alquiler? ¿Cuál será el coste total del programa de subvenciones
+   para el ayuntamiento? Represente gráficamente.
 
 ** Answer
 

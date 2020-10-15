@@ -3,23 +3,23 @@
 
 * 4.1
 
-In a competitive market, the demand and supply curves are:
-#+begin_export latex
-\begin{gather*}
-  Q^d = \num{100000} - 20 P \\
-  Q^o = \num{40000} + 40 P
-\end{gather*}
-#+end_export
+The following graph shows the demand and supply curves for a
+competitive market:
 
-a) Determine the equilibrium price and quantity.
+#+xxx: fig fig-probl-4_1004-price-controls-*.pdf
 
-b) <<ex4.1:item-b>>Describe and show graphically the effects on this
-   market of a tax of \money{150} per unit imposed on sellers. How
-   much money will buyers pay per unit? How much will sellers
-   receive per unit?
+Find the quantity that would be sold and at what price in each of
+the following situations:
 
-c) Explain how your answers in [[ex4.1:item-b]] would change if the tax
-   were levied on buyers.
+a) A minimum price of \price{1.50} is established.
+
+b) A maximum price of \price{1.50} is established.
+
+c) A minimum price of \price{4.00} is established.
+
+d) A maximum price of \price{4.00} is established.
+
+
 
 * 4.2
 
@@ -37,7 +37,16 @@ b) Describe and show graphically the effects on this market of
    setting a minimum price at \price{1200}. How many units will
    sell? At what price?
 
+
 * 4.3
+
+The price in a competitive sugar market is \money{0.75} per
+kilo. Represent graphically and explain the effects on this market of
+the establishment of a minimum price of \price[kg]{0.60}. Will more or
+less kilos of sugar be sold?
+
+
+* 4.4
 
 In a competitive market in equilibrium, \num{96000} units are sold
 at a price of \price{300}. The price elasticity of demand
@@ -45,7 +54,8 @@ is $-1.5$, and the price elasticity of supply is equal to $2$. If
 a law that sets a maximum price of \price{294} is passed, which
 effect would it have on the market?
 
-* 4.4
+
+* 4.5
 
 The market demand and supply curves for good $X$ are:
 #+begin_export latex
@@ -65,13 +75,39 @@ a) <<ex4.4:item-a>>How many units of $X$ will be sold? At what
 b) Describe how your answers in [[ex4.4:item-a]] would change if average
    income increased up to $I = \money{170}$.
 
-* 4.5
+
+* 4.6
 
 Discuss the truth or falsity of the following statement: "If a
 maximum price is set above the equilibrium price, the quantity
 sold will be the same as the equilibrium quantity."
 
-* 4.6
+
+* 4.7
+
+In a competitive market, the demand and supply curves are:
+#+begin_export latex
+\begin{gather*}
+  Q^d = \num{100000} - 20 P \\
+  Q^o = \num{40000} + 40 P
+\end{gather*}
+#+end_export
+
+a) Determine the equilibrium price and quantity.
+
+b) <<ex4.1:item-b>>Describe and show graphically the effects on this
+   market of a tax of \money{150} per unit imposed on sellers. How is
+   the tax burden distributed between buyers and sellers?
+
+c) Calculate the price elasticity of demand and supply at the
+   equilibrium before the tax. What is the relationship between the
+   distribution of the tax burden and those elasticities?
+
+d) Explain how your answers in [[ex4.1:item-b]] would change if the tax
+   were levied on buyers.
+
+
+* 4.8
 
 The residential rental market in a city is represented by the
 demand and supply curves:
@@ -84,6 +120,9 @@ demand and supply curves:
 
 a) Determine the market equilibrium.
 
-b) If tenants get a \money{200} rental subsidy, how much will pay
-   tenants?  How much will landlords receive? Which will be the
-   total cost of the subsidy?
+b) The city council establishes a rental subsidy program whereby
+   tenants receive a grant of \money{200} per month. How will this
+   program affect the monthly rent that landlords charge? How will the
+   amount each tenant pays for rent change? What will be the total
+   cost of the rental subsidy program for the city council? Represent
+   graphically.
