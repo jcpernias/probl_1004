@@ -14,7 +14,7 @@ the price elasticity of cigarette demand.
 * 3.2
 
 Household demand for natural gas has a price elasticity equal to
-$-0.2$ in the short term and $-0.7$ in the long term.
+$-0.2$ in the short run and $-0.7$ in the long run.
 
 a) If the price of gas increases from \price[\kWh]{0.054} to
    \price[\kWh]{0.066}, what will happen to the quantity demanded in
@@ -36,13 +36,13 @@ gas. What are the price elasticities of demand for gas of each driver?
 
 Due to a change in price, the quantity demanded of a good decreases by
 5%, while the sellers' revenue increases by 3%. Is the demand elastic
-or inelastic? Calculate the value of the price elasticity with the
+or inelastic? Calculate the value of the price elasticity using the
 information provided.
 
 
 * 3.5
 
-The firm that operates a road tunnel is considering lowering the
+The firm that operates a road tunnel is considering changing the
 toll it charges to the users of the tunnel. Currently, the toll is
 \money{6} and 2400 drivers pass through the tunnel daily. A
 consulting firm has estimated that the function $Q = \num{6000} -
@@ -67,8 +67,8 @@ rise in that case? What conditions must be met?
 
 * 3.7
 
-Medicines have inelastic demand, while computers have elastic
-demand. Suppose that the supply doubles on each of these markets
+Medicines have an inelastic demand, while computers have an elastic
+demand. Assume that the supply doubles on each of these markets
 as a consequence of technological progress.
 
 a) What happens to the equilibrium of those markets?  Represent
@@ -93,14 +93,14 @@ functions:
 where $M$ is the consumers' average income, and $P_Y$ is the price
 of good $Y$. Currently, $M = \money{100}$ and $P_Y = \price{5}$.
 
-a) Calculate the equilibrium price and quantity and plot a
-   graph. Find the price elasticities of demand and supply at
-   equilibrium.
+a) Calculate the equilibrium price and quantity and plot a graph. Find
+   the price elasticities of demand and supply in the equilibrium.
 
-b) Calculate the cross elasticity of demand. What kind of
-   relationship holds between goods $X$ and $Y$?
+b) Calculate the cross elasticity of demand in the equilibrium. What
+   kind of relationship holds between goods $X$ and $Y$?
 
-c) Calculate the income elasticity of demand. Is $X$ an inferior good?
+c) Calculate the income elasticity of demand in the equilibrium. Is
+   $X$ an inferior good?
 
 
 * 3.9
@@ -108,8 +108,8 @@ c) Calculate the income elasticity of demand. Is $X$ an inferior good?
 Anna pays \money{2} for each unit of food, spends \money{5000} per
 year in food and her annual income is \money{25000}. The price
 elasticity of her demand for food is $-1$ while the income elasticity
-is $0.5$. If Anna wins a \money{1000} grant that she can spend freely
-on what she prefers, what would be her food consumption?
+is $0.5$. If Anna is awarded with a \money{1000} grant that she can
+spend freely on what she prefers, what would be her food consumption?
 
 
 * 3.10
