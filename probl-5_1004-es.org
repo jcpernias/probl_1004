@@ -1,49 +1,34 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 5.20
-
-Considere un consumidor que satisface sus necesidades energéticas con
-gas natural y electricidad. El precio del gas natural es de
-\price[\kWh]{0.05}. Sin embargo, el precio de la electricidad depende
-del consumo: si utiliza menos de \units[\kWh]{1000} cada kWh le
-cuesta \money{0.06} y los kWh que consuma por encima de
-\units[\kWh]{1000} se pagan a \price[\kWh]{0.03}.  Si el consumidor
-dispone de \money{120} para gastar en energía, obtenga y represente
-gráficamente el conjunto presupuestario.
-
 * 5.21
 
-Un consumidor dispone de una renta monetaria mensual de \money{150}.
+Juan dispone de una renta monetaria mensual de \money{150}.
 Con ella puede comprar pan, a un precio de \price[kg]{3}, y agua, a un
 precio de \price[l]{0.75}.
-1. Obtén la restricción presupuestaria del consumidor y
-   represéntala gráficamente.
-2. Actualmente el consumidor consume $60$ litros de agua y $35$ kg de
-   pan al mes. ¿Cuál es el coste de oportunidad de consumir un litro
-   adicional de agua? ¿Cuál sería el coste de oportunidad si el
-   consumidor partiera de una situación en la que consume
-   \units[l]{50} de agua y \units[kg]{30} de pan?
-3. Para hacer frente a la pertinaz sequía, el Gobierno establece un
-   impuesto sobre el consumo de agua. Como consecuencia, el precio
-   del agua se duplica. Obtenga y represente la nueva restricción
-   presupuestaria.
-4. Si en vez de establecer un impuesto, el Gobierno racionara el
-   agua de forma que ningún consumidor puede consumir más de $20$ l
-   de agua al mes, ¿cuál sería la nueva restricción presupuestaria?
 
-* 5.22
+a) Obtenga la restricción presupuestaria de Juan y represéntela
+   gráficamente.
 
-Un consumidor dispone de una renta de $100$ € a la semana. El precio
-de la leche es de $1$ €/l. Represente la restricción presupuestaria
-del consumidor en las siguientes situaciones:
-1. El consumidor recibe una subvención de $0.25$ € por cada litro de
-   leche que compre.
-2. El consumidor puede comprar hasta 5 l de leche y recibir una
-   subvención de $0.25$ €/l. Si compra más leche paga el precio de
-   mercado completo.
-3. El consumidor obtiene $5$ l de leche gratuitamente.
-4. El consumidor recibe un cheque por valor de $5$ €.
+b) Juan consume actualmente $60$ litros de agua y $35$ kilos de pan al
+   mes. ¿Cuál es el coste de oportunidad de consumir un litro
+   adicional de agua? ¿Cuál sería el coste de oportunidad si Juan
+   consumiera \units[l]{50} de agua y \units[kg]{30} de pan?
+
+c) Una sequía prolongada provoca que el precio del agua se
+   duplique. Obtenga y represente la nueva restricción presupuestaria.
+
+d) Ante la gravedad de la situación, el Gobierno raciona el agua de
+   forma que ningún consumidor puede consumir más de \units[l]{20} de
+   agua al mes. ¿Cuál es la restricción presupuestaria en este caso?
+
+
+* 5.25
+
+Suponga que se pueden comprar 4 peras con el dinero necesario para
+comprar una manzana. Si un consumidor, que gasta todo su dinero en
+peras y manzanas, compra 100 peras y 20 manzanas, ¿cuántas peras
+podría comprar como máximo? ¿Y manzanas?
 
 
 * 5.23
@@ -57,30 +42,14 @@ b) Suponga ahora que todos los precios aumentan un 10%. Si el dinero
    que Julia puede usar para sus gastos también se incrementa un 10%, ¿cómo
    cambiará su restricción presupuestaria?
 
-c) Si inicialmente compraba \units[l]{4} y \units[kg]{1}, ¿cómo
-   cambiará la elección de Julia después de que se eleven los precios y la
-   renta?
+c) Si inicialmente Julia compraba \units[l]{4} de leche y
+   \units[kg]{1} de galletas, ¿cómo cambiará su elección después de
+   que se eleven los precios y la renta?
 
-* 5.24
-
-Eugenio y Ana comparten piso. Cada uno de ellos tiene una renta
-mensual de \money{1000} que gastan en su totalidad en alimentos y
-vestido. Cuando el precio de los alimentos es \price{8} y el de los
-vestidos es \price{40}, Ana compra 10 unidades de vestido y Eugenio
-compra 20 unidades.
-
-Después de una reforma impositiva, el precio de los alimentos baja
-hasta \price{4} y el del vestido sube hasta \price{50}. Con la
-información proporcionada, ¿es posible saber si la satisfacción de Ana
-ha aumentado o disminuido? ¿Y la de Eugenio?
-
-* 5.25
-
-Suponga que se pueden comprar 4 peras con el dinero necesario para comprar una manzana. Si un consumidor que gasta todo su dinero en peras y manzanas compra 100 peras y 20 manzanas, ¿cuántas peras podría comprar como máximo? ¿Y manzanas?
 
 * 5.1
 
-Una consumidora gasta su renta $M$ en los bienes $X$ e $Y$.
+Un consumidor gasta su renta $M$ en los bienes $X$ e $Y$.
 
 a) ¿Como cambiaría su recta presupuestaria si se estableciera un
    impuesto sobre el consumo y el precio de ambos bienes aumentara
@@ -89,7 +58,7 @@ a) ¿Como cambiaría su recta presupuestaria si se estableciera un
 b) ¿Y si, en vez del impuesto al consumo, se estableciera un
    impuesto sobre la renta y $M$ se redujera un 25%?
 
-c) ¿Qué opción preferiría la consumidora?
+c) ¿Qué opción preferiría el consumidor?
 
 
 ** Answer
@@ -115,6 +84,36 @@ b) La recta presupuestaria después del impuesto a la renta es:
 
 c) Su conjunto de oportunidades es mayor en el primer caso: preferiría
    el impuesto al consumo.
+
+
+* 5.20
+
+Nikola dispone de \money{120} para gastar en energía y consume gas
+natural y electricidad. El precio de la electricidad depende del
+consumo: los primeros \units[\kWh]{1000} cuestan \money{0.06} por kWh,
+mientras que los kWh que excedan de \num{1000} se pagan a
+\price[\kWh]{0.03}. Por otro lado, el precio del gas natural siempre
+es \price[\kWh]{0.05}. Obtenga y represente gráficamente el conjunto
+presupuestario de Nikola.
+
+
+* 5.22
+
+Un consumidor dispone de una renta de $100$ € a la semana y se
+alimenta de arroz, que cuesta \money{1} el kilo. Obtenga y represente
+la restricción presupuestaria del consumidor en las siguientes
+situaciones (utilice un bien compuesto):
+
+a) El consumidor se beneficia de una subvención de \money{0.25} por
+   cada kilo de arroz que compre.
+
+b) El consumidor sólo puede disfrutar de una subvención de
+   \price[kg]{0.25} en los cinco primeros kilos de arroz que compre y
+   paga el precio de mercado por los restantes kilos que adquiera.
+
+c) El consumidor obtiene \units[kg]{5} de arroz gratuitamente.
+
+d) El consumidor recibe un cheque por valor de \money{5}.
 
 
 * 5.2
@@ -147,6 +146,20 @@ b) Nueva restricción presupuestaria:
    \]
    #+end_export
    #+xxx: fig fig-ans-probl-5_1004-budget2-*.pdf
+
+
+* 5.24
+
+Eugenio y Ana comparten piso. Cada uno de ellos tiene una renta
+mensual de \money{1000} que gastan en su totalidad en alimentos y
+vestido. Cuando el precio de los alimentos es \price{8} y el de los
+vestidos es \price{40}, Ana compra 10 unidades de vestido y Eugenio
+compra 20 unidades.
+
+Después de una reforma impositiva, el precio de los alimentos baja
+hasta \price{4} y el del vestido sube hasta \price{50}. Con la
+información proporcionada, ¿es posible saber si la satisfacción de Ana
+ha aumentado o disminuido? ¿Y la de Eugenio?
 
 
 * 5.3
