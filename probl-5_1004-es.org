@@ -3,8 +3,8 @@
 
 * 5.20
 
-Considere un consumidor quesatisface sus necesidades energéticas con
-gas natural y electricodad. El precio del gas natural es de
+Considere un consumidor que satisface sus necesidades energéticas con
+gas natural y electricidad. El precio del gas natural es de
 \price[\kWh]{0.05}. Sin embargo, el precio de la electricidad depende
 del consumo: si utiliza menos de \units[\kWh]{1000} cada kWh le
 cuesta \money{0.06} y los kWh que consuma por encima de
@@ -22,8 +22,8 @@ precio de \price[l]{0.75}.
 2. Actualmente el consumidor consume $60$ litros de agua y $35$ kg de
    pan al mes. ¿Cuál es el coste de oportunidad de consumir un litro
    adicional de agua? ¿Cuál sería el coste de oportunidad si el
-   consumidor partiera de una situación en la que consume $50$ l de
-   agua y $30$ kg de pan?
+   consumidor partiera de una situación en la que consume
+   \units[l]{50} de agua y \units[kg]{30} de pan?
 3. Para hacer frente a la pertinaz sequía, el Gobierno establece un
    impuesto sobre el consumo de agua. Como consecuencia, el precio
    del agua se duplica. Obtenga y represente la nueva restricción
@@ -46,6 +46,37 @@ del consumidor en las siguientes situaciones:
 4. El consumidor recibe un cheque por valor de $5$ €.
 
 
+* 5.23
+
+Julia dispone de \money{6} este mes para comprar leche, cuyo precio es
+\price[l]{0.75}, y galletas, que cuestan \price[kg]{3}.
+
+a) Obtenga y represente la restricción presupuestaria.
+
+b) Suponga ahora que todos los precios aumentan un 10%. Si el dinero
+   que Julia puede usar para sus gastos también se incrementa un 10%, ¿cómo
+   cambiará su restricción presupuestaria?
+
+c) Si inicialmente compraba \units[l]{4} y \units[kg]{1}, ¿cómo
+   cambiará la elección de Julia después de que se eleven los precios y la
+   renta?
+
+* 5.24
+
+Eugenio y Ana comparten piso. Cada uno de ellos tiene una renta
+mensual de \money{1000} que gastan en su totalidad en alimentos y
+vestido. Cuando el precio de los alimentos es \price{8} y el de los
+vestidos es \price{40}, Ana compra 10 unidades de vestido y Eugenio
+compra 20 unidades.
+
+Después de una reforma impositiva, el precio de los alimentos baja
+hasta \price{4} y el del vestido sube hasta \price{50}. Con la
+información proporcionada, ¿es posible saber si la satisfacción de Ana
+ha aumentado o disminuido? ¿Y la de Eugenio?
+
+* 5.25
+
+Suponga que se pueden comprar 4 peras con el dinero necesario para comprar una manzana. Si un consumidor que gasta todo su dinero en peras y manzanas compra 100 peras y 20 manzanas, ¿cuántas peras podría comprar como máximo? ¿Y manzanas?
 
 * 5.1
 
