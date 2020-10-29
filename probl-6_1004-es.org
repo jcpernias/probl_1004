@@ -69,24 +69,6 @@ b) El bien $Y$ es inferior para rentas superiores a
    #+xxx: fig fig-ans-probl-6_1004-crc3-*.pdf
 
 
-* 6.4.
-
-Considere una economía competitiva donde todos los consumidores
-tienen las mismas preferencias y consumen alguna unidad tanto del
-bien $X$ como del bien $Y$. ¿Comprarán todos la misma cantidad del
-bien $X$?  ¿Habrá diferencias en las valoraciones del bien $X$ por
-parte de cada uno de los consumidores?
-
-
-** Answer
-
-No comprarán la misma cantidad si tienen diferentes niveles de renta.
-
-Las valoraciones de $X$, $\RMS_i$, coincidirán: todos los consumidores
-se enfrentan a los mismos precios y la cesta óptima de cada uno de
-ellos cumple la condición $\RMS_i = P_x/P_Y$.
-
-
 
 * 6.5.
 
