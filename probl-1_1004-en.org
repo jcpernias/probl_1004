@@ -53,22 +53,21 @@ can be produced according to the labor hours devoted to each activity:
 a) <<ex1.1:item-a>>Obtain and draw the Production Possibility
    Frontier, PPF.
 
-b) Si se producen \units[kg]{150000} de alimentos, ¿es posible
-   producir \num{300000} vehículos? Si su respuesta es negativa,
-   indique cuántos vehículos podrían fabricarse como máximo.
+b) If \units[kg]{150000} of food are produced, ¿is it possible to
+   produce \num{300000} vehicles? If your answer is negative,indicate
+   how many vehicles could be produced at most.
 
-b) What effect on the PPF would have an organizational improvement in
+c) What effect on the PPF would have an organizational improvement in
    the production of vehicles? Obtain and draw the PPF if the
    improvement caused a 20% increase in the production of vehicles per
    hour.
 
-c) Which would be the consequences on the PPF of the reduction of the
-   labor hours by half as a result of an armed conflict?  Represente
-   gráficamente la FPP si sólo se pueden usar \num{50000} horas de
-   trabajo y compare los resultados con los obtenidos en el apartado
-   [[ex1.1:item-a]].
+d) Which would be the consequences on the PPF of the reduction of the
+   labor hours by half as a result of an armed conflict?  Represent
+   graphically the PPF if just \num{50000} hours of labor can be used
+   and compare the results with the ones obtained in [[ex1.1:item-a]].
 
-#+latex: \clearpage{}
+# #+latex: \clearpage{}
 
 * 1.2
 
@@ -102,27 +101,28 @@ e) What is the relationship between the PPF shape and the opportunity
 
 * 1.3
 
-La frontera de posibilidades de producción, FPP, de un país que sólo
-produce dos bienes, $X$ e $Y$ puede expresarse como:
+The production possibilities frontier, PPF, of a country producing
+just two goods, $X$ and $Y$ can be expressed as:
 #+begin_export latex
 \[
   Y = \num{1000} - 0.1 X
 \]
 #+end_export
 
-a) Represente gráficamente la FPP.
+a) Represent graphically the PPF.
 
-b) Si la economía está utilizando eficientemente todos los factores de
-   producción y se producen \num{1000} unidades del bien $X$, ¿cuál es
-   el coste de oportunidad de producir una unidad adicional del bien
-   $X$?
+b) If the economy is efficiently using all production factors and
+   \num{1000} units of good $X$ are produced. Which is the opportunity
+   cost of producing an additional unit of good $X$?
 
-c) Si en vez de \num{1000} se produjeran \num{5000} unidades del bien
-   $X$, ¿cómo cambiaría la respuesta al apartado anterior?
+c) If instead of \num{1000} units, the economy produces \num{5000}
+   units of good $X$, how would your answer to the previous point
+   change?
 
-d) ¿Que relación existe entre el comportamiento del coste de
-   oportunidad y la forma de la FPP?
+d) What is the relationship between the behavior of the opportunity
+   cost and the shape of the PPF?
 
+# #+latex: \enlargethispage{2\baselineskip}
 
 
 * 1.4
@@ -132,28 +132,26 @@ an economy where only fish and coconuts are produced:
 
 #+xxx: fig fig-probl-1_1004-ppf-*.pdf
 
-Sort the production options $A$, $B$, $C$, and $D$ from higher to
+Rank the production options $A$, $B$, $C$, and $D$ from higher to
 lower opportunity cost of producing fish.
 
 
 * 1.5
 
-Considere una economía donde sólo se producen dos bienes: $X$ e $Y$.
+Consider an economy where only two goods are produced: $X$ and $Y$.
 
 #+xxx: fig fig-probl-1_1004-ppf-multi-*.pdf
 
-Relacione cada uno de los gráficos anteriores con las siguientes
-afirmaciones. Razone sus respuestas.
+Associate each one of the previous graphs with the following
+statements. Justify your answers.
 
-a) El incremento de la natalidad en las décadas previas hace que el
-   número personas en edad de trabajar aumente
-   considerablemente.
+a) The rise in birth rate in previous decades has the effect of
+   considerably increasing the number of working-age people.
 
-b) Una gran parte de los trabajadores que estaban desempleados han
-   encontrado un empleo.
+b) A higher share of unemployed people get a job.
 
-c) Una gran parte de los trabajadores emigra al extranjero buscando un
-   mejor empleo.
+c) A higher share of working people migrate abroad looking for a
+   better job.
 
-d) Una reforma administrativa hace mucho más difícil y costosa la
-   contratación de trabajadores.
+d) An administrative reform makes it much more difficult and costly to
+   hire workers.

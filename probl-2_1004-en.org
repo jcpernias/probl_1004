@@ -3,8 +3,8 @@
 
 * 2.1
 
-"The price of gasoline considerably increased during the years from
-2003 to 2006, and yet the consumption of gasoline grew."  Does this
+"The price of gasoline sgnificantly increased during the years from
+2003 to 2006, and yet the consumption of gasoline increased."  Does this
 claim contradict the law of demand?
 
 
@@ -79,7 +79,7 @@ The demand and supply curves of the market for good $X$ are:
 a) Determine the equilibrium price and quantity.
 
 b) Plot the effects on the market equilibrium of an increase in the
-   price of a substituitive good. Is it possible to unequivocally
+   price of a substitutive good. Is it possible to unequivocally
    predict how the equilibrium price of good $X$ will change? And the
    equilibrium quantity?
 
@@ -114,41 +114,38 @@ the quantity decrease in the new equilibrium?
 
 * 2.8
 
-Los precios de las habitaciones de hotel en las grandes ciudades
-suelen depender del día de la semana en que se alquilan. En una semana
-típica, los precios de las habitaciones son mucho más bajos los fines
-de semana que los días laborables. Utilice diagramas de oferta y
-demanda para explicar este comportamiento.
+The prices of hotel rooms in big cities usually depend on the day of
+the week in which they are rented. In a standard week, room prices are
+much lower during the weekend with respect to working days.  Use
+supply and demand plots to explain this behaviour.
 
 
 * 2.9
 
-Una fuerte sequía ha dañado considerablemente la cosecha de café en
-los principales países productores.
+A severe drought has considerably damaged the coffee harvest in the
+main producing countries.
 
-a) ¿Qué consecuencias tendrá la sequía sobre el equilibrio en el
-   mercado mundial de café? Razone y represente gráficamente.
+a) Which will be the consequences of the drought on global coffee
+   market equilibrium? Explain and represent graphically.
 
-b) ¿Cuáles serán las consecuencias de la mala cosecha de café sobre el
-   equilibrio en el mercado mundial de té? Razone y represente
-   gráficamente.
+b) Which will be the consequences of the poor coffee harvest on global
+   tea market equilibrium? Explain and represent graphically.
 
 
 * 2.10
 
-El mercado de patinetes eléctricos de un país es competitivo y se
-encuentra en equilibrio. Razone y represente gráficamente cómo
-afectarían las siguientes situaciones al equilibrio de mercado.
+The market for electric scooters of a country is competitive and it is
+in equilibrium. Explain and represent graphically how would the
+following situations affect market equilibrium.
 
-a) Baja el precio de las baterías que los fabricantes montan en los
-   patinetes.
+a) The price of batteries used for these electric scooters decreases.
 
-b) Un informe alerta de problemas de seguridad graves y cada vez más
-   frecuentes para los usuarios de patinetes eléctricos.
+b) A report warns about serious security problems, which are becoming
+   much more freqüent, for the users of these electric scooters.
 
-c) El Gobierno aprueba leyes destinadas a reducir la contaminación y
-   las emisiones de $\text{CO}_2$ en las ciudades y que limitan
-   considerablemente la circulación de coches en las ciudades.
+c) The Government passes some laws aimed at reducing pollution and
+   $\text{CO}_2$ emissions in the cities; these laws considerably
+   restrict car traffic in the cities.
 
-d) Una nueva regulación del mercado de trabajo eleva los costes
-   laborales de los fabricantes de patinetes.
+d) A new labor market regulation increases labor costs for electric
+   scooters producers.
