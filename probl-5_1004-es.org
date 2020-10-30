@@ -195,6 +195,51 @@ Para Alejandro el pescado es un mal.
 #+xxx: fig fig-ans-probl-5_1004-bad-*.pdf
 
 
+* 5.27
+
+ Carmen es coleccionista de fotos antiguas. Hoy ha acudido a un
+ mercadillo donde ha comprado 50 fotos para su colección y aún dispone
+ de \money{150} para otras compras. En uno de los puestos del
+ mercadillo ha encontrado un lote de 10 fotos que le interesan y por
+ el que piden \money{25}. La función de utilidad de Carmen es:
+ #+begin_export latex
+ \[
+   U(F, Y) = (F + 10) Y^{2}
+ \]
+ #+end_export
+ donde $F$ es el número de fotos que compra e $Y$ un bien compuesto.
+
+ a) ¿Cuánto estará dispuesta a pagar Carmen por $10$ fotos adicionales?
+
+ b) ¿Comprará el lote de 10 fotos?
+
+
+* 5.28
+
+Cinco amigos han comprado fruta y cada uno de ellos ha adquirido la
+misma combinación: 3 manzanas y 6 peras. El precio de una manzana es
+\money{1} mientras que una pera cuesta \money{0.50}. La siguiente
+tabla recoge las utilidades marginales de manzanas y peras de cada uno
+de los consumidores:
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}l*{2}{r}@{}
+|--------------+------------+----------|
+|              | Manzanas   | Peras    |
+|--------------+------------+----------|
+| Jerry        | $12$       | $6$      |
+| George       |  $6$       | $6$      |
+| Elaine       |  $6$       | $3$      |
+| Kramer       |  $3$       | $6$      |
+| Newman       | $12$       | $3$      |
+|--------------+------------+----------|
+
+a) ¿Qué consumidores, si hay alguno, *no* está eligiendo una
+   combinación óptima de manzanas y peras? ¿Cómo tendrían que cambiar
+   su elección para aumentar su utilidad?
+
+b) Con la información proporcionada, ¿es posible determinar si alguno
+   de los consumidores está maximizando su utilidad?
+
 * 5.4
 
 Las preferencias de un consumidor pueden describirse con la
@@ -227,24 +272,7 @@ Solución interior: $\RMS = Y/X = 5 / 10$ es igual a $P_X / P_Y =
 6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
 
 
-* 5.7
-
-Una consumidora posee una renta de \money{40} que gasta en los bienes
-$X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
-\price{2}$. Cuando ella consume $20$ unidades de $Y$ y ninguna de $X$,
-la relación marginal de sustitución es igual a $2$. ¿Es esta su
-elección óptima o estaría mejor comprando más unidades de $X$ y menos
-de $Y$?
-
-
-** Answer
-
-Cuando compra $X=0$ e $Y=2$, $\RMS = 2 > P_X/P_Y = 1.5$.  Su utilidad
-aumentaría si disminuye el consumo de $Y$ y aumenta el de $X$.
-
-
-
-* 6.4.
+* 6.4
 
 Considere una economía competitiva donde todos los consumidores
 tienen las mismas preferencias y consumen alguna unidad tanto del
@@ -260,6 +288,27 @@ No comprarán la misma cantidad si tienen diferentes niveles de renta.
 Las valoraciones de $X$, $\RMS_i$, coincidirán: todos los consumidores
 se enfrentan a los mismos precios y la cesta óptima de cada uno de
 ellos cumple la condición $\RMS_i = P_x/P_Y$.
+
+
+* 5.7
+
+Una consumidor posee una renta de \money{40} que gasta en los bienes
+$X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
+\price{2}$. Cuando consume $20$ unidades de $Y$ y ninguna de $X$, la
+relación marginal de sustitución es igual a $2$. ¿Es esta su elección
+óptima o estaría mejor comprando más unidades de $X$ y menos de $Y$?
+
+
+** Answer
+
+Cuando compra $X=0$ e $Y=2$, $\RMS = 2 > P_X/P_Y = 1.5$.  Su utilidad
+aumentaría si disminuye el consumo de $Y$ y aumenta el de $X$.
+
+* 5.29
+
+Determine la combinación de en consumidor con renta $M = \money{500}$
+y función de utilidad: $U(X, y) = X^2 (Y + 80)$, siendo los precios de
+los bienes $P_X = \price{2}$ y $P_Y = \price{5}$.
 
 
 * 5.8
@@ -315,62 +364,26 @@ b) Subvención (la restricción se quiebra en $X = 1.5$ e $Y =
 c) La donación en metálico le permite alcanzar un mayor nivel de
    utilidad.
 
+* 5.30
 
-* 5.9
-
-Un consumidor dispone de una renta de \money{800} para comprar los
-bienes $X$ e $Y$, cuyos precios son $P_X = \price{4}$ y $P_Y =
-\price{2}$. Sus preferencias pueden describirse con la función de
-utilidad:
+A Rafa le gusta jugar al tenis y siempre que puede juega en un club
+cercano a su casa. Alquilar una pista de tenis le cuesta \money{5} por
+hora. Su función de utilidad es:
 #+begin_export latex
 \[
-  U(X, Y) = X^{0.25} Y^{0.75}
+  U(H, Y) = H Y^{3/2}
 \]
 #+end_export
+donde $H$ son las horas que juega al tenis al mes e $Y$ es un bien
+compuesto. Rafa dispone de \money{100} al mes para gastar en $H$ y en
+$Y$.
 
-a) Obtenga la elección óptima del consumidor.
+a) Obtenga la elección óptima de $H$ e $Y$.
 
-b) Si se aplicara un descuento de \money{2} a cada unidad de $X$
-   por encima de las primeras 75 unidades, ¿cómo cambiaría la
-   elección óptima?
-
-
-** Answer
-
-a) Recta presupuestaria: $800 = 4 X + 2 Y$.
-
-   Condición de tangencia: $Y = 6 X$.
-
-   Cesta óptima: $X^* = \units{50}, Y^* = \units{300}$.
-   #+xxx: fig fig-ans-probl-5_1004-discount1-*.pdf
-
-
-b) La restricción presupuestaria tiene dos tramos:
-   #+begin_export latex
-   \[
-     Y =
-     \begin{cases}
-       400 - 2 X & \text{si $X < 75$} \\
-       325 - X & \text{si $X \geq 75$}
-     \end{cases}
-   \]
-   #+end_export
-
-   Obtenemos la solución en cada uno de los tramos:
-
-   #+ATTR_LATEX: :booktabs t :center t :align @{}lrr@{}
-   |----------+-----------------------+-----------------------------|
-   |          | $X < 75$              | $X > 75$                    |
-   |----------+-----------------------+-----------------------------|
-   | RP       | $800 = 4 X + 2 Y$     | $650 = 2X + 2Y$             |
-   | CT       | $Y = 6 X$             | $Y = 3 X$                   |
-   | Óptimo   | $X^* = 50, Y^* = 300$ | $X^* = 81.25, Y^* = 243.75$ |
-   | Utilidad | $191.68$              | $185.21$                    |
-   |----------+-----------------------+-----------------------------|
-
-   Las dos soluciones cumplen las condiciones de óptimo interior,
-   pero la utilidad que obtiene el consumidor es mayor eligiendo
-   $X^* = 50$ e $Y^* = 300$: la elección no cambiaría.
+b) Rafa está considerando hacerse socio del club de tenis. Si pagara
+   una cuota mensual de \money{30}, el alquiler de las pistas se
+   reduciría a \money{2.50} por hora. ¿Debería hacerse socio?
+   Represente gráficamente.
 
 
 * 5.10
