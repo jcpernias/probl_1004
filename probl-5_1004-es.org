@@ -213,22 +213,6 @@ Cesta óptima: $X^* = \units{30}, Y^* = \units{120}$
 #+xxx: fig fig-ans-probl-5_1004-choice-*.pdf
 
 
-* 5.5
-
-La cesta óptima de un consumidor con preferencias regulares
-contiene cantidades positivas de todos los bienes. Si aumenta el
-precio de un bien, ¿se reducirá la utilidad del consumidor?
-Justifique su respuesta.
-
-
-** Answer
-
-Con los nuevos precios no puede comprar la cesta inicial. Tiene que
-elegir una cesta que podría haber elegido con los precios iniciales
-pero no lo hizo: su utilidad es menor.
-
-
-
 * 5.6
 
 La función de utilidad de un consumidor es $U(X, Y) = X Y$. La cesta
