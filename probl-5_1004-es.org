@@ -26,9 +26,9 @@ d) Ante la gravedad de la situación, el Gobierno raciona el agua de
 * 5.25
 
 Suponga que se pueden comprar 4 peras con el dinero necesario para
-comprar una manzana. Si un consumidor, que gasta todo su dinero en
+comprar una manzana. Si David, que gasta todo su dinero en
 peras y manzanas, compra 100 peras y 20 manzanas, ¿cuántas peras
-podría haber comprado como máximo? ¿Y manzanas?
+podría haber comprado como máximo? ¿Y manzanas? Obtenga y represente la recta presupuestaria de David.
 
 
 * 5.23
@@ -104,16 +104,13 @@ alimenta de arroz, que cuesta \money{1} el kilo. Obtenga y represente
 la restricción presupuestaria del consumidor en las siguientes
 situaciones (utilice un bien compuesto):
 
-a) El consumidor se beneficia de una subvención de \money{0.25} por
-   cada kilo de arroz que compre.
+a) El consumidor disfruta de una subvención de \price[kg]{0.25} en los
+   cinco primeros kilos de arroz que compre y paga el precio de
+   mercado por los restantes kilos que adquiera.
 
-b) El consumidor sólo puede disfrutar de una subvención de
-   \price[kg]{0.25} en los cinco primeros kilos de arroz que compre y
-   paga el precio de mercado por los restantes kilos que adquiera.
+b) El consumidor obtiene $5$ kilos de arroz gratuitamente.
 
-c) El consumidor obtiene $5$ kilos de arroz gratuitamente.
-
-d) El consumidor recibe un cheque por valor de \money{5}.
+c) El consumidor recibe un cheque por valor de \money{5}.
 
 
 * 5.2
@@ -124,8 +121,8 @@ patatas. Suele comprar en un supermercado donde la carne se vende a
 
 a) Obtenga y represente la restricción presupuestaria.
 
-b) El supermercado introduce una oferta por la que los clientes que
-   compren más de \units[kg]{4} de patatas recibirán gratis 2 kilos
+b) El supermercado introduce una promoción por la que los clientes que
+   compren más de $4$ kilos de patatas recibirán gratis 2 kilos
    más. Obtenga y represente la restricción presupuestaria
    en este caso.
 
@@ -170,7 +167,7 @@ telefónicas y un bien compuesto. Su compañía telefónica sólo le cobra
 a) Obtenga y represente la restricción presupuestaria de Ángeles.
 
 b) <<ex5.25:itemb>>Ángeles recibe una oferta por la que pagando una
-   cuota de \money{15} obtendría \num{1000} minutos de llamadas. Cada
+   cuota de \money{15} obtendría \num{2000} minutos de llamadas. Cada
    minuto adicional le costaría \money{0.04}. Obtenga y represente la
    restricción presupuestaria de Ángeles si contrata esta tarifa.
 
@@ -209,9 +206,9 @@ Para Alejandro el pescado es un mal.
  #+end_export
  donde $F$ es el número de fotos que compra e $Y$ un bien compuesto.
 
- a) ¿Cuánto estará dispuesta a pagar Carmen por $10$ fotos adicionales?
+ a) ¿Comprará el lote de 10 fotos?
 
- b) ¿Comprará el lote de 10 fotos?
+ b) ¿Cuánto estará dispuesta a pagar Carmen por $10$ fotos adicionales?
 
 
 * 5.28
