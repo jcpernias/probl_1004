@@ -13,13 +13,13 @@ a) Obtenga la restricción presupuestaria de Juan y represéntela
 b) Juan consume actualmente $60$ litros de agua y $35$ kilos de pan al
    mes. ¿Cuál es el coste de oportunidad de consumir un litro
    adicional de agua? ¿Cuál sería el coste de oportunidad si Juan
-   consumiera \units[l]{50} de agua y \units[kg]{30} de pan?
+   consumiera $50$ litros de agua y $30$ kilos de pan?
 
 c) Una sequía prolongada provoca que el precio del agua se
    duplique. Obtenga y represente la nueva restricción presupuestaria.
 
 d) Ante la gravedad de la situación, el Gobierno raciona el agua de
-   forma que ningún consumidor puede consumir más de \units[l]{20} de
+   forma que ningún consumidor puede consumir más de $20$ litros de
    agua al mes. ¿Cuál es la restricción presupuestaria en este caso?
 
 
@@ -28,7 +28,7 @@ d) Ante la gravedad de la situación, el Gobierno raciona el agua de
 Suponga que se pueden comprar 4 peras con el dinero necesario para
 comprar una manzana. Si un consumidor, que gasta todo su dinero en
 peras y manzanas, compra 100 peras y 20 manzanas, ¿cuántas peras
-podría comprar como máximo? ¿Y manzanas?
+podría haber comprado como máximo? ¿Y manzanas?
 
 
 * 5.23
@@ -42,9 +42,9 @@ b) Suponga ahora que todos los precios aumentan un 10%. Si el dinero
    que Julia puede usar para sus gastos también se incrementa un 10%, ¿cómo
    cambiará su restricción presupuestaria?
 
-c) Si inicialmente Julia compraba \units[l]{4} de leche y
-   \units[kg]{1} de galletas, ¿cómo cambiará su elección después de
-   que se eleven los precios y la renta?
+c) Si inicialmente Julia compraba $4$ litros de leche y $1$ kilo de
+   galletas, ¿cómo cambiará su elección después de que se eleven los
+   precios y la renta?
 
 
 * 5.1
@@ -88,12 +88,12 @@ c) Su conjunto de oportunidades es mayor en el primer caso: preferiría
 
 * 5.20
 
-Nikola dispone de \money{120} para gastar en energía y consume gas
-natural y electricidad. El precio de la electricidad depende del
-consumo: los primeros \units[\kWh]{1000} cuestan \money{0.06} por kWh,
-mientras que los kWh que excedan de \num{1000} se pagan a
-\price[\kWh]{0.03}. Por otro lado, el precio del gas natural siempre
-es \price[\kWh]{0.05}. Obtenga y represente gráficamente el conjunto
+Nikola dispone de \money{120} para gastar en gas natural y en
+electricidad. El precio de la electricidad depende del consumo: los
+primeros \units[\kWh]{1000} cuestan \money{0.06} por kWh, mientras que
+los kWh que excedan de \num{1000} se pagan a \price[\kWh]{0.03}. Por
+otro lado, el precio del gas natural siempre es
+\price[\kWh]{0.05}. Obtenga y represente gráficamente el conjunto
 presupuestario de Nikola.
 
 
@@ -111,7 +111,7 @@ b) El consumidor sólo puede disfrutar de una subvención de
    \price[kg]{0.25} en los cinco primeros kilos de arroz que compre y
    paga el precio de mercado por los restantes kilos que adquiera.
 
-c) El consumidor obtiene \units[kg]{5} de arroz gratuitamente.
+c) El consumidor obtiene $5$ kilos de arroz gratuitamente.
 
 d) El consumidor recibe un cheque por valor de \money{5}.
 
@@ -161,6 +161,21 @@ hasta \price{4} y el del vestido sube hasta \price{50}. Con la
 información proporcionada, ¿es posible saber si la satisfacción de Ana
 ha aumentado o disminuido? ¿Y la de Eugenio?
 
+* 5.25
+
+Ángeles dispone de \money{100} al mes para gastar en llamadas
+telefónicas y un bien compuesto. Su compañía telefónica sólo le cobra
+\money{0.02} por minuto de llamada.
+
+a) Obtenga y represente la restricción presupuestaria de Ángeles.
+
+b) <<ex5.25:itemb>>Ángeles recibe una oferta por la que pagando una
+   cuota de \money{15} obtendría \num{1000} minutos de llamadas. Cada
+   minuto adicional le costaría \money{0.04}. Obtenga y represente la
+   restricción presupuestaria de Ángeles si contrata esta tarifa.
+
+c) Represente las dos tarifas en el mismo gráfico y determine cuándo
+   sería más ventajosa la tarifa del apartado [[ex5.25:itemb]].
 
 * 5.3
 
