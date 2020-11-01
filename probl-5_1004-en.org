@@ -1,6 +1,53 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
+* 5.21
+
+Juan dispone de una renta monetaria mensual de \money{150}.
+Con ella puede comprar pan, a un precio de \price[kg]{3}, y agua, a un
+precio de \price[l]{0.75}.
+
+a) Obtenga la restricción presupuestaria de Juan y represéntela
+   gráficamente.
+
+b) Juan consume actualmente $60$ litros de agua y $35$ kilos de pan al
+   mes. ¿Cuál es el coste de oportunidad de consumir un litro
+   adicional de agua? ¿Cuál sería el coste de oportunidad si Juan
+   consumiera $50$ litros de agua y $30$ kilos de pan?
+
+c) Una sequía prolongada provoca que el precio del agua se
+   duplique. Obtenga y represente la nueva restricción presupuestaria.
+
+d) Ante la gravedad de la situación, el Gobierno raciona el agua de
+   forma que ningún consumidor puede consumir más de $20$ litros de
+   agua al mes. ¿Cuál es la restricción presupuestaria en este caso?
+
+
+* 5.25
+
+Suponga que se pueden comprar 4 peras con el dinero necesario para
+comprar una manzana. Si David, que gasta todo su dinero en
+peras y manzanas, compra 100 peras y 20 manzanas, ¿cuántas peras
+podría haber comprado como máximo? ¿Y manzanas? Obtenga y represente la recta presupuestaria de David.
+
+
+* 5.23
+
+Julia dispone de \money{6} este mes para comprar leche, cuyo precio es
+\price[l]{0.75}, y galletas, que cuestan \price[kg]{3}.
+
+a) Obtenga y represente la restricción presupuestaria.
+
+b) Suponga ahora que todos los precios aumentan un 10%. Si el dinero
+   que Julia puede usar para sus gastos también se incrementa un 10%, ¿cómo
+   cambiará su restricción presupuestaria?
+
+c) Si inicialmente Julia compraba $4$ litros de leche y $1$ kilo de
+   galletas, ¿cómo cambiará su elección después de que se eleven los
+   precios y la renta?
+
+
+
 * 5.1
 
 A consumer spends her income $M$ on goods $X$ and $Y$.
@@ -14,6 +61,34 @@ b) And what if, instead of the tax on consumption, an income tax were
 c) Which option would the consumer prefer?
 
 
+* 5.20
+
+Nikola dispone de \money{120} para gastar en gas natural y en
+electricidad. El precio de la electricidad depende del consumo: los
+primeros \units[\kWh]{1000} cuestan \money{0.06} por kWh, mientras que
+los kWh que excedan de \num{1000} se pagan a \price[\kWh]{0.03}. Por
+otro lado, el precio del gas natural siempre es
+\price[\kWh]{0.05}. Obtenga y represente gráficamente el conjunto
+presupuestario de Nikola.
+
+
+* 5.22
+
+Un consumidor dispone de una renta de $100$ € a la semana y se
+alimenta de arroz, que cuesta \money{1} el kilo. Obtenga y represente
+la restricción presupuestaria del consumidor en las siguientes
+situaciones (utilice un bien compuesto):
+
+a) El consumidor disfruta de una subvención de \price[kg]{0.25} en los
+   cinco primeros kilos de arroz que compre y paga el precio de
+   mercado por los restantes kilos que adquiera.
+
+b) El consumidor obtiene $5$ kilos de arroz gratuitamente.
+
+c) El consumidor recibe un cheque por valor de \money{5}.
+
+
+
 * 5.2
 
 A consumer has \money{20} to buy meat and potatoes. He usually shops
@@ -23,8 +98,40 @@ kilo of potatoes costs \money{2}.
 a) Obtain and represent the budget constraint.
 
 b) The supermarket run a sales promotion where the customers that buy
-   more than \units[kg]{4} of potatoes will get two additional kilos
+   more than $4$ kilos of potatoes will get two additional kilos
    for free. Obtain and represent the budget constraint in this case.
+
+
+* 5.24
+
+Eugenio y Ana comparten piso. Cada uno de ellos tiene una renta
+mensual de \money{1000} que gastan en su totalidad en alimentos y
+vestido. Cuando el precio de los alimentos es \price{8} y el de los
+vestidos es \price{40}, Ana compra 10 unidades de vestido y Eugenio
+compra 20 unidades.
+
+Después de una reforma impositiva, el precio de los alimentos baja
+hasta \price{4} y el del vestido sube hasta \price{50}. Con la
+información proporcionada, ¿es posible saber si la satisfacción de Ana
+ha aumentado o disminuido? ¿Y la de Eugenio?
+
+
+* 5.25
+
+Ángeles dispone de \money{100} al mes para gastar en llamadas
+telefónicas y un bien compuesto. Su compañía telefónica sólo le cobra
+\money{0.02} por minuto de llamada.
+
+a) Obtenga y represente la restricción presupuestaria de Ángeles.
+
+b) <<ex5.25:itemb>>Ángeles recibe una oferta por la que pagando una
+   cuota de \money{15} obtendría \num{2000} minutos de llamadas. Cada
+   minuto adicional le costaría \money{0.04}. Obtenga y represente la
+   restricción presupuestaria de Ángeles si contrata esta tarifa.
+
+c) Represente las dos tarifas en el mismo gráfico y determine cuándo
+   sería más ventajosa la tarifa del apartado [[ex5.25:itemb]].
+
 
 
 * 5.3
@@ -36,20 +143,60 @@ portion of chicken in return. Represent the preferences of Amaia and
 Alejandro.
 
 
+* 5.27
+
+ Carmen es coleccionista de fotos antiguas. Hoy ha acudido a un
+ mercadillo donde ha comprado 50 fotos para su colección y aún dispone
+ de \money{150} para otras compras. En uno de los puestos del
+ mercadillo ha encontrado un lote de 10 fotos que le interesan y por
+ el que piden \money{25}. La función de utilidad de Carmen es:
+ #+begin_export latex
+ \[
+   U(F, Y) = (F + 10) Y^{2}
+ \]
+ #+end_export
+ donde $F$ es el número de fotos que compra e $Y$ un bien compuesto.
+
+ a) ¿Comprará el lote de 10 fotos?
+
+ b) ¿Cuánto estará dispuesta a pagar Carmen por $10$ fotos adicionales?
+
+
+* 5.28
+
+Cinco amigos han comprado fruta y cada uno de ellos ha adquirido la
+misma combinación: 3 manzanas y 6 peras. El precio de una manzana es
+\money{1} mientras que una pera cuesta \money{0.50}. La siguiente
+tabla recoge las utilidades marginales de manzanas y peras de cada uno
+de los consumidores:
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}l*{2}{r}@{}
+|--------------+------------+----------|
+|              | Manzanas   | Peras    |
+|--------------+------------+----------|
+| Jerry        | $12$       | $6$      |
+| George       |  $6$       | $6$      |
+| Elaine       |  $6$       | $3$      |
+| Kramer       |  $3$       | $6$      |
+| Newman       | $12$       | $3$      |
+|--------------+------------+----------|
+
+a) ¿Qué consumidores, si hay alguno, *no* está eligiendo una
+   combinación óptima de manzanas y peras? ¿Cómo tendrían que cambiar
+   su elección para aumentar su utilidad?
+
+b) Con la información proporcionada, ¿es posible determinar si alguno
+   de los consumidores está maximizando su utilidad?
+
+
+
+
 * 5.4
 
 The preferences of a consumer can be described with the utility
 function: $U(X, Y) = 5 X Y^2$. The consumer's income is \money{900}
 and the prices are $P_X = \price{10}$ and $P_Y = \price{5}$. Calculate
 and represent the consumer's optimal choice.
-
-
-* 5.5
-
-The optimal basket for a consumer with regular preferences contains
-positive amounts of all goods. If the price of one of the goods
-increases, will this reduce the consumer's utility? Justify your
-answer.
 
 
 * 5.6
@@ -60,6 +207,14 @@ $Y$. Knowing that the price of $X$ is \price{6}, how much is the
 consumer's income?
 
 
+* 6.4
+
+Consider a competitive economy where all consumers have the same
+preferences and consume some units of good $X$ and good $Y$. Will they
+all buy the same amount of $X$? Will there be differences in the
+valuation of good $X$ by each consumer?
+
+
 * 5.7
 
 A consumer has an income of \money{40} that she spends on goods $X$
@@ -68,6 +223,13 @@ and $Y$, whose prices are $P_X = \price{3}$ and $P_Y =
 marginal rate of substitution is equal to $2$. Is this her optimal
 choice or would she be better off buying more units of good $X$ and
 less of good $Y$?
+
+
+* 5.29
+
+Determine la combinación de en consumidor con renta $M = \money{500}$
+y función de utilidad: $U(X, y) = X^2 (Y + 80)$, siendo los precios de
+los bienes $P_X = \price{2}$ y $P_Y = \price{5}$.
 
 
 * 5.8
@@ -96,21 +258,27 @@ b) The Government aims to promote the consumption of nuts and it is
 c) Which alternative would the consumer prefer? Justify your answer.
 
 
-* 5.9
+* 5.30
 
-A consumer has an income of \money{800} to buy goods $X$ and $Y$,
-whose prices are $P_X = \price{4}$ and $P_Y = \price{2}$. Her
-preferences can be described by the following utility function:
+A Rafa le gusta jugar al tenis y siempre que puede juega en un club
+cercano a su casa. Alquilar una pista de tenis le cuesta \money{5} por
+hora. Su función de utilidad es:
 #+begin_export latex
 \[
-  U (X, Y) = X^{0.25} Y^{0.75}
+  U(H, Y) = H Y^{3/2}
 \]
 #+end_export
+donde $H$ son las horas que juega al tenis al mes e $Y$ es un bien
+compuesto. Rafa dispone de \money{100} al mes para gastar en $H$ y en
+$Y$.
 
-a) Obtain the consumer's optimal choice.
+a) Obtenga la elección óptima de $H$ e $Y$.
 
-b) If a price discount of \money{2} were applied to each unit of
-   $X$ beyond the first 75 units, how would the optimal choice change?
+b) Rafa está considerando hacerse socio del club de tenis. Si pagara
+   una cuota mensual de \money{30}, el alquiler de las pistas se
+   reduciría a \money{2.50} por hora. ¿Debería hacerse socio?
+   Represente gráficamente.
+
 
 
 * 5.10

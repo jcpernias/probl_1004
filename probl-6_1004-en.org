@@ -1,6 +1,15 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
+* 5.5
+
+The optimal basket for a consumer with regular preferences contains
+positive amounts of all goods. If the price of one of the goods
+increases, will this reduce the consumer's utility? Justify your
+answer.
+
+
+
 * 6.1
 
 The utility function of a consumer is $U = X^2 Y$, her income is $M =
@@ -29,14 +38,6 @@ a) If $M = \money{70}$, how many units would she demand of each one
 
 b) Is any of the two goods an inferior good? For what values of the
    income?
-
-
-* 6.4
-
-Consider a competitive economy where all consumers have the same
-preferences and consume some units of good $X$ and good $Y$. Will they
-all buy the same amount of $X$? Will there be differences in the
-valuation of good $X$ by each consumer?
 
 
 * 6.5

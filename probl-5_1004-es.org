@@ -158,6 +158,7 @@ hasta \price{4} y el del vestido sube hasta \price{50}. Con la
 información proporcionada, ¿es posible saber si la satisfacción de Ana
 ha aumentado o disminuido? ¿Y la de Eugenio?
 
+
 * 5.25
 
 Ángeles dispone de \money{100} al mes para gastar en llamadas
@@ -173,6 +174,7 @@ b) <<ex5.25:itemb>>Ángeles recibe una oferta por la que pagando una
 
 c) Represente las dos tarifas en el mismo gráfico y determine cuándo
    sería más ventajosa la tarifa del apartado [[ex5.25:itemb]].
+
 
 * 5.3
 
@@ -236,6 +238,7 @@ a) ¿Qué consumidores, si hay alguno, *no* está eligiendo una
 
 b) Con la información proporcionada, ¿es posible determinar si alguno
    de los consumidores está maximizando su utilidad?
+
 
 * 5.4
 
@@ -301,6 +304,7 @@ relación marginal de sustitución es igual a $2$. ¿Es esta su elección
 Cuando compra $X=0$ e $Y=2$, $\RMS = 2 > P_X/P_Y = 1.5$.  Su utilidad
 aumentaría si disminuye el consumo de $Y$ y aumenta el de $X$.
 
+
 * 5.29
 
 Determine la combinación de en consumidor con renta $M = \money{500}$
@@ -360,6 +364,7 @@ b) Subvención (la restricción se quiebra en $X = 1.5$ e $Y =
 
 c) La donación en metálico le permite alcanzar un mayor nivel de
    utilidad.
+
 
 * 5.30
 
