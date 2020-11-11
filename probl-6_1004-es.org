@@ -3,10 +3,10 @@
 
 * 6.1
 
-La función de utilidad de un consumidor es $U = X^2 Y$, su renta es
-$M = \money{100}$ y los precios del bienes son $P_X = \price{10}$ y
-$P_Y = \price{10}$. Obtenga la curva renta consumo y la curva de
-Engel del bien $X$. Calcule la elasticidad renta de $X$.  ¿Qué tipo
+La función de utilidad de un consumidor es $U = X^2 Y$, su renta es $M
+= \money{100}$ y los precios del bienes son $P_X = \price{10}$ y $P_Y
+= \price{10}$. Obtenga y represente la curva renta consumo y la curva
+de Engel del bien $X$. Calcule la elasticidad renta de $X$.  ¿Qué tipo
 de bien es?
 
 ** Answer
@@ -69,6 +69,15 @@ b) El bien $Y$ es inferior para rentas superiores a
    #+xxx: fig fig-ans-probl-6_1004-crc3-*.pdf
 
 
+* 6.20
+
+El siguiente gráfico muestra la curva renta consumo de un consumidor:
+
+#+xxx: fig fig-probl-6_1004-crc20-*.pdf
+
+Sabiendo que el precio del bien $X$ es $P_X = \price{10}$ y que el
+precio del bien $Y$ es $\price{20}$ represente gráficamente las curvas
+de Engel de ambos bienes. ¿Qué tipo de bienes son $X$ e $Y$?
 
 * 6.5.
 
@@ -76,16 +85,17 @@ Las preferencias de un consumidor pueden representarse por la
 función de utilidad:
 #+begin_export latex
 \[
-  U(X, Y) = X Y + 24 Y
+  U(X, Y) = X Y^{4}
 \]
 #+end_export
 El precio del bien $X$ es \price{6}, el del bien $Y$ es \price{8} y
 el consumidor dispone de una renta de \money{240}.
 
-a) Obtenga la curva de precio-consumo. ¿Qué tipo de relación se da
+a) Obtenga y represente la curva de precio-consumo. ¿Qué tipo de relación se da
    entre $X$ e $Y$?
 
-b) Obtenga la curva de demanda del bien $X$.
+b) Obtenga y represente la curva de demanda del bien $X$. Calcule la elasticidad
+   precio de la demanda.
 
 ** Answer
 
