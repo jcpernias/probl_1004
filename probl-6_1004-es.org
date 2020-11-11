@@ -28,20 +28,15 @@ La elasticidad renta es positiva: el bien $X$ es un bien normal.
 
 
 
-* 6.2.
+* 6.20
 
-Considere un consumidor que sólo compra dos bienes. ¿Pueden ser los
-dos bienes inferiores simultáneamente?
+El siguiente gráfico muestra la curva renta consumo de un consumidor:
 
-** Answer
+#+xxx: fig fig-probl-6_1004-crc20-*.pdf
 
-No. Antes del cambio en la renta el consumidor elige una cesta,
-$A$. Supongamos que cuando aumenta la renta elige otra cesta, $B$, con
-menos unidades de todos los bienes. Esta cesta la pudo haber comprado
-con la renta inicial pero no lo hizo: el consumidor prefiere $A$ a
-$B$. Finalmente, después del aumento de renta tanto $A$ como $B$ son
-accesibles; pudiendo comprar $A$ nunca elegiría una cesta como la $B$.
-
+Sabiendo que el precio del bien $X$ es $P_X = \price{10}$ y que el
+precio del bien $Y$ es $\price{20}$ represente gráficamente las curvas
+de Engel de ambos bienes. ¿Qué tipo de bienes son $X$ e $Y$?
 
 
 * 6.3.
@@ -69,15 +64,21 @@ b) El bien $Y$ es inferior para rentas superiores a
    #+xxx: fig fig-ans-probl-6_1004-crc3-*.pdf
 
 
-* 6.20
+* 6.2.
 
-El siguiente gráfico muestra la curva renta consumo de un consumidor:
+Considere un consumidor que sólo compra dos bienes. ¿Pueden ser los
+dos bienes inferiores simultáneamente?
 
-#+xxx: fig fig-probl-6_1004-crc20-*.pdf
+** Answer
 
-Sabiendo que el precio del bien $X$ es $P_X = \price{10}$ y que el
-precio del bien $Y$ es $\price{20}$ represente gráficamente las curvas
-de Engel de ambos bienes. ¿Qué tipo de bienes son $X$ e $Y$?
+No. Antes del cambio en la renta el consumidor elige una cesta,
+$A$. Supongamos que cuando aumenta la renta elige otra cesta, $B$, con
+menos unidades de todos los bienes. Esta cesta la pudo haber comprado
+con la renta inicial pero no lo hizo: el consumidor prefiere $A$ a
+$B$. Finalmente, después del aumento de renta tanto $A$ como $B$ son
+accesibles; pudiendo comprar $A$ nunca elegiría una cesta como la $B$.
+
+
 
 * 6.5.
 

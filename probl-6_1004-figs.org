@@ -56,12 +56,12 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex3:axes
-  \draw[axis, very thick] (0, 100) node[left] {$Y$} |-
+  \draw[axis, very thick] (0, 90) node[left] {$Y$} |-
     (150, 0) node[below] {$X$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex3:xy-scale
-  [xscale = 0.0392857, yscale = 0.0392857]
+  [xscale = 0.055, yscale = 0.055]
 #+end_src
 
 #+begin_src latex :noweb-ref ex3:xy-scale-small
@@ -73,29 +73,29 @@
 
 #+begin_src latex :noweb-ref ex3:grid
   \draw[help lines]
-    ( 10, 90) -- ( 10, 0)
-    ( 20, 90) -- ( 20, 0) node[below] {$20$}
-    ( 30, 90) -- ( 30, 0)
-    ( 40, 90) -- ( 40, 0) node[below] {$40$}
-    ( 50, 90) -- ( 50, 0)
-    ( 60, 90) -- ( 60, 0) node[below] {$60$}
-    ( 70, 90) -- ( 70, 0)
-    ( 80, 90) -- ( 80, 0) node[below] {$80$}
-    ( 90, 90) -- ( 90, 0)
-    (100, 90) -- (100, 0) node[below] {$100$}
-    (110, 90) -- (110, 0)
-    (120, 90) -- (120, 0) node[below] {$120$}
+    ( 10, 82) -- ( 10, 0)
+    ( 20, 82) -- ( 20, 0) node[below] {$20$}
+    ( 30, 82) -- ( 30, 0)
+    ( 40, 82) -- ( 40, 0) node[below] {$40$}
+    ( 50, 82) -- ( 50, 0)
+    ( 60, 82) -- ( 60, 0) node[below] {$60$}
+    ( 70, 82) -- ( 70, 0)
+    ( 80, 82) -- ( 80, 0) node[below] {$80$}
+    ( 90, 82) -- ( 90, 0)
+    (100, 82) -- (100, 0) node[below] {$100$}
+    (110, 82) -- (110, 0)
+    (120, 82) -- (120, 0) node[below] {$120$}
   ;
 
   \draw[help lines]
-    (130, 10) -- (0, 10)
-    (130, 20) -- (0, 20) node[left] {$20$}
-    (130, 30) -- (0, 30)
-    (130, 40) -- (0, 40) node[left] {$40$}
-    (130, 50) -- (0, 50)
-    (130, 60) -- (0, 60) node[left] {$60$}
-    (130, 70) -- (0, 70)
-    (130, 80) -- (0, 80) node[left] {$80$}
+    (122, 10) -- (0, 10)
+    (122, 20) -- (0, 20) node[left] {$20$}
+    (122, 30) -- (0, 30)
+    (122, 40) -- (0, 40) node[left] {$40$}
+    (122, 50) -- (0, 50)
+    (122, 60) -- (0, 60) node[left] {$60$}
+    (122, 70) -- (0, 70)
+    (122, 80) -- (0, 80) node[left] {$80$}
   ;
 #+end_src
 
@@ -248,76 +248,79 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex6.20:axes
-  \draw[axis, very thick] (0, 22) node[left] {$Y$} |-
-    (44, 0) node[below] {$X$} ;
+  \draw[axis, very thick] (0, 25) node[left] {$Y$} |-
+    (48, 0) node[below] {$X$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex6.20:xy-scale
-  [xscale = 0.22727, yscale = 0.22727]
+  [xscale = 0.20, yscale = 0.20]
 #+end_src
 
 *** Coordinates
 
 #+begin_src latex :noweb-ref ex6.20:coordinates
   \coordinate (A) at (4, 2);
-  \coordinate (B) at (11, 3);
+  \coordinate (B) at (10, 3);
   \coordinate (C) at (16, 4);
   \coordinate (D) at (20, 6);
-  \coordinate (E) at (12, 14);
-  \coordinate (F) at (8, 20);
+  \coordinate (E) at (16, 12);
+  \coordinate (F) at (12, 18);
+  \coordinate (G) at (11, 22);
+
 #+end_src
 
 *** Grid
 
 #+begin_src latex :noweb-ref ex6.20:grid
   \draw[help lines]
-    ( 2, 22) -- ( 2, 0)
-    ( 4, 22) -- ( 4, 0) node[below] {$1$}
-    ( 6, 22) -- ( 6, 0)
-    ( 8, 22) -- ( 8, 0) node[below] {$2$}
-    (10, 22) -- (10, 0)
-    (12, 22) -- (12, 0) node[below] {$3$}
-    (14, 22) -- (14, 0)
-    (16, 22) -- (16, 0) node[below] {$4$}
-    (18, 22) -- (18, 0)
-    (20, 22) -- (20, 0) node[below] {$5$}
-    (22, 22) -- (22, 0)
-    (24, 22) -- (24, 0) node[below] {$6$}
-    (26, 22) -- (26, 0)
-    (28, 22) -- (28, 0) node[below] {$7$}
-    (30, 22) -- (30, 0)
-    (32, 22) -- (32, 0) node[below] {$8$}
-    (34, 22) -- (34, 0)
-    (36, 22) -- (36, 0) node[below] {$9$}
-    (38, 22) -- (38, 0)
-    (40, 22) -- (40, 0) node[below] {$10$}
-    (42, 22) -- (42, 0)
-    (44, 22) -- (44, 0) node[below] {$11$}
+    ( 2, 22.5) -- ( 2, 0)
+    ( 4, 22.5) -- ( 4, 0) node[below] {$4$}
+    ( 6, 22.5) -- ( 6, 0)
+    ( 8, 22.5) -- ( 8, 0) node[below] {$8$}
+    (10, 22.5) -- (10, 0)
+    (12, 22.5) -- (12, 0) node[below] {$12$}
+    (14, 22.5) -- (14, 0)
+    (16, 22.5) -- (16, 0) node[below] {$16$}
+    (18, 22.5) -- (18, 0)
+    (20, 22.5) -- (20, 0) node[below] {$20$}
+    (22, 22.5) -- (22, 0)
+    (24, 22.5) -- (24, 0) node[below] {$24$}
+    (26, 22.5) -- (26, 0)
+    (28, 22.5) -- (28, 0) node[below] {$28$}
+    (30, 22.5) -- (30, 0)
+    (32, 22.5) -- (32, 0) node[below] {$32$}
+    (34, 22.5) -- (34, 0)
+    (36, 22.5) -- (36, 0) node[below] {$36$}
+    (38, 22.5) -- (38, 0)
+    (40, 22.5) -- (40, 0) node[below] {$40$}
+    (42, 22.5) -- (42, 0)
+    (44, 22.5) -- (44, 0) node[below] {$44$}
   ;
 
   \draw[help lines]
-    (44,  2) -- (0,  2)
-    (44,  4) -- (0,  4) node[left] {$1$}
-    (44,  6) -- (0,  6)
-    (44,  8) -- (0,  8) node[left] {$2$}
-    (44, 10) -- (0, 10)
-    (44, 12) -- (0, 12) node[left] {$3$}
-    (44, 14) -- (0, 14)
-    (44, 16) -- (0, 16) node[left] {$4$}
-    (44, 18) -- (0, 18)
-    (44, 20) -- (0, 20) node[left] {$5$}
-    (44, 22) -- (0, 22)
+    (44.5,  2) -- (0,  2)
+    (44.5,  4) -- (0,  4) node[left] {$4$}
+    (44.5,  6) -- (0,  6)
+    (44.5,  8) -- (0,  8) node[left] {$8$}
+    (44.5, 10) -- (0, 10)
+    (44.5, 12) -- (0, 12) node[left] {$12$}
+    (44.5, 14) -- (0, 14)
+    (44.5, 16) -- (0, 16) node[left] {$16$}
+    (44.5, 18) -- (0, 18)
+    (44.5, 20) -- (0, 20) node[left] {$20$}
+    (44.5, 22) -- (0, 22)
   ;
 #+end_src
 
 *** Budget lines
 #+begin_src latex :noweb-ref ex6.20:lines
-  \draw[curve, thick]
+  \draw[curve, semithick]
     (0, 4) -- (8, 0)
     (0, 8) -- (16, 0)
     (0, 12) -- (24, 0)
     (0, 16) -- (32, 0)
     (0, 20) -- (40, 0)
+    (4, 22) -- (44, 2)
     ;
 #+end_src
 
@@ -325,14 +328,23 @@
 
 *** Curve
 #+begin_src latex :noweb-ref ex6.20:crc
-  \draw[curve, very thick, use Hobby shortcut]
-    (A) .. (B) .. (C) .. (D) .. (E) .. (F);
+  \draw[curve, very thick,
+    use Hobby shortcut,
+    tangent/.style={%
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,},]
+    ([tangent=60]0, 0) .. (A) .. (B) ..
+    (C) .. ([tangent=90]D) .. (E) .. (F) .. (G)
+    (G) node[above] {\CRC};
   \draw[curve, very thick]
     (A) node[dot]  {}
     (B) node[dot]  {}
     (C)  node[dot]  {}
     (D)  node[dot]  {}
-    (E)  node[dot]  {};
+    (E)  node[dot]  {}
+    (F)  node[dot]  {};
 #+end_src
 
 
