@@ -151,6 +151,24 @@ pero no lo hizo: su utilidad es menor.
 
 
 
+* 6.21
+
+En un mercado participan $n$ consumidores idénticos y la curva de
+demanda de cada uno de ellos es:
+#+begin_export latex
+  \[ X_i^d(P_X) = a - b P_X \qquad
+     \begin{array}{l}a,b > 0\\ i = 0, 1, \dots, n\end{array}\]
+#+end_export
+
+a) Determine la pendiente de la curva de demanda de mercado. Al
+   representarla gráficamente, ¿será más o menos plana que las curvas
+   de demanda individuales?
+
+b) ¿Qué relación existe entre la elasticidad precio de las demandas
+   individuales y la elasticidad de la curva de demanda de mercado?
+
+
+
 * 6.6.
 
 Tanto Adela como Blas disponen de \money{100} para gastar en los
