@@ -216,6 +216,17 @@ Blas: sustitutivos perfectos.
 #+end_export
 
 
+* 6.23
+
+A Rocío le gusta tomar leche con cereales. Siempre los combina en la
+misma proporción: añade exactamente \units[g]{20} de cereales por cada
+\units[ml]{250} de leche y desecha cualquier cantidad sobrante de
+leche o cereales. Obtenga la curva de demanda de cereales sabiendo que
+el precio de la leche es de \price[l]{0.80} y que Rocío gasta
+\money{6} al mes en leche y cereales. Si los cereales se venden
+a \price[kg]{2}, ¿qué cantidad demandará Rocío?
+
+
 * 6.12.
 
 El alcalde de Lazy Town ha decidido introducir un nuevo impuesto
