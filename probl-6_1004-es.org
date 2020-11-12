@@ -132,6 +132,23 @@ b) Curva de demanda:
    #+xxx: fig fig-ans-probl-6_1004-cpc2-*.pdf
 
 
+* 6.22
+
+El siguiente gráfico muestra la curva precio consumo de un consumidor
+cuando el el precio del bien $Y$ es $P_Y = \price{2}$ y la renta es $M
+= \money{120}$:
+
+#+xxx: fig fig-probl-6_1004-cpc22-*.pdf
+
+a) ¿Cuántas unidades de $X$ compraría el consumidor si el precio de
+   este bien es $P_X = \price{1}$?.
+
+b) Obtenga también la cantidad óptima de $X$ cuando $P_X$ toma los
+   valores $2, 3, 4$, y \price{5} y represente la curva de demanda de
+   $X$.
+
+c) ¿Qué tipo de relación existe entre los bienes $X$ e $Y$?
+
 
 * 5.5
 
@@ -229,10 +246,10 @@ b) Calcule la elección óptima de Stephanie después de la
 
 c) Ante las protestas de los habitantes de la ciudad, el alcalde
    decide mantener el impuesto pero entregar a cada ciudadano
-   \money{14.50} en metálico. Calcule cuantas latas consumirá
-   ahora Stephanie. ¿Sigue consumiendo menos refrescos que en la
-   situación inicial?  ¿Entregará el ayuntamiento más dinero que
-   el que recaude con el impuesto?
+   \money{14.50} en metálico. Calcule cuantas latas consumirá ahora
+   Stephanie. ¿Sigue consumiendo menos refrescos que en la situación
+   inicial?  ¿Bastará con la recaudación del impuesto para pagar las
+   transferencias en metálico a los ciudadanos?
 
 ** Answer
 

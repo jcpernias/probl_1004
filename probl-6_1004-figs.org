@@ -349,6 +349,120 @@
 
 
 
+* 6.22 Price consumption curve
+
+
+** Figures
+
+#+begin_src latex :tangle fig-probl-6_1004-cpc22.tex
+  \begin{tikzpicture}<<ex6.22:xy-scale>>
+
+    <<ex6.22:coordinates>>
+    <<ex6.22:grid>>
+
+    <<ex6.22:cpc>>
+
+    <<ex6.22:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex6.22:axes
+  \draw[axis, very thick] (0, 80) node[left] {$Y$} |-
+    (135, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.22:xy-scale
+  [xscale = 0.0625, yscale = 0.0625]
+#+end_src
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex6.22:coordinates
+  \coordinate (A) at (12.5, 27.5);
+  \coordinate (B) at (15, 22.5);
+  \coordinate (C) at (25, 10);
+  \coordinate (D) at (30, 15);
+  \coordinate (E) at (35, 25);
+  \coordinate (F) at (50, 35);
+  \coordinate (G) at (57.5, 37.5);
+
+#+end_src
+
+*** Grid
+
+#+begin_src latex :noweb-ref ex6.22:grid
+  \draw[help lines]
+    (  5, 72) -- (  5, 0)
+    ( 10, 72) -- ( 10, 0)
+    ( 15, 72) -- ( 15, 0)
+    ( 25, 72) -- ( 25, 0)
+    ( 30, 72) -- ( 30, 0)
+    ( 35, 72) -- ( 35, 0)
+    ( 45, 72) -- ( 45, 0)
+    ( 50, 72) -- ( 50, 0)
+    ( 55, 72) -- ( 55, 0)
+    ( 65, 72) -- ( 65, 0)
+    ( 70, 72) -- ( 70, 0)
+    ( 75, 72) -- ( 75, 0)
+    ( 85, 72) -- ( 85, 0)
+    ( 90, 72) -- ( 90, 0)
+    ( 95, 72) -- ( 95, 0)
+    (105, 72) -- (105, 0)
+    (110, 72) -- (110, 0)
+    (115, 72) -- (115, 0)
+    (125, 72) -- (125, 0)
+  ;
+
+  \draw[help lines]
+    (127,  5) -- (0,  5)
+    (127, 10) -- (0, 10)
+    (127, 15) -- (0, 15)
+    (127, 25) -- (0, 25)
+    (127, 30) -- (0, 30)
+    (127, 35) -- (0, 35)
+    (127, 45) -- (0, 45)
+    (127, 50) -- (0, 50)
+    (127, 55) -- (0, 55)
+    (127, 65) -- (0, 65)
+    (127, 70) -- (0, 70)
+  ;
+
+  \draw[help lines, semithick, black!60!white]
+    ( 20, 72) -- ( 20, 0) node[below] {$20$}
+    ( 40, 72) -- ( 40, 0) node[below] {$40$}
+    ( 60, 72) -- ( 60, 0) node[below] {$60$}
+    ( 80, 72) -- ( 80, 0) node[below] {$80$}
+    (100, 72) -- (100, 0) node[below] {$100$}
+    (120, 72) -- (120, 0) node[below] {$120$}
+    (127, 20) -- (0, 20) node[left] {$20$}
+    (127, 40) -- (0, 40) node[left] {$40$}
+    (127, 60) -- (0, 60) node[left] {$60$}
+  ;
+
+#+end_src
+
+*** Curve
+#+begin_src latex :noweb-ref ex6.22:cpc
+  \draw[curve, very thick,
+    use Hobby shortcut,
+    tangent/.style={%
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,},]
+    (A) .. (B) ..
+    (C) .. (D) .. (E) .. (F) .. (G)
+    (G) node[right, fill=white,inner sep=2pt] {\CPC};
+#+end_src
+
+
+
 * Corner solution and demand curve
 :PROPERTIES:
 :header-args: :tangle no
