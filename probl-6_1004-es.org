@@ -136,16 +136,17 @@ b) Curva de demanda:
 * 6.22
 
 El siguiente gráfico muestra la curva precio consumo de un consumidor
-cuando el el precio del bien $Y$ es $P_Y = \price{2}$ y la renta es $M
+cuando el precio del bien $Y$ es $P_Y = \price{2}$ y la renta es $M
 = \money{120}$:
 
 #+xxx: fig fig-probl-6_1004-cpc22-*.pdf
 
 a) ¿Cuántas unidades de $X$ compraría el consumidor si el precio de
-   este bien es $P_X = \price{1}$?.
+   este bien es $P_X = \price{2}$? ¿Y cuántas unidades compraría del
+   bien $Y$?
 
-b) Obtenga también la cantidad óptima de $X$ cuando $P_X$ toma los
-   valores $2, 3, 4$, y \price{5} y represente la curva de demanda de
+b) Obtenga también la cantidad demandada de $X$ cuando $P_X$ toma los
+   valores $3, 4, 4.8$, y \price{6} y represente la curva de demanda de
    $X$.
 
 c) ¿Qué tipo de relación existe entre los bienes $X$ e $Y$?
