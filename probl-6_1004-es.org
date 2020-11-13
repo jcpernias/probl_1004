@@ -28,7 +28,7 @@ La elasticidad renta es positiva: el bien $X$ es un bien normal.
 
 
 
-* 6.20
+* 6.2
 
 El siguiente gráfico muestra la curva renta consumo de un consumidor
 cuando el precio del bien $X$ es $P_X = \price{10}$ y el precio del
@@ -65,7 +65,7 @@ b) El bien $Y$ es inferior para rentas superiores a
    #+xxx: fig fig-ans-probl-6_1004-crc3-*.pdf
 
 
-* 6.2.
+* 6.4.
 
 Considere un consumidor que sólo compra dos bienes. ¿Pueden ser los
 dos bienes inferiores simultáneamente?
@@ -133,7 +133,7 @@ b) Curva de demanda:
    #+xxx: fig fig-ans-probl-6_1004-cpc2-*.pdf
 
 
-* 6.22
+* 6.6
 
 El siguiente gráfico muestra la curva precio consumo de un consumidor
 cuando el precio del bien $Y$ es $P_Y = \price{2}$ y la renta es $M
@@ -152,7 +152,7 @@ b) Obtenga también la cantidad demandada de $X$ cuando $P_X$ toma los
 c) ¿Qué tipo de relación existe entre los bienes $X$ e $Y$?
 
 
-* 5.5
+* 6.7
 
 La cesta óptima de un consumidor con preferencias regulares contiene
 cantidades positivas de todos los bienes. Si aumenta el precio de un
@@ -170,7 +170,7 @@ pero no lo hizo: su utilidad es menor.
 
 
 
-* 6.21
+* 6.8
 
 En un mercado participan $n$ consumidores idénticos y la curva de
 demanda de cada uno de ellos es:
@@ -188,7 +188,7 @@ b) ¿Qué relación existe entre la elasticidad precio de las demandas
 
 
 
-* 6.6.
+* 6.9.
 
 Tanto Adela como Blas disponen de \money{100} para gastar en los
 bienes $X$ e $Y$.  A Adela sólo le importa cuántas unidades de $X$
@@ -218,7 +218,7 @@ Blas: sustitutivos perfectos.
 #+end_export
 
 
-* 6.23
+* 6.10
 
 A Rocío le gusta tomar leche con cereales. Siempre los combina en la
 misma proporción: añade exactamente \units[g]{20} de cereales por cada
@@ -229,7 +229,7 @@ el precio de la leche es de \price[l]{0.80} y que Rocío gasta
 a \price[kg]{2}, ¿qué cantidad demandará Rocío?
 
 
-* 6.12.
+* 6.11.
 
 El alcalde de Lazy Town ha decidido introducir un nuevo impuesto
 sobre las refrescos azucarados de \money{0.50} por lata de
@@ -291,7 +291,7 @@ c) Restricción presupuestaria: $484.5 = R + Y$.
 
 
 
-* 6.7.                                                             :noexport:
+* OLD 6.7.                                                         :noexport:
 
 Las preferencias de un consumidor vienen dadas por la función de
 utilidad: $U(X, Y) = X^{1/4} Y^{1/8}$ y su renta es $M =
@@ -350,7 +350,7 @@ c) Para determinar los consumos si sólo cambiaran los precios relativos y se ma
 
 
 
-* 6.8.                                                             :noexport:
+* OLD 6.8.                                                         :noexport:
 
 Los bienes $X$ e $Y$ son complementos perfectos. Represente
 gráficamente como cambiaría la elección de consumo óptima si aumenta
@@ -363,7 +363,7 @@ El efecto sustitución es nulo y coinciden efecto renta y efecto total.
 #+xxx: fig fig-ans-probl-6_1004-compl-*.pdf
 
 
-* 6.9.                                                             :noexport:
+* OLD 6.9.                                                         :noexport:
 
 Dulce sigue comprando la misma cantidad de sal a pesar de que su
 precio ha disminuido un 50%. ¿Quiere esto decir que el efecto
@@ -377,7 +377,7 @@ efecto renta es positivo y la sal es inferior para Dulce.
 
 
 
-* 6.10.                                                            :noexport:
+* OLD 6.10.                                                        :noexport:
 
 "La cantidad demandada de un bien Giffen aumenta cuando aumenta su
 precio y también aumenta cuando crece la renta de los
@@ -390,7 +390,7 @@ No: los bienes Giffen son inferiores.
 
 
 
-* 6.11.                                                            :noexport:
+* OLD 6.11.                                                        :noexport:
 
 El siguiente gráfico muestra las elecciones óptimas de un
 consumidor antes y después de una disminución del precio del bien
