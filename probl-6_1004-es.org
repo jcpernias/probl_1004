@@ -30,13 +30,14 @@ La elasticidad renta es positiva: el bien $X$ es un bien normal.
 
 * 6.20
 
-El siguiente gráfico muestra la curva renta consumo de un consumidor:
+El siguiente gráfico muestra la curva renta consumo de un consumidor
+cuando el precio del bien $X$ es $P_X = \price{10}$ y el precio del
+bien $Y$ es $\price{20}$:
 
 #+xxx: fig fig-probl-6_1004-crc20-*.pdf
 
-Sabiendo que el precio del bien $X$ es $P_X = \price{10}$ y que el
-precio del bien $Y$ es $\price{20}$ represente gráficamente las curvas
-de Engel de ambos bienes. ¿Qué tipo de bienes son $X$ e $Y$?
+Represente gráficamente las curvas de Engel de ambos bienes. ¿Qué tipo
+de bienes son $X$ e $Y$?
 
 
 * 6.3.
