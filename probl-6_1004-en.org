@@ -12,14 +12,12 @@ of good is X?
 
 * 6.2
 
-El siguiente gráfico muestra la curva renta consumo de un consumidor
-cuando el precio del bien $X$ es $P_X = \price{10}$ y el precio del
-bien $Y$ es $\price{20}$:
+The following graph shows the ICC of a consumer when the price of good
+$X$ is $P_X = \price{10}$ and the price of good $Y$ is $\price{20}$:
 
 #+xxx: fig fig-probl-6_1004-crc20-*.pdf
 
-Represente gráficamente las curvas de Engel de ambos bienes. ¿Qué tipo
-de bienes son $X$ e $Y$?
+Plot the Engel curve for the two goods. What kind of goods are $X$ and $Y$?
 
 
 
@@ -41,8 +39,8 @@ b) Is any of the two goods an inferior good? For what values of the
 
 * 6.4
 
-Consider a consumer who only buys two goods. Is it possible that they
-are both inferior goods simultaneously?
+Consider a consumer who only buys two goods. Is it possible that the
+two goods are inferior goods simultaneously?
 
 
 * 6.5
@@ -57,30 +55,28 @@ function:
 The price of good $X$ is \price{6}, the price of good $Y$ is
 \price{8} and the consumer has an income of \money{240}.
 
-a) Obtain and draw the price-consumption curve. What kind of relationship
+a) Obtain and plot the price-consumption curve. What kind of relationship
    exists between $X$ and $Y$?
 
-b) Obtain and draw the demand curve for good $X$. Calcualte the price
+b) Obtain and plot the demand curve for good $X$. Calculate the price
    elasticity of demand.
 
 
 * 6.6
 
-El siguiente gráfico muestra la curva precio consumo de un consumidor
-cuando el precio del bien $Y$ es $P_Y = \price{2}$ y la renta es $M
-= \money{120}$:
+The following graph shows the PCC of a consumer when the price of good
+$Y$ is $P_Y = \price{2}$ and the income is $M= \money{120}$:
 
 #+xxx: fig fig-probl-6_1004-cpc22-*.pdf
 
-a) ¿Cuántas unidades de $X$ compraría el consumidor si el precio de
-   este bien es $P_X = \price{2}$? ¿Y cuántas unidades compraría del
-   bien $Y$?
+a) How many units of good $X$ would the consumer buy if the price of
+   that good is $P_X = \price{2}$? And how many units would she buy of
+   good $Y$?
 
-b) Obtenga también la cantidad demandada de $X$ cuando $P_X$ toma los
-   valores $3, 4, 4.8$, y \price{6} y represente la curva de demanda de
-   $X$.
+b) Also obtain the quantity demanded of $X$ when $P_X$ takes the values
+   $3, 4, 4.8$, and \price{6} and represent the demand curve of good $X$.
 
-c) ¿Qué tipo de relación existe entre los bienes $X$ e $Y$?
+c) What kind of relationship does it exist between goods $X$ and $Y$?
 
 
 * 6.7
@@ -94,19 +90,19 @@ consumer's utility varies along the demand curve. Justify your answers.
 
 * 6.8
 
-En un mercado participan $n$ consumidores idénticos y la curva de
-demanda de cada uno de ellos es:
+In a market $n$ identical consumers participate and the demand curve
+for each one of them is:
 #+begin_export latex
   \[ X_i^d(P_X) = a - b P_X \qquad
      \begin{array}{l}a,b > 0\\ i = 0, 1, \dots, n\end{array}\]
 #+end_export
 
-a) Determine la pendiente de la curva de demanda de mercado. Al
-   representarla gráficamente, ¿será más o menos plana que las curvas
-   de demanda individuales?
+a) Determine the slope of the market demand curve. When you represent
+   it graphically, will be the slope higher or lower that that of the
+   individual demand curves?
 
-b) ¿Qué relación existe entre la elasticidad precio de las demandas
-   individuales y la elasticidad de la curva de demanda de mercado?
+b) What is the relationship between the price elasticity of individual
+   demands and the price elasticity of the market demand curve?
 
 
 
@@ -114,7 +110,7 @@ b) ¿Qué relación existe entre la elasticidad precio de las demandas
 
 Both Adela and Blas have \money{100} to spend on goods $X$ and
 $Y$. Adela only cares about how many units of $X$ she can consume,
-since she do not get any satisfaction from good $Y$. On the other
+since she does not get any satisfaction from good $Y$. On the other
 side, Blas is always willing to exchange a unit of good $X$ for a
 unit of good $Y$. The prices of the goods are $P_X = \price{2}$ and
 $P_Y = \price{4}$. Obtain the demand curves for good $X$ of Adela
@@ -123,13 +119,13 @@ and Blas.
 
 * 6.10
 
-A Rocío le gusta tomar leche con cereales. Siempre los combina en la
-misma proporción: añade exactamente \units[g]{20} de cereales por cada
-\units[ml]{250} de leche y desecha cualquier cantidad sobrante de
-leche o cereales. Obtenga la curva de demanda de cereales sabiendo que
-el precio de la leche es de \price[l]{0.80} y que Rocío gasta
-\money{6} al mes en leche y cereales. Si los cereales se venden
-a \price[kg]{2}, ¿qué cantidad demandará Rocío?
+Rocío likes eating milk with cereals. She always combines them in the
+same proportion: she adds exactly \units[g]{20} of cereals by each
+[ml]{250} of milk and she throws away all the additional amount of
+either milk or cereals.  Obtain the demand curve for cereals knowing
+that the price of milk is \price[l]{0.80} and that Rocío spends
+\money{6} per month on milk and cereals. If cereals are sold at
+\price[kg]{2}, which quantity will Rocío demand?
 
 
 * 6.11
@@ -139,8 +135,7 @@ sugary drinks of \money{0.50} per can of soda. The tax is
 completely transferred to buyers and the price of the can
 increases from \money{0.50} to \money{1.00}.
 
-Stephanie is a typical citizen of Lazy Town whose utility function
-is:
+Stephanie is a typical citizen of Lazy Town whose utility function is:
 #+begin_export latex
 \[
   U (S, Y) = (S + 20)^{0.1} Y^{0.9}
@@ -168,7 +163,7 @@ c) In view of the increasing complaints from the inhabitants of
 
 * OLD 6.7                                                          :noexport:
 
-The Preferences of a consumer are given by the utility function:
+The preferences of a consumer are given by the utility function:
 $U(X, Y) = X^{1/4} Y^{1/8}$ and her income is $M = \money{17496}$.
 Prices are $P_X = \price{54}$ and $P_Y = \price{36}$.
 
