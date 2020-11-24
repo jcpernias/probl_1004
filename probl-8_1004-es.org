@@ -105,12 +105,14 @@ a) Represente las curvas de producto total en cada caso.
 b) ¿Cumple alguna de esas funciones de producción la ley de
    rendimientos decrecientes del factor trabajo?
 
+
 * 8.11
 
 Dibuje en cada uno de los siguientes gráficos donde se situaría la
 curva de producto marginal del trabajo. Justifique su respuesta.
 
 #+xxx: fig fig-probl-8_1004-ex11-pmel-*.pdf
+
 
 * 8.2.
 
@@ -130,8 +132,8 @@ o no.
 
 La producción por trabajador en una empresa es de 20 sillas al día. El
 propietario de la empresa ha calculado que un trabajador adicional
-elevaría la producción diaria en 10 sillas. ¿Aumentará el producto
-medio si la empresa contrata otro trabajador?
+elevaría la producción diaria en 10 sillas. ¿Qué ocurrirá con el
+producto medio si la empresa contrata otro trabajador?
 
 
 ** Answer
@@ -194,10 +196,10 @@ uso del factor capital."
 
 * 8.7.
 
-Una fábrica utiliza trabajo y capital para producir
-zapatos. Después de aumentar el número de trabajadores en un 50% la
-producción crece en un 60%. ¿Quiere esto decir que la función de
-producción de la empresa presenta rendimientos crecientes a escala?
+Una fábrica utiliza trabajo y capital para producir zapatos. Después
+de aumentar el número de trabajadores en un 50% la producción crece en
+un 60%. ¿Qué tipo de rendimientos a escala presenta la función de
+producción de la empresa?
 
 
 ** Answer
