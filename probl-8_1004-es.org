@@ -148,9 +148,9 @@ producción de una empresa:
 
 #+xxx: fig fig-probl-8_1004-ex8-const-returns-*.pdf
 
-a) Si la empresa produce 250 unidades y contrata 5 trabajadores,
-   ¿cuántas unidades de capital está utilizando? ¿Y si produce 125
-   unidades con 4 trabajadores?
+a) Si la empresa produce eficientemente 250 unidades y contrata 5
+   trabajadores, ¿cuántas unidades de capital está utilizando? ¿Y si
+   produce 125 unidades con 4 trabajadores?
 
 b) Si la empresa está empleando 8 trabajadores y 6 unidades de
    capital, ¿es posible que la producción sea de 400 unidades?
@@ -181,8 +181,9 @@ c) Rendimientos constantes a escala: por ejemplo, comparar producción
 * 8.6.
 
 ¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
-empresa con rendimientos constantes de escala verá duplicada su
-producción cuando duplique el uso del factor capital."
+empresa cuya función de producción $Q = F(K, L)$ presenta rendimientos
+constantes de escala verá duplicada su producción cuando duplique el
+uso del factor capital."
 
 
 ** Answer
@@ -255,14 +256,17 @@ E. $Q  = (K + L)^{2}$
 Responda a las siguientes preguntas para cada una de las funciones
 de producción:
 
-a) ¿Qué tipo de rendimientos de escala presenta la función de
+a) <<ex8.11:item-a>>¿Qué tipo de rendimientos de escala presenta la función de
    producción?
 
 b) Obtenga la tasa de sustitución entre los factores de producción.
 
-c) Compruebe si se cumple la ley de rendimientos marginales
+c) <<ex8.11:item-b>>Compruebe si se cumple la ley de rendimientos marginales
    decrecientes cuando $\Kbar=16 \text{\ unidades}$.
 
+d) Comparando los resultados de [[ex8.11:item-a]] y [[ex8.11:item-b]], ¿hay
+   algún tipo de relación entre los rendimientos de escala y los
+   rendimientos del factor trabajo?
 
 ** Answer
 
