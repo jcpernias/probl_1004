@@ -105,6 +105,7 @@
     \end{tikzpicture}
    #+end_src
 
+
 ** 8.9 Increasing returns
 
   #+begin_src latex :tangle fig-probl-8_1004-ex8-incr-returns.tex
@@ -152,4 +153,64 @@
 
 #+begin_src latex :noweb-ref ex8:xy-scale
   [xscale=0.45,yscale=0.45]
+#+end_src
+
+* 8.11 Average and marginal product
+
+#+begin_src latex :tangle fig-probl-8_1004-ex11-pmel.tex
+  \begin{tikzpicture}[xscale = 1.5, yscale = 1.5]
+
+    \begin{scope}[xscale=0.5, yscale=0.5]
+
+      \draw[curve, very thick]
+      (0.5, 1) .. controls (1.9, 4) and (2.7, 3) .. (6, 0.5)
+      (6, 0.5) node[right] {$\PMeL$}
+      ;
+
+      \draw[axis, very thick]
+      (0, 5.5) node[left] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
+
+      \node[font=\large\bfseries] at (3.5, 5.5) {(A)} ;
+
+    \end{scope}
+
+    \begin{scope}[xscale=0.5, yscale=0.5, xshift=8cm]
+
+      \draw[curve, very thick]
+      (0.5, 5) .. controls (1.9, 4) and (2.7, 2) .. (6, 0.5)
+      (6, 0.5) node[right] {$\PMeL$}
+      ;
+
+      \draw[axis, very thick]
+      (0, 5.5) node[left] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
+
+      \node[font=\large\bfseries] at (3.5, 5.5) {(B)} ;
+    \end{scope}
+
+    \begin{scope}[xscale=0.5, yscale=0.5, yshift=-7.5cm]
+
+
+      \draw[curve, very thick]
+      (0.5, 0.2) .. controls (1.9, 2.8) and (4.7, 3.2) .. (6, 3.5)
+      (6, 3.5) node[right] {$\PMeL$}
+      ;
+
+      \draw[axis, very thick]
+      (0, 5.5) node[left] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
+
+      \node[font=\large\bfseries] at (3.5, 5.5) {(C)} ;
+    \end{scope}
+
+    \begin{scope}[xscale=0.5, yscale=0.5, yshift=-7.5cm, xshift=8cm]
+
+      \draw[curve, very thick]
+      (0.5, 2.5) -- (6, 2.5) node[right] {$\PMeL$}
+      ;
+
+      \draw[axis, very thick]
+      (0, 5.5) node[left] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
+
+      \node[font=\large\bfseries] at (3.5, 5.5) {(D)} ;
+    \end{scope}
+  \end{tikzpicture}
 #+end_src

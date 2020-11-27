@@ -48,35 +48,6 @@ marginal es negativo.
 
 
 
-* 8.2.
-
-Si el producto marginal del trabajo es decreciente en el corto plazo,
-¿el producto medio debe ser también decreciente?
-
-
-** Answer
-
-No: el producto medio decrece cuando el producto marginal es inferior
-al medio, independientemente de que el producto marginal sea creciente
-o no.
-
-
-
-* 8.3.
-
-La producción por trabajador en una empresa es de 20 sillas al día. El
-propietario de la empresa ha calculado que un trabajador adicional
-elevaría la producción diaria en 10 sillas. ¿Aumentará el producto
-medio si la empresa contrata otro trabajador?
-
-
-** Answer
-
-No: el producto marginal es menor que el medio, por lo que el producto
-medio es decreciente.
-
-
-
 * 8.4.
 
 Dada la función de producción $Q = L^2 K - 0.01 L^3$ y sabiendo que
@@ -116,17 +87,60 @@ c)
    #+xxx: fig fig-ans-probl-8_1004-ex4-fprod-*.pdf
 
 
-* 8.6.
+* 8.10
 
-¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
-empresa con rendimientos constantes de escala verá duplicada su
-producción cuando duplique el uso del factor capital."
+Con las siguientes funciones de producción:
+
+#+ATTR_LATEX: :options [leftmargin=4pc, labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
+A. $Q  = 2 K + 3 L$
+
+B. $Q  = K^{1/2} L^{1/2}$
+
+C. $Q  = K L^2$
+
+y sabiendo que el capital es un factor fijo, $\Kbar = 4$:
+
+a) Represente las curvas de producto total en cada caso.
+
+b) ¿Cumple alguna de esas funciones de producción la ley de
+   rendimientos decrecientes del factor trabajo?
+
+
+* 8.11
+
+Dibuje en cada uno de los siguientes gráficos donde se situaría la
+curva de producto marginal del trabajo. Justifique su respuesta.
+
+#+xxx: fig fig-probl-8_1004-ex11-pmel-*.pdf
+
+
+* 8.2.
+
+Si el producto marginal del trabajo es decreciente en el corto plazo,
+¿el producto medio debe ser también decreciente?
 
 
 ** Answer
 
-  Es incorrecta. Se duplicará la producción cuando se duplique el
-  uso de /todos/ los factores de producción.
+No: el producto medio decrece cuando el producto marginal es inferior
+al medio, independientemente de que el producto marginal sea creciente
+o no.
+
+
+
+* 8.3.
+
+La producción por trabajador en una empresa es de 20 sillas al día. El
+propietario de la empresa ha calculado que un trabajador adicional
+elevaría la producción diaria en 10 sillas. ¿Qué ocurrirá con el
+producto medio si la empresa contrata otro trabajador?
+
+
+** Answer
+
+No: el producto marginal es menor que el medio, por lo que el producto
+medio es decreciente.
+
 
 
 * 8.8.
@@ -136,9 +150,9 @@ producción de una empresa:
 
 #+xxx: fig fig-probl-8_1004-ex8-const-returns-*.pdf
 
-a) Si la empresa produce 250 unidades y contrata 5 trabajadores,
-   ¿cuántas unidades de capital está utilizando? ¿Y si produce 125
-   unidades con 4 trabajadores?
+a) Si la empresa produce eficientemente 250 unidades y contrata 5
+   trabajadores, ¿cuántas unidades de capital está utilizando? ¿Y si
+   produce 125 unidades con 4 trabajadores?
 
 b) Si la empresa está empleando 8 trabajadores y 6 unidades de
    capital, ¿es posible que la producción sea de 400 unidades?
@@ -164,6 +178,34 @@ b) La producción no puede ser de $400$ unidades: la combinación
 c) Rendimientos constantes a escala: por ejemplo, comparar producción
    en $(5, 5)$ y $(10, 10)$.
 
+
+
+* 8.6.
+
+¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
+empresa cuya función de producción $Q = F(K, L)$ presenta rendimientos
+constantes de escala verá duplicada su producción cuando duplique el
+uso del factor capital."
+
+
+** Answer
+
+  Es incorrecta. Se duplicará la producción cuando se duplique el
+  uso de /todos/ los factores de producción.
+
+
+* 8.7.
+
+Una fábrica utiliza trabajo y capital para producir zapatos. Después
+de aumentar el número de trabajadores en un 50% la producción crece en
+un 60%. ¿Qué tipo de rendimientos a escala presenta la función de
+producción de la empresa?
+
+
+** Answer
+
+  No: si sólo aumenta el trabajo no es posible deducir nada sobre
+  los rendimientos a escala.
 
 
 * 8.9.
@@ -196,42 +238,37 @@ b) No: los rendimientos del factor trabajo son constantes.
    | $5$     | $10$ | $500$ | $50$                |
    | $5$     | $15$ | $750$ | $50$                |
    |---------+------+-------+---------------------|
-* 8.7.
-
-Una fábrica utiliza trabajo y capital para producir
-zapatos. Después de aumentar el número de trabajadores en un 50% la
-producción crece en un 60%. ¿Quiere esto decir que la función de
-producción de la empresa presenta rendimientos crecientes a escala?
 
 
-** Answer
-
-  No: si sólo aumenta el trabajo no es posible deducir nada sobre
-  los rendimientos a escala.
 * 8.5.
 
 Considere las siguientes funciones de producción:
 
 #+ATTR_LATEX: :options [leftmargin=4pc, labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
-A. $Q  = L^{1/4} K^{3/4}$
+A. $Q  = K^{3/4} L^{1/4}$
 
-B. $Q  = L^{3/2} K^{1/2}$
+B. $Q  = K^{3/2} L^{1/2}$
 
-C. $Q  = 4L + 2K$
+C. $Q  = 2K + 4L$
 
-D. $Q  = (L + K)^{1/2}$
+D. $Q  = (K + L)^{1/2}$
+
+E. $Q  = (K + L)^{2}$
 
 Responda a las siguientes preguntas para cada una de las funciones
 de producción:
 
-a) ¿Qué tipo de rendimientos de escala presenta la función de
+a) <<ex8.11:item-a>>¿Qué tipo de rendimientos de escala presenta la función de
    producción?
 
 b) Obtenga la tasa de sustitución entre los factores de producción.
 
-c) Compruebe si se cumple la ley de rendimientos marginales
+c) <<ex8.11:item-b>>Compruebe si se cumple la ley de rendimientos marginales
    decrecientes cuando $\Kbar=16 \text{\ unidades}$.
 
+d) Comparando los resultados de [[ex8.11:item-a]] y [[ex8.11:item-b]], ¿hay
+   algún tipo de relación entre los rendimientos de escala y los
+   rendimientos del factor trabajo?
 
 ** Answer
 
