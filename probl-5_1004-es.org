@@ -307,9 +307,9 @@ aumentaría si disminuye el consumo de $Y$ y aumenta el de $X$.
 
 * 5.29
 
-Determine la combinación de en consumidor con renta $M = \money{500}$
-y función de utilidad: $U(X, Y) = X^2 (Y + 80)$, siendo los precios de
-los bienes $P_X = \price{2}$ y $P_Y = \price{5}$.
+Determine la combinación óptima de un consumidor con renta $M =
+\money{500}$ y función de utilidad: $U(X, Y) = X^2 (Y + 80)$, siendo
+los precios de los bienes $P_X = \price{2}$ y $P_Y = \price{5}$.
 
 
 * 5.8
