@@ -361,14 +361,14 @@ c) Correcta: a largo plazo siempre existe la opción de hacer lo mismo
 
 La función de producción de una empresa es $Q = 10 K^{1/2} L^{1/2}$ y
 los precios de los factores de producción son $w = \price{20}$ y $r =
-\price{80}$. Inicialmente, la empresa produce 100 unidades utilizando
-20 unidades de trabajo y 5 unidades de capital.
+\price{80}$. Inicialmente, la empresa produce 80 unidades utilizando
+16 unidades de trabajo y 4 unidades de capital.
 
 a) ¿Está minimizando costes la empresa? Si su respuesta es negativa,
    determine las cantidades óptimas de trabajo y capital.
-b) <<ex9.21:item-b>>Si la empresa aumentara su producción a 140 unidades
+b) <<ex9.21:item-b>>Si la empresa aumentara su producción a 100 unidades
    y el capital fuera fijo, ¿cuánto aumentarían los costes de producción?
-c) <<ex9.21:item-c>>Si la empresa aumentara su producción a 140
+c) <<ex9.21:item-c>>Si la empresa aumentara su producción a 100
    unidades y todos los factores fueran variables, ¿cuánto aumentarían
    los costes de producción?
 d) Compare las respuestas obtenidas en los apartados [[ex9.21:item-b]] y
