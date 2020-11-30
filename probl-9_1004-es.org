@@ -1,6 +1,42 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
+* 9.2.
+
+Complete la siguiente tabla que describe los costes a corto plazo
+de una empresa.
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}l*{7}{R{1.3cm}}@{}
+|-----+-------+-------+-------+--------+--------+---------+---------|
+| $Q$ | $\CT$ | $\CF$ | $\CV$ | $\CMg$ | $\CMe$ | $\CFMe$ | $\CVMe$ |
+|-----+-------+-------+-------+--------+--------+---------+---------|
+| $0$ |       |       |       | ---    | ---    | ---     | ---     |
+| $1$ | $86$  |       |       |        |        |         |         |
+| $2$ |       |       | $46$  |        |        |         |         |
+| $3$ |       |       |       | $17$   |        |         |         |
+| $4$ |       |       |       |        |        |         | $19$    |
+| $5$ |       |       |       |        | $29$   |         |         |
+| $6$ | $150$ |       | $90$  |        |        |         |         |
+|-----+-------+-------+-------+--------+--------+---------+---------|
+
+
+** Answer
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}l*{7}{r}@{}
+|-----+-------+-------+-------+--------+--------+---------+---------|
+| $Q$ | $\CT$ | $\CF$ | $\CV$ | $\CMg$ | $\CMe$ | $\CFMe$ | $\CVMe$ |
+|-----+-------+-------+-------+--------+--------+---------+---------|
+| $0$ | $60$  | $60$  | $0$   | ---    | ---    | ---     | ---     |
+| $1$ | $86$  | $60$  | $26$  | $26$   | $86$   | $60$    | $26$    |
+| $2$ | $106$ | $60$  | $46$  | $20$   | $53$   | $30$    | $23$    |
+| $3$ | $123$ | $60$  | $63$  | $17$   | $41$   | $20$    | $21$    |
+| $4$ | $136$ | $60$  | $76$  | $13$   | $34$   | $15$    | $19$    |
+| $5$ | $145$ | $60$  | $85$  | $9$    | $29$   | $12$    | $17$    |
+| $6$ | $150$ | $60$  | $90$  | $5$    | $25$   | $10$    | $15$    |
+|-----+-------+-------+-------+--------+--------+---------+---------|
+
+
+
 * 9.1.
 
 La función de producción de una empresa es: $Q = L^{1/2} K^{1/2}$ y
@@ -40,40 +76,11 @@ c) El mínimo coste medio es \money{28.28} por unidad y se obtiene
 
 
 
-* 9.2.
+* 9.20
 
-Complete la siguiente tabla que describe los costes a corto plazo
-de una empresa.
-
-#+ATTR_LATEX: :booktabs t :center t :align @{}l*{7}{R{1.3cm}}@{}
-|-----+-------+-------+-------+--------+--------+---------+---------|
-| $Q$ | $\CT$ | $\CF$ | $\CV$ | $\CMg$ | $\CMe$ | $\CFMe$ | $\CVMe$ |
-|-----+-------+-------+-------+--------+--------+---------+---------|
-| $0$ |       |       |       | ---    | ---    | ---     | ---     |
-| $1$ | $86$  |       |       |        |        |         |         |
-| $2$ |       |       | $46$  |        |        |         |         |
-| $3$ |       |       |       | $17$   |        |         |         |
-| $4$ |       |       |       |        |        |         | $19$    |
-| $5$ |       |       |       |        | $29$   |         |         |
-| $6$ | $150$ |       | $90$  |        |        |         |         |
-|-----+-------+-------+-------+--------+--------+---------+---------|
-
-
-** Answer
-
-#+ATTR_LATEX: :booktabs t :center t :align @{}l*{7}{r}@{}
-|-----+-------+-------+-------+--------+--------+---------+---------|
-| $Q$ | $\CT$ | $\CF$ | $\CV$ | $\CMg$ | $\CMe$ | $\CFMe$ | $\CVMe$ |
-|-----+-------+-------+-------+--------+--------+---------+---------|
-| $0$ | $60$  | $60$  | $0$   | ---    | ---    | ---     | ---     |
-| $1$ | $86$  | $60$  | $26$  | $26$   | $86$   | $60$    | $26$    |
-| $2$ | $106$ | $60$  | $46$  | $20$   | $53$   | $30$    | $23$    |
-| $3$ | $123$ | $60$  | $63$  | $17$   | $41$   | $20$    | $21$    |
-| $4$ | $136$ | $60$  | $76$  | $13$   | $34$   | $15$    | $19$    |
-| $5$ | $145$ | $60$  | $85$  | $9$    | $29$   | $12$    | $17$    |
-| $6$ | $150$ | $60$  | $90$  | $5$    | $25$   | $10$    | $15$    |
-|-----+-------+-------+-------+--------+--------+---------+---------|
-
+Una empresa se encuentra en una situación tal que $\PMgL =
+\PMeL$. ¿Qué relación existirá entre el coste medio y el coste
+marginal a corto plazo?
 
 
 * 9.3.
@@ -94,10 +101,10 @@ En la elección óptima $K/L = 1/2$. Sustituyendo en la isocuanta $5000
 
 * 9.4.
 
-La propietaria de una empresa ha dibujado el siguiente diagrama
-para decidir qué cantidad de factores que debe de contratar a largo
-plazo. Para dibujar las isocostes ha utilizado los precios de los
-factores $w = \money{16}$ y $r = \money{40}$.
+La propietaria de una empresa ha dibujado el siguiente diagrama para
+decidir qué cantidad de factores debe de contratar a largo plazo si se
+producen 150 unidades y los precios unitarios del trabajo y del capital
+son \money{16} y \money{40}, respectivamente.
 
 #+xxx: fig fig-probl-9_1004-choice-*.pdf
 
@@ -105,7 +112,7 @@ a) Complete el diagrama etiquetando las intersecciones de las
    isocostes con el eje horizontal. ¿Qué interpretación tienen
    estos puntos de corte?
 
-b) Si se producen 150 unidades con un costes de \money{440}, ¿están
+b) Si produce 150 unidades con un costes de \money{440}, ¿está
    minimizando la empresa los costes de producción?
 
 c) Si $\PMgK = 30$ cuando se minimizan los costes, ¿cuál es el
@@ -328,11 +335,14 @@ oportuno):
 
 a) El coste medio se maximiza cuando coincide con el coste marginal.
 
-c) Si el coste marginal es superior al coste medio a largo plazo,
+b) Si el coste marginal es superior al coste medio a largo plazo,
    la empresa está operando con rendimientos crecientes de escala.
 
 c) El coste a largo plazo nunca puede ser mayor que el coste a
    corto plazo.
+
+d) Siempre que el coste marginal es creciente, también es creciente el
+   coste medio.
 
 
 ** Answer
@@ -347,7 +357,32 @@ c) Correcta: a largo plazo siempre existe la opción de hacer lo mismo
 
 
 
-* 9.12.
+* 9.21
+
+La función de producción de una empresa es $Q = 10 K^{1/2} L^{1/2}$ y
+los precios de los factores de producción son $w = \price{20}$ y $r =
+\price{80}$. Inicialmente, la empresa produce 100 unidades utilizando
+20 unidades de trabajo y 5 unidades de capital.
+
+a) ¿Está minimizando costes la empresa? Si su respuesta es negativa,
+   determine las cantidades óptimas de trabajo y capital.
+b) <<ex9.21:item-b>>Si la empresa aumentara su producción a 140 unidades
+   y el capital fuera fijo, ¿cuánto aumentarían los costes de producción?
+c) <<ex9.21:item-c>>Si la empresa aumentara su producción a 140
+   unidades y todos los factores fueran variables, ¿cuánto aumentarían
+   los costes de producción?
+d) Compare las respuestas obtenidas en los apartados [[ex9.21:item-b]] y
+   [[ex9.21:item-c]]. ¿Por qué son diferentes?
+
+* 9.22
+
+Considere una empresa que produce una cantidad para la que se igualan
+los costes de corto plazo y los de largo plazo. Si se produce un
+aumento del salario de un 5%, ¿cómo cambiarán los costes variables
+medios? ¿Y los costes medios a corto plazo? ¿Y los
+costes medios a largo plazo?
+
+* COMMENT 9.12.
 
 Una pequeña empresa dedicada a la producción de guitarras
 eléctricas está planteándose la posibilidad de abrir una nueva
