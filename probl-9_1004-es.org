@@ -80,7 +80,7 @@ c) El mínimo coste medio es \money{28.28} por unidad y se obtiene
 
 Una empresa se encuentra en una situación tal que $\PMgL =
 \PMeL$. ¿Qué relación existirá entre el coste medio y el coste
-marginal a corto plazo?
+marginal a corto plazo? Represente gráficamente.
 
 
 * 9.3.
