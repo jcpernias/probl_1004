@@ -374,13 +374,7 @@ c) <<ex9.21:item-c>>Si la empresa aumentara su producción a 100
 d) Compare las respuestas obtenidas en los apartados [[ex9.21:item-b]] y
    [[ex9.21:item-c]]. ¿Por qué son diferentes?
 
-* 9.22
 
-Considere una empresa que produce una cantidad para la que se igualan
-los costes de corto plazo y los de largo plazo. Si se produce un
-aumento del salario de un 5%, ¿cómo cambiarán los costes variables
-medios? ¿Y los costes medios a corto plazo? ¿Y los
-costes medios a largo plazo?
 
 * COMMENT 9.12.
 
