@@ -24,6 +24,46 @@ Does the law of diminishing marginal returns hold?  Are all the
 labor input levels shown in the table technically efficient?  Why?
 
 
+* 8.4.
+
+Given the production function $Q = L^{2} K - 0.01 L^{3}$ and knowing
+that the capital input is fixed at $\Kbar = 6$, determine:
+
+a) The total product curve.
+
+b) The average and marginal product of labor curves.
+
+c) The levels of labor input that maximize the marginal product, the
+   average product and total product. Represent the results obtained.
+
+
+* 8.10
+
+With the following production functions:
+
+#+ATTR_LATEX: :options [leftmargin=4pc, labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
+A. $Q  = 2 K + 3 L$
+
+B. $Q  = K^{1/2} L^{1/2}$
+
+C. $Q  = K L^2$
+
+and knowing that capital is fixed, $\Kbar = 4$:
+
+a) Draw the total output curves for each function.
+
+b) Do any of these production functions fulfill the law of diminishing
+   returns to labor?
+
+
+* 8.11
+
+In each of the following graphs, draw where the marginal product of labor curve would lie. Justify your answer.
+
+#+xxx: fig fig-probl-8_1004-ex11-pmel-*.pdf
+
+
+
 * 8.2.
 
 If the marginal product of labor is decreasing in the short run,
@@ -38,27 +78,7 @@ daily output by 10 chairs. Will the average product increase if the
 company hires another worker?
 
 
-* 8.4.
-
-Given the production function $Q = L^{2} K - 0.01 L^{3}$ and knowing
-that the capital input is fixed at $\Kbar = 6$, determine:
-
-a) The total product curve.
-
-b) The average and marginal product of labor curves.
-
-c) The levels of labor input that maximize the marginal product, the
-   average product and total product. Represent the results obtained.
-
-
-* 8.5.
-
-Is the following statement correct? Justify your answer: "A company
-with constant returns to scale will double its production when it
-doubles the use of capital input."
-
-
-* 8.6.
+* 8.8.
 
 The following figure shows some isoquants from the production
 function of a firm:
@@ -77,7 +97,23 @@ c) What kind of returns to scale are observed in the production
    function?
 
 
+
+* 8.6.
+
+Is the following statement correct? Justify your answer: "A company
+with constant returns to scale will double its production when it
+doubles the use of capital input."
+
+
 * 8.7.
+
+A factory uses labor and capital inputs to produce shoes. After
+increasing the number of workers by 50% the output grows by
+60%. Does this mean that the production function of this factory
+shows increasing returns to scale?
+
+
+* 8.9.
 
 The following figure shows some isoquants from the production
 function of a firm:
@@ -91,33 +127,32 @@ b) If $\Kbar = 5$, is the law of diminishing marginal returns
    satisfied?
 
 
-* 8.8.
 
-A factory uses labor and capital inputs to produce shoes. After
-increasing the number of workers by 50% the output grows by
-60%. Does this mean that the production function of this factory
-shows increasing returns to scale?
-
-
-* 8.9.
+* 8.5.
 
 Consider the following production functions:
 
 #+ATTR_LATEX: :options [labelwidth=\widthof{XX.}, align=left, label=\Roman*. ]
-A. $Q = L^{1/4} K^{3/4}$
+A. $Q  = K^{3/4} L^{1/4}$
 
-B. $Q = L^{3/2} K^{1/2}$
+B. $Q  = K^{3/2} L^{1/2}$
 
-C. $Q = 4L + 2K$
+C. $Q  = 2K + 4L$
 
-D. $Q = (L + K)^{1/2}$
+D. $Q  = (K + L)^{1/2}$
+
+E. $Q  = (K + L)^{2}$
 
 For each of these production functions:
 
-a) What kind of returns to scale returns shows the production
-   function?
+a) Obtain the rate of substitution among inputs.
 
-b) Obtain the rate of input substitution.
+b) <<ex8.11:item-b>>What kind of returns to scale returns shows the
+   production function?
 
-c) Check whether the law of diminishing marginal returns holds when
-   $\Kbar = 16\text{\ units}$.
+c) <<ex8.11:item-c>>Check whether the law of diminishing marginal
+   returns holds when $\Kbar = 16\text{\ units}$.
+
+d) Comparing the results of [[ex8.11:item-b]] and [[ex8.11:item-c]], is
+   there some kind of relationship between the returns to scale and
+   the returns to the labor input?
