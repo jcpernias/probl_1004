@@ -183,7 +183,7 @@ a) Obtenga las curvas de demanda condicionada de cada factor de
 
 b) Determine la curva de costes a largo plazo, así como las curvas
    de costes medios y marginales. ¿Cuál es el coste total de
-   producir $8000$ unidades?
+   producir \num{8000} unidades?
 
 
 ** Answer

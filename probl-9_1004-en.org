@@ -40,8 +40,8 @@ c) At which output level is average cost minimized?  Which is
 
 * 9.20
 
-A firm is in a situation such that $\PMgL = \PMeL$. What relationship
-exist between its average and marginal cost in the short term?
+A firm is in a situation such that $\PMgL = \PMeL$. Which is the relationship
+between its average and marginal costs in the short run?
 Represent graphically.
 
 
@@ -56,7 +56,7 @@ of producing 5000 units. Which is the minimum cost?
 * 9.4.
 
 The owner of a company has drawn the following diagram to decide how
-many units of labor and capital she should hire in the long run to
+many units of labor and capital she should hire in the long run in order to
 produce 150 units when the unit prices of labor and capital are
 \money{16} and \money{40}, respectively.
 
@@ -105,7 +105,7 @@ a) Obtain the long run conditional demand curves for each factor of
 
 b) Determine the long run cost curve, as well as the average and
    marginal cost curves. Which is the total cost of producing
-   $8000$ units?
+   \num{8000} units?
 
 
 * 9.8.
@@ -124,7 +124,7 @@ company experience economies of scale? And diseconomies of scale?
 
 * 9.9.
 
-Consider the production function: $Q = K L$. The factor prices are
+Consider the production function: $Q = K L$. The inputs prices are
 $w= \wage{1}$ and $r=\price{1}$ and the capital input in the short
 run is fixed at $\Kbar = \units{3}$.
 
