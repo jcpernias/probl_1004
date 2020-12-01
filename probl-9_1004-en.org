@@ -3,22 +3,6 @@
 
 #+MACRO: Inc Inc@@latex:\@.@@
 
-* 9.1.
-
-The production function of a firm is: $Q = L^{1/2} K^{1/2}$ and the
-input prices are $w =\price{10}$ and $r = \price{20}$. In the short
-run the capital input is fixed at $\Kbar = \units{25}$.
-
-a) Obtain and represent the total cost, fixed cost and variable
-   cost curves.
-
-b) Obtain and represent the average cost, average variable cost and
-   marginal cost curves.
-
-c) At which output level is average cost minimized?  Which is
-   the minimum average cost?
-
-
 * 9.2.
 
 Complete the following table describing the short run costs of a
@@ -38,6 +22,29 @@ company.
 |-----+-------+-------+-------+--------+--------+---------+---------|
 
 
+* 9.1.
+
+The production function of a firm is: $Q = L^{1/2} K^{1/2}$ and the
+input prices are $w =\price{10}$ and $r = \price{20}$. In the short
+run the capital input is fixed at $\Kbar = \units{25}$.
+
+a) Obtain and represent the total cost, fixed cost and variable
+   cost curves.
+
+b) Obtain and represent the average cost, average variable cost and
+   marginal cost curves.
+
+c) At which output level is average cost minimized?  Which is
+   the minimum average cost?
+
+
+* 9.20
+
+A firm is in a situation such that $\PMgL = \PMeL$. What relationship
+exist between its average and marginal cost in the short term?
+Represent graphically.
+
+
 * 9.3.
 
 The production function of a company is given by: $Q = K L$. The
@@ -48,10 +55,10 @@ of producing 5000 units. Which is the minimum cost?
 
 * 9.4.
 
-The owner of a company has drawn the following diagram to decide
-how many units of labor and capital she should hire in the long
-run. In order to draw the isocost lines she has used the input
-prices $w = \money{16}$ and $r = \money{40}$.
+The owner of a company has drawn the following diagram to decide how
+many units of labor and capital she should hire in the long run to
+produce 150 units when the unit prices of labor and capital are
+\money{16} and \money{40}, respectively.
 
 #+xxx: fig fig-probl-9_1004-choice-*.pdf
 
@@ -164,8 +171,31 @@ c) If marginal cost is higher than the average cost in the long
 
 c) The long run cost can never be greater than the short run cost.
 
+d) Whenever the marginal cost is increasing, the average cost is also
+   increasing.
 
-* 9.12.
+
+* 9.21
+
+The production function of a firm is $Q = 10 K^{1/2} L^{1/2}$ and the
+input prices are $w = \price{20}$ y $r = \price{80}$. The firm
+produces 80 units using 80 units using 16 units of labor and 4 units
+of capital.
+
+a) Is the firm minimizing costs? If your answer is negative, determine the optimal amounts of labor and capital inputs.
+b) <<ex9.21:item-b>>If the firm increased its output to 100 units and
+   the capital was fixed, how much would the costs of production
+   increase?
+c) <<ex9.21:item-c>>If the firm increased its output to 100 units and
+   all inputs were variable, how much would the costs of production
+   increase?
+d) Compare the answers to [[ex9.21:item-b]] and [[ex9.21:item-c]]. Why do they
+   differ?
+
+
+
+
+* COMMENT 9.12.
 
 A small company dedicated to the production of electrical guitars
 is considering the possibility of opening a new factory. When

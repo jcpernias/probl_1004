@@ -79,8 +79,8 @@ c) El mínimo coste medio es \money{28.28} por unidad y se obtiene
 * 9.20
 
 Una empresa se encuentra en una situación tal que $\PMgL =
-\PMeL$. ¿Qué relación existirá entre el coste medio y el coste
-marginal a corto plazo? Represente gráficamente.
+\PMeL$. ¿Qué relación existe entre su costo medio y marginal a corto
+plazo? Represente gráficamente.
 
 
 * 9.3.
@@ -102,8 +102,8 @@ En la elección óptima $K/L = 1/2$. Sustituyendo en la isocuanta $5000
 * 9.4.
 
 La propietaria de una empresa ha dibujado el siguiente diagrama para
-decidir qué cantidad de factores debe de contratar a largo plazo si se
-producen 150 unidades y los precios unitarios del trabajo y del capital
+decidir qué cantidad de factores debe de contratar a largo plazo para
+producir 150 unidades cuando los precios unitarios del trabajo y del capital
 son \money{16} y \money{40}, respectivamente.
 
 #+xxx: fig fig-probl-9_1004-choice-*.pdf
@@ -371,7 +371,7 @@ b) <<ex9.21:item-b>>Si la empresa aumentara su producción a 100 unidades
 c) <<ex9.21:item-c>>Si la empresa aumentara su producción a 100
    unidades y todos los factores fueran variables, ¿cuánto aumentarían
    los costes de producción?
-d) Compare las respuestas obtenidas en los apartados [[ex9.21:item-b]] y
+d) Compare las respuestas de los apartados [[ex9.21:item-b]] y
    [[ex9.21:item-c]]. ¿Por qué son diferentes?
 
 
