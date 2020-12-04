@@ -175,7 +175,7 @@ b) La producción no puede ser de $400$ unidades: la combinación
    Es posible pero no eficiente producir $200$: se pueden
    producir $250$ unidades con $L=8$ y $K < 6$.
 
-c) Rendimientos constantes a escala: por ejemplo, comparar producción
+c) Rendimientos constantes de escala: por ejemplo, comparar producción
    en $(5, 5)$ y $(10, 10)$.
 
 
@@ -198,14 +198,14 @@ uso del factor capital."
 
 Una fábrica utiliza trabajo y capital para producir zapatos. Después
 de aumentar el número de trabajadores en un 50% la producción crece en
-un 60%. ¿Qué tipo de rendimientos a escala presenta la función de
+un 60%. ¿Qué tipo de rendimientos de escala presenta la función de
 producción de la empresa?
 
 
 ** Answer
 
   No: si sólo aumenta el trabajo no es posible deducir nada sobre
-  los rendimientos a escala.
+  los rendimientos de escala.
 
 
 * 8.9.
@@ -215,7 +215,7 @@ producción de una empresa:
 
 #+xxx: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
 
-a) ¿Qué tipo de rendimientos a escala exhibe la función de producción
+a) ¿Qué tipo de rendimientos de escala exhibe la función de producción
    de la empresa?
 
 b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos marginales
@@ -224,7 +224,7 @@ b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos marginales
 
 ** Answer
 
-a) Rendimientos crecientes a escala.
+a) Rendimientos crecientes de escala.
 
 
 b) No: los rendimientos del factor trabajo son constantes.
