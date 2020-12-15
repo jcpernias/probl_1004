@@ -24,10 +24,12 @@ figdir := $(rootdir)/figures
 ## Programs
 ## ================================================================================
 
-emacsbin := /usr/local/bin/emacs
-texi2dvibin := /usr/local/opt/texinfo/bin/texi2dvi
-envbin  := /usr/local/opt/coreutils/libexec/gnubin/env
-pythonbin := /usr/local/bin/python3
+emacsbin := /usr/bin/emacs
+texi2dvibin := /usr/bin/texi2dvi
+envbin  := /usr/bin/env
+pythonbin := /usr/bin/python3
+
+-include local.mk
 
 ## Variables
 ## ================================================================================
