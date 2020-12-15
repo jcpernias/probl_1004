@@ -4,3 +4,4 @@ pdf
 figures
 **/.Auto
 .DS_Store
+local.mk
