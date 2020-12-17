@@ -112,7 +112,7 @@ a) Complete el diagrama etiquetando las intersecciones de las
    isocostes con el eje horizontal. ¿Qué interpretación tienen
    estos puntos de corte?
 
-b) Si produce 150 unidades con un costes de \money{440}, ¿está
+b) Si produce 150 unidades con un coste de \money{440}, ¿está
    minimizando la empresa los costes de producción?
 
 c) Si $\PMgK = 30$ cuando se minimizan los costes, ¿cuál es el
