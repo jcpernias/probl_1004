@@ -7,40 +7,41 @@
 #+include: "probl-1_1004-es.org" :lines "3-"
 
 * Mercados competitivos
-#+latex: \pagenumbering{arabic}
+
 #+include: "probl-2_1004-es.org" :lines "3-"
 
 * La elasticidad
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-3_1004-es.org" :lines "3-"
 
 * La intervención del Estado en mercados competitivos
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-4_1004-es.org" :lines "3-"
 
 * La elección del consumidor
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-5_1004-es.org" :lines "3-"
 
 * La demanda
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-6_1004-es.org" :lines "3-"
 
-* La elección intertemporal
+#+latex: \addtocounter{section}{1}
 
-#+latex: \pagenumbering{arabic}
-#+include: "probl-7_1004-es.org" :lines "3-"
+# * La elección intertemporal
+
+# #+include: "probl-7_1004-es.org" :lines "3-"
+
+* Ignore                                                    :B_ignoreheading:
+:PROPERTIES:
+:BEAMER_env: ignoreheading
+:END:
+#+latex: \addtocounter{section}{1}
 
 * La producción
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-8_1004-es.org" :lines "3-"
 
 * Los costes
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-9_1004-es.org" :lines "3-"
