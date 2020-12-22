@@ -24,6 +24,10 @@ Does the law of diminishing marginal returns hold?  Are all the
 labor input levels shown in the table technically efficient?  Why?
 
 
+** Answer
+
+Not done yet.
+
 * 8.4.
 
 Given the production function $Q = L^{2} K - 0.01 L^{3}$ and knowing
@@ -36,6 +40,10 @@ b) The average and marginal product of labor curves.
 c) The levels of labor input that maximize the marginal product, the
    average product and total product. Represent the results obtained.
 
+
+** Answer
+
+Not done yet.
 
 * 8.10
 
@@ -56,12 +64,19 @@ b) Do any of these production functions fulfill the law of diminishing
    returns to labor?
 
 
+** Answer
+
+Not done yet.
+
 * 8.11
 
 In each of the following graphs, draw where the marginal product of labor curve would lie. Justify your answer.
 
 #+xxx: fig fig-probl-8_1004-ex11-pmel-*.pdf
 
+** Answer
+
+Not done yet.
 
 
 * 8.2.
@@ -70,6 +85,10 @@ If the marginal product of labor is decreasing in the short run,
 should the average product also be decreasing?
 
 
+** Answer
+
+Not done yet.
+
 * 8.3.
 
 The output per worker in a company is 20 chairs per day. The company's
@@ -77,6 +96,9 @@ owner has calculated that an additional worker would increase the
 daily output by 10 chairs. Will the average product increase if the
 company hires another worker?
 
+** Answer
+
+Not done yet.
 
 * 8.8.
 
@@ -97,6 +119,10 @@ c) What kind of returns to scale are observed in the production
    function?
 
 
+** Answer
+
+Not done yet.
+
 
 * 8.6.
 
@@ -105,6 +131,10 @@ with constant returns to scale will double its production when it
 doubles the use of capital input."
 
 
+** Answer
+
+Not done yet.
+
 * 8.7.
 
 A factory uses labor and capital inputs to produce shoes. After
@@ -112,6 +142,10 @@ increasing the number of workers by 50% the output grows by
 60%. Does this mean that the production function of this factory
 shows increasing returns to scale?
 
+
+** Answer
+
+Not done yet.
 
 * 8.9.
 
@@ -127,6 +161,9 @@ b) If $\Kbar = 5$, is the law of diminishing marginal returns
    satisfied?
 
 
+** Answer
+
+Not done yet.
 
 * 8.5.
 
@@ -156,3 +193,8 @@ c) <<ex8.11:item-c>>Check whether the law of diminishing marginal
 d) Comparing the results of [[ex8.11:item-b]] and [[ex8.11:item-c]], is
    there some kind of relationship between the returns to scale and
    the returns to the labor input?
+
+
+** Answer
+
+Not done yet.

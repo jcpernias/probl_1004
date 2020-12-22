@@ -9,6 +9,9 @@ $P_Y = \price{10}$. Obtain the income consumption curve and the Engel
 curve for good $X$. Calculate the income elasticity of $X$. What kind
 of good is X?
 
+** Answer
+
+Not done yet.
 
 * 6.2
 
@@ -20,6 +23,9 @@ $X$ is $P_X = \price{10}$ and the price of good $Y$ is $\price{20}$:
 Plot the Engel curve for the two goods. What kind of goods are $X$ and $Y$?
 
 
+** Answer
+
+Not done yet.
 
 
 * 6.3
@@ -36,12 +42,18 @@ a) If $M = \money{70}$, how many units would she demand of each one
 b) Is any of the two goods an inferior good? For what values of the
    income?
 
+** Answer
+
+Not done yet.
 
 * 6.4
 
 Consider a consumer who only buys two goods. Is it possible that the
 two goods are inferior goods simultaneously?
 
+** Answer
+
+Not done yet.
 
 * 6.5
 
@@ -61,6 +73,9 @@ a) Obtain and plot the price-consumption curve. What kind of relationship
 b) Obtain and plot the demand curve for good $X$. Calculate the price
    elasticity of demand.
 
+** Answer
+
+Not done yet.
 
 * 6.6
 
@@ -79,6 +94,10 @@ b) Also obtain the quantity demanded of $X$ when $P_X$ takes the values
 c) What kind of relationship does it exist between goods $X$ and $Y$?
 
 
+** Answer
+
+Not done yet.
+
 * 6.7
 
 The optimal basket for a consumer with regular preferences contains
@@ -87,6 +106,9 @@ increases, will this reduce the consumer's utility? Explain how the
 consumer's utility varies along the demand curve. Justify your answers.
 
 
+** Answer
+
+Not done yet.
 
 * 6.8
 
@@ -105,6 +127,9 @@ b) What is the relationship between the price elasticity of individual
    demands and the price elasticity of the market demand curve?
 
 
+** Answer
+
+Not done yet.
 
 * 6.9
 
@@ -117,6 +142,10 @@ $P_Y = \price{4}$. Obtain the demand curves for good $X$ of Adela
 and Blas.
 
 
+** Answer
+
+Not done yet.
+
 * 6.10
 
 Rocío likes eating milk with cereals. She always combines them in the
@@ -127,6 +156,10 @@ that the price of milk is \price[l]{0.80} and that Rocío spends
 \money{6} per month on milk and cereals. If cereals are sold at
 \price[kg]{2}, which quantity will Rocío demand?
 
+
+** Answer
+
+Not done yet.
 
 * 6.11
 
@@ -203,6 +236,9 @@ c) Decompose the impact on each good's consumption into the
    corresponding income and substitution effects.  What is
    the sign of these effects?
 
+** Answer
+
+Not done yet.
 
 * COMMENT OLD 6.8
 
@@ -219,12 +255,20 @@ Dulce keeps buying the same amount of salt even though its price
 has decreased by 50%. Does this mean that the substitution effect
 is zero? Is salt an inferior good for Dulce?
 
+** Answer
+
+Not done yet.
+
 
 * COMMENT OLD 6.10
 
 "The quantity demanded of a Giffen good increases with its price
 and also increases when the consumer's income increases." Is the
 previous statement correct? Justify your answer.
+
+** Answer
+
+Not done yet.
 
 
 * COMMENT OLD 6.11
@@ -241,3 +285,7 @@ and $D$, on the other hand.
 Decompose the total effect on consumption of $X$ into the income
 effect and the substitution effect. Obtain the signs of these
 effects and determine what kind of good is $X$ for this consumer.
+
+** Answer
+
+Not done yet.

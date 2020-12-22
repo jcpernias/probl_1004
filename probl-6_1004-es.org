@@ -9,6 +9,7 @@ La función de utilidad de un consumidor es $U = X^2 Y$, su renta es $M
 de Engel del bien $X$. Calcule la elasticidad renta de $X$.  ¿Qué tipo
 de bien es?
 
+
 ** Answer
 
 Senda de expansión de la renta, \CRC: $Y = X / 2$.
@@ -40,6 +41,11 @@ Represente gráficamente las curvas de Engel de ambos bienes. ¿Qué tipo
 de bienes son $X$ e $Y$?
 
 
+** Answer
+
+Por hacer.
+
+
 * 6.3.
 
 Un consumidor compra solo dos bienes cuyos precios son $P_X =
@@ -53,6 +59,7 @@ a) Si $M = \money{70}$, ¿cuántas unidades demandará de cada uno de
 
 b) ¿Alguno de los bienes es inferior? ¿Para qué valores de la
    renta?
+
 
 ** Answer
 
@@ -69,6 +76,7 @@ b) El bien $Y$ es inferior para rentas superiores a
 
 Considere un consumidor que sólo compra dos bienes. ¿Pueden ser los
 dos bienes inferiores simultáneamente?
+
 
 ** Answer
 
@@ -98,6 +106,7 @@ a) Obtenga y represente la curva de precio-consumo. ¿Qué tipo de relación se 
 
 b) Obtenga y represente la curva de demanda del bien $X$. Calcule la elasticidad
    precio de la demanda.
+
 
 ** Answer
 
@@ -152,6 +161,11 @@ b) Obtenga también la cantidad demandada de $X$ cuando $P_X$ toma los
 c) ¿Qué tipo de relación existe entre los bienes $X$ e $Y$?
 
 
+** Answer
+
+Por hacer.
+
+
 * 6.7
 
 La cesta óptima de un consumidor con preferencias regulares contiene
@@ -188,6 +202,11 @@ b) ¿Qué relación existe entre la elasticidad precio de las demandas
 
 
 
+** Answer
+
+Por hacer.
+
+
 * 6.9.
 
 Tanto Adela como Blas disponen de \money{100} para gastar en los
@@ -198,6 +217,7 @@ intercambiar una unidad del bien $X$ por una unidad del bien
 $Y$. Los precios de los bienes son $P_X = \price{2}$ y $P_Y =
 \price{4}$. Obtenga las curvas de demanda del bien $X$ de Adela y
 Blas.
+
 
 ** Answer
 
@@ -227,6 +247,11 @@ leche o cereales. Obtenga la curva de demanda de cereales sabiendo que
 el precio de la leche es de \price[l]{0.80} y que Rocío gasta
 \money{6} al mes en leche y cereales. Si los cereales se venden
 a \price[kg]{2}, ¿qué cantidad demandará Rocío?
+
+
+** Answer
+
+Por hacer.
 
 
 * 6.11.
@@ -263,6 +288,7 @@ c) Ante las protestas de los habitantes de la ciudad, el alcalde
    Stephanie. ¿Sigue consumiendo menos refrescos que en la situación
    inicial?  ¿Bastará con la recaudación del impuesto para pagar las
    transferencias en metálico a los ciudadanos?
+
 
 ** Answer
 
@@ -307,6 +333,7 @@ b) Calcule cuánto varía el consumo de los dos bienes cuando el
 c) Descomponga el impacto sobre el consumo de cada uno de los
    bienes en los correspondientes efecto renta y efecto
    sustitución. ¿Cuál es el signo de estos efectos?
+
 
 ** Answer
 
@@ -358,6 +385,7 @@ gráficamente como cambiaría la elección de consumo óptima si aumenta
 el precio del bien $X$. Descomponga el cambio total en el consumo de
 $X$ en el efecto sustitución y el efecto renta.
 
+
 ** Answer
 
 El efecto sustitución es nulo y coinciden efecto renta y efecto total.
@@ -369,6 +397,7 @@ El efecto sustitución es nulo y coinciden efecto renta y efecto total.
 Dulce sigue comprando la misma cantidad de sal a pesar de que su
 precio ha disminuido un 50%. ¿Quiere esto decir que el efecto
 sustitución es nulo? ¿Es la sal un bien inferior para Dulce?
+
 
 ** Answer
 
@@ -384,6 +413,7 @@ efecto renta es positivo y la sal es inferior para Dulce.
 precio y también aumenta cuando crece la renta de los
 consumidores."  ¿Es correcta la afirmación anterior?  Justifique
 su respuesta.
+
 
 ** Answer
 
@@ -406,6 +436,7 @@ por otro lado.
 Descomponga el efecto total sobre el consumo de $X$ en efecto renta
 y efecto sustitución. Obtenga los signos de estos efectos y
 determine qué tipo de bien es $X$ para este consumidor.
+
 
 ** Answer
 

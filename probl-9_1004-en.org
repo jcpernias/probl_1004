@@ -22,6 +22,10 @@ company.
 |-----+-------+-------+-------+--------+--------+---------+---------|
 
 
+** Answer
+
+Not done yet.
+
 * 9.1.
 
 The production function of a firm is: $Q = L^{1/2} K^{1/2}$ and the
@@ -38,12 +42,20 @@ c) At which output level is average cost minimized?  Which is
    the minimum average cost?
 
 
+** Answer
+
+Not done yet.
+
 * 9.20
 
 A firm is in a situation such that $\PMgL = \PMeL$. Which is the relationship
 between its average and marginal costs in the short run?
 Represent graphically.
 
+
+** Answer
+
+Not done yet.
 
 * 9.3.
 
@@ -52,6 +64,10 @@ hourly wage is \wage{2} and the price of capital input is
 \price{4}. Determine the input combination that minimizes the cost
 of producing 5000 units. Which is the minimum cost?
 
+
+** Answer
+
+Not done yet.
 
 * 9.4.
 
@@ -73,6 +89,10 @@ c) If $\PMgK = 30$ when costs are minimized, which is the value of
    $\PMgL$?
 
 
+** Answer
+
+Not done yet.
+
 * 9.5.
 
 Sauron {{{Inc}}} is a company dedicated to the production of
@@ -86,6 +106,10 @@ If your answer is no, what could Sauron {{{Inc}}} do to reduce its
 costs? Justify your answers.
 
 
+** Answer
+
+Not done yet.
+
 * 9.6.
 
 A company's production function is: $Q = L^{3/2} K^{1/2}$. The
@@ -94,6 +118,10 @@ capital. If this is the optimal long run input combination and if
 total costs are equal to \money{1152}, which are the prices of
 capital and labor inputs?
 
+
+** Answer
+
+Not done yet.
 
 * 9.7.
 
@@ -107,6 +135,10 @@ b) Determine the long run cost curve, as well as the average and
    marginal cost curves. Which is the total cost of producing
    \num{8000} units?
 
+
+** Answer
+
+Not done yet.
 
 * 9.8.
 
@@ -122,6 +154,10 @@ the unit cost minimized? Over which range of output does the
 company experience economies of scale? And diseconomies of scale?
 
 
+** Answer
+
+Not done yet.
+
 * 9.9.
 
 Consider the production function: $Q = K L$. The inputs prices are
@@ -136,6 +172,10 @@ b) What is the single output level at which the long run and
    short run costs coincide? Why? What does happen at any other
    output level? Represent graphically.
 
+
+** Answer
+
+Not done yet.
 
 * 9.10.
 
@@ -157,6 +197,10 @@ b) Calculate the long run cost of producing $40$, $160$ and $360$
    output level?
 
 
+** Answer
+
+Not done yet.
+
 * 9.11.
 
 Explain why the following statements are correct or incorrect (if
@@ -174,6 +218,9 @@ c) The long run cost can never be greater than the short run cost.
 d) Whenever the marginal cost is increasing, the average cost is also
    increasing.
 
+** Answer
+
+Not done yet.
 
 * 9.21
 
@@ -193,6 +240,9 @@ d) Compare the answers to [[ex9.21:item-b]] and [[ex9.21:item-c]]. Why do they
    differ?
 
 
+** Answer
+
+Not done yet.
 
 
 * COMMENT 9.12.
@@ -217,3 +267,8 @@ a) If the company expects to sell 600 guitars next year, should it
    run one or two factories?
 
 b) Obtain and represent the long run average cost curve.
+
+
+** Answer
+
+Not done yet.

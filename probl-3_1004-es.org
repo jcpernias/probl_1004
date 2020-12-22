@@ -48,6 +48,11 @@ b) ¿Por qué podría depender la demanda de gas natural del horizonte
    temporal?
 
 
+** Answer
+
+Por hacer.
+
+
 * 3.3
 
 Dos conductores repostan todos los lunes en la misma gasolinera y
@@ -72,6 +77,11 @@ A causa de un cambio en el precio, la cantidad demandada de un bien
 disminuye un 5%, mientras que los ingresos de los vendedores aumentan
 en un 3%. ¿Es elástica o inelástica la demanda?  Calcule el valor de
 la elasticidad precio con la información proporcionada.
+
+
+** Answer
+
+Por hacer.
 
 
 * 3.5
@@ -129,6 +139,7 @@ oferta y demanda que muestre los efectos sobre el equilibrio de una
 enfermedad de los manzanos que perjudique a la cosecha. ¿Podrían
 aumentar los ingresos de los agricultores en este caso?  ¿Qué
 condiciones se tendrían que cumplir?
+
 
 ** Answer
 
@@ -284,6 +295,7 @@ a) ¿Qué precio debería establecerse si lo que se pretende es vender
 b) Calcule el precio al que se maximizarían los ingresos. ¿Cuántas
    entradas se venderían? ¿Cuál es la elasticidad de la demanda
    ahora?
+
 
 ** Answer
 

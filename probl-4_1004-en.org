@@ -20,6 +20,10 @@ c) A minimum price of \price{4.00} is established.
 d) A maximum price of \price{4.00} is established.
 
 
+** Answer
+
+Not done yet.
+
 
 * 4.2
 
@@ -38,12 +42,22 @@ b) Describe and show graphically the effects on this market of
    be sold? At what price?
 
 
+** Answer
+
+Not done yet.
+
+
 * 4.3
 
 The price in a competitive sugar market is \money{0.75} per
 kilo. Represent graphically and explain the effects on this market of
 setting a minimum price of \price[kg]{0.60}. Will more or
 less kilos of sugar be sold?
+
+
+** Answer
+
+Not done yet.
 
 
 * 4.4
@@ -53,6 +67,11 @@ at a price of \price{300}. The price elasticity of demand
 is $-1.5$, and the price elasticity of supply is equal to $2$. If
 a law that establishes a maximum price of \price{294} is passed, which
 effect would it have on the market? Represent graphically.
+
+
+** Answer
+
+Not done yet.
 
 
 * 4.5
@@ -76,11 +95,21 @@ b) Describe how your answers in [[ex4.4:item-a]] would change if average
    income increased up to $I = \money{170}$.
 
 
+** Answer
+
+Not done yet.
+
+
 * 4.6
 
 Discuss the truth or falsity of the following statement: "If a
 maximum price is set above the equilibrium price, the quantity
 sold will be the same as the equilibrium quantity."
+
+
+** Answer
+
+Not done yet.
 
 
 * 4.7
@@ -107,6 +136,11 @@ d) Explain how your answers in [[ex4.1:item-b]] would change if the tax
    was imposed on buyers.
 
 
+** Answer
+
+Not done yet.
+
+
 * 4.8
 
 The residential rental market in a city is represented by the
@@ -126,3 +160,8 @@ b) The city council establishes a rental subsidy program whereby
    amount each tenant pays for rent change? What will be the total
    cost of the rental subsidy program for the city council? Represent
    graphically.
+
+
+** Answer
+
+Not done yet.

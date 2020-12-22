@@ -20,6 +20,11 @@ c) Se establece un precio mínimo de \price{4.00}.
 d) Se establece un precio máximo de \price{4.00}.
 
 
+** Answer
+
+Por hacer.
+
+
 * 4.2
 
 En el mercado del bien $X$ las curvas de demanda y de oferta son:
@@ -35,6 +40,7 @@ a) Determine el precio y la cantidad de equilibrio.
 b) Describa y represente gráficamente los efectos sobre el mercado
    del bien $X$ del establecimiento de un precio mínimo de
    \price{1200}. ¿Cuántas unidades se venderían? ¿A qué precio?
+
 
 ** Answer
 
@@ -56,6 +62,11 @@ este mercado del establecimiento de un precio mínimo de
 
 
 
+** Answer
+
+Por hacer.
+
+
 * 4.4
 
 En un mercado competitivo en equilibrio, se venden \num{96000}
@@ -64,6 +75,7 @@ demanda es $-1.5$ y que la elasticidad precio de la oferta es igual
 a $2$. Si se aprueba una ley que establece un precio máximo de
 \price{294}, ¿qué efectos tendrá sobre el mercado? Represente
 gráficamente.
+
 
 ** Answer
 
@@ -98,6 +110,7 @@ a) <<ex4.4:item-a>>¿Qué cantidad del bien $X$ se venderá? ¿A qué
 b) Describa como cambiarían sus respuestas en [[ex4.4:item-a]] si la
    renta media aumentara hasta $M = \money{170}$.
 
+
 ** Answer
 
 a) El precio máximo es superior al precio de equilibrio: nada impide
@@ -115,6 +128,7 @@ b) El nuevo precio de equilibrio es $P_X^* = \price{65}$; mayor que el
 Razone la veracidad o falsedad de la siguiente afirmación: "Si se
 establece un precio máximo superior al precio de equilibrio, la
 cantidad vendida coincidirá con la cantidad de equilibrio."
+
 
 ** Answer
 
@@ -146,6 +160,7 @@ c) Calcule las elasticidades de la demanda y de la oferta en el
 
 d) Explique como cambiarían sus respuestas en [[ex4.1:item-b]] si el
    impuesto se estableciera sobre los compradores.
+
 
 ** Answer
 
@@ -190,6 +205,7 @@ b) El ayuntamiento establece un programa de ayudas al alquiler por el
    los caseros? ¿Cómo cambiará la cantidad que paga cada inquilino por
    el alquiler? ¿Cuál será el coste total del programa de subvenciones
    para el ayuntamiento? Represente gráficamente.
+
 
 ** Answer
 

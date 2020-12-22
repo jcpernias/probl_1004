@@ -83,6 +83,10 @@ Una empresa se encuentra en una situación tal que $\PMgL =
 plazo? Represente gráficamente.
 
 
+** Answer
+
+Por hacer.
+
 * 9.3.
 
 La función de producción de una empresa viene dada por: $Q = K
@@ -375,6 +379,10 @@ d) Compare las respuestas de los apartados [[ex9.21:item-b]] y
    [[ex9.21:item-c]]. ¿Por qué son diferentes?
 
 
+
+** Answer
+
+Por hacer.
 
 * COMMENT 9.12.
 

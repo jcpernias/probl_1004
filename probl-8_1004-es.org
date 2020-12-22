@@ -24,6 +24,7 @@ plazo de una empresa.
 técnicamente eficientes todos los niveles de contratación de
 trabajadores mostrados en la tabla? ¿Por qué?
 
+
 ** Answer
 
 #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
@@ -106,6 +107,10 @@ b) ¿Cumple alguna de esas funciones de producción la ley de
    rendimientos decrecientes del factor trabajo?
 
 
+** Answer
+
+Por hacer.
+
 * 8.11
 
 Dibuje en cada uno de los siguientes gráficos donde se situaría la
@@ -113,6 +118,10 @@ curva de producto marginal del trabajo. Justifique su respuesta.
 
 #+xxx: fig fig-probl-8_1004-ex11-pmel-*.pdf
 
+
+** Answer
+
+Por hacer.
 
 * 8.2.
 
@@ -269,6 +278,7 @@ c) <<ex8.11:item-c>>Compruebe si se cumple la ley de rendimientos marginales
 d) Comparando los resultados de [[ex8.11:item-b]] y [[ex8.11:item-c]], ¿hay
    algún tipo de relación entre los rendimientos de escala y los
    rendimientos del factor trabajo?
+
 
 ** Answer
 

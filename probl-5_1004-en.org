@@ -21,6 +21,10 @@ d) In view of the seriousness of the situation, the Government rations
    water so that no consumer can consume more than $20$ liters of
    water per month. Which is the budget constraint in this case?
 
+** Answer
+
+Not done yet.
+
 
 * 5.25
 
@@ -28,6 +32,11 @@ Suppose that 4 pears can be bought with the money needed to buy one
 apple. If David, who spends all his money on pears and apples, buys
 100 pears and 20 apples, how many pears could he have bought at most?
 And apples? Obtain and represent David’s budget constraint.
+
+
+** Answer
+
+Not done yet.
 
 
 * 5.23
@@ -45,6 +54,10 @@ c) If originally, Julia bought $4$ liters of milk and $1$ kilo of
    income?
 
 
+** Answer
+
+Not done yet.
+
 
 * 5.1
 
@@ -59,6 +72,10 @@ b) And what if, instead of the tax on consumption, an income tax were
 c) Which option would the consumer prefer?
 
 
+** Answer
+
+Not done yet.
+
 * 5.20
 
 Nikola has \money{120} for spending on natural gas and electricity.
@@ -67,6 +84,11 @@ The price of electricity depends on consumption: the first
 \num{1000} on are paid at \price[\kWh]{0.03}. On the other hand, the
 price of natural gas is always \price[\kWh]{0.05}. Obtain and
 represent graphically the budget set for Nikola.
+
+
+** Answer
+
+Not done yet.
 
 
 * 5.22
@@ -85,6 +107,10 @@ b) The consumer gets $5$ kilos of rice for free.
 c) The consumer gets a check of \money{5}.
 
 
+** Answer
+
+Not done yet.
+
 
 * 5.2
 
@@ -99,6 +125,11 @@ b) The supermarket run a sales promotion where the customers that buy
    free. Obtain and represent the budget constraint in this case.
 
 
+** Answer
+
+Not done yet.
+
+
 * 5.24
 
 Eugenio and Ana share an apartment. Each one of them has a monthly
@@ -110,6 +141,11 @@ After a tax reform, food price decreases until \price{4} and the price
 for clothes increases up to \price{50}. With the information given, is
 it possible to know if Ana’s satisfaction has increased or decreased?
 And Eugenio’s?
+
+
+** Answer
+
+Not done yet.
 
 
 * 5.25
@@ -129,6 +165,10 @@ c) Represent both rates in the same graph and determine when the rate
    in [[ex5.25:itemb]] is more advantageous.
 
 
+** Answer
+
+Not done yet.
+
 
 * 5.3
 
@@ -137,6 +177,11 @@ chicken. Alejandro, meanwhile, does not like fish but he does like
 chicken, and he is only willing to eat some fish if he gets an extra
 portion of chicken in return. Represent the preferences of Amaia and
 Alejandro.
+
+
+** Answer
+
+Not done yet.
 
 
 * 5.27
@@ -158,6 +203,11 @@ Alejandro.
 
  b) How much will Carmen be willing to pay for $10$ additional
     pictures?
+
+
+** Answer
+
+Not done yet.
 
 
 * 5.28
@@ -187,12 +237,22 @@ b) With the information given, is it possible to determine if any
    consumer is maximising utility?
 
 
+** Answer
+
+Not done yet.
+
+
 * 5.4
 
 The preferences of a consumer can be described with the utility
 function: $U(X, Y) = 5 X Y^2$. The consumer's income is \money{900}
 and the prices are $P_X = \price{10}$ and $P_Y = \price{5}$. Calculate
 and represent the consumer's optimal choice.
+
+
+** Answer
+
+Not done yet.
 
 
 * 5.6
@@ -203,12 +263,22 @@ $Y$. Knowing that the price of $X$ is \price{6}, how much is the
 consumer's income?
 
 
+** Answer
+
+Not done yet.
+
+
 * 6.4
 
 Consider a competitive economy where all consumers have the same
 preferences and consume some units of good $X$ and good $Y$. Will they
 all buy the same amount of $X$? Will there be differences in the
 valuation of good $X$ by each consumer?
+
+
+** Answer
+
+Not done yet.
 
 
 * 5.7
@@ -221,11 +291,21 @@ choice or would she be better off buying more units of good $X$ and
 less of good $Y$?
 
 
+** Answer
+
+Not done yet.
+
+
 * 5.29
 
 Determine the optimal combination for a consumer with income $M =
 \money{500}$ and utility function: $U(X, Y) = X^2 (Y + 80)$, being the
 prices of the goods $P_X = \price{2}$ y $P_Y = \price{5}$.
+
+
+** Answer
+
+Not done yet.
 
 
 * 5.8
@@ -254,6 +334,11 @@ b) The Government aims to promote the consumption of nuts and it is
 c) Which alternative would the consumer prefer? Justify your answer.
 
 
+** Answer
+
+Not done yet.
+
+
 * 5.30
 
 Rafa likes playing tennis and whenever he can he plays in a club near
@@ -276,6 +361,10 @@ b) Rafa is considering to become a member of the tennis club. If he
    club? Represent graphically.
 
 
+** Answer
+
+Not done yet.
+
 
 * 5.10
 
@@ -289,6 +378,11 @@ a) Determine the optimal consumption bundle.
 b) If good $X$ were rationed so that nobody were allowed to buy
    more than 100 units of $X$, which would be the optimal choice?
    Represent graphically.
+
+
+** Answer
+
+Not done yet.
 
 
 * 5.11
@@ -305,6 +399,11 @@ b) Which is the optimal choice for the consumer?
 c) How would the optimal choice change if $P_X = \price{10}$?
 
 
+** Answer
+
+Not done yet.
+
+
 * 5.12
 
 Rocío likes to eat cereal with milk for breakfast. She always
@@ -317,3 +416,8 @@ a) Represent Rocío's preferences regarding milk and cereal.
 b) If Rocío spends \money{6} a month on milk and cereal, the
    price of the milk is \price[l]{0.80} and the price of cereals
    is \price[kg]{2}, what will be her optimal choice?
+
+
+** Answer
+
+Not done yet.

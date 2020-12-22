@@ -23,12 +23,22 @@ d) Ante la gravedad de la situación, el Gobierno raciona el agua de
    agua al mes. ¿Cuál es la restricción presupuestaria en este caso?
 
 
+** Answer
+
+Por hacer.
+
+
 * 5.25
 
 Suponga que se pueden comprar 4 peras con el dinero necesario para
 comprar una manzana. Si David, que gasta todo su dinero en
 peras y manzanas, compra 100 peras y 20 manzanas, ¿cuántas peras
 podría haber comprado como máximo? ¿Y manzanas? Obtenga y represente la recta presupuestaria de David.
+
+
+** Answer
+
+Por hacer.
 
 
 * 5.23
@@ -45,6 +55,11 @@ b) Suponga ahora que todos los precios aumentan un 10%. Si el dinero
 c) Si inicialmente Julia compraba $4$ litros de leche y $1$ kilo de
    galletas, ¿cómo cambiará su elección después de que se eleven los
    precios y la renta?
+
+
+** Answer
+
+Por hacer.
 
 
 * 5.1
@@ -97,6 +112,11 @@ otro lado, el precio del gas natural siempre es
 presupuestario de Nikola.
 
 
+** Answer
+
+Por hacer.
+
+
 * 5.22
 
 Un consumidor dispone de una renta de $100$ € a la semana y se
@@ -111,6 +131,11 @@ a) El consumidor disfruta de una subvención de \price[kg]{0.25} en los
 b) El consumidor obtiene $5$ kilos de arroz gratuitamente.
 
 c) El consumidor recibe un cheque por valor de \money{5}.
+
+
+** Answer
+
+Por hacer.
 
 
 * 5.2
@@ -159,6 +184,11 @@ información proporcionada, ¿es posible saber si la satisfacción de Ana
 ha aumentado o disminuido? ¿Y la de Eugenio?
 
 
+** Answer
+
+Por hacer.
+
+
 * 5.25
 
 Ángeles dispone de \money{100} al mes para gastar en llamadas
@@ -174,6 +204,11 @@ b) <<ex5.25:itemb>>Ángeles recibe una oferta por la que pagando una
 
 c) Represente las dos tarifas en el mismo gráfico y determine cuándo
    sería más ventajosa la tarifa del apartado [[ex5.25:itemb]].
+
+
+** Answer
+
+Por hacer.
 
 
 * 5.3
@@ -213,6 +248,11 @@ Para Alejandro el pescado es un mal.
  b) ¿Cuánto estará dispuesta a pagar Carmen por $10$ fotos adicionales?
 
 
+** Answer
+
+Por hacer.
+
+
 * 5.28
 
 Cinco amigos han comprado fruta y cada uno de ellos ha adquirido la
@@ -238,6 +278,11 @@ a) ¿Qué consumidores, si hay alguno, *no* está eligiendo una
 
 b) Con la información proporcionada, ¿es posible determinar si alguno
    de los consumidores está maximizando su utilidad?
+
+
+** Answer
+
+Por hacer.
 
 
 * 5.4
@@ -310,6 +355,11 @@ aumentaría si disminuye el consumo de $Y$ y aumenta el de $X$.
 Determine la combinación óptima de un consumidor con renta $M =
 \money{500}$ y función de utilidad: $U(X, Y) = X^2 (Y + 80)$, siendo
 los precios de los bienes $P_X = \price{2}$ y $P_Y = \price{5}$.
+
+
+** Answer
+
+Por hacer.
 
 
 * 5.8
@@ -386,6 +436,11 @@ b) Rafa está considerando hacerse socio del club de tenis. Si pagara
    una cuota mensual de \money{30}, el alquiler de las pistas se
    reduciría a \money{2.50} por hora. ¿Debería hacerse socio?
    Represente gráficamente.
+
+
+** Answer
+
+Por hacer.
 
 
 * 5.10

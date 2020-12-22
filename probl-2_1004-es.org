@@ -7,6 +7,7 @@
 años que van desde 2003 hasta 2006 y, sin embargo, el consumo de
 gasolina creció." ¿Contradice esta afirmación la ley de la demanda?
 
+
 ** Answer
 
 No: la ley de la demanda sólo es válida cuando lo único que cambia es
@@ -35,6 +36,7 @@ a) Halle y represente gráficamente el equilibrio de mercado.
 
 b) ¿Qué ocurriría si el precio fuera \price{4}? ¿Y si fuera
    \price{1}?
+
 
 ** Answer
 
@@ -131,6 +133,7 @@ b) Calcule y represente el nuevo equilibrio si la demanda aumenta
    \]
    #+end_export
 
+
 ** Answer
 
 a)
@@ -171,6 +174,7 @@ c) Partiendo del equilibrio inicial, considere ahora los efectos
    predecir con total certeza cómo cambiarán el precio y la
    cantidad de equilibrio?
 
+
 ** Answer
 
 a) En equilibrio $P^*_X = \price{2000}$ y $X^* = \units{45000}$:
@@ -202,6 +206,7 @@ esas hipótesis. ¿Es posible discriminar entre esas dos
 explicaciones observando qué ha ocurrido con el precio y el
 consumo de drogas?
 
+
 ** Answer
 
 Menor presupuesto policial:
@@ -220,6 +225,7 @@ El mercado de un bien inferior se encuentra en equilibrio. Si
 simultáneamente aumentan los costes de producción y la renta de
 los consumidores, ¿disminuirán tanto el precio como la cantidad en
 el nuevo equilibrio?
+
 
 ** Answer
 
@@ -241,6 +247,11 @@ de semana que los días laborables. Utilice diagramas de oferta y
 demanda para explicar este comportamiento.
 
 
+** Answer
+
+Por hacer.
+
+
 * 2.9
 
 Una fuerte sequía ha dañado considerablemente la cosecha de café en
@@ -252,6 +263,11 @@ a) ¿Qué consecuencias tendrá la sequía sobre el equilibrio en el
 b) ¿Cuáles serán las consecuencias de la mala cosecha de café sobre el
    equilibrio en el mercado mundial de té? Razone y represente
    gráficamente.
+
+
+** Answer
+
+Por hacer.
 
 
 * 2.10
@@ -272,3 +288,8 @@ c) El Gobierno aprueba leyes destinadas a reducir la contaminación y
 
 d) Una nueva regulación del mercado de trabajo eleva los costes
    laborales de los fabricantes de patinetes.
+
+
+** Answer
+
+Por hacer.
