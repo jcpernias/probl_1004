@@ -160,8 +160,35 @@ c) In view of the increasing complaints from the inhabitants of
    than in the initial situation?  Is the city council spending
    more money than the amount collected with the tax?
 
+** Answer
 
-* OLD 6.7                                                          :noexport:
+a) Restricción presupuestaria: $470 = 0.5 R + Y$.
+
+   Condición de tangencia: $(1/9) Y/(R + 20) = 0.5$.
+
+   Elección óptima: $R_1 = 76$ latas e $Y_1 = \money{432}$.
+
+b) Restricción presupuestaria: $470 = R + Y$.
+
+   Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
+
+   Elección óptima: $R_2 = 29$ latas e $Y_2 = \money{441}$.
+
+   Paga: $R_2 t = \money{14.5}$.
+
+c) Restricción presupuestaria: $484.5 = R + Y$.
+
+   Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
+
+   Elección óptima: $R_3 = 30.45$ latas e $Y_3 = \money{454.05}$.
+
+   La recaudación del impuesto per capita, $0.5 R_3 = \money{15.225}$,
+   es superior a la cuantía del cheque, \money{14.50}.
+
+#+latex: \addtocounter{section}{1}
+
+
+* COMMENT OLD 6.7
 
 The preferences of a consumer are given by the utility function:
 $U(X, Y) = X^{1/4} Y^{1/8}$ and her income is $M = \money{17496}$.
@@ -177,7 +204,7 @@ c) Decompose the impact on each good's consumption into the
    the sign of these effects?
 
 
-* OLD 6.8                                                          :noexport:
+* COMMENT OLD 6.8
 
 The goods $X$ and $Y$ are perfect complements. Represent
 graphically how the optimal consumption choice would change if the
@@ -186,21 +213,21 @@ consumption of $X$ into the substitution effect and the income
 effect.
 
 
-* OLD 6.9                                                          :noexport:
+* COMMENT OLD 6.9
 
 Dulce keeps buying the same amount of salt even though its price
 has decreased by 50%. Does this mean that the substitution effect
 is zero? Is salt an inferior good for Dulce?
 
 
-* OLD 6.10                                                         :noexport:
+* COMMENT OLD 6.10
 
 "The quantity demanded of a Giffen good increases with its price
 and also increases when the consumer's income increases." Is the
 previous statement correct? Justify your answer.
 
 
-* OLD 6.11                                                         :noexport:
+* COMMENT OLD 6.11
 
 The following graph shows the optimal choices of a consumer before
 and after a decrease in the price of good $X$:
