@@ -289,6 +289,7 @@ c) Restricción presupuestaria: $484.5 = R + Y$.
    La recaudación del impuesto per capita, $0.5 R_3 = \money{15.225}$,
    es superior a la cuantía del cheque, \money{14.50}.
 
+#+latex: \addtocounter{section}{1}
 
 
 * COMMENT OLD 6.7.
