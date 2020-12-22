@@ -291,7 +291,7 @@ c) Restricción presupuestaria: $484.5 = R + Y$.
 
 
 
-* OLD 6.7.                                                         :noexport:
+* COMMENT OLD 6.7.
 
 Las preferencias de un consumidor vienen dadas por la función de
 utilidad: $U(X, Y) = X^{1/4} Y^{1/8}$ y su renta es $M =
@@ -350,7 +350,7 @@ c) Para determinar los consumos si sólo cambiaran los precios relativos y se ma
 
 
 
-* OLD 6.8.                                                         :noexport:
+* COMMENT OLD 6.8.
 
 Los bienes $X$ e $Y$ son complementos perfectos. Represente
 gráficamente como cambiaría la elección de consumo óptima si aumenta
@@ -363,7 +363,7 @@ El efecto sustitución es nulo y coinciden efecto renta y efecto total.
 #+xxx: fig fig-ans-probl-6_1004-compl-*.pdf
 
 
-* OLD 6.9.                                                         :noexport:
+* COMMENT OLD 6.9.
 
 Dulce sigue comprando la misma cantidad de sal a pesar de que su
 precio ha disminuido un 50%. ¿Quiere esto decir que el efecto
@@ -377,7 +377,7 @@ efecto renta es positivo y la sal es inferior para Dulce.
 
 
 
-* OLD 6.10.                                                        :noexport:
+* COMMENT OLD 6.10.
 
 "La cantidad demandada de un bien Giffen aumenta cuando aumenta su
 precio y también aumenta cuando crece la renta de los
@@ -390,7 +390,7 @@ No: los bienes Giffen son inferiores.
 
 
 
-* OLD 6.11.                                                        :noexport:
+* COMMENT OLD 6.11.
 
 El siguiente gráfico muestra las elecciones óptimas de un
 consumidor antes y después de una disminución del precio del bien

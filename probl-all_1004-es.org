@@ -28,15 +28,10 @@
 
 #+latex: \addtocounter{section}{1}
 
-# * La elección intertemporal
+* COMMENT La elección intertemporal
 
-# #+include: "probl-7_1004-es.org" :lines "3-"
+#+include: "probl-7_1004-es.org" :lines "3-"
 
-* Ignore                                                    :B_ignoreheading:
-:PROPERTIES:
-:BEAMER_env: ignoreheading
-:END:
-#+latex: \addtocounter{section}{1}
 
 * La producción
 
