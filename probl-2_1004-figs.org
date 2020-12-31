@@ -4,16 +4,39 @@
 
 
 
-* 2.1 Market demand
+* 2.2 Market equilibrium
+
+  #+begin_src latex :tangle fig-ans-probl-2_1004-market-eq.tex :noweb no
+    \begin{tikzpicture}[xscale = 0.5, yscale = 0.75]
+
+      \draw[help lines, font = \footnotesize]
+      (0, 2) node[left] {$2$} -| (3, 0) node[below] {\num{3000}}
+      ;
+
+      \draw[curve, very thick]
+      (0.5, 4.5) -- (4.5, 0.5) node[right] {$Q^d$}
+      (0.5, 0.33333) -- (6.5, 4.333333) node[right] {$Q^o$}
+      ;
+
+      \node[dot] at (3, 2) {} ;
+
+      \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
+      (8, 0) node[below] {$Q$} ;
+    \end{tikzpicture}
+  #+end_src
+
+
+
+* 2.3 Market demand
 
   #+begin_src latex :tangle fig-ans-probl-2_1004-market-demand.tex :noweb no
     \begin{tikzpicture}[xscale = 2, yscale = 1]
 
-      \draw[help lines]
-      (0, 3) node[left] {$300$}
-      (0, 1.5) node[left] {$150$} -| (0.3, 0) node[below] {$300$}
-      (0, 1) node[left] {$100$} -| (0.65, 0) node[below] {$650$}
-      (2.35, 0) node[below] {$2350$}
+      \draw[help lines, font = \footnotesize]
+      (0, 3) node[left] {\num{300}}
+      (0, 1.5) node[left] {\num{150}} -| (0.3, 0) node[below] {\num{300}}
+      (0, 1) node[left] {\num{100}} -| (0.65, 0) node[below] {\num{650}}
+      (2.35, 0) node[below] {\num{2350}}
       ;
 
       \draw[curve, very thick]
@@ -26,26 +49,239 @@
   #+end_src
 
 
-* 2.2 Market equilibrium
+* 2.4 Electric cars
 
-  #+begin_src latex :tangle fig-ans-probl-2_1004-market-eq.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.5, yscale = 0.727272727272]
 
-      \draw[help lines]
-      (0, 2) node[left] {$2$} -| (3, 0) node[below] {$3000$}
-      ;
+** Initial equilibrium
 
-      \draw[curve, very thick]
-      (0, 5) -- (5, 0) node[right, pos=0.85] {$Q^d$}
-      (0, 0) -- (6.5, 4.333333) node[right] {$Q^o$}
-      ;
 
-      \node[dot] at (3, 2) {} ;
+#+begin_src latex :tangle fig-ans-probl-2_1004-cars1.tex
+  \begin{tikzpicture}<<ex12:xy-scale>>
 
-      \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
-      (8, 0) node[below] {$Q$} ;
-    \end{tikzpicture}
-  #+end_src
+    <<ex12:coord-def>>
+    <<ex12:curve-D1>>
+    <<ex12:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+
+    \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$\num{24000}$} -|
+    (\x1, 0) node[below] {$\num{6000}$}
+    ;
+    \node[dot] at (E1) {} ;
+    <<ex12:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Demand and supply increase
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-cars2.tex
+  \begin{tikzpicture}<<ex12:xy-scale>>
+
+    <<ex12:coord-def>>
+    <<ex12:curve-D1>>
+    <<ex12:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    <<ex12:curve-D2>>
+    <<ex12:curve-O2>>
+    \path[name intersections={of=D2 and O2, by=E2}] ;
+
+    \draw[help lines]
+    let \p1 = (E2) in
+    (0, \y1) node[left] {$\num{21000}$} -|
+    (\x1, 0) node[below] {$\num{7800}$}
+    ;
+
+    \node[dot] at (E2) {} ;
+
+    \draw[shift arrow, ->]
+    ([shift={(3pt, 0pt)}]E1) -- ([shift={(-3pt, 0pt)}]E2) ;
+    <<ex12:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex12:axes
+  \draw[axis, very thick] (0, 4.5) node[left] {$P$} |-
+    (12, 0) node[below] {$Q$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:xy-scale
+  [yscale = 1, xscale = 0.5]
+#+end_src
+
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex12:coord-def
+  \coordinate (DA1) at (3.333333, 4) ;
+  \coordinate (DB1) at (8.333333, 1) ;
+  \coordinate (DA2) at (4, 4) ;
+  \coordinate (DB2) at (10, 1) ;
+  \coordinate (OA1) at (1.5, 1.5) ;
+  \coordinate (OB1) at (10, 3.2) ;
+  \coordinate (OA2) at (1.5, 0.84) ;
+  \coordinate (OB2) at (10, 2.54) ;
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex12:curve-D1
+  \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+  node[left, pos=0] {$Q_d$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:curve-D2
+  \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
+  node[right, pos=0] {$Q_d'$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:curve-O1
+  \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+   node[above, pos=1] {$Q_o$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex12:curve-O2
+  \draw[curve, very thick, name path=O2] (OA2) -- (OB2)
+  node[below, pos=1] {$Q_o'$} ;
+#+end_src
+
+
+* 2.5 Comparative statics
+
+
+** Initial equilibrium
+
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-comp1.tex
+  \begin{tikzpicture}<<ex11:xy-scale>>
+
+    <<ex11:coord-def>>
+    <<ex11:curve-D1>>
+    <<ex11:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+
+    \draw[help lines]
+      let \p1 = (E1) in
+       (0, \y1) node[left] {$\num{2000}$} -|
+       (\x1, 0) node[below] {$\num{45000}$} ;
+
+    \node[curve label, right=4pt] at (E1) {$E_{1}$} ;
+    \node[dot] at (E1) {} ;
+    <<ex11:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Demand increase
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-comp2.tex
+  \begin{tikzpicture}<<ex11:xy-scale>>
+
+    <<ex11:coord-def>>
+    <<ex11:curve-D1>>
+    <<ex11:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    <<ex11:curve-D2>>
+    \path[name intersections={of=D2 and O1, by=E2}] ;
+    \node[dot] at (E2) {} ;
+
+    \node[curve label, left=4pt] at (E1) {$E_{1}$} ;
+    \node[curve label, right=4pt] at (E2) {$E_{2}$} ;
+
+    \draw[shift arrow, ->, shorten >= 4pt]
+    ([shift={(-4pt, 4pt)}]E1) -- ([shift={(-4pt, 4pt)}]E2) ;
+    <<ex11:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Demand decrease
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-comp3.tex
+  \begin{tikzpicture}<<ex11:xy-scale>>
+
+    <<ex11:coord-def>>
+    <<ex11:curve-D1>>
+    <<ex11:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    <<ex11:curve-D3>>
+    \path[name intersections={of=D3 and O1, by=E3}] ;
+    \node[dot] at (E3) {} ;
+
+    \node[curve label, right=4pt] at (E1) {$E_{1}$} ;
+    \node[curve label, left=4pt] at (E3) {$E_{2}$} ;
+
+    \draw[shift arrow, ->, shorten <= 4pt]
+    ([shift={(-4pt, 4pt)}]E1) -- ([shift={(-4pt, 4pt)}]E3) ;
+
+    <<ex11:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex11:axes
+  \draw[axis, very thick] (0, 5) node[left] {$P_X$} |-
+    (10, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex11:xy-scale
+  [yscale = 0.9, xscale = 0.45]
+#+end_src
+
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex11:coord-def
+  \coordinate (DA1) at (0.5, 4) ;
+  \coordinate (DB1) at (8, 0.25) ;
+  \coordinate (DA2) at (2.34375, 4) ;
+  \coordinate (DB2) at (8, 1.33824) ;
+  \coordinate (DA3) at (0.5, 2.25) ;
+  \coordinate (DB3) at (4.5, 0.25) ;
+  \coordinate (OA1) at (1.875, 0.25) ;
+  \coordinate (OB1) at (7.5, 4) ;
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex11:curve-D1
+  \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+  node[right, pos=1] {$X_d$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex11:curve-D2
+  \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
+  node[right, pos=1] {$X_d'$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex11:curve-D3
+  \draw[curve, very thick, name path=D3] (DA3) -- (DB3)
+  node[right, pos=1] {$X_d'$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex11:curve-O1
+  \draw[curve, very thick, name path=O1] (OA1) -- (OB1) node[right] {$X_o$} ;
+#+end_src
 
 
 
@@ -170,235 +406,6 @@
 #+end_src
 
 
-
-
-* 2.6 Comparative statics
-
-
-** Initial equilibrium
-
-
-#+begin_src latex :tangle fig-ans-probl-2_1004-comp1.tex
-  \begin{tikzpicture}<<ex11:xy-scale>>
-
-    <<ex11:coord-def>>
-    <<ex11:curve-D1>>
-    <<ex11:curve-O1>>
-    \path[name intersections={of=D1 and O1, by=E1}] ;
-
-    \draw[help lines]
-    let \p1 = (E1) in
-    (0, \y1) node[left] {$2000$} -|
-    (\x1, 0) node[below] {$45000$}
-    ;
-    \node[dot] at (E1) {} ;
-    <<ex11:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Demand increase
-
-#+begin_src latex :tangle fig-ans-probl-2_1004-comp2.tex
-  \begin{tikzpicture}<<ex11:xy-scale>>
-
-    <<ex11:coord-def>>
-    <<ex11:curve-D1>>
-    <<ex11:curve-O1>>
-    \path[name intersections={of=D1 and O1, by=E1}] ;
-    \node[dot] at (E1) {} ;
-
-    <<ex11:curve-D2>>
-    \path[name intersections={of=D2 and O1, by=E2}] ;
-    \node[dot] at (E2) {} ;
-
-    \draw[shift arrow, ->]
-    ([shift={(-6pt, 6pt)}]E1) -- ([shift={(-6pt, 6pt)}]E2) ;
-    <<ex11:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Demand decrease
-
-#+begin_src latex :tangle fig-ans-probl-2_1004-comp3.tex
-  \begin{tikzpicture}<<ex11:xy-scale>>
-
-    <<ex11:coord-def>>
-    <<ex11:curve-D1>>
-    <<ex11:curve-O1>>
-    \path[name intersections={of=D1 and O1, by=E1}] ;
-    \node[dot] at (E1) {} ;
-
-    <<ex11:curve-D3>>
-    \path[name intersections={of=D3 and O1, by=E3}] ;
-    \node[dot] at (E3) {} ;
-
-    \draw[shift arrow, ->]
-    ([shift={(6pt, -6pt)}]E1) -- ([shift={(6pt, -6pt)}]E3) ;
-
-    <<ex11:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Common
-
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex11:axes
-  \draw[axis, very thick] (0, 5.5) node[left] {$P_X$} |-
-    (5.5, 0) node[below] {$X$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex11:xy-scale
-  [yscale = 0.818181818, xscale = 0.81818181818]
-#+end_src
-
-
-*** Coordinates
-
-#+begin_src latex :noweb-ref ex11:coord-def
-  \coordinate (DA1) at (0, 4.25) ;
-  \coordinate (DB1) at (4.25, 0) ;
-  \coordinate (DA2) at (0.75, 4.75) ;
-  \coordinate (DB2) at (4.75, 0.75) ;
-  \coordinate (DA3) at (0, 2.5) ;
-  \coordinate (DB3) at (2.5, 0) ;
-  \coordinate (OA1) at (0.75, 0) ;
-  \coordinate (OB1) at (4.25, 4.6666667) ;
-#+end_src
-
-
-*** Curves
-
-#+begin_src latex :noweb-ref ex11:curve-D1
-  \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
-  node[above right, pos=0.9] {$D$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex11:curve-D2
-  \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
-  node[above right, pos=0.9] {$D'$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex11:curve-D3
-  \draw[curve, very thick, name path=D3] (DA3) -- (DB3)
-  node[above right, pos=0.9] {$D''$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex11:curve-O1
-  \draw[curve, very thick, name path=O1] (OA1) -- (OB1) node[right] {$O$} ;
-#+end_src
-
-
-
-* 2.7 Electric cars
-
-
-** Initial equilibrium
-
-
-#+begin_src latex :tangle fig-ans-probl-2_1004-cars1.tex
-  \begin{tikzpicture}<<ex12:xy-scale>>
-
-    <<ex12:coord-def>>
-    <<ex12:curve-D1>>
-    <<ex12:curve-O1>>
-    \path[name intersections={of=D1 and O1, by=E1}] ;
-
-    \draw[help lines]
-    let \p1 = (E1) in
-    (0, \y1) node[left] {$\num{24000}$} -|
-    (\x1, 0) node[below] {$6000$}
-    ;
-    \node[dot] at (E1) {} ;
-    <<ex12:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Demand and supply increase
-
-#+begin_src latex :tangle fig-ans-probl-2_1004-cars2.tex
-  \begin{tikzpicture}<<ex12:xy-scale>>
-
-    <<ex12:coord-def>>
-    <<ex12:curve-D1>>
-    <<ex12:curve-O1>>
-    \path[name intersections={of=D1 and O1, by=E1}] ;
-    \node[dot] at (E1) {} ;
-
-    <<ex12:curve-D2>>
-    <<ex12:curve-O2>>
-    \path[name intersections={of=D2 and O2, by=E2}] ;
-
-    \draw[help lines]
-    let \p1 = (E2) in
-    (0, \y1) node[left] {$\num{21000}$} -|
-    (\x1, 0) node[below] {$7800$}
-    ;
-
-    \node[dot] at (E2) {} ;
-
-    \draw[shift arrow, ->]
-    ([shift={(3pt, 0pt)}]E1) -- ([shift={(-3pt, 0pt)}]E2) ;
-    <<ex12:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Common
-
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex12:axes
-  \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
-    (5.5, 0) node[below] {$Q$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex12:xy-scale
-  [yscale = 0.81818181818, xscale = 0.81818181818]
-#+end_src
-
-
-*** Coordinates
-
-#+begin_src latex :noweb-ref ex12:coord-def
-  \coordinate (DA1) at (0, 5) ;
-  \coordinate (DB1) at (3.3333, 0) ;
-  \coordinate (DA2) at (0, 5) ;
-  \coordinate (DB2) at (4, 0) ;
-  \coordinate (OA1) at (0, 1) ;
-  \coordinate (OB1) at (5, 3.5) ;
-  \coordinate (OA2) at (0, 0.45) ;
-  \coordinate (OB2) at (5, 2.95) ;
-#+end_src
-
-
-*** Curves
-
-#+begin_src latex :noweb-ref ex12:curve-D1
-  \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
-  node[below left, pos=0.32] {$D$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex12:curve-D2
-  \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
-  node[above right, pos=0.28] {$D'$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex12:curve-O1
-  \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
-   node[above, pos=0.975] {$O$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex12:curve-O2
-  \draw[curve, very thick, name path=O2] (OA2) -- (OB2)
-  node[below, pos=0.975] {$O'$} ;
-#+end_src
 
 
 * 2.8 Inferior good
