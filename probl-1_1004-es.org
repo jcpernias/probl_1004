@@ -74,23 +74,84 @@ d) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad de
 
 ** Answer
 
-a) En los gráficos siguientes $A$ representa automóviles, en decenas
-   de miles, y $C$ denota comida, en decenas de miles de kilos.
+En los gráficos y tablas que siguen, $A$ y $V$ representan alimentos,
+en miles de kilos, y vehículos, en miles, respectivamente; $L_A$ y
+$L_V$ representan el trabajo, en miles de horas, empleado en la
+producción de alimentos y de vehículos, respectivamente.
 
-   #+xxx: fig fig-ans-probl-1_1004-ppf-sh1-*.pdf
+a) Las últimas dos columnas de la siguiente tabla representan
+   combinaciones eficientes de producción:
+   #+ATTR_LATEX: :booktabs t :center t :align @{}rR{1.25cm}p{1.25cm}*{2}{R{1.25cm}}@{}
+   |-------+-------+-+-----+-----|
+   | $L_A$ | $L_V$ | | $A$ | $V$ |
+   |-------+-------+-+-----+-----|
+   |     0 |   100 | |   0 | 275 |
+   |    10 |    90 | |  80 | 270 |
+   |    20 |    80 | | 150 | 260 |
+   |    30 |    70 | | 200 | 245 |
+   |    40 |    60 | | 240 | 225 |
+   |    50 |    50 | | 270 | 200 |
+   |    60 |    40 | | 290 | 170 |
+   |    70 |    30 | | 305 | 135 |
+   |    80 |    20 | | 315 |  95 |
+   |    90 |    10 | | 320 |  50 |
+   |   100 |     0 | | 322 |   0 |
+   |-------+-------+-+-----+-----|
 
-b) Una mejora tecnológica en la producción de comida:
-   #+xxx: fig fig-ans-probl-1_1004-ppf-sh2-*.pdf
+   Frontera de posibilidades de producción:
+   #+xxx: fig fig-ans-probl-1_1004-ppf-shift-a-*.pdf
 
-   Una mejora organizativa en la producción de automóviles:
-   #+xxx: fig fig-ans-probl-1_1004-ppf-sh3-*.pdf
+b) No: es una combinación inalcanzable. Como mucho se pueden producir
+   \num{260000} vehículos cuando se producen \units[kg]{150000} de
+   alimentos.
 
-   Si las mejoras en los dos sectores se producen smultáneamente:
-   #+xxx: fig fig-ans-probl-1_1004-ppf-sh4-*.pdf
+c) Una mejora organizativa en la producción de automóviles desplaza la
+   frontera hacia fuera. En las últimas dos columnas de la siguiente
+   tabla se muestran las combinaciones de producción eficientes
+   después de la mejora:
+   #+ATTR_LATEX: :booktabs t :center t :align @{}rR{1.25cm}p{1.25cm}*{2}{R{1.25cm}}@{}
+   |-------+-------+---+-----+-----|
+   | $L_A$ | $L_V$ |   | $A$ | $V$ |
+   |-------+-------+---+-----+-----|
+   |     0 |   100 |   |   0 | 330 |
+   |    10 |    90 |   |  80 | 324 |
+   |    20 |    80 |   | 150 | 312 |
+   |    30 |    70 |   | 200 | 294 |
+   |    40 |    60 |   | 240 | 270 |
+   |    50 |    50 |   | 270 | 240 |
+   |    60 |    40 |   | 290 | 204 |
+   |    70 |    30 |   | 305 | 162 |
+   |    80 |    20 |   | 315 | 114 |
+   |    90 |    10 |   | 320 |  60 |
+   |   100 |     0 |   | 322 |   0 |
+   |-------+-------+---+-----+-----|
 
-c) Una reducción de un factor de producción desplaza la FPP hacia la
-   izquierda:
-   #+xxx: fig fig-ans-probl-1_1004-ppf-sh5-*.pdf
+   La frontera se desplaza hacia arriba. La producción máxima de
+   alimentos no cambia:
+   #+xxx: fig fig-ans-probl-1_1004-ppf-shift-c-*.pdf
+
+   Ahora es factible producir \units[kg]{150000} de alimentos y
+   \num{300000} vehículos, pero sería ineficiente: produciendo la
+   misma cantidad de alimentos se podrían fabricar hasta \num{312000}
+   vehículos.
+
+d) Una reducción de un factor de producción desplaza la frontera hacia
+   abajo y hacia la izquierda. Cuando sólo se dispone de \num{50000} horas de trabajo:
+   #+ATTR_LATEX: :booktabs t :center t :align @{}rR{1.25cm}p{1.25cm}*{2}{R{1.25cm}}@{}
+   |-------+-------+---+-----+-----|
+   | $L_A$ | $L_V$ |   | $A$ | $V$ |
+   |-------+-------+---+-----+-----|
+   |     0 |    50 |   |   0 | 200 |
+   |    10 |    40 |   |  80 | 170 |
+   |    20 |    30 |   | 150 | 135 |
+   |    30 |    20 |   | 200 |  95 |
+   |    40 |    10 |   | 240 |  50 |
+   |    50 |     0 |   | 270 |   0 |
+   |-------+-------+---+-----+-----|
+
+   El país ya no puede alcanzar las combinaciones de producción
+   situadas entre las dos fronteras de producción.
+   #+xxx: fig fig-ans-probl-1_1004-ppf-shift-d-*.pdf
 
 
 
@@ -126,32 +187,38 @@ e) ¿Qué relación existe entre la forma de la FPP y el coste de
 
 ** Answer
 
-a) La frontera de posibilidades de producción es cóncava.
+a) Frontera de posibilidades de producción:
    #+xxx: fig fig-ans-probl-1_1004-ppf-oc1-*.pdf
 
-b) Es factible producir 2 unidades de $Y$ y 10 de $X$, pero es una
-   combinación de producción ineficiente:
-   #+xxx: fig fig-ans-probl-1_1004-ppf-oc2-*.pdf
+b) La última columna muestra el coste de oportunidad de cada cañón medido en toneladas de mantequilla:
+   #+ATTR_LATEX: :booktabs t :center t :align @{}p{0.75cm}*{2}{r}r@{}
+   |-----+---------+-------------+-------------|
+   |     |         |             | Coste de    |
+   |     | Cañones | Mantequilla | oportunidad |
+   |-----+---------+-------------+-------------|
+   | *A* |       0 |          20 |         --- |
+   | *B* |       1 |          18 |           2 |
+   | *C* |       2 |          15 |           3 |
+   | *D* |       3 |          11 |           4 |
+   | *E* |       4 |           6 |           5 |
+   | *F* |       5 |           0 |           6 |
+   |-----+---------+-------------+-------------|
 
-c) La útima columna muestra el coste de oportunidad de cada unidad del
-   bien $Y$:
-   #+ATTR_LATEX: :booktabs t :center t :align @{}p{0.75cm}*{4}{R{0.75cm}}r@{}
-   |-----+----------+---------+------------+------------+---------------------------|
-   |     | $X$      | $Y$     | $\incr{X}$ | $\incr{Y}$ | $\abs{\incr{X}/\incr{Y}}$ |
-   |-----+----------+---------+------------+------------+---------------------------|
-   | *A* | \num{20} | \num{0} | ---        | ---        | ---                       |
-   | *B* | \num{18} | \num{1} | \num{-2}   | \num{1}    | \num{2}                   |
-   | *C* | \num{15} | \num{2} | \num{-3}   | \num{1}    | \num{3}                   |
-   | *D* | \num{11} | \num{3} | \num{-4}   | \num{1}    | \num{4}                   |
-   | *E* | \num{6}  | \num{4} | \num{-5}   | \num{1}    | \num{5}                   |
-   | *F* | \num{0}  | \num{5} | \num{-6}   | \num{1}    | \num{6}                   |
-   |-----+----------+---------+------------+------------+---------------------------|
+   Para obtener los valores de la última columna se calcula el valor
+   absoluto del cociente de las variaciones en la producción de
+   mantequilla y cañones:
+   #+begin_export latex
+   \[
+     \text{Coste de oportunidad} = \left|
+       \frac{\Delta\;\text{Mantequilla}}{\Delta\;\text{Cañones}}
+     \right|
+   \]
+   #+end_export
 
-d) Para poder producir la primera unidad de $Y$ hay que renunciar a
-   $2$ unidades de $X$, mientras que el coste de oportunidad de la
-   segunda es $3$ unidades de $X$.
+c) El primer cañón cuesta $2$ toneladas de mantequilla; el segundo
+   cuesta 3 toneladas.
 
-e) Cuando el coste de oportunidad es creciente, la FPP es cóncava.
+d) El coste de oportunidad es creciente por lo que la FPP es cóncava.
 
 
 * 1.3
@@ -180,7 +247,21 @@ d) ¿Que relación existe entre el comportamiento del coste de
 
 ** Answer
 
-Por hacer.
+
+a) Frontera de posibilidades de producción:
+
+#+xxx: fig fig-probl-1_1004-ppf-lin-*.pdf
+
+b) El coste de oportunidad de una unidad adicional de $X$ es de $0.1$
+   unidades del bien $Y$.
+
+c) El coste de oportunidad de una unidad adicional de $X$ es de $0.1$
+   unidades del bien $Y$.
+
+d) El coste de oportunidad es constante por lo que la frontera es una
+   línea recta.
+
+
 
 * 1.4
 
@@ -195,10 +276,16 @@ menor coste de oportunidad de producir pescado.
 
 ** Answer
 
-El coste de oportunidad sería mayor en $D$ que en $A$, ya que la
-pendiente es más pronunciada en $D$.  Combinaciones como $B$ no son
-eficientes y el coste de oportunidad es $0$. Puntos como el $C$ son
-inaccesibles y el coste de oportunidad no está definido.
+Excluimos el punto $C$ porque el coste de oportunidad no está definido
+para combinaciones de producción inaccesibles.
+
+En los puntos ineficientes, como el $B$, el coste de oportunidad
+es $0$.  En los puntos sobre la frontera el coste de oportunidad del
+pescado es positivo y es mayor cuanto más pronunciada es la pendiente
+de la frontera.
+
+Por tanto, si se ordenan las opciones factibles de mayor a menor coste
+de oportunidad: $D$, $A$ y $B$.
 
 
 
@@ -227,4 +314,14 @@ d) Una reforma administrativa hace mucho más difícil y costosa la
 
 ** Answer
 
-Por hacer.
+a) *(B)*: aumenta el número de trabajadores en el país y la frontera
+   se desplaza hacia afuera.
+
+b) *(C)*: hay menos recursos productivos sin emplear y la economía se
+   aproxima a la frontera.
+
+c) *(A)*: disminuye el número de trabajadores en el país y la
+   frontera se desplaza hacia adentro.
+
+d) *(D)*: es más difícil emplear eficientemente los recursos
+   existentes y la economía se aleja de la frontera.
