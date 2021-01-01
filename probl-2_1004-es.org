@@ -44,8 +44,8 @@ b) ¿Qué ocurriría si el precio fuera \price{4}? ¿Y si fuera
 a) Demanda y oferta de mercado:
    #+begin_export latex
    \begin{gather*}
-     Q^d(P) = 5000 - 1000 P \\
-     Q^o(P) = 1500 P
+     Q^d(P) = \num{5000} - \num{1000} P \\
+     Q^o(P) = \num{1500} P
    \end{gather*}
    #+end_export
    En el equilibrio de este mercado: $P^{*} = \price{2}$ y $Q^{*} =
@@ -53,8 +53,8 @@ a) Demanda y oferta de mercado:
    #+xxx: fig fig-ans-probl-2_1004-market-eq-*.pdf
 
 b) Si el precio de mercado es $P = \price{4}$ se produce un exceso de
-   oferta de \units{5000}. Si $P = \price{1}$ se produce un exceso de
-   demanda de \units{2500}.
+   oferta de \num{5000} unidades. Si $P = \price{1}$ se produce un exceso de
+   demanda de \num{2500} unidades.
 
 
 * 2.3
