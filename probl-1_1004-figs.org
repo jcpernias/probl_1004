@@ -325,7 +325,7 @@
 * 1.3 Linear ppf
 
 #+begin_src latex :tangle fig-probl-1_1004-ppf-lin.tex :noweb no
-  \begin{tikzpicture}
+  \begin{tikzpicture}[xscale=0.9, yscale=0.9]
     \draw[help lines, font=\footnotesize]
       (0, 1) node[left] {\num{250}} -- (5.1, 1)
       (0, 2) node[left] {\num{500}} -- (5.1, 2)
@@ -344,6 +344,7 @@
 
   \end{tikzpicture}
 #+end_src
+
 
 * 1.4 PPF and opportunity cost
 
@@ -373,6 +374,7 @@
 
   \end{tikzpicture}
 #+end_src
+
 
 * 1.5 Some cases
 
