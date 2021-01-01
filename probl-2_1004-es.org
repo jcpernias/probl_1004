@@ -216,14 +216,19 @@ consumo de drogas?
 
 ** Answer
 
-Menor presupuesto policial:
+Menor presupuesto policial: la oferta de drogas se incrementa al tener
+los traficantes menos dificultades para vender droga en la calle.
 #+xxx: fig fig-ans-probl-2_1004-drugs1-*.pdf
 
-Recortes en educación:
+Recortes en educación: la demanda aumenta al ser los compradores
+potenciales menos conscientes de los peligros asociados al consumo de
+drogas.
 #+xxx: fig fig-ans-probl-2_1004-drugs2-*.pdf
 
 En los dos casos aumenta la cantidad consumida, pero el precio
-disminuye en el primer escenario y aumenta en el segundo.
+disminuye en el primer escenario y aumenta en el segundo. Observando
+si el precio aumenta o disminuye es posible determinar cuál de las dos
+hipótesis es correcta.
 
 
 * 2.7
