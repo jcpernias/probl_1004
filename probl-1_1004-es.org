@@ -276,15 +276,15 @@ menor coste de oportunidad de producir pescado.
 
 ** Answer
 
-Excluimos el punto $C$ porque el coste de oportunidad no está definido
-para combinaciones de producción inaccesibles.
+Excluimos $C$: el coste de oportunidad no está definido para
+combinaciones de producción inaccesibles.
 
-En los puntos ineficientes, como el $B$, el coste de oportunidad
-es $0$.  En los puntos sobre la frontera el coste de oportunidad del
-pescado es positivo y es mayor cuanto más pronunciada es la pendiente
-de la frontera.
+En situaciones ineficientes, como $B$, el coste de oportunidad es $0$.
+Por otro lado, el coste de oportunidad del pescado es positivo en los
+puntos sobre la frontera y es mayor cuanto más pronunciada es la
+pendiente.
 
-Por tanto, si se ordenan las opciones factibles de mayor a menor coste
+Ordenando las opciones factibles de mayor a menor coste
 de oportunidad: $D$, $A$ y $B$.
 
 
