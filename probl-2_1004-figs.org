@@ -115,7 +115,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex12:xy-scale
-  [yscale = 1, xscale = 0.5]
+  [yscale = 0.9, xscale = 0.45]
 #+end_src
 
 
@@ -244,7 +244,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex11:xy-scale
-  [yscale = 0.9, xscale = 0.45]
+  [yscale = 0.8, xscale = 0.4]
 #+end_src
 
 
