@@ -137,12 +137,12 @@
 
 #+begin_src latex :noweb-ref ex12:curve-D1
   \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
-  node[left, pos=0] {$Q_d$} ;
+  node[below right, pos=1] {$Q_d$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex12:curve-D2
   \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
-  node[right, pos=0] {$Q_d'$} ;
+  node[below right, pos=1] {$Q_d'$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex12:curve-O1
