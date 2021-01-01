@@ -9,7 +9,7 @@
   #+begin_src latex :tangle fig-ans-probl-2_1004-market-eq.tex :noweb no
     \begin{tikzpicture}[xscale = 0.5, yscale = 0.75]
 
-      \draw[help lines, font = \footnotesize]
+      \draw[help lines]
       (0, 2) node[left] {$2$} -| (3, 0) node[below] {\num{3000}}
       ;
 
@@ -32,7 +32,7 @@
   #+begin_src latex :tangle fig-ans-probl-2_1004-market-demand.tex :noweb no
     \begin{tikzpicture}[xscale = 2, yscale = 1]
 
-      \draw[help lines, font = \footnotesize]
+      \draw[help lines]
       (0, 3) node[left] {\num{300}}
       (0, 1.5) node[left] {\num{150}} -| (0.3, 0) node[below] {\num{300}}
       (0, 1) node[left] {\num{100}} -| (0.65, 0) node[below] {\num{650}}
