@@ -285,7 +285,7 @@
 
 
 
-* 2.5 The war on drugs
+* 2.6 The war on drugs
 
 
 ** Lack of police
@@ -337,7 +337,7 @@
 
 #+begin_src latex :noweb-ref ex9:axes
   \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
-    (5.5, 0) node[below] {$Q$} ;
+    (6, 0) node[below] {$Q$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex9:xy-scale
@@ -349,9 +349,9 @@
 
 #+begin_src latex :noweb-ref ex9:coord-def
   \coordinate (DA1) at (1, 5) ;
-  \coordinate (DB1) at (3, 1) ;
-  \coordinate (DA2) at ($(DA1) + (1, 0)$) ;
-  \coordinate (DB2) at ($(DB1) + (1, 0)$) ;
+  \coordinate (DB1) at (3.25, 0.5) ;
+  \coordinate (DA2) at ($(DA1) + (1.5, 0)$) ;
+  \coordinate (DB2) at ($(DB1) + (1.5, 0)$) ;
   \coordinate (OA1) at (0.5, 3) ;
   \coordinate (OB1) at (5, 4.5) ;
   \coordinate (OA2) at ($(OA1) - (0, 2)$) ;
@@ -362,11 +362,11 @@
 *** Curves
 
 #+begin_src latex :noweb-ref ex9:curve-D1
-  \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[below] {$D$} ;
+  \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$D$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex9:curve-D2
-  \draw[curve, very thick, name path=D2] (DA2) -- (DB2) node[below] {$D'$} ;
+  \draw[curve, very thick, name path=D2] (DA2) -- (DB2) node[right] {$D'$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex9:curve-O1
