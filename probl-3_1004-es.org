@@ -145,7 +145,7 @@ condiciones se tendrían que cumplir?
 
 La oferta de manzanas se reduce. Se venden menos manzanas a un precio
 superior.
-#+xxx: fig fig-ans-probl-2_1004-apples-*.pdf
+#+xxx: fig fig-ans-probl-3_1004-apples-*.pdf
 
 Los ingresos de los productores solo crecerán si el mercado se
 encuentra en un tramo inelástico de la curva de demanda.
@@ -295,6 +295,7 @@ a) ¿Qué precio debería establecerse si lo que se pretende es vender
 b) Calcule el precio al que se maximizarían los ingresos. ¿Cuántas
    entradas se venderían? ¿Cuál es la elasticidad de la demanda
    ahora?
+
 
 
 ** Answer

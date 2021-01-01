@@ -134,6 +134,36 @@
 #+end_src
 
 
+* 3.6 Apple market
+
+  #+begin_src latex :tangle fig-ans-probl-3_1004-apples.tex :noweb no
+    \begin{tikzpicture}[xscale = 1, yscale = 1]
+
+      \draw[help lines]
+      (0, 1.454545) node[left] {$P_{0}$} -| (2.545454, 0) node[below] {$Q_{0}$}
+      (0, 2.545454) node[left] {$P_{1}$} -| (1.454545, 0) node[below] {$Q_{1}$} ;
+
+      \draw[curve, very thick]
+      (0, 4) -- (4, 0) node[above right, pos=0.95] {$D$} ;
+
+      \draw[curve, very thick]
+      (2, 0) -- (3.5, 4) node[right] {$O$} ;
+
+      \draw[curve, very thick]
+      (0.5, 0) -- (2, 4) node[right] {$O'$} ;
+
+      \draw[axis, very thick] (0, 4.5) node[left] {$P$} |-
+      (4.50, 0) node[below] {$Q$} ;
+
+      \node[dot, label={right:$E_{0}$}] at (2.545454, 1.454545) {} ;
+      \node[dot, label={right:$E_{1}$}] at (1.454545, 2.545454) {} ;
+
+    \end{tikzpicture}
+  #+end_src
+
+
+
+
 * 3.7 Football
 
 
