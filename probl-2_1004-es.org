@@ -241,12 +241,16 @@ el nuevo equilibrio?
 
 ** Answer
 
-La cantidad de equilibrio disminuye. El precio baja si el cambio en la
-oferta es relativamente menor que el cambio en la demanda.
+Tanto la demanda como la oferta disminuyen. En consecuencia, la
+cantidad de equilibrio disminuye. El precio podría aumentar o
+disminuir.
+
+El precio baja si el cambio en la oferta es relativamente menor que el
+cambio en la demanda.
 #+xxx: fig fig-ans-probl-2_1004-inferior1-*.pdf
 
-La cantidad de equilibrio disminuye. El precio sube si el cambio en la
-oferta es relativamente mayor que el cambio en la demanda.
+El precio sube si el cambio en la oferta es relativamente mayor que el
+cambio en la demanda.
 #+xxx: fig fig-ans-probl-2_1004-inferior2-*.pdf
 
 

@@ -380,7 +380,7 @@
 
 
 
-* 2.8 Inferior good
+* 2.7 Inferior good
 
 
 ** Price reduction
@@ -439,29 +439,29 @@
 
 #+begin_src latex :noweb-ref ex13:axes
   \draw[axis, very thick] (0, 5.5) node[left] {$P$} |-
-    (5.5, 0) node[below] {$Q$} ;
+    (6, 0) node[below] {$Q$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex13:xy-scale
-  [yscale = 0.81818181818, xscale = 0.81818181818]
+  [yscale = 0.75, xscale = 0.75]
 #+end_src
 
 
 *** Coordinates
 
 #+begin_src latex :noweb-ref ex13:coord-def
-  \coordinate (DA1) at (2, 5) ;
-  \coordinate (DB1) at (5, 1) ;
-  \coordinate (DA2) at (0.5, 4) ;
-  \coordinate (DB2) at (2.75, 1) ;
-  \coordinate (DA3) at (1.25, 5) ;
-  \coordinate (DB3) at (4.25, 1) ;
-  \coordinate (OA1) at (0.5, 1.5) ;
-  \coordinate (OB1) at (5, 4) ;
-  \coordinate (OA2) at (0.5, 2.1) ;
-  \coordinate (OB2) at (5, 4.6) ;
-  \coordinate (OA3) at (0.5, 3.5) ;
-  \coordinate (OB3) at (3.2, 5) ;
+  \coordinate (DA1) at (2,    4.5) ;
+  \coordinate (DB1) at (5,    0.5) ;
+  \coordinate (DA2) at (0.5,  3.5) ;
+  \coordinate (DB2) at (2.75, 0.5) ;
+  \coordinate (DA3) at (0.9, 4.5) ;
+  \coordinate (DB3) at (3.9, 0.5) ;
+  \coordinate (OA1) at (0.5,  1.0) ;
+  \coordinate (OB1) at (5,    3.5) ;
+  \coordinate (OA2) at (0.5,  1.6) ;
+  \coordinate (OB2) at (5,    4.1) ;
+  \coordinate (OA3) at (0.5,  3.0) ;
+  \coordinate (OB3) at (3.2,  4.5) ;
 #+end_src
 
 
@@ -469,30 +469,30 @@
 
 #+begin_src latex :noweb-ref ex13:curve-D1
   \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
-  node[below right] {$D$} ;
+  node[right] {$D$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex13:curve-D2
   \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
-  node[below right] {$D'$} ;
+  node[right] {$D'$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex13:curve-D3
   \draw[curve, very thick, name path=D3] (DA3) -- (DB3)
-  node[below right] {$D'$} ;
+  node[right] {$D'$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex13:curve-O1
   \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
-   node[below, pos=0.975] {$O$} ;
+   node[right] {$O$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex13:curve-O2
   \draw[curve, very thick, name path=O2] (OA2) -- (OB2)
-  node[above, pos=0.975] {$O'$} ;
+  node[right] {$O'$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex13:curve-O3
   \draw[curve, very thick, name path=O3] (OA3) -- (OB3)
-  node[above, pos=0.975] {$O'$} ;
+  node[right] {$O'$} ;
 #+end_src
