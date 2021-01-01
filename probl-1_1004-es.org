@@ -250,7 +250,7 @@ d) ¿Que relación existe entre el comportamiento del coste de
 
 a) Frontera de posibilidades de producción:
 
-#+xxx: fig fig-probl-1_1004-ppf-lin-*.pdf
+#+xxx: fig fig-ans-probl-1_1004-ppf-lin-*.pdf
 
 b) El coste de oportunidad de una unidad adicional de $X$ es de $0.1$
    unidades del bien $Y$.
