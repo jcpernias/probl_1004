@@ -240,7 +240,7 @@
 
 #+begin_src latex :noweb-ref ex11:axes
   \draw[axis, very thick] (0, 5) node[left] {$P_X$} |-
-    (10, 0) node[below] {$X$} ;
+    (11, 0) node[below] {$X$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex11:xy-scale
