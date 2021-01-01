@@ -276,7 +276,7 @@
 
 #+begin_src latex :noweb-ref ex11:curve-D3
   \draw[curve, very thick, name path=D3] (DA3) -- (DB3)
-  node[right, pos=1] {$X_d'$} ;
+  node[right, pos=0.965] {$X_d'$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex11:curve-O1
