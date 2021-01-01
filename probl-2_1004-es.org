@@ -180,20 +180,20 @@ c) Partiendo del equilibrio inicial, considere ahora los efectos
 a) En equilibrio $P^*_X = \price{2000}$ y $X^* = \units{45000}$:
    #+xxx: fig fig-ans-probl-2_1004-comp1-*.pdf
 
-b) Si aumenta el precio de un bien sustitutivo, la demanda
-   aumentará. Tanto el precio como la cantidad de equilibrio aumentan
-   en este caso.
+b) Si se eleva el precio de un bien sustitutivo, la demanda
+   aumentará. Tanto el precio como la cantidad de equilibrio se
+   incrementan en este caso.
    #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
 
 c) No es posible determinar qué ocurrirá con el precio y la cantidad
    de equilibrio sin saber si el bien es normal o inferior.
 
-   Si es un bien normal aumentarán el precio y la cantidad de
-   equilibrio.
+   Si es un bien normal, al crecer la renta aumentarán el precio y la
+   cantidad de equilibrio.
    #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
 
-   Por otro lado, si es un bien inferior disminuirán el precio y la
-   cantidad de equilibrio.
+   Pero si es un bien inferior, al crecer la renta disminuirán el
+   precio y la cantidad de equilibrio.
    #+xxx: fig fig-ans-probl-2_1004-comp3-*.pdf
 
 
