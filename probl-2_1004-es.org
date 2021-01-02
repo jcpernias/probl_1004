@@ -319,11 +319,20 @@ demanda para explicar este comportamiento.
 
 ** Answer
 
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-2_1004-hotels-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
 La oferta de habitaciones de hotel es la misma entre semana que en fin
 de semana: la curva de oferta no cambia.  Pero la demanda entre
 semana, $D_e$, es muy diferente a la demanda de fin de semana, $D_f$.
+#+xxx: endcol
+#+latex: \vspace*{2ex}
 
-#+xxx: fig fig-ans-probl-2_1004-hotels-*.pdf
 
 - Entre semana se demandan muchas habitaciones por motivos laborales y
   de negocios. Este tipo de viajeros tiene una elevada disposición a

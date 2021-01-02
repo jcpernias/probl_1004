@@ -555,6 +555,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** Common
 
 *** Axes
@@ -568,7 +569,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex2.8:xy-scale
-  yscale = 1.1, xscale = 1.4
+  yscale = 1, xscale = 1
 #+end_src
 
 
