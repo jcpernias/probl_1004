@@ -396,4 +396,58 @@ d) Una nueva regulación del mercado de trabajo eleva los costes
 
 ** Answer
 
-Por hacer.
+a)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-2_1004-scooters-a-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   La reducción de los costes de fabricación de los patinetes,
+   desplaza la oferta hacia abajo y a la derecha. El precio de
+   equilibrio disminuirá y la cantidad intercambiada aumentará.
+   #+xxx: endcol
+
+b)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-2_1004-scooters-b-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Un informe que cuestione la seguridad de los patinetes reducirá la
+   demanda de los mismos y provocará una disminución tanto del precio
+   como de la cantidad de equilibrio.
+   #+xxx: endcol
+
+c)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-2_1004-scooters-c-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   La búsqueda de medios de transporte urbano alternativos a los
+   coches elevará la demanda de patinetes. En el nuevo equilibrio se
+   venden más patinetes a un precio mayor.
+   #+xxx: endcol
+
+d)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-2_1004-scooters-d-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El aumento de los costes laborales reduce la oferta de patinetes.
+   El precio aumentará y la cantidad disminuirá en el nuevo
+   equilibrio.
+   #+xxx: endcol

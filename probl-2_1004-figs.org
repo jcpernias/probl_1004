@@ -745,3 +745,163 @@
   \draw[curve, very thick, name path=D3] (DA3) to [curve through={(DC3)}] (DB3)
   (DB3) node[right] {$D_2$} ;
 #+end_src
+
+
+* 2.10 Electric scooters
+
+** a)
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-scooters-a.tex
+  \begin{tikzpicture}[<<ex2.10:xy-scale>>]
+    <<ex2.10:eq-1>>
+
+    <<ex2.10:curve-O2>>
+    \path[name intersections={of=D1 and O2, by=E2}] ;
+    \node[dot] at (E2) {} ;
+
+    \draw[shift arrow, ->]
+    ([shift={(2pt, 2pt)}]E1) -- ([shift={(2pt, 2pt)}]E2) ;
+
+    <<ex2.10:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** b)
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-scooters-b.tex
+  \begin{tikzpicture}[<<ex2.10:xy-scale>>]
+    <<ex2.10:eq-1>>
+
+    <<ex2.10:curve-D2>>
+    \path[name intersections={of=D2 and O1, by=E2}] ;
+    \node[dot] at (E2) {} ;
+
+    \draw[shift arrow, ->]
+    ([shift={(2pt, -4pt)}]E1) -- ([shift={(2pt, -4pt)}]E2) ;
+
+    <<ex2.10:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** c)
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-scooters-c.tex
+  \begin{tikzpicture}[<<ex2.10:xy-scale>>]
+    <<ex2.10:eq-1>>
+
+    <<ex2.10:curve-D3>>
+
+    \path[name intersections={of=D3 and O1, by=E2}] ;
+    \node[dot] at (E2) {} ;
+
+    \draw[shift arrow, ->]
+    ([shift={(3pt, -2pt)}]E1) -- ([shift={(3pt, -2pt)}]E2) ;
+
+    <<ex2.10:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** d)
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-scooters-d.tex
+  \begin{tikzpicture}[<<ex2.10:xy-scale>>]
+    <<ex2.10:eq-1>>
+
+    <<ex2.10:curve-O3>>
+
+    \path[name intersections={of=D1 and O3, by=E2}] ;
+    \node[dot] at (E2) {} ;
+
+    \draw[shift arrow, ->]
+    ([shift={(2pt, 2pt)}]E1) -- ([shift={(2pt, 2pt)}]E2) ;
+
+    <<ex2.10:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+
+** Common
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex2.10:axes
+  \draw[axis, very thick] (0, 3.6) |- (3.6, 0) ;
+  \draw[inner xsep=0pt, outer xsep = 0pt]
+    (0, 3.6) node[anchor=south west, xshift=-6pt] {Precio}
+    (3.6, 0) node[anchor=north east, xshift=6pt, yshift=-2pt] {Patinetes}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2.10:xy-scale
+  yscale = 1, xscale = 1
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex2.10:curve-O1
+  \coordinate (OA1) at (0.2, 0.4) ;
+  \coordinate (OB1) at (3.0, 3.0) ;
+  \coordinate (OC1) at ($(OA1)!0.5!10:(OB1)$) ;
+
+  \draw[curve, very thick, name path=O1]
+    (OA1) to [curve through={(OC1)}] (OB1)
+    (OB1) node[right] {$O$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2.10:curve-O2
+  \coordinate (OA2) at (1.5, 0.4) ;
+  \coordinate (OB2) at (3.0, 2.5) ;
+  \coordinate (OC2) at ($(OA2)!0.6!7:(OB2)$) ;
+
+  \draw[curve, very thick, name path=O2]
+    (OA2) to [curve through={(OC2)}] (OB2)
+    (OB2) node[right] {$O'$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2.10:curve-O3
+  \coordinate (OA3) at (0.2, 1.7) ;
+  \coordinate (OB3) at (2.0, 3.0) ;
+  \coordinate (OC3) at ($(OA3)!0.4!10:(OB3)$) ;
+
+  \draw[curve, very thick, name path=O3]
+    (OA3) to [curve through={(OC3)}] (OB3)
+    (OB3) node[above right=-2pt and -2pt] {$O'$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2.10:curve-D1
+  \coordinate (DA1) at (0.7, 3.0) ;
+  \coordinate (DB1) at (3.0, 0.4) ;
+  \coordinate (DC1) at ($(DA1)!0.2!-25:(DB1)$) ;
+  \draw[curve, very thick, name path=D1] (DA1) to [curve through={(DC1)}] (DB1)
+  (DB1) node[right] {$D$} ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex2.10:curve-D2
+  \coordinate (DA2) at (0.2, 3.0) ;
+  \coordinate (DB2) at (1.1, 0.4) ;
+  \coordinate (DC2) at ($(DA2)!0.5!-10:(DB2)$) ;
+  \draw[curve, very thick, name path=D2] (DA2) to [curve through={(DC2)}] (DB2)
+  (DB2) node[right] {$D'$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2.10:curve-D3
+  \coordinate (DA3) at (1.4, 3.0) ;
+  \coordinate (DB3) at (3.0, 1.6) ;
+  \coordinate (DC3) at ($(DA3)!0.1!-30:(DB3)$) ;
+  \draw[curve, very thick, name path=D3] (DA3) to [curve through={(DC3)}] (DB3)
+  (DB3) node[right] {$D'$} ;
+#+end_src
+
+
+*** Equilibria
+
+#+begin_src latex :noweb-ref ex2.10:eq-1
+  <<ex2.10:curve-D1>>
+  <<ex2.10:curve-O1>>
+
+  \path[name intersections={of=D1 and O1, by=E1}] ;
+  \node[dot] at (E1) {} ;
+#+end_src
