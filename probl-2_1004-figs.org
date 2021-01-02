@@ -496,3 +496,78 @@
   \draw[curve, very thick, name path=O3] (OA3) -- (OB3)
   node[right] {$O'$} ;
 #+end_src
+
+
+
+* 2.8 Hotel prices
+
+** Week days
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-week-days.tex
+  \begin{tikzpicture}[<<ex2.8:xy-scale>>]
+    <<ex2.8:coord-def>>
+
+    <<ex2.8:curve-O1>>
+    <<ex2.8:curve-D1>>
+
+    <<ex2.8:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Weekends
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-weekend.tex
+  \begin{tikzpicture}[<<ex2.8:xy-scale>>]
+    <<ex2.8:coord-def>>
+
+    <<ex2.8:curve-O1>>
+    <<ex2.8:curve-D2>>
+
+    <<ex2.8:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Common
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex2.8:axes
+  \draw[axis, very thick] (0, 3.5) |- (3.5, 0) ;
+  \draw[inner xsep=0pt, outer xsep = 0pt]
+    (0, 3.5) node[anchor=south west, xshift=-6pt] {Precio habitación}
+    (3.5, 0) node[anchor=north east, xshift=6pt] {Habitaciones}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2.8:xy-scale
+  yscale = 1, xscale = 1
+#+end_src
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex2.8:coord-def
+  \coordinate (DA1) at (2.0, 2.9) ;
+  \coordinate (DB1) at (2.7, 0.6) ;
+  \coordinate (DA2) at (0.2, 1.8) ;
+  \coordinate (DB2) at (2.7, 0.4) ;
+  \coordinate (OA1) at (1.9, 0.2) ;
+  \coordinate (OB1) at (2.7, 2.9) ;
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex2.8:curve-O1
+  \draw[curve, very thick, name path=D1] (OA1) -- (OB1)
+  node[right] {$O$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2.8:curve-D1
+  \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+  node[right] {$D_1$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex2.8:curve-D2
+  \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
+  node[right] {$D_2$} ;
+#+end_src
