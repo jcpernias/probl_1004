@@ -204,6 +204,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** Demand increase (income)
 
 #+begin_src latex :tangle fig-ans-probl-2_1004-comp3.tex
@@ -264,7 +265,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex11:xy-scale-small
-  [yscale = 0.61, xscale = 0.3]
+  [yscale = 0.61, xscale = 0.29]
 #+end_src
 
 #+begin_src latex :noweb-ref ex11:xy-scale
