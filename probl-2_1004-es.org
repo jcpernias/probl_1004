@@ -188,13 +188,28 @@ b) Si se eleva el precio de un bien sustitutivo, la demanda
 c) No es posible determinar qué ocurrirá con el precio y la cantidad
    de equilibrio sin saber si el bien es normal o inferior.
 
-   Si es un bien normal, al crecer la renta aumentarán el precio y la
-   cantidad de equilibrio.
-   #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
-
-   Pero si es un bien inferior, al crecer la renta disminuirán el
-   precio y la cantidad de equilibrio.
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-2_1004-comp3-*.pdf
+   #+begin_center
+   Bien normal
+   #+end_center
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-2_1004-comp4-*.pdf
+   #+begin_center
+   Bien inferior
+   #+end_center
+   #+xxx: endcol
+   #+latex: \vspace*{2ex}
+
+   Al crecer la renta aumentarán el precio y la cantidad de equilibrio
+   si se trata de un bien normal, pero disminuirán el precio y la
+   cantidad de equilibrio en el caso de un bien inferior.
 
 
 * 2.6

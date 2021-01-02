@@ -165,7 +165,6 @@
 #+begin_src latex :tangle fig-ans-probl-2_1004-comp1.tex
   \begin{tikzpicture}<<ex11:xy-scale>>
 
-    <<ex11:coord-def>>
     <<ex11:curve-D1>>
     <<ex11:curve-O1>>
     \path[name intersections={of=D1 and O1, by=E1}] ;
@@ -182,12 +181,11 @@
 #+end_src
 
 
-** Demand increase
+** Demand increase (cross price)
 
 #+begin_src latex :tangle fig-ans-probl-2_1004-comp2.tex
   \begin{tikzpicture}<<ex11:xy-scale>>
 
-    <<ex11:coord-def>>
     <<ex11:curve-D1>>
     <<ex11:curve-O1>>
     \path[name intersections={of=D1 and O1, by=E1}] ;
@@ -206,27 +204,49 @@
   \end{tikzpicture}
 #+end_src
 
-
-** Demand decrease
+** Demand increase (income)
 
 #+begin_src latex :tangle fig-ans-probl-2_1004-comp3.tex
-  \begin{tikzpicture}<<ex11:xy-scale>>
+  \begin{tikzpicture}<<ex11:xy-scale-small>>
 
-    <<ex11:coord-def>>
     <<ex11:curve-D1>>
     <<ex11:curve-O1>>
     \path[name intersections={of=D1 and O1, by=E1}] ;
     \node[dot] at (E1) {} ;
 
     <<ex11:curve-D3>>
-    \path[name intersections={of=D3 and O1, by=E3}] ;
+    \path[name intersections={of=D3 and O1, by=E2}] ;
+    \node[dot] at (E2) {} ;
+
+    % \node[curve label, left=2pt] at (E1) {$E_{1}$} ;
+    % \node[curve label, right=2pt] at (E2) {$E_{2}$} ;
+
+    \draw[shift arrow, ->, shorten >= 4pt]
+    ([shift={(-4pt, 6pt)}]E1) -- ([shift={(-4pt, 6pt)}]E2) ;
+    <<ex11:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Demand decrease (income)
+
+#+begin_src latex :tangle fig-ans-probl-2_1004-comp4.tex
+  \begin{tikzpicture}<<ex11:xy-scale-small>>
+
+    <<ex11:curve-D1>>
+    <<ex11:curve-O1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \node[dot] at (E1) {} ;
+
+    <<ex11:curve-D4>>
+    \path[name intersections={of=D4 and O1, by=E3}] ;
     \node[dot] at (E3) {} ;
 
-    \node[curve label, right=4pt] at (E1) {$E_{1}$} ;
-    \node[curve label, left=4pt] at (E3) {$E_{2}$} ;
+    % \node[curve label, right=4pt] at (E1) {$E_{1}$} ;
+    % \node[curve label, left=4pt] at (E3) {$E_{2}$} ;
 
     \draw[shift arrow, ->, shorten <= 4pt]
-    ([shift={(-4pt, 4pt)}]E1) -- ([shift={(-4pt, 4pt)}]E3) ;
+    ([shift={(-3pt, 6pt)}]E1) -- ([shift={(-3pt, 6pt)}]E3) ;
 
     <<ex11:axes>>
   \end{tikzpicture}
@@ -243,43 +263,48 @@
     (11, 0) node[below] {$X$} ;
 #+end_src
 
-#+begin_src latex :noweb-ref ex11:xy-scale
-  [yscale = 0.8, xscale = 0.4]
+#+begin_src latex :noweb-ref ex11:xy-scale-small
+  [yscale = 0.61, xscale = 0.3]
 #+end_src
 
-
-*** Coordinates
-
-#+begin_src latex :noweb-ref ex11:coord-def
-  \coordinate (DA1) at (0.5, 4) ;
-  \coordinate (DB1) at (8, 0.25) ;
-  \coordinate (DA2) at (2.34375, 4) ;
-  \coordinate (DB2) at (8, 1.33824) ;
-  \coordinate (DA3) at (0.5, 2.25) ;
-  \coordinate (DB3) at (4.5, 0.25) ;
-  \coordinate (OA1) at (1.875, 0.25) ;
-  \coordinate (OB1) at (7.5, 4) ;
+#+begin_src latex :noweb-ref ex11:xy-scale
+  [yscale = 0.8, xscale = 0.4]
 #+end_src
 
 
 *** Curves
 
 #+begin_src latex :noweb-ref ex11:curve-D1
+  \coordinate (DA1) at (1, 4.2) ;
+  \coordinate (DB1) at (8.4, 0.5) ;
   \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
   node[right, pos=1] {$X_d$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex11:curve-D2
+  \coordinate (DA2) at (1.75, 4.2) ;
+  \coordinate (DB2) at (8.4, 1.9) ;
   \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
   node[right, pos=1] {$X_d'$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex11:curve-D3
+  \coordinate (DA3) at (5.0, 4.2) ;
+  \coordinate (DB3) at (8.4, 1.5) ;
   \draw[curve, very thick, name path=D3] (DA3) -- (DB3)
   node[right, pos=0.965] {$X_d'$} ;
 #+end_src
 
+#+begin_src latex :noweb-ref ex11:curve-D4
+  \coordinate (DA4) at (1.5, 1.8) ;
+  \coordinate (DB4) at (6, 0.5) ;
+  \draw[curve, very thick, name path=D4] (DA4) -- (DB4)
+  node[right, pos=0.965] {$X_d'$} ;
+#+end_src
+
 #+begin_src latex :noweb-ref ex11:curve-O1
+  \coordinate (OA1) at (2.25, 0.5) ;
+  \coordinate (OB1) at (7.8, 4.2) ;
   \draw[curve, very thick, name path=O1] (OA1) -- (OB1) node[right] {$X_o$} ;
 #+end_src
 
