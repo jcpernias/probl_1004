@@ -656,7 +656,7 @@
 
 
 #+begin_src latex :noweb-ref ex2.9:xy-scale
-  yscale = 1, xscale = 1
+  yscale = 0.8, xscale = 0.8
 #+end_src
 
 
