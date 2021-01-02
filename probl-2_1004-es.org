@@ -231,14 +231,32 @@ consumo de drogas?
 
 ** Answer
 
-Menor presupuesto policial: la oferta de drogas se incrementa al tener
-los traficantes menos dificultades para vender droga en la calle.
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-2_1004-drugs1-*.pdf
-
-Recortes en educación: la demanda aumenta al ser los compradores
-potenciales menos conscientes de los peligros asociados al consumo de
-drogas.
+#+begin_center
+Menos policía
+#+end_center
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-2_1004-drugs2-*.pdf
+#+begin_center
+Recortes educación
+#+end_center
+#+xxx: endcol
+#+latex: \vspace*{2ex}
+
+- Menor presupuesto policial: la oferta de drogas se incrementa al
+  tener los traficantes menos dificultades para vender droga en la
+  calle.
+
+- Recortes en programas educativos: la demanda aumenta al ser los
+  compradores potenciales menos conscientes de los peligros asociados
+  al consumo de drogas.
 
 En los dos casos aumenta la cantidad consumida, pero el precio
 disminuye en el primer escenario y aumenta en el segundo. Observando

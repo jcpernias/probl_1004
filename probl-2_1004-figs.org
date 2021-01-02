@@ -366,7 +366,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex9:xy-scale
-  [yscale = 0.7272727272, xscale = 0.7272727272]
+  [yscale = 0.61, xscale = 0.61]
 #+end_src
 
 
