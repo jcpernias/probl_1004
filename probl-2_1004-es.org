@@ -360,18 +360,35 @@ b) ¿Cuáles serán las consecuencias de la mala cosecha de café sobre el
 
 ** Answer
 
-a) La oferta mundial de café se contrae y la demanda no se ve
+a)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-2_1004-coffee-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   La oferta mundial de café se contrae y la demanda no se ve
    afectada. El precio del café de equilibrio se eleva, mientras que
    la cantidad intercambiada disminuye.
+   #+xxx: endcol
 
-   #+xxx: fig fig-ans-probl-2_1004-coffee-*.pdf
-
-b) El café y el té son bienes sustitutivos y un alza del precio del
+b)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-2_1004-tea-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El café y el té son bienes sustitutivos y un alza del precio del
    café provocará un aumento de la demande de té. En el nuevo
    equilibrio el precio del té es más elevado y se vende una cantidad
    mayor.
+   #+xxx: endcol
 
-   #+xxx: fig fig-ans-probl-2_1004-tea-*.pdf
 
 
 * 2.10

@@ -604,8 +604,6 @@
 
 #+begin_src latex :tangle fig-ans-probl-2_1004-coffee.tex
   \begin{tikzpicture}[<<ex2.9:xy-scale>>]
-    <<ex2.9:coord-def>>
-
     <<ex2.9:curve-D1>>
     <<ex2.9:curve-O1>>
     \path[name intersections={of=D1 and O1, by=E1}] ;
@@ -633,7 +631,6 @@
 
 #+begin_src latex :tangle fig-ans-probl-2_1004-tea.tex
   \begin{tikzpicture}[<<ex2.9:xy-scale>>]
-
     <<ex2.9:curve-O3>>
     <<ex2.9:curve-D2>>
     \path[name intersections={of=D2 and O3, by=E1}] ;
@@ -683,7 +680,7 @@
 
 
 #+begin_src latex :noweb-ref ex2.9:xy-scale
-  yscale = 0.8, xscale = 0.8
+  yscale = 0.7, xscale = 0.7
 #+end_src
 
 
@@ -766,6 +763,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** b)
 
 #+begin_src latex :tangle fig-ans-probl-2_1004-scooters-b.tex
@@ -782,6 +780,7 @@
     <<ex2.10:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** c)
 
@@ -800,6 +799,7 @@
     <<ex2.10:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** d)
 
@@ -834,7 +834,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex2.10:xy-scale
-  yscale = 1, xscale = 1
+  yscale = 0.9, xscale = 0.9
 #+end_src
 
 
