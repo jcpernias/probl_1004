@@ -278,13 +278,34 @@ Tanto la demanda como la oferta disminuyen. En consecuencia, la
 cantidad de equilibrio disminuye. El precio podría aumentar o
 disminuir.
 
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-2_1004-inferior1-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
 El precio baja si el cambio en la oferta es relativamente menor que el
 cambio en la demanda.
-#+xxx: fig fig-ans-probl-2_1004-inferior1-*.pdf
+#+xxx: endcol
+#+latex: \vspace*{2ex}
 
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-2_1004-inferior2-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
 El precio sube si el cambio en la oferta es relativamente mayor que el
 cambio en la demanda.
-#+xxx: fig fig-ans-probl-2_1004-inferior2-*.pdf
+#+xxx: endcol
+
+
 
 
 * 2.8

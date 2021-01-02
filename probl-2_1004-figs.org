@@ -469,7 +469,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex13:xy-scale
-  [yscale = 0.75, xscale = 0.75]
+  [yscale = 0.6, xscale = 0.6]
 #+end_src
 
 
