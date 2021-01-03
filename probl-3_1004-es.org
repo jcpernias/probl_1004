@@ -91,11 +91,24 @@ demanda de gasóleo de cada conductor?
 
 ** Answer
 
-El primer consumidor siempre demanda la misma cantidad: su demanda,
-$Q^d = 15$, es perfectamente inelástica, $E_d = 0$.
+El primer conductor siempre demanda la misma cantidad. Su demanda,
+$Q^d = 15$, es perfectamente inelástica: $E_d = 0$.
 
-El segundo siempre gasta lo mismo: su curva de demanda, $Q^d = 20 /
-P$, tiene elasticidad unitaria, $E_d = -1$.
+El segundo siempre gasta lo mismo: $P Q^d = \money{20}$, por lo que su
+curva de demanda es $Q^d = 20 / P$. La pendiente de la curva de demanda
+es:
+#+begin_export latex
+\[
+  \frac{\diff Q^d}{\diff P} = - \frac{20}{P^2} = - \frac{Q^d}{P}
+\]
+#+end_export
+Por tanto, la elasticidad de la demanda del segundo conductor es
+unitaria:
+#+begin_export latex
+\[
+  E_d = \frac{\diff Q^d}{\diff P}\frac{P}{Q_d} = - 1
+\]
+#+end_export
 
 
 * 3.4
