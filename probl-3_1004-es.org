@@ -51,7 +51,33 @@ b) ¿Por qué podría depender la demanda de gas natural del horizonte
 
 ** Answer
 
-Por hacer.
+a) Precio medio:
+   #+begin_export latex
+   \[
+     P_{m} = (0.054 + 0.066) / 2 = \price[\kWh]{0.060}
+   \]
+   #+end_export
+   Cambio porcentual del precio:
+   #+begin_export latex
+   \[
+     \incrpct{P} = 100 (0.066 - 0.054) / 0.060 = 20
+   \]
+   #+end_export
+   Para calular el efecto sobre la cantidad demandada usamos la
+   relación $\incrpct{Q} = E_d \times \incrpct{P}$:
+   #+begin_export latex
+   \begin{gather*}
+     \text{Corto plazo:\ }\incrpct{Q} = -0.2\times 20 = -4 \\
+     \text{Largo plazo:\ }\incrpct{Q} = -0.7\times 20 = -14
+   \end{gather*}
+   #+end_export
+
+b) A corto plazo los hogares no pueden sustituir fácilmente el gas
+   natural y la reducción en el consumo es pequeña.  Pero a largo
+   plazo, los hogares pueden reducir mucho más el consumo de gas
+   utilizando otras fuentes de energía más baratas, mejorando el
+   aislamiento térmico de las viviendas, instalando una caldera más
+   eficiente, etc.
 
 
 * 3.3
