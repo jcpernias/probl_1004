@@ -34,7 +34,7 @@ b) El precio de equilibrio es superior al precio máximo y hay un
 
    #+xxx: fig fig-ans-probl-4_1004-price-controls-b-*.pdf
 
-c) El precio de equilibrio es infeerior al precio mínimo y hay un
+c) El precio de equilibrio es inferior al precio mínimo y hay un
    exceso de oferta en el mercado. Se venden 50 unidades a un precio
    unitario de \price{4.00}.
 
