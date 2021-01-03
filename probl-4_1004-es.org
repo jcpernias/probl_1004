@@ -22,7 +22,30 @@ d) Se establece un precio máximo de \price{4.00}.
 
 ** Answer
 
-Por hacer.
+a) El precio de equilibrio es superior al precio mínimo y el mercado
+   se halla en equilibrio. Se venden 350 unidades a un precio unitario
+   de \price{2.50}.
+
+   #+xxx: fig fig-ans-probl-4_1004-price-controls-a-*.pdf
+
+b) El precio de equilibrio es superior al precio máximo y hay un
+   exceso de demanda en el mercado. Se venden 250 unidades a un precio
+   unitario de \price{1.50}.
+
+   #+xxx: fig fig-ans-probl-4_1004-price-controls-b-*.pdf
+
+c) El precio de equilibrio es infeerior al precio mínimo y hay un
+   exceso de oferta en el mercado. Se venden 50 unidades a un precio
+   unitario de \price{4.00}.
+
+   #+xxx: fig fig-ans-probl-4_1004-price-controls-c-*.pdf
+
+d) El precio de equilibrio es inferior al precio máximo y el mercado
+   se halla en equilibrio. Se venden 350 unidades a un precio unitario
+   de \price{2.50}.
+
+   #+xxx: fig fig-ans-probl-4_1004-price-controls-d-*.pdf
+
 
 
 * 4.2
