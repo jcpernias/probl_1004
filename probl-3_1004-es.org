@@ -283,7 +283,6 @@ c) Calcule la elasticidad renta de la demanda en el equilibrio de
 
 a) La curva de demanda es: $X^d = 425 - 30 P_X$ y en equilibrio:
    $P_X^* = \price{10}$ y $X^* = \units{125}$.
-   #+xxx: fig fig-ans-probl-3_1004-eq-elast-*.pdf
 
    Elasticidad de la demanda:
    #+begin_export latex
@@ -300,6 +299,7 @@ a) La curva de demanda es: $X^d = 425 - 30 P_X$ y en equilibrio:
      15 \cdot\frac{10}{125} = 1.2
    \]
    #+end_export
+   #+xxx: fig fig-ans-probl-3_1004-eq-elast-*.pdf
 
 b) Elasticidad cruzada de la demanda:
      #+begin_export latex

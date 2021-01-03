@@ -139,9 +139,6 @@
 
 
 
-
-
-
 * 3.8 Market equilibrium and elasticities
 
 
@@ -149,13 +146,13 @@
 
 
 #+begin_src latex :tangle fig-ans-probl-3_1004-eq-elast.tex :noweb no
-  \begin{tikzpicture}[xscale=0.8, yscale=0.9]
+  \begin{tikzpicture}[xscale=0.125, yscale=0.27]
 
-    \coordinate (DA1) at (0.5, 4.16666667) ;
-    \coordinate (DB1) at (3.75, 0.55555555) ;
+    \coordinate (DA1) at (3.5, 13) ;
+    \coordinate (DB1) at (35, 2.5) ;
 
-    \coordinate (OA1) at (0, 0.555555555) ;
-    \coordinate (OB1) at (1.625, 4.16666667) ;
+    \coordinate (OA1) at (3.5, 4) ;
+    \coordinate (OB1) at (17, 13) ;
 
     \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
     node[right] {$D$} ;
@@ -172,7 +169,7 @@
     (\x1, 0) node[below] {$125$}
     ;
 
-    \draw[axis, very thick] (0, 4.5) node[left] {$P_X$} |-
-    (4, 0) node[below] {$X$} ;
+    \draw[axis, very thick] (0, 15) node[left] {$P_X$} |-
+    (40, 0) node[below] {$X$} ;
   \end{tikzpicture}
 #+end_src
