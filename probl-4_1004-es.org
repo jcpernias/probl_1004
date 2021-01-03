@@ -113,16 +113,25 @@ gráficamente.
 
 ** Answer
 
-La regulación implica una caída del precio $\incrpct{P} = -6/300 \cdot
-100 = 2\%$. De acuerdo con las elasticidades proporcionadas:
+El precio de equilibrio está por encima del precio máximo.
+La regulación implica una caída del precio de mercado:
+#+begin_export latex
+\[
+  \incrpct{P} = -6/300 \times 100 = -2
+\]
+#+end_export
+Podemos determinar la variación de la cantidad demandada y de la
+cantidad ofrecida usando los valores de las elasticidades de la
+demanda y de la oferta, respectivamente:
 #+begin_export latex
 \begin{gather*}
-  \incrpct{Q^{d}} = -1.5 \cdot (-2\%) = 3\% \\
-  \incrpct{Q^{o}} = 2 \cdot (-2\%) = -4\%
+  \incrpct{Q^{d}} = E_d \incrpct{P} = -1.5 \times (-2) = 3 \\
+  \incrpct{Q^{o}} = E_o \incrpct{P} = 2 \times (-2) = -4
 \end{gather*}
 #+end_export
 Por lo que se produce un exceso de demanda de un 7% con respecto a la
-cantidad inicial: se produce una escasez de unas 6720 unidades.
+cantidad inicial: la cantidad ofrecida será unas \num{6720} unidades
+menor que la cantidad demandada.
 
 
 * 4.5
