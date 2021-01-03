@@ -268,25 +268,25 @@
   #+end_src
 
 
-* 4.4 Equilibrium and price ceiling
+* 4.5 Equilibrium and price ceiling
 
   #+begin_src latex :tangle fig-ans-probl-4_1004-eq1.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.75, yscale = 2.28571]
+    \begin{tikzpicture}[xscale = 0.85, yscale = 4.5]
 
       \draw[help lines]
       (0, 0.45) node[left] {$45$} -| (1.9, 0) node[below] {$190$} ;
 
       \draw[curve, very thick]
-      (0, 0.83) -- (4.15, 0) node[above right, pos=0.95] {$D$} ;
+      (0, 0.83) -- (4.15, 0) node[above right, pos=0.95] {$X^d_a$} ;
 
       \draw[curve, very thick]
-      (1, 0) -- (4.15, 1.5715) node[right] {$O$} ;
+      (1, 0) -- (2.664, 0.83) node[right] {$X^o$} ;
 
       \draw[curve, very thick]
-      (0, 0.5) -- (5.15, 0.5) node[right] {$P_{X}^{\max}$} ;
+      (0, 0.5) -- (4.65, 0.5) node[right] {$P_{X}^{\max}$} ;
 
-      \draw[axis, very thick] (0,1.75) node[left] {$P_{X}$} |-
-      (6.50, 0) node[below] {$X$} ;
+      \draw[axis, very thick] (0,1) node[left] {$P_{X}$} |-
+      (6.25, 0) node[below] {$X$} ;
 
       \node[dot] at (1.9, 0.45) {} ;
 
@@ -294,23 +294,23 @@
   #+end_src
 
   #+begin_src latex :tangle fig-ans-probl-4_1004-eq2.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.75, yscale = 2.28571]
+    \begin{tikzpicture}[xscale = 0.85, yscale = 4.5]
 
       \draw[help lines]
       (2, 0.5) -- (2, 0) node[below] {$200$}
       (3.05, 0.5) -- (3.05, 0) node[below] {$305$} ;
 
       \draw[curve, very thick]
-      (0, 1.11) -- (5.55, 0) node[above right, pos=0.95] {$D$} ;
+      (1.4, 0.83) -- (4.65, 0.18) node[right] {$X^d_b$} ;
 
       \draw[curve, very thick]
-      (1, 0) -- (4.15, 1.5715) node[right] {$O$} ;
+      (1, 0) -- (2.664, 0.83) node[right] {$X^o$} ;
 
       \draw[curve, very thick]
       (0, 0.5) node[left] {$50$} -- (4.65, 0.5) node[right] {$P_{X}^{\max}$} ;
 
-      \draw[axis, very thick] (0,1.75) node[left] {$P_{X}$} |-
-      (6.50, 0) node[below] {$X$} ;
+      \draw[axis, very thick] (0,1) node[left] {$P_{X}$} |-
+      (6.25, 0) node[below] {$X$} ;
 
       \node[dot] at (2, 0.5) {} ;
 

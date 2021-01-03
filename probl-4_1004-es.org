@@ -156,13 +156,29 @@ b) Describa como cambiarían sus respuestas en [[ex4.4:item-a]] si la
 
 ** Answer
 
-a) El precio máximo es superior al precio de equilibrio: nada impide
-   que se alcance el equilibrio en este mercado.
+a) La curva de demanda es:
+   #+begin_export latex
+   \[
+     X^d_a = 200 - 5 P_X + 3 \times 5 + 2 \times 100 = 415 - 5 P_X
+   \]
+   #+end_export
+   Igualando oferta y demanda se obtiene el equilibrio: $P^*_X =
+   \price{45}$ y $X^* = \units{190}$. Como el precio máximo es
+   superior al precio de equilibrio, nada impide que este mercado
+   alcance el equilibrio.
    #+xxx: fig fig-ans-probl-4_1004-eq1-*.pdf
 
-b) El nuevo precio de equilibrio es $P_X^* = \price{65}$; mayor que el
-   precio máximo. Al precio máximo $P_X = \price{50}$ se venderán
-   todas las unidades ofrecidas, $X^o(50) = \units{200}$.
+b) La nueva curva de demanda es:
+   #+begin_export latex
+   \[
+     X^d_b = 200 - 5 P_X + 3 \times 5 + 2 \times 170 = 555 - 5 P_X
+   \]
+   #+end_export
+   El nuevo precio de equilibrio sería $P_X^* = \price{65}$. Pero este
+   precio no se puede alcanzar ya que es mayor que el precio
+   máximo. El precio de mercado sería $P_X = \price{50}$, se
+   produciría un exceso de demanda y se venderían todas las unidades
+   ofrecidas: $X^o(50) = \units{200}$.
    #+xxx: fig fig-ans-probl-4_1004-eq2-*.pdf
 
 
