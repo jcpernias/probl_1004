@@ -234,6 +234,40 @@
 #+end_src
 
 
+* 4.3 Sugar
+
+  #+begin_src latex :tangle fig-ans-probl-4_1004-sugar.tex :noweb no
+    \begin{tikzpicture}[xscale = 0.9, yscale = 3.5]
+
+      \draw[curve, very thick, name path = D]
+      (1.39, 0.85) -- (2.5, 0.15625) node[right] {$D$} ;
+
+      \draw[curve, very thick, name path = O]
+      (0.25, 0.3) -- (2.5, 0.85) node[right] {$O$} ;
+
+      \draw[curve, very thick, name path = C]
+      (0, 0.4) node[left] {$0.65$} -- (2.7, 0.4) node[right] {$P_{\min}$} ;
+
+      \path[name intersections={of=D and O, by=E1}] ;
+
+      \draw[help lines]
+        let \p1 = (E1) in
+        (0, \y1) node[left] {$0.75$} -|
+        (\x1, 0) node[below] {$A^{*}$}
+        ;
+
+      \node[dot] at (E1) {} ;
+
+      \draw[axis, very thick] (0, 1) |- (3.5, 0) ;
+      \draw[inner xsep=0pt, outer xsep = 0pt]
+        (0, 1) node[anchor=south west, xshift=-6pt] {Precio}
+        (3.5, 0) node[anchor=north east, xshift=6pt, yshift=-2] {Azúcar}
+      ;
+
+    \end{tikzpicture}
+  #+end_src
+
+
 * 4.4 Equilibrium and price ceiling
 
   #+begin_src latex :tangle fig-ans-probl-4_1004-eq1.tex :noweb no

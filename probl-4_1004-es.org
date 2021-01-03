@@ -87,7 +87,18 @@ este mercado del establecimiento de un precio mínimo de
 
 ** Answer
 
-Por hacer.
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-4_1004-sugar-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+El precio de equilibrio es superior al precio mínimo, por lo que la
+regulación no tiene efecto sobre el precio de mercado ni sobre la
+cantidad intercambiada.
+#+xxx: endcol
 
 
 * 4.4
