@@ -191,8 +191,10 @@ cantidad vendida coincidirá con la cantidad de equilibrio."
 
 ** Answer
 
-Un precio máximo superior al de equilibrio no impide al mercado que se
-ajuste por lo que la afirmación es verdadera.
+Un precio máximo mayor que el de equilibrio no impide que el mercado
+se equilibre. En ese caso la cantidad vendida la determinaría la
+intersección de las curvas de demanda y de oferta, por lo que la
+afirmación es verdadera.
 
 
 * 4.7
