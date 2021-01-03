@@ -371,9 +371,21 @@ b) Calcule el precio al que se maximizarían los ingresos. ¿Cuántas
 ** Answer
 
 a) La demanda es igual al aforo de la sala cuando $P =
-   \money{18.75}$. La elasticidad sería $E_d = -160 \cdot 18.75 / 5000
-   = -0.6$: tramo inelástico de la demanda.
+   \money{18.75}$. A este precio la elasticidad de la demanda sería
+   $E_d = -160 \cdot 18.75 / 5000 = -0.6$: tramo inelástico de la
+   demanda.
 
-
-b) Los ingresos se maximizan cuando $E_d = -1$, lo que sucede cuando
-   $P = \money{25}$ y se venden \num{4000} entradas.
+b)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-3_1004-max-rev-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Los ingresos se maximizan cuando $E_d = -1$. Dado que la demanda es
+   lineal, la elasticidad es unitaria en el punto medio de la curva de
+   demanda. En este punto $P = \money{25}$ y se venden \num{4000}
+   entradas.
+   #+xxx: endcol
