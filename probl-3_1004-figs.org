@@ -3,7 +3,51 @@
 #+TITLE: Exercises 3
 
 
-* 3.1 Medicines and computers
+* 3.6 Apple market
+
+  #+begin_src latex :tangle fig-ans-probl-3_1004-apples.tex :noweb no
+    \begin{tikzpicture}[xscale = 0.89, yscale = 0.89]
+
+      \draw[curve, very thick, name path = D]
+      (0.5, 3.5) -- (3.5, 0.5) node[right] {$D$} ;
+
+      \draw[curve, very thick, name path = O1]
+      (2.25, 0.5) -- (3.25, 3.5) node[right] {$O$} ;
+
+      \draw[curve, very thick, name path = O2]
+      (0.75, 0.5) -- (1.75, 3.5) node[right] {$O'$} ;
+
+      \path[name intersections={of=D and O1, by=E1}] ;
+      \path[name intersections={of=D and O2, by=E2}] ;
+
+      \draw[help lines]
+        let \p1 = (E1) in
+        (0, \y1) node[left] {$P_{1}$} -|
+        (\x1, 0) node[below] {$Q_{1}$}
+        ;
+
+      \draw[help lines]
+        let \p1 = (E2) in
+        (0, \y1) node[left] {$P_{2}$} -|
+        (\x1, 0) node[below] {$Q_{2}$}
+        ;
+
+      \draw[shift arrow, ->]
+        ([shift={(1pt, 6pt)}]E1) -- ([shift={(1pt, 6pt)}]E2) ;
+
+      \draw[axis, very thick] (0, 4.5) node[left] {$P$} |-
+      (4.50, 0) node[below] {$Q$} ;
+
+      \node[dot] at (E1) {} ;
+      \node[dot] at (E2) {} ;
+
+    \end{tikzpicture}
+  #+end_src
+
+
+
+
+* 3.7 Medicines and computers
 
 ** Medicines
 
@@ -57,7 +101,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex10:xy-scale
-  [yscale = 0.81818181818, xscale = 0.81818181818]
+  [yscale = 0.61, xscale = 0.61]
 #+end_src
 
 
@@ -66,12 +110,12 @@
 #+begin_src latex :noweb-ref ex10:coord-def
   \coordinate (DA1) at (0.5, 5) ;
   \coordinate (DB1) at (2.75, 0.5) ;
-  \coordinate (DA2) at (0.5, 2.5) ;
-  \coordinate (DB2) at (5, 1) ;
+  \coordinate (DA2) at (0.5, 2.75) ;
+  \coordinate (DB2) at (4, 1.25) ;
   \coordinate (OA1) at (0.5, 0.5) ;
-  \coordinate (OB1) at (5, 5) ;
+  \coordinate (OB1) at (4, 4.5) ;
   \coordinate (OA2) at (1, 0.5) ;
-  \coordinate (OB2) at (5, 2.5) ;
+  \coordinate (OB2) at (4, 2.25) ;
 #+end_src
 
 
@@ -98,7 +142,7 @@
 
 
 
-* 3.5 Market equilibrium and elasticities
+* 3.8 Market equilibrium and elasticities
 
 
 ** Equilibrium
@@ -130,84 +174,5 @@
 
     \draw[axis, very thick] (0, 4.5) node[left] {$P_X$} |-
     (4, 0) node[below] {$X$} ;
-  \end{tikzpicture}
-#+end_src
-
-
-* 3.6 Apple market
-
-  #+begin_src latex :tangle fig-ans-probl-3_1004-apples.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.89, yscale = 0.89]
-
-      \draw[curve, very thick, name path = D]
-      (0.5, 3.5) -- (3.5, 0.5) node[right] {$D$} ;
-
-      \draw[curve, very thick, name path = O1]
-      (2.25, 0.5) -- (3.25, 3.5) node[right] {$O$} ;
-
-      \draw[curve, very thick, name path = O2]
-      (0.75, 0.5) -- (1.75, 3.5) node[right] {$O'$} ;
-
-      \path[name intersections={of=D and O1, by=E1}] ;
-      \path[name intersections={of=D and O2, by=E2}] ;
-
-      \draw[help lines]
-        let \p1 = (E1) in
-        (0, \y1) node[left] {$P_{1}$} -|
-        (\x1, 0) node[below] {$Q_{1}$}
-        ;
-
-      \draw[help lines]
-        let \p1 = (E2) in
-        (0, \y1) node[left] {$P_{2}$} -|
-        (\x1, 0) node[below] {$Q_{2}$}
-        ;
-
-      \draw[shift arrow, ->]
-        ([shift={(1pt, 6pt)}]E1) -- ([shift={(1pt, 6pt)}]E2) ;
-
-      \draw[axis, very thick] (0, 4.5) node[left] {$P$} |-
-      (4.50, 0) node[below] {$Q$} ;
-
-      \node[dot] at (E1) {} ;
-      \node[dot] at (E2) {} ;
-
-    \end{tikzpicture}
-  #+end_src
-
-
-
-
-* 3.7 Football
-
-
-** Equilibrium
-
-
-#+begin_src latex :tangle fig-ans-probl-3_1004-football.tex :noweb no
-  \begin{tikzpicture}[xscale=5, yscale=5]
-
-    \coordinate (DA1) at (0, 0.9366666667) ;
-    \coordinate (DB1) at (0.9366666667, 0) ;
-
-    \coordinate (OA1) at (0.4166666667, 0.94) ;
-    \coordinate (OB1) at (0.4166666667, 0) ;
-
-    \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
-    node[above right, pos=0.85] {$Q^d$} ;
-
-    \draw[curve, very thick, name path=O1] (OA1) node[right] {$Q^o$} -- (OB1)
-    node[below] {$\num{125000}$} ;
-
-    \path[name intersections={of=D1 and O1, by=E1}] ;
-    \node[dot] at (E1) {} ;
-
-    \draw[help lines]
-    let \p1 = (E1) in
-    (0, \y1) node[left] {$1560$} -- (E1) ;
-    ;
-
-    \draw[axis, very thick] (0, 1) node[left] {$P$} |-
-    (1, 0) node[below] {$Q$} ;
   \end{tikzpicture}
 #+end_src

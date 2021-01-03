@@ -225,11 +225,25 @@ c) ¿Cómo cambiará el gasto de los consumidores en cada bien?
 
 ** Answer
 
-a) Demanda inelástica.
+a)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-3_1004-medicines-*.pdf
-
-   Demanda elástica.
+   #+begin_center
+   Demanda inelástica.
+   #+end_center
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-3_1004-computers-*.pdf
+   #+begin_center
+   Demanda elástica.
+   #+end_center
+   #+xxx: endcol
+   #+latex: \vspace*{2ex}
 
 b) En el mercado con la demanda más elástica se ve más afectada la
    cantidad. En el mercado con demanda menos elástica se ve más
