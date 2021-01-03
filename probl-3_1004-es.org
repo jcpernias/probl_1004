@@ -135,6 +135,7 @@ variaciones porcentuales de la cantidad demandada y del precio:
 #+end_export
 La demanda del bien es inelástica.
 
+
 * 3.5
 
 La empresa que gestiona un túnel se está planteando alterar el
@@ -172,9 +173,11 @@ c) Ingresos:
      I = P Q = P (6000 - 600 P) = 6000 P - 600 P^2
    \]
    #+end_export
-   Maximizando con respecto a P obtenemos $P^* = \price{5}$,
-   $Q^* = 3000$ viajeros e $I^* = \money{15000}$ al día. La
-   elasticidad de la demanda es:
+   Derivando la expresión anterior con respecto a $P$ e igualando a
+   \num{0}, obtenemos el precio que maximiza los ingresos, $P^* =
+   \price{5}$. A ese precio $Q^* = 3000$ conductores cruzan el túnel
+   diariamente y la empresa obtiene unos ingresos de $I^* =
+   \money{15000}$ al día. La elasticidad de la demanda sería:
    #+begin_export latex
    \[
      E_d = \frac{\diff Q}{\diff P} \frac{P}{Q} =
