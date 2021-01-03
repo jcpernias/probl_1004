@@ -15,20 +15,21 @@ la demanda de cigarrillos.
 La pendiente de la curva de demanda es:
 #+begin_export latex
 \[
-  \incr Q^d/\incr P = (47.5 - 52)/(4.6 - 4) = -7.5
+  \incr Q^d/\incr P = (47.5 - 52)/(4.60 - 4) = -7.5
 \]
 #+end_export
 El precio y la cantidad medios son:
 #+begin_export latex
-\[
-  Q^d_m = (52 + 47.5)/2 = 49.75; \qquad
-  P_m = (4 + 4.6)/2 = 4.3.
-\]
+\begin{gather*}
+  Q^d_m = (52 + 47.5)/2 = 49.75, \\
+  P_m = (4 + 4.60)/2 = 4.30.
+\end{gather*}
 #+end_export
 La elasticidad, usando la fórmula del punto medio, es:
 #+begin_export latex
 \[
-  E_d = -7.5 \cdot 4.3/ 49.75 \approx -0.65
+  E_d = \iratio{Q^d}{P}\frac{P_m}{Q^d_m} =
+  -7.5 \cdot \frac{4.30}{49.75} \approx -0.65
 \]
 #+end_export
 
@@ -139,6 +140,7 @@ oferta y demanda que muestre los efectos sobre el equilibrio de una
 enfermedad de los manzanos que perjudique a la cosecha. ¿Podrían
 aumentar los ingresos de los agricultores en este caso?  ¿Qué
 condiciones se tendrían que cumplir?
+
 
 
 ** Answer
