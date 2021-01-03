@@ -297,14 +297,20 @@ b) El ayuntamiento establece un programa de ayudas al alquiler por el
 
 ** Answer
 
-a) Equilibrio de mercado: $P^* = \price{500}$ y $Q^* = \units{10000}$.
-   #+xxx: fig fig-ans-probl-4_1004-subsidy1-*.pdf
+a) Igualando oferta y demanda se obtiene el equilibrio de mercado: el
+   alquiler mensual asciende a $P^* = \money{500}$ y se alquilan $Q^*
+   = \num{10000}$ viviendas.
 
-b) La demanda con subvención es: $Q^d = \num{31000} - 30 P$. En el
-   nuevo equilibrio: $P^* = \price{650}$ y $Q^* = \units{11500}$.
+b) Cuando se introduce la subvención la curva de demanda es:
+   #+begin_export latex
+   \[
+     Q^d_t = \num{25000} - 30 (P - 200) = \num{31000} - 30 P
+   \]
+   #+end_export
+   En el nuevo equilibrio $P^* = \money{650}$ al mes y $Q^* =
+   \num{11500}$ viviendas.
    #+xxx: fig fig-ans-probl-4_1004-subsidy2-*.pdf
 
-   Los caseros reciben \money{650} y los inquilinos pagan
-   \money{450} por casa alquilada. El coste total del programa
-   de subvenciones asciende a $200 \cdot \num{11500} =
-   \money{2300000}$.
+   Por cada vivienda alquilada los caseros reciben \money{650} y los
+   inquilinos pagan \money{450}. El coste total del programa de
+   subvenciones asciende a $200 \times \num{11500} = \money{2300000}$.
