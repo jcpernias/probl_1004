@@ -121,8 +121,19 @@ la elasticidad precio con la información proporcionada.
 
 ** Answer
 
-Por hacer.
+Podemos aproximar la variación porcentual de los ingresos como:
+$\incrpct{I} \approx \incrpct{P} + \incrpct{Q}$.  Dado que
+$\incrpct{Q} = -5$ y $\incrpct{I} = 3$, la variación porcentual del
+precio es $\incrpct{P} \approx 8$.
 
+Calculamos la elasticidad de la demanda como el cociente de las
+variaciones porcentuales de la cantidad demandada y del precio:
+#+begin_export latex
+\[
+  E_d = \ipctratio{Q^d}{P} \approx \frac{-5}{8} = -0.625
+\]
+#+end_export
+La demanda del bien es inelástica.
 
 * 3.5
 
