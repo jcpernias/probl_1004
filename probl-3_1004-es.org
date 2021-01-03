@@ -333,18 +333,19 @@ que prefiera, ¿cuál sería ahora la cantidad demandada de alimentos?
 
 ** Answer
 
-El incremento porcentual de la renta de Ana a causa de la beca
-es: $\incrpct{M} = \num{1000} / \num{25000} \cdot 100 =
-4\%$. La variación del consumo de alimentos es:
+El incremento porcentual de la renta de Ana a causa de la beca es:
+$\incrpct{M} = \num{1000} / \num{25000} \times 100 = 4$. La variación
+porcentual del consumo de alimentos es:
 #+begin_export latex
 \[
-  \incrpct{Q} = E_{d}^{M} \cdot \incrpct{M} = 0.5 \cdot 4= 2\%
+  \incrpct{Q} = E_{d}^{M} \cdot \incrpct{M} = 0.5 \cdot 4= 2
 \]
 #+end_export
-Las unidades de alimentos que inicialmente compra Ana durante un
-año son: $Q = 5000 / 2 = \units{2500}$. Después de recibir la
-beca, el consumo de alimentos será un 2% superior:
-$2550$ unidades.
+Dividiendo el gasto en alimentos por su precio obtenemos las unidades
+de alimentos que inicialmente compra Ana durante un año: $Q_1=
+\num{5000} / 2 = \num{2500}$. Después de recibir la beca, el consumo
+de alimentos será un 2% superior: $Q_2 = 1.02 \times \num{2500} =
+\num{2550}$ unidades.
 
 
 * 3.10
