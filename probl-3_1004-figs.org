@@ -137,26 +137,40 @@
 * 3.6 Apple market
 
   #+begin_src latex :tangle fig-ans-probl-3_1004-apples.tex :noweb no
-    \begin{tikzpicture}[xscale = 1, yscale = 1]
+    \begin{tikzpicture}[xscale = 0.89, yscale = 0.89]
+
+      \draw[curve, very thick, name path = D]
+      (0.5, 3.5) -- (3.5, 0.5) node[right] {$D$} ;
+
+      \draw[curve, very thick, name path = O1]
+      (2.25, 0.5) -- (3.25, 3.5) node[right] {$O$} ;
+
+      \draw[curve, very thick, name path = O2]
+      (0.75, 0.5) -- (1.75, 3.5) node[right] {$O'$} ;
+
+      \path[name intersections={of=D and O1, by=E1}] ;
+      \path[name intersections={of=D and O2, by=E2}] ;
 
       \draw[help lines]
-      (0, 1.454545) node[left] {$P_{0}$} -| (2.545454, 0) node[below] {$Q_{0}$}
-      (0, 2.545454) node[left] {$P_{1}$} -| (1.454545, 0) node[below] {$Q_{1}$} ;
+        let \p1 = (E1) in
+        (0, \y1) node[left] {$P_{1}$} -|
+        (\x1, 0) node[below] {$Q_{1}$}
+        ;
 
-      \draw[curve, very thick]
-      (0, 4) -- (4, 0) node[above right, pos=0.95] {$D$} ;
+      \draw[help lines]
+        let \p1 = (E2) in
+        (0, \y1) node[left] {$P_{2}$} -|
+        (\x1, 0) node[below] {$Q_{2}$}
+        ;
 
-      \draw[curve, very thick]
-      (2, 0) -- (3.5, 4) node[right] {$O$} ;
-
-      \draw[curve, very thick]
-      (0.5, 0) -- (2, 4) node[right] {$O'$} ;
+      \draw[shift arrow, ->]
+        ([shift={(1pt, 6pt)}]E1) -- ([shift={(1pt, 6pt)}]E2) ;
 
       \draw[axis, very thick] (0, 4.5) node[left] {$P$} |-
       (4.50, 0) node[below] {$Q$} ;
 
-      \node[dot, label={right:$E_{0}$}] at (2.545454, 1.454545) {} ;
-      \node[dot, label={right:$E_{1}$}] at (1.454545, 2.545454) {} ;
+      \node[dot] at (E1) {} ;
+      \node[dot] at (E2) {} ;
 
     \end{tikzpicture}
   #+end_src
