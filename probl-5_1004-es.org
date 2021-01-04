@@ -94,14 +94,39 @@ c)
 * 5.2
 
 Suponga que se pueden comprar 4 peras con el dinero necesario para
-comprar una manzana. Si David, que gasta todo su dinero en
-peras y manzanas, compra 100 peras y 20 manzanas, ¿cuántas peras
-podría haber comprado como máximo? ¿Y manzanas? Obtenga y represente la recta presupuestaria de David.
+comprar una manzana. Si David, que gasta todo su dinero en peras y
+manzanas, compra 100 peras y 20 manzanas, ¿cuántas peras podría haber
+comprado como máximo? ¿Y manzanas? Obtenga y represente la recta
+presupuestaria de David.
 
 
 ** Answer
 
-Por hacer.
+El precio relativo de las manzanas es $P_M / P_P = 4$ peras por
+manzana, donde $P_M$ y $P_P$ son los precios de manzanas y peras,
+respectivamente.  Por otro lado, la cesta de consumo $P = 100$ peras y
+$M = 20$ manzanas está situada sobre la restricción presupuestaria de
+David ya que agota su renta.
+
+Si David renunciara a las 20 manzanas que consume podría comprar $20
+\times 4 = 80$ peras adicionales: como máximo podría consumir
+180 peras. Razonando de forma análoga, si dejara de comprar 100 peras
+podría aumentar su consumo de manzanas en $100 / 4 = 25$ unidades:
+podría adquirir 45 manzanas a lo sumo.
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-5_1004-apples-pears-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Recta presupuestaria:
+#+begin_export latex
+  \[ P =  80  - 4 M \]
+#+end_export
+#+xxx: endcol
 
 
 * 5.3

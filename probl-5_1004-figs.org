@@ -102,6 +102,56 @@
 
 
 
+* 5.2 Apples and pears
+
+** Budget line
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-apples-pears.tex
+  \begin{tikzpicture}[<<ex5.2:xy-scale>>]
+    <<ex5.2:axes-coord>>
+    <<ex5.2:budget-line>>
+    <<ex5.2:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex5.2:axes-coord
+  \coordinate (Xaxis) at (60, 0) ;
+  \coordinate (Yaxis) at (0, 250) ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex5.2:axes
+  \draw[axis, very thick]
+    (Yaxis) node[left] {$P$} |-
+    (Xaxis) node[below] {$M$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.2:xy-scale
+  yscale = 0.012, xscale = 0.05
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex5.2:budget-line
+  \coordinate (BL1) at (0, 180) ;
+  \coordinate (BL2) at (45, 0) ;
+
+  \draw[curve, very thick]
+  (BL1) node[left] {$180$} --
+  (BL2) node[below] {$45$}
+  ;
+#+end_src
+
+
+
+
 
 * 5.4 Budget line and taxes
 
