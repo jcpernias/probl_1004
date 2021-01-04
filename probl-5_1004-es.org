@@ -209,26 +209,32 @@ c) ¿Qué opción preferiría el consumidor?
 
 ** Answer
 
-a) La recta presupuestaria después del impuesto al consumo es:
+a) Si los precios aumentan un 25% la nueva recta presupuestaria es:
    #+begin_export latex
    \[
      M = 1.25 P_X X + 1.25 P_Y Y
    \]
    #+end_export
-   Los puntos de corte con los ejes de la nueva restricción
-   presupuestaria serían: $X_{\max} = 0.8 M / P_X$ e $Y_{\max} = 0.8 M
-   / P_Y$.
-   #+xxx: fig fig-ans-probl-5_1004-budget-tax1-*.pdf
+   Dividiendo la expresión anterior por $1.25$ obtenemos:
+   #+begin_export latex
+   \[
+     (1/1.25)M = 0.8 M = P_X X + P_Y Y
+   \]
+   #+end_export
+   Es decir, un incremento del 25% en todos los precios es equivalente
+   a una reducción del 20% de la renta. La restricción presupuestaria
+   se desplazaría paralelamente hacia abajo y hacia la izquierda.
 
 b) La recta presupuestaria después del impuesto a la renta es:
    #+begin_export latex
    \[
-     0.75 M = 1.25 P_X X + 1.25 P_Y Y
+     0.75 M = P_X X + P_Y Y
    \]
    #+end_export
-   #+xxx: fig fig-ans-probl-5_1004-budget-tax2-*.pdf
+   La restricción presupuestaria se desplazaría paralelamente hacia
+   abajo y hacia la izquierda.
 
-c) Su conjunto de oportunidades es mayor en el primer caso: preferiría
+c) El conjunto de oportunidades es mayor en el primer caso: preferiría
    el impuesto al consumo.
 
 

@@ -4,6 +4,7 @@
 
 * 5.1 Oportunity cost
 
+
 ** Initial budget line
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-budget-line-a.tex
@@ -13,6 +14,7 @@
     <<ex5.1:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** Price of water increases
 
@@ -26,6 +28,7 @@
     <<ex5.1:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** Rationing water
 
@@ -104,6 +107,7 @@
 
 * 5.2 Apples and pears
 
+
 ** Budget line
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-apples-pears.tex
@@ -153,6 +157,7 @@
 
 * 5.3 Monetary illusion
 
+
 ** Budget line
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-illusion.tex
@@ -198,76 +203,6 @@
   ;
 #+end_src
 
-
-
-
-
-* 5.4 Budget line and taxes
-
-
-** Sales tax
-
-#+begin_src latex :tangle fig-ans-probl-5_1004-budget-tax1.tex
-  \begin{tikzpicture}<<ex5.4:xy-scale>>
-
-    <<ex5.4:budget-no-tax>>
-    <<ex5.4:budget-sales-tax>>
-
-    <<ex5.4:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Income tax
-
-#+begin_src latex :tangle fig-ans-probl-5_1004-budget-tax2.tex
-  \begin{tikzpicture}<<ex5.4:xy-scale>>
-
-    <<ex5.4:budget-no-tax>>
-    <<ex5.4:budget-income-tax>>
-
-    <<ex5.4:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Common
-
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex5.4:axes
-  \draw[axis, very thick] (0, 1.25) node[left] {$Y$} |-
-    (1.25, 0) node[below] {$X$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex5.4:xy-scale
-  [yscale = 3.2, xscale = 4]
-#+end_src
-
-
-*** Curves
-
-#+begin_src latex :noweb-ref ex5.4:budget-no-tax
-  \draw[curve, very thick]
-  (0,1) node[left] {$M/P_Y$} --
-  (1,0) (1.05, 0) node[below] {$M/P_X$}
-  ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex5.4:budget-sales-tax
-  \draw[curve, very thick]
-  (0, 0.8) node[left] {$0.80 M/P_Y$} --
-  (0.8, 0) (0.6, 0) node[below] {$0.80 M/P_X$}
-  ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex5.4:budget-income-tax
-  \draw[curve, very thick]
-  (0, 0.75) node[left] {$0.75 M/P_Y$} --
-  (0.75, 0) (0.7, 0) node[below] {$0.75 M/P_X$}
-  ;
-#+end_src
 
 
 
