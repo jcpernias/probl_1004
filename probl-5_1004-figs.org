@@ -409,6 +409,46 @@
 #+end_src
 
 
+* 5.7 Eugenio and Ana
+
+
+** Figure
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-eugenio-ana.tex :noweb no
+  \begin{tikzpicture}[xscale = 0.12, yscale = 0.012]
+    \coordinate (Xaxis) at (35, 0) ;
+    \coordinate (Yaxis) at (0, 300) ;
+    \coordinate (Ana) at (10, 75) ;
+    \coordinate (Eug) at (20, 25) ;
+
+    \draw[curve, very thick]
+      (0, 250) node[left] {$250$} -- (20, 0) node[below] {$20$}
+      node[pos=0.15, above=6pt] {$\mathit{RP}_{2}$}
+      ;
+
+    \draw[curve, very thick]
+      (0, 125) node[left] {$125$} -- (25, 0) node[below] {$25$}
+      node[pos=0.12, above] {$\mathit{RP}_{1}$}
+      ;
+
+    \draw[help lines]
+      (Eug) node[dot, label={above right:Eugenio}] {} --
+      (Eug |- Xaxis)
+      (Ana) node[dot, label={below left:Ana}] {} --
+      (Ana |- Xaxis) node[below] {$10$}
+      ;
+
+    \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
+    \draw[inner xsep=0pt, outer xsep = 0pt]
+      (Yaxis) node[anchor=south west, xshift=-6pt] {Alimentos}
+      (Xaxis) node[anchor=north east, xshift=6pt, yshift=-2pt] {Vestido}
+      ;
+
+  \end{tikzpicture}
+#+end_src
+
+
+
 * 5.10 Neutral goods and bads
 
 

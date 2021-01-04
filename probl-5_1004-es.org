@@ -463,7 +463,35 @@ ha aumentado o disminuido? ¿Y la de Eugenio?
 
 ** Answer
 
-Por hacer.
+Sean $\mathit{RP}_1$ y $\mathit{RP}_2$ as restricciones
+presupuestarias antes y después de la reforma impositiva,
+respectivamente:
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-5_1004-eugenio-ana-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+#+begin_export latex
+\begin{gather*}
+  \mathit{RP}_{1}\!: \num{1000} = 8 A + 40 V \\
+  \mathit{RP}_{2}\!: \num{1000} = 4 A + 50 V
+\end{gather*}
+#+end_export
+#+xxx: endcol
+
+Ana puede seguir comprando la misma cesta con los nuevos precios. Por
+tanto, no ha empeorado: si lo desea puede elegir la que antes era su
+cesta óptima. Probablemente, la satisfacción de Ana aumentará ya que
+ahora puede elegir cestas que antes estaban fuera de su presupuesto.
+
+Por otro lado, Eugenio no puede comprar su cesta óptima inicial a los
+nuevos precios y no es posible determinar si ha empeorado o ha
+mejorado si no tenemos más información sobre sus preferencias.
+
 
 
 * 5.9
