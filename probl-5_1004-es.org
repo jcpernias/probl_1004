@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 5.21
+* 5.1
 
 Juan dispone de una renta monetaria mensual de \money{150}.
 Con ella puede comprar pan, a un precio de \price[kg]{3}, y agua, a un
@@ -25,10 +25,73 @@ d) Ante la gravedad de la situación, el Gobierno raciona el agua de
 
 ** Answer
 
-Por hacer.
+a)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-budget-line-a-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Recta presupuestaria:
+   #+begin_export latex
+     \[ 150 =  0.75 A + 3 P \]
+   #+end_export
+   donde $P$ y $A$ representan kilos de pan y litros de agua,
+   respectivamente.
+   #+xxx: endcol
+
+b) Cuando Juan consume $A = 60$ y $P = 35$ su gasto total asciende a
+   $0.75 \times 60 + 3 \times 35 = \money{150}$. Juan estaría gastando
+   toda su renta y la cesta de consumo se situaría dobre la recta
+   presupuestaria. En esas condiciones el coste de oportunidad de un
+   litro de agua sería igual a su precio relativo: $0.75 / 3 =
+   \units[kg]{0.25}$ de pan.
+
+   Si Juan consume $A = 50$ y $P = 30$ no estaría gastando toda su
+   renta y puede comprar un litro de agua más sin tener que reducir su
+   consumo de pan: el coste de oportunidad sería 0.
+
+c)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-budget-line-c-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Recta presupuestaria:
+   #+begin_export latex
+     \[ 150 =  1.50 A + 3 P \]
+   #+end_export
+   #+xxx: endcol
+
+c)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-budget-line-d-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Restricción presupuestaria:
+   #+begin_export latex
+   \[
+     A =
+     \begin{cases}
+       100 - 2 P & \text{si $P > 40$} \\
+       20 & \text{si $P \leq 40$}
+     \end{cases}
+   \]
+   #+end_export
+   #+xxx: endcol
 
 
-* 5.25
+
+* 5.2
 
 Suponga que se pueden comprar 4 peras con el dinero necesario para
 comprar una manzana. Si David, que gasta todo su dinero en
@@ -41,7 +104,7 @@ podría haber comprado como máximo? ¿Y manzanas? Obtenga y represente la recta
 Por hacer.
 
 
-* 5.23
+* 5.3
 
 Julia dispone de \money{6} este mes para comprar leche, cuyo precio es
 \price[l]{0.75}, y galletas, que cuestan \price[kg]{3}.
@@ -62,7 +125,7 @@ c) Si inicialmente Julia compraba $4$ litros de leche y $1$ kilo de
 Por hacer.
 
 
-* 5.1
+* 5.4
 
 Un consumidor gasta su renta $M$ en los bienes $X$ e $Y$.
 
@@ -101,7 +164,7 @@ c) Su conjunto de oportunidades es mayor en el primer caso: preferiría
    el impuesto al consumo.
 
 
-* 5.20
+* 5.5
 
 Nikola dispone de \money{120} para gastar en gas natural y en
 electricidad. El precio de la electricidad depende del consumo: los
@@ -117,7 +180,7 @@ presupuestario de Nikola.
 Por hacer.
 
 
-* 5.22
+* 5.6
 
 Un consumidor dispone de una renta de $100$ € a la semana y se
 alimenta de arroz, que cuesta \money{1} el kilo. Obtenga y represente
@@ -138,7 +201,7 @@ c) El consumidor recibe un cheque por valor de \money{5}.
 Por hacer.
 
 
-* 5.2
+* 5.7
 
 Un consumidor dispone de \money{20} para comprar carne y
 patatas. Suele comprar en un supermercado donde la carne se vende a
@@ -170,7 +233,7 @@ b) Nueva restricción presupuestaria:
    #+xxx: fig fig-ans-probl-5_1004-budget2-*.pdf
 
 
-* 5.24
+* 5.8
 
 Eugenio y Ana comparten piso. Cada uno de ellos tiene una renta
 mensual de \money{1000} que gastan en su totalidad en alimentos y
@@ -189,7 +252,7 @@ ha aumentado o disminuido? ¿Y la de Eugenio?
 Por hacer.
 
 
-* 5.25
+* 5.9
 
 Ángeles dispone de \money{100} al mes para gastar en llamadas
 telefónicas y un bien compuesto. Su compañía telefónica sólo le cobra
@@ -211,7 +274,7 @@ c) Represente las dos tarifas en el mismo gráfico y determine cuándo
 Por hacer.
 
 
-* 5.3
+* 5.10
 
 A Amaia le gusta el pescado, mientras que el pollo ni le gusta ni
 le disgusta. Por su parte, a Alejandro no le gusta el pescado pero
@@ -229,7 +292,7 @@ Para Alejandro el pescado es un mal.
 #+xxx: fig fig-ans-probl-5_1004-bad-*.pdf
 
 
-* 5.27
+* 5.11
 
  Carmen es coleccionista de fotos antiguas. Hoy ha acudido a un
  mercadillo donde ha comprado 50 fotos para su colección y aún dispone
@@ -253,7 +316,7 @@ Para Alejandro el pescado es un mal.
 Por hacer.
 
 
-* 5.28
+* 5.12
 
 Cinco amigos han comprado fruta y cada uno de ellos ha adquirido la
 misma combinación: 3 manzanas y 6 peras. El precio de una manzana es
@@ -285,7 +348,7 @@ b) Con la información proporcionada, ¿es posible determinar si alguno
 Por hacer.
 
 
-* 5.4
+* 5.13
 
 Las preferencias de un consumidor pueden describirse con la
 función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
@@ -303,7 +366,7 @@ Cesta óptima: $X^* = \units{30}, Y^* = \units{120}$
 #+xxx: fig fig-ans-probl-5_1004-choice-*.pdf
 
 
-* 5.6
+* 5.14
 
 La función de utilidad de un consumidor es $U(X, Y) = X Y$. La cesta
 óptima está compuesta por 10 unidades del bien $X$ y 5 unidades del
@@ -317,7 +380,7 @@ Solución interior: $\RMS = Y/X = 5 / 10$ es igual a $P_X / P_Y =
 6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
 
 
-* 6.4
+* 5.15
 
 Considere una economía competitiva donde todos los consumidores
 tienen las mismas preferencias y consumen alguna unidad tanto del
@@ -335,7 +398,7 @@ se enfrentan a los mismos precios y la cesta óptima de cada uno de
 ellos cumple la condición $\RMS_i = P_x/P_Y$.
 
 
-* 5.7
+* 5.16
 
 Una consumidor posee una renta de \money{40} que gasta en los bienes
 $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
@@ -350,7 +413,7 @@ Cuando compra $X=0$ e $Y=2$, $\RMS = 2 > P_X/P_Y = 1.5$.  Su utilidad
 aumentaría si disminuye el consumo de $Y$ y aumenta el de $X$.
 
 
-* 5.29
+* 5.17
 
 Determine la combinación óptima de un consumidor con renta $M =
 \money{500}$ y función de utilidad: $U(X, Y) = X^2 (Y + 80)$, siendo
@@ -362,7 +425,7 @@ los precios de los bienes $P_X = \price{2}$ y $P_Y = \price{5}$.
 Por hacer.
 
 
-* 5.8
+* 5.18
 
 La función $U(N, Y) = (N+4) Y$ describe las preferencias de un
 consumidor entre nueces, $N$, y un bien compuesto que recoge el
@@ -416,7 +479,7 @@ c) La donación en metálico le permite alcanzar un mayor nivel de
    utilidad.
 
 
-* 5.30
+* 5.19
 
 A Rafa le gusta jugar al tenis y siempre que puede juega en un club
 cercano a su casa. Alquilar una pista de tenis le cuesta \money{5} por
@@ -443,7 +506,7 @@ b) Rafa está considerando hacerse socio del club de tenis. Si pagara
 Por hacer.
 
 
-* 5.10
+* 5.20
 
 Las preferencias de un consumidor vienen dadas por la función de
 utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien $X$ es
@@ -470,7 +533,7 @@ b) Elección óptima: $X^* = \units{100}, Y^* = \units{37.5}$.
    #+xxx: fig fig-ans-probl-5_1004-corner2-*.pdf
 
 
-* 5.11
+* 5.21
 
 La función de utilidad de un individuo respecto de los bienes $X$ e
 $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
@@ -496,7 +559,7 @@ c) $\RMS = 1 < P_X / P_Y = 2$. Solución de esquina: $X^* = 0; Y^* =
    20$.
 
 
-* 5.12
+* 5.22
 
 A Rocío le gusta tomar leche con cereales. Siempre los combina en
 la misma proporción: añade exactamente \units[g]{20} de cereales

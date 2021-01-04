@@ -2,31 +2,40 @@
 
 #+TITLE: Exercises 5
 
+* 5.1 Oportunity cost
 
-* 5.1 Budget line and taxes
+** Initial budget line
 
-
-** Sales tax
-
-#+begin_src latex :tangle fig-ans-probl-5_1004-budget-tax1.tex
-  \begin{tikzpicture}<<ex5.1:xy-scale>>
-
-    <<ex5.1:budget-no-tax>>
-    <<ex5.1:budget-sales-tax>>
-
+#+begin_src latex :tangle fig-ans-probl-5_1004-budget-line-a.tex
+  \begin{tikzpicture}[<<ex5.1:xy-scale>>]
+    <<ex5.1:axes-coord>>
+    <<ex5.1:budget-a>>
     <<ex5.1:axes>>
   \end{tikzpicture}
 #+end_src
 
+** Price of water increases
 
-** Income tax
+#+begin_src latex :tangle fig-ans-probl-5_1004-budget-line-c.tex
+  \begin{tikzpicture}[<<ex5.1:xy-scale>>]
+    <<ex5.1:axes-coord>>
+    \begin{scope}[opacity=0.2]
+      <<ex5.1:budget-a>>
+    \end{scope}
+    <<ex5.1:budget-c>>
+    <<ex5.1:axes>>
+  \end{tikzpicture}
+#+end_src
 
-#+begin_src latex :tangle fig-ans-probl-5_1004-budget-tax2.tex
-  \begin{tikzpicture}<<ex5.1:xy-scale>>
+** Rationing water
 
-    <<ex5.1:budget-no-tax>>
-    <<ex5.1:budget-income-tax>>
-
+#+begin_src latex :tangle fig-ans-probl-5_1004-budget-line-d.tex
+  \begin{tikzpicture}[<<ex5.1:xy-scale>>]
+    <<ex5.1:axes-coord>>
+    \begin{scope}[opacity=0.2]
+      <<ex5.1:budget-c>>
+    \end{scope}
+    <<ex5.1:budget-d>>
     <<ex5.1:axes>>
   \end{tikzpicture}
 #+end_src
@@ -37,33 +46,124 @@
 
 *** Axes
 
+#+begin_src latex :noweb-ref ex5.1:axes-coord
+  \coordinate (Xaxis) at (6, 0) ;
+  \coordinate (Yaxis) at (0, 2.5) ;
+#+end_src
+
+
 #+begin_src latex :noweb-ref ex5.1:axes
+  \draw[axis, very thick]
+    (Yaxis) node[left] {$A$} |-
+    (Xaxis) node[below] {$P$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.1:xy-scale
+  yscale = 1.25, xscale = 0.5
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex5.1:budget-a
+  \coordinate (BL1) at (0, 2) ;
+  \coordinate (BL2) at (5, 0) ;
+
+  \draw[curve, very thick]
+  (BL1) node[left] {$200$} --
+  (BL2) node[below] {$50$}
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.1:budget-c
+  \coordinate (BL1-c) at (0, 1) ;
+  \coordinate (BL2-c) at (5, 0) ;
+
+  \draw[curve, very thick]
+  (BL1-c) node[left] {$100$} --
+  (BL2-c) node[below] {$50$}
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.1:budget-d
+  \coordinate (BL1-d) at (0, 0.2) ;
+  \coordinate (BL2-d) at (4, 0.2) ;
+  \coordinate (BL3-d) at (5, 0) ;
+
+  \draw[help lines]
+    (BL2-d) -- (BL2-d |- Xaxis) node[below] {$40$}
+    ;
+
+  \draw[curve, very thick]
+    (BL1-d) node[left] {$20$} -- (BL2-d) --
+    (BL3-d) node[below] {$50$}
+    ;
+#+end_src
+
+
+
+
+* 5.4 Budget line and taxes
+
+
+** Sales tax
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-budget-tax1.tex
+  \begin{tikzpicture}<<ex5.4:xy-scale>>
+
+    <<ex5.4:budget-no-tax>>
+    <<ex5.4:budget-sales-tax>>
+
+    <<ex5.4:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Income tax
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-budget-tax2.tex
+  \begin{tikzpicture}<<ex5.4:xy-scale>>
+
+    <<ex5.4:budget-no-tax>>
+    <<ex5.4:budget-income-tax>>
+
+    <<ex5.4:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex5.4:axes
   \draw[axis, very thick] (0, 1.25) node[left] {$Y$} |-
     (1.25, 0) node[below] {$X$} ;
 #+end_src
 
-#+begin_src latex :noweb-ref ex5.1:xy-scale
+#+begin_src latex :noweb-ref ex5.4:xy-scale
   [yscale = 3.2, xscale = 4]
 #+end_src
 
 
 *** Curves
 
-#+begin_src latex :noweb-ref ex5.1:budget-no-tax
+#+begin_src latex :noweb-ref ex5.4:budget-no-tax
   \draw[curve, very thick]
   (0,1) node[left] {$M/P_Y$} --
   (1,0) (1.05, 0) node[below] {$M/P_X$}
   ;
 #+end_src
 
-#+begin_src latex :noweb-ref ex5.1:budget-sales-tax
+#+begin_src latex :noweb-ref ex5.4:budget-sales-tax
   \draw[curve, very thick]
   (0, 0.8) node[left] {$0.80 M/P_Y$} --
   (0.8, 0) (0.6, 0) node[below] {$0.80 M/P_X$}
   ;
 #+end_src
 
-#+begin_src latex :noweb-ref ex5.1:budget-income-tax
+#+begin_src latex :noweb-ref ex5.4:budget-income-tax
   \draw[curve, very thick]
   (0, 0.75) node[left] {$0.75 M/P_Y$} --
   (0.75, 0) (0.7, 0) node[below] {$0.75 M/P_X$}
@@ -74,7 +174,7 @@
 
 
 
-* 5.2 Budget line and promotions
+* 5.7 Budget line and promotions
 
 
 ** Initial situation
@@ -118,7 +218,7 @@
 #+end_src
 
 
-* 5.3 Neutral goods and bads
+* 5.10 Neutral goods and bads
 
 
 ** Neutral good
@@ -185,7 +285,7 @@
 #+end_src
 
 
-* 5.4 Choice
+* 5.13 Choice
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-choice.tex :noweb no
   \begin{tikzpicture}[xscale = 2.77777777778, yscale = 2.272727272727]
@@ -208,7 +308,7 @@
 #+end_src
 
 
-* 5.8 Walnuts
+* 5.18 Walnuts
 
 
 ** Initial situation
@@ -328,48 +428,7 @@
 #+end_src
 
 
-* 5.9 Quantity discount
-
-
-** Initial situation
-
-#+begin_src latex :tangle fig-ans-probl-5_1004-discount1.tex
-  \begin{tikzpicture}<<ex9:xy-scale>>
-    \draw[help lines]
-      (0, 3) node[left] {$300$} -|
-      (0.5, 0) node[below] {$50$}
-      ;
-
-    \draw[curve]
-      (0, 4) node[left] {$400$} --
-      (2, 0) node[below] {$200$}
-      ;
-
-    \draw[curve, very thick]
-       plot[domain=0.2:2.5, smooth]
-       ({\x},{2.3811/(\x^0.33333)})
-       node[right] {$U_1 = 191.68$}
-       ;
-    \node[dot] at (0.5, 3) {} ;
-    <<ex9:axes>>
-  \end{tikzpicture}
-#+end_src
-
-** Common
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex9:axes
-  \draw[axis, very thick] (0, 5) node[left] {$Y$} |-
-    (5, 0) node[below] {$X$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex9:xy-scale
-  [yscale = 1, xscale = 1]
-#+end_src
-
-
-* 5.10 Corner solitions and rationing
+* 5.20 Corner solitions and rationing
 
 
 ** Initial situation
@@ -450,7 +509,7 @@
 #+end_src
 
 
-* 5.12 Perfect complements
+* 5.22 Perfect complements
 
 
 ** Indiference curves
