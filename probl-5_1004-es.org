@@ -513,7 +513,49 @@ c) Represente las dos tarifas en el mismo gráfico y determine cuándo
 
 ** Answer
 
-Por hacer.
+a) Representado los minutos de llamadas telefónicas por $M$ y el bien
+   compuesto por $Y$, se puede escribir la recta presupuestaria como:
+   $100 = 0.02 M + Y$.
+
+   #+xxx: fig fig-ans-probl-5_1004-phone-simple-*.pdf
+
+b) Después de pagar la cuota, Ángeles sólo dispondrá de \money{85}
+   para gastar en $M$ e $Y$. Por otro lado, los primeros \num{2000}
+   minutos son gratis y la compañía telefónica cobra \money{0.04}
+   por minuto adicional:
+   #+begin_export latex
+   \[ 85 = 0.04 (M - \num{2000}) + Y \qquad (M \geq \num{2000}) \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.42\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-phone-two-part-*.pdf
+
+   #+ATTR_LATEX: :options [t]{0.58\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   La restricción presupuestaria puede expresarse como:
+   #+begin_export latex
+   \[
+     Y =
+     \begin{cases}
+       85 & \text{si $M < \num{2000}$} \\
+       165 - 0.04 M & \text{si $M \geq \num{2000}$}
+     \end{cases}
+   \]
+   #+end_export
+   #+xxx: endcol
+
+
+c) Comparando las dos tarifas, se concluye que Ángeles debería
+   contratar la tarifa del apartado [[ex5.25:itemb]] si $750 \leq M \leq
+   \num{3250}$. La otra tarifa sólo sería más conveniente si Ángeles
+   no dedica mucho tiempo a llamadas telefónicas, $M < 750$, o, por el
+   contrario, si piensa utilizar mucho el teléfono, $M > \num{3250}$.
+
+   #+xxx: fig fig-ans-probl-5_1004-phone-comp-*.pdf
 
 
 * 5.10

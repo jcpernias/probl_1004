@@ -277,6 +277,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** In-kind donation
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-rice-in-kind.tex
@@ -286,6 +287,7 @@
     <<ex5.6:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** Cash donation
 
@@ -409,7 +411,7 @@
 #+end_src
 
 
-* 5.7 Eugenio and Ana
+* 5.8 Eugenio and Ana
 
 
 ** Figure
@@ -446,6 +448,126 @@
 
   \end{tikzpicture}
 #+end_src
+
+
+
+* 5.9 Phone tariffs
+
+
+** Simple
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-phone-simple.tex
+  \begin{tikzpicture}[<<ex5.9:xy-scale>>]
+    <<ex5.9:axes-coord>>
+    <<ex5.9:simple-labels>>
+    <<ex5.9:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+
+** Two-part
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-phone-two-part.tex
+  \begin{tikzpicture}[<<ex5.9:xy-scale-small>>]
+    <<ex5.9:axes-coord>>
+    <<ex5.9:two-part-labels>>
+    <<ex5.9:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Comparison
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-phone-comp.tex
+  \begin{tikzpicture}[<<ex5.9:xy-scale>>]
+    <<ex5.9:axes-coord>>
+    <<ex5.9:simple>>
+    <<ex5.9:two-part>>
+    \path[name intersections={of=S and T, by={E1, E2}}] ;
+    \draw[help lines]
+      (E1) node[dot] {} -- (E1 |- Xaxis) node[below] {$750$}
+      (E2) node[dot] {} -- (E2 |- Xaxis) node[below] {$\num{3250}$}
+      ;
+
+    <<ex5.9:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex5.9:axes-coord
+  \coordinate (Xaxis) at (6, 0) ;
+  \coordinate (Yaxis) at (0, 125) ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex5.9:axes
+  \draw[axis, very thick]
+    (Yaxis) node[left] {$Y$} |-
+    (Xaxis) node[below] {$M$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.9:xy-scale
+  yscale = 0.02, xscale = 0.75
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.9:xy-scale-small
+  yscale = 0.02, xscale = 0.5
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex5.9:simple
+  \coordinate (S1) at (0, 100) ;
+  \coordinate (S2) at (5, 0) ;
+
+  \draw[curve, very thick, name path=S]
+    (S1) -- (S2)
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.9:simple-labels
+  \coordinate (S1) at (0, 100) ;
+  \coordinate (S2) at (5, 0) ;
+
+  \draw[curve, very thick, name path=S]
+    (S1) node[left] {$100$} --
+    (S2) node[below] {$\num{5000}$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.9:two-part-labels
+  \coordinate (T1) at (0, 85) ;
+  \coordinate (T2) at (2, 85) ;
+  \coordinate (T3) at (4.125, 0) ;
+
+  \draw[help lines]
+    (T2) --
+    (Xaxis -| T2) node[below] {$\num{2000}$}
+    ;
+
+  \draw[curve, very thick, name path=T]
+    (T1) node[left] {$85$} -- (T2) --
+    (T3) node[below] {$\num{4125}$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.9:two-part
+  \coordinate (T1) at (0, 85) ;
+  \coordinate (T2) at (2, 85) ;
+  \coordinate (T3) at (4.125, 0) ;
+
+  \draw[curve, very thick, name path=T]
+    (T1) -- (T2) -- (T3)
+    ;
+#+end_src
+
+
 
 
 
