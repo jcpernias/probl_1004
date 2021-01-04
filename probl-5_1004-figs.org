@@ -205,6 +205,62 @@
 
 
 
+* 5.5 Energy prices
+
+
+** Budget line
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-energy.tex
+  \begin{tikzpicture}[<<ex5.5:xy-scale>>]
+    <<ex5.5:axes-coord>>
+    <<ex5.5:budget-line>>
+    <<ex5.5:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex5.5:axes-coord
+  \coordinate (Xaxis) at (35, 0) ;
+  \coordinate (Yaxis) at (0, 30) ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex5.5:axes
+  \draw[axis, very thick]
+    (Yaxis) node[left] {$G$} |-
+    (Xaxis) node[below] {$E$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.5:xy-scale
+  yscale = 0.11, xscale = 0.16
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex5.5:budget-line
+  \coordinate (BL1) at (0, 25) ;
+  \coordinate (BL2) at (10, 12) ;
+  \coordinate (BL3) at (30, 0) ;
+
+  \draw[help lines]
+    (Yaxis |- BL2) node[left] {$\num{1200}$} --
+    (BL2) node[dot] {} --
+    (Xaxis -| BL2) node[below] {$\num{1000}$} ;
+
+  \draw[curve, very thick]
+    (BL1) node[left] {$\num{2500}$} -- (BL2) --
+    (BL3) node[below] {$\num{3000}$}
+    ;
+#+end_src
+
+
+
 
 
 

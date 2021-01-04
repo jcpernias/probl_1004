@@ -251,8 +251,43 @@ presupuestario de Nikola.
 
 ** Answer
 
-Por hacer.
+El precio de la electricidad cambia dependiendo de cuanta electricidad
+se consuma. Usaremos $E$ y $G$ para representar el consumo de
+electricidad y gas, respectivamente.  La restricción presupuestaria
+tendrá dos tramos:
 
+- $E < \units[\kWh]{1000}$: Los precios de la electricidad y del gas
+  son \money{0.06} y \money{0.05} por kWh, respectivamente. La recta
+  presupuestaria es:
+  #+begin_export latex
+  \[ 120 = 0.06 E + 0.05 G \]
+  #+end_export
+
+- $E > \units[\kWh]{1000}$: Nikola ha pagado $0.06 \times \num{1000} =
+  \money{60}$ por los primeros \units[\kWh]{1000} de electricidad. El
+  precio que pagará por cada kWh adicional será
+  \price[\kWh]{0.03}. Por tanto, la recta presupuestaria es:
+  #+begin_export latex
+  \[ 120 - 60 = 0.06 (E - \num{1000}) + 0.05 G \]
+  #+end_export
+  Operando:
+  #+begin_export latex
+  \[ 90 = 0.03 E + 0.05 G \]
+  #+end_export
+
+Combinando los dos tramos podemos expresar la restricción
+presupuestaria como:
+#+begin_export latex
+\[
+  G =
+  \begin{cases}
+    \num{2400} - 1.2 E & \text{si $E < \num{1000}$} \\
+    \num{1800} - 0.6 E & \text{si $E \geq \num{1000}$} \\
+  \end{cases}
+\]
+#+end_export
+
+#+xxx: fig fig-ans-probl-5_1004-energy-*.pdf
 
 * 5.6
 
