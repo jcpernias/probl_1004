@@ -151,6 +151,55 @@
 
 
 
+* 5.3 Monetary illusion
+
+** Budget line
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-illusion.tex
+  \begin{tikzpicture}[<<ex5.3:xy-scale>>]
+    <<ex5.3:axes-coord>>
+    <<ex5.3:budget-line>>
+    <<ex5.3:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex5.3:axes-coord
+  \coordinate (Xaxis) at (3, 0) ;
+  \coordinate (Yaxis) at (0, 10) ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex5.3:axes
+  \draw[axis, very thick]
+    (Yaxis) node[left] {$L$} |-
+    (Xaxis) node[below] {$G$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.3:xy-scale
+  yscale = 0.33, xscale = 0.9
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex5.3:budget-line
+  \coordinate (BL1) at (0, 8) ;
+  \coordinate (BL2) at (2, 0) ;
+
+  \draw[curve, very thick]
+  (BL1) node[left] {$8$} --
+  (BL2) node[below] {$2$}
+  ;
+#+end_src
+
+
+
 
 
 * 5.4 Budget line and taxes

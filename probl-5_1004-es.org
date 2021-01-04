@@ -147,7 +147,50 @@ c) Si inicialmente Julia compraba $4$ litros de leche y $1$ kilo de
 
 ** Answer
 
-Por hacer.
+
+a)
+   #+ATTR_LATEX: :options [t]{0.42\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-illusion-*.pdf
+   #+ATTR_LATEX: :options [t]{0.58\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Recta presupuestaria:
+   #+begin_export latex
+     \[ 6 =  0.75 L + 3 G \]
+   #+end_export
+   donde $L$ y $G$ son litros de leche y kilos de galletas,
+   respectivamente. Operando en la ecuación anterior:
+   #+begin_export latex
+     \[ L =  8 - 4 G \]
+   #+end_export
+   #+xxx: endcol
+
+b) Los precios y la renta ahora son:
+   #+begin_export latex
+   \begin{gather*}
+   P'_L = 1.1 \times 0.75 = \price[l]{0.825} \\
+   P'_G = 1.1 \times 3 = \price[kg]{3.30} \\
+   M' = 1.1 \times 6 = \money{6.60}
+   \end{gather*}
+   #+end_export
+   La nueva restricción presupuestaria sería:
+   #+begin_export latex
+     \[ 6.6 =  0.825 L + 3.3 G \]
+   #+end_export
+   Operando en la expresión anterior:
+   #+begin_export latex
+     \[ L =  8 - 4 G \]
+   #+end_export
+   que coincide con la restricción presupuestaria del apartado
+   anterior.
+
+c) La elección de Julia no cambiaría si sus preferencias son
+   regulares. Por un lado, su recta presupuestaria es la misma antes y
+   después de los cambios en precios y renta y, por otro lado, sus
+   preferencias tampoco cambiarían.
 
 
 * 5.4
