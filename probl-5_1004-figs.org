@@ -237,7 +237,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex5.5:xy-scale
-  yscale = 0.11, xscale = 0.16
+  yscale = 0.10, xscale = 0.16
 #+end_src
 
 
@@ -264,19 +264,123 @@
 
 
 
+* 5.6 Rice
+
+
+** Price subsidy
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-rice-subs.tex
+  \begin{tikzpicture}[<<ex5.6:xy-scale>>]
+    <<ex5.6:axes-coord>>
+    <<ex5.6:subs>>
+    <<ex5.6:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** In-kind donation
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-rice-in-kind.tex
+  \begin{tikzpicture}[<<ex5.6:xy-scale>>]
+    <<ex5.6:axes-coord>>
+    <<ex5.6:in-kind>>
+    <<ex5.6:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Cash donation
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-rice-cash.tex
+  \begin{tikzpicture}[<<ex5.6:xy-scale>>]
+    <<ex5.6:axes-coord>>
+    <<ex5.6:cash>>
+    <<ex5.6:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex5.6:axes-coord
+  \coordinate (Xaxis) at (4.5, 0) ;
+  \coordinate (Yaxis) at (0, 4.5) ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex5.6:axes
+  \draw[axis, very thick]
+    (Yaxis) node[left] {$Y$} |-
+    (Xaxis) node[below] {$A$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.6:xy-scale
+  yscale = 0.6, xscale = 0.67
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex5.6:subs
+  \coordinate (BL1) at (0, 3.10) ;
+  \coordinate (BL2) at (0.5, 2.875) ;
+  \coordinate (BL3) at (3.375, 0) ;
+
+  \draw[help lines]
+    (Yaxis |- BL2) --
+    (BL2) --
+    (Xaxis -| BL2) node[below] {$5$}
+    ;
+
+  \draw[curve, very thick]
+    (BL1) node[left] {$100$} -- (BL2) --
+    (BL3) node[below] {$101.25$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.6:in-kind
+  \coordinate (BL1) at (0, 3.10) ;
+  \coordinate (BL2) at (0.5, 3.1) ;
+  \coordinate (BL3) at (3.6, 0) ;
+
+  \draw[help lines]
+    (Yaxis |- BL2) --
+    (BL2) --
+    (Xaxis -| BL2) node[below] {$5$}
+    ;
+
+  \draw[curve, very thick]
+    (BL1) node[left] {$100$} -- (BL2) --
+    (BL3) node[below] {$105$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.6:cash
+  \coordinate (BL1) at (0, 3.60) ;
+  \coordinate (BL3) at (3.6, 0) ;
+
+  \draw[curve, very thick]
+    (BL1) node[left] {$105$} --
+    (BL3) node[below] {$105$}
+    ;
+#+end_src
+
+
+
 * 5.7 Budget line and promotions
 
 
 ** Initial situation
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-budget1.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.3, yscale = 0.3]
+  \begin{tikzpicture}[xscale = 0.25, yscale = 0.38]
 
     \draw[curve, very thick]
     (0, 5) node[left] {5} -- (10, 0) node[below] {10} ;
 
     \draw[axis, very thick] (0,7) node[left] {$C$} |-
-    (15, 0) node[below] {$P$} ;
+    (14, 0) node[below] {$P$} ;
 
   \end{tikzpicture}
 #+end_src
@@ -285,7 +389,7 @@
 ** Promotion
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-budget2.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.3, yscale = 0.3]
+  \begin{tikzpicture}[xscale = 0.25, yscale = 0.38]
 
     \draw[help lines]
     (0, 3) node[left] {3} -| (6, 0) node[below] {6}
@@ -298,11 +402,8 @@
     (0, 5) node[left] {5} -- (4, 3)
     (6, 3) -- (12, 0) node[below] {12} ;
 
-    \draw[curve, shaded]
-    (4, 3) -- (10, 0) ;
-
     \draw[axis, very thick] (0,7) node[left] {$C$} |-
-    (15, 0) node[below] {$P$} ;
+    (14, 0) node[below] {$P$} ;
 
   \end{tikzpicture}
 #+end_src

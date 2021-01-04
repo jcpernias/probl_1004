@@ -307,7 +307,92 @@ c) El consumidor recibe un cheque por valor de \money{5}.
 
 ** Answer
 
-Por hacer.
+a) Sea $A$ el consumo de arroz en kilos e $Y$ el bien compuesto. Por
+   cada uno de los 5 primeros kilos de arroz el consumidor paga
+   $\money{0.75}$. En ese caso:
+   #+begin_export latex
+   \[ 100 = 0.75 A + Y \qquad (A < 5) \]
+   #+end_export
+   Si consume más arroz pagará \money{1} por kilo, pero tenemos que
+   reflejar en la restricción presupuestaria la subvención a los 5
+   primeros kilos por valor de $5 \times 0.25 =
+   \money{1.25}$. Entonces:
+   #+begin_export latex
+   \[ 101.25 = A + Y \qquad (A \geq 5) \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-rice-subs-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Podemos escribir la restricción presupuestaria de una forma más
+   compacta como:
+   #+begin_export latex
+   \[
+     Y =
+     \begin{cases}
+       100 - A & \text{si $A < 5$} \\
+       101.25 - A & \text{si $A \geq 5$}
+     \end{cases}
+   \]
+   #+end_export
+   #+xxx: endcol
+
+b) El consumidor no paga nada por los 5 primeros kilos de arroz y
+   puede gastar toda su renta en otros bienes:
+   #+begin_export latex
+   \[ 100 = Y \qquad (A < 5) \]
+   #+end_export
+   Si consume más arroz, paga \money{1} por cada kilo adicional:
+   #+begin_export latex
+   \[ 100 = 1 \times (A - 5) + Y \qquad (A < 5) \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-rice-in-kind-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Restricción presupuestaria:
+   #+begin_export latex
+   \[
+     Y =
+     \begin{cases}
+       100 & \text{si $A < 5$} \\
+       105 - A & \text{si $A \geq 5$}
+     \end{cases}
+   \]
+   #+end_export
+   #+xxx: endcol
+
+c)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-rice-cash-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El consumidor tiene \money{5} más para gastar como le plazca.
+   #+begin_export latex
+   \[ 105 = A + Y  \]
+   #+end_export
+   Recta presupuestaria:
+   #+begin_export latex
+   \[
+     Y = 105 - A
+   \]
+   #+end_export
+   #+xxx: endcol
+
 
 
 * 5.7
@@ -329,7 +414,27 @@ b) El supermercado introduce una promoción por la que los clientes que
 a) Restricción presupuestaria: $20 = 4 C + 2 P$.
    #+xxx: fig fig-ans-probl-5_1004-budget1-*.pdf
 
-b) Nueva restricción presupuestaria:
+b) Si compra menos de \units[kg]{4} de patatas la restricción
+   presupuestaria es:
+   #+begin_export latex
+   \[ 20 = 4 C + 2 P \qquad (P < 4) \]
+   #+end_export
+   Si compra más patatas, se llevará al menos \units[kg]{6} y se debe
+   de reflejar en la restricción presupuestaria que hay 2 kilos por
+   los que no paga nada;
+   #+begin_export latex
+   \[ 20 = 4 C + 2 (P - 2) \qquad (P \geq 6) \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-budget2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Restricción presupuestaria:
    #+begin_export latex
    \[
      C =
@@ -339,7 +444,7 @@ b) Nueva restricción presupuestaria:
      \end{cases}
    \]
    #+end_export
-   #+xxx: fig fig-ans-probl-5_1004-budget2-*.pdf
+   #+xxx: endcol
 
 
 * 5.8
