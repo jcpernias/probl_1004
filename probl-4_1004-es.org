@@ -266,12 +266,11 @@ d) La curva de demanda después del impuesto es:
    Después de la introducción del impuesto a los compradores, el
    precio es $P^* = \price{950}$ y la cantidad es $Q^* =
    \units{78000}$.
-   #+xxx: fig fig-ans-probl-4_1004-tax-buyers-*.pdf
 
-   Los resultados son idénticos a los del apartado
-   [[ex4.7:item-b]]. Mientras que los vendedores ingresan \money{950} por
-   unidad, los compradores pagan el precio más el impuesto: un total
-   de \money{1100} por unidad.
+   Los resultados son idénticos a los del apartado [[ex4.7:item-b]]: los
+   vendedores ingresan \money{950} por unidad; los compradores pagan
+   el precio más el impuesto: \money{1100} por unidad.
+   #+xxx: fig fig-ans-probl-4_1004-tax-buyers-*.pdf
 
 
 * 4.8
@@ -295,11 +294,11 @@ b) El ayuntamiento establece un programa de ayudas al alquiler por el
    para el ayuntamiento? Represente gráficamente.
 
 
+
 ** Answer
 
-a) Igualando oferta y demanda se obtiene el equilibrio de mercado: el
-   alquiler mensual asciende a $P^* = \money{500}$ y se alquilan $Q^*
-   = \num{10000}$ viviendas.
+a) En equilibrio el alquiler mensual asciende a $P^* = \money{500}$ y
+   se alquilan $Q^* = \num{10000}$ viviendas.
 
 b) Cuando se introduce la subvención la curva de demanda es:
    #+begin_export latex
@@ -308,9 +307,8 @@ b) Cuando se introduce la subvención la curva de demanda es:
    \]
    #+end_export
    En el nuevo equilibrio $P^* = \money{650}$ al mes y $Q^* =
-   \num{11500}$ viviendas.
-   #+xxx: fig fig-ans-probl-4_1004-subsidy2-*.pdf
+   \num{11500}$ viviendas: los caseros reciben \money{650} y los
+   inquilinos pagan \money{450} por vivienda. El coste total de las
+   subvenciones es de $200 \times \num{11500} = \money{2300000}$.
 
-   Por cada vivienda alquilada los caseros reciben \money{650} y los
-   inquilinos pagan \money{450}. El coste total del programa de
-   subvenciones asciende a $200 \times \num{11500} = \money{2300000}$.
+   #+xxx: fig fig-ans-probl-4_1004-subsidy2-*.pdf
