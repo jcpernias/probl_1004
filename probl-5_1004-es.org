@@ -44,7 +44,7 @@ a)
 
 b) Cuando Juan consume $A = 60$ y $P = 35$ su gasto total asciende a
    $0.75 \times 60 + 3 \times 35 = \money{150}$. Juan estaría gastando
-   toda su renta y la cesta de consumo se situaría dobre la recta
+   toda su renta y la cesta de consumo se situaría sobre la recta
    presupuestaria. En esas condiciones el coste de oportunidad de un
    litro de agua sería igual a su precio relativo: $0.75 / 3 =
    \units[kg]{0.25}$ de pan.
