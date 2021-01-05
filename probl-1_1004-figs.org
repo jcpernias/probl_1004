@@ -354,7 +354,7 @@
   \deftranslation[to=Spanish]{Pescado}{Pescado}
   \deftranslation[to=English]{Pescado}{Fish}
 
-  \begin{tikzpicture}[xscale = 0.4, yscale = 0.3]
+  \begin{tikzpicture}[xscale = 0.4, yscale = 0.29]
 
     \draw[curve, very thick, domain=0:8, samples=100]
     plot (\x, {8-0.125*\x^2}) ;
