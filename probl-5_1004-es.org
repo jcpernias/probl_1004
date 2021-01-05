@@ -619,8 +619,40 @@ debería compensarse con un incremento de su consumo de pollo.
 
 ** Answer
 
-Por hacer.
+a) Si no comprara el lote de fotos, la utilidad de Carmen sería:
+   #+begin_export latex
+   \[ U(50, 150) = 60 \times 150^2 = \num{1350000}\]
+   #+end_export
+   En cambio si lo comprara, tendría 60 fotos y le quedarían
+   \money{125} para gastar en otras cosas. Su utilidad sería:
+   #+begin_export latex
+   \[ U(60, 125) = 70 \times 125^2 = \num{1093750}\]
+   #+end_export
+   Carmen no compraría el lote de fotos ya que disfruta de un mayor
+   nivel de utilidad en ese caso.
 
+b) Si Carmen comprara las fotos por $V$ euros su utilidad sería:
+   #+begin_export latex
+   \[ U(60, 150 -V) = 70 (150 - V)^2 \]
+   #+end_export
+   Carmen sólo compraría el lote de fotos si su utilidad no
+   disminuyera:
+   #+begin_export latex
+   \[ U(60, 150 - V) \geq U(50, 150) \]
+   #+end_export
+   La expresión anterior implica:
+   #+begin_export latex
+   \[ 70 (150 - V)^2 \geq \num{1350000} \]
+   #+end_export
+   Operando:
+   #+begin_export latex
+   \[
+     V
+     \leq 150 - \left(\frac{\num{1350000}}{70} \right)^{1/2}
+     \approx 11.13
+   \]
+   #+end_export
+   Carmen pagaría hasta \money{11.13} por el lote de 10 fotos.
 
 * 5.12
 
