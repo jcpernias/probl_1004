@@ -569,12 +569,34 @@ preferencias de Amaia y de Alejandro.
 
 ** Answer
 
-Para Amaia el pollo es un bien neutral.
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-5_1004-neutral-*.pdf
-
-Para Alejandro el pescado es un mal.
+#+begin_center
+Amaia
+#+end_center
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-5_1004-bad-*.pdf
+#+begin_center
+Alejandro
+#+end_center
+#+xxx: endcol
+#+latex: \vspace*{2ex}
 
+Para Amaia el pollo es un bien neutral: su utilidad permanece
+constante si consume más pollo y no cambia su consumo de pescado. Sólo
+accedería a curvas de indiferencia superiores si se incrementa su
+consumo de pescado.
+
+Para Alejandro el pescado es un mal: su utilidad disminuye si crece su
+consumo de pescado y no varía su consumo de pollo. Para mantenerse en
+el mismo nivel de utilidad, un incremento de su consumo de pescado
+debería compensarse con un incremento de su consumo de pollo.
 
 * 5.11
 
