@@ -807,11 +807,25 @@ parte de cada uno de los consumidores?
 
 ** Answer
 
-No comprarán la misma cantidad si tienen diferentes niveles de renta.
+Aunque todos los consumidores tengan las mismas preferencias y se
+enfrenten a los mismos precios, es posible que sus rentas sean
+diferentes. En general, no comprarán la misma cantidad si tienen
+diferentes niveles de renta.
 
-Las valoraciones de $X$, $\RMS_i$, coincidirán: todos los consumidores
-se enfrentan a los mismos precios y la cesta óptima de cada uno de
-ellos cumple la condición $\RMS_i = P_x/P_Y$.
+Todos los consumidores compran al menos una unidad de los dos bienes:
+la relación marginal de sustitución de cada consumidor se iguala a los
+precios relativos. Por otro lado, al ser competitiva la economía,
+todos los consumidores pagan los mismos precios. Por tanto:
+#+begin_export latex
+\[
+  \RMS_1 = \RMS_2 = \RMS_3 = \dots = \frac{P_X}{P_Y}
+\]
+#+end_export
+
+En conclusión, los consumidores ajustan su consumo de forma que
+coinciden todas las valoraciones subjetivas del bien $X$, aunque es
+posible que diferentes consumidores compren diferentes cantidades
+de $X$.
 
 
 * 5.16
