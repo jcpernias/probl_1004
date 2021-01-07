@@ -735,13 +735,11 @@ Relación marginal de sustitución:
   \frac{5Y^{2}}{10 X Y} = \frac{1}{2}\frac{Y}{X}
 \]
 #+end_export
-
 Condiciones de maximización de la utilidad:
 
 - Recta presupuestaria:  $900 = 10 X + 5 Y$.
 
 - Condición de tangencia: $Y = 4 X$.
-
 
 #+ATTR_LATEX: :options [t]{0.47\linewidth}
 #+xxx: col
