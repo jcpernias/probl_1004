@@ -289,6 +289,7 @@ presupuestaria como:
 
 #+xxx: fig fig-ans-probl-5_1004-energy-*.pdf
 
+
 * 5.6
 
 Un consumidor dispone de una renta de $100$ € a la semana y se
@@ -598,6 +599,7 @@ consumo de pescado y no varía su consumo de pollo. Para mantenerse en
 el mismo nivel de utilidad, un incremento de su consumo de pescado
 debería compensarse con un incremento de su consumo de pollo.
 
+
 * 5.11
 
  Carmen es coleccionista de fotos antiguas. Hoy ha acudido a un
@@ -654,6 +656,7 @@ b) Si Carmen comprara las fotos por $V$ euros su utilidad sería:
    #+end_export
    Carmen pagaría hasta \money{11.13} por el lote de 10 fotos.
 
+
 * 5.12
 
 Cinco amigos han comprado fruta y cada uno de ellos ha adquirido la
@@ -683,8 +686,37 @@ b) Con la información proporcionada, ¿es posible determinar si alguno
 
 ** Answer
 
-Por hacer.
+a) Si la elección de uno de ellos es la óptima, se debería de cumplir la condición:
+   #+begin_export latex
+   \[
+     \RMS = \frac{\UMg_{\text{manzanas}}}{\UMg_{\text{peras}}} = \frac{P_{\text{manzanas}}}{P_{\text{peras}}}
+   \]
+   #+end_export
+   En la siguiente tabla se presenta la $\RMS$ de cada uno de los amigos:
 
+   #+ATTR_LATEX: :booktabs t :center t :align @{}l*{3}{R{1.8cm}}@{}
+   |--------+--------------------------+-----------------------+--------|
+   |        | $\UMg_{\text{manzanas}}$ | $\UMg_{\text{peras}}$ | $\RMS$ |
+   |--------+--------------------------+-----------------------+--------|
+   | Jerry  | $12$                     | $6$                   | $2$    |
+   | George | $6$                      | $6$                   | $1$    |
+   | Elaine | $6$                      | $3$                   | $2$    |
+   | Kramer | $3$                      | $6$                   | $1/2$  |
+   | Newman | $12$                     | $3$                   | $4$    |
+   |--------+--------------------------+-----------------------+--------|
+
+   El precio relativo es el mismo para todos: $2$ peras por
+   manzana. Por tanto, la condición de tangencia presentada
+   anteriormente sólo se cumple en el caso de Jerry y de Elaine. En
+   los casos de George y de Kramer la $\RMS$ es menor que el precio
+   relativo y podrían aumentar su utilidad sin gastar más si compraran
+   menos manzanas y más peras. En el caso de Newman, la $\RMS$ es
+   mayor que el precio relativo y debería comprar más manzanas y menos
+   peras.
+
+b) No: en los casos de Jerry y Elaine se cumple la condición de
+   tangencia, pero no hay suficiente información para determinar si se
+   cumple o no la restricción presupuestaria de alguno de ellos.
 
 * 5.13
 
