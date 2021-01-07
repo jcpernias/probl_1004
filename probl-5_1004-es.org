@@ -754,8 +754,6 @@ Resolviendo las condiciones de óptimo se obtiene la cesta óptima:
 \begin{equation*}
   X^* = 30, Y^* = 120.
 \end{equation*}
-
-
 #+end_export
 #+xxx: endcol
 
