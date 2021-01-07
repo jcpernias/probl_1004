@@ -706,17 +706,16 @@ a) Si la elección de uno de ellos es la óptima, se debería de cumplir la cond
    |--------+----------------------------+-------------------------+--------|
 
    El precio relativo es el mismo para todos: $2$ peras por
-   manzana. Por tanto, la condición de tangencia presentada
-   anteriormente sólo se cumple en el caso de Jerry y de Elaine. En
-   los casos de George y de Kramer la $\RMS$ es menor que el precio
-   relativo y podrían aumentar su utilidad sin gastar más si compraran
-   menos manzanas y más peras. En el caso de Newman, la $\RMS$ es
-   mayor que el precio relativo y debería comprar más manzanas y menos
-   peras.
+   manzana. Por tanto, la condición de tangencia sólo se cumple en el
+   caso de Jerry y de Elaine. Las $\RMS$ de George y de Kramer son
+   menores que el precio relativo y podrían aumentar su utilidad sin
+   gastar más si cada uno comprara menos manzanas y más peras. En el
+   caso de Newman, su $\RMS$ es mayor que el precio relativo y debería
+   comprar más manzanas y menos peras.
 
 b) No: en los casos de Jerry y Elaine se cumple la condición de
-   tangencia, pero no hay suficiente información para determinar si se
-   cumple o no la restricción presupuestaria de alguno de ellos.
+   tangencia, pero es posible determinar si se cumple o no la
+   restricción presupuestaria de alguno de ellos.
 
 
 * 5.13
