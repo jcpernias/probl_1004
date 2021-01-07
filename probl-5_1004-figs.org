@@ -667,6 +667,33 @@
   \end{tikzpicture}
 #+end_src
 
+* 5.17 Corner solution
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-corner3.tex :noweb no
+  \begin{tikzpicture}[xscale = 0.85, yscale = 2.25]
+
+    \draw[curve, very thick]
+    (0, 1) node[left] {$100$} -- (2.5, 0) node[below] {$250$} ;
+
+    \draw[curve, very thick]
+    plot[domain=1.58:2.5, smooth] ({\x},{5/(\x^2)-0.8}) ;
+    \node[curve label, above] at (1.58, 1.2) {$U_{3}$};
+
+    \draw[curve, very thick]
+    plot[domain=1.075:1.7, smooth] ({\x},{2.312/(\x^2)-0.8}) ;
+    \node[curve label, above] at (1.075, 1.2) {$U_{2}$};
+
+    \draw[curve, very thick]
+    plot[domain=0.569:0.9, smooth] ({\x},{0.648/(\x^2)-0.8}) ;
+    \node[curve label, above] at (0.569, 1.2) {$U_{1}$};
+
+    \draw[axis, very thick] (0,1.6) node[left] {$Y$} |-
+    (3.2, 0) node[below] {$X$} ;
+
+    \node[dot] at (2.5, 0) {} ;
+  \end{tikzpicture}
+#+end_src
+
 
 * 5.18 Walnuts
 

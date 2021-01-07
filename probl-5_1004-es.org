@@ -858,7 +858,51 @@ los precios de los bienes $P_X = \price{2}$ y $P_Y = \price{5}$.
 
 ** Answer
 
-Por hacer.
+Relación marginal de sustitución:
+#+begin_export latex
+\[
+  \RMS = \frac{\UMg_{X}}{\UMg_{Y}} =
+  \frac{2 X (Y + 80)}{X^2} = 2\frac{Y+80}{X}
+\]
+#+end_export
+Condiciones de maximización de la utilidad:
+
+- Recta presupuestaria:  $500 = 2 X + 5 Y$.
+
+- Condición de tangencia: $Y = X/5 - 80$.
+
+Resolviendo las condiciones de óptimo se obtiene:
+#+begin_export latex
+\begin{equation*}
+  X = 300, Y = -20.
+\end{equation*}
+#+end_export
+Rechazamos esta solución por contener un consumo negativo del bien
+$Y$.
+
+#+ATTR_LATEX: :options [t]{0.40\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-5_1004-corner3-*.pdf
+#+ATTR_LATEX: :options [t]{0.60\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+El consumidor maximizaría su utilidad en la esquina:
+#+begin_export latex
+\begin{equation*}
+  X^* = 250, Y^* = 0,
+\end{equation*}
+#+end_export
+donde se cumple:
+#+begin_export latex
+\begin{equation*}
+  \RMS(250, 0) = \frac{16}{25} > \frac{P_X}{P_Y} = \frac{2}{5}
+\end{equation*}
+#+end_export
+#+xxx: endcol
+
+
 
 
 * 5.18
