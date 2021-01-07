@@ -689,21 +689,21 @@ b) Con la información proporcionada, ¿es posible determinar si alguno
 a) Si la elección de uno de ellos es la óptima, se debería de cumplir la condición:
    #+begin_export latex
    \[
-     \RMS = \frac{\UMg_{\text{manzanas}}}{\UMg_{\text{peras}}} = \frac{P_{\text{manzanas}}}{P_{\text{peras}}}
+     \RMS = \frac{\UMg_{\,\text{Manzanas}}}{\UMg_{\,\text{Peras}}} = \frac{P_{\;\text{Manzanas}}}{P_{\;\text{Peras}}}
    \]
    #+end_export
    En la siguiente tabla se presenta la $\RMS$ de cada uno de los amigos:
 
    #+ATTR_LATEX: :booktabs t :center t :align @{}l*{3}{R{1.8cm}}@{}
-   |--------+--------------------------+-----------------------+--------|
-   |        | $\UMg_{\text{manzanas}}$ | $\UMg_{\text{peras}}$ | $\RMS$ |
-   |--------+--------------------------+-----------------------+--------|
-   | Jerry  | $12$                     | $6$                   | $2$    |
-   | George | $6$                      | $6$                   | $1$    |
-   | Elaine | $6$                      | $3$                   | $2$    |
-   | Kramer | $3$                      | $6$                   | $1/2$  |
-   | Newman | $12$                     | $3$                   | $4$    |
-   |--------+--------------------------+-----------------------+--------|
+   |--------+----------------------------+-------------------------+--------|
+   |        | $\UMg_{\,\text{Manzanas}}$ | $\UMg_{\,\text{Peras}}$ | $\RMS$ |
+   |--------+----------------------------+-------------------------+--------|
+   | Jerry  | $12$                       | $6$                     | $2$    |
+   | George | $6$                        | $6$                     | $1$    |
+   | Elaine | $6$                        | $3$                     | $2$    |
+   | Kramer | $3$                        | $6$                     | $1/2$  |
+   | Newman | $12$                       | $3$                     | $4$    |
+   |--------+----------------------------+-------------------------+--------|
 
    El precio relativo es el mismo para todos: $2$ peras por
    manzana. Por tanto, la condición de tangencia presentada
@@ -717,6 +717,7 @@ a) Si la elección de uno de ellos es la óptima, se debería de cumplir la cond
 b) No: en los casos de Jerry y Elaine se cumple la condición de
    tangencia, pero no hay suficiente información para determinar si se
    cumple o no la restricción presupuestaria de alguno de ellos.
+
 
 * 5.13
 
