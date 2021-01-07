@@ -772,8 +772,28 @@ es la renta del consumidor?
 
 ** Answer
 
-Solución interior: $\RMS = Y/X = 5 / 10$ es igual a $P_X / P_Y =
-6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
+La cesta óptima del consumidor constituye una solución interior, por
+lo que se debe cumplir la condición $\RMS = P_X / P_Y$. La relación
+marginal de sustitución en la cesta óptima es:
+#+begin_export latex
+\[
+  \RMS = \frac{Y}{X} = \frac{5}{10}
+\]
+#+end_export
+Igualando la $\RMS$ al precio relativo:
+#+begin_export latex
+\[
+  \frac{5}{10} = \frac{6}{P_Y}
+\]
+#+end_export
+Por tanto, $P_Y = \price{12}$. La otra condición de óptimo establece
+que el consumidor gasta toda su renta:
+#+begin_export latex
+\[
+  M = P_X X + P_Y Y = 6 \times 10 + 12 \times 5
+\]
+#+end_export
+Es decir, $M = \money{120}$.
 
 
 * 5.15
