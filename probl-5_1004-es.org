@@ -839,8 +839,16 @@ relación marginal de sustitución es igual a $2$. ¿Es esta su elección
 
 ** Answer
 
-Cuando compra $X=0$ e $Y=2$, $\RMS = 2 > P_X/P_Y = 1.5$.  Su utilidad
-aumentaría si disminuye el consumo de $Y$ y aumenta el de $X$.
+En la situación descrita en el enunciado:
+#+begin_export latex
+\[
+  \RMS = 2 > P_X/P_Y = 1.5
+\]
+#+end_export
+Esto quiere decir que el consumidor podría alcanzar un mayor nivel de
+utilidad si, manteniéndose en su restricción presupuestaria, aumentara
+el consumo del bien $X$ y disminuyera el del bien $Y$. Por tanto, no
+es óptima la cesta con $0$ unidades de $X$ y con $20$ unidades de $Y$.
 
 
 * 5.17
