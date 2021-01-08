@@ -934,29 +934,208 @@ c) ¿Qué alternativa preferiría el consumidor? Razone su respuesta.
 
 ** Answer
 
-a) Recta presupuestaria: $40 = 8N + Y$.
+a) Relación marginal de sustitución:
+   #+begin_export latex
+   \[
+     \RMS = \frac{\UMg_{N}}{\UMg_{Y}} =
+     \frac{Y}{N + 4}
+   \]
+   #+end_export
+   Condiciones de óptimo:
 
-   Condición de tangencia: $Y = 8N + 32$.
+   - Recta presupuestaria:  $40 = 8 X + N$.
 
-   Cesta óptima: $N^* = \units[kg]{0.500}, Y^* = \money{36.00}$
+   - Condición de tangencia: $Y = 8 N + 32$.
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-walnut1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Cesta óptima:
+   #+begin_export latex
+   \begin{gather*}
+     N^* = \units[kg]{0.500} \\ Y^* = \money{36.00}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
-b) Subvención (la restricción se quiebra en $X = 1.5$ e $Y =
-   30.4$). Cesta óptima: $N^* = \units[kg]{1.125}, Y^* =
-   \money{32.80}$.
+b) /Subvención/: la restricción presupuestaria tiene dos tramos. Si el
+   consumidor compra menos de \units[kg]{1.5} de nueces pagaría
+   \money{6.40} por kilo:
+   #+begin_export latex
+   \[
+     40 = 6.4 N + Y \qquad (N \leq 1.5)
+   \]
+   #+end_export
+   Si compra más nueces pagará \price[kg]{8}, pero hay que tener en
+   cuenta la subvención del primer kilo y medio, por la que se ahorró
+   \money{2.40}:
+   #+begin_export latex
+   \[
+     42.40 = 8 N + Y \qquad (N > 1.5)
+   \]
+   #+end_export
+
+   Para determinar el óptimo, seleccionamos uno de los tramos de la
+   restricción presupuestaria y comprobamos que la solución obtenida
+   sea válida. En primer lugar, suponemos que en el óptimo se consumen
+   más de \units[kg]{1.5} de nueces, por lo que el tramo relevante de
+   la restricción presupuestaria es:
+   #+begin_export latex
+   \[
+     42.40 = 8 N + Y \qquad (N > 1.5)
+   \]
+   #+end_export
+   La condición de tangencia en este caso es:
+   #+begin_export latex
+   \[
+     Y = 8 N + 32
+   \]
+   #+end_export
+   y resolviendo las dos últimas ecuaciones: $N = \units[kg]{0.650}$ e
+   $Y = \money{37.20}$. Pero este resultado no puede ser la elección
+   óptima ya que no es compatible nuestro supuesto inicial $N >
+   \units[kg]{1.500}$.
+
+   Suponemos ahora que $N \leq \units[kg]{1.500}$, por lo que el tramo
+   relevante de la restricción presupuestaria es:
+   #+begin_export latex
+   \[
+     40 = 6.4 N + Y \qquad (N \leq 1.5)
+   \]
+   #+end_export
+   y la condición de tangencia es:
+   #+begin_export latex
+   \[
+     Y = 6.4 N + 25.6
+   \]
+   #+end_export
+   Resolviendo estas dos ecuaciones se obtiene $N = \units[kg]{1.125}$
+   e $Y = \money{32.80}$. En este caso, la solución es compatible con
+   el supuesto $N \leq \units[kg]{1.500}$.
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-walnut2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Cesta óptima:
+   #+begin_export latex
+   \begin{gather*}
+     N^* = \units[kg]{1.125} \\ Y^* = \money{32.80}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
-   Donación especie. Cesta óptima: $N^* = \units[kg]{1.500}, Y^* =
-   \money{40.00}$.
+   /Donación es especie/: La restricción presupuestaria tiene dos
+   tramos. Si se consume hasta un kilo y medio de nueces, se puede
+   dedicar toda la renta al consumo de otros bienes:
+   #+begin_export latex
+   \[
+     40 = Y \qquad (N \leq 1.5)
+   \]
+   #+end_export
+   Si el consumo de nueces es mayor, se pagarán \money{8} por la
+   cantidad de nueces por encima del primer kilo y medio:
+   #+begin_export latex
+   \[
+     52 = 8 N + Y \qquad (N > 1.5)
+   \]
+   #+end_export
+   Suponiendo que el óptimo se encuentra en este tramo de la
+   restricción presupuestaria, la condición de tangencia se puede
+   expresar como:
+   #+begin_export latex
+   \[
+     Y = 8 N + 32
+   \]
+   #+end_export
+   La solución de las dos últimas ecuaciones es: $N =
+   \units[kg]{1.250}$ e $Y = \money{42}$. Estos valores no son la
+   solución óptima ya que el tramo de la restricción que hemos
+   utilizado sólo es válido cuando $N > \units[kg]{1.500}$.
+
+   El óptimo debe de encontrarse en el otro tramo de la restricción
+   presupuestaria:
+   #+begin_export latex
+   \[
+     40 = Y \qquad (N \leq 1.5)
+   \]
+   #+end_export
+   y puesto que la función de utilidad cumple el supuesto de no
+   saturación (las utilidades marginales son siempre positivas), el
+   consumo óptimo de nueces será $N^* = \units[kg]{1.500}$, el máximo
+   compatible con la expresión anterior.
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-walnut3-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Cesta óptima:
+   #+begin_export latex
+   \begin{gather*}
+     N^* = \units[kg]{1.500} \\ Y^* = \money{40.00}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
-   Donación metálico. Cesta óptima: $N^* = \units[kg]{1.250}, Y^* =
-   \money{42.00}$.
+   /Donación en metálico/: en este caso la restricción presupuestaria es:
+   #+begin_export latex
+   \[
+     52 = 8 N + Y
+   \]
+   #+end_export
+   y la condición de tangencia es:
+   #+begin_export latex
+   \[
+     Y = 8 N + 32
+   \]
+   #+end_export
+   Estas ecuaciones determinan la cesta óptima: $N =
+   \units[kg]{1.250}$ e $Y = \money{42}$.
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-walnut4-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Cesta óptima:
+   #+begin_export latex
+   \begin{gather*}
+     N^* = \units[kg]{1.250} \\ Y^* = \money{42.00}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
 
-c) La donación en metálico le permite alcanzar un mayor nivel de
-   utilidad.
+c) La siguiente tabla resume los resultados obtenidos:
+
+   #+ATTR_LATEX: :booktabs t :center t :align @{}l*{3}{r}@{}
+   |----------------------+----------+---------+---------|
+   |                      | $N$ (kg) | $Y$ (€) | $U$     |
+   |----------------------+----------+---------+---------|
+   | Situación inicial    | $0.500$  | $36.00$ | $162.0$ |
+   | Subvención           | $1.125$  | $32.80$ | $168.1$ |
+   | Donación en especie  | $1.500$  | $40.00$ | $220.0$ |
+   | Donación en metálico | $1.250$  | $42.00$ | $220.5$ |
+   |----------------------+----------+---------+---------|
+
+   El consumidor preferiría la donación en metálico puesto que esta es
+   la opción que le permitiría alcanzar un mayor nivel de utilidad.
 
 
 * 5.19

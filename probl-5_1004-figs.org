@@ -667,6 +667,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 * 5.17 Corner solution
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-corner3.tex :noweb no
@@ -701,24 +702,12 @@
 ** Initial situation
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-walnut1.tex
-  \begin{tikzpicture}<<ex8:xy-scale>>
-    \draw[help lines]
-      (0, 3.6) node[left] {$36$} -|
-      (0.5, 0) node[below] {$0.5$}
-      ;
-
-    \draw[curve]
-      (0, 4) node[left] {$40$} --
-      (5, 0) node[below] {$5$}
-      ;
-
-    \draw[curve, very thick]
-       plot[domain=0:5, smooth]
-       ({\x},{16.2/(\x+4)})
-       node[right] {$U_1 = 162$}
-       ;
-    \node[dot] at (0.5, 3.6) {} ;
-    <<ex8:axes>>
+  \begin{tikzpicture}[<<ex5.8:xy-scale>>]
+    <<ex5.8:coord>>
+    <<ex5.8:budget-1>>
+    <<ex5.8:dot-1>>
+    <<ex5.8:ic-1>>
+    <<ex5.8:axes>>
   \end{tikzpicture}
 #+end_src
 
@@ -726,93 +715,204 @@
 ** Subsidy
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-walnut2.tex
-  \begin{tikzpicture}<<ex8:xy-scale>>
-    \draw[help lines]
-      (0, 3.28) node[left] {$32.8$} -|
-      (1.125, 0) node[below] {$1.125$}
-      ;
-
-    \draw[curve]
-      (0, 4) node[left] {$40$} --
-      (1.5, 3.04) --
-      (6.25, 0) node[below] {$6.25$}
-      ;
-
-    \draw[curve, very thick]
-       plot[domain=0:5, smooth]
-       ({\x},{16.81/(\x+4)})
-       node[right] {$U_2 = 168.1$}
-       ;
-    \node[dot] at (1.125, 3.28) {} ;
-
-    <<ex8:axes>>
+  \begin{tikzpicture}[<<ex5.8:xy-scale>>]
+    <<ex5.8:coord>>
+    <<ex5.8:budget-2>>
+    <<ex5.8:dot-2>>
+    <<ex5.8:ic-2>>
+    <<ex5.8:axes>>
   \end{tikzpicture}
 #+end_src
 
 
-** Donations
+** In-kind donation
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-walnut3.tex
-  \begin{tikzpicture}<<ex8:xy-scale>>
-    \draw[help lines]
-      (1.5, 4) --
-      (1.5, 0) node[below] {$1.5$}
-      ;
-
-    \draw[curve]
-      (0, 4) node[left] {$40$} --
-      (1.5, 4) --
-      (6.5, 0) node[below] {$6.5$}
-      ;
-
-    \draw[curve, very thick]
-       plot[domain=0:5, smooth]
-       ({\x},{22/(\x+4)})
-       node[right] {$U_3 = 220$}
-       ;
-    \node[dot] at (1.5, 4) {} ;
-
-    <<ex8:axes>>
+  \begin{tikzpicture}[<<ex5.8:xy-scale>>]
+    <<ex5.8:coord>>
+    <<ex5.8:budget-3>>
+    <<ex5.8:dot-3>>
+    <<ex5.8:ic-3>>
+    <<ex5.8:axes>>
   \end{tikzpicture}
 #+end_src
 
+
+** Cash donation
+
 #+begin_src latex :tangle fig-ans-probl-5_1004-walnut4.tex
-  \begin{tikzpicture}<<ex8:xy-scale>>
-    \draw[help lines]
-      (0, 4.2) node[left] {$42$} -|
-      (1.25, 0) node[below] {$1.25$}
-      ;
-
-    \draw[curve]
-      (0, 5.2) node[left] {$52$} --
-      (6.5, 0) node[below] {$6.5$}
-      ;
-
-    \draw[curve, very thick]
-       plot[domain=0:5, smooth]
-       ({\x},{22.05/(\x+4)})
-       node[right] {$U_4 = 220.5$}
-       ;
-    \node[dot] at (1.25, 4.2) {} ;
-
-    <<ex8:axes>>
+  \begin{tikzpicture}[<<ex5.8:xy-scale>>]
+    <<ex5.8:coord>>
+    <<ex5.8:budget-4>>
+    <<ex5.8:dot-4>>
+    <<ex5.8:ic-4>>
+    <<ex5.8:axes>>
   \end{tikzpicture}
 #+end_src
 
 
 ** Common
-
+*** Coordinates
+#+begin_src latex :noweb-ref ex5.8:coord
+  \coordinate (Xaxis) at (20, 0) ;
+  \coordinate (Yaxis) at (0, 40) ;
+  \coordinate (A1) at (0, 24) ;
+  \coordinate (B1) at (12, 0) ;
+  \coordinate (dX) at (1,0) ;
+  \coordinate (A2) at (A1) ;
+  \coordinate (B2) at ($(A1)!0.22!(B1)+2.5*(dX)$) ;
+  \coordinate (C2) at ($(B1)+2.5*(dX)$) ;
+  \coordinate (A3) at (A1) ;
+  \coordinate (B3) at ($(A3)+5*(dX)$) ;
+  \coordinate (C3) at ($(B1)+5*(dX)$) ;
+  \coordinate (B4) at (C3) ;
+  \coordinate (V1) at (B1 |- A1) ;
+  \path[name path=L] (B3) -- (C3) ;
+  \path[name path=V] (V1) -- (B1) ;
+  \path[name intersections={of=L and V, by={S}}] ;
+  \coordinate (A4) at ($(A3) + (S) - (B1)$) ;
+#+end_src
 
 *** Axes
 
-#+begin_src latex :noweb-ref ex8:axes
-  \draw[axis, very thick] (0, 6) node[left] {$Y$} |-
-    (8, 0) node[below] {$N$} ;
+#+begin_src latex :noweb-ref ex5.8:axes
+  \draw[axis, very thick]
+    (Yaxis) node[left] {$Y$} |-
+    (Xaxis) node[below] {$N$} ;
 #+end_src
 
-#+begin_src latex :noweb-ref ex8:xy-scale
-  [yscale = 0.83, xscale = 0.625]
+#+begin_src latex :noweb-ref ex5.8:xy-scale
+  yscale = 0.08, xscale = 0.165
 #+end_src
+
+*** Budget lines
+
+#+begin_src latex :noweb-ref ex5.8:budget-1
+  \draw[curve, very thick]
+    (A1) node[left] {$40$} --
+    (B1) node[below] {$5$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.8:budget-2
+  \draw[curve, very thick]
+    (A2) node[left] {$40$} -- (B2) --
+    (C2) node[below] {$6.25$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.8:budget-3
+  \draw[curve, very thick]
+    (A3) node[left] {$40$} -- (B3) --
+    (C3) node[below] {$6.5$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.8:budget-4
+  \draw[curve, very thick]
+    (A4) node[left] {$52$} --
+    (B4) node[below] {$6.5$} ;
+#+end_src
+
+
+*** Dots
+#+begin_src latex :noweb-ref ex5.8:dot-1
+  \coordinate (E1) at ($(A1)!0.15!(B1)$) ;
+  \draw[help lines]
+    (Yaxis |- E1) node[left] {$36$} -| node[dot] {}
+    (Xaxis -| E1) node[below] {$0.5$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.8:dot-2
+  \coordinate (E2) at ($(A2)!0.8!(B2)$) ;
+  \draw[help lines]
+    (Yaxis |- E2) node[left] {$32.8$} -| node[dot] {}
+    (Xaxis -| E2) node[below] {$1.125$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.8:dot-3
+  \coordinate (E3) at (B3) ;
+  \draw[help lines]
+    (E3) node[dot] {} --
+    (Xaxis -| E3) node[below] {$1.5$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.8:dot-4
+  \coordinate (E4) at ($(A4)!0.22!(B4)$) ;
+  \draw[help lines]
+    (Yaxis |- E4) node[left] {$42$} -| node[dot] {}
+    (Xaxis -| E4) node[below] {$1.25$}
+    ;
+#+end_src
+
+
+*** Indifference curves
+
+#+begin_src latex :noweb-ref ex5.8:ic-1
+  \coordinate (I1) at ($(E1)+(-1,3.5)$) ;
+  \coordinate (I2) at ($(E1)+(8,-6)$) ;
+  \draw[curve, semithick]
+    (I1) to[curve through={(E1)}] (I2)
+    (I2) node[right] {$U_1 = 162$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.8:ic-2
+  \coordinate (I1) at ($(E2)+(-3,5.5)$) ;
+  \coordinate (I2) at ($(E2)+(6,-2.1)$) ;
+  \draw[curve, semithick]
+    (I1) to[curve through={(E2)}] (I2)
+    (I2) node[right] {$U_2 = 168.1$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.8:ic-3
+  \coordinate (I1) at ($(E3)+(-3,5.5)$) ;
+  \coordinate (I2) at ($(E3)+(6,-2.1)$) ;
+  \draw[curve, semithick]
+    (I1) to[curve through={(E3)}] (I2)
+    (I2) node[right] {$U_3 = 220$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5.8:ic-4
+  \coordinate (I1) at ($(E4)+(-1,3.5)$) ;
+  \coordinate (I2) at ($(E4)+(6,-5)$) ;
+  \draw[curve, semithick]
+    (I1) to[curve through={(E4)}] (I2)
+    (I2) node[right] {$U_4 = 220.5$}
+    ;
+#+end_src
+
+
+
+
+
+* 5.19 Tennis
+
+#+begin_src latex :tangle fig-ans-probl-5_1004-tennis.tex :noweb no
+  \begin{tikzpicture}[xscale = 0.1, yscale = 0.028]
+
+    \draw[curve, very thick]
+    (0, 100) node[left] {$100$} -- (20, 0) node[below] {$20$}
+    (0, 70) node[left] {$70$} -- (28, 0) node[below] {$28$} ;
+
+    \draw[curve, semithick]
+    plot[domain=5:22, smooth] ({\x},{239.999828/(\x^0.66666667)}) ;
+    %\node[curve label, above] at (1.58, 1.2) {$U_{\text{No socio}}$};
+
+    \draw[curve, semithick]
+    plot[domain=5.5:24, smooth] ({\x},{210.2460925/(\x^0.66666667)}) ;
+    %\node[curve label, above] at (1.075, 1.2) {$U_{\text{Socio}}$};
+
+    \draw[axis, very thick] (0, 120) node[left] {$Y$} |-
+    (36, 0) node[below] {$H$} ;
+
+    \node[dot, label={above right:$A$}] at (8, 60) {} ;
+    \node[dot, label={below left:$B$}] at (11.2, 42) {} ;
+  \end{tikzpicture}
+#+end_src
+
 
 
 * 5.20 Corner solitions and rationing
