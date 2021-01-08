@@ -3,6 +3,57 @@
 #+TITLE: Problem Figures 3
 
 
+* 6.1 Income cosumption curve and Engel curve
+
+** Income consumption curve
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-ic-curve.tex
+  \begin{tikzpicture}[xscale=0.048, yscale=0.05]
+    \draw[curve, very thick]
+      (0, 30) -- (30, 0)
+      (0, 60) -- (60, 0)
+      (0, 0) -- (50, 25) node[right] {$\CRC$}
+      ;
+
+    \draw[curve, very thick]
+      plot[smooth, domain=9.43:40] ({\x}, {40/(\x/10)^2}) ;
+
+    \draw[curve, very thick]
+      plot[smooth, domain=25:50] ({\x}, {320/(\x/10)^2}) ;
+
+    \draw[help lines]
+      (0, 10) node[left] {$10$} -| node[dot] {}
+      (20, 0) node[below] {$20$}
+      (40, 20) node[dot] {}
+      ;
+
+    \draw[axis, very thick]
+      (0, 70) node[left] {$Y$} |-
+      (70, 0) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+** Engel curve
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-engel-curve.tex
+  \begin{tikzpicture}[xscale=0.048, yscale=0.39]
+    \draw[curve, very thick]
+      (0, 0) -- (50, 7.5)
+      ;
+
+    \draw[help lines]
+      (0, 3) node[left] {$300$} -| node[dot] {}
+      (20, 0) node[below] {$20$} ;
+
+    \draw[axis, very thick]
+      (0, 9) node[left] {$M$} |-
+      (70, 0) node[below] {$X$}
+      ;
+  \end{tikzpicture}
+#+end_src
+
+
+
 * 6.3 Income consumption curve
 
 

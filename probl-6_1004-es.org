@@ -12,20 +12,55 @@ de bien es?
 
 ** Answer
 
-Senda de expansión de la renta, \CRC: $Y = X / 2$.
+Ambas curvas se obtienen a partir de las condiciones de maximización
+de la utilidad:
 
-Restricción presupuestaria, $M = 10 X + 10 Y$.
+- Recta presupuestaria: $M = 10 X + 10 Y$.
 
-Curva de Engel: $X(M) = M / 15$.
+- Condición de tangencia: $Y =  X / 2$.
+
+/Curva renta consumo/. Coincide con la condición de tangencia:
+#+begin_export latex
+\[
+   Y =  X / 2
+\]
+#+end_export
+
+/Curva de Engel/. Se obtiene sustituyendo la condición de tangencia en la recta presupuestaria y operando:
+#+begin_export latex
+\[
+   X =  M / 15
+\]
+#+end_export
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-ic-curve-*.pdf
+#+begin_center
+Curva renta consumo
+#+end_center
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-engel-curve-*.pdf
+#+begin_center
+Curva de Engel
+#+end_center
+#+xxx: endcol
+#+latex: \vspace*{2ex}
 
 Elasticidad renta:
 #+begin_export latex
 \[
-  E_d^M = \frac{\diff X}{\diff M} \frac{M}{X} =
-  1/15 \cdot \frac{100}{100/15} = 1
+  E_d^M =
+  \frac{\diff X}{\diff M} \frac{M}{X} =
+  \frac{1}{15}\frac{M}{M/15} = 1
 \]
 #+end_export
-La elasticidad renta es positiva: el bien $X$ es un bien normal.
+La elasticidad renta es positiva: $X$ es un bien normal.
 
 
 
