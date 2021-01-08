@@ -1330,21 +1330,65 @@ b) Si Rocío gasta \money{6} al mes en leche y cereales, el precio
 
 ** Answer
 
-a) Preferencias sobre $L$, litros de leche, y $C$, kg de cereales:
+a) Para Rocío la leche y las galletas son complementos perfectos. Su
+   combinación ideal de estos bienes puede expresarse como:
    #+begin_export latex
    \[
-     U = \min\{L/0.250, C/0.020\}
+     \frac{L}{0.250} = \frac{C}{0.020}
    \]
    #+end_export
-   Por tanto:
+   donde $L$ son litros de leche y $C$ kilos de cereales. La función
+   de utilidad de Rocío es:
    #+begin_export latex
    \[
-     U = \min\{4L, 50C\}
+     U = \min\left\{\frac{L}{0.250}, \frac{C}{0.020}\right\}
    \]
    #+end_export
-   #+xxx: fig fig-ans-probl-5_1004-compl1-*.pdf
 
-b) Restricción presupuestaria: $6 = 0.8 L + 2 C$.
-   Proporciones exactas: $4L = 50C$.
-   Óptimo: $L^* = \units[l]{6.250}, C^* = \units[kg]{0.500}$.
+   #+ATTR_LATEX: :options [t]{0.52\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-compl1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.48\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Las curvas de indiferencia tienen forma de ángulos rectos. En los
+   vértices de las curvas de indiferencia los dos bienes se combinan
+   en las proporciones ideales.
+   #+xxx: endcol
+
+
+b) La recta presupuestaria de Rocío es:
+   #+begin_export latex
+   \[
+     6 = 0.8 L + 2 C
+   \]
+   #+end_export
+
+   La cesta óptima debe de combinar los dos bienes en las proporciones
+   ideales; en caso contrario, parte de las compras de Rocío no le
+   reportarían ninguna utilidad. La siguiente ecuación define las
+   cestas con proporciones ideales:
+   #+begin_export latex
+   \[
+      L = 12.5 C
+   \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.52\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-compl2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.48\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   La elección óptima de Rocío se obtiene resolviendo las dos
+   ecuaciones anteriores:
+   #+begin_export latex
+   \begin{gather*}
+     L^* = \units[l]{6.250}\\ C^* = \units[kg]{0.500}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol

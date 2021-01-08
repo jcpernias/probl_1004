@@ -1041,6 +1041,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** Common
 
 
@@ -1052,7 +1053,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex12:xy-scale
-  [yscale = 1.25, xscale = 0.4166667]
+  [yscale = 0.81, xscale = 0.32]
 #+end_src
 
 
