@@ -1292,13 +1292,25 @@ c) ¿Cómo cambiaría la elección del consumidor si $P_X =
 
 ** Answer
 
-a) No, no tiene suficiente renta para comprarla.
+a) No: la cesta está fuera de la restricción presupuestaria del
+   consumidor. Necesitaría $2 \times 10 + 5 \times 40 = \money{220}$
+   para poder comprar la cesta y solamente dispone de \money{100}.
 
-b) $\RMS = 1 > P_X / P_Y = 0.4$. Solución de esquina: $X^* = 50; Y^* =
-   0$.
+b) La relación marginal de sustitución es:
+   #+begin_export latex
+   \[
+     \RMS = \UMg_X / \UMg_Y = 3 / 3 = 1
+   \]
+   #+end_export
+   El valor de la \RMS muestra que el consumidor renunciaría hasta a
+   $1$ unidad del bien $Y$ para incrementar el consumo de $X$ en una
+   unidad.  Pero sólo tendría que renunciar a $P_X / P_Y = 0.4$
+   unidades del bien $Y$ para comprar una unidad de $X$. Como $\RMS >
+   P_X / P_Y$ el consumidor gastaría toda su renta en el bien $X$,
+   $X^* = 50$, y no compraría nada del otro bien, $Y^* = 0$.
 
-c) $\RMS = 1 < P_X / P_Y = 2$. Solución de esquina: $X^* = 0; Y^* =
-   20$.
+c) Ahora $\RMS = 1 < P_X / P_Y = 2$ y el consumidor gastaría toda su
+   renta en el bien $Y$. La cesta óptima sería: $X^* = 0$ e $Y^* = 20$.
 
 
 * 5.22
