@@ -942,19 +942,20 @@
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-corner2.tex
   \begin{tikzpicture}<<ex10:xy-scale>>
-
     \draw[help lines]
-    (0, 3.75) node[left] {$37.5$} -- (1, 3.75)
-    ;
+      (0, 3.75) node[left] {$37.5$} -- (1, 3.75)
+      ;
 
     \draw[curve, very thick]
-    (0, 6.25) node[left] {$62.5$} -- (1, 3.75) -- (1, 0) node[below] {$100$} ;
+      (0, 6.25) node[left] {$62.5$} --
+      (1, 3.75) -- (1, 0) node[below] {$100$}
+      ;
 
     <<ex10:u3>>
 
-
     \draw
-    (1, 3.75) node[dot] {} ;
+      (1, 3.75) node[dot] {}
+      (2.5, 0) node[dot, label={below:$250$}] {} ;
 
     <<ex10:axes>>
   \end{tikzpicture}
@@ -967,11 +968,11 @@
 
 #+begin_src latex :noweb-ref ex10:axes
   \draw[axis, very thick] (0, 8) node[left] {$Y$} |-
-    (4, 0) node[below] {$X$} ;
+    (3.85, 0) node[below] {$X$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex10:xy-scale
-  [yscale = 0.625, xscale = 1.25]
+  [yscale = 0.40, xscale = 0.8]
 #+end_src
 
 
