@@ -1162,7 +1162,62 @@ b) Rafa está considerando hacerse socio del club de tenis. Si pagara
 
 ** Answer
 
-Por hacer.
+a) Relación marginal de sustitución:
+   #+begin_export latex
+   \[
+     \RMS = \frac{2}{3} \frac{Y}{H}
+   \]
+   #+end_export
+   Condiciones de óptimo:
+
+   - Recta presupuestaria:  $100 = 5 H + Y$.
+
+   - Condición de tangencia: $Y = 7.5 H$.
+
+   La elección óptima es la solución de las condiciones de óptimo:
+   $H^* = 8$ [horas e $Y^* = \money{60}$
+
+b) Si se hace socio, el alquiler es más barato pero deberá pagar la
+   cuota de $\money{30}$. Su recta presupuestaria sería:
+   #+begin_export latex
+   \[
+     70 = 2.5 H + Y
+   \]
+   #+end_export
+   Igualando la \RMS a los precios relativos obtenemos la condición de
+   tangencia:
+   #+begin_export latex
+   \[
+     Y = 3.75 H
+   \]
+   #+end_export
+   Si se hiciera socio, la elección óptima sería: $H^* =
+   11.2$ horas e $Y^* = \money{42}$.
+
+   Para determinar qué opción es más beneficiosa para Rafa, calculamos
+   los valores que tomaría la función de utilidad en cada caso:
+
+   #+ATTR_LATEX: :booktabs t :center t :align @{}p{1.5cm}r*{2}{R{1.25cm}}@{}
+   |----------+-------------+---------+-----------------|
+   |          | $H$ (horas) | $Y$ (€) | $U$             |
+   |----------+-------------+---------+-----------------|
+   | No socio | $8.0$       | $60$    | $\num{3718.06}$ |
+   | Socio    | $11.2$      | $42$    | $\num{3048.54}$ |
+   |----------+-------------+---------+-----------------|
+
+   #+ATTR_LATEX: :options [t]{0.52\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-tennis-*.pdf
+   #+ATTR_LATEX: :options [t]{0.48\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Rafa disfrutaría de un mayor nivel de utilidad si no se hace socio
+   del club de tenis, punto $A$, que si se hace socio, punto $B$.
+   #+xxx: endcol
+
+
 
 
 * 5.20
