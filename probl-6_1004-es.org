@@ -78,7 +78,51 @@ de bienes son $X$ e $Y$?
 
 ** Answer
 
-Por hacer.
+#+xxx: fig fig-ans-probl-6_1004-crc20-*.pdf
+
+Podemos resumir la información del gráfico en la siguiente tabla:
+#+ATTR_LATEX: :booktabs t :center t :align c*{3}{R{1.25cm}}
+|------------+------+------+-------|
+|            | $X$  | $Y$  | $M$   |
+|------------+------+------+-------|
+| \textbf{A} | $0$  | $0$  | $0$   |
+| \textbf{B} | $4$  | $2$  | $80$  |
+| \textbf{C} | $10$ | $3$  | $160$ |
+| \textbf{D} | $16$ | $4$  | $240$ |
+| \textbf{E} | $20$ | $6$  | $320$ |
+| \textbf{F} | $16$ | $12$ | $400$ |
+| \textbf{G} | $12$ | $18$ | $480$ |
+|------------+------+------+-------|
+Las curvas de Engel relacionan el consumo de un bien y la renta. La
+pendiente de una curvas de Engel es positiva cuando el bien es normal
+y es negativa cuando el bien es inferior.
+
+#+ATTR_LATEX: :options [t]{0.52\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-engel-x-*.pdf
+#+ATTR_LATEX: :options [t]{0.48\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Curva de Engel del bien $X$. El bien $X$ es normal cuando la renta es
+inferir a \money{320} y es un bien inferior cuando la renta es mayor
+que \money{320}.
+#+xxx: endcol
+#+latex: \vspace{1ex}
+
+#+ATTR_LATEX: :options [t]{0.52\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-engel-y-*.pdf
+#+ATTR_LATEX: :options [t]{0.48\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Curva de Engel del bien $Y$. El bien $Y$ es normal para todos los
+valores de la renta.
+#+xxx: endcol
+
 
 
 * 6.3.
