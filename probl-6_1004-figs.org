@@ -482,23 +482,40 @@
 ** Figures
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-cpc1.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.0585, yscale = 0.085]
+  \begin{tikzpicture}[xscale = 0.048, yscale = 0.064]
+    \coordinate (Xaxis) at (60, 0) ;
+    \coordinate (Yaxis) at (0, 40) ;
+    \coordinate (E1) at (8, 24) ;
+    \coordinate (E2) at (16, 24) ;
+    \coordinate (A) at (0, 30) ;
+    \coordinate (B) at (40, 0) ;
+    \coordinate (C) at (40, 15) ;
 
-  \draw[curve, very thick, domain=0:45, smooth]
-    (0, 30) node[left] {$30$}
-    plot (\x, {30*(\x+24)/(2*\x+24)}) node[right] {$\CPC$} ;
+    \draw[curve, very thick]
+      (0, 24) node[left] {$24$} -- (40, 24) node[right] {$\CPC$}
+      (A) -- (B)
+      (A) -- (C) ;
 
-  \draw[axis, very thick] (0, 45) node[left] {$Y$} |-
-    (60, 0) node[below] {$X$} ;
+    \draw[curve, very thick, domain=3:20, smooth]
+       plot (\x, {10*(26.5421/(\x/10))^0.25}) ;
+
+    \draw[curve, very thick, domain=6:28, smooth]
+       plot (\x, {10*(53.0482/(\x/10))^0.25}) ;
+
+    \draw[curve]
+      (E1) node[dot] {}
+      (E2) node[dot] {} ;
+
+    \draw[axis, very thick]
+      (Yaxis) node[left] {$Y$} |- (Xaxis) node[below] {$X$} ;
   \end{tikzpicture}
 #+end_src
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-cpc2.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.0585, yscale = 0.255]
+  \begin{tikzpicture}[xscale = 0.048, yscale = 0.17]
 
-  \draw[curve, very thick, domain=0:50, smooth]
-    (0, 10) node[left] {$10$}
-    plot (\x, {120/(\x+12)}) node[right] {$D$} ;
+  \draw[curve, very thick, domain=4:40, smooth]
+       plot (\x, {48/\x}) node[right] {$D$} ;
 
   \draw[axis, very thick] (0, 15) node[left] {$P_X$} |-
     (60, 0) node[below] {$X$} ;

@@ -214,36 +214,65 @@ b) Obtenga y represente la curva de demanda del bien $X$. Calcule la elasticidad
 
 ** Answer
 
-a) Restricción presupuestaria: $240 = P_X X + 8Y$.
+Para obtener ambas curvas se parte de las condiciones de maximización
+de la utilidad:
 
-   Condición de tangencia: $Y/(X + 24) = P_X / 8$.
+- Recta presupuestaria: $240 = P_X X + 8 Y$.
 
-   Curva precio consumo:
-   #+begin_export latex
-   \[
-     Y = 30 \frac{X + 24}{2X + 24}
-   \]
-   #+end_export
-   Pendiente de la \CPC:
-   #+begin_export latex
-   \[
-     \frac{\diff Y}{\diff X} = -\frac{720}{(2X + 24)^2} < 0
-   \]
-   #+end_export
-   $X$ e $Y$ son sustitutivos.
+- Condición de tangencia: $Y =  P_X X / 2$.
+
+
+a)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-6_1004-cpc1-*.pdf
-
-b) Curva de demanda:
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   La curva precio consumo se puede obtener despejando $P_X$ en la
+   condición de tangencia y sustituyendo en la recta presupuestaria:
+   #+begin_export latex
+   \[ Y = 24 \]
+   #+end_export
+   #+xxx: endcol
+   Elasticidad cruzada de la demanda de $Y$:
    #+begin_export latex
    \[
-     X =
-     \begin{cases}
-     -12 + 120 / P_X & \text{si $P_X < 10$} \\
-     0 & \text{si $P_{X} \geq 10$}
-     \end{cases}
+     E_{Y^d}^{P_X} =
+     \frac{\diff Y}{\diff P_X} \frac{P_X}{Y} =
+     0\frac{P_X}{24} = 0
    \]
    #+end_export
+   La demanda de $Y$ no responde a cambios en el precio de $X$: no
+   existe relación entre los dos bienes.
+
+b)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-6_1004-cpc2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Despejando $Y$ en la condición de tangencia, sustituyendo en la
+   recta presupuestaria y operando se obtiene la curva de demanda:
+   #+begin_export latex
+   \[ X = \frac{48}{P_X} \]
+   #+end_export
+   #+xxx: endcol
+   Elasticidad precio de la demanda de X:
+   #+begin_export latex
+   \[
+     E_{X^d} =
+     \frac{\diff X}{\diff P_X} \frac{P_X}{X} =
+     -\frac{48}{P_X^2}\frac{P_X}{48/P_X} = -1
+   \]
+   #+end_export
+   La curva de demanda de $X$ tiene elasticidad unitaria.
+
 
 
 * 6.6
