@@ -128,7 +128,7 @@
 
 #+begin_src latex :noweb-ref ex6.2:axes-engel-y
   \draw[axis, very thick] (0, 60) node[left] {$M$} |-
-    (25, 0) node[below] {$X$} ;
+    (25, 0) node[below] {$Y$} ;
 #+end_src
 
 
@@ -239,7 +239,9 @@
   ;
 #+end_src
 
+
 *** Budget lines
+
 
 #+begin_src latex :noweb-ref ex6.2:lines
   \draw[curve, semithick]
