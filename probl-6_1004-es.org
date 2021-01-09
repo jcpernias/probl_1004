@@ -142,12 +142,24 @@ b) ¿Alguno de los bienes es inferior? ¿Para qué valores de la
 
 ** Answer
 
-a) Trazando la recta presupuestaria y buscando la intersección con la
-   \CRC: $X = 40$ e $Y = 30$.
+a) La elección óptima es la intersección de \CRC y la recta
+   presupuestaria correspondiente a $M = \money{70}$. Para trazar esta última,
+   se unen los puntos de corte de la recta presupuestaria con los
+   ejes: $M / P_X = 70$ en el eje $X$ y $M / P_Y = 70$ en el eje
+   $Y$. Como puede verse en el siguiente gráfico la cesta óptima está
+   compuesta por $40$ unidades de $X$ y $30$ unidades de $Y$.
+
    #+xxx: fig fig-ans-probl-6_1004-crc2-*.pdf
 
-b) El bien $Y$ es inferior para rentas superiores a
-   \money{120}.
+b) Conforme aumenta la renta y la recta presupuestaria se desplaza
+   hacia la derecha y hacia arriba el consumo de $X$ siempre aumenta:
+   $X$ es un bien normal para todos los valores que tome la renta. Por
+   otro lado, el consumo del bien $Y$ aumentaría con la renta para
+   valores relativamente bajos de $M$, pero se movería en dirección
+   opuesta a la renta para valores de $M$ más altos. En el gráfico
+   siguiente se muestra que el bien $Y$ es normal para $M \leq
+   \money{120}$ y es un bien inferior para $M > \money{120}$.
+
    #+xxx: fig fig-ans-probl-6_1004-crc3-*.pdf
 
 

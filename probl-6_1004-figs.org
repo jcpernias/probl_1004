@@ -332,11 +332,8 @@
 
 #+begin_src latex :tangle fig-probl-6_1004-crc1.tex
   \begin{tikzpicture}<<ex3:xy-scale>>
-
     <<ex3:grid>>
-
     <<ex3:crc>>
-
     <<ex3:axes>>
   \end{tikzpicture}
 #+end_src
@@ -344,13 +341,18 @@
 #+begin_src latex :tangle fig-ans-probl-6_1004-crc2.tex
   \begin{tikzpicture}<<ex3:xy-scale-small>>
 
-    <<ex3:grid>>
-
+    \begin{scope}[nearly transparent]
+      <<ex3:grid>>
+    \end{scope}
     <<ex3:crc>>
 
-    \draw[curve, very thick] (0, 70) -- (70, 0) ;
+    \draw[curve, very thick]
+      (0, 70) node[left] {$70$} --
+      (70, 0) node[below] {$70$} ;
 
-    \node[dot] at (40, 30) { } ;
+    \draw[help lines]
+      (0, 30) node[left] {$30$} -| node[dot] { }
+      (40, 0) node[below] {$40$} ;
 
     <<ex3:axes>>
   \end{tikzpicture}
@@ -359,13 +361,18 @@
 #+begin_src latex :tangle fig-ans-probl-6_1004-crc3.tex
   \begin{tikzpicture}<<ex3:xy-scale-small>>
 
-    <<ex3:grid>>
-
+    \begin{scope}[nearly transparent]
+      <<ex3:grid>>
+    \end{scope}
     <<ex3:crc>>
 
-    \draw[curve, very thick] (40, 80) -- (120, 0) ;
+    \draw[curve, very thick]
+      (40, 80) --
+      (120, 0) node[below] {$120$} ;
 
-    \node[dot] at (80, 40) { } ;
+    \draw[help lines]
+      (0, 40) node[left] {$40$} -| node[dot] { }
+      (80, 0) node[below] {$80$} ;
 
     <<ex3:axes>>
   \end{tikzpicture}
@@ -387,7 +394,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex3:xy-scale-small
-  [xscale = 0.035, yscale = 0.035]
+  [xscale = 0.045, yscale = 0.045]
 #+end_src
 
 
