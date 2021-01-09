@@ -402,8 +402,6 @@ menor cuanto mayor es el precio.
 
 
 
-
-
 * 6.8
 
 En un mercado participan $n$ consumidores idénticos y la curva de
@@ -424,8 +422,56 @@ b) ¿Qué relación existe entre la elasticidad precio de las demandas
 
 ** Answer
 
-Por hacer.
+a) La curva de demanda de mercado se obtiene sumando las curvas de
+   demanda individuales:
+   #+begin_export latex
+   \begin{align*}
+     X^{d}(P_{X})
+     &= X_{1}(P_{X}) + X_{2}(P_{X}) + \dots + X_{n}(P_{X}) \\
+     &= \big(a - b P_{X}\big) +
+       \big(a - b P_{X}\big) + \dots + \big(a - b P_{X}\big)
+   \end{align*}
+   #+end_export
+   Por tanto, la curva de demanda de mercado sería:
+   #+begin_export latex
+   \[
+     X^{d}(P_X) = n a - n b P_{X}
+   \]
+   #+end_export
+   Derivando esta expresión se obtiene:
+   #+begin_export latex
+   \[
+     \frac{\diff X^{d}}{\diff P_X} =  - n b
+   \]
+   #+end_export
+   La derivada de la demanda de mercado, $-nb$, es $n$ veces de la
+   curva de demanda individual, $-b$. La representación gráfica de la
+   curva de demanda de mercado será una recta más plana que las
+   demandas individuales, ya que medimos la cantidad demandada en el
+   eje horizontal y el precio en el vertical.
 
+   #+xxx: fig fig-ans-probl-6_1004-ind-market-*.pdf
+
+b) La elasticidad de una curva de demanda individual es:
+   #+begin_export latex
+   \[
+     E^d_i = \frac{\diff X_i^{d}}{\diff P_X}\frac{P_X}{X^d_i} =  - b \frac{P_X}{X^d_i}
+   \]
+   #+end_export
+   La elasticidad de la demanda de mercado es:
+   #+begin_export latex
+   \[
+     E^d = \frac{\diff X^{d}}{\diff P_X}\frac{P_X}{X^d} =  - n b \frac{P_X}{X^d}
+   \]
+   #+end_export
+   Teniendo en cuenta que $X^d = n X_i^d$:
+   #+begin_export latex
+   \[
+     E^d =  - n b \frac{P_X}{n X^d_i} =  - b \frac{P_X}{X^d_i} = E_i^d
+   \]
+   #+end_export
+   Por tanto, coinciden las elasticidades de la demanda de mercado y
+   de las demandas individuales.
 
 * 6.9.
 

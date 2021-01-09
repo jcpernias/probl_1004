@@ -864,6 +864,30 @@
 #+end_src
 
 
+* 6.8
+
+** Individual and market demands
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-ind-market.tex
+  \begin{tikzpicture}[xscale=1, yscale=0.75]
+    \coordinate (Xaxis) at (6, 0);
+    \coordinate (Yaxis) at (0, 3.5);
+    \coordinate (M) at (0, 2.75);
+    \coordinate (N) at (1, 0);
+    \coordinate (P) at (5, 0);
+
+    \draw[curve, very thick]
+      (M) node[left] {$\dfrac{a}{b}$} -- (N) node[below] {$a$}
+       node[pos=0.8, right] {$X_i^d$} ;
+    \draw[curve, very thick]
+      (M) -- (P)  node[below] {$n a$}
+       node[pos=0.8, right=12pt] {$X^d$} ;
+
+    \draw[axis, very thick] (Yaxis) node[left] {$P_X$} |-
+    (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
 * 6.11 Income and substitution effects
 
 #+begin_src latex :tangle fig-probl-6_1004-fxs.tex :noweb no
