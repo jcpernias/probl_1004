@@ -9,16 +9,18 @@
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-ic-curve.tex
   \begin{tikzpicture}[xscale=0.048, yscale=0.05]
-    \draw[curve, very thick]
+    \draw[curve, semithick]
       (0, 30) -- (30, 0)
       (0, 60) -- (60, 0)
+      ;
+   \draw[curve, very thick]
       (0, 0) -- (50, 25) node[right] {$\CRC$}
       ;
 
-    \draw[curve, very thick]
+    \draw[curve, semithick]
       plot[smooth, domain=9.43:40] ({\x}, {40/(\x/10)^2}) ;
 
-    \draw[curve, very thick]
+    \draw[curve, semithick]
       plot[smooth, domain=25:50] ({\x}, {320/(\x/10)^2}) ;
 
     \draw[help lines]
@@ -346,7 +348,7 @@
     \end{scope}
     <<ex3:crc>>
 
-    \draw[curve, very thick]
+    \draw[curve, semithick]
       (0, 70) node[left] {$70$} --
       (70, 0) node[below] {$70$} ;
 
@@ -366,7 +368,7 @@
     \end{scope}
     <<ex3:crc>>
 
-    \draw[curve, very thick]
+    \draw[curve, semithick]
       (40, 80) --
       (120, 0) node[below] {$120$} ;
 
@@ -492,14 +494,16 @@
     \coordinate (C) at (40, 15) ;
 
     \draw[curve, very thick]
-      (0, 24) node[left] {$24$} -- (40, 24) node[right] {$\CPC$}
+      (0, 24) node[left] {$24$} -- (40, 24) node[right] {$\CPC$} ;
+
+    \draw[curve, semithick]
       (A) -- (B)
       (A) -- (C) ;
 
-    \draw[curve, very thick, domain=3:20, smooth]
+    \draw[curve, semithick, domain=3:20, smooth]
        plot (\x, {10*(26.5421/(\x/10))^0.25}) ;
 
-    \draw[curve, very thick, domain=6:28, smooth]
+    \draw[curve, semithick, domain=6:28, smooth]
        plot (\x, {10*(53.0482/(\x/10))^0.25}) ;
 
     \draw[curve]
