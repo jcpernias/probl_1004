@@ -294,16 +294,71 @@ c) ¿Qué tipo de relación existe entre los bienes $X$ e $Y$?
 ** Answer
 
 a)
-   #+ATTR_LATEX: :options [t]{0.5\linewidth}
-   #+xxx: col
-   #+latex: \vspace{0pt}
-   #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-6_1004-cpc22-*.pdf
-   #+ATTR_LATEX: :options [t]{0.5\linewidth}
-   #+xxx: col
-   #+latex: \vspace{1ex}
+    #+ATTR_LATEX: :options [t]{0.68\linewidth}
+    #+xxx: col
+    #+latex: \vspace{0pt}
+    #+ATTR_LATEX: :center nil
+    #+xxx: fig fig-ans-probl-6_1004-cpc22-a-*.pdf
+    #+ATTR_LATEX: :options [t]{0.32\linewidth}
+    #+xxx: col
+    #+latex: \vspace{1ex}
+    La cesta óptima es:
+    #+begin_export latex
+    \begin{gather*}
+      X = 35 \\ Y = 25
+    \end{gather*}
+    #+end_export
+    #+xxx: endcol
+    La cesta óptima se encuentra en la intersección de la recta
+    presupuestaria $120 = 2 X + 2 Y$ y de la \CPC.
 
-   #+xxx: endcol
+b)
+    #+ATTR_LATEX: :options [t]{0.68\linewidth}
+    #+xxx: col
+    #+latex: \vspace{0pt}
+    #+ATTR_LATEX: :center nil
+    #+xxx: fig fig-ans-probl-6_1004-cpc22-b-*.pdf
+    #+ATTR_LATEX: :options [t]{0.32\linewidth}
+    #+xxx: col
+    #+latex: \vspace{1ex}
+    #+ATTR_LATEX: :booktabs t :center t :align @{}c*{2}{r}@{}
+    |------------+-------+------|
+    |            | $P_X$ | $X$  |
+    |------------+-------+------|
+    | \textbf{A} | $2.0$ | $35$ |
+    | \textbf{B} | $3.0$ | $30$ |
+    | \textbf{C} | $4.0$ | $25$ |
+    | \textbf{D} | $4.8$ | $15$ |
+    | \textbf{E} | $6.0$ | $10$ |
+    |------------+-------+------|
+    #+xxx: endcol
+    Es posible construir una tabla que relacione $P_X$ y $X$ buscando
+    los puntos de intersección de la curva precio consumo y las rectas
+    presupuestarias correspondientes a cada precio.
+
+    #+ATTR_LATEX: :options [t]{0.65\linewidth}
+    #+xxx: col
+    #+latex: \vspace{0pt}
+    #+ATTR_LATEX: :center nil
+    #+xxx: fig fig-ans-probl-6_1004-demand-x-*.pdf
+    #+ATTR_LATEX: :options [t]{0.35\linewidth}
+    #+xxx: col
+    #+latex: \vspace{1ex}
+    Curva de demanda del bien $X$.
+    #+xxx: endcol
+
+c) Las elecciones de consumo óptimas para precios del bien $X$
+   superiores a $\price{4}$ se encuentran en el tramo decreciente de
+   la curva precio consumo. En este tramo, ante variaciones en el
+   precio de $X$ se producen cambios en el consumo de los dos bienes
+   en direcciones opuestas. Por tanto, $X$ e $Y$ son sustitutivos
+   cuando $P_X \geq 4$.
+
+   El tramo creciente de la \CPC contendría las cestas óptimas cuando
+   $P_X < 4$. Los consumos de los dos bienes variarían en la misma
+   dirección en respuesta a alteraciones del precio de $X$. Luego,
+   cuando $P_X < 4$ los bienes $X$ e $Y$ son complementarios.
+
 
 
 * 6.7
