@@ -171,13 +171,26 @@ dos bienes inferiores simultáneamente?
 
 ** Answer
 
-No. Antes del cambio en la renta el consumidor elige una cesta,
-$A$. Supongamos que cuando aumenta la renta elige otra cesta, $B$, con
-menos unidades de todos los bienes. Esta cesta la pudo haber comprado
-con la renta inicial pero no lo hizo: el consumidor prefiere $A$ a
-$B$. Finalmente, después del aumento de renta tanto $A$ como $B$ son
-accesibles; pudiendo comprar $A$ nunca elegiría una cesta como la $B$.
-
+No: al menos uno de los bienes tiene que ser normal.
+#+ATTR_LATEX: :options [t]{0.45\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-inferior-*.pdf
+#+ATTR_LATEX: :options [t]{0.55\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Supongamos que el consumidor elige inicialmente la cesta $A$. Si
+aumenta la renta, la recta presupuestaria se desplazaría hacia la
+derecha y hacia arriba y, si los dos bienes fueran inferiores,
+elegiría una cesta como la $B$, que contiene menos unidades de $X$ e
+$Y$.
+#+xxx: endcol
+Sin embargo, el consumidor podía haber comprado las dos cestas con la
+renta inicial y eligió la cesta $A$. Es decir, la elección inicial del
+consumidor revela que éste prefiere $A$ a $B$. Si aumenta la renta aún
+puede comprar las dos cestas y, como $A \succ B$, no elegiría $B$. Por
+tanto, los dos bienes no pueden ser inferiores.
 
 
 * 6.5.

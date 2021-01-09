@@ -437,6 +437,45 @@
 #+end_src
 
 
+* 6.4 Inferior goods
+
+
+** Figures
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-inferior.tex :noweb no
+  \begin{tikzpicture}[xscale = 1, yscale = 1]
+    \coordinate (L1-1) at (0, 1.75) ;
+    \coordinate (L1-2) at (1.75, 0) ;
+
+    \coordinate (L2-1) at (0, 2.5) ;
+    \coordinate (L2-2) at (2.5, 0) ;
+
+    \coordinate (A) at ($(L1-1)!0.6!(L1-2)$) ;
+    \coordinate (B) at ($(A)-0.5*(1,0.6)$) ;
+
+    \draw[curve, very thick]
+      (L1-1) -- (L1-2)
+      (L2-1) -- (L2-2)
+      (A) node[dot, label={right:$A$}] {}
+      (B) node[dot, label={left:$B$}] {}
+      ;
+
+    \draw[shift arrow, ->]
+      ($(L1-1)!0.2!(L1-2)$) -- ($(L2-1)!0.3!(L2-2)$)
+      ;
+
+    \draw[shift arrow, ->, shorten <= 3pt,  shorten >= 3pt]
+      (A) -- (B)
+      ;
+
+    \draw[axis, very thick]
+      (0, 3) node[left] {$Y$} |-
+      (3, 0) node[below] {$X$}
+      ;
+  \end{tikzpicture}
+#+end_src
+
+
 * 6.5 Price consumption curve
 
 
