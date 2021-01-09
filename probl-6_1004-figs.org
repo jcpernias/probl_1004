@@ -81,14 +81,16 @@
 
     <<ex6.2:lines>>
     <<ex6.2:crc>>
-    \path[curve, font=\bfseries]
+    \path[curve] (0, 0) node[dot] {} ;
+    \path[curve,
+      every node/.style={font=\bfseries, inner sep=1pt, fill=white}]
       (0,0) node[below left] {A}
-      (A) node[above] {B}
-      (B) node[above] {C}
-      (C) node[above] {D}
-      (D) node[above right] {E}
-      (E) node[above right] {F}
-      (F) node[above right] {G}
+      (A) node[above=2pt] {B}
+      (B) node[above=2pt] {C}
+      (C) node[above=2pt] {D}
+      (D) node[above right=1pt and 1pt] {E}
+      (E) node[above right=1pt and 1pt] {F}
+      (F) node[above right=1pt and 1pt] {G}
       ;
     <<ex6.2:axes>>
   \end{tikzpicture}
@@ -293,14 +295,23 @@
     (X3) .. (X4) .. (X5) .. (X6)
     ;
 
-  \draw[curve, very thick, font=\bfseries]
-    (X0) node[dot, label={left:A}]  {}
-    (X1) node[dot, label={above:B}]  {}
-    (X2) node[dot, label={above:C}]  {}
-    (X3) node[dot, label={above:D}]  {}
-    (X4) node[dot, label={right:E}]  {}
-    (X5) node[dot, label={above:F}]  {}
-    (X6) node[dot, label={above:G}]  {};
+  \draw[curve, every node/.style={dot}]
+    (X0) node {}
+    (X1) node {}
+    (X2) node {}
+    (X3) node {}
+    (X4) node {}
+    (X5) node {}
+    (X6) node {};
+
+  \draw[curve, every node/.style={font=\bfseries, fill=white, inner sep=1pt}]
+    (X0) node[left=3pt]  {A}
+    (X1) node[above=3pt]  {B}
+    (X2) node[above=3pt]  {C}
+    (X3) node[above=3pt]  {D}
+    (X4) node[right=3pt]  {E}
+    (X5) node[above=3pt]  {F}
+    (X6) node[above=3pt]  {G};
 #+end_src
 
 #+begin_src latex :noweb-ref ex6.2:engel-y
@@ -315,14 +326,23 @@
     (Y3) .. (Y4) .. (Y5) .. (Y6)
     ;
 
-  \draw[curve, very thick, font=\bfseries]
-    (Y0) node[dot, label={left:A}]  {}
-    (Y1) node[dot, label={right:B}]  {}
-    (Y2) node[dot, label={right:C}]  {}
-    (Y3) node[dot, label={right:D}]  {}
-    (Y4) node[dot, label={above:E}]  {}
-    (Y5) node[dot, label={above:F}]  {}
-    (Y6) node[dot, label={above:G}]  {};
+  \draw[curve, every node/.style={dot}]
+    (Y0) node {}
+    (Y1) node {}
+    (Y2) node {}
+    (Y3) node {}
+    (Y4) node {}
+    (Y5) node {}
+    (Y6) node {};
+
+  \draw[curve, every node/.style={font=\bfseries, fill=white, inner sep=1pt}]
+    (Y0) node[left=3pt]  {A}
+    (Y1) node[right=3pt]  {B}
+    (Y2) node[right=3pt]  {C}
+    (Y3) node[right=3pt]  {D}
+    (Y4) node[above=3pt]  {E}
+    (Y5) node[above=3pt]  {F}
+    (Y6) node[above=3pt]  {G};
 #+end_src
 
 
