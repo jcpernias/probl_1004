@@ -237,7 +237,7 @@ a)
    \[ Y = 24 \]
    #+end_export
    #+xxx: endcol
-   Elasticidad cruzada de la demanda de $Y$:
+   La demanda de $Y$ no responde a cambios en $P_X$:
    #+begin_export latex
    \[
      E_{Y^d}^{P_X} =
@@ -245,8 +245,6 @@ a)
      0\frac{P_X}{24} = 0
    \]
    #+end_export
-   La demanda de $Y$ no responde a cambios en el precio de $X$: no
-   existe relación entre los dos bienes.
 
 b)
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
@@ -263,7 +261,7 @@ b)
    \[ X = \frac{48}{P_X} \]
    #+end_export
    #+xxx: endcol
-   Elasticidad precio de la demanda de X:
+   La curva de demanda de $X$ tiene elasticidad unitaria:
    #+begin_export latex
    \[
      E_{X^d} =
@@ -271,7 +269,6 @@ b)
      -\frac{48}{P_X^2}\frac{P_X}{48/P_X} = -1
    \]
    #+end_export
-   La curva de demanda de $X$ tiene elasticidad unitaria.
 
 
 
@@ -296,7 +293,17 @@ c) ¿Qué tipo de relación existe entre los bienes $X$ e $Y$?
 
 ** Answer
 
-Por hacer.
+a)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-6_1004-cpc22-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+
+   #+xxx: endcol
 
 
 * 6.7
