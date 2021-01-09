@@ -5,6 +5,7 @@
 
 * 6.1 Income cosumption curve and Engel curve
 
+
 ** Income consumption curve
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-ic-curve.tex
@@ -35,6 +36,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** Engel curve
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-engel-curve.tex
@@ -57,6 +59,7 @@
 
 
 * 6.2 Income consumption curve
+
 
 ** Figures
 
@@ -676,7 +679,9 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** Common
+
 
 
 *** Axes
@@ -700,6 +705,7 @@
   [xscale = 0.07, yscale = 0.07]
 #+end_src
 
+
 *** Coordinates
 
 #+begin_src latex :noweb-ref ex6.6:coordinates
@@ -716,6 +722,7 @@
   \coordinate (H) at (60, 37.5);
 
 #+end_src
+
 
 *** Grid
 
@@ -766,6 +773,7 @@
 
 #+end_src
 
+
 *** Curve
 #+begin_src latex :noweb-ref ex6.6:cpc
   \draw[curve, very thick,
@@ -780,6 +788,80 @@
     (H) node[right] {\CPC};
 #+end_src
 
+
+
+* 6.7 Price changes and utility
+
+** Choice
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-price-change.tex
+  \begin{tikzpicture}[xscale=1, yscale=1]
+    \coordinate (Xaxis) at (3.5, 0);
+    \coordinate (Yaxis) at (0, 3.5);
+    \coordinate (M) at (0, 2.5);
+    \coordinate (N) at (1.25, 0);
+    \coordinate (P) at (3, 0);
+    \coordinate (A) at ($(M)!0.7!(P)$);
+    \coordinate (B) at ($(M)!0.5!(N)$);
+
+    \draw[curve, very thick]
+      (M) -- (N)  (M) -- (P) ;
+
+    \draw[curve]
+      (A) node[dot, label={above:$A$}]  {}
+      (B) node[dot, label={left:$B$}]  {}
+      ;
+
+    \draw[shift arrow, ->, shorten >= 4pt, shorten <= 4pt]
+      (A) -- (B) ;
+
+    \draw[axis, very thick] (Yaxis) node[left] {$Y$} |-
+    (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+** Demand
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-demand-utility.tex
+  \begin{tikzpicture}[xscale=0.175, yscale=0.206]
+    \coordinate (Xaxis) at (20, 0);
+    \coordinate (Yaxis) at (0, 17);
+    \coordinate (A) at (2, 14);
+    \coordinate (B) at (3, 11);
+    \coordinate (C) at (5, 8);
+    \coordinate (D) at (7, 6);
+    \coordinate (E) at (10, 4);
+    \coordinate (F) at (14, 2);
+    \coordinate (dX) at (1, 0);
+    \coordinate (dY) at (0, 1);
+
+    \draw[curve, very thick,
+      use Hobby shortcut,
+      tangent/.style={%
+        in angle={(180+#1)},
+        Hobby finish,
+        designated Hobby path=next,
+        out angle=#1,},]
+      (A) .. (B) .. (C) .. (D) .. (E) .. (F) (F) node[right] {$X^{d}$}
+      ;
+
+    \draw[use Hobby shortcut,
+      shift arrow, ->]
+      ($(C)+1*(dX)$) .. ($(B)+1*(dX)$) .. ($(A)+1*(dX)$)  ;
+
+    \draw[use Hobby shortcut,
+      shift arrow, ->]
+      ($(D)+1*(dY)$) .. ($(E)+1*(dY)$) .. ($(F)+1*(dY)$)  ;
+
+    \path[curve, font=\scriptsize]
+      ($(B)+6*(dX)$) node[align=left] {Disminuye\\la utilidad}
+      ($(E)+2*(dY)+5*(dX)$) node[align=left] {Aumenta\\la utilidad}
+      ;
+
+    \draw[axis, very thick] (Yaxis) node[left] {$P_X$} |-
+    (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
 
 
 * 6.11 Income and substitution effects

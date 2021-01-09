@@ -372,9 +372,34 @@ bien. Justifique su respuesta.
 
 ** Answer
 
-Con los nuevos precios no puede comprar la cesta inicial. Tiene que
-elegir una cesta que podría haber elegido con los precios iniciales
-pero no lo hizo: su utilidad es menor.
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-price-change-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Al subir el precio de $X$, el consumidor no puede comprar la cesta
+inicial, $A$, y elige una cesta como la $B$. Antes de subir el precio,
+pudo haber comprado $B$ pero eligió comprar $A$. Esta decisión revela
+que prefiere $A$ a $B$. Por tanto, al subir el precio de $X$ el
+consumidor elige una cesta que le reporta menos utilidad.
+#+xxx: endcol
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-demand-utility-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+En cada punto de la curva de demanda, la utilidad es diferente y es
+menor cuanto mayor es el precio.
+#+xxx: endcol
+
+
 
 
 
