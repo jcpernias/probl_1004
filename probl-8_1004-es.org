@@ -99,7 +99,7 @@ b) Producto medio:
 c) /Maximización del \PMgL/: La derivada del producto marginal es:
    #+begin_export latex
    \[
-     \frac{\diff \PMgL}{\diff L} \PMgL = 12 - 0.06 L.
+     \frac{\diff \PMgL}{\diff L} = 12 - 0.06 L.
    \]
    #+end_export
    Igualando a 0 la expresión anterior y resolviendo $L$, obtenemos
