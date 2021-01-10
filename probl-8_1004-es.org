@@ -353,18 +353,37 @@ c) ¿Qué tipo de rendimientos de escala presenta la función de
 
 ** Answer
 
-a) En la isocuanta $Q = 250$, $K = 5$ cuando $L = 5$.
+a)
+   #+ATTR_LATEX: :options [t]{\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+xxx: fig fig-ans-probl-8_1004-const-returns-a-*.pdf
+   #+xxx: endcol
+   #+latex: \vspace*{1ex}
 
-   En la isocuanta $Q = 125$, $K = 2$ cuando $L = 4$.
+   Si produce eficientemente $250$ unidades y utiliza 5 trabajadores,
+   la empresa ha escogido la combinación de factores *A*, donde emplea
+   5 unidades de capital. Si produjera $125$ unidades con 4
+   trabajadores, se encontraría en *B* y usaría 2 unidades de capital.
 
-b) La producción no puede ser de $400$ unidades: la combinación
-   $L = 8$ y $K = 6$ está debajo de la isocuanta $Q = 375$.
 
-   Es posible pero no eficiente producir $200$: se pueden
-   producir $250$ unidades con $L=8$ y $K < 6$.
+b) La combinación $L = 8$ y $K = 6$ está representada por el punto *C*
+   del gráfico anterior. Esta punto se halla por debajo de la
+   isocuanta $Q = 375$. Por tanto no es posible producir
+   $400$ unidades en esas condiciones.
 
-c) Rendimientos constantes de escala: por ejemplo, comparar producción
-   en $(5, 5)$ y $(10, 10)$.
+   Por otro lado, el punto *C* está por encima de la isocuanta $Q =
+   250$, por lo que es posible producir $200$ unidades con 8
+   trabajadores y 6 unidades de capital. Pero ese nivel de producción
+   no sería eficiente, ya que se pueden producir más de $200$ unidades
+   con la combinación *C*.
+
+c) Cuando se usan 5 trabajadores y 5 unidades de capital, combinación
+   *A*, se producen $125$ unidades. Si se duplican los factores y se
+   emplea 10 trabajadores y 10 unidades de capital, combinación *D*,
+   la producción asciende a $250$ unidades. La función de producción
+   presenta rendimientos constantes de escala: cuando se duplica el
+   uso de factores se duplica también el nivel de producción.
 
 
 

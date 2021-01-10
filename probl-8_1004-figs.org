@@ -308,43 +308,100 @@
 ** Constant returns
 
   #+begin_src latex :tangle fig-probl-8_1004-const-returns.tex
-    \begin{tikzpicture}<<ex8:xy-scale>>
-
-      \draw [help lines, step = 1] (0, 0) grid (15,15) ;
-      \draw [help lines, black]
-        (0,  5) -- (15,  5)
-        (0, 10) -- (15, 10)
-        ( 5, 0) -- ( 5, 15)
-        (10, 0) -- (10, 15)
-        ;
-
-      \draw[curve, very thick, domain=0.03821554:15, smooth, samples=256]
-      plot (\x, {2.5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 125$} ;
-
-      \draw[curve, very thick, domain=0.385201:15, smooth, samples=256]
-      plot (\x, {5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 250$} ;
-
-      \draw[curve, very thick, domain=1.48819:15, smooth, samples=256]
-      plot (\x, {7.5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 375$} ;
-
-      \draw[curve, very thick, domain=3.882581:15, smooth, samples=256]
-      plot (\x, {10^1.42857143/(\x^0.42857143)}) node[right] {$Q = 500$} ;
-
-      \draw[axis, very thick] (0,17) node[left] {$K$} |-
-      (17, 0) node[below] {$L$} ;
-
-      \draw[curve]
-        foreach \x in {5, 10, 15}
-          { (\x, 0) node[below] {$\x$} }
-        ;
-
-      \draw[curve]
-        foreach \x in {5, 10, 15}
-          { (0, \x) node[left] {$\x$} }
-        ;
-
+    \begin{tikzpicture}<<ex8.7:xy-scale>>
+      <<ex8.7:grid>>
+      <<ex8.7:grid-labels>>
+      <<ex8.7:isoquants>>
+      <<ex8.7:axes>>
     \end{tikzpicture}
-   #+end_src
+  #+end_src
+
+  #+begin_src latex :tangle fig-ans-probl-8_1004-const-returns-a.tex
+    \begin{tikzpicture}<<ex8.7:xy-scale-small>>
+      \begin{scope}[nearly transparent]
+        <<ex8.7:grid>>
+        <<ex8.7:grid-labels>>
+      \end{scope}
+
+      \draw[help lines]
+        (0, 5) node[left] {$5$} -| node[dot] {}
+        (5, 0) node[below] {$5$} ;
+
+      \draw[help lines]
+        (0, 2) node[left] {$2$} -| node[dot] {}
+        (4, 0) node[below] {$4$} ;
+
+      \draw[help lines]
+        (0, 6) node[left] {$6$} -| node[dot] {}
+        (8, 0) node[below] {$8$} ;
+
+      \draw[help lines]
+        (0, 10) node[left] {$10$} -| node[dot] {}
+        (10, 0) node[below] {$10$} ;
+
+      \path[curve, every node/.style={
+        font=\bfseries, fill=white, inner sep = 1
+        }]
+        (5, 5) node[below left=2pt and 2pt] {A}
+        (4, 2) node[below left=2pt and 2pt] {B}
+        (8, 6) node[below right=-4pt and 6pt] {C}
+        (10, 10) node[below left=2pt and 2pt] {D}
+        ;
+      <<ex8.7:isoquants>>
+      <<ex8.7:axes>>
+    \end{tikzpicture}
+  #+end_src
+
+** Common
+
+#+begin_src latex :noweb-ref ex8.7:xy-scale
+  [xscale=0.45,yscale=0.45]
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.7:xy-scale-small
+  [xscale=0.3,yscale=0.3]
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.7:axes
+  \draw[axis, very thick] (0,17) node[left] {$K$} |-
+    (17, 0) node[below] {$L$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.7:grid
+  \draw [help lines, step = 1] (0, 0) grid (15,15) ;
+  \draw [help lines, black]
+    (0,  5) -- (15,  5)
+    (0, 10) -- (15, 10)
+    ( 5, 0) -- ( 5, 15)
+    (10, 0) -- (10, 15)
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.7:grid-labels
+  \draw[curve]
+    foreach \x in {5, 10, 15}
+      { (\x, 0) node[below] {$\x$} }
+    ;
+
+  \draw[curve]
+    foreach \x in {5, 10, 15}
+      { (0, \x) node[left] {$\x$} }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.7:isoquants
+  \draw[curve, very thick, domain=0.03821554:15, smooth, samples=256]
+    plot (\x, {2.5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 125$} ;
+
+  \draw[curve, very thick, domain=0.385201:15, smooth, samples=256]
+    plot (\x, {5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 250$} ;
+
+  \draw[curve, very thick, domain=1.48819:15, smooth, samples=256]
+    plot (\x, {7.5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 375$} ;
+
+  \draw[curve, very thick, domain=3.882581:15, smooth, samples=256]
+    plot (\x, {10^1.42857143/(\x^0.42857143)}) node[right] {$Q = 500$} ;
+#+end_src
 
 
 * 8.10 Increasing returns to scale
@@ -353,7 +410,7 @@
 ** Increasing returns to scale
 
   #+begin_src latex :tangle fig-probl-8_1004-incr-returns.tex
-    \begin{tikzpicture}<<ex8:xy-scale>>
+    \begin{tikzpicture}<<ex8.10:xy-scale>>
 
       \draw [help lines, step = 1] (0, 0) grid (15,15) ;
       \draw [help lines, black]
@@ -395,6 +452,6 @@
 
 ** Common
 
-#+begin_src latex :noweb-ref ex8:xy-scale
+#+begin_src latex :noweb-ref ex8.10:xy-scale
   [xscale=0.45,yscale=0.45]
 #+end_src
