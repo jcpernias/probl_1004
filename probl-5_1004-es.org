@@ -1330,7 +1330,7 @@ b) Si Rocío gasta \money{6} al mes en leche y cereales, el precio
 
 ** Answer
 
-a) Para Rocío la leche y las galletas son complementos perfectos. Su
+a) Para Rocío la leche y los cereales son complementos perfectos. Su
    combinación ideal de estos bienes puede expresarse como:
    #+begin_export latex
    \[
