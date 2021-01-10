@@ -313,8 +313,10 @@ producto medio si la empresa contrata otro trabajador?
 
 ** Answer
 
-No: el producto marginal es menor que el medio, por lo que el producto
-medio es decreciente.
+El producto marginal en esta empresa se corresponde con las 10 sillas
+en que aumentaría la producción si se contrata un trabajador más. Por
+otro lado, la producción media es de 20 sillas por trabajador.  Como
+$\PMgL < \PMeL$, el producto medio es decreciente.
 
 
 
