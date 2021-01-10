@@ -258,6 +258,49 @@
 #+end_src
 
 
+* 8.5 Decreasing average product of labor
+
+#+begin_src latex :tangle fig-ans-probl-8_1004-pmel-decr.tex
+  \begin{tikzpicture}[xscale = 0.5, yscale = 0.5]
+    % \node[curve label, above] at (3.5, 2.5) {$\PMgL$} ;
+
+    \fill[black!10] (1.5, 0) rectangle (2.5, 6.5) ;
+
+    \draw[curve, very thick,
+    use Hobby shortcut,
+    tangent/.style ={%
+      in angle ={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,
+    }]
+    ([out angle=45]0.5, 2.5) ..
+    ([tangent=0]2.5, 4) ..
+    ([in angle=150]5.5, 2.0) (5.5, 2.0) node[right] {$\PMeL$}
+      ;
+
+    \draw[curve, very thick,
+    use Hobby shortcut,
+    tangent/.style ={%
+      in angle ={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,
+    }]
+    ([tangent=80]0.5, 4) ..
+    ([tangent=0]1.5, 5) ..
+    (2.5, 4) ..
+    (3.6, 1.5) (3.6, 1.5) node[below right=0pt and -6pt] {$\PMgL$}
+      ;
+
+    \draw[axis, very thick]
+      (0, 7) node[above right=-2pt and -12pt] {$\PMeL$} |-
+      (7, 0) node[below] {$L$} ;
+
+  \end{tikzpicture}
+#+end_src
+
+
 
 * 8.7 Constant returns to scale
 

@@ -298,8 +298,19 @@ Si el producto marginal del trabajo es decreciente en el corto plazo,
 ** Answer
 
 No: el producto medio decrece cuando el producto marginal es inferior
-al medio, independientemente de que el producto marginal sea creciente
-o no.
+al medio.
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-8_1004-pmel-decr-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+En el área sombreada el producto marginal es decreciente y, sin
+embargo, el producto medio es creciente.
+#+xxx: endcol
 
 
 
