@@ -653,28 +653,52 @@ c) Ante las protestas de los habitantes de la ciudad, el alcalde
 
 ** Answer
 
-a) Restricción presupuestaria: $470 = 0.5 R + Y$.
+a) La elección inicial de Stephanie se obtiene resolviendo las
+   condiciones de óptimo:
 
-   Condición de tangencia: $(1/9) Y/(R + 20) = 0.5$.
+   - Recta presupuestaria: $470 = 0.5 R + Y$.
 
-   Elección óptima: $R_1 = 76$ latas e $Y_1 = \money{432}$.
+   - Condición de tangencia: $(1/9) Y/(R + 20) = 0.5$.
 
-b) Restricción presupuestaria: $470 = R + Y$.
+   La elección óptima antes de la introducción del impuesto es: $R_1 =
+   76$ latas e $Y_1 = \money{432}$.
 
-   Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
+b) La introducción del impuesto modifica el precio de las latas de
+   refresco. Las nuevas condiciones de óptimo son:
 
-   Elección óptima: $R_2 = 29$ latas e $Y_2 = \money{441}$.
+   - Recta presupuestaria: $470 = R + Y$.
 
-   Paga: $R_2 t = \money{14.5}$.
+   - Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
 
-c) Restricción presupuestaria: $484.5 = R + Y$.
+   Cuando se introduce el impuesto, la elección óptima de Stephanie es:
+   $R_2 = 29$ latas e $Y_2 = \money{441}$. Por tanto, pagará en
+   concepto de impuestos: $R_2 t = 29 \times 0.5 = \money{14.5}$.
 
-   Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
+c) Cuando se complementa el impuesto con la donación en metálico de
+   \money{14.50}, las condiciones de óptimo serían:
 
-   Elección óptima: $R_3 = 30.45$ latas e $Y_3 = \money{454.05}$.
+   - Recta presupuestaria: $484.5 = R + Y$.
 
-   La recaudación del impuesto per capita, $0.5 R_3 = \money{15.225}$,
-   es superior a la cuantía del cheque, \money{14.50}.
+   - Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
+
+   Resolviendo estas dos ecuaciones se obtiene la elección óptima:
+   $R_3 = 30.45$ latas e $Y_3 = \money{454.05}$. Stephanie pagará
+   ahora en concepto de impuestos: $R_3 t = 30.45 \times 0.5 =
+   \money{15.225}$.
+
+   Comparando los resultados obtenidos en los tres apartados podemos
+   concluir:
+
+   - La subida del precio de las latas de refrescos reduce
+     considerablemente el consumo de este producto.
+
+   - Cuando se introduce el impuesto, el consumo de bebidas azucaradas
+     es muy similar se compense o no a los consumidores con una
+     donación en metálico.
+
+   - La donación en metálico es inferior a la recaudación del impuesto
+     por consumidor, por lo que no harían falta fuentes adicionales de
+     financiación.
 
 #+latex: \addtocounter{section}{1}
 
