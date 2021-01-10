@@ -895,7 +895,7 @@
 ** Choice
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-choice-neutral.tex
-  \begin{tikzpicture}[xscale=0.0375, yscale=0.067]
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.0625]
     \coordinate (Xaxis) at (80, 0);
     \coordinate (Yaxis) at (0, 45);
     \coordinate (M) at (0, 25);
@@ -905,10 +905,10 @@
     \draw[curve, very thick]
       (M) node[left] {$25$} -- (N) node[below] {$50$} ;
     \draw[curve, semithick]
-      (20, 0) -- (20, 40)
-      (35, 0) -- (35, 40)
-      (50, 0) -- (50, 40)
-      (65, 0) -- (65, 40)
+      (20, 0) -- (20, 37)
+      (35, 0) -- (35, 37)
+      (50, 0) -- (50, 37)
+      (65, 0) -- (65, 37)
       ;
     \node[dot] at (E) {} ;
     \draw[axis, very thick] (Yaxis) node[left] {$Y$} |-
@@ -917,7 +917,7 @@
 #+end_src
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-choice-subst.tex
-  \begin{tikzpicture}[xscale=0.0375, yscale=0.067]
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.0625]
     \coordinate (Xaxis) at (80, 0);
     \coordinate (Yaxis) at (0, 45);
     \coordinate (M) at (0, 25);
@@ -929,8 +929,8 @@
     \draw[curve, semithick]
       (20, 0) -- (0, 20)
       (35, 0) -- (0, 35)
-      (50, 0) -- (10, 40)
-      (65, 0) -- (25, 40)
+      (50, 0) -- (10, 37)
+      (65, 0) -- (25, 37)
       ;
     \node[dot] at (E) {} ;
     \draw[axis, very thick] (Yaxis) node[left] {$Y$} |-
@@ -942,14 +942,14 @@
 ** Demand
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-demand-neutral.tex
-  \begin{tikzpicture}[xscale=0.0375, yscale=0.3]
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.25]
     \coordinate (Xaxis) at (80, 0);
     \coordinate (Yaxis) at (0, 10);
     \coordinate (E) at (50, 2);
     \coordinate (A) at (25, 4);
 
     \draw[curve, very thick]
-      plot[smooth, domain=11:65]
+      plot[smooth, domain=12:65]
       (\x, {100/\x}) node[right] {$X^{d}_{A}$}
       ;
     \draw[help lines]
@@ -962,7 +962,7 @@
 #+end_src
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-demand-subst.tex
-  \begin{tikzpicture}[xscale=0.0375, yscale=0.3]
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.25]
     \coordinate (Xaxis) at (80, 0);
     \coordinate (Yaxis) at (0, 10);
     \coordinate (E) at (50, 2);
