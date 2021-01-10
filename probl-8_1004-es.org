@@ -153,7 +153,77 @@ b) ¿Cumple alguna de esas funciones de producción la ley de
 
 ** Answer
 
-Por hacer.
+a)
+   #+ATTR_LATEX: :options [t]{0.33\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-total-a-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{I. $Q = 8 + 3 L$}
+   #+end_export
+   #+ATTR_LATEX: :options [t]{0.34\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-total-b-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{II. $Q = 2 L^{1/2}$}
+   #+end_export
+   #+ATTR_LATEX: :options [t]{0.33\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-total-c-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{III. $Q = 4 L^2$}
+   #+end_export
+   #+xxx: endcol
+
+b)
+   #+ATTR_LATEX: :options [t]{0.33\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-marginal-a-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{I. $\PMgL = 3$}
+   #+end_export
+   #+ATTR_LATEX: :options [t]{0.34\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-marginal-b-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{II. $\PMgL = L^{-1/2}$}
+   #+end_export
+   #+ATTR_LATEX: :options [t]{0.33\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-marginal-c-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{III. $\PMgL = 8 L$}
+   #+end_export
+   #+xxx: endcol
+   #+latex: \vspace*{1.5ex}
+
+   Sólo es decreciente el $\PMgL$ de la segunda función. Por tanto,
+   sólo la función de producto total $Q = 2 L^{1/2}$ cumple la ley de
+   rendimientos decrecientes del factor trabajo.
+
 
 
 * 8.4
