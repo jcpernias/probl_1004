@@ -864,7 +864,8 @@
 #+end_src
 
 
-* 6.8
+* 6.8 Individual and market demands
+
 
 ** Individual and market demands
 
@@ -888,7 +889,106 @@
   \end{tikzpicture}
 #+end_src
 
-* 6.11 Income and substitution effects
+
+* 6.9 Neutral goods and perfect substitutes
+
+** Choice
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-choice-neutral.tex
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.067]
+    \coordinate (Xaxis) at (80, 0);
+    \coordinate (Yaxis) at (0, 45);
+    \coordinate (M) at (0, 25);
+    \coordinate (N) at (50, 0);
+    \coordinate (E) at (50, 0);
+
+    \draw[curve, very thick]
+      (M) node[left] {$25$} -- (N) node[below] {$50$} ;
+    \draw[curve, semithick]
+      (20, 0) -- (20, 40)
+      (35, 0) -- (35, 40)
+      (50, 0) -- (50, 40)
+      (65, 0) -- (65, 40)
+      ;
+    \node[dot] at (E) {} ;
+    \draw[axis, very thick] (Yaxis) node[left] {$Y$} |-
+      (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-choice-subst.tex
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.067]
+    \coordinate (Xaxis) at (80, 0);
+    \coordinate (Yaxis) at (0, 45);
+    \coordinate (M) at (0, 25);
+    \coordinate (N) at (50, 0);
+    \coordinate (E) at (50, 0);
+
+    \draw[curve, very thick]
+      (M) node[left] {$25$} -- (N) node[below] {$50$} ;
+    \draw[curve, semithick]
+      (20, 0) -- (0, 20)
+      (35, 0) -- (0, 35)
+      (50, 0) -- (10, 40)
+      (65, 0) -- (25, 40)
+      ;
+    \node[dot] at (E) {} ;
+    \draw[axis, very thick] (Yaxis) node[left] {$Y$} |-
+      (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+** Demand
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-demand-neutral.tex
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.3]
+    \coordinate (Xaxis) at (80, 0);
+    \coordinate (Yaxis) at (0, 10);
+    \coordinate (E) at (50, 2);
+    \coordinate (A) at (25, 4);
+
+    \draw[curve, very thick]
+      plot[smooth, domain=11:65]
+      (\x, {100/\x}) node[right] {$X^{d}_{A}$}
+      ;
+    \draw[help lines]
+      (Yaxis |- E) node[left] {$2$} -| node[dot] {}
+      (Xaxis -| E) node[below] {$50$}
+      ;
+    \draw[axis, very thick] (Yaxis) node[left] {$P_X$} |-
+      (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-demand-subst.tex
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.3]
+    \coordinate (Xaxis) at (80, 0);
+    \coordinate (Yaxis) at (0, 10);
+    \coordinate (E) at (50, 2);
+    \coordinate (A) at (25, 4);
+
+    \draw[curve, very thick]
+      plot[smooth, domain=25:65]
+      (\x, {100/\x}) node[right] {$X^{d}_{B}$}
+      ;
+    \draw[help lines]
+      (Yaxis |- E) node[left] {$2$} -| node[dot] {}
+      (Xaxis -| E) node[below] {$50$}
+      (Yaxis |- A) node[left] {$4$} -|
+      (Xaxis -| A) node[below] {$25$}
+      ;
+    \draw[axis, very thick] (Yaxis) node[left] {$P_X$} |-
+      (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+
+* COMMENT 6.11 Income and substitution effects
 
 #+begin_src latex :tangle fig-probl-6_1004-fxs.tex :noweb no
   \begin{tikzpicture}[xscale = 0.15, yscale = 0.1,
@@ -938,7 +1038,7 @@
 #+end_src
 
 
-* 6.8 Perfect complements
+* COMMENT 6.8 Income and substitution effects: Perfect complements
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-compl.tex :noweb no
   \begin{tikzpicture}[xscale = 1, yscale = 1]
@@ -974,7 +1074,7 @@
 
 
 
-* Corner solution and demand curve
+* COMMENT Corner solution and demand curve
 :PROPERTIES:
 :header-args: :tangle no
 :END:

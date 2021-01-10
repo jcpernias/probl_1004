@@ -420,6 +420,7 @@ b) ¿Qué relación existe entre la elasticidad precio de las demandas
 
 
 
+
 ** Answer
 
 a) La curva de demanda de mercado se obtiene sumando las curvas de
@@ -473,6 +474,7 @@ b) La elasticidad de una curva de demanda individual es:
    Por tanto, coinciden las elasticidades de la demanda de mercado y
    de las demandas individuales.
 
+
 * 6.9.
 
 Tanto Adela como Blas disponen de \money{100} para gastar en los
@@ -487,17 +489,65 @@ Blas.
 
 ** Answer
 
-Adela: $Y$ es neutro.
+En el caso de Adela, el bien $Y$ es neutro: la utilidad de Adela es
+insensible al consumo de $Y$ y sólo varía si se altera el consumo de
+$X$.
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-choice-neutral-*.pdf
+#+begin_center
+Elección óptima
+#+end_center
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-demand-neutral-*.pdf
+#+begin_center
+Curva de demanda
+#+end_center
+#+xxx: endcol
+#+latex: \vspace*{1ex}
+
+Adela gastará toda su renta en el bien $X$ y la curva de demanda de
+este bien sería:
 #+begin_export latex
   \[ X_A(P_X) = 100 / P_X \]
 #+end_export
 
-Blas: sustitutivos perfectos.
+Por otro lado, para Blas los bienes $X$ e $Y$ son perfectamente
+sustitutivos y considera una unidad de $X$ equivalente a una unidad de
+$Y$.
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-choice-subst-*.pdf
+#+begin_center
+Elección óptima
+#+end_center
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-demand-subst-*.pdf
+#+begin_center
+Curva de demanda
+#+end_center
+#+xxx: endcol
+#+latex: \vspace*{2ex}
+
+En estas condiciones Blas gastaría toda su renta en el bien que tenga
+el precio más bajo y la curva de demanda del bien $X$ sería:
 #+begin_export latex
 \[
   X_B(P_X) =
   \begin{cases}
-    100 / P_X & \text{si $P_{X} \leq 4$} \\
+    100 / P_X & \text{si $P_{X} < 4$} \\
     0 & \text{si $P_{X} > 4$}
   \end{cases}
 \]
