@@ -49,7 +49,7 @@ marginal es negativo.
 
 
 
-* 8.4.
+* 8.2.
 
 Dada la función de producción $Q = L^2 K - 0.01 L^3$ y sabiendo que
 el capital es fijo, $\Kbar = 6$, determine:
@@ -83,12 +83,12 @@ c)
    |---------------------+-----------------------------+--------------|
    #+latex: \end{adjustbox}
 
-   #+xxx: fig fig-ans-probl-8_1004-ex4-pmgl-*.pdf
+   #+xxx: fig fig-ans-probl-8_1004-pmgl-*.pdf
 
-   #+xxx: fig fig-ans-probl-8_1004-ex4-fprod-*.pdf
+   #+xxx: fig fig-ans-probl-8_1004-fprod-*.pdf
 
 
-* 8.10
+* 8.3
 
 Con las siguientes funciones de producción:
 
@@ -111,19 +111,21 @@ b) ¿Cumple alguna de esas funciones de producción la ley de
 
 Por hacer.
 
-* 8.11
+
+* 8.4
 
 Dibuje en cada uno de los siguientes gráficos donde se situaría la
 curva de producto marginal del trabajo. Justifique su respuesta.
 
-#+xxx: fig fig-probl-8_1004-ex11-pmel-*.pdf
+#+xxx: fig fig-probl-8_1004-pmel-*.pdf
 
 
 ** Answer
 
 Por hacer.
 
-* 8.2.
+
+* 8.5.
 
 Si el producto marginal del trabajo es decreciente en el corto plazo,
 ¿el producto medio debe ser también decreciente?
@@ -137,7 +139,7 @@ o no.
 
 
 
-* 8.3.
+* 8.6.
 
 La producción por trabajador en una empresa es de 20 sillas al día. El
 propietario de la empresa ha calculado que un trabajador adicional
@@ -152,12 +154,12 @@ medio es decreciente.
 
 
 
-* 8.8.
+* 8.7.
 
 El siguiente gráfico muestra algunas isocuantas de la función de
 producción de una empresa:
 
-#+xxx: fig fig-probl-8_1004-ex8-const-returns-*.pdf
+#+xxx: fig fig-probl-8_1004-const-returns-*.pdf
 
 a) Si la empresa produce eficientemente 250 unidades y contrata 5
    trabajadores, ¿cuántas unidades de capital está utilizando? ¿Y si
@@ -189,7 +191,7 @@ c) Rendimientos constantes de escala: por ejemplo, comparar producción
 
 
 
-* 8.6.
+* 8.8.
 
 ¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
 empresa cuya función de producción $Q = F(K, L)$ presenta rendimientos
@@ -203,7 +205,7 @@ uso del factor capital."
   uso de /todos/ los factores de producción.
 
 
-* 8.7.
+* 8.9.
 
 Una fábrica utiliza trabajo y capital para producir zapatos. Después
 de aumentar el número de trabajadores en un 50% la producción crece en
@@ -217,12 +219,12 @@ producción de la empresa?
   los rendimientos de escala.
 
 
-* 8.9.
+* 8.10.
 
 El siguiente gráfico muestra algunas isocuantas de la función de
 producción de una empresa:
 
-#+xxx: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
+#+xxx: fig fig-probl-8_1004-incr-returns-*.pdf
 
 a) ¿Qué tipo de rendimientos de escala exhibe la función de producción
    de la empresa?
@@ -249,7 +251,7 @@ b) No: los rendimientos del factor trabajo son constantes.
    |---------+------+-------+---------------------|
 
 
-* 8.5.
+* 8.11.
 
 Considere las siguientes funciones de producción:
 

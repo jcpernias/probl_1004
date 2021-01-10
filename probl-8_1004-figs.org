@@ -3,12 +3,12 @@
 #+TITLE: Problems 5 Figures
 
 
-* 8.4 Average and marginal product
+* 8.2 Average and marginal product
 
 
 ** Average and marginal product
 
-#+begin_src latex :tangle fig-ans-probl-8_1004-ex4-pmgl.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-8_1004-pmgl.tex :noweb no
   \begin{tikzpicture}[yscale=0.26666667, xscale=0.66666667]
 
     \draw[help lines]
@@ -40,7 +40,7 @@
 
 ** Total product
 
-#+begin_src latex :tangle fig-ans-probl-8_1004-ex4-fprod.tex :noweb no
+#+begin_src latex :tangle fig-ans-probl-8_1004-fprod.tex :noweb no
   \begin{tikzpicture}[yscale=0.1143, xscale=0.66666667]
     \draw[help lines]
        (4, 32) node[dot, label={above:$C$}] {}  -- (4, 0)
@@ -61,103 +61,9 @@
 #+end_src
 
 
-* 8.8 Returns to scale
+* 8.4 Average and marginal product
 
-
-** Constant returns
-
-  #+begin_src latex :tangle fig-probl-8_1004-ex8-const-returns.tex
-    \begin{tikzpicture}<<ex8:xy-scale>>
-
-      \draw [help lines, step = 1] (0, 0) grid (15,15) ;
-      \draw [help lines, black]
-        (0,  5) -- (15,  5)
-        (0, 10) -- (15, 10)
-        ( 5, 0) -- ( 5, 15)
-        (10, 0) -- (10, 15)
-        ;
-
-      \draw[curve, very thick, domain=0.03821554:15, smooth, samples=256]
-      plot (\x, {2.5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 125$} ;
-
-      \draw[curve, very thick, domain=0.385201:15, smooth, samples=256]
-      plot (\x, {5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 250$} ;
-
-      \draw[curve, very thick, domain=1.48819:15, smooth, samples=256]
-      plot (\x, {7.5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 375$} ;
-
-      \draw[curve, very thick, domain=3.882581:15, smooth, samples=256]
-      plot (\x, {10^1.42857143/(\x^0.42857143)}) node[right] {$Q = 500$} ;
-
-      \draw[axis, very thick] (0,17) node[left] {$K$} |-
-      (17, 0) node[below] {$L$} ;
-
-      \draw[curve]
-        foreach \x in {5, 10, 15}
-          { (\x, 0) node[below] {$\x$} }
-        ;
-
-      \draw[curve]
-        foreach \x in {5, 10, 15}
-          { (0, \x) node[left] {$\x$} }
-        ;
-
-    \end{tikzpicture}
-   #+end_src
-
-
-** 8.9 Increasing returns
-
-  #+begin_src latex :tangle fig-probl-8_1004-ex8-incr-returns.tex
-    \begin{tikzpicture}<<ex8:xy-scale>>
-
-      \draw [help lines, step = 1] (0, 0) grid (15,15) ;
-      \draw [help lines, black]
-        (0,  5) -- (15,  5)
-        (0, 10) -- (15, 10)
-        ( 5, 0) -- ( 5, 15)
-        (10, 0) -- (10, 15)
-        ;
-
-      \draw[curve, very thick, domain=0.6666813:15, smooth, samples=256]
-      plot (\x, {10/(\x)}) ++(0, 0) node[right] {$Q = 100$} ;
-
-      \draw[curve, very thick, domain=1.666678:15, smooth, samples=256]
-      plot (\x, {25/(\x)})  ++(0, 0) node[right] {$Q = 250$} ;
-
-      \draw[curve, very thick, domain=3.333357:15, smooth, samples=256]
-      plot (\x, {50/(\x)}) node[right] {$Q = 500$} ;
-
-      \draw[curve, very thick, domain=5:15, smooth, samples=256]
-      plot (\x, {75/(\x)}) node[right] {$Q = 750$} ;
-
-      \draw[axis, very thick] (0,17) node[left] {$K$} |-
-      (17, 0) node[below] {$L$} ;
-
-      \draw[curve]
-        foreach \x in {5, 10, 15}
-          { (\x, 0) node[below] {$\x$} }
-        ;
-
-      \draw[curve]
-        foreach \x in {5, 10, 15}
-          { (0, \x) node[left] {$\x$} }
-        ;
-
-    \end{tikzpicture}
-   #+end_src
-
-
-
-** Common
-
-#+begin_src latex :noweb-ref ex8:xy-scale
-  [xscale=0.45,yscale=0.45]
-#+end_src
-
-* 8.11 Average and marginal product
-
-#+begin_src latex :tangle fig-probl-8_1004-ex11-pmel.tex
+#+begin_src latex :tangle fig-probl-8_1004-pmel.tex
   \begin{tikzpicture}[xscale = 1.5, yscale = 1.5]
 
     \begin{scope}[xscale=0.5, yscale=0.5]
@@ -213,4 +119,101 @@
       \node[font=\large\bfseries] at (3.5, 5.5) {(D)} ;
     \end{scope}
   \end{tikzpicture}
+#+end_src
+
+
+* 8.7 Constant returns to scale
+
+
+** Constant returns
+
+  #+begin_src latex :tangle fig-probl-8_1004-const-returns.tex
+    \begin{tikzpicture}<<ex8:xy-scale>>
+
+      \draw [help lines, step = 1] (0, 0) grid (15,15) ;
+      \draw [help lines, black]
+        (0,  5) -- (15,  5)
+        (0, 10) -- (15, 10)
+        ( 5, 0) -- ( 5, 15)
+        (10, 0) -- (10, 15)
+        ;
+
+      \draw[curve, very thick, domain=0.03821554:15, smooth, samples=256]
+      plot (\x, {2.5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 125$} ;
+
+      \draw[curve, very thick, domain=0.385201:15, smooth, samples=256]
+      plot (\x, {5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 250$} ;
+
+      \draw[curve, very thick, domain=1.48819:15, smooth, samples=256]
+      plot (\x, {7.5^1.42857143/(\x^0.42857143)}) node[right] {$Q = 375$} ;
+
+      \draw[curve, very thick, domain=3.882581:15, smooth, samples=256]
+      plot (\x, {10^1.42857143/(\x^0.42857143)}) node[right] {$Q = 500$} ;
+
+      \draw[axis, very thick] (0,17) node[left] {$K$} |-
+      (17, 0) node[below] {$L$} ;
+
+      \draw[curve]
+        foreach \x in {5, 10, 15}
+          { (\x, 0) node[below] {$\x$} }
+        ;
+
+      \draw[curve]
+        foreach \x in {5, 10, 15}
+          { (0, \x) node[left] {$\x$} }
+        ;
+
+    \end{tikzpicture}
+   #+end_src
+
+
+* 8.10 Increasing returns to scale
+
+** Increasing returns to scale
+
+  #+begin_src latex :tangle fig-probl-8_1004-incr-returns.tex
+    \begin{tikzpicture}<<ex8:xy-scale>>
+
+      \draw [help lines, step = 1] (0, 0) grid (15,15) ;
+      \draw [help lines, black]
+        (0,  5) -- (15,  5)
+        (0, 10) -- (15, 10)
+        ( 5, 0) -- ( 5, 15)
+        (10, 0) -- (10, 15)
+        ;
+
+      \draw[curve, very thick, domain=0.6666813:15, smooth, samples=256]
+      plot (\x, {10/(\x)}) ++(0, 0) node[right] {$Q = 100$} ;
+
+      \draw[curve, very thick, domain=1.666678:15, smooth, samples=256]
+      plot (\x, {25/(\x)})  ++(0, 0) node[right] {$Q = 250$} ;
+
+      \draw[curve, very thick, domain=3.333357:15, smooth, samples=256]
+      plot (\x, {50/(\x)}) node[right] {$Q = 500$} ;
+
+      \draw[curve, very thick, domain=5:15, smooth, samples=256]
+      plot (\x, {75/(\x)}) node[right] {$Q = 750$} ;
+
+      \draw[axis, very thick] (0,17) node[left] {$K$} |-
+      (17, 0) node[below] {$L$} ;
+
+      \draw[curve]
+        foreach \x in {5, 10, 15}
+          { (\x, 0) node[below] {$\x$} }
+        ;
+
+      \draw[curve]
+        foreach \x in {5, 10, 15}
+          { (0, \x) node[left] {$\x$} }
+        ;
+
+    \end{tikzpicture}
+   #+end_src
+
+
+
+** Common
+
+#+begin_src latex :noweb-ref ex8:xy-scale
+  [xscale=0.45,yscale=0.45]
 #+end_src
