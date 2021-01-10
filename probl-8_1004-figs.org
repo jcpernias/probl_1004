@@ -345,7 +345,7 @@
         (5, 5) node[below left=2pt and 2pt] {A}
         (4, 2) node[below left=2pt and 2pt] {B}
         (8, 6) node[below right=-4pt and 6pt] {C}
-        (10, 10) node[below left=2pt and 2pt] {D}
+        (10, 10) node[above right=2pt and 2pt] {D}
         ;
       <<ex8.7:isoquants>>
       <<ex8.7:axes>>
@@ -411,42 +411,42 @@
 
   #+begin_src latex :tangle fig-probl-8_1004-incr-returns.tex
     \begin{tikzpicture}<<ex8.10:xy-scale>>
-
-      \draw [help lines, step = 1] (0, 0) grid (15,15) ;
-      \draw [help lines, black]
-        (0,  5) -- (15,  5)
-        (0, 10) -- (15, 10)
-        ( 5, 0) -- ( 5, 15)
-        (10, 0) -- (10, 15)
-        ;
-
-      \draw[curve, very thick, domain=0.6666813:15, smooth, samples=256]
-      plot (\x, {10/(\x)}) ++(0, 0) node[right] {$Q = 100$} ;
-
-      \draw[curve, very thick, domain=1.666678:15, smooth, samples=256]
-      plot (\x, {25/(\x)})  ++(0, 0) node[right] {$Q = 250$} ;
-
-      \draw[curve, very thick, domain=3.333357:15, smooth, samples=256]
-      plot (\x, {50/(\x)}) node[right] {$Q = 500$} ;
-
-      \draw[curve, very thick, domain=5:15, smooth, samples=256]
-      plot (\x, {75/(\x)}) node[right] {$Q = 750$} ;
-
-      \draw[axis, very thick] (0,17) node[left] {$K$} |-
-      (17, 0) node[below] {$L$} ;
-
-      \draw[curve]
-        foreach \x in {5, 10, 15}
-          { (\x, 0) node[below] {$\x$} }
-        ;
-
-      \draw[curve]
-        foreach \x in {5, 10, 15}
-          { (0, \x) node[left] {$\x$} }
-        ;
-
+      <<ex8.10:grid>>
+      <<ex8.10:grid-labels>>
+      <<ex8.10:isoquants>>
+      <<ex8.10:axes>>
     \end{tikzpicture}
    #+end_src
+
+  #+begin_src latex :tangle fig-ans-probl-8_1004-incr-returns-a.tex
+    \begin{tikzpicture}<<ex8.10:xy-scale-small>>
+      \begin{scope}[nearly transparent]
+        <<ex8.10:grid>>
+        <<ex8.10:grid-labels>>
+      \end{scope}
+
+      \draw[help lines]
+        (0, 5) node[left] {$5$} -- (15, 5)
+        (0, 10) node[left] {$10$}  -- (10, 10) node[dot] {} -- (10, 5)
+        (2, 5) node[dot] {} -- (2, 0) node[below] {$2$}
+        (5, 5) node[dot] {} -- (5, 0) node[below] {$5$}
+        (10, 5) node[dot] {} -- (10, 0) node[below] {$10$}
+        (15, 5) node[dot] {} -- (15, 0) node[below] {$15$}
+        ;
+
+      \path[curve, every node/.style={
+        font=\bfseries, fill=white, inner sep = 1
+        }]
+        ( 2,  5) node[below left=2pt and 2pt] {A}
+        ( 5,  5) node[below left=2pt and 2pt] {B}
+        (10,  5) node[below left=2pt and 2pt] {C}
+        (15,  5) node[below left=2pt and 2pt] {D}
+        (10, 10) node[above right=2pt and 2pt] {E}
+        ;
+      <<ex8.10:isoquants>>
+      <<ex8.10:axes>>
+    \end{tikzpicture}
+  #+end_src
 
 
 
@@ -454,4 +454,50 @@
 
 #+begin_src latex :noweb-ref ex8.10:xy-scale
   [xscale=0.45,yscale=0.45]
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.10:xy-scale-small
+  [xscale=0.3,yscale=0.3]
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.10:axes
+  \draw[axis, very thick] (0,17) node[left] {$K$} |-
+    (17, 0) node[below] {$L$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.10:grid
+  \draw [help lines, step = 1] (0, 0) grid (15,15) ;
+  \draw [help lines, black]
+    (0,  5) -- (15,  5)
+    (0, 10) -- (15, 10)
+    ( 5, 0) -- ( 5, 15)
+    (10, 0) -- (10, 15)
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.10:grid-labels
+  \draw[curve]
+    foreach \x in {5, 10, 15}
+      { (\x, 0) node[below] {$\x$} }
+    ;
+
+  \draw[curve]
+    foreach \x in {5, 10, 15}
+      { (0, \x) node[left] {$\x$} }
+    ;
+
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.10:isoquants
+  \draw[curve, very thick, domain=0.6666813:15, smooth, samples=256]
+    plot (\x, {10/(\x)}) ++(0, 0) node[right] {$Q = 100$} ;
+
+  \draw[curve, very thick, domain=1.666678:15, smooth, samples=256]
+    plot (\x, {25/(\x)})  ++(0, 0) node[right] {$Q = 250$} ;
+
+  \draw[curve, very thick, domain=3.333357:15, smooth, samples=256]
+    plot (\x, {50/(\x)}) node[right] {$Q = 500$} ;
+
+  \draw[curve, very thick, domain=5:15, smooth, samples=256]
+    plot (\x, {75/(\x)}) node[right] {$Q = 750$} ;
 #+end_src

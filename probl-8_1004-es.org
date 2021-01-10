@@ -436,20 +436,47 @@ b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos marginales
 
 ** Answer
 
-a) Rendimientos crecientes de escala.
+a)
+   #+ATTR_LATEX: :options [t]{\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+xxx: fig fig-ans-probl-8_1004-incr-returns-a-*.pdf
+   #+xxx: endcol
+   #+latex: \vspace*{1ex}
+
+   En el gráfico se observa que se producen 250 unidades cuando se
+   emplean 5 unidades de trabajo y 5 unidades de capital, combinación
+   *B*. Si se duplica el uso de los factores, combinación *E*, la
+   producción superará las 750 unidades. Por tanto, la función de
+   producción presenta rendimientos crecientes de escala: al duplicar
+   los factores se obtiene un nivel de producción que es más del
+   triple que el inicial.
 
 
-b) No: los rendimientos del factor trabajo son constantes.
+b) La siguiente tabla contiene información de algunas combinaciones de
+   factores y la producción que se obtendría con ellas. En todas estas
+   combinaciones se mantiene fijo el capital, $\Kbar = 5$:
+   #+ATTR_LATEX: :booktabs t :center t :align @{}l*{4}{R{1.125cm}}@{}
+   |------------+---------+------+-------+---------------------|
+   |            | $\Kbar$ | $L$  | $Q$   | $\PMgL$             |
+   |------------+---------+------+-------+---------------------|
+   | \textbf{A} | $5$     | $2$  | $100$ | ---                 |
+   | \textbf{B} | $5$     | $5$  | $250$ | $50$                |
+   | \textbf{C} | $5$     | $10$ | $500$ | $50$                |
+   | \textbf{D} | $5$     | $15$ | $750$ | $50$                |
+   |------------+---------+------+-------+---------------------|
+   La última columna es el cociente de las variaciones de producción y
+   trabajo cuando pasamos de una fila de la tabla a la siguiente.  Por
+   ejemplo, el valor del $\PMgL$ en la segunda fila se obtiene como:
+   #+begin_export latex
+   \[
+     \PMgL \approx \eval{\iratio{Q}{L}}{\Kbar} =  \frac{250 - 100}{5 - 2} = 50
+   \]
+   #+end_export
 
-   #+ATTR_LATEX: :booktabs t :center t :align @{}*{4}{r}@{}
-   |---------+------+-------+---------------------|
-   | $\Kbar$ | $L$  | $Q$   | $\incr Q / \incr L$ |
-   |---------+------+-------+---------------------|
-   | $5$     | $2$  | $100$ | ---                 |
-   | $5$     | $5$  | $250$ | $50$                |
-   | $5$     | $10$ | $500$ | $50$                |
-   | $5$     | $15$ | $750$ | $50$                |
-   |---------+------+-------+---------------------|
+   Examinando la última columna de la tabla, concluimos que no se
+   cumple la ley de rendimientos marginales decrecientes: los
+   rendimientos del factor trabajo son constantes.
 
 
 * 8.11.
