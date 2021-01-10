@@ -67,7 +67,7 @@ b) Coste marginal: $\CMg(Q) = 4 Q / 5$.
 
    Coste variable medio: $\CVMe(Q) = 2 Q / 5$.
 
-   Coste medio: $\CMe(Q) = 500 / Q + 2 Q / 5$-
+   Coste medio: $\CMe(Q) = 500 / Q + 2 Q / 5$.
 
    #+xxx: fig fig-ans-probl-9_1004-short-curves2-*.pdf
 
@@ -86,6 +86,7 @@ plazo? Represente gráficamente.
 ** Answer
 
 Por hacer.
+
 
 * 9.3.
 
@@ -383,6 +384,7 @@ d) Compare las respuestas de los apartados [[ex9.21:item-b]] y
 ** Answer
 
 Por hacer.
+
 
 * COMMENT 9.12.
 
