@@ -9,7 +9,7 @@
 ** Average and marginal product
 
 #+begin_src latex :tangle fig-ans-probl-8_1004-pmgl.tex :noweb no
-  \begin{tikzpicture}[yscale=0.26666667, xscale=0.66666667]
+  \begin{tikzpicture}[yscale=0.2, xscale=0.6]
 
     \draw[help lines]
        (2, 12) node[dot, label={above:$A$}] {} -- (2, 0)
@@ -22,11 +22,11 @@
     \draw[curve, very thick]
       plot[domain=0:4.1, smooth, samples = 128]
         (\x,{\x*(12-3*\x)})
-      node[right, font=\footnotesize] {$\PMgL$ }
+      (3.6, 4.32) node[right, font=\footnotesize] {$\PMgL$ }
       ;
 
     \draw[curve, very thick]
-      plot[domain=0:5, smooth, samples = 128]
+      plot[domain=0:4.2, smooth, samples = 128]
         (\x,{\x*(6-\x)})
       node[right, font=\footnotesize] {$\PMeL$ }
       ;
@@ -41,7 +41,7 @@
 ** Total product
 
 #+begin_src latex :tangle fig-ans-probl-8_1004-fprod.tex :noweb no
-  \begin{tikzpicture}[yscale=0.1143, xscale=0.66666667]
+  \begin{tikzpicture}[yscale=0.075, xscale=0.45]
     \draw[help lines]
        (4, 32) node[dot, label={above:$C$}] {}  -- (4, 0)
        (4, 0) node[below] {$400$}
@@ -54,7 +54,7 @@
       node[right, font=\footnotesize] {$Q$ }
       ;
 
-    \draw[axis] (0, 35)  node[left] {$Q$} |-
+    \draw[axis] (0, 40)  node[left] {$Q$} |-
      (6, 0) node[below] {$L$}
      ;
   \end{tikzpicture}
