@@ -397,8 +397,10 @@ uso del factor capital."
 
 ** Answer
 
-  Es incorrecta. Se duplicará la producción cuando se duplique el
-  uso de /todos/ los factores de producción.
+No es correcta. Si la tecnología que usa la empresa es de rendimientos
+constantes de escala, la producción se duplicará cuando se dupliquen
+/todos/ los factores de producción. Si sólo cambia la utilización de
+un factor no podemos saber como se alterará la producción.
 
 
 * 8.9.
