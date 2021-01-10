@@ -1,6 +1,6 @@
 #+SETUPFILE: ./course-figs.org
 
-#+TITLE: Problems 5 Figures
+#+TITLE: Figures unit 8
 
 
 * 8.2 Average and marginal product
@@ -63,6 +63,7 @@
 
 * 8.3 Total product functions
 
+
 ** Total product curves
 
 #+begin_src latex :tangle fig-ans-probl-8_1004-total-a.tex :noweb no
@@ -105,6 +106,7 @@
      ;
   \end{tikzpicture}
 #+end_src
+
 
 ** Marginal product curves
 
@@ -156,59 +158,105 @@
   \begin{tikzpicture}[xscale = 1.5, yscale = 1.5]
 
     \begin{scope}[xscale=0.5, yscale=0.5]
-
-      \draw[curve, very thick]
-      (0.5, 1) .. controls (1.9, 4) and (2.7, 3) .. (6, 0.5)
-      (6, 0.5) node[right] {$\PMeL$}
-      ;
-
-      \draw[axis, very thick]
-      (0, 5.5) node[left] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
-
+      <<ex8.4:pmel-a>>
       \node[font=\large\bfseries] at (3.5, 5.5) {(A)} ;
-
     \end{scope}
 
     \begin{scope}[xscale=0.5, yscale=0.5, xshift=8cm]
-
-      \draw[curve, very thick]
-      (0.5, 5) .. controls (1.9, 4) and (2.7, 2) .. (6, 0.5)
-      (6, 0.5) node[right] {$\PMeL$}
-      ;
-
-      \draw[axis, very thick]
-      (0, 5.5) node[left] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
-
+      <<ex8.4:pmel-b>>
       \node[font=\large\bfseries] at (3.5, 5.5) {(B)} ;
     \end{scope}
 
     \begin{scope}[xscale=0.5, yscale=0.5, yshift=-7.5cm]
-
-
-      \draw[curve, very thick]
-      (0.5, 0.2) .. controls (1.9, 2.8) and (4.7, 3.2) .. (6, 3.5)
-      (6, 3.5) node[right] {$\PMeL$}
-      ;
-
-      \draw[axis, very thick]
-      (0, 5.5) node[left] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
-
+      <<ex8.4:pmel-c>>
       \node[font=\large\bfseries] at (3.5, 5.5) {(C)} ;
     \end{scope}
 
     \begin{scope}[xscale=0.5, yscale=0.5, yshift=-7.5cm, xshift=8cm]
-
-      \draw[curve, very thick]
-      (0.5, 2.5) -- (6, 2.5) node[right] {$\PMeL$}
-      ;
-
-      \draw[axis, very thick]
-      (0, 5.5) node[left] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
-
+      <<ex8.4:pmel-d>>
       \node[font=\large\bfseries] at (3.5, 5.5) {(D)} ;
     \end{scope}
   \end{tikzpicture}
 #+end_src
+
+#+begin_src latex :tangle fig-ans-probl-8_1004-pmel-a.tex
+  \begin{tikzpicture}[xscale = 0.5, yscale = 0.5]
+    <<ex8.4:pmel-a>>
+    \draw[curve, very thick]
+      (0.5, 2) .. controls (1.2, 5.4) and (1.4, 4.4) .. (3.15, 0.5)
+      (3.25, 0.5) node[right] {$\PMgL$}
+      ;
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-8_1004-pmel-b.tex
+  \begin{tikzpicture}[xscale = 0.5, yscale = 0.5]
+    <<ex8.4:pmel-b>>
+    \draw[curve, very thick]
+    (0.5, 3.1) .. controls (1.9, 2.3) and (2.7, 1) .. (5.5, 0.8)
+    (5.5, 0.8) node[right] {$\PMgL$}
+    ;
+
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-8_1004-pmel-c.tex
+  \begin{tikzpicture}[xscale = 0.5, yscale = 0.5]
+    \draw[curve, very thick]
+    (0.5, 2.7) .. controls (1.9, 3.5) and (4.7, 4.2) .. (5.5, 4.25)
+    (5.5, 4.25) node[right] {$\PMgL$}
+    ;
+
+    <<ex8.4:pmel-c>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-8_1004-pmel-d.tex
+  \begin{tikzpicture}[xscale = 0.5, yscale = 0.5]
+    \node[curve label, above] at (3.5, 2.5) {$\PMgL$} ;
+    <<ex8.4:pmel-d>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.4:pmel-a
+  \draw[curve, very thick]
+    (0.5, 1) .. controls (1.9, 4) and (2.7, 3) .. (5.5, 0.5)
+    (5.5, 0.5) node[right] {$\PMeL$}
+    ;
+
+  \draw[axis, very thick]
+    (0, 5.5) node[above right=-2pt and -12pt] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.4:pmel-b
+  \draw[curve, very thick]
+    (0.5, 5) .. controls (1.9, 4) and (2.7, 2) .. (5.5, 1.5)
+    (5.5, 1.5) node[right] {$\PMeL$}
+    ;
+
+  \draw[axis, very thick]
+    (0, 5.5) node[above right=-2pt and -12pt] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.4:pmel-c
+  \draw[curve, very thick]
+    (0.5, 0.2) .. controls (1.9, 2.8) and (4.7, 3.2) .. (5.5, 3.5)
+    (5.5, 3.5) node[right] {$\PMeL$}
+    ;
+
+  \draw[axis, very thick]
+    (0, 5.5) node[above right=-2pt and -12pt] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex8.4:pmel-d
+  \draw[curve, very thick]
+    (0.5, 2.5) -- (5.5, 2.5) node[right] {$\PMeL$}
+    ;
+
+  \draw[axis, very thick]
+    (0, 5.5) node[above right=-2pt and -12pt] {$\PMeL$} |- (7, 0) node[below] {$L$} ;
+#+end_src
+
 
 
 * 8.7 Constant returns to scale
@@ -257,6 +305,7 @@
 
 
 * 8.10 Increasing returns to scale
+
 
 ** Increasing returns to scale
 
