@@ -984,8 +984,28 @@
 #+end_src
 
 
-** Common
+* 6.10 Demand for perfect complements
 
+** Demand
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-demand-compl.tex
+  \begin{tikzpicture}[xscale=3.75, yscale=0.75]
+    \coordinate (Xaxis) at (0.8, 0);
+    \coordinate (Yaxis) at (0, 4);
+    \coordinate (E) at (0.5, 2);
+
+    \draw[curve, very thick]
+      plot[smooth, domain=0.46:0.56]
+      (\x, {6/\x-10}) node[right] {$C^{d}$}
+      ;
+    \draw[help lines]
+      (Yaxis |- E) node[left] {$2$} -| node[dot] {}
+      (Xaxis -| E) node[below] {$0.500$}
+      ;
+    \draw[axis, very thick] (Yaxis) node[left] {$P_C$} |-
+      (Xaxis) node[below] {$C$} ;
+  \end{tikzpicture}
+#+end_src
 
 
 * COMMENT 6.11 Income and substitution effects

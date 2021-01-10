@@ -567,7 +567,52 @@ a \price[kg]{2}, ¿qué cantidad demandará Rocío?
 
 ** Answer
 
-Por hacer.
+Para Rocío la leche y los cereales son complementos perfectos y su
+función de utilidad es:
+#+begin_export latex
+\[
+  U = \min\left\{\frac{L}{0.250}, \frac{C}{0.020}\right\}
+\]
+#+end_export
+donde $L$ son litros de leche y $C$ kilos de cereales. Las curvas de
+indiferencia tienen la forma de ángulos rectos cuyos vértices
+representan combinaciones de leche y cereales en las proporciones
+ideales para Rocío:
+#+begin_export latex
+\[
+  \frac{L}{0.250} = \frac{C}{0.020}
+\]
+#+end_export
+Podemos escribir la recta presupuestaria de Rocío como:
+#+begin_export latex
+\[
+  6 = 0.8 L + P_C C
+\]
+#+end_export
+Utilizando las dos últimas ecuaciones podemos obtener la curva de
+demanda de cereales:
+#+begin_export latex
+\[
+  C(P_C) = \frac{6}{10 + P_C}
+\]
+#+end_export
+
+#+ATTR_LATEX: :options [t]{0.45\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-6_1004-demand-compl-*.pdf
+#+ATTR_LATEX: :options [t]{0.55\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Si el kilo de cereales se vendiera a \money{2}, Rocío compraría:
+#+begin_export latex
+\[
+  C(2) = \frac{6}{10 + 2} = \units[kg]{0.500}
+\]
+#+end_export
+#+xxx: endcol
+
 
 
 * 6.11.
