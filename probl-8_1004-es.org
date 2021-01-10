@@ -413,8 +413,11 @@ producción de la empresa?
 
 ** Answer
 
-  No: si sólo aumenta el trabajo no es posible deducir nada sobre
-  los rendimientos de escala.
+No es posible determinar los rendimientos de escala de la función de
+producción si sólo ha cambiado el número de trabajadores. Para
+determinar el tipo de rendimientos de escala, es necesario saber en
+qué proporción aumenta la producción de la empresa cuando aumentan
+/todos/ los factores de producción en la /misma/ proporción.
 
 
 * 8.10.
