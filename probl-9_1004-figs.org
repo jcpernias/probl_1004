@@ -59,7 +59,7 @@
 * 9.3: Product and cost curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-pme-pmg.tex :noweb no
-    \begin{tikzpicture}[yscale=0.19, xscale=0.16]
+    \begin{tikzpicture}[yscale=0.152, xscale=0.16]
       \coordinate (Xaxis) at (22, 0) ;
       \coordinate (Yaxis) at (0, 18) ;
       \coordinate (A) at ( 1,  5) ;
@@ -96,7 +96,7 @@
    #+end_src
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-cme-cmg.tex :noweb no
-    \begin{tikzpicture}[yscale=0.155, xscale=0.16]
+    \begin{tikzpicture}[yscale=0.124, xscale=0.16]
       \coordinate (Xaxis) at (22, 0) ;
       \coordinate (Yaxis) at (0, 22) ;
 
