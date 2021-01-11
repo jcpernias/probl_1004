@@ -262,13 +262,18 @@ costes? Justifique sus respuestas.
 
 ** Answer
 
-No se están minimizando los costes a largo: La $\RMST = \PMgL /
-PMgK = 18 / 6 = 3$ es inferior a los precios relativos $w/r = 4$.
-
-Se debe reducir la plantilla y alquilar más impresoras. Si contrata
-1 trabajador menos y alquila 3 impresoras más, la producción no
-varía (suponiendo que no cambian los productos marginales) y los
-costes disminuyen en la cuarta parte del salario.
+De acuerdo con el enunciado: $\PMgL = 18$, $\PMgK = 6$, y $w = 4 r$.
+La minimización de los costes requiere la igualación de la \RMST con
+el precio relativo de los factores. Sin embargo, en esta empresa no se
+cumple esa condición, ya que:
+#+begin_export latex
+ \[ \RMST = \frac{\PMgL}{\PMgK} = 3 < \frac{w}{r} = 4 \]
+#+end_export
+El valor de la \RMST indica que se podría producir la misma cantidad
+de anillos si se alquilaran 3 impresoras más y se contratara un
+trabajador menos. Esta opción reduciría los costes de producción
+porque el salario que se ahorraría la empresa es mayor que el alquiler
+de 3 impresoras.
 
 
 * 9.7.
