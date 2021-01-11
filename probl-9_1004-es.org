@@ -55,24 +55,78 @@ c) ¿Para qué nivel de producción se minimiza el coste medio? ¿Cuál
 
 ** Answer
 
-a)  Coste fijo: $\CF(Q) = 500$.
+a) El coste fijo son las remuneraciones del factor fijo:
+   #+begin_export latex
+   \[
+     \CF = r \Kbar = 20 \times 25 = \money{500}
+   \]
+   #+end_export
 
-    Coste variable: $\CV(Q) = 2 Q^2 / 5$.
+   La función de producción a corto plazo es:
+   #+begin_export latex
+   \[
+     Q = L^{1/2} 25^{1/2} = 5 L^{1/2}
+   \]
+   #+end_export
+   Invirtiendo la expresión anterior se obtiene la demanda condicional
+   de trabajo:
+   #+begin_export latex
+   \[
+     L(Q)  = Q^2/25
+   \]
+   #+end_export
+   Finalmente, el coste variable se obtiene multiplicando la expresión
+   anterior por el salario:
+   #+begin_export latex
+   \[
+     \CV(Q)  = w L(Q) = 2 Q^2 / 5
+   \]
+   #+end_export
 
-    Coste total: $\CT(Q) = 500 + 2 Q^2 / 5$.
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-9_1004-short-curves1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Curvas de coste:
 
-    #+xxx: fig fig-ans-probl-9_1004-short-curves1-*.pdf
+   - $\CF(Q) = 500$
 
-b) Coste marginal: $\CMg(Q) = 4 Q / 5$.
+   - $\CV(Q) = 2 Q^2 / 5$
 
-   Coste variable medio: $\CVMe(Q) = 2 Q / 5$.
+   - $\CT(Q) = 500 + 2 Q^2 / 5$
+   #+xxx: endcol
 
-   Coste medio: $\CMe(Q) = 500 / Q + 2 Q / 5$.
+b) Coste variable medio: $\CVMe(Q)  = \CV(Q) / Q = 2 Q / 5$.
 
+   Coste medio: $CMe(Q)  = \CT(Q) / Q = 500 / Q + 2 Q / 5$.
+
+   Coste marginal: $\CMg(Q)  = \diff \CT(Q) / \diff Q =  4 Q / 5$.
+
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-9_1004-short-curves2-*.pdf
 
-c) El mínimo coste medio es \money{28.28} por unidad y se obtiene
-   cuando $Q \approx 35.35$ unidades.
+c) El coste medio se minimiza cuando $\CMe = \CMg$:
+   #+begin_export latex
+   \[
+     500 / Q + 2 Q / 5  = 4 Q / 5,
+   \]
+   #+end_export
+   por lo que:
+   #+begin_export latex
+   \[
+     Q = \num{1250} \approx \text{$35.36$\ unidades.}
+   \]
+   #+end_export
+   El coste unitario mínimo es:
+   #+begin_export latex
+   \[
+     \CMe(35.36) = 500/35.36 + 2 \times 35.36 / 5 = \price{28.28}.
+   \]
+   #+end_export
 
 
 
