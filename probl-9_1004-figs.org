@@ -151,7 +151,7 @@
    #+end_src
 
 
-* 9.4: Long-run choice
+* 9.5: Long-run choice
 
   #+begin_src latex :tangle fig-probl-9_1004-choice.tex :noweb no
     \begin{tikzpicture}[yscale=0.3, xscale=0.3]
@@ -181,7 +181,7 @@
    #+end_src
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-choice2.tex :noweb no
-    \begin{tikzpicture}[yscale=0.17, xscale=0.17]
+    \begin{tikzpicture}[yscale=0.18, xscale=0.18]
 
       \draw[curve]
         plot[domain=5.5:31, smooth, samples = 128] (\x,{62.5/\x})

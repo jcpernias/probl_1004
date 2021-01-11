@@ -218,14 +218,32 @@ c) Si $\PMgK = 30$ cuando se minimizan los costes, ¿cuál es el
 
 ** Answer
 
-a) Los puntos de corte con el eje $L$ representan la máxima cantidad
-   de trabajo que se puede contratar para cada nivel de coste.
+a) Todas las combinaciones de factores sobre una isocoste representan
+   el mismo coste:
+   #+begin_export latex
+     \[ \Cbar = w L + r K \]
+   #+end_export
+   Los puntos de corte con el eje horizontal representan la máxima
+   cantidad de trabajo que se puede contratar con $\Cbar$ euros
+
+   Consideremos la isocoste más externa del gráfico. Dado que corta al
+   eje vertical en $K = 12$, todas las combinaciones de esa recta
+   cuestan $40 \times 12 = \money{480}$. Dividiendo por el salario
+   obtenemos la cantidad máxima de trabajo que se puede contratar con
+   ese dinero: $480 / 16 = 30$. Repitiendo este procedimiento se
+   obtienen los puntos de corte de las restantes isocostes:
    #+xxx: fig fig-ans-probl-9_1004-choice2-*.pdf
 
 b) No: en la isocoste tangente a la isocuanta $Q=150$, el coste es
-   $40\cdot 10 = 16 \cdot 25 = \money{400}$.
+   $40\times 10 = 16 \times 25 = \money{400}$.
 
-c) La tangencia implica $\PMgL/30 = 16 / 40$ por lo que $\PMgL = 12$.
+c) En la combinación que minimiza los costes se debe cumplir la
+   condición de tangencia:
+   #+begin_export latex
+    \[ \RMST = \frac{\PMgL}{\PMgK} = \frac{w}{r}\]
+   #+end_export
+   De acuerdo con los datos del problema, $\PMgL / 30 = 16 / 40$ por
+   lo que $\PMgL = 12$.
 
 
 
