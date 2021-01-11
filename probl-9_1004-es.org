@@ -287,9 +287,20 @@ son los precios del capital y del trabajo?
 
 ** Answer
 
-La combinación óptima satisface $3 \cdot 12/144 = w/r$ por lo que $r =
-4 w$. Por otro lado los costes son $1152 = 144 w + 12 r$. Resolviendo
-las dos ecuaciones $w = \wage{6}$ y $r = \price{24}$.
+La combinación óptima de factores satisface la condición de tangencia:
+#+begin_export latex
+ \[ \RMST  = 3 \frac{12}{144} = \frac{w}{r}  \]
+#+end_export
+y operando:
+#+begin_export latex
+ \[ r = 4 w  \]
+#+end_export
+Por otro lado, los costes son:
+#+begin_export latex
+ \[ \num{1152} = 144 w + 12 r \]
+#+end_export
+Resolviendo las dos últimas ecuaciones, se obtiene el valor del
+salario, $w = \wage{6}$, y del precio del capital, $r = \price{24}$.
 
 
 
