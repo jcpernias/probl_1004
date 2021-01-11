@@ -319,18 +319,57 @@ b) Determine la curva de costes a largo plazo, así como las curvas
 
 ** Answer
 
-a) Igualando la \RMST con los precios relativos de los factores: $K =
-   L$. Sustituyendo en la función de producción y operando se obtiene:
-   $L(Q) = Q^{1/3}$ y $K(Q) = Q^{1/3}$.
+a) La minimización de los costes requiere la igualación de la \RMST y
+   el precio relativo de los factores:
+   #+begin_export latex
+   \[ \RMST  = 2 \frac{K}{L} = \frac{w}{r} = 2 \]
+   #+end_export
+   Esta condición de tangencia puede expresarse de forma más sencilla
+   como:
+   #+begin_export latex
+   \[ K = L \]
+   #+end_export
+   Sustituyendo esta expresión en la función de producción:
+   #+begin_export latex
+   \[ Q = L^3 \]
+   #+end_export
+   Despejando $L$ de la expresión anterior, se llega a la demanda
+   condicional de trabajo:
+   #+begin_export latex
+   \[ L(Q) = Q^{1/3} \]
+   #+end_export
+   Sustituyendo esta última expresión en la condición de tangencia,
+   obtenemos la demanda condicional de capital:
+   #+begin_export latex
+   \[ K(Q) = Q^{1/3} \]
+   #+end_export
 
 
-b) Coste total: $\CT(Q) = 24 Q^{1/3}$.
+b) El coste total son las retribuciones de los factores de producción:
+   #+begin_export latex
+   \[ \CT = 16 L + 8 K  \]
+   #+end_export
+   Sustituyendo en esta expresión las demandas condicionales de
+   trabajo y capital y operando se obtiene la curva de costes a largo
+   plazo:
+   #+begin_export latex
+   \[ \CT(Q) = 24 Q^{1/3}  \]
+   #+end_export
+   Si dividimos los costes totales por la producción obtenemos la
+   curva de costes medios:
+   #+begin_export latex
+   \[ \CMe(Q) = 24 Q^{-2/3}  \]
+   #+end_export
+   Calculando la derivada de los costes totales con respecto de la
+   producción se obtiene la curva de costes marginales:
+   #+begin_export latex
+   \[ \CMg(Q) = 8 Q^{-2/3}  \]
+   #+end_export
 
-   Coste medio: $\CMe(Q) = 24 Q^{-2/3}$.
-
-   Coste marginal: $\CMg(Q) = 8 Q^{-2/3}$.
-
-   El coste de producir $8000$ unidades es $C(8000) = \money{480}$.
+   El coste de producir $\num{8000}$ unidades es:
+   #+begin_export latex
+   \[ \CT(\num{8000}) = 24 \times \num{8000}^{1/3} = monrey{480}  \]
+   #+end_export
 
 
 
