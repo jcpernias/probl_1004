@@ -168,18 +168,40 @@ igualan el producto medio y el marginal.
 
 * 9.4.
 
-La función de producción de una empresa viene dada por: $Q = K
-L$. El salario por hora es \wage{2} y el precio unitario del factor
-capital es de \price{4}. Determine la combinación de factores que
-minimiza el coste de producir 5000 unidades. ¿Cuál es el coste
-mínimo?
+La función de producción de una empresa viene dada por: $Q = K L$. El
+salario por hora es \wage{2} y el precio unitario del factor capital
+es de \price{4}. Determine la combinación de factores que minimiza el
+coste de producir \num{5000} unidades. ¿Cuál es el coste mínimo?
 
 
 ** Answer
 
-En la elección óptima $K/L = 1/2$. Sustituyendo en la isocuanta $5000
-= K L$ se obtiene $L^* = 100$ y $K^* = 50$. El coste es $\CT =
-\money{400}$.
+Todas las combinaciones de factores que permiten producir $Q =
+\num{5000}$ unidades se hallan sobre la isocuanta:
+#+begin_export latex
+  \[ \num{5000} = K L \]
+#+end_export
+
+En la combinación que minimiza el coste de producción se igualan la
+relación marginal de sustitución técnica, \RMST, con el precio
+relativo de los factores, $w/r$:
+#+begin_export latex
+  \[ \RMST = \frac{K}{L} = \frac{2}{4} = \frac{w}{r} \]
+#+end_export
+Operando en la expresión anterior se obtiene la condición de
+tangencia:
+#+begin_export latex
+  \[ L = 2 K \]
+#+end_export
+y sustituyendo esta expresión en la isocuanta:
+#+begin_export latex
+  \[ \num{5000} = 2 K^2 \]
+#+end_export
+Por tanto, $K^* = 50$ y, por la condición de tangencia, $L^* = 100$. El
+coste mínimo de producir \num{5000} unidades es:
+#+begin_export latex
+  \[ C^* = w L^* + r K^* = 2 \times 100 + 4 \times 50 = \money{400}. \]
+#+end_export
 
 
 * 9.5.
