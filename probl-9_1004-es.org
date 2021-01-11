@@ -189,19 +189,11 @@ relativo de los factores, $w/r$:
   \[ \RMST = \frac{K}{L} = \frac{2}{4} = \frac{w}{r} \]
 #+end_export
 Operando en la expresión anterior se obtiene la condición de
-tangencia:
-#+begin_export latex
-  \[ L = 2 K \]
-#+end_export
-y sustituyendo esta expresión en la isocuanta:
-#+begin_export latex
-  \[ \num{5000} = 2 K^2 \]
-#+end_export
-Por tanto, $K^* = 50$ y, por la condición de tangencia, $L^* = 100$. El
-coste mínimo de producir \num{5000} unidades es:
-#+begin_export latex
-  \[ C^* = w L^* + r K^* = 2 \times 100 + 4 \times 50 = \money{400}. \]
-#+end_export
+tangencia: $L = 2 K$. Sustituyendo esta expresión en la isocuanta
+llegamos a: $\num{5000} = 2 K^2$.  Por tanto, $K^* = 50$ y, por la
+condición de tangencia, $L^* = 100$. El coste mínimo de producir
+\num{5000} unidades es: $C^* = w L^* + r K^* = 2 \times 100 + 4 \times
+50 = \money{400}$.
 
 
 * 9.5.
