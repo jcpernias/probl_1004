@@ -218,7 +218,9 @@
 * 9.8: Long-run marginal and average cost curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-cmg-cme-long.tex :noweb no
-    \begin{tikzpicture}[yscale=0.11, xscale=0.32]
+    \begin{tikzpicture}[yscale=0.11, xscale=0.33]
+      \coordinate (Yaxis) at (0, 30) ;
+      \coordinate (Xaxis) at (10, 0) ;
 
       \draw[help lines] (0, 6) node[left] {$6$} -|
         (4, 0) node[below] {$4$}
@@ -236,8 +238,11 @@
 
       \node[dot] at (4, 6) {} ;
 
-      \draw[axis] (0, 30)  node[left, align = right] {$\CMe$ \\ $\CMg$} |-
-       (10, 0) node[below] {$Q$}
+      \draw[axis]  (Yaxis) |- (Xaxis) ;
+      \path[curve]
+        (Yaxis) node[shift={(-9pt, 4pt)}, base right, align=left]
+        {Coste por \\ unidad}
+        (Xaxis) node[below] {$Q$}
        ;
     \end{tikzpicture}
    #+end_src

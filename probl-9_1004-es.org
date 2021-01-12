@@ -390,15 +390,40 @@ deseconomías de escala?
 
 ** Answer
 
-Coste medio: $\CMe = Q^2 - 8 Q + 22$.
+La curva de coste medio es:
+#+begin_export latex
+\[
+  \CMe(Q) = \frac{\CT}{Q} = Q^2 - 8 Q + 22
+\]
+#+end_export
+El coste marginal es:
+#+begin_export latex
+\[
+  \CMg(Q) = \frac{\diff \CT}{\diff Q} = 3 Q^2 - 16 Q + 22
+\]
+#+end_export
+La curva de coste medio alcanza un mínimo cuando:
+#+begin_export latex
+\[
+  \frac{\diff \CMe}{\diff Q} = 2 Q - 8   = 0
+\]
+#+end_export
+por tanto, el coste medio alcanza un mínimo cuando la producción es $Q
+= 4$ unidades.
 
-Coste marginal: $\CMg = 3 Q^2 - 16 Q + 22$.
 
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-9_1004-cmg-cme-long-*.pdf
-
-Existen economías de escala si $0 \leq Q \leq 4$; deseconomías si $Q >
-4$.
-
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Existen economías de escala en el tramo decreciente de $\CMe$: $0 \leq
+Q \leq 4$. Hay deseconomías de escala en el tramo creciente de los
+costes nedios: $Q > 4$.
+#+xxx: endcol
 
 * 9.10.
 
