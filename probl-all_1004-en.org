@@ -10,47 +10,49 @@
 
 * Competitive markets
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-2_1004-en.org" :lines "3-"
 
 
 * Elasticity
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-3_1004-en.org" :lines "3-"
 
 
 * Government intervention in competitive markets
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-4_1004-en.org" :lines "3-"
 
 
 * Consumer choice
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-5_1004-en.org" :lines "3-"
 
 
 * Demand
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-6_1004-en.org" :lines "3-"
 
 
-* Intertemporal choice
+*  
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
 
-#+latex: \pagenumbering{arabic}
+#+latex: \vspace*{-1.25cm}
+#+latex: \addtocounter{section}{1}
+
+
+
+* COMMENT Intertemporal choice
+
 #+include: "probl-7_1004-en.org" :lines "3-"
 
 
 * Production
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-8_1004-en.org" :lines "3-"
 
 
 * Costs
 
-#+latex: \pagenumbering{arabic}
 #+include: "probl-9_1004-en.org" :lines "3-"

@@ -3,37 +3,37 @@
 #+TITLE: Problems 6 Figures
 
 
-* 9.1: Short-run curves
+* 9.2: Short-run curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-short-curves1.tex :noweb no
-    \begin{tikzpicture}[yscale=0.9, xscale=0.045]
+    \begin{tikzpicture}[yscale=0.6, xscale=0.03]
 
       \draw[curve, very thick]
-        (0, 0.5) -- (100, 0.5)
+        (0, 0.5) -- (80, 0.5)
         node[right] {$\CF$ }
         ;
 
       \draw[curve, very thick]
-        plot[domain=0:100, smooth, samples = 128] (\x,{0.0004*\x^2})
+        plot[domain=0:80, smooth, samples = 128] (\x,{0.0004*\x^2})
         node[right] {$\CV$ }
         ;
 
       \draw[curve, very thick]
-        plot[domain=0:100, smooth, samples = 128] (\x,{0.5+0.0004*\x^2})
+        plot[domain=0:80, smooth, samples = 128] (\x,{0.5+0.0004*\x^2})
         node[above right] {$\CT$ }
         ;
 
-      \draw[axis] (0, 5)  node[left] {$\CT$} |-
-       (110, 0) node[below] {$Q$}
+      \draw[axis] (0, 4.5)  node[left] {$\CT$} |-
+      (110, 0) node[below] {$Q$}
        ;
     \end{tikzpicture}
    #+end_src
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-short-curves2.tex :noweb no
-    \begin{tikzpicture}[yscale=0.1, xscale=0.045]
+    \begin{tikzpicture}[yscale=0.058, xscale=0.042]
       \draw[help lines]
          (0, 28.28427) node[left] {$28.28$ } -|
-         (35.35534, 0) node[below] {$35.35$ } ;
+         (35.35534, 0) node[below] {$35.36$ } ;
 
       \draw[curve, very thick]
         (0, 0) -- (100, 40)
@@ -47,8 +47,8 @@
         plot[domain=14.64467:85.3534, smooth, samples = 128] (\x,{500/\x+0.4*\x})
         ;
 
-      \draw[axis] (0, 45)  node[left] {$\CMe$} |-
-       (110, 0) node[below] {$Q$}
+      \draw[axis] (0, 60)  node[left] {$\CMe$} |-
+       (130, 0) node[below] {$Q$}
        ;
 
       \node[dot] at (35.35534, 28.28427) {} ;
@@ -56,7 +56,102 @@
    #+end_src
 
 
-* 9.4: Long-run choice
+* 9.3: Product and cost curves
+
+  #+begin_src latex :tangle fig-ans-probl-9_1004-pme-pmg.tex :noweb no
+    \begin{tikzpicture}[yscale=0.152, xscale=0.16]
+      \coordinate (Xaxis) at (22, 0) ;
+      \coordinate (Yaxis) at (0, 18) ;
+      \coordinate (A) at ( 1,  5) ;
+      \coordinate (B) at ( 3, 17) ;
+      \coordinate (C) at ( 7, 17) ;
+      \coordinate (D) at (11,  2) ;
+
+      \coordinate (E) at ( 1,  3) ;
+      \coordinate (F) at ( 7, 10) ;
+      \coordinate (G) at (11, 10) ;
+      \coordinate (H) at (15,  5) ;
+
+      \draw[curve, very thick, name path=PMg]
+        (A) .. controls (B) and (C) .. (D)
+        node[pos=0.5, right=2pt] {$\PMgL$}
+        ;
+
+      \draw[curve, very thick, name path=PMe]
+        (E) .. controls (F) and (G) .. (H)
+        node[pos=1, right] {$\PMeL$}
+        ;
+
+      \path[name intersections={of=PMg and PMe, by=E}] ;
+      \node[dot, label={above right:$A$}] at (E) {};
+
+
+      \draw[axis]  (Yaxis) |- (Xaxis) ;
+      \path[curve]
+        (Yaxis) node[shift={(-9pt, 4pt)}, base right, align=left]
+        {Producción por \\ trabajador}
+        (Xaxis) node[below] {$L$}
+       ;
+    \end{tikzpicture}
+   #+end_src
+
+  #+begin_src latex :tangle fig-ans-probl-9_1004-cme-cmg.tex :noweb no
+    \begin{tikzpicture}[yscale=0.124, xscale=0.16]
+      \coordinate (Xaxis) at (22, 0) ;
+      \coordinate (Yaxis) at (0, 22) ;
+
+      \coordinate (A) at ( 2,  9) ;
+      \coordinate (B) at ( 5,  1) ;
+      \coordinate (C) at ( 9,  1) ;
+      \coordinate (D) at (14, 17) ;
+
+      \coordinate (E) at ( 4, 10) ;
+      \coordinate (F) at ( 8,  5) ;
+      \coordinate (G) at (11,  5) ;
+      \coordinate (H) at (15, 10) ;
+
+      \coordinate (I) at ( 6, 17) ;
+      \coordinate (J) at ( 9,  8) ;
+      \coordinate (K) at (12,  8) ;
+      \coordinate (L) at (15, 13) ;
+
+
+      \draw[curve, very thick, name path=CMg]
+        (A) .. controls (B) and (C) .. (D)
+        node[pos=1, above] {$\CMg$}
+        ;
+
+      \draw[curve, very thick, name path=CVMe]
+        (E) .. controls (F) and (G) .. (H)
+        node[pos=1, right] {$\CVMe$}
+        ;
+
+      \draw[curve, very thick, name path=CMe]
+        (I) .. controls (J) and (K) .. (L)
+        node[pos=1, right] {$\CMe$}
+        ;
+
+      \path[name intersections={of=CMg and CVMe, by=M}] ;
+      \path[name path=V] (M) -- (M |- Yaxis) ;
+      \path[name intersections={of=CMe and V, by=N}] ;
+      \draw[help lines]
+        (N) -- (N |- Xaxis)
+        (M) node[dot, label={below right:$A$}] {}
+        (N) node[dot] {} ;
+
+
+
+      \draw[axis]  (Yaxis) |- (Xaxis) ;
+      \path[curve]
+        (Yaxis) node[shift={(-9pt, 4pt)}, base right, align=left]
+        {Coste por \\ unidad}
+        (Xaxis) node[below] {$Q$}
+       ;
+    \end{tikzpicture}
+   #+end_src
+
+
+* 9.5: Long-run choice
 
   #+begin_src latex :tangle fig-probl-9_1004-choice.tex :noweb no
     \begin{tikzpicture}[yscale=0.3, xscale=0.3]
@@ -86,7 +181,7 @@
    #+end_src
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-choice2.tex :noweb no
-    \begin{tikzpicture}[yscale=0.17, xscale=0.17]
+    \begin{tikzpicture}[yscale=0.18, xscale=0.18]
 
       \draw[curve]
         plot[domain=5.5:31, smooth, samples = 128] (\x,{62.5/\x})
@@ -123,7 +218,9 @@
 * 9.8: Long-run marginal and average cost curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-cmg-cme-long.tex :noweb no
-    \begin{tikzpicture}[yscale=0.11, xscale=0.32]
+    \begin{tikzpicture}[yscale=0.11, xscale=0.33]
+      \coordinate (Yaxis) at (0, 30) ;
+      \coordinate (Xaxis) at (10, 0) ;
 
       \draw[help lines] (0, 6) node[left] {$6$} -|
         (4, 0) node[below] {$4$}
@@ -141,8 +238,11 @@
 
       \node[dot] at (4, 6) {} ;
 
-      \draw[axis] (0, 30)  node[left, align = right] {$\CMe$ \\ $\CMg$} |-
-       (10, 0) node[below] {$Q$}
+      \draw[axis]  (Yaxis) |- (Xaxis) ;
+      \path[curve]
+        (Yaxis) node[shift={(-9pt, 4pt)}, base right, align=left]
+        {Coste por \\ unidad}
+        (Xaxis) node[below] {$Q$}
        ;
     \end{tikzpicture}
    #+end_src
@@ -151,25 +251,25 @@
 * 9.9: Short-run and long-run cost curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-short-long.tex :noweb no
-    \begin{tikzpicture}[yscale=0.4, xscale=0.2222222]
+    \begin{tikzpicture}[yscale=0.20, xscale=0.097]
 
-      \draw[help lines] (0, 6) node[left, font=\small] {$6$} -|
-        (9, 0) node[below, font=\small] {$9$} ;
+      \draw[help lines] (0, 6) node[left] {$6$} -|
+        (9, 0) node[below] {$9$} ;
 
       \draw[curve, very thick]
-        (0, 3) node[left, font=\footnotesize] {$3$} -- (17, 8.6667)
-        node[above, font=\footnotesize] {$\CT_{\CP}$ }
+        (0, 3) node[left] {$3$} -- (27, 12)
+        node[right, yshift=3pt] {$\CT_{\CP}$ }
         ;
 
       \draw[curve, very thick]
-         plot[domain=0:17, smooth, samples = 128] (\x,{2*sqrt(\x)})
-       node[right, font=\footnotesize] {$\CT_{\LP}$ }
+         plot[domain=0:27, smooth, samples = 128] (\x,{2*sqrt(\x)})
+       node[right] {$\CT_{\LP}$ }
        ;
 
        \node[dot] at (9, 6) {} ;
 
-      \draw[axis] (0, 10)  node[left] {$\CT$} |-
-       (18, 0) node[below] {$Q$}
+      \draw[axis] (0, 16)  node[left] {$\CT$} |-
+       (36, 0) node[below] {$Q$}
        ;
     \end{tikzpicture}
    #+end_src
@@ -177,98 +277,172 @@
 
 * 9.10: Expansion paths
 
-  #+begin_src latex :tangle fig-probl-9_1004-expansion.tex :noweb no
-    \begin{tikzpicture}[yscale=0.7, xscale=0.7]
+** Question figure
 
-      \draw[help lines] (0, 0) grid (10, 8) ;
+#+begin_src latex :tangle fig-probl-9_1004-expansion.tex
+  \begin{tikzpicture}[<<ex9.11:xy-scale>>]
+    <<ex9.11:grid>>
+    <<ex9.11:grid-labels>>
+    <<ex9.11:isoquants>>
+    <<ex9.11:axes>>
+  \end{tikzpicture}
+#+end_src
 
-      \draw[curve]
-        plot[domain=0.5:10, smooth, samples = 128] (\x,{4/\x})
-        node[right] {$Q_1=40$ }
-        ;
+** Short-run expansion path
 
-      \draw[curve]
-        plot[domain=2:10, smooth, samples = 128] (\x,{16/\x})
-        node[right] {$Q_2=160$ }
-        ;
+#+begin_src latex :tangle fig-ans-probl-9_1004-expansion2.tex
+  \begin{tikzpicture}[<<ex9.11:xy-scale-small>>]
+    \begin{scope}[nearly transparent]
+      <<ex9.11:grid>>
+      <<ex9.11:grid-labels>>
+    \end{scope}
+    <<ex9.11:isoquants>>
+    <<ex9.11:axes>>
 
-      \draw[curve]
-        plot[domain=4.5:10, smooth, samples = 128] (\x,{36/\x})
-        node[right] {$Q_3=360$ }
-        ;
+    \draw[curve]
+      (0, 4) node[left] { $4$} -- (10, 4)
+      ;
 
-      \draw[axis] (0, 9)  node[left] {$K$} |-
-       (12, 0) node[below] {$L$}
-       ;
-
-      \draw[font=\small]
-       ( 1, 0) node[below] { $1$}
-       ( 2, 0) node[below] { $2$}
-       ( 3, 0) node[below] { $3$}
-       ( 4, 0) node[below] { $4$}
-       ( 5, 0) node[below] { $5$}
-       ( 6, 0) node[below] { $6$}
-       ( 7, 0) node[below] { $7$}
-       ( 8, 0) node[below] { $8$}
-       ( 9, 0) node[below] { $9$}
-       (10, 0) node[below] {$10$}
-       ;
-
-      \draw[font=\small]
-       (0, 1) node[left] { $1$}
-       (0, 2) node[left] { $2$}
-       (0, 3) node[left] { $3$}
-       (0, 4) node[left] { $4$}
-       (0, 5) node[left] { $5$}
-       (0, 6) node[left] { $6$}
-       (0, 7) node[left] { $7$}
-       (0, 8) node[left] { $8$}
-       ;
-
-    \end{tikzpicture}
-   #+end_src
-
-  #+begin_src latex :tangle fig-ans-probl-9_1004-expansion2.tex :noweb no
-    \begin{tikzpicture}[yscale=0.5, xscale=0.5]
-
-      \draw[help lines] (0, 0) grid (10, 8) ;
-
-      \draw[curve]
-        plot[domain=0.5:10, smooth, samples = 128] (\x,{4/\x})
-        node[right, font=\footnotesize] {$Q_1=40$ }
-        ;
-
-      \draw[curve]
-        plot[domain=2:10, smooth, samples = 128] (\x,{16/\x})
-        node[right, font=\footnotesize] {$Q_2=160$ }
-        ;
-
-      \draw[curve]
-        plot[domain=4.5:10, smooth, samples = 128] (\x,{36/\x})
-        node[right, font=\footnotesize] {$Q_3=360$ }
-        ;
+    \draw[help lines]
+      ( 1, 4) node[dot] {} --
+      ( 1, 0) node[below] { $1$}
+      ( 4, 4) node[dot] {} --
+      ( 4, 0) node[below] { $4$}
+      ( 9, 4) node[dot] {} --
+      ( 9, 0) node[below] { $9$}
+      ;
+  \end{tikzpicture}
+#+end_src
 
 
-      \draw[curve]
-        (0, 4) -- (10, 4)
-        (0, 0) -- (8, 8)
-        ;
+** Long-run expansion path
 
-      \draw[axis] (0, 9)  node[left, font=\small] {$K$} |-
-       (12, 0) node[below, font=\small] {$L$}
-       ;
+#+begin_src latex :tangle fig-ans-probl-9_1004-expansion3.tex
+  \begin{tikzpicture}[<<ex9.11:xy-scale-small>>]
+    \begin{scope}[nearly transparent]
+      <<ex9.11:grid>>
+      <<ex9.11:grid-labels>>
+    \end{scope}
+    <<ex9.11:isoquants>>
+    <<ex9.11:axes>>
 
-      \draw[font=\small]
-       ( 4, 0) node[below] { $4$}
-       ( 0, 4) node[left] { $4$}
-       ;
+    \draw[curve]
+      (0, 0) -- (8, 8)
+      ;
+
+    \draw[curve, semithick]
+      (0.5, 3.5) -- (3.5, 0.5)
+      (2.5, 5.5) -- (5.5, 2.5)
+      (4.5, 7.5) -- (7.5, 4.5)
+      ;
+
+    \draw[help lines]
+      ( 0, 2) node[left] { $2$} -| node[dot] {}
+      ( 2, 0) node[below] { $2$}
+      ( 0, 4) node[left] { $4$} -| node[dot] {}
+      ( 4, 0) node[below] { $4$}
+      ( 0, 6) node[left] { $6$} -| node[dot] {}
+      ( 6, 0) node[below] { $6$}
+      ;
+  \end{tikzpicture}
+#+end_src
 
 
-    \end{tikzpicture}
-   #+end_src
+
+** Expansion paths
+
+#+begin_src latex :tangle fig-ans-probl-9_1004-expansion4.tex
+  \begin{tikzpicture}[<<ex9.11:xy-scale-small>>]
+    \begin{scope}[nearly transparent]
+      <<ex9.11:grid>>
+      <<ex9.11:grid-labels>>
+      <<ex9.11:isoquants>>
+    \end{scope}
+    <<ex9.11:axes>>
+
+    \draw[curve]
+      (0, 4) -- (10, 4)
+      (0, 0) -- (8, 8)
+      ;
+
+    \draw[help lines]
+     (4, 4) node[dot] {} --  ( 4, 0) node[below] { $4$}
+     ( 0, 4) node[left] { $4$}
+     ;
+
+  \end{tikzpicture}
+#+end_src
 
 
-* 9.12: Envelop
+** Common
+
+#+begin_src latex :noweb-ref ex9.11:xy-scale
+  yscale=0.7, xscale=0.7
+#+end_src
+
+#+begin_src latex :noweb-ref ex9.11:xy-scale-small
+  yscale=0.5, xscale=0.5
+#+end_src
+
+#+begin_src latex :noweb-ref ex9.11:xy-scale-very-small
+  yscale=0.25, xscale=0.25
+#+end_src
+
+#+begin_src latex :noweb-ref ex9.11:axes
+  \draw[axis] (0, 9)  node[left] {$K$} |-
+  (12, 0) node[below] {$L$}
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex9.11:grid
+  \draw[help lines] (0, 0) grid (10, 8) ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex9.11:grid-labels
+  \draw[curve label]
+    ( 1, 0) node[below] { $1$}
+    ( 2, 0) node[below] { $2$}
+    ( 3, 0) node[below] { $3$}
+    ( 4, 0) node[below] { $4$}
+    ( 5, 0) node[below] { $5$}
+    ( 6, 0) node[below] { $6$}
+    ( 7, 0) node[below] { $7$}
+    ( 8, 0) node[below] { $8$}
+    ( 9, 0) node[below] { $9$}
+    (10, 0) node[below] {$10$}
+    ;
+
+  \draw[curve label]
+    (0, 1) node[left] { $1$}
+    (0, 2) node[left] { $2$}
+    (0, 3) node[left] { $3$}
+    (0, 4) node[left] { $4$}
+    (0, 5) node[left] { $5$}
+    (0, 6) node[left] { $6$}
+    (0, 7) node[left] { $7$}
+    (0, 8) node[left] { $8$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex9.11:isoquants
+  \draw[curve]
+    plot[domain=0.5:10, smooth, samples = 128] (\x,{4/\x})
+    node[right] {$Q_1=40$ }
+    ;
+
+  \draw[curve]
+    plot[domain=2:10, smooth, samples = 128] (\x,{16/\x})
+    node[right] {$Q_2=160$ }
+    ;
+
+  \draw[curve]
+    plot[domain=4.5:10, smooth, samples = 128] (\x,{36/\x})
+    node[right] {$Q_3=360$ }
+    ;
+#+end_src
+
+
+* 9.12: Envelope
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-envelop.tex :noweb no
     \begin{tikzpicture}[yscale=0.25, xscale=0.5]

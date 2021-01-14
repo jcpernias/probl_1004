@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 9.2.
+* 9.1.
 
 Complete la siguiente tabla que describe los costes a corto plazo
 de una empresa.
@@ -37,7 +37,7 @@ de una empresa.
 
 
 
-* 9.1.
+* 9.2.
 
 La función de producción de una empresa es: $Q = L^{1/2} K^{1/2}$ y
 los precios de los factores de producción son $w =\price{10}$ y $r =
@@ -55,51 +55,148 @@ c) ¿Para qué nivel de producción se minimiza el coste medio? ¿Cuál
 
 ** Answer
 
-a)  Coste fijo: $\CF(Q) = 500$.
+a) El coste fijo son las remuneraciones del factor fijo:
+   #+begin_export latex
+   \[
+     \CF = r \Kbar = 20 \times 25 = \money{500}
+   \]
+   #+end_export
 
-    Coste variable: $\CV(Q) = 2 Q^2 / 5$.
+   La función de producción a corto plazo es:
+   #+begin_export latex
+   \[
+     Q = L^{1/2} 25^{1/2} = 5 L^{1/2}
+   \]
+   #+end_export
+   Invirtiendo la expresión anterior se obtiene la demanda condicional
+   de trabajo:
+   #+begin_export latex
+   \[
+     L(Q)  = Q^2/25
+   \]
+   #+end_export
+   Finalmente, el coste variable se obtiene multiplicando la expresión
+   anterior por el salario:
+   #+begin_export latex
+   \[
+     \CV(Q)  = w L(Q) = 2 Q^2 / 5
+   \]
+   #+end_export
 
-    Coste total: $\CT(Q) = 500 + 2 Q^2 / 5$.
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-9_1004-short-curves1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Curvas de coste:
 
-    #+xxx: fig fig-ans-probl-9_1004-short-curves1-*.pdf
+   - $\CF(Q) = 500$
 
-b) Coste marginal: $\CMg(Q) = 4 Q / 5$.
+   - $\CV(Q) = 2 Q^2 / 5$
 
-   Coste variable medio: $\CVMe(Q) = 2 Q / 5$.
+   - $\CT(Q) = 500 + 2 Q^2 / 5$
+   #+xxx: endcol
 
-   Coste medio: $\CMe(Q) = 500 / Q + 2 Q / 5$-
+b) Coste variable medio: $\CVMe(Q)  = \CV(Q) / Q = 2 Q / 5$.
 
+   Coste medio: $CMe(Q)  = \CT(Q) / Q = 500 / Q + 2 Q / 5$.
+
+   Coste marginal: $\CMg(Q)  = \diff \CT(Q) / \diff Q =  4 Q / 5$.
+
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-9_1004-short-curves2-*.pdf
 
-c) El mínimo coste medio es \money{28.28} por unidad y se obtiene
-   cuando $Q \approx 35.35$ unidades.
+c) El coste medio se minimiza cuando $\CMe = \CMg$:
+   #+begin_export latex
+   \[
+     500 / Q + 2 Q / 5  = 4 Q / 5,
+   \]
+   #+end_export
+   por lo que:
+   #+begin_export latex
+   \[
+     Q = \num{1250} \approx \text{$35.36$\ unidades.}
+   \]
+   #+end_export
+   El coste unitario mínimo es:
+   #+begin_export latex
+   \[
+     \CMe(35.36) = 500/35.36 + 2 \times 35.36 / 5 = \price{28.28}.
+   \]
+   #+end_export
 
 
 
-* 9.20
+* 9.3
 
 Una empresa se encuentra en una situación tal que $\PMgL =
 \PMeL$. ¿Qué relación existe entre su costo medio y marginal a corto
 plazo? Represente gráficamente.
 
 
-* 9.3.
+** Answer
 
-La función de producción de una empresa viene dada por: $Q = K
-L$. El salario por hora es \wage{2} y el precio unitario del factor
-capital es de \price{4}. Determine la combinación de factores que
-minimiza el coste de producir 5000 unidades. ¿Cuál es el coste
-mínimo?
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-9_1004-pme-pmg-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-9_1004-cme-cmg-*.pdf
+#+xxx: endcol
+#+latex: \vspace*{1ex}
+Las curvas de producto medio y marginal están relacionadas con las
+curvas de coste variable medio y coste marginal, respectivamente:
+#+begin_export latex
+\begin{gather*}
+  \CVMe = w / \PMeL \\
+  \CMg = w / \PMgL
+\end{gather*}
+#+end_export
+Por tanto, si $\PMgL = \PMeL$ implica que $\CMg = \CMe$. En ese
+caso, se maximiza el producto medio y se minimiza el coste variable
+medio. Como el coste medio es mayor que el coste variable medio,
+concluimos que el coste medio es mayor que el marginal cuando se
+igualan el producto medio y el marginal.
+
+
+* 9.4.
+
+La función de producción de una empresa viene dada por: $Q = K L$. El
+salario por hora es \wage{2} y el precio unitario del factor capital
+es de \price{4}. Determine la combinación de factores que minimiza el
+coste de producir \num{5000} unidades. ¿Cuál es el coste mínimo?
 
 
 ** Answer
 
-En la elección óptima $K/L = 1/2$. Sustituyendo en la isocuanta $5000
-= K L$ se obtiene $L^* = 100$ y $K^* = 50$. El coste es $\CT =
-\money{400}$.
+Todas las combinaciones de factores que permiten producir $Q =
+\num{5000}$ unidades se hallan sobre la isocuanta:
+#+begin_export latex
+  \[ \num{5000} = K L \]
+#+end_export
+
+En la combinación que minimiza el coste de producción se igualan la
+relación marginal de sustitución técnica, \RMST, con el precio
+relativo de los factores, $w/r$:
+#+begin_export latex
+  \[ \RMST = \frac{K}{L} = \frac{2}{4} = \frac{w}{r} \]
+#+end_export
+Operando en la expresión anterior se obtiene la condición de
+tangencia: $L = 2 K$. Sustituyendo esta expresión en la isocuanta
+llegamos a: $\num{5000} = 2 K^2$.  Por tanto, $K^* = 50$ y, por la
+condición de tangencia, $L^* = 100$. El coste mínimo de producir
+\num{5000} unidades es: $C^* = w L^* + r K^* = 2 \times 100 + 4 \times
+50 = \money{400}$.
 
 
-* 9.4.
+* 9.5.
 
 La propietaria de una empresa ha dibujado el siguiente diagrama para
 decidir qué cantidad de factores debe de contratar a largo plazo para
@@ -121,18 +218,36 @@ c) Si $\PMgK = 30$ cuando se minimizan los costes, ¿cuál es el
 
 ** Answer
 
-a) Los puntos de corte con el eje $L$ representan la máxima cantidad
-   de trabajo que se puede contratar para cada nivel de coste.
+a) Todas las combinaciones de factores sobre una isocoste representan
+   el mismo coste:
+   #+begin_export latex
+     \[ \Cbar = w L + r K \]
+   #+end_export
+   Los puntos de corte con el eje horizontal representan la máxima
+   cantidad de trabajo que se puede contratar con $\Cbar$ euros
+
+   Consideremos la isocoste más externa del gráfico. Dado que corta al
+   eje vertical en $K = 12$, todas las combinaciones de esa recta
+   cuestan $40 \times 12 = \money{480}$. Dividiendo por el salario
+   obtenemos la cantidad máxima de trabajo que se puede contratar con
+   ese dinero: $480 / 16 = 30$. Repitiendo este procedimiento se
+   obtienen los puntos de corte de las restantes isocostes:
    #+xxx: fig fig-ans-probl-9_1004-choice2-*.pdf
 
 b) No: en la isocoste tangente a la isocuanta $Q=150$, el coste es
-   $40\cdot 10 = 16 \cdot 25 = \money{400}$.
+   $40\times 10 = 16 \times 25 = \money{400}$.
 
-c) La tangencia implica $\PMgL/30 = 16 / 40$ por lo que $\PMgL = 12$.
+c) En la combinación que minimiza los costes se debe cumplir la
+   condición de tangencia:
+   #+begin_export latex
+    \[ \RMST = \frac{\PMgL}{\PMgK} = \frac{w}{r}\]
+   #+end_export
+   De acuerdo con los datos del problema, $\PMgL / 30 = 16 / 40$ por
+   lo que $\PMgL = 12$.
 
 
 
-* 9.5.
+* 9.6.
 
 Sauron SA es una empresa dedicada a la producción de anillos
 exclusivos empleando trabajadores e impresoras 3D. La producción
@@ -147,16 +262,21 @@ costes? Justifique sus respuestas.
 
 ** Answer
 
-No se están minimizando los costes a largo: La $\RMST = \PMgL /
-PMgK = 18 / 6 = 3$ es inferior a los precios relativos $w/r = 4$.
+De acuerdo con el enunciado: $\PMgL = 18$, $\PMgK = 6$, y $w = 4 r$.
+La minimización de los costes requiere la igualación de la \RMST con
+el precio relativo de los factores. Sin embargo, en esta empresa no se
+cumple esa condición, ya que:
+#+begin_export latex
+ \[ \RMST = \frac{\PMgL}{\PMgK} = 3 < \frac{w}{r} = 4 \]
+#+end_export
+El valor de la \RMST indica que se podría producir la misma cantidad
+de anillos si se alquilaran 3 impresoras más y se contratara un
+trabajador menos. Esta opción reduciría los costes de producción
+porque el salario que se ahorraría la empresa es mayor que el alquiler
+de 3 impresoras.
 
-Se debe reducir la plantilla y alquilar más impresoras. Si contrata
-1 trabajador menos y alquila 3 impresoras más, la producción no
-varía (suponiendo que no cambian los productos marginales) y los
-costes disminuyen en la cuarta parte del salario.
 
-
-* 9.6.
+* 9.7.
 
 La función de producción de una empresa es: $Q = L^{3/2}
 K^{1/2}$. Actualmente contrata 144 horas de trabajo y 12 unidades
@@ -167,13 +287,18 @@ son los precios del capital y del trabajo?
 
 ** Answer
 
-La combinación óptima satisface $3 \cdot 12/144 = w/r$ por lo que $r =
-4 w$. Por otro lado los costes son $1152 = 144 w + 12 r$. Resolviendo
-las dos ecuaciones $w = \wage{6}$ y $r = \price{24}$.
+La combinación óptima de factores satisface la condición de tangencia:
+#+begin_export latex
+ \[ \RMST  = 3 \frac{12}{144} = \frac{w}{r}  \]
+#+end_export
+Simplificando esta expresión se obtiene: $r = 4 w$.  Por otro lado,
+los costes son: $\num{1152} = 144 w + 12 r$. Resolviendo estas dos
+ecuaciones se obtiene el valor del salario, $w = \wage{6}$, y del
+precio del capital, $r = \price{24}$.
 
 
 
-* 9.7.
+* 9.8.
 
 La función de producción de una empresa es: $F(L, K) = L^{2} K$ y
 los precios de los factores son: $w = \wage{16}$ y $r = \price{8}$.
@@ -188,22 +313,36 @@ b) Determine la curva de costes a largo plazo, así como las curvas
 
 ** Answer
 
-a) Igualando la \RMST con los precios relativos de los factores: $K =
-   L$. Sustituyendo en la función de producción y operando se obtiene:
-   $L(Q) = Q^{1/3}$ y $K(Q) = Q^{1/3}$.
+a) La minimización de los costes requiere la igualación de la \RMST y
+   el precio relativo de los factores:
+   #+begin_export latex
+   \[ \RMST  = 2 \frac{K}{L} = \frac{w}{r} = 2 \]
+   #+end_export
+   Esta condición de tangencia puede expresarse de forma más sencilla
+   como: $K = L$.  Sustituyendo esta expresión en la función de
+   producción y operando se llega a la demanda condicional de trabajo:
+   $L(Q) = Q^{1/3}$ y la demanda condicional de capital: $K(Q) =
+   Q^{1/3}$.
+
+b) El coste total son las retribuciones de los factores de producción:
+   $\CT = 16 L + 8 K$.  Sustituyendo en esta expresión las demandas
+   condicionales de trabajo y capital y operando se obtiene la curva
+   de costes a largo plazo: $\CT(Q) = 24 Q^{1/3}$. Producir
+   $\num{8000}$ unidades costaría:
+   #+begin_export latex
+   \[ \CT(\num{8000}) = 24 \times \num{8000}^{1/3} = \money{480} \]
+   #+end_export
+
+   Si dividimos los costes totales por la producción obtenemos la
+   curva de costes medios: $\CMe(Q) = 24 Q^{-2/3}$.
+
+   Los costes marginales se obtienen derivando los costes totales:
+   $\CMg(Q) = 8 Q^{-2/3}$.
 
 
-b) Coste total: $\CT(Q) = 24 Q^{1/3}$.
-
-   Coste medio: $\CMe(Q) = 24 Q^{-2/3}$.
-
-   Coste marginal: $\CMg(Q) = 8 Q^{-2/3}$.
-
-   El coste de producir $8000$ unidades es $C(8000) = \money{480}$.
 
 
-
-* 9.8.
+* 9.9.
 
 La curva de costes totales a largo plazo de un empresa es:
 #+begin_export latex
@@ -220,17 +359,42 @@ deseconomías de escala?
 
 ** Answer
 
-Coste medio: $\CMe = Q^2 - 8 Q + 22$.
+La curva de coste medio es:
+#+begin_export latex
+\[
+  \CMe(Q) = \frac{\CT}{Q} = Q^2 - 8 Q + 22
+\]
+#+end_export
+El coste marginal es:
+#+begin_export latex
+\[
+  \CMg(Q) = \frac{\diff \CT}{\diff Q} = 3 Q^2 - 16 Q + 22
+\]
+#+end_export
+La curva de coste medio alcanza un mínimo cuando:
+#+begin_export latex
+\[
+  \frac{\diff \CMe}{\diff Q} = 2 Q - 8   = 0
+\]
+#+end_export
+condición que se cumple si $Q = 4$ unidades.
 
-Coste marginal: $\CMg = 3 Q^2 - 16 Q + 22$.
 
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-9_1004-cmg-cme-long-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Existen economías de escala en el tramo decreciente de $\CMe$: $0 \leq
+Q \leq 4$. Hay deseconomías de escala en el tramo creciente de los
+costes nedios: $Q > 4$.
+#+xxx: endcol
 
-Existen economías de escala si $0 \leq Q \leq 4$; deseconomías si $Q >
-4$.
 
-
-* 9.9.
+* 9.10.
 
 Considere la función de producción: $Q = K L$. Los precios de los
 factores son $w = \wage{1}$ y $r=\price{1}$. A corto plazo el
@@ -247,32 +411,59 @@ c) ¿Cuál es el único nivel de producción en el que coinciden los
 
 ** Answer
 
-a) Costes a corto plazo:
+a) La función de producto total es: $Q = 3 L$. Invirtiendo esta
+   expresión se obtiene la demanda condicional de trabajo a corto
+   plazo: $L = Q/3$. La curva de costes a corto plazo es:
+   $\CT_{\CP}(Q) = 3 + Q / 3$.
+
+b) Igualando la $\RMST = K/L$ con el precio relativo de los factores,
+   $w/r$, se obtiene la senda de expansión del producto a largo plazo:
+   $K = L$.  Sustituyendo esta expresión en la función de producción y
+   operando se obtienen las demandas condicionales de los factores a
+   largo plazo: $L(Q) = Q^{1/2}$ y $K(Q) = Q^{1/2}$.  Finalmente, la
+   curva de costes a largo plazo es: $\CT_{\LP}(Q) = 2 Q^{1/2}$.
+
+c) En general, los costes a corto plazo son mayores que los costes a
+   largo plazo, salvo para un nivel de producción, $Q_a$, en el que se
+   igualan: $\CT_{\LP}(Q_a) = \CT_{\CP}(Q_a)$. En nuestro caso:
    #+begin_export latex
    \[
-     \CT_{\CP}(Q) = 3 + \frac{Q}{3}.
+     2 Q_a^{-1/2} = 3 + Q_a / 3
    \]
    #+end_export
-
-b) La senda de expansión del producto es $K = L$. Las demandas
-   condicionales de factores son $L(Q) = Q^{1/2}$ y $K(Q) =
-   Q^{1/2}$. La curva de costes a largo plazo es:
+   Elevando los dos lados de la ecuación anterior al cuadrado y
+   reordenando obtenemos:
    #+begin_export latex
    \[
-     \CT_{\LP}(Q) = 2 Q^{1/2}
+     Q_a^2 - 18 Q_a + 81 = 0
    \]
    #+end_export
+   Las dos raíces de la ecuación anterior coinciden: $Q_a =
+   9$ unidades.
 
-c) Sólo para $Q = 9$, coinciden el capital a corto plazo, con el nivel
-   óptimo a largo plazo: $K(9) = 9^{1/2} = 3$.
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-9_1004-short-long-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Las costes de corto y de largo plazo coinciden cuando $Q = 9$.
+   Para cualquier otro nivel de producción los costes a corto plazo son
+   mayores que los costes a largo plazo.
+   #+xxx: endcol
 
-   Para otros niveles de producción, los costes a corto plazo son
-   mayores que los costes a largo plazo, porque la empresa no puede
-   sustituir un factor por otro; tan solo puede modificar $L$.
+   Sólo cuando $Q = 9$, coinciden el capital a corto plazo y el nivel
+   óptimo a largo plazo: $K(9) = 9^{1/2} = 3$. Cuando $Q \neq 9$, a
+   corto plazo la empresa no puede modificar $K$ y para ajustar su
+   produccción no puede sustituir un factor por otro; tan sólo puede
+   modificar $L$.
 
 
-* 9.10.
+
+
+* 9.11.
 
 La figura siguiente muestra algunas isocuantas de la función de
 producción de una empresa:
@@ -295,8 +486,14 @@ b) Calcule los costes a largo plazo de producir $40$, $160$ y
 
 ** Answer
 
-a)
-   #+latex: \begin{adjustbox}{valign=t}
+a) Las combinaciones de factores que se elegirían a corto plazo se
+   encuentran en las intersecciones de la senda de expansión del
+   producto, $\Kbar = 4$, con las respectivas isocuantas:
+   #+xxx: fig fig-ans-probl-9_1004-expansion2-*.pdf
+
+   La siguiente tabla muestra los costes a corto plazo asociados a los
+   diferentes niveles de producción:
+
    #+ATTR_LATEX: :booktabs t :center nil :align @{}*{6}{R{0.8cm}}@{}
    |-------+-----+-----+-------+-------+-------------|
    | $Q$   | $K$ | $L$ | $\CF$ | $\CV$ | $\CT_{\CP}$ |
@@ -305,10 +502,15 @@ a)
    | $160$ | $4$ | $4$ | $320$ | $320$ | $640$       |
    | $360$ | $4$ | $9$ | $320$ | $720$ | $1040$      |
    |-------+-----+-----+-------+-------+-------------|
-   #+latex: \end{adjustbox}
 
-b)
-   #+latex: \begin{adjustbox}{valign=t}
+b) A largo plazo, la empresa seleccionaría aquellas cestas donde la
+   pendiente de la isocuanta, en valor absoluto, coincide con el
+   precio relativo de los factores, $w / r = 1$:
+
+   #+xxx: fig fig-ans-probl-9_1004-expansion3-*.pdf
+
+   Los costes a largo plazo se calculan en la siguiente tabla:
+
    #+ATTR_LATEX: :booktabs t :center nil :align @{}*{6}{R{0.8cm}}@{}
    |-------+-----+-----+-------+-------+-------------|
    | $Q$   | $K$ | $L$ | $r K$ | $w L$ | $\CT_{\LP}$ |
@@ -317,17 +519,16 @@ b)
    | $160$ | $4$ | $4$ | $320$ | $320$ | $640$       |
    | $360$ | $6$ | $6$ | $480$ | $480$ | $960$       |
    |-------+-----+-----+-------+-------+-------------|
-   #+latex: \end{adjustbox}
 
-   #+xxx: fig fig-ans-probl-9_1004-expansion2-*.pdf
+   Los costes a corto y a largo plazo sólo coinciden en la
+   intersección de las sendas de expansión a corto y a largo. Se
+   cortan en una combinación que pertenece a la isocuanta $Q = 160$.
 
-   Los costes a corto y a largo sólo coinciden en la intersección de
-   las sendas de expansión a corto y a largo. Se cortan en una
-   combinación que pertenece a la isocuanta $Q = 160$.
-
+   #+xxx: fig fig-ans-probl-9_1004-expansion4-*.pdf
 
 
-* 9.11.
+
+* 9.12.
 
 Explique y justifique si considera correcta o incorrecta cada una
 de las siguientes afirmaciones (use gráficos si lo considera
@@ -347,17 +548,22 @@ d) Siempre que el coste marginal es creciente, también es creciente el
 
 ** Answer
 
-a) Incorrecta: el coste medio se minimizaría en esas condiciones.
+a) Incorrecta: el coste medio se /minimiza/ cuando coincide con el
+   coste marginal.
 
-c) Incorrecta: el coste medio sería creciente, hay deseconomías de
-   escala, y rendimientos de escala decrecientes.
+b) Incorrecta: si $\CMg_{\LP} > \CMe_{\LP}$, el coste medio es
+   creciente y hay deseconomías de escala. La empresa estaría operando
+   con rendimientos de escala /decrecientes/.
 
 c) Correcta: a largo plazo siempre existe la opción de hacer lo mismo
-   que a corto plazo y no incurrir en costes adicionales.
+   que a corto plazo sin incurrir en costes adicionales.
+
+d) Incorrecta: el coste medio es creciente siempre que el coste
+   marginal es /mayor/ que el coste medio.
 
 
 
-* 9.21
+* 9.13
 
 La función de producción de una empresa es $Q = 10 K^{1/2} L^{1/2}$ y
 los precios de los factores de producción son $w = \price{20}$ y $r =
@@ -366,13 +572,63 @@ los precios de los factores de producción son $w = \price{20}$ y $r =
 
 a) ¿Está minimizando costes la empresa? Si su respuesta es negativa,
    determine las cantidades óptimas de trabajo y capital.
+
 b) <<ex9.21:item-b>>Si la empresa aumentara su producción a 100 unidades
    y el capital fuera fijo, ¿cuánto aumentarían los costes de producción?
+
 c) <<ex9.21:item-c>>Si la empresa aumentara su producción a 100
    unidades y todos los factores fueran variables, ¿cuánto aumentarían
    los costes de producción?
+
 d) Compare las respuestas de los apartados [[ex9.21:item-b]] y
    [[ex9.21:item-c]]. ¿Por qué son diferentes?
+
+
+
+** Answer
+
+a) Si $L= 16$ y $K = 4$, la producción máxima que puede obtener la
+   empresa es: $Q = 10 \times 16^{1/2} 4^{1/2} = 80$. Por tanto, la
+   combinación de factores que usa la empresa es técnicamente
+   eficiente.
+
+   Además, $\RMST = K/L = 1/4$ y el precio relativo de los factores
+   también es $w/r = 1/4$. La combinación $L= 16$ y $K = 4$ minimiza
+   los costes de producir $80$ unidades.
+
+b) La función de producción de corto plazo, $\Kbar = 4$, sería:
+   #+begin_export latex
+   \[
+     Q = 20 L^{1/2}
+   \]
+   #+end_export
+   Si la empresa quiere producir $100$ unidades deberá contratar
+   $L=25$ unidades de trabajo. Por tanto, la empresa contrata $9$
+   trabajadores más y sus costes aumentan en $\incr C = w \incr L = 20
+   \times 9 = \money{180}$.
+
+c) La condición de tangencia puede escribirse como: $L = 4 K$.
+   Sustituyendo esta expresión en la isocuanta correspondiente a $Q =
+   100$ se obtiene:
+   #+begin_export latex
+   \[
+     100 = 20 K
+   \]
+   #+end_export
+   por lo que $K = 5$ y $L = 20$. Con respecto a la situación inicial,
+   ahora se contratan $4$ unidades más de trabajo y $1$ unidad más de
+   capital.  El incremento del coste es:
+   #+begin_export latex
+   \[
+     \incr C = w \incr L + r \incr K =
+     20 \times 4 + 80 \times 1 = \money{160}
+   \]
+   #+end_export
+
+d) Los costes se incrementan más cuando la empresa no puede modificar
+   el capital. Si la empresa no tiene restricciones en la contratación
+   de los factores puede seleccionar la combinación de factores
+   económicamente eficiente.
 
 
 

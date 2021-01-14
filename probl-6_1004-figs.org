@@ -3,6 +3,353 @@
 #+TITLE: Problem Figures 3
 
 
+* 6.1 Income cosumption curve and Engel curve
+
+
+** Income consumption curve
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-ic-curve.tex
+  \begin{tikzpicture}[xscale=0.048, yscale=0.05]
+    \draw[curve, semithick]
+      (0, 30) -- (30, 0)
+      (0, 60) -- (60, 0)
+      ;
+   \draw[curve, very thick]
+      (0, 0) -- (50, 25) node[right] {$\CRC$}
+      ;
+
+    \draw[curve, semithick]
+      plot[smooth, domain=9.43:40] ({\x}, {40/(\x/10)^2}) ;
+
+    \draw[curve, semithick]
+      plot[smooth, domain=25:50] ({\x}, {320/(\x/10)^2}) ;
+
+    \draw[help lines]
+      (0, 10) node[left] {$10$} -| node[dot] {}
+      (20, 0) node[below] {$20$}
+      (40, 20) node[dot] {}
+      ;
+
+    \draw[axis, very thick]
+      (0, 70) node[left] {$Y$} |-
+      (70, 0) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+** Engel curve
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-engel-curve.tex
+  \begin{tikzpicture}[xscale=0.048, yscale=0.39]
+    \draw[curve, very thick]
+      (0, 0) -- (50, 7.5)
+      ;
+
+    \draw[help lines]
+      (0, 3) node[left] {$300$} -| node[dot] {}
+      (20, 0) node[below] {$20$} ;
+
+    \draw[axis, very thick]
+      (0, 9) node[left] {$M$} |-
+      (70, 0) node[below] {$X$}
+      ;
+  \end{tikzpicture}
+#+end_src
+
+
+
+* 6.2 Income consumption curve
+
+
+** Figures
+
+#+begin_src latex :tangle fig-probl-6_1004-crc20.tex
+  \begin{tikzpicture}<<ex6.2:xy-scale>>
+
+    <<ex6.2:coordinates>>
+    <<ex6.2:grid>>
+
+    <<ex6.2:lines>>
+    <<ex6.2:crc>>
+
+    <<ex6.2:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-crc20.tex
+  \begin{tikzpicture}<<ex6.2:xy-scale-small>>
+
+    <<ex6.2:coordinates>>
+    <<ex6.2:grid>>
+
+    <<ex6.2:lines>>
+    <<ex6.2:crc>>
+    \path[curve] (0, 0) node[dot] {} ;
+    \path[curve,
+      every node/.style={font=\bfseries, inner sep=1pt, fill=white}]
+      (0,0) node[below left] {A}
+      (A) node[above=2pt] {B}
+      (B) node[above=2pt] {C}
+      (C) node[above=2pt] {D}
+      (D) node[above right=1pt and 1pt] {E}
+      (E) node[above right=1pt and 1pt] {F}
+      (F) node[above right=1pt and 1pt] {G}
+      ;
+    <<ex6.2:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-engel-x.tex
+  \begin{tikzpicture}<<ex6.2:xy-scale-engel>>
+    <<ex6.2:coord-engel-x>>
+    <<ex6.2:grid-engel>>
+    <<ex6.2:engel-x>>
+    <<ex6.2:axes-engel-x>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-engel-y.tex
+  \begin{tikzpicture}<<ex6.2:xy-scale-engel>>
+    <<ex6.2:coord-engel-y>>
+    <<ex6.2:grid-engel>>
+    <<ex6.2:engel-y>>
+    <<ex6.2:axes-engel-y>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex6.2:axes
+  \draw[axis, very thick] (0, 25) node[left] {$Y$} |-
+    (48, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.2:axes-engel-x
+  \draw[axis, very thick] (0, 60) node[left] {$M$} |-
+    (25, 0) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.2:axes-engel-y
+  \draw[axis, very thick] (0, 60) node[left] {$M$} |-
+    (25, 0) node[below] {$Y$} ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex6.2:xy-scale
+  [xscale = 0.20, yscale = 0.20]
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.2:xy-scale-small
+  [xscale = 0.15, yscale = 0.15]
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.2:xy-scale-engel
+  [xscale = 0.14, yscale = 0.058]
+#+end_src
+
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex6.2:coordinates
+  \coordinate (A) at (4, 2);
+  \coordinate (B) at (10, 3);
+  \coordinate (C) at (16, 4);
+  \coordinate (D) at (20, 6);
+  \coordinate (E) at (16, 12);
+  \coordinate (F) at (12, 18);
+  \coordinate (G) at (11, 22);
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.2:coord-engel-x
+  \coordinate (X0) at ( 0,  0);
+  \coordinate (X1) at ( 4,  8);
+  \coordinate (X2) at (10, 16);
+  \coordinate (X3) at (16, 24);
+  \coordinate (X4) at (20, 32);
+  \coordinate (X5) at (16, 40);
+  \coordinate (X6) at (12, 48);
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.2:coord-engel-y
+  \coordinate (Y0) at ( 0,  0);
+  \coordinate (Y1) at ( 2,  8);
+  \coordinate (Y2) at ( 3, 16);
+  \coordinate (Y3) at ( 4, 24);
+  \coordinate (Y4) at ( 6, 32);
+  \coordinate (Y5) at (12, 40);
+  \coordinate (Y6) at (18, 48);
+#+end_src
+
+
+*** Grid
+
+#+begin_src latex :noweb-ref ex6.2:grid
+  \draw[help lines]
+    ( 2, 22.5) -- ( 2, 0)
+    ( 4, 22.5) -- ( 4, 0) node[below] {$4$}
+    ( 6, 22.5) -- ( 6, 0)
+    ( 8, 22.5) -- ( 8, 0) node[below] {$8$}
+    (10, 22.5) -- (10, 0)
+    (12, 22.5) -- (12, 0) node[below] {$12$}
+    (14, 22.5) -- (14, 0)
+    (16, 22.5) -- (16, 0) node[below] {$16$}
+    (18, 22.5) -- (18, 0)
+    (20, 22.5) -- (20, 0) node[below] {$20$}
+    (22, 22.5) -- (22, 0)
+    (24, 22.5) -- (24, 0) node[below] {$24$}
+    (26, 22.5) -- (26, 0)
+    (28, 22.5) -- (28, 0) node[below] {$28$}
+    (30, 22.5) -- (30, 0)
+    (32, 22.5) -- (32, 0) node[below] {$32$}
+    (34, 22.5) -- (34, 0)
+    (36, 22.5) -- (36, 0) node[below] {$36$}
+    (38, 22.5) -- (38, 0)
+    (40, 22.5) -- (40, 0) node[below] {$40$}
+    (42, 22.5) -- (42, 0)
+    (44, 22.5) -- (44, 0) node[below] {$44$}
+  ;
+
+  \draw[help lines]
+    (44.5,  2) -- (0,  2)
+    (44.5,  4) -- (0,  4) node[left] {$4$}
+    (44.5,  6) -- (0,  6)
+    (44.5,  8) -- (0,  8) node[left] {$8$}
+    (44.5, 10) -- (0, 10)
+    (44.5, 12) -- (0, 12) node[left] {$12$}
+    (44.5, 14) -- (0, 14)
+    (44.5, 16) -- (0, 16) node[left] {$16$}
+    (44.5, 18) -- (0, 18)
+    (44.5, 20) -- (0, 20) node[left] {$20$}
+    (44.5, 22) -- (0, 22)
+  ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex6.2:grid-engel
+  \draw[help lines]
+    ( 5, 55) -- ( 5, 0) node[below] {$5$}
+    (10, 55) -- (10, 0) node[below] {$10$}
+    (15, 55) -- (15, 0) node[below] {$15$}
+    (20, 55) -- (20, 0) node[below] {$20$}
+  ;
+
+  \draw[help lines]
+    (22, 10) -- (0, 10) node[left] {$100$}
+    (22, 20) -- (0, 20) node[left] {$200$}
+    (22, 30) -- (0, 30) node[left] {$300$}
+    (22, 40) -- (0, 40) node[left] {$400$}
+    (22, 50) -- (0, 50) node[left] {$500$}
+  ;
+#+end_src
+
+
+*** Budget lines
+
+
+#+begin_src latex :noweb-ref ex6.2:lines
+  \draw[curve, semithick]
+    (0, 4) -- (8, 0)
+    (0, 8) -- (16, 0)
+    (0, 12) -- (24, 0)
+    (0, 16) -- (32, 0)
+    (0, 20) -- (40, 0)
+    (4, 22) -- (44, 2)
+    ;
+#+end_src
+
+
+
+*** Curve
+
+#+begin_src latex :noweb-ref ex6.2:crc
+  \draw[curve, very thick,
+    use Hobby shortcut,
+    tangent/.style={%
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,},]
+    ([tangent=60]0, 0) .. (A) .. (B) ..
+    (C) .. ([tangent=90]D) .. (E) .. (F) .. (G)
+    (G) node[above] {\CRC};
+
+  \draw[curve, very thick]
+    (A) node[dot]  {}
+    (B) node[dot]  {}
+    (C)  node[dot]  {}
+    (D)  node[dot]  {}
+    (E)  node[dot]  {}
+    (F)  node[dot]  {};
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.2:engel-x
+  \draw[curve, very thick,
+    use Hobby shortcut,
+    tangent/.style={%
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,},]
+    (X0) .. (X1) .. (X2) ..
+    (X3) .. (X4) .. (X5) .. (X6)
+    ;
+
+  \draw[curve, every node/.style={dot}]
+    (X0) node {}
+    (X1) node {}
+    (X2) node {}
+    (X3) node {}
+    (X4) node {}
+    (X5) node {}
+    (X6) node {};
+
+  \draw[curve, every node/.style={font=\bfseries, fill=white, inner sep=1pt}]
+    (X0) node[left=3pt]  {A}
+    (X1) node[above=3pt]  {B}
+    (X2) node[above=3pt]  {C}
+    (X3) node[above=3pt]  {D}
+    (X4) node[right=3pt]  {E}
+    (X5) node[above=3pt]  {F}
+    (X6) node[above=3pt]  {G};
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.2:engel-y
+  \draw[curve, very thick,
+    use Hobby shortcut,
+    tangent/.style={%
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,},]
+    (Y0) .. (Y1) .. (Y2) ..
+    (Y3) .. (Y4) .. (Y5) .. (Y6)
+    ;
+
+  \draw[curve, every node/.style={dot}]
+    (Y0) node {}
+    (Y1) node {}
+    (Y2) node {}
+    (Y3) node {}
+    (Y4) node {}
+    (Y5) node {}
+    (Y6) node {};
+
+  \draw[curve, every node/.style={font=\bfseries, fill=white, inner sep=1pt}]
+    (Y0) node[left=3pt]  {A}
+    (Y1) node[right=3pt]  {B}
+    (Y2) node[right=3pt]  {C}
+    (Y3) node[right=3pt]  {D}
+    (Y4) node[above=3pt]  {E}
+    (Y5) node[above=3pt]  {F}
+    (Y6) node[above=3pt]  {G};
+#+end_src
+
+
+
 * 6.3 Income consumption curve
 
 
@@ -10,11 +357,8 @@
 
 #+begin_src latex :tangle fig-probl-6_1004-crc1.tex
   \begin{tikzpicture}<<ex3:xy-scale>>
-
     <<ex3:grid>>
-
     <<ex3:crc>>
-
     <<ex3:axes>>
   \end{tikzpicture}
 #+end_src
@@ -22,13 +366,18 @@
 #+begin_src latex :tangle fig-ans-probl-6_1004-crc2.tex
   \begin{tikzpicture}<<ex3:xy-scale-small>>
 
-    <<ex3:grid>>
-
+    \begin{scope}[nearly transparent]
+      <<ex3:grid>>
+    \end{scope}
     <<ex3:crc>>
 
-    \draw[curve, very thick] (0, 70) -- (70, 0) ;
+    \draw[curve, semithick]
+      (0, 70) node[left] {$70$} --
+      (70, 0) node[below] {$70$} ;
 
-    \node[dot] at (40, 30) { } ;
+    \draw[help lines]
+      (0, 30) node[left] {$30$} -| node[dot] { }
+      (40, 0) node[below] {$40$} ;
 
     <<ex3:axes>>
   \end{tikzpicture}
@@ -37,13 +386,18 @@
 #+begin_src latex :tangle fig-ans-probl-6_1004-crc3.tex
   \begin{tikzpicture}<<ex3:xy-scale-small>>
 
-    <<ex3:grid>>
-
+    \begin{scope}[nearly transparent]
+      <<ex3:grid>>
+    \end{scope}
     <<ex3:crc>>
 
-    \draw[curve, very thick] (40, 80) -- (120, 0) ;
+    \draw[curve, semithick]
+      (40, 80) --
+      (120, 0) node[below] {$120$} ;
 
-    \node[dot] at (80, 40) { } ;
+    \draw[help lines]
+      (0, 40) node[left] {$40$} -| node[dot] { }
+      (80, 0) node[below] {$80$} ;
 
     <<ex3:axes>>
   \end{tikzpicture}
@@ -65,7 +419,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex3:xy-scale-small
-  [xscale = 0.035, yscale = 0.035]
+  [xscale = 0.045, yscale = 0.045]
 #+end_src
 
 
@@ -108,29 +462,87 @@
 #+end_src
 
 
+* 6.4 Inferior goods
+
+
+** Figures
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-inferior.tex :noweb no
+  \begin{tikzpicture}[xscale = 1, yscale = 1]
+    \coordinate (L1-1) at (0, 1.75) ;
+    \coordinate (L1-2) at (1.75, 0) ;
+
+    \coordinate (L2-1) at (0, 2.5) ;
+    \coordinate (L2-2) at (2.5, 0) ;
+
+    \coordinate (A) at ($(L1-1)!0.6!(L1-2)$) ;
+    \coordinate (B) at ($(A)-0.5*(1,0.6)$) ;
+
+    \draw[curve, very thick]
+      (L1-1) -- (L1-2)
+      (L2-1) -- (L2-2)
+      (A) node[dot, label={right:$A$}] {}
+      (B) node[dot, label={left:$B$}] {}
+      ;
+
+    \draw[shift arrow, ->]
+      ($(L1-1)!0.2!(L1-2)$) -- ($(L2-1)!0.3!(L2-2)$)
+      ;
+
+    \draw[shift arrow, ->, shorten <= 3pt,  shorten >= 3pt]
+      (A) -- (B)
+      ;
+
+    \draw[axis, very thick]
+      (0, 3) node[left] {$Y$} |-
+      (3, 0) node[below] {$X$}
+      ;
+  \end{tikzpicture}
+#+end_src
+
+
 * 6.5 Price consumption curve
 
 
 ** Figures
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-cpc1.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.0585, yscale = 0.085]
+  \begin{tikzpicture}[xscale = 0.048, yscale = 0.064]
+    \coordinate (Xaxis) at (60, 0) ;
+    \coordinate (Yaxis) at (0, 40) ;
+    \coordinate (E1) at (8, 24) ;
+    \coordinate (E2) at (16, 24) ;
+    \coordinate (A) at (0, 30) ;
+    \coordinate (B) at (40, 0) ;
+    \coordinate (C) at (40, 15) ;
 
-  \draw[curve, very thick, domain=0:45, smooth]
-    (0, 30) node[left] {$30$}
-    plot (\x, {30*(\x+24)/(2*\x+24)}) node[right] {$\CPC$} ;
+    \draw[curve, very thick]
+      (0, 24) node[left] {$24$} -- (40, 24) node[right] {$\CPC$} ;
 
-  \draw[axis, very thick] (0, 45) node[left] {$Y$} |-
-    (60, 0) node[below] {$X$} ;
+    \draw[curve, semithick]
+      (A) -- (B)
+      (A) -- (C) ;
+
+    \draw[curve, semithick, domain=3:20, smooth]
+       plot (\x, {10*(26.5421/(\x/10))^0.25}) ;
+
+    \draw[curve, semithick, domain=6:28, smooth]
+       plot (\x, {10*(53.0482/(\x/10))^0.25}) ;
+
+    \draw[curve]
+      (E1) node[dot] {}
+      (E2) node[dot] {} ;
+
+    \draw[axis, very thick]
+      (Yaxis) node[left] {$Y$} |- (Xaxis) node[below] {$X$} ;
   \end{tikzpicture}
 #+end_src
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-cpc2.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.0585, yscale = 0.255]
+  \begin{tikzpicture}[xscale = 0.048, yscale = 0.17]
 
-  \draw[curve, very thick, domain=0:50, smooth]
-    (0, 10) node[left] {$10$}
-    plot (\x, {120/(\x+12)}) node[right] {$D$} ;
+  \draw[curve, very thick, domain=4:40, smooth]
+       plot (\x, {48/\x}) node[right] {$D$} ;
 
   \draw[axis, very thick] (0, 15) node[left] {$P_X$} |-
     (60, 0) node[below] {$X$} ;
@@ -139,7 +551,464 @@
 
 
 
-* 6.11 Income and substitution effects
+* 6.6 Price consumption curve
+
+
+** Figures
+
+#+begin_src latex :tangle fig-probl-6_1004-cpc22.tex
+  \begin{tikzpicture}<<ex6.6:xy-scale>>
+
+    <<ex6.6:coordinates>>
+    <<ex6.6:grid>>
+    <<ex6.6:grid-labels>>
+
+    <<ex6.6:cpc>>
+
+    <<ex6.6:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-cpc22-a.tex
+  \begin{tikzpicture}<<ex6.6:xy-scale-small>>
+
+   <<ex6.6:coordinates>>
+
+    \begin{scope}[nearly transparent]
+      <<ex6.6:grid>>
+      <<ex6.6:grid-labels>>
+    \end{scope}
+    <<ex6.6:cpc>>
+    \draw[curve, semithick] (0, 60) node[left] {$60$} --
+      (60, 0) node[below] {$60$}
+      ;
+    \draw[help lines]
+      (Yaxis |- F) node[left] {$25$} -| node[dot] {}
+      (Xaxis -| F) node[below] {$35$} ;
+
+    <<ex6.6:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-cpc22-b.tex
+  \begin{tikzpicture}<<ex6.6:xy-scale-small>>
+
+   <<ex6.6:coordinates>>
+
+    \begin{scope}[nearly transparent]
+      <<ex6.6:grid>>
+    \end{scope}
+    <<ex6.6:grid-labels>>
+    <<ex6.6:cpc>>
+    \draw[curve, semithick]
+      (0, 60) node[left] {$60$} -- (60, 0)
+      (0, 60) -- (40, 0)
+      (0, 60) -- (30, 0)
+      (0, 60) -- (25, 0)
+      (0, 60) -- (20, 0)
+      ;
+
+    \draw[curve, font=\bfseries]
+      (F) node[dot, label={right:A}] {}
+      (E) node[dot, label={right:B}] {}
+      (D) node[dot] {}
+      (C) node[dot] {}
+      (B) node[dot] {}
+      ;
+
+    \draw[curve, font=\bfseries,
+      every node/.style={fill=white, inner sep = 1pt}]
+      ($(D)+(0, 4)$) node[] {C}
+      ($(C)+(2, 4)$) node[] {D}
+      ($(B)-(3, 3)$) node[] {E}
+      ;
+
+    <<ex6.6:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-demand-x.tex
+  \begin{tikzpicture}[xscale=0.1, yscale=0.35]
+    \coordinate (Xaxis) at (42, 0);
+    \coordinate (Yaxis) at (0, 8);
+    \coordinate (A) at (35, 2);
+    \coordinate (B) at (30, 3);
+    \coordinate (C) at (25, 4);
+    \coordinate (D) at (15, 4.8);
+    \coordinate (E) at (10, 6);
+
+    \draw[help lines, xstep=10, ystep=2] (0, 0) grid (38, 7) ;
+    \draw[help lines]
+    (0, 2) node[left] {$2$}
+    (0, 4) node[left] {$4$}
+    (0, 6) node[left] {$6$}
+    (10, 0) node[below] {$10$}
+    (20, 0) node[below] {$20$}
+    (30, 0) node[below] {$30$}
+
+    ;
+    \draw[curve, very thick,
+      use Hobby shortcut,
+      tangent/.style={%
+        in angle={(180+#1)},
+        Hobby finish,
+        designated Hobby path=next,
+        out angle=#1,},]
+      (A) .. (B) .. (C) .. (D) .. (E)
+      ;
+
+    \draw[curve, every node/.style={dot}]
+      (A) node  {}
+      (B) node  {}
+      (C) node  {}
+      (D) node  {}
+      (E) node  {}
+      ;
+
+    \draw[curve,
+      every node/.style={font=\bfseries, fill=white, inner sep = 1pt, above=3pt}]
+      (A) node  {A}
+      (B) node  {B}
+      (C) node  {C}
+      (D) node  {D}
+      (E) node  {E}
+      ;
+
+    \draw[axis, very thick] (Yaxis) node[left] {$P_X$} |-
+    (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex6.6:axes
+  \draw[axis, very thick] (Yaxis) node[left] {$Y$} |-
+    (Xaxis) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.6:axes-small
+  \draw[axis, very thick]
+    ($1.05*(Yaxis)$) node[left] {$Y$} |-
+    ($1.05*(Xaxis)$) node[below] {$X$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.6:xy-scale
+  [xscale = 0.13, yscale = 0.13]
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.6:xy-scale-small
+  [xscale = 0.07, yscale = 0.07]
+#+end_src
+
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex6.6:coordinates
+  \coordinate (Xaxis) at (65, 0);
+  \coordinate (Yaxis) at (0, 65);
+  \coordinate (A) at (7.5, 31);
+  \coordinate (B) at (10, 30); % Px = 6
+  \coordinate (C) at (15, 25); % Px = 4.8
+  \coordinate (I) at (20, 16); % Px = 5
+  \coordinate (D) at (25, 10); % Px = 4
+  \coordinate (E) at (30, 15); % Px = 3
+  \coordinate (F) at (35, 25); % Px = 2
+  \coordinate (G) at (50, 35);
+  \coordinate (H) at (60, 37.5);
+
+#+end_src
+
+
+*** Grid
+
+#+begin_src latex :noweb-ref ex6.6:grid
+  \draw[help lines]
+    (  5, 62) -- (  5, 0)
+    ( 10, 62) -- ( 10, 0)
+    ( 15, 62) -- ( 15, 0)
+    ( 25, 62) -- ( 25, 0)
+    ( 30, 62) -- ( 30, 0)
+    ( 35, 62) -- ( 35, 0)
+    ( 45, 62) -- ( 45, 0)
+    ( 50, 62) -- ( 50, 0)
+    ( 55, 62) -- ( 55, 0)
+  ;
+
+  \draw[help lines]
+    (62,  5) -- (0,  5)
+    (62, 10) -- (0, 10)
+    (62, 15) -- (0, 15)
+    (62, 25) -- (0, 25)
+    (62, 30) -- (0, 30)
+    (62, 35) -- (0, 35)
+    (62, 45) -- (0, 45)
+    (62, 50) -- (0, 50)
+    (62, 55) -- (0, 55)
+  ;
+
+  \draw[help lines, semithick, black!60!white]
+    (20, 62) -- (20, 0)
+    (40, 62) -- (40, 0)
+    (60, 62) -- (60, 0)
+    (62, 20) -- (0, 20)
+    (62, 40) -- (0, 40)
+    (62, 60) -- (0, 60)
+  ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.6:grid-labels
+  \draw[help lines]
+    (20, 0) node[below] {$20$}
+    (40, 0) node[below] {$40$}
+    (60, 0) node[below] {$60$}
+    (0, 20) node[left]  {$20$}
+    (0, 40) node[left]  {$40$}
+    (0, 60) node[left]  {$60$}
+  ;
+
+#+end_src
+
+
+*** Curve
+#+begin_src latex :noweb-ref ex6.6:cpc
+  \draw[curve, very thick,
+    use Hobby shortcut,
+    tangent/.style={%
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,},]
+    (A) .. (B) ..
+    (C) .. (I) .. ([tangent = 0] D) .. (E) .. (F) .. (G) .. (H)
+    (H) node[right] {\CPC};
+#+end_src
+
+
+
+* 6.7 Price changes and utility
+
+** Choice
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-price-change.tex
+  \begin{tikzpicture}[xscale=1, yscale=1]
+    \coordinate (Xaxis) at (3.5, 0);
+    \coordinate (Yaxis) at (0, 3.5);
+    \coordinate (M) at (0, 2.5);
+    \coordinate (N) at (1.25, 0);
+    \coordinate (P) at (3, 0);
+    \coordinate (A) at ($(M)!0.7!(P)$);
+    \coordinate (B) at ($(M)!0.5!(N)$);
+
+    \draw[curve, very thick]
+      (M) -- (N)  (M) -- (P) ;
+
+    \draw[curve]
+      (A) node[dot, label={above:$A$}]  {}
+      (B) node[dot, label={left:$B$}]  {}
+      ;
+
+    \draw[shift arrow, ->, shorten >= 4pt, shorten <= 4pt]
+      (A) -- (B) ;
+
+    \draw[axis, very thick] (Yaxis) node[left] {$Y$} |-
+    (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+** Demand
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-demand-utility.tex
+  \begin{tikzpicture}[xscale=0.175, yscale=0.206]
+    \coordinate (Xaxis) at (20, 0);
+    \coordinate (Yaxis) at (0, 17);
+    \coordinate (A) at (2, 14);
+    \coordinate (B) at (3, 11);
+    \coordinate (C) at (5, 8);
+    \coordinate (D) at (7, 6);
+    \coordinate (E) at (10, 4);
+    \coordinate (F) at (14, 2);
+    \coordinate (dX) at (1, 0);
+    \coordinate (dY) at (0, 1);
+
+    \draw[curve, very thick,
+      use Hobby shortcut,
+      tangent/.style={%
+        in angle={(180+#1)},
+        Hobby finish,
+        designated Hobby path=next,
+        out angle=#1,},]
+      (A) .. (B) .. (C) .. (D) .. (E) .. (F) (F) node[right] {$X^{d}$}
+      ;
+
+    \draw[use Hobby shortcut,
+      shift arrow, ->]
+      ($(C)+1*(dX)$) .. ($(B)+1*(dX)$) .. ($(A)+1*(dX)$)  ;
+
+    \draw[use Hobby shortcut,
+      shift arrow, ->]
+      ($(D)+1*(dY)$) .. ($(E)+1*(dY)$) .. ($(F)+1*(dY)$)  ;
+
+    \path[curve, font=\scriptsize]
+      ($(B)+6*(dX)$) node[align=left] {Disminuye\\la utilidad}
+      ($(E)+2*(dY)+5*(dX)$) node[align=left] {Aumenta\\la utilidad}
+      ;
+
+    \draw[axis, very thick] (Yaxis) node[left] {$P_X$} |-
+    (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+* 6.8 Individual and market demands
+
+
+** Individual and market demands
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-ind-market.tex
+  \begin{tikzpicture}[xscale=1, yscale=0.75]
+    \coordinate (Xaxis) at (6, 0);
+    \coordinate (Yaxis) at (0, 3.5);
+    \coordinate (M) at (0, 2.75);
+    \coordinate (N) at (1, 0);
+    \coordinate (P) at (5, 0);
+
+    \draw[curve, very thick]
+      (M) node[left] {$\dfrac{a}{b}$} -- (N) node[below] {$a$}
+       node[pos=0.8, right] {$X_i^d$} ;
+    \draw[curve, very thick]
+      (M) -- (P)  node[below] {$n a$}
+       node[pos=0.8, right=12pt] {$X^d$} ;
+
+    \draw[axis, very thick] (Yaxis) node[left] {$P_X$} |-
+    (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+* 6.9 Neutral goods and perfect substitutes
+
+** Choice
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-choice-neutral.tex
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.0625]
+    \coordinate (Xaxis) at (80, 0);
+    \coordinate (Yaxis) at (0, 45);
+    \coordinate (M) at (0, 25);
+    \coordinate (N) at (50, 0);
+    \coordinate (E) at (50, 0);
+
+    \draw[curve, very thick]
+      (M) node[left] {$25$} -- (N) node[below] {$50$} ;
+    \draw[curve, semithick]
+      (20, 0) -- (20, 37)
+      (35, 0) -- (35, 37)
+      (50, 0) -- (50, 37)
+      (65, 0) -- (65, 37)
+      ;
+    \node[dot] at (E) {} ;
+    \draw[axis, very thick] (Yaxis) node[left] {$Y$} |-
+      (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-choice-subst.tex
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.0625]
+    \coordinate (Xaxis) at (80, 0);
+    \coordinate (Yaxis) at (0, 45);
+    \coordinate (M) at (0, 25);
+    \coordinate (N) at (50, 0);
+    \coordinate (E) at (50, 0);
+
+    \draw[curve, very thick]
+      (M) node[left] {$25$} -- (N) node[below] {$50$} ;
+    \draw[curve, semithick]
+      (20, 0) -- (0, 20)
+      (35, 0) -- (0, 35)
+      (50, 0) -- (10, 37)
+      (65, 0) -- (25, 37)
+      ;
+    \node[dot] at (E) {} ;
+    \draw[axis, very thick] (Yaxis) node[left] {$Y$} |-
+      (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+** Demand
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-demand-neutral.tex
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.25]
+    \coordinate (Xaxis) at (80, 0);
+    \coordinate (Yaxis) at (0, 10);
+    \coordinate (E) at (50, 2);
+    \coordinate (A) at (25, 4);
+
+    \draw[curve, very thick]
+      plot[smooth, domain=12:65]
+      (\x, {100/\x}) node[right] {$X^{d}_{A}$}
+      ;
+    \draw[help lines]
+      (Yaxis |- E) node[left] {$2$} -| node[dot] {}
+      (Xaxis -| E) node[below] {$50$}
+      ;
+    \draw[axis, very thick] (Yaxis) node[left] {$P_X$} |-
+      (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-demand-subst.tex
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.25]
+    \coordinate (Xaxis) at (80, 0);
+    \coordinate (Yaxis) at (0, 10);
+    \coordinate (E) at (50, 2);
+    \coordinate (A) at (25, 4);
+
+    \draw[curve, very thick]
+      plot[smooth, domain=25:65]
+      (\x, {100/\x}) node[right] {$X^{d}_{B}$}
+      ;
+    \draw[help lines]
+      (Yaxis |- E) node[left] {$2$} -| node[dot] {}
+      (Xaxis -| E) node[below] {$50$}
+      (Yaxis |- A) node[left] {$4$} -|
+      (Xaxis -| A) node[below] {$25$}
+      ;
+    \draw[axis, very thick] (Yaxis) node[left] {$P_X$} |-
+      (Xaxis) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+* 6.10 Demand for perfect complements
+
+** Demand
+
+#+begin_src latex :tangle fig-ans-probl-6_1004-demand-compl.tex
+  \begin{tikzpicture}[xscale=3.75, yscale=0.75]
+    \coordinate (Xaxis) at (0.8, 0);
+    \coordinate (Yaxis) at (0, 4);
+    \coordinate (E) at (0.5, 2);
+
+    \draw[curve, very thick]
+      plot[smooth, domain=0.46:0.56]
+      (\x, {6/\x-10}) node[right] {$C^{d}$}
+      ;
+    \draw[help lines]
+      (Yaxis |- E) node[left] {$2$} -| node[dot] {}
+      (Xaxis -| E) node[below] {$0.500$}
+      ;
+    \draw[axis, very thick] (Yaxis) node[left] {$P_C$} |-
+      (Xaxis) node[below] {$C$} ;
+  \end{tikzpicture}
+#+end_src
+
+
+* COMMENT 6.11 Income and substitution effects
 
 #+begin_src latex :tangle fig-probl-6_1004-fxs.tex :noweb no
   \begin{tikzpicture}[xscale = 0.15, yscale = 0.1,
@@ -189,7 +1058,7 @@
 #+end_src
 
 
-* 6.8 Perfect complements
+* COMMENT 6.8 Income and substitution effects: Perfect complements
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-compl.tex :noweb no
   \begin{tikzpicture}[xscale = 1, yscale = 1]
@@ -223,234 +1092,9 @@
 #+end_src
 
 
-* 6.20 Income consumption curve
 
 
-** Figures
-
-#+begin_src latex :tangle fig-probl-6_1004-crc20.tex
-  \begin{tikzpicture}<<ex6.20:xy-scale>>
-
-    <<ex6.20:coordinates>>
-    <<ex6.20:grid>>
-
-    <<ex6.20:lines>>
-    <<ex6.20:crc>>
-
-    <<ex6.20:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Common
-
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex6.20:axes
-  \draw[axis, very thick] (0, 25) node[left] {$Y$} |-
-    (48, 0) node[below] {$X$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex6.20:xy-scale
-  [xscale = 0.20, yscale = 0.20]
-#+end_src
-
-*** Coordinates
-
-#+begin_src latex :noweb-ref ex6.20:coordinates
-  \coordinate (A) at (4, 2);
-  \coordinate (B) at (10, 3);
-  \coordinate (C) at (16, 4);
-  \coordinate (D) at (20, 6);
-  \coordinate (E) at (16, 12);
-  \coordinate (F) at (12, 18);
-  \coordinate (G) at (11, 22);
-
-#+end_src
-
-*** Grid
-
-#+begin_src latex :noweb-ref ex6.20:grid
-  \draw[help lines]
-    ( 2, 22.5) -- ( 2, 0)
-    ( 4, 22.5) -- ( 4, 0) node[below] {$4$}
-    ( 6, 22.5) -- ( 6, 0)
-    ( 8, 22.5) -- ( 8, 0) node[below] {$8$}
-    (10, 22.5) -- (10, 0)
-    (12, 22.5) -- (12, 0) node[below] {$12$}
-    (14, 22.5) -- (14, 0)
-    (16, 22.5) -- (16, 0) node[below] {$16$}
-    (18, 22.5) -- (18, 0)
-    (20, 22.5) -- (20, 0) node[below] {$20$}
-    (22, 22.5) -- (22, 0)
-    (24, 22.5) -- (24, 0) node[below] {$24$}
-    (26, 22.5) -- (26, 0)
-    (28, 22.5) -- (28, 0) node[below] {$28$}
-    (30, 22.5) -- (30, 0)
-    (32, 22.5) -- (32, 0) node[below] {$32$}
-    (34, 22.5) -- (34, 0)
-    (36, 22.5) -- (36, 0) node[below] {$36$}
-    (38, 22.5) -- (38, 0)
-    (40, 22.5) -- (40, 0) node[below] {$40$}
-    (42, 22.5) -- (42, 0)
-    (44, 22.5) -- (44, 0) node[below] {$44$}
-  ;
-
-  \draw[help lines]
-    (44.5,  2) -- (0,  2)
-    (44.5,  4) -- (0,  4) node[left] {$4$}
-    (44.5,  6) -- (0,  6)
-    (44.5,  8) -- (0,  8) node[left] {$8$}
-    (44.5, 10) -- (0, 10)
-    (44.5, 12) -- (0, 12) node[left] {$12$}
-    (44.5, 14) -- (0, 14)
-    (44.5, 16) -- (0, 16) node[left] {$16$}
-    (44.5, 18) -- (0, 18)
-    (44.5, 20) -- (0, 20) node[left] {$20$}
-    (44.5, 22) -- (0, 22)
-  ;
-#+end_src
-
-*** Budget lines
-#+begin_src latex :noweb-ref ex6.20:lines
-  \draw[curve, semithick]
-    (0, 4) -- (8, 0)
-    (0, 8) -- (16, 0)
-    (0, 12) -- (24, 0)
-    (0, 16) -- (32, 0)
-    (0, 20) -- (40, 0)
-    (4, 22) -- (44, 2)
-    ;
-#+end_src
-
-
-
-*** Curve
-#+begin_src latex :noweb-ref ex6.20:crc
-  \draw[curve, very thick,
-    use Hobby shortcut,
-    tangent/.style={%
-      in angle={(180+#1)},
-      Hobby finish,
-      designated Hobby path=next,
-      out angle=#1,},]
-    ([tangent=60]0, 0) .. (A) .. (B) ..
-    (C) .. ([tangent=90]D) .. (E) .. (F) .. (G)
-    (G) node[above] {\CRC};
-  \draw[curve, very thick]
-    (A) node[dot]  {}
-    (B) node[dot]  {}
-    (C)  node[dot]  {}
-    (D)  node[dot]  {}
-    (E)  node[dot]  {}
-    (F)  node[dot]  {};
-#+end_src
-
-
-
-* 6.22 Price consumption curve
-
-
-** Figures
-
-#+begin_src latex :tangle fig-probl-6_1004-cpc22.tex
-  \begin{tikzpicture}<<ex6.22:xy-scale>>
-
-    <<ex6.22:coordinates>>
-    <<ex6.22:grid>>
-
-    <<ex6.22:cpc>>
-
-    <<ex6.22:axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-** Common
-
-
-*** Axes
-
-#+begin_src latex :noweb-ref ex6.22:axes
-  \draw[axis, very thick] (0, 65) node[left] {$Y$} |-
-    (65, 0) node[below] {$X$} ;
-#+end_src
-
-#+begin_src latex :noweb-ref ex6.22:xy-scale
-  [xscale = 0.13, yscale = 0.13]
-#+end_src
-
-*** Coordinates
-
-#+begin_src latex :noweb-ref ex6.22:coordinates
-  \coordinate (A) at (7.5, 31);
-  \coordinate (B) at (10, 30); % Px = 6
-  \coordinate (C) at (15, 25); % Px = 4.8
-  \coordinate (I) at (20, 16); % Px = 4.8
-  \coordinate (D) at (25, 10); % Px = 4
-  \coordinate (E) at (30, 15); % Px = 3
-  \coordinate (F) at (35, 25); % Px = 2
-  \coordinate (G) at (50, 35);
-  \coordinate (H) at (60, 37.5);
-
-#+end_src
-
-*** Grid
-
-#+begin_src latex :noweb-ref ex6.22:grid
-  \draw[help lines]
-    (  5, 62) -- (  5, 0)
-    ( 10, 62) -- ( 10, 0)
-    ( 15, 62) -- ( 15, 0)
-    ( 25, 62) -- ( 25, 0)
-    ( 30, 62) -- ( 30, 0)
-    ( 35, 62) -- ( 35, 0)
-    ( 45, 62) -- ( 45, 0)
-    ( 50, 62) -- ( 50, 0)
-    ( 55, 62) -- ( 55, 0)
-  ;
-
-  \draw[help lines]
-    (62,  5) -- (0,  5)
-    (62, 10) -- (0, 10)
-    (62, 15) -- (0, 15)
-    (62, 25) -- (0, 25)
-    (62, 30) -- (0, 30)
-    (62, 35) -- (0, 35)
-    (62, 45) -- (0, 45)
-    (62, 50) -- (0, 50)
-    (62, 55) -- (0, 55)
-  ;
-
-  \draw[help lines, semithick, black!60!white]
-    ( 20, 62) -- ( 20, 0) node[below] {$20$}
-    ( 40, 62) -- ( 40, 0) node[below] {$40$}
-    ( 60, 62) -- ( 60, 0) node[below] {$60$}
-    (62, 20) -- (0, 20) node[left] {$20$}
-    (62, 40) -- (0, 40) node[left] {$40$}
-    (62, 60) -- (0, 60) node[left] {$60$}
-  ;
-
-#+end_src
-
-*** Curve
-#+begin_src latex :noweb-ref ex6.22:cpc
-  \draw[curve, very thick,
-    use Hobby shortcut,
-    tangent/.style={%
-      in angle={(180+#1)},
-      Hobby finish,
-      designated Hobby path=next,
-      out angle=#1,},]
-    (A) .. (B) ..
-    (C) .. (I) .. ([tangent = 0] D) .. (E) .. (F) .. (G) .. (H)
-    (H) node[right] {\CPC};
-#+end_src
-
-
-
-* Corner solution and demand curve
+* COMMENT Corner solution and demand curve
 :PROPERTIES:
 :header-args: :tangle no
 :END:

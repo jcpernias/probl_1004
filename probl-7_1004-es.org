@@ -19,6 +19,7 @@ a) Obtenga la restricción intertemporal del consumidor y
 b) Obtenga el consumo óptimo en cada periodo. ¿Cuánto ahorrará el
    consumidor?  Represente gráficamente.
 
+
 ** Answer
 
 a) Restricción intertemporal:
@@ -66,6 +67,7 @@ ahorrar nada. Si el tipo de interés disminuyera al 5%, ¿qué
 ocurriría con el ahorro? ¿Qué situación preferiría el consumidor:
 un tipo de interés del 10% o del 5%? Represente gráficamente.
 
+
 ** Answer
 
 Restricción intertemporal: $C_2 = 1850 - 1.1 C_1$.
@@ -102,6 +104,7 @@ c) Si el Banco Central Europeo fija un tipo de interés único del 8%
    tanto para prestar como para pedir prestado, calcule el nuevo
    equilibrio y determine si el bienestar del consumidor mejora o
    empeora.
+
 
 ** Answer
 
@@ -176,6 +179,7 @@ a) Escriba la restricción presupuestaria intertemporal en valor futuro
 b) Determine si el consumidor ahorra o no, así como el consumo en cada
    periodo.
 
+
 ** Answer
 
 a) Restricción intertemporal: $5670 = 1.1 C_1 + C_2$
@@ -196,6 +200,7 @@ un 20% inferior a la del primer periodo. Calcule el tipo de interés
 sabiendo que la elección óptima en el segundo periodo es consumir
 \money{3010}. Obtenga y represente gráficamente la restricción
 intertemporal.
+
 
 ** Answer
 
@@ -233,6 +238,7 @@ a) Sabiendo que su elección óptima es $C_1 = \money{9750}$ y $C_2 =
 
 b) El ahorro de este consumidor es $S = \money{250}$. Exprese la
    restricción intertemporal en valor presente.
+
 
 ** Answer
 

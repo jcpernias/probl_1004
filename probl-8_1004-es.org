@@ -24,8 +24,17 @@ plazo de una empresa.
 técnicamente eficientes todos los niveles de contratación de
 trabajadores mostrados en la tabla? ¿Por qué?
 
+
 ** Answer
 
+Se han utilizado las relaciones:
+#+begin_export latex
+\begin{equation*}
+  \PMeL = \frac{Q}{L} \qtext{y}\quad
+  \PMgL \approx \iratio{Q}{L}
+\end{equation*}
+#+end_export
+para completar la tabla.
 #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
 |--------------+------------+----------+----------|
 |              | Producción | Producto | Producto |
@@ -40,15 +49,17 @@ trabajadores mostrados en la tabla? ¿Por qué?
 | $6$          | $306$      | $-14$    | $51$     |
 |--------------+------------+----------+----------|
 
-La ley de rendimientos decrecientes del factor trabajo se cumple: el
-\PMgL es decreciente.
+Se cumple la ley de rendimientos decrecientes del factor trabajo: el
+producto marginal del trabajo disminuye cuantos más trabajadores se
+contratan.
 
-No es técnicamente eficiente contratar 6 trabajadores: el producto
-marginal es negativo.
+La situación correspondiente a la última fila de la tabla, contratar 6
+trabajadores, no es técnicamente eficiente: el producto marginal es
+negativo y se podría producir más contratando a menos trabajadores.
 
 
 
-* 8.4.
+* 8.2.
 
 Dada la función de producción $Q = L^2 K - 0.01 L^3$ y sabiendo que
 el capital es fijo, $\Kbar = 6$, determine:
@@ -64,30 +75,64 @@ c) Los niveles del factor trabajo que hacen máximo el producto
 
 ** Answer
 
-a) Curva de producto total: $Q = 6 L^2 - 0.01 L^3$.
+a) Curva de producto total cuando $\Kbar = 6$:
+   #+begin_export latex
+   \[
+     Q = 6 L^2 - 0.01 L^3
+   \]
+   #+end_export
 
-b) Producto medio:    $\PMeL = 6 L - 0.01 L^2$.
+b) Producto medio:
+   #+begin_export latex
+   \[
+     \PMeL = \frac{Q}{L} = 6 L - 0.01 L^2.
+   \]
+   #+end_export
 
-   Producto marginal: $\PMgL = 12 L - 0.03 L^2$.
+   Producto marginal:
+   #+begin_export latex
+   \[
+     \PMgL = \frac{\diff Q}{\diff L} = 12 L - 0.03 L^2.
+   \]
+   #+end_export
 
-c)
-   #+latex: \begin{adjustbox}{valign=t}
-   #+ATTR_LATEX: :booktabs t :center nil :align @{}llr@{}
-   |---------------------+-----------------------------+--------------|
-   |                     | Condición                   | Trabajadores |
-   |---------------------+-----------------------------+--------------|
-   | $A$: $\ \max \PMgL$ | $\diff \PMgL / \diff L = 0$ | $200$        |
-   | $B$: $\ \max \PMeL$ | $\PMgL = \PMeL$             | $300$        |
-   | $C$: $\ \max Q$     | $\PMgL = 0$                 | $400$        |
-   |---------------------+-----------------------------+--------------|
-   #+latex: \end{adjustbox}
+c) /Maximización del \PMgL/: La derivada del producto marginal es:
+   #+begin_export latex
+   \[
+     \frac{\diff \PMgL}{\diff L} = 12 - 0.06 L.
+   \]
+   #+end_export
+   Igualando a 0 la expresión anterior y resolviendo $L$, obtenemos
+   $L_A = 200$.
 
-   #+xxx: fig fig-ans-probl-8_1004-ex4-pmgl-*.pdf
+   /Maximización del \PMeL/: La derivada del producto medio es:
+   #+begin_export latex
+   \[
+     \frac{\diff \PMeL}{\diff L} = 6 - 0.02 L.
+   \]
+   #+end_export
+   Igualando a 0 la expresión anterior y resolviendo $L$, obtenemos
+   $L_B = 200$.
 
-   #+xxx: fig fig-ans-probl-8_1004-ex4-fprod-*.pdf
+   /Maximización de la producción/: La derivada del producto total es
+   el producto marginal.  Resolviendo $L$ en la ecuación $\PMgL = 0$,
+   obtenemos $L_C = 400$.
+
+   #+ATTR_LATEX: :options [b]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-pmgl-*.pdf
+   #+ATTR_LATEX: :options [b]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-fprod-*.pdf
+   #+xxx: endcol
 
 
-* 8.10
+
+* 8.3
 
 Con las siguientes funciones de producción:
 
@@ -106,15 +151,145 @@ b) ¿Cumple alguna de esas funciones de producción la ley de
    rendimientos decrecientes del factor trabajo?
 
 
-* 8.11
+** Answer
+
+a)
+   #+ATTR_LATEX: :options [t]{0.33\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-total-a-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{I. $Q = 8 + 3 L$}
+   #+end_export
+   #+ATTR_LATEX: :options [t]{0.34\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-total-b-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{II. $Q = 2 L^{1/2}$}
+   #+end_export
+   #+ATTR_LATEX: :options [t]{0.33\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-total-c-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{III. $Q = 4 L^2$}
+   #+end_export
+   #+xxx: endcol
+
+b)
+   #+ATTR_LATEX: :options [t]{0.33\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-marginal-a-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{I. $\PMgL = 3$}
+   #+end_export
+   #+ATTR_LATEX: :options [t]{0.34\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-marginal-b-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{II. $\PMgL = L^{-1/2}$}
+   #+end_export
+   #+ATTR_LATEX: :options [t]{0.33\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-8_1004-marginal-c-*.pdf
+
+   #+begin_export latex
+     \centering%
+     \mbox{III. $\PMgL = 8 L$}
+   #+end_export
+   #+xxx: endcol
+   #+latex: \vspace*{1.5ex}
+
+   Sólo es decreciente el $\PMgL$ de la segunda función. Por tanto,
+   sólo la función de producto total $Q = 2 L^{1/2}$ cumple la ley de
+   rendimientos decrecientes del factor trabajo.
+
+
+
+* 8.4
 
 Dibuje en cada uno de los siguientes gráficos donde se situaría la
 curva de producto marginal del trabajo. Justifique su respuesta.
 
-#+xxx: fig fig-probl-8_1004-ex11-pmel-*.pdf
+#+xxx: fig fig-probl-8_1004-pmel-*.pdf
 
 
-* 8.2.
+** Answer
+
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-8_1004-pmel-a-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+*(A)*: Cuando el producto medio es creciente, el producto marginal
+está por encima del medio. Cuando el producto medio es decreciente, el
+producto marginal se sitúa por debajo del medio. El producto marginal
+y el medio coinciden en el máximo del producto medio.
+#+xxx: endcol
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-8_1004-pmel-b-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+*(B)*: Cuando el producto medio es decreciente, el producto marginal
+se sitúa por debajo del medio.
+#+xxx: endcol
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-8_1004-pmel-c-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+*(C)*: Cuando el producto medio es creciente, el producto marginal
+está por encima del medio.
+#+xxx: endcol
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-8_1004-pmel-d-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+*(D)*: Cuando el producto medio es constante, coinciden el producto
+marginal coincide y el producto medio.
+#+xxx: endcol
+
+
+
+* 8.5.
 
 Si el producto marginal del trabajo es decreciente en el corto plazo,
 ¿el producto medio debe ser también decreciente?
@@ -123,12 +298,23 @@ Si el producto marginal del trabajo es decreciente en el corto plazo,
 ** Answer
 
 No: el producto medio decrece cuando el producto marginal es inferior
-al medio, independientemente de que el producto marginal sea creciente
-o no.
+al medio.
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-8_1004-pmel-decr-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+En el área sombreada el producto marginal es decreciente y, sin
+embargo, el producto medio es creciente.
+#+xxx: endcol
 
 
 
-* 8.3.
+* 8.6.
 
 La producción por trabajador en una empresa es de 20 sillas al día. El
 propietario de la empresa ha calculado que un trabajador adicional
@@ -138,17 +324,19 @@ producto medio si la empresa contrata otro trabajador?
 
 ** Answer
 
-No: el producto marginal es menor que el medio, por lo que el producto
-medio es decreciente.
+El producto marginal en esta empresa se corresponde con las 10 sillas
+en que aumentaría la producción si se contrata un trabajador más. Por
+otro lado, la producción media es de 20 sillas por trabajador.  Como
+$\PMgL < \PMeL$, el producto medio es decreciente.
 
 
 
-* 8.8.
+* 8.7.
 
 El siguiente gráfico muestra algunas isocuantas de la función de
 producción de una empresa:
 
-#+xxx: fig fig-probl-8_1004-ex8-const-returns-*.pdf
+#+xxx: fig fig-probl-8_1004-const-returns-*.pdf
 
 a) Si la empresa produce eficientemente 250 unidades y contrata 5
    trabajadores, ¿cuántas unidades de capital está utilizando? ¿Y si
@@ -165,22 +353,41 @@ c) ¿Qué tipo de rendimientos de escala presenta la función de
 
 ** Answer
 
-a) En la isocuanta $Q = 250$, $K = 5$ cuando $L = 5$.
+a)
+   #+ATTR_LATEX: :options [t]{\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+xxx: fig fig-ans-probl-8_1004-const-returns-a-*.pdf
+   #+xxx: endcol
+   #+latex: \vspace*{1ex}
 
-   En la isocuanta $Q = 125$, $K = 2$ cuando $L = 4$.
-
-b) La producción no puede ser de $400$ unidades: la combinación
-   $L = 8$ y $K = 6$ está debajo de la isocuanta $Q = 375$.
-
-   Es posible pero no eficiente producir $200$: se pueden
-   producir $250$ unidades con $L=8$ y $K < 6$.
-
-c) Rendimientos constantes de escala: por ejemplo, comparar producción
-   en $(5, 5)$ y $(10, 10)$.
+   Si produce eficientemente $250$ unidades y utiliza 5 trabajadores,
+   la empresa ha escogido la combinación de factores *A*, donde emplea
+   5 unidades de capital. Si produjera $125$ unidades con 4
+   trabajadores, se encontraría en *B* y usaría 2 unidades de capital.
 
 
+b) La combinación $L = 8$ y $K = 6$ está representada por el punto *C*
+   del gráfico anterior. Esta punto se halla por debajo de la
+   isocuanta $Q = 375$. Por tanto no es posible producir
+   $400$ unidades en esas condiciones.
 
-* 8.6.
+   Por otro lado, el punto *C* está por encima de la isocuanta $Q =
+   250$, por lo que es posible producir $200$ unidades con 8
+   trabajadores y 6 unidades de capital. Pero ese nivel de producción
+   no sería eficiente, ya que se pueden producir más de $200$ unidades
+   con la combinación *C*.
+
+c) Cuando se usan 5 trabajadores y 5 unidades de capital, combinación
+   *A*, se producen $125$ unidades. Si se duplican los factores y se
+   emplea 10 trabajadores y 10 unidades de capital, combinación *D*,
+   la producción asciende a $250$ unidades. La función de producción
+   presenta rendimientos constantes de escala: cuando se duplica el
+   uso de factores se duplica también el nivel de producción.
+
+
+
+* 8.8.
 
 ¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
 empresa cuya función de producción $Q = F(K, L)$ presenta rendimientos
@@ -190,11 +397,13 @@ uso del factor capital."
 
 ** Answer
 
-  Es incorrecta. Se duplicará la producción cuando se duplique el
-  uso de /todos/ los factores de producción.
+No es correcta. Si la tecnología que usa la empresa es de rendimientos
+constantes de escala, la producción se duplicará cuando se dupliquen
+/todos/ los factores de producción. Si sólo cambia la utilización de
+un factor no podemos saber como se alterará la producción.
 
 
-* 8.7.
+* 8.9.
 
 Una fábrica utiliza trabajo y capital para producir zapatos. Después
 de aumentar el número de trabajadores en un 50% la producción crece en
@@ -204,16 +413,19 @@ producción de la empresa?
 
 ** Answer
 
-  No: si sólo aumenta el trabajo no es posible deducir nada sobre
-  los rendimientos de escala.
+No es posible determinar los rendimientos de escala de la función de
+producción si sólo ha cambiado el número de trabajadores. Para
+determinar el tipo de rendimientos de escala, es necesario saber en
+qué proporción aumenta la producción de la empresa cuando aumentan
+/todos/ los factores de producción en la /misma/ proporción.
 
 
-* 8.9.
+* 8.10.
 
 El siguiente gráfico muestra algunas isocuantas de la función de
 producción de una empresa:
 
-#+xxx: fig fig-probl-8_1004-ex8-incr-returns-*.pdf
+#+xxx: fig fig-probl-8_1004-incr-returns-*.pdf
 
 a) ¿Qué tipo de rendimientos de escala exhibe la función de producción
    de la empresa?
@@ -224,23 +436,50 @@ b) Si $\Kbar = 5$, ¿se cumple la ley de rendimientos marginales
 
 ** Answer
 
-a) Rendimientos crecientes de escala.
+a)
+   #+ATTR_LATEX: :options [t]{\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+xxx: fig fig-ans-probl-8_1004-incr-returns-a-*.pdf
+   #+xxx: endcol
+   #+latex: \vspace*{1ex}
+
+   En el gráfico se observa que se producen 250 unidades cuando se
+   emplean 5 unidades de trabajo y 5 unidades de capital, combinación
+   *B*. Si se duplica el uso de los factores, combinación *E*, la
+   producción superará las 750 unidades. Por tanto, la función de
+   producción presenta rendimientos crecientes de escala: al duplicar
+   los factores se obtiene un nivel de producción que es más del
+   triple que el inicial.
 
 
-b) No: los rendimientos del factor trabajo son constantes.
+b) La siguiente tabla contiene información de algunas combinaciones de
+   factores y la producción que se obtendría con ellas. En todas estas
+   combinaciones se mantiene fijo el capital, $\Kbar = 5$:
+   #+ATTR_LATEX: :booktabs t :center t :align @{}l*{4}{R{1.125cm}}@{}
+   |------------+---------+------+-------+---------------------|
+   |            | $\Kbar$ | $L$  | $Q$   | $\PMgL$             |
+   |------------+---------+------+-------+---------------------|
+   | \textbf{A} | $5$     | $2$  | $100$ | ---                 |
+   | \textbf{B} | $5$     | $5$  | $250$ | $50$                |
+   | \textbf{C} | $5$     | $10$ | $500$ | $50$                |
+   | \textbf{D} | $5$     | $15$ | $750$ | $50$                |
+   |------------+---------+------+-------+---------------------|
+   La última columna es el cociente de las variaciones de producción y
+   trabajo cuando pasamos de una fila de la tabla a la siguiente.  Por
+   ejemplo, el valor del $\PMgL$ en la segunda fila se obtiene como:
+   #+begin_export latex
+   \[
+     \PMgL \approx \eval{\iratio{Q}{L}}{\Kbar} =  \frac{250 - 100}{5 - 2} = 50
+   \]
+   #+end_export
 
-   #+ATTR_LATEX: :booktabs t :center t :align @{}*{4}{r}@{}
-   |---------+------+-------+---------------------|
-   | $\Kbar$ | $L$  | $Q$   | $\incr Q / \incr L$ |
-   |---------+------+-------+---------------------|
-   | $5$     | $2$  | $100$ | ---                 |
-   | $5$     | $5$  | $250$ | $50$                |
-   | $5$     | $10$ | $500$ | $50$                |
-   | $5$     | $15$ | $750$ | $50$                |
-   |---------+------+-------+---------------------|
+   Examinando la última columna de la tabla, concluimos que no se
+   cumple la ley de rendimientos marginales decrecientes: los
+   rendimientos del factor trabajo son constantes.
 
 
-* 8.5.
+* 8.11.
 
 Considere las siguientes funciones de producción:
 
@@ -270,43 +509,115 @@ d) Comparando los resultados de [[ex8.11:item-b]] y [[ex8.11:item-c]], ¿hay
    algún tipo de relación entre los rendimientos de escala y los
    rendimientos del factor trabajo?
 
+
 ** Answer
 
 a)
    #+latex: \begin{adjustbox}{valign=t}
-   #+ATTR_LATEX: :booktabs t :center nil :align @{}lp{2.5cm}l@{}
-   |---------+-------------------+------------------------|
-   | Función | $F(s L, s K)$     | Rendimientos de escala |
-   |---------+-------------------+------------------------|
-   | I       | $s F(L, K)$       | Constantes             |
-   | II      | $s^2 F(K, L)$     | Crecientes             |
-   | III     | $s F(L, K)$       | Constantes             |
-   | IV      | $s^{1/2} F(L, K)$ | Decrecientes           |
-   |---------+-------------------+------------------------|
+   #+ATTR_LATEX: :booktabs t :center nil :align @{}p{1cm}*{3}{>{$}l<{$}}@{}
+   |------+------------------------+------------------------+----------|
+   |      | \PMgL                  | \PMgK                  |    \RMST |
+   |------+------------------------+------------------------+----------|
+   | I.   | (1/4) K^{3/4} L^{-3/4} | (3/4) K^{-1/4} L^{1/4} | (1/3)K/L |
+   | II.  | (1/2) K^{3/2} L^{-1/2} | (3/2) K^{1/2} L^{1/2}  | (1/3)K/L |
+   | III. | 4                      | 2                      |        2 |
+   | IV.  | (1/2)(K+L)^{-1/2}      | (1/2)(K+L)^{-1/2}      |        1 |
+   | V.   | 2(K + L)               | 2(K+L)                 |        1 |
+   |------+------------------------+------------------------+----------|
    #+latex: \end{adjustbox}
 
-b)
-   #+latex: \begin{adjustbox}{valign=t}
-   #+ATTR_LATEX: :booktabs t :center nil :align @{}ll@{}
-   |---------+------------|
-   | Función | $\RMST$    |
-   |---------+------------|
-   | I       | $(1/3)K/L$ |
-   | II      | $3K/L$     |
-   | III     | $2$        |
-   | IV      | $1$        |
-   |---------+------------|
-   #+latex: \end{adjustbox}
+   La \RMST es la tasa a la que se pueden sustituir los factores sin
+   alterar el nivel de producción y se calcula dividiendo los
+   productos marginales del trabajo y del capital. La tabla anterior
+   muestra la \RMST de cada una de las funciones de producción-
 
-c)
+b) Para determinar el tipo de rendimientos de escala, calculamos el
+   nivel de producción que se obtiene al multiplicar los factores de
+   producción por $s$. Si, por ejemplo, $s = 2$ estamos calculando la
+   producción cuando se duplican los factores.
+
+   Consideremos la primera función de producción:
+   #+begin_export latex
+   \begin{equation*}
+     F(L, K) = K^{3/4}L^{1/4}
+   \end{equation*}
+   #+end_export
+   Si multiplicamos los factores por $s$:
+   #+begin_export latex
+   \begin{equation*}
+     F(sL, sK) = (sK)^{3/4}(sL)^{1/4} =
+     sK^{3/4}L^{1/4}
+   \end{equation*}
+   #+end_export
+   Por tanto:
+   #+begin_export latex
+   \begin{equation*}
+     F(sL, sK) = s F(L, K)
+   \end{equation*}
+   #+end_export
+   La producción aumenta en la misma proporción que lo han hecho los
+   factores y la función de producción exhibe rendimientos constantes
+   de escala.
+
+   La siguiente tabla resume los resultados de aplicar el mismo
+   procedimiento a las restantes funciones de producción.
+
+   #+ATTR_LATEX: :booktabs t :center nil :align @{}p{1cm}p{2.5cm}l@{}
+   |------+-------------------+------------------------|
+   |      | $F(s L, s K)$     | Rendimientos de escala |
+   |------+-------------------+------------------------|
+   | I.   | $s F(L, K)$       | Constantes             |
+   | II.  | $s^2 F(K, L)$     | Crecientes             |
+   | III. | $s F(L, K)$       | Constantes             |
+   | IV.  | $s^{1/2} F(L, K)$ | Decrecientes           |
+   | V.   | $s^{2} F(L, K)$   | Crecientes             |
+   |------+-------------------+------------------------|
+
+
+c) Podemos verificar si se cumple la ley de rendimientos decrecientes
+   comprobando el signo de la derivada del producto marginal del
+   trabajo:
+
+   #+ATTR_LATEX: :booktabs t :center nil :align @{}p{1cm}p{2.5cm}l@{}
+   |------+-------------------------+-------------------------|
+   |      | $\diff \PMgL / \diff L$ | Rendimientos del factor |
+   |------+-------------------------+-------------------------|
+   | I.   | $-(3/2)L^{-7/4}$        | Decrecientes            |
+   | II.  | $-16 L^{-3/2}$          | Decrecientes            |
+   | III. | $0$                     | Constantes              |
+   | IV.  | $-(1/4)(L + 16)^{-3/2}$ | Decrecientes            |
+   | V.   | $2$                     | Crecientes              |
+   |------+-------------------------+-------------------------|
+
+   El producto marginal de la función III es constante (su derivada es
+   0). En el caso de la función V el producto marginal es creciente
+   (su derivada es positiva). Las restantes funciones de producción
+   cumplen con la ley de rendimientos marginales decreciente ya que
+   las derivadas del producto marginal son negativas.
+
+d) No hay relación entre el tipo de rendimientos de escala de una
+   función de producción y el comportamiento de sus rendimientos
+   marginales.
+
+   En los casos que hemos analizado, hemos encontrado dos funciones
+   con rendimientos constantes de escala. En una de ellas los
+   rendimientos del trabajo eran decrecientes y en la otra
+   constantes. Si nos centramos en las funciones con rendimientos
+   crecientes de escala, en un caso los rendimientos marginales eran
+   decrecientes y en otro crecientes. Finalmente, si nos fijamos en
+   las funciones que cumplen la ley de rendimientos decrecientes, los
+   rendimientos de escala de una son constantes, los de otra son
+   crecientes y los de la tercera son decrecientes.
+
    #+latex: \begin{adjustbox}{valign=t}
-   #+ATTR_LATEX: :booktabs t :center nil :align @{}lp{3.25cm}l@{}
-   |---------+-------------------------+-------------------------|
-   | Función | $\diff \PMgL / \diff L$ | Rdtos. del factor       |
-   |---------+-------------------------+-------------------------|
-   | I       | $-(6/4)L^{-7/4}$        | Decrecientes            |
-   | II      | $3 L^{-1/2}$            | Crecientes              |
-   | III     | $0$                     | Constantes              |
-   | IV      | $-(1/4)(L + 16)^{-3/2}$ | Decrecientes            |
-   |---------+-------------------------+-------------------------|
+   #+ATTR_LATEX: :booktabs t :center nil :align @{}lll@{}
+   |------+------------------------+-------------------------|
+   |      | Rendimientos de escala | Rendimientos del factor |
+   |------+------------------------+-------------------------|
+   | I.   | Constantes             | Decrecientes            |
+   | II.  | Crecientes             | Decrecientes            |
+   | III. | Constantes             | Constantes              |
+   | IV.  | Decrecientes           | Decrecientes            |
+   | V.   | Crecientes             | Crecientes              |
+   |------+------------------------+-------------------------|
    #+latex: \end{adjustbox}

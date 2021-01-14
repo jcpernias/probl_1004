@@ -8,6 +8,11 @@
 claim contradict the law of demand?
 
 
+** Answer
+
+Not done yet.
+
+
 * 2.2
 
 Consider a competitive market where \num{1000} identical buyers
@@ -30,6 +35,11 @@ b) What would happen if the price were \price{4}? And if the price
    were \price{1}?
 
 
+** Answer
+
+Not done yet.
+
+
 * 2.3
 
 There are three buyers in a market whose demand curves are:
@@ -41,6 +51,11 @@ There are three buyers in a market whose demand curves are:
 \end{gather*}
 #+end_export
 Determine the market demand curve.
+
+
+** Answer
+
+Not done yet.
 
 
 * 2.4
@@ -66,6 +81,11 @@ b) Find and plot the new equilibrium if demand increases by 20% (the
    #+end_export
 
 
+** Answer
+
+Not done yet.
+
+
 * 2.5
 
 The demand and supply curves of the market for good $X$ are:
@@ -89,6 +109,11 @@ c) Starting from the initial equilibrium, consider now the effects of
    change?
 
 
+** Answer
+
+Not done yet.
+
+
 * 2.6
 
 A country is facing an increase in drug use. Experts have put forward
@@ -105,11 +130,21 @@ it possible to discern between the two explanations by observing what
 happened to the price and the consumption of drugs?
 
 
+** Answer
+
+Not done yet.
+
+
 * 2.7
 
 The market for an inferior good is in equilibrium. If production costs
 and consumer income increase simultaneously, will both the price and
 the quantity decrease in the new equilibrium?
+
+
+** Answer
+
+Not done yet.
 
 
 * 2.8
@@ -118,6 +153,11 @@ The prices of hotel rooms in big cities usually depend on the day of
 the week in which they are rented. In a standard week, room prices are
 much lower during the weekend with respect to working days.  Use
 supply and demand plots to explain this behaviour.
+
+
+** Answer
+
+Not done yet.
 
 
 * 2.9
@@ -130,6 +170,11 @@ a) Which will be the consequences of the drought on global coffee
 
 b) Which will be the consequences of the poor coffee harvest on global
    tea market equilibrium? Explain and represent graphically.
+
+
+** Answer
+
+Not done yet.
 
 
 * 2.10
@@ -149,3 +194,8 @@ c) The Government passes some laws aimed at reducing pollution and
 
 d) A new labor market regulation increases labor costs for electric
    scooters producers.
+
+
+** Answer
+
+Not done yet.

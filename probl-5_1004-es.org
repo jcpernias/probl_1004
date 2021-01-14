@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 5.21
+* 5.1
 
 Juan dispone de una renta monetaria mensual de \money{150}.
 Con ella puede comprar pan, a un precio de \price[kg]{3}, y agua, a un
@@ -23,15 +23,113 @@ d) Ante la gravedad de la situación, el Gobierno raciona el agua de
    agua al mes. ¿Cuál es la restricción presupuestaria en este caso?
 
 
-* 5.25
+** Answer
+
+a)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-budget-line-a-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Recta presupuestaria:
+   #+begin_export latex
+     \[ 150 =  0.75 A + 3 P \]
+   #+end_export
+   donde $P$ y $A$ representan kilos de pan y litros de agua,
+   respectivamente.
+   #+xxx: endcol
+
+b) Cuando Juan consume $A = 60$ y $P = 35$ su gasto total asciende a
+   $0.75 \times 60 + 3 \times 35 = \money{150}$. Juan estaría gastando
+   toda su renta y la cesta de consumo se situaría sobre la recta
+   presupuestaria. En esas condiciones el coste de oportunidad de un
+   litro de agua sería igual a su precio relativo: $0.75 / 3 =
+   \units[kg]{0.25}$ de pan.
+
+   Si Juan consume $A = 50$ y $P = 30$ no estaría gastando toda su
+   renta y puede comprar un litro de agua más sin tener que reducir su
+   consumo de pan: el coste de oportunidad sería 0.
+
+c)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-budget-line-c-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Recta presupuestaria:
+   #+begin_export latex
+     \[ 150 =  1.50 A + 3 P \]
+   #+end_export
+   #+xxx: endcol
+
+c)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-budget-line-d-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Restricción presupuestaria:
+   #+begin_export latex
+   \[
+     A =
+     \begin{cases}
+       100 - 2 P & \text{si $P > 40$} \\
+       20 & \text{si $P \leq 40$}
+     \end{cases}
+   \]
+   #+end_export
+   #+xxx: endcol
+
+
+
+* 5.2
 
 Suponga que se pueden comprar 4 peras con el dinero necesario para
-comprar una manzana. Si David, que gasta todo su dinero en
-peras y manzanas, compra 100 peras y 20 manzanas, ¿cuántas peras
-podría haber comprado como máximo? ¿Y manzanas? Obtenga y represente la recta presupuestaria de David.
+comprar una manzana. Si David, que gasta todo su dinero en peras y
+manzanas, compra 100 peras y 20 manzanas, ¿cuántas peras podría haber
+comprado como máximo? ¿Y manzanas? Obtenga y represente la recta
+presupuestaria de David.
 
 
-* 5.23
+** Answer
+
+El precio relativo de las manzanas es $P_M / P_P = 4$ peras por
+manzana, donde $P_M$ y $P_P$ son los precios de manzanas y peras,
+respectivamente.  Por otro lado, la cesta de consumo $P = 100$ peras y
+$M = 20$ manzanas está situada sobre la restricción presupuestaria de
+David ya que agota su renta.
+
+Si David renunciara a las 20 manzanas que consume podría comprar $20
+\times 4 = 80$ peras adicionales: como máximo podría consumir
+180 peras. Razonando de forma análoga, si dejara de comprar 100 peras
+podría aumentar su consumo de manzanas en $100 / 4 = 25$ unidades:
+podría adquirir 45 manzanas a lo sumo.
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-5_1004-apples-pears-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Recta presupuestaria:
+#+begin_export latex
+  \[ P =  80  - 4 M \]
+#+end_export
+#+xxx: endcol
+
+
+* 5.3
 
 Julia dispone de \money{6} este mes para comprar leche, cuyo precio es
 \price[l]{0.75}, y galletas, que cuestan \price[kg]{3}.
@@ -47,7 +145,55 @@ c) Si inicialmente Julia compraba $4$ litros de leche y $1$ kilo de
    precios y la renta?
 
 
-* 5.1
+** Answer
+
+
+a)
+   #+ATTR_LATEX: :options [t]{0.42\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-illusion-*.pdf
+   #+ATTR_LATEX: :options [t]{0.58\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Recta presupuestaria:
+   #+begin_export latex
+     \[ 6 =  0.75 L + 3 G \]
+   #+end_export
+   donde $L$ y $G$ son litros de leche y kilos de galletas,
+   respectivamente. Operando en la ecuación anterior:
+   #+begin_export latex
+     \[ L =  8 - 4 G \]
+   #+end_export
+   #+xxx: endcol
+
+b) Los precios y la renta ahora son:
+   #+begin_export latex
+   \begin{gather*}
+   P'_L = 1.1 \times 0.75 = \price[l]{0.825} \\
+   P'_G = 1.1 \times 3 = \price[kg]{3.30} \\
+   M' = 1.1 \times 6 = \money{6.60}
+   \end{gather*}
+   #+end_export
+   La nueva restricción presupuestaria sería:
+   #+begin_export latex
+     \[ 6.6 =  0.825 L + 3.3 G \]
+   #+end_export
+   Operando en la expresión anterior:
+   #+begin_export latex
+     \[ L =  8 - 4 G \]
+   #+end_export
+   que coincide con la restricción presupuestaria del apartado
+   anterior.
+
+c) La elección de Julia no cambiaría si sus preferencias son
+   regulares. Por un lado, su recta presupuestaria es la misma antes y
+   después de los cambios en precios y renta y, por otro lado, sus
+   preferencias tampoco cambiarían.
+
+
+* 5.4
 
 Un consumidor gasta su renta $M$ en los bienes $X$ e $Y$.
 
@@ -63,30 +209,36 @@ c) ¿Qué opción preferiría el consumidor?
 
 ** Answer
 
-a) La recta presupuestaria después del impuesto al consumo es:
+a) Si los precios aumentan un 25% la nueva recta presupuestaria es:
    #+begin_export latex
    \[
      M = 1.25 P_X X + 1.25 P_Y Y
    \]
    #+end_export
-   Los puntos de corte con los ejes de la nueva restricción
-   presupuestaria serían: $X_{\max} = 0.8 M / P_X$ e $Y_{\max} = 0.8 M
-   / P_Y$.
-   #+xxx: fig fig-ans-probl-5_1004-budget-tax1-*.pdf
+   Dividiendo la expresión anterior por $1.25$ obtenemos:
+   #+begin_export latex
+   \[
+     (1/1.25)M = 0.8 M = P_X X + P_Y Y
+   \]
+   #+end_export
+   Es decir, un incremento del 25% en todos los precios es equivalente
+   a una reducción del 20% de la renta. La restricción presupuestaria
+   se desplazaría paralelamente hacia abajo y hacia la izquierda.
 
 b) La recta presupuestaria después del impuesto a la renta es:
    #+begin_export latex
    \[
-     0.75 M = 1.25 P_X X + 1.25 P_Y Y
+     0.75 M = P_X X + P_Y Y
    \]
    #+end_export
-   #+xxx: fig fig-ans-probl-5_1004-budget-tax2-*.pdf
+   La restricción presupuestaria se desplazaría paralelamente hacia
+   abajo y hacia la izquierda.
 
-c) Su conjunto de oportunidades es mayor en el primer caso: preferiría
+c) El conjunto de oportunidades es mayor en el primer caso: preferiría
    el impuesto al consumo.
 
 
-* 5.20
+* 5.5
 
 Nikola dispone de \money{120} para gastar en gas natural y en
 electricidad. El precio de la electricidad depende del consumo: los
@@ -97,7 +249,48 @@ otro lado, el precio del gas natural siempre es
 presupuestario de Nikola.
 
 
-* 5.22
+** Answer
+
+El precio de la electricidad cambia dependiendo de cuanta electricidad
+se consuma. Usaremos $E$ y $G$ para representar el consumo de
+electricidad y gas, respectivamente.  La restricción presupuestaria
+tendrá dos tramos:
+
+- $E < \units[\kWh]{1000}$: Los precios de la electricidad y del gas
+  son \money{0.06} y \money{0.05} por kWh, respectivamente. La recta
+  presupuestaria es:
+  #+begin_export latex
+  \[ 120 = 0.06 E + 0.05 G \]
+  #+end_export
+
+- $E > \units[\kWh]{1000}$: Nikola ha pagado $0.06 \times \num{1000} =
+  \money{60}$ por los primeros \units[\kWh]{1000} de electricidad. El
+  precio que pagará por cada kWh adicional será
+  \price[\kWh]{0.03}. Por tanto, la recta presupuestaria es:
+  #+begin_export latex
+  \[ 120 - 60 = 0.06 (E - \num{1000}) + 0.05 G \]
+  #+end_export
+  Operando:
+  #+begin_export latex
+  \[ 90 = 0.03 E + 0.05 G \]
+  #+end_export
+
+Combinando los dos tramos podemos expresar la restricción
+presupuestaria como:
+#+begin_export latex
+\[
+  G =
+  \begin{cases}
+    \num{2400} - 1.2 E & \text{si $E < \num{1000}$} \\
+    \num{1800} - 0.6 E & \text{si $E \geq \num{1000}$} \\
+  \end{cases}
+\]
+#+end_export
+
+#+xxx: fig fig-ans-probl-5_1004-energy-*.pdf
+
+
+* 5.6
 
 Un consumidor dispone de una renta de $100$ € a la semana y se
 alimenta de arroz, que cuesta \money{1} el kilo. Obtenga y represente
@@ -113,7 +306,97 @@ b) El consumidor obtiene $5$ kilos de arroz gratuitamente.
 c) El consumidor recibe un cheque por valor de \money{5}.
 
 
-* 5.2
+** Answer
+
+a) Sea $A$ el consumo de arroz en kilos e $Y$ el bien compuesto. Por
+   cada uno de los 5 primeros kilos de arroz el consumidor paga
+   $\money{0.75}$. En ese caso:
+   #+begin_export latex
+   \[ 100 = 0.75 A + Y \qquad (A < 5) \]
+   #+end_export
+   Si consume más arroz pagará \money{1} por kilo, pero tenemos que
+   reflejar en la restricción presupuestaria la subvención a los 5
+   primeros kilos por valor de $5 \times 0.25 =
+   \money{1.25}$. Entonces:
+   #+begin_export latex
+   \[ 101.25 = A + Y \qquad (A \geq 5) \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-rice-subs-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Podemos escribir la restricción presupuestaria de una forma más
+   compacta como:
+   #+begin_export latex
+   \[
+     Y =
+     \begin{cases}
+       100 - A & \text{si $A < 5$} \\
+       101.25 - A & \text{si $A \geq 5$}
+     \end{cases}
+   \]
+   #+end_export
+   #+xxx: endcol
+
+b) El consumidor no paga nada por los 5 primeros kilos de arroz y
+   puede gastar toda su renta en otros bienes:
+   #+begin_export latex
+   \[ 100 = Y \qquad (A < 5) \]
+   #+end_export
+   Si consume más arroz, paga \money{1} por cada kilo adicional:
+   #+begin_export latex
+   \[ 100 = 1 \times (A - 5) + Y \qquad (A < 5) \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-rice-in-kind-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Restricción presupuestaria:
+   #+begin_export latex
+   \[
+     Y =
+     \begin{cases}
+       100 & \text{si $A < 5$} \\
+       105 - A & \text{si $A \geq 5$}
+     \end{cases}
+   \]
+   #+end_export
+   #+xxx: endcol
+
+c)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-rice-cash-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El consumidor tiene \money{5} más para gastar como le plazca.
+   #+begin_export latex
+   \[ 105 = A + Y  \]
+   #+end_export
+   Recta presupuestaria:
+   #+begin_export latex
+   \[
+     Y = 105 - A
+   \]
+   #+end_export
+   #+xxx: endcol
+
+
+
+* 5.7
 
 Un consumidor dispone de \money{20} para comprar carne y
 patatas. Suele comprar en un supermercado donde la carne se vende a
@@ -132,7 +415,27 @@ b) El supermercado introduce una promoción por la que los clientes que
 a) Restricción presupuestaria: $20 = 4 C + 2 P$.
    #+xxx: fig fig-ans-probl-5_1004-budget1-*.pdf
 
-b) Nueva restricción presupuestaria:
+b) Si compra menos de \units[kg]{4} de patatas la restricción
+   presupuestaria es:
+   #+begin_export latex
+   \[ 20 = 4 C + 2 P \qquad (P < 4) \]
+   #+end_export
+   Si compra más patatas, se llevará al menos \units[kg]{6} y se debe
+   de reflejar en la restricción presupuestaria que hay 2 kilos por
+   los que no paga nada;
+   #+begin_export latex
+   \[ 20 = 4 C + 2 (P - 2) \qquad (P \geq 6) \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-budget2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Restricción presupuestaria:
    #+begin_export latex
    \[
      C =
@@ -142,10 +445,10 @@ b) Nueva restricción presupuestaria:
      \end{cases}
    \]
    #+end_export
-   #+xxx: fig fig-ans-probl-5_1004-budget2-*.pdf
+   #+xxx: endcol
 
 
-* 5.24
+* 5.8
 
 Eugenio y Ana comparten piso. Cada uno de ellos tiene una renta
 mensual de \money{1000} que gastan en su totalidad en alimentos y
@@ -159,7 +462,40 @@ información proporcionada, ¿es posible saber si la satisfacción de Ana
 ha aumentado o disminuido? ¿Y la de Eugenio?
 
 
-* 5.25
+** Answer
+
+Sean $\mathit{RP}_1$ y $\mathit{RP}_2$ as restricciones
+presupuestarias antes y después de la reforma impositiva,
+respectivamente:
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-5_1004-eugenio-ana-*.pdf
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+#+begin_export latex
+\begin{gather*}
+  \mathit{RP}_{1}\!: \num{1000} = 8 A + 40 V \\
+  \mathit{RP}_{2}\!: \num{1000} = 4 A + 50 V
+\end{gather*}
+#+end_export
+#+xxx: endcol
+
+Ana puede seguir comprando la misma cesta con los nuevos precios. Por
+tanto, no ha empeorado: si lo desea puede elegir la que antes era su
+cesta óptima. Probablemente, la satisfacción de Ana aumentará ya que
+ahora puede elegir cestas que antes estaban fuera de su presupuesto.
+
+Por otro lado, Eugenio no puede comprar su cesta óptima inicial a los
+nuevos precios y no es posible determinar si ha empeorado o ha
+mejorado si no tenemos más información sobre sus preferencias.
+
+
+
+* 5.9
 
 Ángeles dispone de \money{100} al mes para gastar en llamadas
 telefónicas y un bien compuesto. Su compañía telefónica sólo le cobra
@@ -176,7 +512,54 @@ c) Represente las dos tarifas en el mismo gráfico y determine cuándo
    sería más ventajosa la tarifa del apartado [[ex5.25:itemb]].
 
 
-* 5.3
+** Answer
+
+a) Representado los minutos de llamadas telefónicas por $M$ y el bien
+   compuesto por $Y$, se puede escribir la recta presupuestaria como:
+   $100 = 0.02 M + Y$.
+
+   #+xxx: fig fig-ans-probl-5_1004-phone-simple-*.pdf
+
+b) Después de pagar la cuota, Ángeles sólo dispondrá de \money{85}
+   para gastar en $M$ e $Y$. Por otro lado, los primeros \num{2000}
+   minutos son gratis y la compañía telefónica cobra \money{0.04}
+   por minuto adicional:
+   #+begin_export latex
+   \[ 85 = 0.04 (M - \num{2000}) + Y \qquad (M \geq \num{2000}) \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.42\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-phone-two-part-*.pdf
+
+   #+ATTR_LATEX: :options [t]{0.58\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   La restricción presupuestaria puede expresarse como:
+   #+begin_export latex
+   \[
+     Y =
+     \begin{cases}
+       85 & \text{si $M < \num{2000}$} \\
+       165 - 0.04 M & \text{si $M \geq \num{2000}$}
+     \end{cases}
+   \]
+   #+end_export
+   #+xxx: endcol
+
+
+c) Comparando las dos tarifas, se concluye que Ángeles debería
+   contratar la tarifa del apartado [[ex5.25:itemb]] si $750 \leq M \leq
+   \num{3250}$. La otra tarifa sólo sería más conveniente si Ángeles
+   no dedica mucho tiempo a llamadas telefónicas, $M < 750$, o, por el
+   contrario, si piensa utilizar mucho el teléfono, $M > \num{3250}$.
+
+   #+xxx: fig fig-ans-probl-5_1004-phone-comp-*.pdf
+
+
+* 5.10
 
 A Amaia le gusta el pescado, mientras que el pollo ni le gusta ni
 le disgusta. Por su parte, a Alejandro no le gusta el pescado pero
@@ -187,14 +570,37 @@ preferencias de Amaia y de Alejandro.
 
 ** Answer
 
-Para Amaia el pollo es un bien neutral.
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-5_1004-neutral-*.pdf
-
-Para Alejandro el pescado es un mal.
+#+begin_center
+Amaia
+#+end_center
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-5_1004-bad-*.pdf
+#+begin_center
+Alejandro
+#+end_center
+#+xxx: endcol
+#+latex: \vspace*{2ex}
+
+Para Amaia el pollo es un bien neutral: su utilidad permanece
+constante si consume más pollo y no cambia su consumo de pescado. Sólo
+accedería a curvas de indiferencia superiores si se incrementa su
+consumo de pescado.
+
+Para Alejandro el pescado es un mal: su utilidad disminuye si crece su
+consumo de pescado y no varía su consumo de pollo. Para mantenerse en
+el mismo nivel de utilidad, un incremento de su consumo de pescado
+debería compensarse con un incremento de su consumo de pollo.
 
 
-* 5.27
+* 5.11
 
  Carmen es coleccionista de fotos antiguas. Hoy ha acudido a un
  mercadillo donde ha comprado 50 fotos para su colección y aún dispone
@@ -213,7 +619,45 @@ Para Alejandro el pescado es un mal.
  b) ¿Cuánto estará dispuesta a pagar Carmen por $10$ fotos adicionales?
 
 
-* 5.28
+** Answer
+
+a) Si no comprara el lote de fotos, la utilidad de Carmen sería:
+   #+begin_export latex
+   \[ U(50, 150) = 60 \times 150^2 = \num{1350000}\]
+   #+end_export
+   En cambio si lo comprara, tendría 60 fotos y le quedarían
+   \money{125} para gastar en otras cosas. Su utilidad sería:
+   #+begin_export latex
+   \[ U(60, 125) = 70 \times 125^2 = \num{1093750}\]
+   #+end_export
+   Carmen no compraría el lote de fotos ya que disfruta de un mayor
+   nivel de utilidad en ese caso.
+
+b) Si Carmen comprara las fotos por $V$ euros su utilidad sería:
+   #+begin_export latex
+   \[ U(60, 150 -V) = 70 (150 - V)^2 \]
+   #+end_export
+   Carmen sólo compraría el lote de fotos si su utilidad no
+   disminuyera:
+   #+begin_export latex
+   \[ U(60, 150 - V) \geq U(50, 150) \]
+   #+end_export
+   La expresión anterior implica:
+   #+begin_export latex
+   \[ 70 (150 - V)^2 \geq \num{1350000} \]
+   #+end_export
+   Operando:
+   #+begin_export latex
+   \[
+     V
+     \leq 150 - \left(\frac{\num{1350000}}{70} \right)^{1/2}
+     \approx 11.13
+   \]
+   #+end_export
+   Carmen pagaría hasta \money{11.13} por el lote de 10 fotos.
+
+
+* 5.12
 
 Cinco amigos han comprado fruta y cada uno de ellos ha adquirido la
 misma combinación: 3 manzanas y 6 peras. El precio de una manzana es
@@ -240,7 +684,41 @@ b) Con la información proporcionada, ¿es posible determinar si alguno
    de los consumidores está maximizando su utilidad?
 
 
-* 5.4
+** Answer
+
+a) Si la elección de uno de ellos es la óptima, se debería de cumplir la condición:
+   #+begin_export latex
+   \[
+     \RMS = \frac{\UMg_{\,\text{Manzanas}}}{\UMg_{\,\text{Peras}}} = \frac{P_{\;\text{Manzanas}}}{P_{\;\text{Peras}}}
+   \]
+   #+end_export
+   En la siguiente tabla se presenta la $\RMS$ de cada uno de los amigos:
+
+   #+ATTR_LATEX: :booktabs t :center t :align @{}l*{3}{R{1.8cm}}@{}
+   |--------+----------------------------+-------------------------+--------|
+   |        | $\UMg_{\,\text{Manzanas}}$ | $\UMg_{\,\text{Peras}}$ | $\RMS$ |
+   |--------+----------------------------+-------------------------+--------|
+   | Jerry  | $12$                       | $6$                     | $2$    |
+   | George | $6$                        | $6$                     | $1$    |
+   | Elaine | $6$                        | $3$                     | $2$    |
+   | Kramer | $3$                        | $6$                     | $1/2$  |
+   | Newman | $12$                       | $3$                     | $4$    |
+   |--------+----------------------------+-------------------------+--------|
+
+   El precio relativo es el mismo para todos: $2$ peras por
+   manzana. Por tanto, la condición de tangencia sólo se cumple en el
+   caso de Jerry y de Elaine. Las $\RMS$ de George y de Kramer son
+   menores que el precio relativo y podrían aumentar su utilidad sin
+   gastar más si cada uno comprara menos manzanas y más peras. En el
+   caso de Newman, su $\RMS$ es mayor que el precio relativo y debería
+   comprar más manzanas y menos peras.
+
+b) No: en los casos de Jerry y Elaine se cumple la condición de
+   tangencia, pero es posible determinar si se cumple o no la
+   restricción presupuestaria de alguno de ellos.
+
+
+* 5.13
 
 Las preferencias de un consumidor pueden describirse con la
 función de utilidad: $U(X, Y)= 5X Y^2$. La renta del consumidor es
@@ -250,15 +728,39 @@ de \money{900} y los precios son $P_X = \price{10}$ y $P_Y =
 
 ** Answer
 
-Recta presupuestaria:  $900 = 10 X + 5 Y$.
+Relación marginal de sustitución:
+#+begin_export latex
+\[
+  \RMS = \frac{\UMg_{X}}{\UMg_{Y}} =
+  \frac{5Y^{2}}{10 X Y} = \frac{1}{2}\frac{Y}{X}
+\]
+#+end_export
+Condiciones de maximización de la utilidad:
 
-Condición de tangencia: $Y = 4 X$.
+- Recta presupuestaria:  $900 = 10 X + 5 Y$.
 
-Cesta óptima: $X^* = \units{30}, Y^* = \units{120}$
+- Condición de tangencia: $Y = 4 X$.
+
+#+ATTR_LATEX: :options [t]{0.47\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-5_1004-choice-*.pdf
+#+ATTR_LATEX: :options [t]{0.53\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Resolviendo las condiciones de óptimo se obtiene la cesta óptima:
+#+begin_export latex
+\begin{equation*}
+  X^* = 30, Y^* = 120.
+\end{equation*}
+#+end_export
+#+xxx: endcol
 
 
-* 5.6
+
+
+* 5.14
 
 La función de utilidad de un consumidor es $U(X, Y) = X Y$. La cesta
 óptima está compuesta por 10 unidades del bien $X$ y 5 unidades del
@@ -268,11 +770,31 @@ es la renta del consumidor?
 
 ** Answer
 
-Solución interior: $\RMS = Y/X = 5 / 10$ es igual a $P_X / P_Y =
-6 / P_Y$. Por tanto, $P_Y = 12$. Finalmente, $M = \money{120}$.
+La cesta óptima del consumidor constituye una solución interior, por
+lo que se debe cumplir la condición $\RMS = P_X / P_Y$. La relación
+marginal de sustitución en la cesta óptima es:
+#+begin_export latex
+\[
+  \RMS = \frac{Y}{X} = \frac{5}{10}
+\]
+#+end_export
+Igualando la $\RMS$ al precio relativo:
+#+begin_export latex
+\[
+  \frac{5}{10} = \frac{6}{P_Y}
+\]
+#+end_export
+Por tanto, $P_Y = \price{12}$. La otra condición de óptimo establece
+que el consumidor gasta toda su renta:
+#+begin_export latex
+\[
+  M = P_X X + P_Y Y = 6 \times 10 + 12 \times 5
+\]
+#+end_export
+Es decir, $M = \money{120}$.
 
 
-* 6.4
+* 5.15
 
 Considere una economía competitiva donde todos los consumidores
 tienen las mismas preferencias y consumen alguna unidad tanto del
@@ -283,14 +805,28 @@ parte de cada uno de los consumidores?
 
 ** Answer
 
-No comprarán la misma cantidad si tienen diferentes niveles de renta.
+Aunque todos los consumidores tengan las mismas preferencias y se
+enfrenten a los mismos precios, es posible que sus rentas sean
+diferentes. En general, no comprarán la misma cantidad si tienen
+diferentes niveles de renta.
 
-Las valoraciones de $X$, $\RMS_i$, coincidirán: todos los consumidores
-se enfrentan a los mismos precios y la cesta óptima de cada uno de
-ellos cumple la condición $\RMS_i = P_x/P_Y$.
+Todos los consumidores compran al menos una unidad de los dos bienes:
+la relación marginal de sustitución de cada consumidor se iguala a los
+precios relativos. Por otro lado, al ser competitiva la economía,
+todos los consumidores pagan los mismos precios. Por tanto:
+#+begin_export latex
+\[
+  \RMS_1 = \RMS_2 = \RMS_3 = \dots = \frac{P_X}{P_Y}
+\]
+#+end_export
+
+En conclusión, los consumidores ajustan su consumo de forma que
+coinciden todas las valoraciones subjetivas del bien $X$, aunque es
+posible que diferentes consumidores compren diferentes cantidades
+de $X$.
 
 
-* 5.7
+* 5.16
 
 Una consumidor posee una renta de \money{40} que gasta en los bienes
 $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
@@ -301,18 +837,75 @@ relación marginal de sustitución es igual a $2$. ¿Es esta su elección
 
 ** Answer
 
-Cuando compra $X=0$ e $Y=2$, $\RMS = 2 > P_X/P_Y = 1.5$.  Su utilidad
-aumentaría si disminuye el consumo de $Y$ y aumenta el de $X$.
+En la situación descrita en el enunciado:
+#+begin_export latex
+\[
+  \RMS = 2 > P_X/P_Y = 1.5
+\]
+#+end_export
+Esto quiere decir que el consumidor podría alcanzar un mayor nivel de
+utilidad si, manteniéndose en su restricción presupuestaria, aumentara
+el consumo del bien $X$ y disminuyera el del bien $Y$. Por tanto, no
+es óptima la cesta con $0$ unidades de $X$ y con $20$ unidades de $Y$.
 
 
-* 5.29
+* 5.17
 
 Determine la combinación óptima de un consumidor con renta $M =
 \money{500}$ y función de utilidad: $U(X, Y) = X^2 (Y + 80)$, siendo
 los precios de los bienes $P_X = \price{2}$ y $P_Y = \price{5}$.
 
 
-* 5.8
+** Answer
+
+Relación marginal de sustitución:
+#+begin_export latex
+\[
+  \RMS = \frac{\UMg_{X}}{\UMg_{Y}} =
+  \frac{2 X (Y + 80)}{X^2} = 2\frac{Y+80}{X}
+\]
+#+end_export
+Condiciones de maximización de la utilidad:
+
+- Recta presupuestaria:  $500 = 2 X + 5 Y$.
+
+- Condición de tangencia: $Y = X/5 - 80$.
+
+Resolviendo las condiciones de óptimo se obtiene:
+#+begin_export latex
+\begin{equation*}
+  X = 300, Y = -20.
+\end{equation*}
+#+end_export
+Rechazamos esta solución por contener un consumo negativo del bien
+$Y$.
+
+#+ATTR_LATEX: :options [t]{0.40\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-5_1004-corner3-*.pdf
+#+ATTR_LATEX: :options [t]{0.60\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+El consumidor maximizaría su utilidad en la esquina:
+#+begin_export latex
+\begin{equation*}
+  X^* = 250, Y^* = 0,
+\end{equation*}
+#+end_export
+donde se cumple:
+#+begin_export latex
+\begin{equation*}
+  \RMS(250, 0) = \frac{16}{25} > \frac{P_X}{P_Y} = \frac{2}{5}
+\end{equation*}
+#+end_export
+#+xxx: endcol
+
+
+
+
+* 5.18
 
 La función $U(N, Y) = (N+4) Y$ describe las preferencias de un
 consumidor entre nueces, $N$, y un bien compuesto que recoge el
@@ -341,32 +934,211 @@ c) ¿Qué alternativa preferiría el consumidor? Razone su respuesta.
 
 ** Answer
 
-a) Recta presupuestaria: $40 = 8N + Y$.
+a) Relación marginal de sustitución:
+   #+begin_export latex
+   \[
+     \RMS = \frac{\UMg_{N}}{\UMg_{Y}} =
+     \frac{Y}{N + 4}
+   \]
+   #+end_export
+   Condiciones de óptimo:
 
-   Condición de tangencia: $Y = 8N + 32$.
+   - Recta presupuestaria:  $40 = 8 X + N$.
 
-   Cesta óptima: $N^* = \units[kg]{0.500}, Y^* = \money{36.00}$
+   - Condición de tangencia: $Y = 8 N + 32$.
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-walnut1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Cesta óptima:
+   #+begin_export latex
+   \begin{gather*}
+     N^* = \units[kg]{0.500} \\ Y^* = \money{36.00}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
-b) Subvención (la restricción se quiebra en $X = 1.5$ e $Y =
-   30.4$). Cesta óptima: $N^* = \units[kg]{1.125}, Y^* =
-   \money{32.80}$.
+b) /Subvención/: la restricción presupuestaria tiene dos tramos. Si el
+   consumidor compra menos de \units[kg]{1.5} de nueces pagaría
+   \money{6.40} por kilo:
+   #+begin_export latex
+   \[
+     40 = 6.4 N + Y \qquad (N \leq 1.5)
+   \]
+   #+end_export
+   Si compra más nueces pagará \price[kg]{8}, pero hay que tener en
+   cuenta la subvención del primer kilo y medio, por la que se ahorró
+   \money{2.40}:
+   #+begin_export latex
+   \[
+     42.40 = 8 N + Y \qquad (N > 1.5)
+   \]
+   #+end_export
+
+   Para determinar el óptimo, seleccionamos uno de los tramos de la
+   restricción presupuestaria y comprobamos que la solución obtenida
+   sea válida. En primer lugar, suponemos que en el óptimo se consumen
+   más de \units[kg]{1.5} de nueces, por lo que el tramo relevante de
+   la restricción presupuestaria es:
+   #+begin_export latex
+   \[
+     42.40 = 8 N + Y \qquad (N > 1.5)
+   \]
+   #+end_export
+   La condición de tangencia en este caso es:
+   #+begin_export latex
+   \[
+     Y = 8 N + 32
+   \]
+   #+end_export
+   y resolviendo las dos últimas ecuaciones: $N = \units[kg]{0.650}$ e
+   $Y = \money{37.20}$. Pero este resultado no puede ser la elección
+   óptima ya que no es compatible nuestro supuesto inicial $N >
+   \units[kg]{1.500}$.
+
+   Suponemos ahora que $N \leq \units[kg]{1.500}$, por lo que el tramo
+   relevante de la restricción presupuestaria es:
+   #+begin_export latex
+   \[
+     40 = 6.4 N + Y \qquad (N \leq 1.5)
+   \]
+   #+end_export
+   y la condición de tangencia es:
+   #+begin_export latex
+   \[
+     Y = 6.4 N + 25.6
+   \]
+   #+end_export
+   Resolviendo estas dos ecuaciones se obtiene $N = \units[kg]{1.125}$
+   e $Y = \money{32.80}$. En este caso, la solución es compatible con
+   el supuesto $N \leq \units[kg]{1.500}$.
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-walnut2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Cesta óptima:
+   #+begin_export latex
+   \begin{gather*}
+     N^* = \units[kg]{1.125} \\ Y^* = \money{32.80}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
-   Donación especie. Cesta óptima: $N^* = \units[kg]{1.500}, Y^* =
-   \money{40.00}$.
+   /Donación es especie/: La restricción presupuestaria tiene dos
+   tramos. Si se consume hasta un kilo y medio de nueces, se puede
+   dedicar toda la renta al consumo de otros bienes:
+   #+begin_export latex
+   \[
+     40 = Y \qquad (N \leq 1.5)
+   \]
+   #+end_export
+   Si el consumo de nueces es mayor, se pagarán \money{8} por la
+   cantidad de nueces por encima del primer kilo y medio:
+   #+begin_export latex
+   \[
+     52 = 8 N + Y \qquad (N > 1.5)
+   \]
+   #+end_export
+   Suponiendo que el óptimo se encuentra en este tramo de la
+   restricción presupuestaria, la condición de tangencia se puede
+   expresar como:
+   #+begin_export latex
+   \[
+     Y = 8 N + 32
+   \]
+   #+end_export
+   La solución de las dos últimas ecuaciones es: $N =
+   \units[kg]{1.250}$ e $Y = \money{42}$. Estos valores no son la
+   solución óptima ya que el tramo de la restricción que hemos
+   utilizado sólo es válido cuando $N > \units[kg]{1.500}$.
+
+   El óptimo debe de encontrarse en el otro tramo de la restricción
+   presupuestaria:
+   #+begin_export latex
+   \[
+     40 = Y \qquad (N \leq 1.5)
+   \]
+   #+end_export
+   y puesto que la función de utilidad cumple el supuesto de no
+   saturación (las utilidades marginales son siempre positivas), el
+   consumo óptimo de nueces será $N^* = \units[kg]{1.500}$, el máximo
+   compatible con la expresión anterior.
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-walnut3-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Cesta óptima:
+   #+begin_export latex
+   \begin{gather*}
+     N^* = \units[kg]{1.500} \\ Y^* = \money{40.00}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
-   Donación metálico. Cesta óptima: $N^* = \units[kg]{1.250}, Y^* =
-   \money{42.00}$.
+   /Donación en metálico/: en este caso la restricción presupuestaria es:
+   #+begin_export latex
+   \[
+     52 = 8 N + Y
+   \]
+   #+end_export
+   y la condición de tangencia es:
+   #+begin_export latex
+   \[
+     Y = 8 N + 32
+   \]
+   #+end_export
+   Estas ecuaciones determinan la cesta óptima: $N =
+   \units[kg]{1.250}$ e $Y = \money{42}$.
+
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-walnut4-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Cesta óptima:
+   #+begin_export latex
+   \begin{gather*}
+     N^* = \units[kg]{1.250} \\ Y^* = \money{42.00}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
 
-c) La donación en metálico le permite alcanzar un mayor nivel de
-   utilidad.
+c) La siguiente tabla resume los resultados obtenidos:
+
+   #+ATTR_LATEX: :booktabs t :center t :align @{}l*{3}{r}@{}
+   |----------------------+----------+---------+---------|
+   |                      | $N$ (kg) | $Y$ (€) | $U$     |
+   |----------------------+----------+---------+---------|
+   | Situación inicial    | $0.500$  | $36.00$ | $162.0$ |
+   | Subvención           | $1.125$  | $32.80$ | $168.1$ |
+   | Donación en especie  | $1.500$  | $40.00$ | $220.0$ |
+   | Donación en metálico | $1.250$  | $42.00$ | $220.5$ |
+   |----------------------+----------+---------+---------|
+
+   El consumidor preferiría la donación en metálico puesto que esta es
+   la opción que le permitiría alcanzar un mayor nivel de utilidad.
 
 
-* 5.30
+* 5.19
 
 A Rafa le gusta jugar al tenis y siempre que puede juega en un club
 cercano a su casa. Alquilar una pista de tenis le cuesta \money{5} por
@@ -388,7 +1160,67 @@ b) Rafa está considerando hacerse socio del club de tenis. Si pagara
    Represente gráficamente.
 
 
-* 5.10
+** Answer
+
+a) Relación marginal de sustitución:
+   #+begin_export latex
+   \[
+     \RMS = \frac{2}{3} \frac{Y}{H}
+   \]
+   #+end_export
+   Condiciones de óptimo:
+
+   - Recta presupuestaria:  $100 = 5 H + Y$.
+
+   - Condición de tangencia: $Y = 7.5 H$.
+
+   La elección óptima es la solución de las condiciones de óptimo:
+   $H^* = 8$ [horas e $Y^* = \money{60}$
+
+b) Si se hace socio, el alquiler es más barato pero deberá pagar la
+   cuota de $\money{30}$. Su recta presupuestaria sería:
+   #+begin_export latex
+   \[
+     70 = 2.5 H + Y
+   \]
+   #+end_export
+   Igualando la \RMS a los precios relativos obtenemos la condición de
+   tangencia:
+   #+begin_export latex
+   \[
+     Y = 3.75 H
+   \]
+   #+end_export
+   Si se hiciera socio, la elección óptima sería: $H^* =
+   11.2$ horas e $Y^* = \money{42}$.
+
+   Para determinar qué opción es más beneficiosa para Rafa, calculamos
+   los valores que tomaría la función de utilidad en cada caso:
+
+   #+ATTR_LATEX: :booktabs t :center t :align @{}p{1.5cm}r*{2}{R{1.25cm}}@{}
+   |----------+-------------+---------+-----------------|
+   |          | $H$ (horas) | $Y$ (€) | $U$             |
+   |----------+-------------+---------+-----------------|
+   | No socio | $8.0$       | $60$    | $\num{3718.06}$ |
+   | Socio    | $11.2$      | $42$    | $\num{3048.54}$ |
+   |----------+-------------+---------+-----------------|
+
+   #+ATTR_LATEX: :options [t]{0.52\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-tennis-*.pdf
+   #+ATTR_LATEX: :options [t]{0.48\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Rafa disfrutaría de un mayor nivel de utilidad si no se hace socio
+   del club de tenis, punto $A$, que si se hace socio, punto $B$.
+   #+xxx: endcol
+
+
+
+
+* 5.20
 
 Las preferencias de un consumidor vienen dadas por la función de
 utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien $X$ es
@@ -404,18 +1236,46 @@ b) Si se racionara el bien $X$ de forma que no se permitiera a
 
 ** Answer
 
-a) Recta presupuestaria: $250 = X + 4 Y$.
+a) Al tratar de obtener una solución interior se llega a $X = 325$ e
+   $Y = -18.75$, lo que implica que la elección óptima se halla en una
+   esquina de la recta presupuestaria.
 
-   Relación marginal de sustitución: $\RMS = (Y + 100) / X$.
-
-   Solución de esquina: $X^* = \units{250}, Y^* = \units{0}$
+   #+ATTR_LATEX: :options [t]{0.52\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-corner1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.48\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Solución de esquina:
+   #+begin_export latex
+   \begin{gather*}
+     X^* = 250\\ Y^* = 0
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
-b) Elección óptima: $X^* = \units{100}, Y^* = \units{37.5}$.
+b) Cuando el consumo de $X$ se raciona, el consumidor no puede elegir
+   la cesta óptima del apartado anterior.
+
+   #+ATTR_LATEX: :options [t]{0.52\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-corner2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.48\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   En el nuevo óptimo consumirá todas las unidades de $X$ que pueda,
+   $X^* = 100$, y con la renta sobrante al comprará $Y^* = 37.5$
+   unidades.
+   #+xxx: endcol
 
 
-* 5.11
+
+
+* 5.21
 
 La función de utilidad de un individuo respecto de los bienes $X$ e
 $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
@@ -432,16 +1292,28 @@ c) ¿Cómo cambiaría la elección del consumidor si $P_X =
 
 ** Answer
 
-a) No, no tiene suficiente renta para comprarla.
+a) No: la cesta está fuera de la restricción presupuestaria del
+   consumidor. Necesitaría $2 \times 10 + 5 \times 40 = \money{220}$
+   para poder comprar la cesta y solamente dispone de \money{100}.
 
-b) $\RMS = 1 > P_X / P_Y = 0.4$. Solución de esquina: $X^* = 50; Y^* =
-   0$.
+b) La relación marginal de sustitución es:
+   #+begin_export latex
+   \[
+     \RMS = \UMg_X / \UMg_Y = 3 / 3 = 1
+   \]
+   #+end_export
+   El valor de la \RMS muestra que el consumidor renunciaría hasta a
+   $1$ unidad del bien $Y$ para incrementar el consumo de $X$ en una
+   unidad.  Pero sólo tendría que renunciar a $P_X / P_Y = 0.4$
+   unidades del bien $Y$ para comprar una unidad de $X$. Como $\RMS >
+   P_X / P_Y$ el consumidor gastaría toda su renta en el bien $X$,
+   $X^* = 50$, y no compraría nada del otro bien, $Y^* = 0$.
 
-c) $\RMS = 1 < P_X / P_Y = 2$. Solución de esquina: $X^* = 0; Y^* =
-   20$.
+c) Ahora $\RMS = 1 < P_X / P_Y = 2$ y el consumidor gastaría toda su
+   renta en el bien $Y$. La cesta óptima sería: $X^* = 0$ e $Y^* = 20$.
 
 
-* 5.12
+* 5.22
 
 A Rocío le gusta tomar leche con cereales. Siempre los combina en
 la misma proporción: añade exactamente \units[g]{20} de cereales
@@ -458,21 +1330,65 @@ b) Si Rocío gasta \money{6} al mes en leche y cereales, el precio
 
 ** Answer
 
-a) Preferencias sobre $L$, litros de leche, y $C$, kg de cereales:
+a) Para Rocío la leche y los cereales son complementos perfectos. Su
+   combinación ideal de estos bienes puede expresarse como:
    #+begin_export latex
    \[
-     U = \min\{L/0.250, C/0.020\}
+     \frac{L}{0.250} = \frac{C}{0.020}
    \]
    #+end_export
-   Por tanto:
+   donde $L$ son litros de leche y $C$ kilos de cereales. La función
+   de utilidad de Rocío es:
    #+begin_export latex
    \[
-     U = \min\{4L, 50C\}
+     U = \min\left\{\frac{L}{0.250}, \frac{C}{0.020}\right\}
    \]
    #+end_export
-   #+xxx: fig fig-ans-probl-5_1004-compl1-*.pdf
 
-b) Restricción presupuestaria: $6 = 0.8 L + 2 C$.
-   Proporciones exactas: $4L = 50C$.
-   Óptimo: $L^* = \units[l]{6.250}, C^* = \units[kg]{0.500}$.
+   #+ATTR_LATEX: :options [t]{0.52\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-5_1004-compl1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.48\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Las curvas de indiferencia tienen forma de ángulos rectos. En los
+   vértices de las curvas de indiferencia los dos bienes se combinan
+   en las proporciones ideales.
+   #+xxx: endcol
+
+
+b) La recta presupuestaria de Rocío es:
+   #+begin_export latex
+   \[
+     6 = 0.8 L + 2 C
+   \]
+   #+end_export
+
+   La cesta óptima debe de combinar los dos bienes en las proporciones
+   ideales; en caso contrario, parte de las compras de Rocío no le
+   reportarían ninguna utilidad. La siguiente ecuación define las
+   cestas con proporciones ideales:
+   #+begin_export latex
+   \[
+      L = 12.5 C
+   \]
+   #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.52\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-compl2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.48\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   La elección óptima de Rocío se obtiene resolviendo las dos
+   ecuaciones anteriores:
+   #+begin_export latex
+   \begin{gather*}
+     L^* = \units[l]{6.250}\\ C^* = \units[kg]{0.500}
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol

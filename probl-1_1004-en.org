@@ -69,6 +69,11 @@ d) Which would be the consequences on the PPF of the reduction of the
 
 # #+latex: \clearpage{}
 
+
+** Answer
+
+Not done yet.
+
 * 1.2
 
 The table below shows different efficient combinations for an economy
@@ -99,6 +104,10 @@ e) What is the relationship between the PPF shape and the opportunity
    cost?
 
 
+** Answer
+
+Not done yet.
+
 * 1.3
 
 The production possibilities frontier, PPF, of a country producing
@@ -122,8 +131,10 @@ c) If instead of \num{1000} units, the economy produces \num{5000}
 d) What is the relationship between the behavior of the opportunity
    cost and the shape of the PPF?
 
-# #+latex: \enlargethispage{2\baselineskip}
 
+** Answer
+
+Not done yet.
 
 * 1.4
 
@@ -135,6 +146,10 @@ an economy where only fish and coconuts are produced:
 Rank the production options $A$, $B$, $C$, and $D$ from higher to
 lower opportunity cost of producing fish.
 
+
+** Answer
+
+Not done yet.
 
 * 1.5
 
@@ -155,3 +170,8 @@ c) A higher share of working people migrate abroad looking for a
 
 d) An administrative reform makes it much more difficult and costly to
    hire workers.
+
+
+** Answer
+
+Not done yet.

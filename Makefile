@@ -60,8 +60,8 @@ no_ans_en := $(addsuffix _$(subject_code)-en, \
 	$(addprefix no-ans-probl-, $(probl_units)))
 
 docs_es := $(no_ans_es) $(with_ans_es)
-# docs_en := $(no_ans_en) $(with_ans_en)
-docs_en := $(no_ans_en)
+docs_en := $(no_ans_en) $(with_ans_en)
+
 
 docs_base := $(docs_es) $(docs_en)
 docs_pdf := $(addprefix $(outdir)/, $(addsuffix .pdf, $(docs_base)))

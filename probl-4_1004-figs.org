@@ -3,162 +3,188 @@
 #+TITLE: Exercises 4
 
 
-* 4.1 Taxes
+* 4.1 Price controls
 
+** Question figure
 
-** Before taxes
-
-
-#+begin_src latex :tangle fig-ans-probl-4_1004-before-tax.tex :noweb no
-  \begin{tikzpicture}[xscale=5, yscale=5]
-
-    \coordinate (DA1) at (0.53333333, 0.8) ;
-    \coordinate (DB1) at (0.76666667, 0.1) ;
-
-    \coordinate (OA1) at (0.46666667, 0.1) ;
-    \coordinate (OB1) at (0.93333333, 0.8) ;
-
-    \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
-    node[right] {$D$} ;
-
-    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
-    node[right] {$O$} ;
-
-    \path[name intersections={of=D1 and O1, by=E1}] ;
-    \node[dot] at (E1) {} ;
-
-    \draw[help lines]
-    let \p1 = (E1) in
-    (0, \y1) node[left] {$1000$} -|
-    (\x1, 0) node[below] {$\num{80000}$}
-    ;
-
-    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P$};
-    \draw[axis, very thick, ->, TwoMarks=0.15] (0,0) -- (1, 0) node[below] {$Q$} ;
+#+begin_src latex :tangle fig-probl-4_1004-price-controls.tex
+  \begin{tikzpicture}[<<ex4.1:xy-scale>>]
+    <<ex4.1:curves>>
+    \begin{scope}[on background layer]
+    <<ex4.1:grid>>
+    \end{scope}
+    <<ex4.1:axes>>
   \end{tikzpicture}
 #+end_src
 
 
-** Tax on sellers
+** Answer figures
 
+#+begin_src latex :tangle fig-ans-probl-4_1004-price-controls-a.tex
+  \begin{tikzpicture}[<<ex4.1:xy-scale-small>>]
 
-#+begin_src latex :tangle fig-ans-probl-4_1004-tax-sellers.tex :noweb no
-  \begin{tikzpicture}[xscale=5, yscale=5]
+    \begin{scope}[on background layer,
+      help lines/.append style={opacity=0.2},
+      every node/.style={opacity=0.2}]
+    <<ex4.1:grid>>
+    \end{scope}
+    <<ex4.1:curves>>
 
-    \coordinate (DA1) at (0.53333333, 0.8) ;
-    \coordinate (DB1) at (0.76666667, 0.1) ;
+    \draw[curve, very thick, name path = C]
+      (0.0, 1.5) node[left] {$1.50$} --
+      (7.7, 1.5) ;
 
-    \coordinate (DA2) at (0.43333333, 0.8) ;
-    \coordinate (DB2) at (0.66666667, 0.1) ;
-
-    \coordinate (OA1) at (0.46666667, 0.1) ;
-    \coordinate (OB1) at (0.93333333, 0.8) ;
-
-    \coordinate (OA2) at (0.26666667, 0.1) ;
-    \coordinate (OB2) at (0.73333333, 0.8) ;
-
-    \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
-    node[right] {$D$} ;
-
-    \path[name path=D2] (DA2) -- (DB2) ;
-
-    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
-    node[right] {$O$} ;
-
-    \draw[curve, very thick, name path=O2] (OA2) -- (OB2)
-    node[right] {$O'$} ;
-
-    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \path[name intersections={of=D and O, by=E1}] ;
     \draw[help lines]
-    let \p1 = (E1) in
-    (0, \y1) node[left] {$1000$} -- (E1)
+      let \p1 = (E1) in
+      (0, \y1) node[left] {$2.50$} -|
+      (\x1, 0) (\x1, -0.5) node[below] {$350$}
     ;
     \node[dot] at (E1) {} ;
 
-    \path[name intersections={of=D1 and O2, by=E2}] ;
+    <<ex4.1:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-4_1004-price-controls-b.tex
+  \begin{tikzpicture}[<<ex4.1:xy-scale-small>>]
+
+    \begin{scope}[on background layer,
+      help lines/.append style={opacity=0.2},
+      every node/.style={opacity=0.2}]
+    <<ex4.1:grid>>
+    \end{scope}
+    <<ex4.1:curves>>
+
+    \draw[curve, very thick, name path = C]
+      (0.0, 1.5) node[left] {$1.50$} --
+      (7.7, 1.5) ;
+
+    \path[name intersections={of=C and O, by=E1}] ;
     \draw[help lines]
-    let \p1 = (E2) in
-    (0, \y1) node[left] {$1100$} -|
-    (\x1, 0) node[below] {$\num{78000}$}
+      let \p1 = (E1) in
+      (0, \y1) -|
+      (\x1, 0) (\x1, -0.5) node[below] {$250$}
     ;
-    \node[dot] at (E2) {} ;
+    \node[dot] at (E1) {} ;
 
-    \path[name intersections={of=D2 and O1, by=E3}] ;
+    <<ex4.1:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-4_1004-price-controls-c.tex
+  \begin{tikzpicture}[<<ex4.1:xy-scale-small>>]
+
+    \begin{scope}[on background layer,
+      help lines/.append style={opacity=0.2},
+      every node/.style={opacity=0.2}]
+    <<ex4.1:grid>>
+    \end{scope}
+    <<ex4.1:curves>>
+
+    \draw[curve, very thick, name path = C]
+      (0.0, 4.0) node[left] {$4.00$} --
+      (7.7, 4.0) ;
+
+    \path[name intersections={of=D and C, by=E1}] ;
     \draw[help lines]
-    let \p1 = (E3) in
-    (0, \y1) node[left] {$950$} -- (E3)
+      let \p1 = (E1) in
+      (0, \y1) -|
+      (\x1, 0) (\x1, -0.5) node[below] {$50$}
     ;
-    \node[dot] at (E3) {} ;
+    \node[dot] at (E1) {} ;
 
+    <<ex4.1:axes>>
+  \end{tikzpicture}
+#+end_src
 
-    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P$};
-    \draw[axis, very thick, ->, TwoMarks=0.15] (0,0) -- (1, 0) node[below] {$Q$} ;
+#+begin_src latex :tangle fig-ans-probl-4_1004-price-controls-d.tex
+  \begin{tikzpicture}[<<ex4.1:xy-scale-small>>]
+
+    \begin{scope}[on background layer,
+      help lines/.append style={opacity=0.2},
+      every node/.style={opacity=0.2}]
+    <<ex4.1:grid>>
+    \end{scope}
+    <<ex4.1:curves>>
+
+    \draw[curve, very thick, name path = C]
+      (0.0, 1.5) node[left] {$4.00$} --
+      (7.7, 1.5) ;
+
+    \path[name intersections={of=D and O, by=E1}] ;
+    \draw[help lines]
+      let \p1 = (E1) in
+      (0, \y1) node[left] {$2.50$} -|
+      (\x1, 0) (\x1, -0.5) node[below] {$350$}
+    ;
+    \node[dot] at (E1) {} ;
+
+    <<ex4.1:axes>>
   \end{tikzpicture}
 #+end_src
 
 
-** Tax on buyers
+** Common
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex4.1:axes
+  \draw[axis, very thick]
+    (0, 6) node[left] {$P$} |- (8, 0) node[below] {$Q$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex4.1:xy-scale
+  xscale = 1, yscale = 1
+#+end_src
+
+#+begin_src latex :noweb-ref ex4.1:xy-scale-small
+  xscale = 0.67, yscale = 0.67
+#+end_src
 
 
-#+begin_src latex :tangle fig-ans-probl-4_1004-tax-buyers.tex :noweb no
-  \begin{tikzpicture}[xscale=5, yscale=5]
+*** Curves
 
-    \coordinate (DA1) at (0.53333333, 0.8) ;
-    \coordinate (DB1) at (0.76666667, 0.1) ;
+#+begin_src latex :noweb-ref ex4.1:curves
+  \coordinate (D1) at (0, 4.25) ;
+  \coordinate (D2) at (7, 0.75) ;
+  \coordinate (S1) at (1, 0) ;
+  \coordinate (S2) at (6, 5) ;
 
-    \coordinate (DA2) at (0.43333333, 0.8) ;
-    \coordinate (DB2) at (0.66666667, 0.1) ;
+  \draw[curve, name path = D]
+  (D1) -- (D2) node[right] {$D$};
 
-    \coordinate (OA1) at (0.46666667, 0.1) ;
-    \coordinate (OB1) at (0.93333333, 0.8) ;
+  \draw[curve, name path = O]
+  (S1) -- (S2) node[above right] {$O$};
+#+end_src
 
-    \coordinate (OA2) at (0.26666667, 0.1) ;
-    \coordinate (OB2) at (0.73333333, 0.8) ;
 
-    \draw[curve, very thick, name path=D1] (DA1) node[right] {$D$} -- (DB1)
-     ;
+*** Grid
 
-    \draw[curve, very thick, name path=D2] (DA2) node[left] {$D'$} -- (DB2)
-     ;
+#+begin_src latex :noweb-ref ex4.1:grid
+  \draw[help lines, step=0.5] (0, 0) grid (7.7, 5.7) ;
 
-    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
-    node[right] {$O$} ;
-
-    \path[name path=O2] (OA2) -- (OB2) ;
-
-    \path[name intersections={of=D1 and O1, by=E1}] ;
-    \draw[help lines]
-    let \p1 = (E1) in
-    (0, \y1) node[left] {$1000$} -- (E1)
+  \draw[curve]
+    (1, 0) node[below] {$100$}
+    (2, 0) node[below] {$200$}
+    (3, 0) node[below] {$300$}
+    (4, 0) node[below] {$400$}
+    (5, 0) node[below] {$500$}
+    (6, 0) node[below] {$600$}
+    (7, 0) node[below] {$700$}
+    (0, 1) node[left] {$1.00$}
+    (0, 2) node[left] {$2.00$}
+    (0, 3) node[left] {$3.00$}
+    (0, 4) node[left] {$4.00$}
+    (0, 5) node[left] {$5.00$}
     ;
-    \node[dot] at (E1) {} ;
-
-    \path[name intersections={of=D1 and O2, by=E2}] ;
-    \draw[help lines]
-    let \p1 = (E2) in
-    (0, \y1) node[left] {$1100$} -|
-    (\x1, 0) node[below] {$\num{78000}$}
-    ;
-    \node[dot] at (E2) {} ;
-
-    \path[name intersections={of=D2 and O1, by=E3}] ;
-    \draw[help lines]
-    let \p1 = (E3) in
-    (0, \y1) node[left] {$950$} -- (E3)
-    ;
-    \node[dot] at (E3) {} ;
-
-
-    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P$};
-    \draw[axis, very thick, ->, TwoMarks=0.15] (0,0) -- (1, 0) node[below] {$Q$} ;
-  \end{tikzpicture}
 #+end_src
 
 
 * 4.2 Minimum price
 
 #+begin_src latex :tangle fig-ans-probl-4_1004-min-price.tex :noweb no
-  \begin{tikzpicture}[xscale=4, yscale=4]
+  \begin{tikzpicture}[xscale=5, yscale=4]
 
     \coordinate (DA1) at (0.16666667, 0.9) ;
     \coordinate (DB1) at (0.83333333, 0.1) ;
@@ -182,7 +208,7 @@
     \path[name intersections={of=D1 and O1, by=E1}] ;
     \draw[help lines]
     let \p1 = (E1) in
-    (0, \y1) node[left] {$1000$} -|
+    (0, \y1) node[left] {$\num{1000}$} -|
     (\x1, 0) node[below] {$75$}
     ;
     \node[dot] at (E1) {} ;
@@ -201,7 +227,7 @@
     ;
     \node[dot] at (Om) {} ;
 
-    \draw[help lines]  (0, 0.7) node[left] {$1200$} ;
+    \draw[help lines]  (0, 0.7) node[left] {$\num{1200}$} ;
 
     \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P_X$};
     \draw[axis, very thick, ->, TwoMarks=0.08] (0,0) -- (1, 0) node[below] {$X$} ;
@@ -209,25 +235,59 @@
 #+end_src
 
 
-* 4.4 Equilibrium and price ceiling
+* 4.3 Sugar
+
+  #+begin_src latex :tangle fig-ans-probl-4_1004-sugar.tex :noweb no
+    \begin{tikzpicture}[xscale = 0.9, yscale = 3.5]
+
+      \draw[curve, very thick, name path = D]
+      (1.39, 0.85) -- (2.5, 0.15625) node[right] {$D$} ;
+
+      \draw[curve, very thick, name path = O]
+      (0.25, 0.3) -- (2.5, 0.85) node[right] {$O$} ;
+
+      \draw[curve, very thick, name path = C]
+      (0, 0.4) node[left] {$0.65$} -- (2.7, 0.4) node[right] {$P_{\min}$} ;
+
+      \path[name intersections={of=D and O, by=E1}] ;
+
+      \draw[help lines]
+        let \p1 = (E1) in
+        (0, \y1) node[left] {$0.75$} -|
+        (\x1, 0) node[below] {$A^{*}$}
+        ;
+
+      \node[dot] at (E1) {} ;
+
+      \draw[axis, very thick] (0, 1) |- (3.5, 0) ;
+      \draw[inner xsep=0pt, outer xsep = 0pt]
+        (0, 1) node[anchor=south west, xshift=-6pt] {Precio}
+        (3.5, 0) node[anchor=north east, xshift=6pt, yshift=-2] {Azúcar}
+      ;
+
+    \end{tikzpicture}
+  #+end_src
+
+
+* 4.5 Equilibrium and price ceiling
 
   #+begin_src latex :tangle fig-ans-probl-4_1004-eq1.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.75, yscale = 2.28571]
+    \begin{tikzpicture}[xscale = 0.85, yscale = 4.5]
 
       \draw[help lines]
       (0, 0.45) node[left] {$45$} -| (1.9, 0) node[below] {$190$} ;
 
       \draw[curve, very thick]
-      (0, 0.83) -- (4.15, 0) node[above right, pos=0.95] {$D$} ;
+      (0, 0.83) -- (4.15, 0) node[above right, pos=0.95] {$X^d_a$} ;
 
       \draw[curve, very thick]
-      (1, 0) -- (4.15, 1.5715) node[right] {$O$} ;
+      (1, 0) -- (2.664, 0.83) node[right] {$X^o$} ;
 
       \draw[curve, very thick]
-      (0, 0.5) -- (5.15, 0.5) node[right] {$P_{X}^{\max}$} ;
+      (0, 0.5) -- (4.65, 0.5) node[right] {$P_{X}^{\max}$} ;
 
-      \draw[axis, very thick] (0,1.75) node[left] {$P_{X}$} |-
-      (6.50, 0) node[below] {$X$} ;
+      \draw[axis, very thick] (0,1) node[left] {$P_{X}$} |-
+      (6.25, 0) node[below] {$X$} ;
 
       \node[dot] at (1.9, 0.45) {} ;
 
@@ -235,28 +295,173 @@
   #+end_src
 
   #+begin_src latex :tangle fig-ans-probl-4_1004-eq2.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.75, yscale = 2.28571]
+    \begin{tikzpicture}[xscale = 0.85, yscale = 4.5]
 
       \draw[help lines]
       (2, 0.5) -- (2, 0) node[below] {$200$}
       (3.05, 0.5) -- (3.05, 0) node[below] {$305$} ;
 
       \draw[curve, very thick]
-      (0, 1.11) -- (5.55, 0) node[above right, pos=0.95] {$D$} ;
+      (1.4, 0.83) -- (4.65, 0.18) node[right] {$X^d_b$} ;
 
       \draw[curve, very thick]
-      (1, 0) -- (4.15, 1.5715) node[right] {$O$} ;
+      (1, 0) -- (2.664, 0.83) node[right] {$X^o$} ;
 
       \draw[curve, very thick]
       (0, 0.5) node[left] {$50$} -- (4.65, 0.5) node[right] {$P_{X}^{\max}$} ;
 
-      \draw[axis, very thick] (0,1.75) node[left] {$P_{X}$} |-
-      (6.50, 0) node[below] {$X$} ;
+      \draw[axis, very thick] (0,1) node[left] {$P_{X}$} |-
+      (6.25, 0) node[below] {$X$} ;
 
       \node[dot] at (2, 0.5) {} ;
 
     \end{tikzpicture}
   #+end_src
+
+
+* 4.7 Taxes
+
+** Before taxes
+
+
+#+begin_src latex :tangle fig-ans-probl-4_1004-before-tax.tex
+  \begin{tikzpicture}[<<ex4.7:xy-scale>>]
+    <<ex4.7:curve-D1>>
+    <<ex4.7:curve-O1>>
+    <<ex4.7:dot-E1>>
+    <<ex4.7:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Tax on sellers
+
+
+#+begin_src latex :tangle fig-ans-probl-4_1004-tax-sellers.tex
+  \begin{tikzpicture}[<<ex4.7:xy-scale>>]
+    <<ex4.7:curve-D1>>
+    <<ex4.7:curve-O1>>
+    <<ex4.7:dot-E1>>
+
+    <<ex4.7:curve-O2>>
+
+
+    \path[name intersections={of=D1 and O2, by=E2}] ;
+    \draw[help lines]
+    let \p1 = (E2) in
+    (0, \y1) node[left] {$\num{1100}$} -|
+    (\x1, 0) node[below] {$\num{78000}$}
+    ;
+    \node[dot] at (E2) {} ;
+
+    \coordinate (E3) at ($(E2) - (0, 1.5)$) ;
+    \draw[help lines]
+    let \p1 = (E3) in
+    (0, \y1) node[left] {$950$} -- (E3)
+    ;
+    \node[dot] at (E3) {} ;
+
+
+    <<ex4.7:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Tax on buyers
+
+
+#+begin_src latex :tangle fig-ans-probl-4_1004-tax-buyers.tex
+  \begin{tikzpicture}[<<ex4.7:xy-scale>>]
+    <<ex4.7:curve-D1>>
+    <<ex4.7:curve-O1>>
+    <<ex4.7:dot-E1>>
+
+
+    <<ex4.7:curve-D2>>
+
+    \path[name intersections={of=D2 and O1, by=E2}] ;
+    \draw[help lines]
+    let \p1 = (E2) in
+    (0, \y1) node[left] {$950$} -- (E2)
+    ;
+    \node[dot] at (E2) {} ;
+
+    \coordinate (E3) at ($(E2) + (0, 1.5)$) ;
+    \draw[help lines]
+    let \p1 = (E3) in
+    (0, \y1) node[left] {$\num{1100}$} -|
+    (\x1, 0) node[below] {$\num{78000}$}
+    ;
+    \node[dot] at (E3) {} ;
+
+
+    <<ex4.7:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex4.7:axes
+  \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 4.5) node[left] {$P$};
+  \draw[axis, very thick, ->, TwoMarks=0.15] (0,0) -- (5, 0) node[below] {$Q$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex4.7:xy-scale
+  xscale = 1.2, yscale = 1
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex4.7:curve-D1
+  \coordinate (DA1) at (1.5, 4) ;
+  \coordinate (DB1) at (4.5, 1) ;
+
+  \draw[curve, very thick, name path=D1]
+    (DA1)  -- (DB1) node[right] {$Q^d$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex4.7:curve-O1
+  \coordinate (OA1) at (1.2, 0.85) ;
+  \coordinate (OB1) at (4.5, 2.5) ;
+
+  \draw[curve, very thick, name path=O1]
+    (OA1) -- (OB1) node[right] {$Q^o$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex4.7:curve-D2
+  \coordinate (DA2) at (1.2, 2.8) ;
+  \coordinate (DB2) at (3, 1) ;
+
+  \draw[curve, very thick, name path=D2]
+    (DA2) -- (DB2) node[right] {$Q^d_t$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex4.7:curve-O2
+  \coordinate (OA2) at (0.8, 2.15) ;
+  \coordinate (OB2) at (4.5, 4) ;
+
+  \draw[curve, very thick, name path=O2]
+    (OA2) -- (OB2) node[right] {$Q^o_t$} ;
+#+end_src
+
+
+*** Dots
+
+#+begin_src latex :noweb-ref ex4.7:dot-E1
+  \path[name intersections={of=D1 and O1, by=E1}] ;
+  \node[dot] at (E1) {} ;
+
+  \draw[help lines]
+    let \p1 = (E1) in
+    (0, \y1) node[left] {$\num{1000}$} -|
+    (\x1, 0) node[below] {$\num{80000}$}
+    ;
+#+end_src
+
 
 
 * 4.6 Subsidies
@@ -292,7 +497,7 @@
 #+end_src
 
 #+begin_src latex :tangle fig-ans-probl-4_1004-subsidy2.tex :noweb no
-  \begin{tikzpicture}[xscale=3.89, yscale=4.5454545454]
+  \begin{tikzpicture}[xscale=5, yscale=4]
 
     \coordinate (DA1) at (0.16666667, 0.66666667) ;
     \coordinate (DB1) at (1, 0.3888887) ;
@@ -319,8 +524,9 @@
 
     \path[name intersections={of=D1 and O1, by=E1}] ;
     \draw[help lines]
-    let \p1 = (E1) in
-    (0, \y1) node[left] {$500$} -- (E1)
+      let \p1 = (E1) in
+      (0, \y1) node[left] {$500$} -|
+      (\x1, 0) node[below] {$\num{10000}$}
     ;
     \node[dot] at (E1) {} ;
 
@@ -342,47 +548,5 @@
 
     \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1.1) node[left] {$P$};
     \draw[axis, very thick, ->, TwoMarks=0.10] (0,0) -- (1.2, 0) node[below] {$Q$} ;
-  \end{tikzpicture}
-#+end_src
-
-
-* 4.8 Price controls
-
-#+begin_src latex :tangle fig-probl-4_1004-price-controls.tex :noweb no
-  \begin{tikzpicture}[xscale = 1, yscale = 1]
-
-    \coordinate (D1) at (0, 4.25) ;
-    \coordinate (D2) at (7, 0.75) ;
-    \coordinate (S1) at (1, 0) ;
-    \coordinate (S2) at (6, 5) ;
-
-    \draw[curve]
-    (D1) -- (D2) node[right] {$D$};
-
-    \draw[curve]
-    (S1) -- (S2) node[above right] {$O$};
-
-    \begin{scope}[on background layer]
-    \draw[help lines, step=0.5] (0, 0) grid (7.5, 5.5) ;
-    \end{scope}
-
-    \draw[curve]
-      (1, 0) node[below] {$100$}
-      (2, 0) node[below] {$200$}
-      (3, 0) node[below] {$300$}
-      (4, 0) node[below] {$400$}
-      (5, 0) node[below] {$500$}
-      (6, 0) node[below] {$600$}
-      (7, 0) node[below] {$700$}
-      (0, 1) node[left] {$1.00$}
-      (0, 2) node[left] {$2.00$}
-      (0, 3) node[left] {$3.00$}
-      (0, 4) node[left] {$4.00$}
-      (0, 5) node[left] {$5.00$}
-      ;
-
-    \draw[axis, very thick]
-    (0, 6) node[left] {$P$} |- (8, 0) node[below] {$Q$} ;
-
   \end{tikzpicture}
 #+end_src
