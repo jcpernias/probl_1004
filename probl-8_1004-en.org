@@ -97,8 +97,8 @@ Not done yet.
 
 The output per worker in a company is 20 chairs per day. The company's
 owner has calculated that an additional worker would increase the
-daily output by 10 chairs. Will the average product increase if the
-company hires another worker?
+daily output by 10 chairs. What would happen to the average product if
+the company hires another worker?
 
 ** Answer
 
