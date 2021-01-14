@@ -3,7 +3,7 @@
 
 #+MACRO: Inc Inc@@latex:\@.@@
 
-* 9.2.
+* 9.1.
 
 Complete the following table describing the short run costs of a
 company.
@@ -26,7 +26,8 @@ company.
 
 Not done yet.
 
-* 9.1.
+
+* 9.2.
 
 The production function of a firm is: $Q = L^{1/2} K^{1/2}$ and the
 input prices are $w =\price{10}$ and $r = \price{20}$. In the short
@@ -46,7 +47,8 @@ c) At which output level is average cost minimized?  Which is
 
 Not done yet.
 
-* 9.20
+
+* 9.3
 
 A firm is in a situation such that $\PMgL = \PMeL$. Which is the relationship
 between its average and marginal costs in the short run?
@@ -57,7 +59,8 @@ Represent graphically.
 
 Not done yet.
 
-* 9.3.
+
+* 9.4.
 
 The production function of a company is given by: $Q = K L$. The
 hourly wage is \wage{2} and the price of capital input is
@@ -69,7 +72,8 @@ of producing 5000 units. Which is the minimum cost?
 
 Not done yet.
 
-* 9.4.
+
+* 9.5.
 
 The owner of a company has drawn the following diagram to decide how
 many units of labor and capital she should hire in the long run in order to
@@ -93,7 +97,8 @@ c) If $\PMgK = 30$ when costs are minimized, which is the value of
 
 Not done yet.
 
-* 9.5.
+
+* 9.6.
 
 Sauron {{{Inc}}} is a company dedicated to the production of
 exclusive rings using labor and 3D printers. The daily production
@@ -110,7 +115,8 @@ costs? Justify your answers.
 
 Not done yet.
 
-* 9.6.
+
+* 9.7.
 
 A company's production function is: $Q = L^{3/2} K^{1/2}$. The
 company currently hires 144 hours of labor and 12 units of
@@ -123,7 +129,8 @@ capital and labor inputs?
 
 Not done yet.
 
-* 9.7.
+
+* 9.8.
 
 The production function of a company is: $F(L, K) = L^{2} K$ and
 the input prices are: $w = \wage{16}$ and $r = \price{8}$.
@@ -140,7 +147,8 @@ b) Determine the long run cost curve, as well as the average and
 
 Not done yet.
 
-* 9.8.
+
+* 9.9.
 
 The long run total cost curve of a company is:
 #+begin_export latex
@@ -158,7 +166,8 @@ company experience economies of scale? And diseconomies of scale?
 
 Not done yet.
 
-* 9.9.
+
+* 9.10.
 
 Consider the production function: $Q = K L$. The inputs prices are
 $w= \wage{1}$ and $r=\price{1}$ and the capital input in the short
@@ -177,7 +186,8 @@ b) What is the single output level at which the long run and
 
 Not done yet.
 
-* 9.10.
+
+* 9.11.
 
 The following figure shows some isoquants of a firm's production
 function:
@@ -201,7 +211,8 @@ b) Calculate the long run cost of producing $40$, $160$ and $360$
 
 Not done yet.
 
-* 9.11.
+
+* 9.12.
 
 Explain why the following statements are correct or incorrect (if
 appropriate, use diagrams to illustrate your points):
@@ -218,18 +229,20 @@ c) The long run cost can never be greater than the short run cost.
 d) Whenever the marginal cost is increasing, the average cost is also
    increasing.
 
+
 ** Answer
 
 Not done yet.
 
-* 9.21
+
+* 9.13
 
 The production function of a firm is $Q = 10 K^{1/2} L^{1/2}$ and the
 input prices are $w = \price{20}$ y $r = \price{80}$. The firm
-produces 80 units using 80 units using 16 units of labor and 4 units
-of capital.
+produces 80 units using 16 units of labor and 4 units of capital.
 
-a) Is the firm minimizing costs? If your answer is negative, determine the optimal amounts of labor and capital inputs.
+a) Is the firm minimizing costs? If your answer is negative, determine
+   the optimal amounts of labor and capital inputs.
 b) <<ex9.21:item-b>>If the firm increased its output to 100 units and
    the capital was fixed, how much would the costs of production
    increase?
