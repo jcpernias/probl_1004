@@ -117,7 +117,7 @@ El precio de equilibrio está por encima del precio máximo.
 La regulación implica una caída del precio de mercado:
 #+begin_export latex
 \[
-  \incrpct{P} = -6/300 \times 100 = -2
+  \incrpct{P} = -6/300 \times 100 = -2.
 \]
 #+end_export
 Podemos determinar la variación de la cantidad demandada y de la
@@ -125,8 +125,8 @@ cantidad ofrecida usando los valores de las elasticidades de la
 demanda y de la oferta, respectivamente:
 #+begin_export latex
 \begin{gather*}
-  \incrpct{Q^{d}} = E_d \incrpct{P} = -1.5 \times (-2) = 3 \\
-  \incrpct{Q^{o}} = E_o \incrpct{P} = 2 \times (-2) = -4
+  \incrpct{Q^{d}} = E_d \incrpct{P} = -1.5 \times (-2) = 3. \\
+  \incrpct{Q^{o}} = E_o \incrpct{P} = 2 \times (-2) = -4.
 \end{gather*}
 #+end_export
 Por lo que se produce un exceso de demanda de un 7% con respecto a la
@@ -159,7 +159,7 @@ b) Describa como cambiarían sus respuestas en [[ex4.4:item-a]] si la
 a) La curva de demanda es:
    #+begin_export latex
    \[
-     X^d_a = 200 - 5 P_X + 3 \times 5 + 2 \times 100 = 415 - 5 P_X
+     X^d_a = 200 - 5 P_X + 3 \times 5 + 2 \times 100 = 415 - 5 P_X.
    \]
    #+end_export
    Igualando oferta y demanda se obtiene el equilibrio: $P^*_X =
@@ -171,7 +171,7 @@ a) La curva de demanda es:
 b) La nueva curva de demanda es:
    #+begin_export latex
    \[
-     X^d_b = 200 - 5 P_X + 3 \times 5 + 2 \times 170 = 555 - 5 P_X
+     X^d_b = 200 - 5 P_X + 3 \times 5 + 2 \times 170 = 555 - 5 P_X.
    \]
    #+end_export
    El nuevo precio de equilibrio sería $P_X^* = \price{65}$. Pero este
@@ -191,10 +191,10 @@ cantidad vendida coincidirá con la cantidad de equilibrio."
 
 ** Answer
 
-Un precio máximo mayor que el de equilibrio no impide que el mercado
-se equilibre. En ese caso la cantidad vendida la determinaría la
-intersección de las curvas de demanda y de oferta, por lo que la
-afirmación es verdadera.
+La afirmación es verdadera: un precio máximo mayor que el de
+equilibrio no impide que el mercado se equilibre. En ese caso, la
+cantidad vendida la determinaría la intersección de las curvas de
+demanda y de oferta.
 
 
 * 4.7
@@ -231,7 +231,7 @@ a) Igualando oferta y demanda se obtiene el equilibrio de mercado:
 b) La curva de oferta después del impuesto es:
    #+begin_export latex
    \[
-     Q^o_t = \num{40000} + 40 (P - 150) = \num{34000} + 40 P
+     Q^o_t = \num{40000} + 40 (P - 150) = \num{34000} + 40 P.
    \]
    #+end_export
    En el nuevo equilibrio: $P^* = \price{1100}$ y $Q^* =
@@ -248,9 +248,9 @@ c) Las elasticidades de la demanda y de la oferta en el equilibrio
    #+begin_export latex
    \begin{gather*}
      E_{d} = \frac{\diff Q^{d}}{\diff P} \frac{P}{Q^{d}} = -20
-     \frac{\num{1000}}{\num{80000}} = -0.25 \\
+     \frac{\num{1000}}{\num{80000}} = -0.25, \\
      E_{o} = \frac{\diff Q^{o}}{\diff P} \frac{P}{Q^{o}} = 40
-     \frac{\num{1000}}{\num{80000}} = 0.5
+     \frac{\num{1000}}{\num{80000}} = 0.5.
    \end{gather*}
    #+end_export
    La demanda es relativamente más inelástica que la oferta. En
@@ -260,7 +260,7 @@ c) Las elasticidades de la demanda y de la oferta en el equilibrio
 d) La curva de demanda después del impuesto es:
    #+begin_export latex
    \[
-     Q^d_t = \num{100000} - 20 (P + 150) = \num{97000} -20 P
+     Q^d_t = \num{100000} - 20 (P + 150) = \num{97000} -20 P.
    \]
    #+end_export
    Después de la introducción del impuesto a los compradores, el
@@ -279,8 +279,8 @@ El mercado de alquiler de viviendas en una ciudad está representado
 por las curvas de demanda y de oferta:
 #+begin_export latex
 \begin{gather*}
-  Q^{d} = \num{25000} - 30 P \\
-  Q^{o} = \num{5000} +10 P
+  Q^{d} = \num{25000} - 30 P, \\
+  Q^{o} = \num{5000} +10 P.
 \end{gather*}
 #+end_export
 
@@ -303,7 +303,7 @@ a) En equilibrio el alquiler mensual asciende a $P^* = \money{500}$ y
 b) Cuando se introduce la subvención la curva de demanda es:
    #+begin_export latex
    \[
-     Q^d_t = \num{25000} - 30 (P - 200) = \num{31000} - 30 P
+     Q^d_t = \num{25000} - 30 (P - 200) = \num{31000} - 30 P.
    \]
    #+end_export
    En el nuevo equilibrio $P^* = \money{650}$ al mes y $Q^* =
