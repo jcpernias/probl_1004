@@ -125,19 +125,20 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex5.2:axes-coord
-  \coordinate (Xaxis) at (60, 0) ;
+  \coordinate (Xaxis) at (80, 0) ;
   \coordinate (Yaxis) at (0, 250) ;
 #+end_src
 
 
 #+begin_src latex :noweb-ref ex5.2:axes
-  \draw[axis, very thick]
-    (Yaxis) node[left] {$P$} |-
-    (Xaxis) node[below] {$M$} ;
+  \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
+  \draw[curve]
+    (Yaxis) node[above, xshift=-12pt] {Peras} |-
+    (Xaxis) node[below left, shift={(12pt, -2pt)}] {Manzanas} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex5.2:xy-scale
-  yscale = 0.012, xscale = 0.05
+  yscale = 0.01, xscale = 0.0325
 #+end_src
 
 
@@ -145,7 +146,7 @@
 
 #+begin_src latex :noweb-ref ex5.2:budget-line
   \coordinate (BL1) at (0, 180) ;
-  \coordinate (BL2) at (45, 0) ;
+  \coordinate (BL2) at (30, 0) ;
 
   \draw[curve, very thick]
   (BL1) node[left] {$180$} --
@@ -476,6 +477,7 @@
   \end{tikzpicture}
 #+end_src
 
+
 ** Comparison
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-phone-comp.tex
@@ -508,7 +510,7 @@
 #+begin_src latex :noweb-ref ex5.9:axes
   \draw[axis, very thick]
     (Yaxis) node[left] {$Y$} |-
-    (Xaxis) node[below] {$M$} ;
+    (Xaxis) node[below] {$T$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex5.9:xy-scale
@@ -752,6 +754,7 @@
 
 
 ** Common
+
 *** Coordinates
 #+begin_src latex :noweb-ref ex5.8:coord
   \coordinate (Xaxis) at (20, 0) ;
@@ -773,6 +776,7 @@
   \coordinate (A4) at ($(A3) + (S) - (B1)$) ;
 #+end_src
 
+
 *** Axes
 
 #+begin_src latex :noweb-ref ex5.8:axes
@@ -784,6 +788,7 @@
 #+begin_src latex :noweb-ref ex5.8:xy-scale
   yscale = 0.08, xscale = 0.165
 #+end_src
+
 
 *** Budget lines
 
@@ -960,6 +965,7 @@
     <<ex10:axes>>
   \end{tikzpicture}
 #+end_src
+
 
 ** Common
 
