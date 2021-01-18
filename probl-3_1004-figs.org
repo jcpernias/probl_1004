@@ -49,6 +49,7 @@
 
 * 3.7 Medicines and computers
 
+
 ** Medicines
 
 #+begin_src latex :tangle fig-ans-probl-3_1004-medicines.tex
@@ -92,6 +93,7 @@
 
 
 ** Common
+
 
 *** Axes
 
@@ -146,10 +148,10 @@
 
 
 #+begin_src latex :tangle fig-ans-probl-3_1004-eq-elast.tex :noweb no
-  \begin{tikzpicture}[xscale=0.125, yscale=0.27]
+  \begin{tikzpicture}[xscale=0.12, yscale=0.23]
 
     \coordinate (DA1) at (3.5, 13) ;
-    \coordinate (DB1) at (35, 2.5) ;
+    \coordinate (DB1) at (21, 7.1666667) ;
 
     \coordinate (OA1) at (3.5, 4) ;
     \coordinate (OB1) at (17, 13) ;
@@ -170,13 +172,16 @@
     ;
 
     \draw[axis, very thick] (0, 15) node[left] {$P_X$} |-
-    (40, 0) node[below] {$X$} ;
+    (25, 0) node[below] {$X$} ;
   \end{tikzpicture}
 #+end_src
 
+
 * 3.10 Maximizing revenue
 
+
 ** Demand
+
 
 
 #+begin_src latex :tangle fig-ans-probl-3_1004-max-rev.tex :noweb no
@@ -190,7 +195,7 @@
     \draw[curve, very thick]
       (DA1) node[left] {$50$} --
       (DB1) node[below] {$\num{8000}$}
-      node[above right, pos = 0.85] {$D$} ;
+      node[right, pos = 0.85] {$Q^d$} ;
 
     \node[dot] at (E1) {} ;
 
