@@ -57,9 +57,9 @@
 
     <<ex1.10:dots-c>>
 
-     \draw[shift arrow, thick, ->]
+     \draw[shift arrow, thick, ->, shorten >=4pt]
       (A2) -- (C2) ;
-     \draw[shift arrow, thick, ->]
+     \draw[shift arrow, thick, ->, shorten >=4pt]
       (A9) -- (C5) ;
 
     <<ex1.10:axes>>
@@ -139,20 +139,20 @@
 *** PPF curves
 
 #+begin_src latex :noweb-ref ex1.10:ppf-a
-  \draw[curve, very thick]
-    (A1) -- (A2) -- (A3) -- (A4) -- (A5) -- (A6) --
-    (A7) -- (A8) -- (A9) -- (A10) -- (A11) ;
+  \draw[curve, very thick, use Hobby shortcut]
+    (A1) .. (A2) .. (A3) .. (A4) .. (A5) .. (A6) ..
+    (A7) .. (A8) .. (A9) .. (A10) .. (A11) ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex1.10:ppf-b
-  \draw[curve, very thick]
-    (B1) -- (B2) -- (B3) -- (B4) -- (B5) -- (B6) --
-    (B7) -- (B8) -- (B9) -- (B10) -- (B11) ;
+  \draw[curve, very thick, use Hobby shortcut]
+    (B1) .. (B2) .. (B3) .. (B4) .. (B5) .. (B6) ..
+    (B7) .. (B8) .. (B9) .. (B10) .. (B11) ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex1.10:ppf-c
-   \draw[curve, very thick]
-     (C1) -- (C2) -- (C3) -- (C4) -- (C5) -- (C6) ;
+  \draw[curve, very thick, use Hobby shortcut]
+    (C1) .. (C2) .. (C3) .. (C4) .. (C5) .. (C6) ;
 #+end_src
 
 
@@ -270,8 +270,14 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex1.2:axes
-  \draw[axis, very thick] (0,6) node[above left] {\translate{Cañones}} |-
-    (24, 0) node[below right] {\translate{Mantequilla}} ;
+  \coordinate (Xaxis) at (24, 0) ;
+  \coordinate (Yaxis) at (0, 6) ;
+
+  \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
+
+  \draw[axis, very thick]
+    (Yaxis) node[above right, xshift=-12pt] {\translate{Cañones}} |-
+    (Xaxis) node[below right, xshift=-12pt] {\translate{Mantequilla}} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex1.2:xy-scale
@@ -308,8 +314,8 @@
 *** PPF curve
 
 #+begin_src latex :noweb-ref ex1.2:ppf-curve
-  \draw[curve, very thick] (A)
-    \foreach \x in {B, C, D, E, F} { -- (\x)} ;
+  \draw[curve, very thick, use Hobby shortcut] (A)
+    \foreach \x in {B, C, D, E, F} { .. (\x)} ;
 #+end_src
 
 

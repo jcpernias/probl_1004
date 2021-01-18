@@ -190,7 +190,8 @@ e) ¿Qué relación existe entre la forma de la FPP y el coste de
 a) Frontera de posibilidades de producción:
    #+xxx: fig fig-ans-probl-1_1004-ppf-oc1-*.pdf
 
-b) La última columna muestra el coste de oportunidad de cada cañón medido en toneladas de mantequilla:
+b) La última columna muestra el coste de oportunidad de cada cañón
+   medido en toneladas de mantequilla:
    #+ATTR_LATEX: :booktabs t :center t :align @{}p{0.75cm}*{2}{r}r@{}
    |-----+---------+-------------+-------------|
    |     |         |             | Coste de    |
@@ -204,7 +205,7 @@ b) La última columna muestra el coste de oportunidad de cada cañón medido en 
    | *F* |       5 |           0 |           6 |
    |-----+---------+-------------+-------------|
 
-   Para obtener los valores de la última columna se calcula el valor
+   Los valores de la última columna se calculan como el valor
    absoluto del cociente de las variaciones en la producción de
    mantequilla y cañones:
    #+begin_export latex
@@ -218,7 +219,8 @@ b) La última columna muestra el coste de oportunidad de cada cañón medido en 
 c) El primer cañón cuesta $2$ toneladas de mantequilla; el segundo
    cuesta 3 toneladas.
 
-d) El coste de oportunidad es creciente por lo que la FPP es cóncava.
+d) El coste de oportunidad es creciente, por lo que la frontera de
+   posibilidades de producción es cóncava.
 
 
 * 1.3
@@ -252,13 +254,22 @@ a) Frontera de posibilidades de producción:
 
 #+xxx: fig fig-ans-probl-1_1004-ppf-lin-*.pdf
 
-b) El coste de oportunidad de una unidad adicional de $X$ es de $0.1$
+b) El coste de oportunidad puede calcularse como el valor absoluto de
+   la pendiente de la frontera de posibilidades de producción:
+   #+begin_export latex
+   \[
+     \text{Coste de oportunidad} = \left|
+       \frac{\diff Y}{\diff X}
+     \right| = 0.1
+   \]
+   #+end_export
+   El coste de oportunidad de una unidad adicional de $X$ es igual a $0.1$
    unidades del bien $Y$.
 
-c) El coste de oportunidad de una unidad adicional de $X$ es de $0.1$
+c) En este caso, el coste de oportunidad de $X$ también es de $0.1$
    unidades del bien $Y$.
 
-d) El coste de oportunidad es constante por lo que la frontera es una
+d) El coste de oportunidad es constante, por lo que la frontera es una
    línea recta.
 
 
