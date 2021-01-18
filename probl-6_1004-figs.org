@@ -11,18 +11,18 @@
 #+begin_src latex :tangle fig-ans-probl-6_1004-ic-curve.tex
   \begin{tikzpicture}[xscale=0.048, yscale=0.05]
     \draw[curve, semithick]
-      (0, 30) -- (30, 0)
-      (0, 60) -- (60, 0)
+      (13, 17) -- (27, 3)
+      (33, 27) -- (47, 13)
       ;
    \draw[curve, very thick]
       (0, 0) -- (50, 25) node[right] {$\CRC$}
       ;
 
     \draw[curve, semithick]
-      plot[smooth, domain=9.43:40] ({\x}, {40/(\x/10)^2}) ;
+      plot[smooth, domain=15:27] ({\x}, {40/(\x/10)^2}) ;
 
     \draw[curve, semithick]
-      plot[smooth, domain=25:50] ({\x}, {320/(\x/10)^2}) ;
+      plot[smooth, domain=34:47] ({\x}, {320/(\x/10)^2}) ;
 
     \draw[help lines]
       (0, 10) node[left] {$10$} -| node[dot] {}
@@ -507,7 +507,7 @@
 ** Figures
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-cpc1.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.048, yscale = 0.064]
+  \begin{tikzpicture}[xscale = 0.048, yscale = 0.07]
     \coordinate (Xaxis) at (60, 0) ;
     \coordinate (Yaxis) at (0, 40) ;
     \coordinate (E1) at (8, 24) ;
@@ -539,7 +539,7 @@
 #+end_src
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-cpc2.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.048, yscale = 0.17]
+  \begin{tikzpicture}[xscale = 0.048, yscale = 0.2]
 
   \draw[curve, very thick, domain=4:40, smooth]
        plot (\x, {48/\x}) node[right] {$D$} ;
@@ -630,18 +630,19 @@
 #+begin_src latex :tangle fig-ans-probl-6_1004-demand-x.tex
   \begin{tikzpicture}[xscale=0.1, yscale=0.35]
     \coordinate (Xaxis) at (42, 0);
-    \coordinate (Yaxis) at (0, 8);
+    \coordinate (Yaxis) at (0, 10);
     \coordinate (A) at (35, 2);
     \coordinate (B) at (30, 3);
     \coordinate (C) at (25, 4);
     \coordinate (D) at (15, 4.8);
     \coordinate (E) at (10, 6);
 
-    \draw[help lines, xstep=10, ystep=2] (0, 0) grid (38, 7) ;
+    \draw[help lines, xstep=10, ystep=2] (0, 0) grid (38, 9) ;
     \draw[help lines]
     (0, 2) node[left] {$2$}
     (0, 4) node[left] {$4$}
     (0, 6) node[left] {$6$}
+    (0, 8) node[left] {$8$}
     (10, 0) node[below] {$10$}
     (20, 0) node[below] {$20$}
     (30, 0) node[below] {$30$}
@@ -792,6 +793,7 @@
 
 * 6.7 Price changes and utility
 
+
 ** Choice
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-price-change.tex
@@ -819,6 +821,7 @@
     (Xaxis) node[below] {$X$} ;
   \end{tikzpicture}
 #+end_src
+
 
 ** Demand
 
@@ -891,6 +894,7 @@
 
 
 * 6.9 Neutral goods and perfect substitutes
+
 
 ** Choice
 
@@ -985,6 +989,7 @@
 
 
 * 6.10 Demand for perfect complements
+
 
 ** Demand
 

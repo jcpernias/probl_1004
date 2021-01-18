@@ -22,14 +22,14 @@ de la utilidad:
 /Curva renta consumo/. Coincide con la condición de tangencia:
 #+begin_export latex
 \[
-   Y =  X / 2
+   Y =  X / 2.
 \]
 #+end_export
 
 /Curva de Engel/. Se obtiene sustituyendo la condición de tangencia en la recta presupuestaria y operando:
 #+begin_export latex
 \[
-   X =  M / 15
+   X =  M / 15.
 \]
 #+end_export
 
@@ -57,7 +57,7 @@ Elasticidad renta:
 \[
   E_d^M =
   \frac{\diff X}{\diff M} \frac{M}{X} =
-  \frac{1}{15}\frac{M}{M/15} = 1
+  \frac{1}{15}\frac{M}{M/15} = 1.
 \]
 #+end_export
 La elasticidad renta es positiva: $X$ es un bien normal.
@@ -94,7 +94,7 @@ Podemos resumir la información del gráfico en la siguiente tabla:
 | \textbf{G} | $12$ | $18$ | $480$ |
 |------------+------+------+-------|
 Las curvas de Engel relacionan el consumo de un bien y la renta. La
-pendiente de una curvas de Engel es positiva cuando el bien es normal
+pendiente de la curva de Engel es positiva cuando el bien es normal
 y es negativa cuando el bien es inferior.
 
 #+ATTR_LATEX: :options [t]{0.52\linewidth}
@@ -106,7 +106,7 @@ y es negativa cuando el bien es inferior.
 #+xxx: col
 #+latex: \vspace{1ex}
 Curva de Engel del bien $X$. El bien $X$ es normal cuando la renta es
-inferir a \money{320} y es un bien inferior cuando la renta es mayor
+inferir a \money{320}, y es un bien inferior cuando la renta es mayor
 que \money{320}.
 #+xxx: endcol
 #+latex: \vspace{1ex}
@@ -143,10 +143,10 @@ b) ¿Alguno de los bienes es inferior? ¿Para qué valores de la
 ** Answer
 
 a) La elección óptima es la intersección de \CRC y la recta
-   presupuestaria correspondiente a $M = \money{70}$. Para trazar esta última,
-   se unen los puntos de corte de la recta presupuestaria con los
-   ejes: $M / P_X = 70$ en el eje $X$ y $M / P_Y = 70$ en el eje
-   $Y$. Como puede verse en el siguiente gráfico la cesta óptima está
+   presupuestaria correspondiente a $M = \money{70}$. Para trazar esta
+   última, se unen los puntos de corte de la recta presupuestaria con
+   los ejes: $M / P_X = 70$ en el eje $X$ y $M / P_Y = 70$ en el eje
+   $Y$. Como puede verse en el siguiente gráfico, la cesta óptima está
    compuesta por $40$ unidades de $X$ y $30$ unidades de $Y$.
 
    #+xxx: fig fig-ans-probl-6_1004-crc2-*.pdf
@@ -156,9 +156,9 @@ b) Conforme aumenta la renta y la recta presupuestaria se desplaza
    $X$ es un bien normal para todos los valores que tome la renta. Por
    otro lado, el consumo del bien $Y$ aumentaría con la renta para
    valores relativamente bajos de $M$, pero se movería en dirección
-   opuesta a la renta para valores de $M$ más altos. En el gráfico
-   siguiente se muestra que el bien $Y$ es normal para $M \leq
-   \money{120}$ y es un bien inferior para $M > \money{120}$.
+   opuesta a la renta para valores de $M$ más altos. En concreto, el
+   bien $Y$ es normal para $M \leq \money{120}$ y es un bien inferior
+   para $M > \money{120}$.
 
    #+xxx: fig fig-ans-probl-6_1004-crc3-*.pdf
 
@@ -234,7 +234,7 @@ a)
    La curva precio consumo se puede obtener despejando $P_X$ en la
    condición de tangencia y sustituyendo en la recta presupuestaria:
    #+begin_export latex
-   \[ Y = 24 \]
+   \[ Y = 24. \]
    #+end_export
    #+xxx: endcol
    La demanda de $Y$ no responde a cambios en $P_X$:
@@ -242,7 +242,7 @@ a)
    \[
      E_{Y^d}^{P_X} =
      \frac{\diff Y}{\diff P_X} \frac{P_X}{Y} =
-     0\frac{P_X}{24} = 0
+     0\frac{P_X}{24} = 0.
    \]
    #+end_export
 
@@ -258,7 +258,7 @@ b)
    Despejando $Y$ en la condición de tangencia, sustituyendo en la
    recta presupuestaria y operando se obtiene la curva de demanda:
    #+begin_export latex
-   \[ X = \frac{48}{P_X} \]
+   \[ X = \frac{48}{P_X}. \]
    #+end_export
    #+xxx: endcol
    La curva de demanda de $X$ tiene elasticidad unitaria:
@@ -266,7 +266,7 @@ b)
    \[
      E_{X^d} =
      \frac{\diff X}{\diff P_X} \frac{P_X}{X} =
-     -\frac{48}{P_X^2}\frac{P_X}{48/P_X} = -1
+     -\frac{48}{P_X^2}\frac{P_X}{48/P_X} = -1.
    \]
    #+end_export
 
@@ -293,59 +293,51 @@ c) ¿Qué tipo de relación existe entre los bienes $X$ e $Y$?
 
 ** Answer
 
-a)
-    #+ATTR_LATEX: :options [t]{0.68\linewidth}
-    #+xxx: col
-    #+latex: \vspace{0pt}
-    #+ATTR_LATEX: :center nil
-    #+xxx: fig fig-ans-probl-6_1004-cpc22-a-*.pdf
-    #+ATTR_LATEX: :options [t]{0.32\linewidth}
-    #+xxx: col
-    #+latex: \vspace{1ex}
-    La cesta óptima es:
-    #+begin_export latex
-    \begin{gather*}
-      X = 35 \\ Y = 25
-    \end{gather*}
-    #+end_export
-    #+xxx: endcol
-    La cesta óptima se encuentra en la intersección de la recta
-    presupuestaria $120 = 2 X + 2 Y$ y de la \CPC.
+a) La cesta óptima se encuentra en la intersección de la recta
+   presupuestaria $120 = 2 X + 2 Y$ y de la \CPC.
 
-b)
-    #+ATTR_LATEX: :options [t]{0.68\linewidth}
-    #+xxx: col
-    #+latex: \vspace{0pt}
-    #+ATTR_LATEX: :center nil
-    #+xxx: fig fig-ans-probl-6_1004-cpc22-b-*.pdf
-    #+ATTR_LATEX: :options [t]{0.32\linewidth}
-    #+xxx: col
-    #+latex: \vspace{1ex}
-    #+ATTR_LATEX: :booktabs t :center t :align @{}c*{2}{r}@{}
-    |------------+-------+------|
-    |            | $P_X$ | $X$  |
-    |------------+-------+------|
-    | \textbf{A} | $2.0$ | $35$ |
-    | \textbf{B} | $3.0$ | $30$ |
-    | \textbf{C} | $4.0$ | $25$ |
-    | \textbf{D} | $4.8$ | $15$ |
-    | \textbf{E} | $6.0$ | $10$ |
-    |------------+-------+------|
-    #+xxx: endcol
-    Es posible construir una tabla que relacione $P_X$ y $X$ buscando
-    los puntos de intersección de la curva precio consumo y las rectas
-    presupuestarias correspondientes a cada precio.
+   #+ATTR_LATEX: :options [t]{0.68\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-6_1004-cpc22-a-*.pdf
+   #+ATTR_LATEX: :options [t]{0.32\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Cesta óptima:
+   #+begin_export latex
+   \begin{gather*}
+     X = 35, \\ Y = 25.
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
-    #+ATTR_LATEX: :options [t]{0.65\linewidth}
-    #+xxx: col
-    #+latex: \vspace{0pt}
-    #+ATTR_LATEX: :center nil
-    #+xxx: fig fig-ans-probl-6_1004-demand-x-*.pdf
-    #+ATTR_LATEX: :options [t]{0.35\linewidth}
-    #+xxx: col
-    #+latex: \vspace{1ex}
-    Curva de demanda del bien $X$.
-    #+xxx: endcol
+b) Es posible construir una tabla que relacione $P_X$ y $X$ buscando
+   los puntos de intersección de la curva precio consumo y las rectas
+   presupuestarias correspondientes a cada precio.
+
+   #+ATTR_LATEX: :options [t]{0.68\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-6_1004-cpc22-b-*.pdf
+   #+ATTR_LATEX: :options [t]{0.32\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   #+ATTR_LATEX: :booktabs t :center t :align @{}c*{2}{r}@{}
+   |------------+-------+------|
+   |            | $P_X$ | $X$  |
+   |------------+-------+------|
+   | \textbf{A} | $2.0$ | $35$ |
+   | \textbf{B} | $3.0$ | $30$ |
+   | \textbf{C} | $4.0$ | $25$ |
+   | \textbf{D} | $4.8$ | $15$ |
+   | \textbf{E} | $6.0$ | $10$ |
+   |------------+-------+------|
+   #+xxx: endcol
+
+   Curva de demanda del bien $X$:
+   #+xxx: fig fig-ans-probl-6_1004-demand-x-*.pdf
 
 c) Las elecciones de consumo óptimas para precios del bien $X$
    superiores a $\price{4}$ se encuentran en el tramo decreciente de
@@ -430,19 +422,19 @@ a) La curva de demanda de mercado se obtiene sumando las curvas de
      X^{d}(P_{X})
      &= X_{1}(P_{X}) + X_{2}(P_{X}) + \dots + X_{n}(P_{X}) \\
      &= \big(a - b P_{X}\big) +
-       \big(a - b P_{X}\big) + \dots + \big(a - b P_{X}\big)
+       \big(a - b P_{X}\big) + \dots + \big(a - b P_{X}\big).
    \end{align*}
    #+end_export
    Por tanto, la curva de demanda de mercado sería:
    #+begin_export latex
    \[
-     X^{d}(P_X) = n a - n b P_{X}
+     X^{d}(P_X) = n a - n b P_{X}.
    \]
    #+end_export
    Derivando esta expresión se obtiene:
    #+begin_export latex
    \[
-     \frac{\diff X^{d}}{\diff P_X} =  - n b
+     \frac{\diff X^{d}}{\diff P_X} =  - n b.
    \]
    #+end_export
    La derivada de la demanda de mercado, $-nb$, es $n$ veces de la
@@ -456,19 +448,19 @@ a) La curva de demanda de mercado se obtiene sumando las curvas de
 b) La elasticidad de una curva de demanda individual es:
    #+begin_export latex
    \[
-     E^d_i = \frac{\diff X_i^{d}}{\diff P_X}\frac{P_X}{X^d_i} =  - b \frac{P_X}{X^d_i}
+     E^d_i = \frac{\diff X_i^{d}}{\diff P_X}\frac{P_X}{X^d_i} =  - b \frac{P_X}{X^d_i}.
    \]
    #+end_export
    La elasticidad de la demanda de mercado es:
    #+begin_export latex
    \[
-     E^d = \frac{\diff X^{d}}{\diff P_X}\frac{P_X}{X^d} =  - n b \frac{P_X}{X^d}
+     E^d = \frac{\diff X^{d}}{\diff P_X}\frac{P_X}{X^d} =  - n b \frac{P_X}{X^d}.
    \]
    #+end_export
    Teniendo en cuenta que $X^d = n X_i^d$:
    #+begin_export latex
    \[
-     E^d =  - n b \frac{P_X}{n X^d_i} =  - b \frac{P_X}{X^d_i} = E_i^d
+     E^d =  - n b \frac{P_X}{n X^d_i} =  - b \frac{P_X}{X^d_i} = E_i^d.
    \]
    #+end_export
    Por tanto, coinciden las elasticidades de la demanda de mercado y
@@ -489,9 +481,8 @@ Blas.
 
 ** Answer
 
-En el caso de Adela, el bien $Y$ es neutro: la utilidad de Adela es
-insensible al consumo de $Y$ y sólo varía si se altera el consumo de
-$X$.
+Para Adela, el bien $Y$ es neutro: su utilidad es insensible al
+consumo de $Y$ y sólo varía si se altera el consumo de $X$.
 
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
@@ -515,7 +506,7 @@ Curva de demanda
 Adela gastará toda su renta en el bien $X$ y la curva de demanda de
 este bien sería:
 #+begin_export latex
-  \[ X_A(P_X) = 100 / P_X \]
+  \[ X_A(P_X) = 100 / P_X. \]
 #+end_export
 
 Por otro lado, para Blas los bienes $X$ e $Y$ son perfectamente
@@ -541,14 +532,14 @@ Curva de demanda
 #+xxx: endcol
 #+latex: \vspace*{2ex}
 
-En estas condiciones Blas gastaría toda su renta en el bien que tenga
+Blas gastaría toda su renta en el bien que tenga
 el precio más bajo y la curva de demanda del bien $X$ sería:
 #+begin_export latex
 \[
   X_B(P_X) =
   \begin{cases}
-    100 / P_X & \text{si $P_{X} < 4$} \\
-    0 & \text{si $P_{X} > 4$}
+    100 / P_X & \text{si $P_{X} < 4$}, \\
+    0 & \text{si $P_{X} > 4$}.
   \end{cases}
 \]
 #+end_export
@@ -571,7 +562,7 @@ Para Rocío la leche y los cereales son complementos perfectos y su
 función de utilidad es:
 #+begin_export latex
 \[
-  U = \min\left\{\frac{L}{0.250}, \frac{C}{0.020}\right\}
+  U = \min\left\{\frac{L}{0.250}, \frac{C}{0.020}\right\}.
 \]
 #+end_export
 donde $L$ son litros de leche y $C$ kilos de cereales. Las curvas de
@@ -580,20 +571,20 @@ representan combinaciones de leche y cereales en las proporciones
 ideales para Rocío:
 #+begin_export latex
 \[
-  \frac{L}{0.250} = \frac{C}{0.020}
+  \frac{L}{0.250} = \frac{C}{0.020}.
 \]
 #+end_export
 Podemos escribir la recta presupuestaria de Rocío como:
 #+begin_export latex
 \[
-  6 = 0.8 L + P_C C
+  6 = 0.8 L + P_C C.
 \]
 #+end_export
 Utilizando las dos últimas ecuaciones podemos obtener la curva de
 demanda de cereales:
 #+begin_export latex
 \[
-  C(P_C) = \frac{6}{10 + P_C}
+  C(P_C) = \frac{6}{10 + P_C}.
 \]
 #+end_export
 
@@ -608,7 +599,7 @@ demanda de cereales:
 Si el kilo de cereales se vendiera a \money{2}, Rocío compraría:
 #+begin_export latex
 \[
-  C(2) = \frac{6}{10 + 2} = \units[kg]{0.500}
+  C(2) = \frac{6}{10 + 2} = \units[kg]{0.500}.
 \]
 #+end_export
 #+xxx: endcol
@@ -670,9 +661,10 @@ b) La introducción del impuesto modifica el precio de las latas de
 
    - Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
 
-   Cuando se introduce el impuesto, la elección óptima de Stephanie es:
-   $R_2 = 29$ latas e $Y_2 = \money{441}$. Por tanto, pagará en
-   concepto de impuestos: $R_2 t = 29 \times 0.5 = \money{14.5}$.
+   Cuando se introduce el impuesto, la elección óptima de Stephanie
+   es: $R_2 = 29$ latas e $Y_2 = \money{441}$. Por tanto, pagará en
+   concepto del impuesto sobre los refrescos azucarados: $R_2 t = 29
+   \times 0.5 = \money{14.5}$.
 
 c) Cuando se complementa el impuesto con la donación en metálico de
    \money{14.50}, las condiciones de óptimo serían:
@@ -683,8 +675,8 @@ c) Cuando se complementa el impuesto con la donación en metálico de
 
    Resolviendo estas dos ecuaciones se obtiene la elección óptima:
    $R_3 = 30.45$ latas e $Y_3 = \money{454.05}$. Stephanie pagará
-   ahora en concepto de impuestos: $R_3 t = 30.45 \times 0.5 =
-   \money{15.225}$.
+   ahora en concepto de impuestos sobre los refrescos azucarados: $R_3
+   t = 30.45 \times 0.5 = \money{15.225}$.
 
    Comparando los resultados obtenidos en los tres apartados podemos
    concluir:
