@@ -277,7 +277,7 @@
 
   \draw[axis, very thick]
     (Yaxis) node[above right, xshift=-12pt] {\translate{Cañones}} |-
-    (Xaxis) node[below right, xshift=-12pt] {\translate{Mantequilla}} ;
+    (Xaxis) node[below right, xshift=-12pt, yshift=-2pt] {\translate{Mantequilla}} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex1.2:xy-scale
@@ -323,7 +323,7 @@
 
 #+begin_src latex :noweb-ref ex1.2:dot-nodes
   \foreach \x/\text in {A, B, C, D, E, F}
-    \node[dot, label={above right:$\text$}] at (\x) {};
+    \node[dot, label={above right:\textbf{\text}}] at (\x) {};
 #+end_src
 
 
