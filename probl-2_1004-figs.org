@@ -171,10 +171,10 @@
 
     \draw[help lines]
       let \p1 = (E1) in
-       (0, \y1) node[left] {$\num{2000}$} -|
-       (\x1, 0) node[below] {$\num{45000}$} ;
+       (0, \y1) node[left] {$P^*_X$} -|
+       (\x1, 0) node[below] {$X^*$} ;
 
-    \node[curve label, right=4pt] at (E1) {$E_{1}$} ;
+    % \node[curve label, right=4pt] at (E1) {$E_{1}$} ;
     \node[dot] at (E1) {} ;
     <<ex11:axes>>
   \end{tikzpicture}
@@ -195,8 +195,8 @@
     \path[name intersections={of=D2 and O1, by=E2}] ;
     \node[dot] at (E2) {} ;
 
-    \node[curve label, left=4pt] at (E1) {$E_{1}$} ;
-    \node[curve label, right=4pt] at (E2) {$E_{2}$} ;
+    %\node[curve label, left=4pt] at (E1) {$E_{1}$} ;
+    %\node[curve label, right=4pt] at (E2) {$E_{2}$} ;
 
     \draw[shift arrow, ->, shorten >= 4pt]
     ([shift={(-4pt, 4pt)}]E1) -- ([shift={(-4pt, 4pt)}]E2) ;
@@ -269,7 +269,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex11:xy-scale
-  [yscale = 0.8, xscale = 0.4]
+  [yscale = 0.61, xscale = 0.29]
 #+end_src
 
 
@@ -367,7 +367,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex9:xy-scale
-  [yscale = 0.61, xscale = 0.61]
+  [yscale = 0.57, xscale = 0.57]
 #+end_src
 
 
@@ -571,7 +571,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex2.8:xy-scale
-  yscale = 1, xscale = 1
+  yscale = 0.95, xscale = 1
 #+end_src
 
 

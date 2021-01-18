@@ -242,16 +242,43 @@ c) Partiendo del equilibrio inicial, considere ahora los efectos
 
 ** Answer
 
-a) En equilibrio $P^*_X = \price{2000}$ y $X^* = \units{45000}$:
+a)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-2_1004-comp1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Equilibrio:
+   #+begin_export latex
+   \begin{gather*}
+     P^*_X = \price{2000}, \\
+     X^* = \units{45000}.
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
-b) Si se eleva el precio de un bien sustitutivo, la demanda
+b)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Si se eleva el precio de un bien sustitutivo, la demanda
    aumentará. Tanto el precio como la cantidad de equilibrio se
    incrementan en este caso.
-   #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
+   #+xxx: endcol
 
 c) No es posible determinar qué ocurrirá con el precio y la cantidad
-   de equilibrio sin saber si el bien es normal o inferior.
+   de equilibrio sin saber si el bien es normal o inferior.  Al crecer
+   la renta aumentarán el precio y la cantidad de equilibrio si se
+   trata de un bien normal, pero disminuirán el precio y la cantidad
+   de equilibrio en el caso de un bien inferior.
 
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
@@ -272,9 +299,7 @@ c) No es posible determinar qué ocurrirá con el precio y la cantidad
    #+xxx: endcol
    #+latex: \vspace*{2ex}
 
-   Al crecer la renta aumentarán el precio y la cantidad de equilibrio
-   si se trata de un bien normal, pero disminuirán el precio y la
-   cantidad de equilibrio en el caso de un bien inferior.
+
 
 
 * 2.6
@@ -296,6 +321,18 @@ consumo de drogas?
 
 ** Answer
 
+- Menor presupuesto policial: la oferta de drogas se incrementa al
+  tener los traficantes de droga menos dificultades.
+
+- Recortes en programas educativos: la demanda aumenta al ser los
+  compradores potenciales menos conscientes de los riesgos asociados
+  al consumo de drogas.
+
+En los dos casos aumenta la cantidad consumida, pero el precio
+disminuye en el primer escenario y aumenta en el segundo. Observando
+la dirección del cambio en el precio es posible determinar cuál de las
+dos hipótesis es correcta.
+
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{0pt}
@@ -315,18 +352,6 @@ Recortes educación
 #+xxx: endcol
 #+latex: \vspace*{2ex}
 
-- Menor presupuesto policial: la oferta de drogas se incrementa al
-  tener los traficantes menos dificultades para vender droga en la
-  calle.
-
-- Recortes en programas educativos: la demanda aumenta al ser los
-  compradores potenciales menos conscientes de los peligros asociados
-  al consumo de drogas.
-
-En los dos casos aumenta la cantidad consumida, pero el precio
-disminuye en el primer escenario y aumenta en el segundo. Observando
-si el precio aumenta o disminuye es posible determinar cuál de las dos
-hipótesis es correcta.
 
 
 * 2.7
@@ -343,32 +368,34 @@ Tanto la demanda como la oferta disminuyen. En consecuencia, la
 cantidad de equilibrio disminuye. El precio podría aumentar o
 disminuir.
 
-
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-2_1004-inferior1-*.pdf
-#+ATTR_LATEX: :options [t]{0.5\linewidth}
-#+xxx: col
-#+latex: \vspace{1ex}
-El precio baja si el cambio en la oferta es relativamente menor que el
-cambio en la demanda.
-#+xxx: endcol
-#+latex: \vspace*{2ex}
-
-
+#+begin_export latex
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    El precio baja si el cambio en la oferta es relativamente menor
+    que el cambio en la demanda.
+  \end{minipage}
+\end{center}
+#+end_export
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-2_1004-inferior2-*.pdf
-#+ATTR_LATEX: :options [t]{0.5\linewidth}
-#+xxx: col
-#+latex: \vspace{1ex}
-El precio sube si el cambio en la oferta es relativamente mayor que el
-cambio en la demanda.
+#+begin_export latex
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    El precio sube si el cambio en la oferta es relativamente mayor
+    que el cambio en la demanda.
+  \end{minipage}
+\end{center}
+#+end_export
 #+xxx: endcol
+#+latex: \vspace*{2ex}
 
 
 
@@ -405,8 +432,8 @@ semana, $D_e$, es muy diferente a la demanda de fin de semana, $D_f$.
 
 - En fin de semana la demanda de habitaciones por motivos de turismo y
   ocio es mayoritaria. Este tipo de viajeros tiene una menor
-  disposición a pagar y buscará destinos alternativos más baratos si
-  el precio de las habitaciones es muy elevado.
+  disposición a pagar y, si el precio de las habitaciones es muy
+  elevado, buscará destinos alternativos más baratos.
 
 
 
