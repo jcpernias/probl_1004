@@ -67,7 +67,7 @@ d) Which would be the consequences on the PPF of the reduction of the
    graphically the PPF if just \num{50000} hours of labor can be used
    and compare the results with the ones obtained in [[ex1.1:item-a]].
 
-# #+latex: \clearpage{}
+#+latex: \clearpage{}
 
 
 ** Answer
