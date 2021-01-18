@@ -251,7 +251,7 @@
 * 9.9: Short-run and long-run cost curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-short-long.tex :noweb no
-    \begin{tikzpicture}[yscale=0.20, xscale=0.097]
+    \begin{tikzpicture}[yscale=0.20, xscale=0.093]
 
       \draw[help lines] (0, 6) node[left] {$6$} -|
         (9, 0) node[below] {$9$} ;

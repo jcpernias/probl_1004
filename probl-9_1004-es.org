@@ -58,28 +58,28 @@ c) ¿Para qué nivel de producción se minimiza el coste medio? ¿Cuál
 a) El coste fijo son las remuneraciones del factor fijo:
    #+begin_export latex
    \[
-     \CF = r \Kbar = 20 \times 25 = \money{500}
+     \CF = r \Kbar = 20 \times 25 = \money{500}.
    \]
    #+end_export
 
    La función de producción a corto plazo es:
    #+begin_export latex
    \[
-     Q = L^{1/2} 25^{1/2} = 5 L^{1/2}
+     Q = L^{1/2} 25^{1/2} = 5 L^{1/2}.
    \]
    #+end_export
    Invirtiendo la expresión anterior se obtiene la demanda condicional
    de trabajo:
    #+begin_export latex
    \[
-     L(Q)  = Q^2/25
+     L(Q)  = Q^2/25.
    \]
    #+end_export
    Finalmente, el coste variable se obtiene multiplicando la expresión
    anterior por el salario:
    #+begin_export latex
    \[
-     \CV(Q)  = w L(Q) = 2 Q^2 / 5
+     \CV(Q)  = w L(Q) = 2 Q^2 / 5.
    \]
    #+end_export
 
@@ -93,11 +93,11 @@ a) El coste fijo son las remuneraciones del factor fijo:
    #+latex: \vspace{1ex}
    Curvas de coste:
 
-   - $\CF(Q) = 500$
+   - $\CF(Q) = 500$.
 
-   - $\CV(Q) = 2 Q^2 / 5$
+   - $\CV(Q) = 2 Q^2 / 5$.
 
-   - $\CT(Q) = 500 + 2 Q^2 / 5$
+   - $\CT(Q) = 500 + 2 Q^2 / 5$.
    #+xxx: endcol
 
 b) Coste variable medio: $\CVMe(Q)  = \CV(Q) / Q = 2 Q / 5$.
@@ -155,15 +155,15 @@ Las curvas de producto medio y marginal están relacionadas con las
 curvas de coste variable medio y coste marginal, respectivamente:
 #+begin_export latex
 \begin{gather*}
-  \CVMe = w / \PMeL \\
-  \CMg = w / \PMgL
+  \CVMe = w / \PMeL, \\
+  \CMg = w / \PMgL.
 \end{gather*}
 #+end_export
-Por tanto, si $\PMgL = \PMeL$ implica que $\CMg = \CMe$. En ese
-caso, se maximiza el producto medio y se minimiza el coste variable
-medio. Como el coste medio es mayor que el coste variable medio,
-concluimos que el coste medio es mayor que el marginal cuando se
-igualan el producto medio y el marginal.
+Por tanto, si $\PMgL = \PMeL$ implica que $\CMg = \CVMe$. En ese caso,
+se maximiza el producto medio y se minimiza el coste variable
+medio. Como el coste medio es $\CMe = \CFMe + \CVMe$, concluimos que,
+cuando se igualan el producto medio y el marginal, se cumple $\CMe >
+\CVMe = \CMg$ y, finalmente, el coste medio es mayor que el marginal .
 
 
 * 9.4.
@@ -176,17 +176,17 @@ coste de producir \num{5000} unidades. ¿Cuál es el coste mínimo?
 
 ** Answer
 
-Todas las combinaciones de factores que permiten producir $Q =
-\num{5000}$ unidades se hallan sobre la isocuanta:
+Todas las combinaciones de factores que permiten producir
+\num{5000} unidades se hallan sobre la isocuanta:
 #+begin_export latex
   \[ \num{5000} = K L \]
 #+end_export
 
 En la combinación que minimiza el coste de producción se igualan la
-relación marginal de sustitución técnica, \RMST, con el precio
-relativo de los factores, $w/r$:
+relación marginal de sustitución técnica con el precio
+relativo de los factores:
 #+begin_export latex
-  \[ \RMST = \frac{K}{L} = \frac{2}{4} = \frac{w}{r} \]
+  \[ \RMST = \frac{w}{r} \Rightarrow \frac{K}{L}  = \frac{2}{4}. \]
 #+end_export
 Operando en la expresión anterior se obtiene la condición de
 tangencia: $L = 2 K$. Sustituyendo esta expresión en la isocuanta
@@ -221,7 +221,7 @@ c) Si $\PMgK = 30$ cuando se minimizan los costes, ¿cuál es el
 a) Todas las combinaciones de factores sobre una isocoste representan
    el mismo coste:
    #+begin_export latex
-     \[ \Cbar = w L + r K \]
+     \[ \Cbar = w L + r K. \]
    #+end_export
    Los puntos de corte con el eje horizontal representan la máxima
    cantidad de trabajo que se puede contratar con $\Cbar$ euros
@@ -240,7 +240,7 @@ b) No: en la isocoste tangente a la isocuanta $Q=150$, el coste es
 c) En la combinación que minimiza los costes se debe cumplir la
    condición de tangencia:
    #+begin_export latex
-    \[ \RMST = \frac{\PMgL}{\PMgK} = \frac{w}{r}\]
+    \[ \RMST = \frac{\PMgL}{\PMgK} = \frac{w}{r}.\]
    #+end_export
    De acuerdo con los datos del problema, $\PMgL / 30 = 16 / 40$ por
    lo que $\PMgL = 12$.
@@ -267,13 +267,13 @@ La minimización de los costes requiere la igualación de la \RMST con
 el precio relativo de los factores. Sin embargo, en esta empresa no se
 cumple esa condición, ya que:
 #+begin_export latex
- \[ \RMST = \frac{\PMgL}{\PMgK} = 3 < \frac{w}{r} = 4 \]
+ \[ \RMST = \frac{\PMgL}{\PMgK} = 3 < \frac{w}{r} = 4. \]
 #+end_export
 El valor de la \RMST indica que se podría producir la misma cantidad
 de anillos si se alquilaran 3 impresoras más y se contratara un
 trabajador menos. Esta opción reduciría los costes de producción
 porque el salario que se ahorraría la empresa es mayor que el alquiler
-de 3 impresoras.
+de 3 impresoras adicionales.
 
 
 * 9.7.
@@ -289,7 +289,7 @@ son los precios del capital y del trabajo?
 
 La combinación óptima de factores satisface la condición de tangencia:
 #+begin_export latex
- \[ \RMST  = 3 \frac{12}{144} = \frac{w}{r}  \]
+ \[ \RMST  = 3 \frac{12}{144} = \frac{w}{r}.  \]
 #+end_export
 Simplificando esta expresión se obtiene: $r = 4 w$.  Por otro lado,
 los costes son: $\num{1152} = 144 w + 12 r$. Resolviendo estas dos
@@ -316,13 +316,12 @@ b) Determine la curva de costes a largo plazo, así como las curvas
 a) La minimización de los costes requiere la igualación de la \RMST y
    el precio relativo de los factores:
    #+begin_export latex
-   \[ \RMST  = 2 \frac{K}{L} = \frac{w}{r} = 2 \]
+   \[ \RMST  = 2 \frac{K}{L} = \frac{w}{r} = 2. \]
    #+end_export
-   Esta condición de tangencia puede expresarse de forma más sencilla
-   como: $K = L$.  Sustituyendo esta expresión en la función de
-   producción y operando se llega a la demanda condicional de trabajo:
-   $L(Q) = Q^{1/3}$ y la demanda condicional de capital: $K(Q) =
-   Q^{1/3}$.
+   Esta condición puede expresarse de forma más sencilla como: $K =
+   L$.  Sustituyendo esta expresión en la función de producción y
+   operando se llega a la demanda condicional de trabajo: $L(Q) =
+   Q^{1/3}$ y a la demanda condicional de capital: $K(Q) = Q^{1/3}$.
 
 b) El coste total son las retribuciones de los factores de producción:
    $\CT = 16 L + 8 K$.  Sustituyendo en esta expresión las demandas
@@ -330,7 +329,7 @@ b) El coste total son las retribuciones de los factores de producción:
    de costes a largo plazo: $\CT(Q) = 24 Q^{1/3}$. Producir
    $\num{8000}$ unidades costaría:
    #+begin_export latex
-   \[ \CT(\num{8000}) = 24 \times \num{8000}^{1/3} = \money{480} \]
+   \[ \CT(\num{8000}) = 24 \times \num{8000}^{1/3} = \money{480}. \]
    #+end_export
 
    Si dividimos los costes totales por la producción obtenemos la
@@ -362,19 +361,19 @@ deseconomías de escala?
 La curva de coste medio es:
 #+begin_export latex
 \[
-  \CMe(Q) = \frac{\CT}{Q} = Q^2 - 8 Q + 22
+  \CMe(Q) = \frac{\CT}{Q} = Q^2 - 8 Q + 22.
 \]
 #+end_export
 El coste marginal es:
 #+begin_export latex
 \[
-  \CMg(Q) = \frac{\diff \CT}{\diff Q} = 3 Q^2 - 16 Q + 22
+  \CMg(Q) = \frac{\diff \CT}{\diff Q} = 3 Q^2 - 16 Q + 22.
 \]
 #+end_export
 La curva de coste medio alcanza un mínimo cuando:
 #+begin_export latex
 \[
-  \frac{\diff \CMe}{\diff Q} = 2 Q - 8   = 0
+  \frac{\diff \CMe}{\diff Q} = 2 Q - 8   = 0,
 \]
 #+end_export
 condición que se cumple si $Q = 4$ unidades.
@@ -390,7 +389,7 @@ condición que se cumple si $Q = 4$ unidades.
 #+latex: \vspace{1ex}
 Existen economías de escala en el tramo decreciente de $\CMe$: $0 \leq
 Q \leq 4$. Hay deseconomías de escala en el tramo creciente de los
-costes nedios: $Q > 4$.
+costes medios: $Q > 4$.
 #+xxx: endcol
 
 
@@ -428,14 +427,14 @@ c) En general, los costes a corto plazo son mayores que los costes a
    igualan: $\CT_{\LP}(Q_a) = \CT_{\CP}(Q_a)$. En nuestro caso:
    #+begin_export latex
    \[
-     2 Q_a^{-1/2} = 3 + Q_a / 3
+     2 Q_a^{-1/2} = 3 + Q_a / 3.
    \]
    #+end_export
    Elevando los dos lados de la ecuación anterior al cuadrado y
    reordenando obtenemos:
    #+begin_export latex
    \[
-     Q_a^2 - 18 Q_a + 81 = 0
+     Q_a^2 - 18 Q_a + 81 = 0.
    \]
    #+end_export
    Las dos raíces de la ecuación anterior coinciden: $Q_a =
@@ -455,11 +454,10 @@ c) En general, los costes a corto plazo son mayores que los costes a
    #+xxx: endcol
 
    Sólo cuando $Q = 9$, coinciden el capital a corto plazo y el nivel
-   óptimo a largo plazo: $K(9) = 9^{1/2} = 3$. Cuando $Q \neq 9$, a
-   corto plazo la empresa no puede modificar $K$ y para ajustar su
-   produccción no puede sustituir un factor por otro; tan sólo puede
-   modificar $L$.
-
+   óptimo a largo plazo: $K(9) = 9^{1/2} = 3$. Cuando $Q \neq 9$, la
+   empresa no puede contratar en el corto plazo las unidades de
+   capital que serían necesarias para minimizar los costes de
+   producción.
 
 
 
@@ -488,13 +486,14 @@ b) Calcule los costes a largo plazo de producir $40$, $160$ y
 
 a) Las combinaciones de factores que se elegirían a corto plazo se
    encuentran en las intersecciones de la senda de expansión del
-   producto, $\Kbar = 4$, con las respectivas isocuantas:
+   producto a corto plazo, $\Kbar = 4$, con las respectivas
+   isocuantas:
    #+xxx: fig fig-ans-probl-9_1004-expansion2-*.pdf
 
    La siguiente tabla muestra los costes a corto plazo asociados a los
    diferentes niveles de producción:
 
-   #+ATTR_LATEX: :booktabs t :center nil :align @{}*{6}{R{0.8cm}}@{}
+   #+ATTR_LATEX: :booktabs t  :align @{}r*{5}{R{1cm}}@{}
    |-------+-----+-----+-------+-------+-------------|
    | $Q$   | $K$ | $L$ | $\CF$ | $\CV$ | $\CT_{\CP}$ |
    |-------+-----+-----+-------+-------+-------------|
@@ -511,7 +510,7 @@ b) A largo plazo, la empresa seleccionaría aquellas cestas donde la
 
    Los costes a largo plazo se calculan en la siguiente tabla:
 
-   #+ATTR_LATEX: :booktabs t :center nil :align @{}*{6}{R{0.8cm}}@{}
+   #+ATTR_LATEX: :booktabs t :align @{}r*{5}{R{1cm}}@{}
    |-------+-----+-----+-------+-------+-------------|
    | $Q$   | $K$ | $L$ | $r K$ | $w L$ | $\CT_{\LP}$ |
    |-------+-----+-----+-------+-------+-------------|
@@ -599,7 +598,7 @@ a) Si $L= 16$ y $K = 4$, la producción máxima que puede obtener la
 b) La función de producción de corto plazo, $\Kbar = 4$, sería:
    #+begin_export latex
    \[
-     Q = 20 L^{1/2}
+     Q = 20 L^{1/2}.
    \]
    #+end_export
    Si la empresa quiere producir $100$ unidades deberá contratar
@@ -612,7 +611,7 @@ c) La condición de tangencia puede escribirse como: $L = 4 K$.
    100$ se obtiene:
    #+begin_export latex
    \[
-     100 = 20 K
+     100 = 20 K,
    \]
    #+end_export
    por lo que $K = 5$ y $L = 20$. Con respecto a la situación inicial,
@@ -621,7 +620,7 @@ c) La condición de tangencia puede escribirse como: $L = 4 K$.
    #+begin_export latex
    \[
      \incr C = w \incr L + r \incr K =
-     20 \times 4 + 80 \times 1 = \money{160}
+     20 \times 4 + 80 \times 1 = \money{160}.
    \]
    #+end_export
 
