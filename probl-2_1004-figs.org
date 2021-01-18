@@ -7,7 +7,7 @@
 * 2.2 Market equilibrium
 
   #+begin_src latex :tangle fig-ans-probl-2_1004-market-eq.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.5, yscale = 0.75]
+    \begin{tikzpicture}[xscale = 0.4, yscale = 0.6]
 
       \draw[help lines]
       (0, 2) node[left] {$2$} -| (3, 0) node[below] {\num{3000}}
@@ -30,7 +30,7 @@
 * 2.3 Market demand
 
   #+begin_src latex :tangle fig-ans-probl-2_1004-market-demand.tex :noweb no
-    \begin{tikzpicture}[xscale = 2, yscale = 1]
+    \begin{tikzpicture}[xscale = 2, yscale = 0.85]
 
       \draw[help lines]
       (0, 3) node[left] {\num{300}}
@@ -65,8 +65,8 @@
 
     \draw[help lines]
     let \p1 = (E1) in
-    (0, \y1) node[left] {$\num{24000}$} -|
-    (\x1, 0) node[below] {$\num{6000}$}
+    (0, \y1) node[left] {$P^*_a$} -|
+    (\x1, 0) node[below] {$Q^*_a$}
     ;
     \node[dot] at (E1) {} ;
     <<ex12:axes>>
@@ -91,8 +91,8 @@
 
     \draw[help lines]
     let \p1 = (E2) in
-    (0, \y1) node[left] {$\num{21000}$} -|
-    (\x1, 0) node[below] {$\num{7800}$}
+    (0, \y1) node[left] {$P^*_b$} -|
+    (\x1, 0) node[below] {$Q^*_b$}
     ;
 
     \node[dot] at (E2) {} ;
@@ -115,7 +115,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex12:xy-scale
-  [yscale = 0.9, xscale = 0.45]
+  [yscale = 0.75, xscale = 0.32]
 #+end_src
 
 
@@ -527,6 +527,7 @@
 
 * 2.8 Hotel prices
 
+
 ** Figure
 
 #+begin_src latex :tangle fig-ans-probl-2_1004-hotels.tex
@@ -557,6 +558,7 @@
 
 
 ** Common
+
 
 *** Axes
 
@@ -599,6 +601,7 @@
 
 
 * 2.9 Coffee and tea
+
 
 ** Coffee
 
@@ -654,6 +657,7 @@
 
 
 ** Common
+
 
 *** Axes
 
@@ -746,6 +750,7 @@
 
 * 2.10 Electric scooters
 
+
 ** a)
 
 #+begin_src latex :tangle fig-ans-probl-2_1004-scooters-a.tex
@@ -822,6 +827,7 @@
 
 
 ** Common
+
 
 *** Axes
 
