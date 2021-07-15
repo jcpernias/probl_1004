@@ -5,9 +5,6 @@ probl_units := all
 probl_figs := 1 2 3 4 5 6 7 8 9
 
 
-TEXI2DVI_SILENT := -q
-# TEXI2DVI_SILENT :=
-
 ## Directories
 ## ================================================================================
 
@@ -40,10 +37,16 @@ emacs_loads := --load=$(elispdir)/setup-org.el \
 org_to_latex := --eval "(tolatex (file-name-as-directory \"$(builddir)\"))"
 tangle := --eval "(tangle-to (file-name-as-directory \"$(builddir)\"))"
 
+LATEX_MESSAGES := no
+TEXI2DVI_FLAGS := --batch -I $(texdir) --pdf \
+	--build=tidy --build-dir=$(notdir $(builddir))
+
+ifneq ($(LATEX_MESSAGES), yes)
+TEXI2DVI_FLAGS += -q
+endif
+
 TEXI2DVI := $(envbin) TEXI2DVI_USE_RECORDER=yes \
-	$(texi2dvibin) --batch $(TEXI2DVI_SILENT) \
-	-I $(texdir) --pdf --build=tidy \
-	--build-dir=$(notdir $(builddir))
+	$(texi2dvibin) $(TEXI2DVI_FLAGS)
 
 MAKEORGDEPS := $(pythonbin) $(pythondir)/makeorgdeps.py
 MAKETEXDEPS := $(pythonbin) $(pythondir)/maketexdeps.py
@@ -104,9 +107,10 @@ endif
 # $(call probl-wrapper,ans-option,tex-src,lang) -> write to a file
 define probl-wrapper
 \PassOptionsToClass{$1}{probl}
-\AtBeginDocument{\graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}}
 \RequirePackage{etoolbox}
-\AtEndPreamble{\InputIfFileExists{$(subject_code)-macros.tex}{}{}}
+\AtEndPreamble{%
+  \graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}%
+  \InputIfFileExists{$(subject_code)-macros.tex}{}{}}
 \input{$(realpath $(builddir))/$2-$3}
 endef
 
@@ -119,9 +123,6 @@ define fig-wrapper
 \end{document}
 endef
 
-vpath %.pdf $(figdir)
-vpath %.png $(imgdir)
-vpath %.jpg $(imgdir)
 
 ## Rules
 ## ================================================================================
