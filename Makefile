@@ -2,7 +2,7 @@ SHELL := /bin/sh
 
 subject_code := 1004
 probl_units := all
-probl_figs := 1 2 3 4 5 6 7 8 9
+probl_figs := 01 02 03 04 05 06 07 08 09 10 11
 
 
 ## Directories

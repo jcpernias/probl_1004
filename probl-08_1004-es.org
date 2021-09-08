@@ -825,5 +825,3 @@ c) Cuando se complementa el impuesto con la donación en metálico de
    - La donación en metálico es inferior a la recaudación del impuesto
      por consumidor, por lo que no harían falta fuentes adicionales de
      financiación.
-
-#+latex: \addtocounter{section}{1}

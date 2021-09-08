@@ -240,6 +240,7 @@ effects and determine what kind of good is $X$ for this consumer.
 
 Not done yet.
 
+
 * 6.16
 
 The mayor of Lazy Town has decided to introduce a new tax on
@@ -296,5 +297,3 @@ c) Restricción presupuestaria: $484.5 = R + Y$.
 
    La recaudación del impuesto per capita, $0.5 R_3 = \money{15.225}$,
    es superior a la cuantía del cheque, \money{14.50}.
-
-#+latex: \addtocounter{section}{1}

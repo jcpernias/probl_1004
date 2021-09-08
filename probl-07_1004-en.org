@@ -1,0 +1,182 @@
+# -*- ispell-dictionary: "english" -*-
+#+SETUPFILE: ./course-en.org
+
+* 5.13
+
+The preferences of a consumer can be described with the utility
+function: $U(X, Y) = 5 X Y^2$. The consumer's income is \money{900}
+and the prices are $P_X = \price{10}$ and $P_Y = \price{5}$. Calculate
+and represent the consumer's optimal choice.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.14
+
+The utility function of a consumer is $U (X, Y) = X Y$. The optimal
+basket consists of 10 units of good $X$ and 5 units of good
+$Y$. Knowing that the price of $X$ is \price{6}, how much is the
+consumer's income?
+
+
+** Answer
+
+Not done yet.
+
+
+* 6.15
+
+Consider a competitive economy where all consumers have the same
+preferences and consume some units of good $X$ and good $Y$. Will they
+all buy the same amount of $X$? Will there be differences in the
+valuation of good $X$ by each consumer?
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.16
+
+A consumer has an income of \money{40} that she spends on goods $X$
+and $Y$, whose prices are $P_X = \price{3}$ and $P_Y =
+\price{2}$. When she consumes $20$ units of $Y$ and none of $X$, the
+marginal rate of substitution is equal to $2$. Is this her optimal
+choice or would she be better off buying more units of good $X$ and
+less of good $Y$?
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.17
+
+Determine the optimal combination for a consumer with income $M =
+\money{500}$ and utility function: $U(X, Y) = X^2 (Y + 80)$, being the
+prices of the goods $P_X = \price{2}$ y $P_Y = \price{5}$.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.18
+
+The function $U (N, Y) = (N + 4) Y$ describes the preferences of a
+consumer between nuts, $N$, and a composite good that comprises the
+money spent on all other goods, $Y$. The price of nuts is $P_N =
+\price[kg]{8}$ and the consumer's income is $M =\money{40}$.
+
+a) Obtain and represent the optimal choice of the consumer.
+
+b) The Government aims to promote the consumption of nuts and it is
+   considering different alternatives:
+
+   + A subsidy that reduces the price of nuts by 20%. The subsidy
+     can only be applied to the purchase of one and a half
+     kilograms of nuts per consumer.
+
+   + Give each consumer a voucher that can be redeemed for one and
+     a half kilos of nuts.
+
+   + Give each consumer \money{12} in cash.
+
+   What would the consumer choose in each of these cases?
+
+c) Which alternative would the consumer prefer? Justify your answer.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.19
+
+Rafa likes playing tennis and whenever he can he plays in a club near
+his home. Renting a tennis court costs \money{5} per hour. His utility
+function is:
+#+begin_export latex
+\[
+  U(H, Y) = H Y^{3/2}
+\]
+#+end_export
+where $H$ are the hours he plays tennis per month and $Y$ is a
+composite good. Rafa has \money{100} per month to spend on $H$ and
+$Y$.
+
+a) Obtain the optimal choice of $H$ and $Y$.
+
+b) Rafa is considering to become a member of the tennis club. If he
+   paid a monthly fee of \money{30}, the rent for the court would be
+   reduced to \money{2.50} per hour. Should he become a member of the
+   club? Represent graphically.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.20
+
+The preferences of a consumer are given by the utility function:
+$U(X, Y) = X (Y + 100)$. The price of good $X$ is \price{1} and
+that of good $Y$ is \price{4}. The consumer has a monetary income
+of \money{250}.
+
+a) Determine the optimal consumption bundle.
+
+b) If good $X$ were rationed so that nobody were allowed to buy
+   more than 100 units of $X$, which would be the optimal choice?
+   Represent graphically.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.21
+
+The utility function of an individual with respect to goods $X$
+and $Y$ is given by $U(X, Y) = 3X + 3Y$. The market prices are
+$P_X = \price{2}$ and $P_Y = \price{5}$ and the monetary income of
+the consumer is $M = \money{100}$.
+
+a) Is $(X, Y) = (10, 40)$ the optimal basket? Why?
+
+b) Which is the optimal choice for the consumer?
+
+c) How would the optimal choice change if $P_X = \price{10}$?
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.22
+
+Rocío likes to eat cereal with milk for breakfast. She always
+combines them in the same proportion: she adds exactly 20 grams of
+cereal per every \units[ml]{250} of milk and discards any excess
+of milk or cereal.
+
+a) Represent Rocío's preferences regarding milk and cereal.
+
+b) If Rocío spends \money{6} a month on milk and cereal, the
+   price of the milk is \price[l]{0.80} and the price of cereals
+   is \price[kg]{2}, what will be her optimal choice?
+
+
+** Answer
+
+Not done yet.

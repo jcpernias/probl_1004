@@ -1,0 +1,160 @@
+# -*- ispell-dictionary: "english" -*-
+#+SETUPFILE: ./course-en.org
+
+* 5.10
+
+A Amaia le gusta el pescado, mientras que el pollo ni le gusta ni
+le disgusta. Por su parte, a Alejandro no le gusta el pescado pero
+sí el pollo y sólo está dispuesto a comer algo de pescado si a
+cambio recibe una porción extra de pollo. Represente las
+preferencias de Amaia y de Alejandro.
+
+
+** Answer
+
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-5_1004-neutral-*.pdf
+#+begin_center
+Amaia
+#+end_center
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-5_1004-bad-*.pdf
+#+begin_center
+Alejandro
+#+end_center
+#+xxx: endcol
+#+latex: \vspace*{2ex}
+
+Para Amaia el pollo es un bien neutral: su utilidad permanece
+constante si consume más pollo y no cambia su consumo de pescado. Sólo
+accedería a curvas de indiferencia superiores si se incrementa su
+consumo de pescado.
+
+Para Alejandro el pescado es un mal: su utilidad disminuye si crece su
+consumo de pescado y no varía su consumo de pollo. Para mantenerse en
+el mismo nivel de utilidad, un incremento de su consumo de pescado
+debería compensarse con un incremento de su consumo de pollo.
+
+
+* 5.11
+
+ Carmen es coleccionista de fotos antiguas. Hoy ha acudido a un
+ mercadillo donde ha comprado 50 fotos para su colección y aún dispone
+ de \money{150} para otras compras. En uno de los puestos del
+ mercadillo ha encontrado un lote de 10 fotos que le interesan y por
+ el que piden \money{25}. La función de utilidad de Carmen es:
+ #+begin_export latex
+ \[
+   U(F, Y) = (F + 10) Y^{2}
+ \]
+ #+end_export
+ donde $F$ es el número de fotos que compra e $Y$ un bien compuesto.
+
+ a) ¿Comprará el lote de 10 fotos?
+
+ b) ¿Cuánto estará dispuesta a pagar Carmen por $10$ fotos adicionales?
+
+
+** Answer
+
+a) Si no comprara el lote de fotos, la utilidad de Carmen sería:
+   #+begin_export latex
+   \[ U(50, 150) = 60 \times 150^2 = \num{1350000}.\]
+   #+end_export
+   En cambio, si lo comprara, tendría 60 fotos y le quedarían
+   \money{125} para gastar en otras cosas. Su utilidad sería:
+   #+begin_export latex
+   \[ U(60, 125) = 70 \times 125^2 = \num{1093750}.\]
+   #+end_export
+   Carmen no compraría el lote de fotos ya que disfruta de un mayor
+   nivel de utilidad en ese caso.
+
+b) Si Carmen comprara las fotos por $V$ euros su utilidad sería:
+   #+begin_export latex
+   \[ U(60, 150 -V) = 70 (150 - V)^2. \]
+   #+end_export
+   Carmen sólo compraría el lote de fotos si su utilidad no
+   disminuyera:
+   #+begin_export latex
+   \[ U(60, 150 - V) \geq U(50, 150). \]
+   #+end_export
+   La expresión anterior implica:
+   #+begin_export latex
+   \[ 70 (150 - V)^2 \geq \num{1350000}. \]
+   #+end_export
+   Operando:
+   #+begin_export latex
+   \[
+     V
+     \leq 150 - \left(\frac{\num{1350000}}{70} \right)^{1/2}
+     \approx \money{11.13}.
+   \]
+   #+end_export
+   Carmen pagaría hasta \money{11.13} por el lote de 10 fotos.
+
+
+* 5.12
+
+Cinco amigos han comprado fruta y cada uno de ellos ha adquirido la
+misma combinación: 3 manzanas y 6 peras. El precio de una manzana es
+\money{1} mientras que una pera cuesta \money{0.50}. La siguiente
+tabla recoge las utilidades marginales de manzanas y peras de cada uno
+de los consumidores:
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}l*{2}{r}@{}
+|--------------+------------+----------|
+|              | Manzanas   | Peras    |
+|--------------+------------+----------|
+| Jerry        | $12$       | $6$      |
+| George       |  $6$       | $6$      |
+| Elaine       |  $6$       | $3$      |
+| Kramer       |  $3$       | $6$      |
+| Newman       | $12$       | $3$      |
+|--------------+------------+----------|
+
+a) ¿Qué consumidores, si hay alguno, *no* está eligiendo una
+   combinación óptima de manzanas y peras? ¿Cómo tendrían que cambiar
+   su elección para aumentar su utilidad?
+
+b) Con la información proporcionada, ¿es posible determinar si alguno
+   de los consumidores está maximizando su utilidad?
+
+
+** Answer
+
+a) Si la elección de uno de ellos es la óptima, se debería de cumplir la condición:
+   #+begin_export latex
+   \[
+     \RMS = \frac{\UMg_{\,\text{Manzanas}}}{\UMg_{\,\text{Peras}}} = \frac{P_{\;\text{Manzanas}}}{P_{\;\text{Peras}}}.
+   \]
+   #+end_export
+   En la siguiente tabla se presenta la $\RMS$ de cada uno de los amigos:
+
+   #+ATTR_LATEX: :booktabs t :center t :align @{}l*{3}{R{1.8cm}}@{}
+   |--------+----------------------------+-------------------------+--------|
+   |        | $\UMg_{\,\text{Manzanas}}$ | $\UMg_{\,\text{Peras}}$ | $\RMS$ |
+   |--------+----------------------------+-------------------------+--------|
+   | Jerry  | $12$                       | $6$                     | $2$    |
+   | George | $6$                        | $6$                     | $1$    |
+   | Elaine | $6$                        | $3$                     | $2$    |
+   | Kramer | $3$                        | $6$                     | $1/2$  |
+   | Newman | $12$                       | $3$                     | $4$    |
+   |--------+----------------------------+-------------------------+--------|
+
+   El precio relativo es el mismo para todos: $2$ peras por
+   manzana. Por tanto, la condición de tangencia sólo se cumple en el
+   caso de Jerry y de Elaine. Las $\RMS$ de George y de Kramer son
+   menores que el precio relativo y, comprando menos manzanas y más
+   peras, cada uno de ellos podría aumentar su utilidad sin gastar
+   más. En el caso de Newman, su $\RMS$ es mayor que el precio
+   relativo y debería comprar más manzanas y menos peras.
+
+b) No: en los casos de Jerry y Elaine se cumple la condición de
+   tangencia, pero no es posible determinar si se cumple o no la
+   restricción presupuestaria de alguno de ellos.

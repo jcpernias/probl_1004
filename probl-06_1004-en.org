@@ -1,0 +1,73 @@
+# -*- ispell-dictionary: "english" -*-
+#+SETUPFILE: ./course-en.org
+
+* 5.10
+
+Amaia likes fish, while she neither likes nor dislikes
+chicken. Alejandro, meanwhile, does not like fish but he does like
+chicken, and he is only willing to eat some fish if he gets an extra
+portion of chicken in return. Represent the preferences of Amaia and
+Alejandro.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.11
+
+ Carmen collects old pictures. Today she has gone to a street market
+ where she has bought 50 pictures for her collection, and she has
+ still \money{150} to purchase other things. In one of the stands in
+ the street market she has found a set of 10 pictures she is
+ interested in, for which \money{25} are asked. Carmen’s utility
+ function is:
+ #+begin_export latex
+ \[
+   U(P, Y) = (P + 10) Y^{2}
+ \]
+ #+end_export
+ where $P$ is the number of pictures she buys and $Y$ is a composite good.
+
+ a) Will she buy the set of 10 pictures?
+
+ b) How much will Carmen be willing to pay for $10$ additional
+    pictures?
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.12
+
+Five friends have bought fruit and each one of them has obtained the
+same combination: 3 apples and 6 pears. The price of an apple is
+\money{1} whereas a pear costs \money{0.50}. The following table shows
+the marginal utility for apples and pears for each one of the
+consumers:
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}l*{2}{r}@{}
+|--------------+------------+----------|
+|              | Apples     | Pears    |
+|--------------+------------+----------|
+| Jerry        | $12$       | $6$      |
+| George       |  $6$       | $6$      |
+| Elaine       |  $6$       | $3$      |
+| Kramer       |  $3$       | $6$      |
+| Newman       | $12$       | $3$      |
+|--------------+------------+----------|
+
+a) Which consumers, if any, *are not* choosing an optimal combination
+   of apples and pears? How should they change their choice in order
+   to increase their utility?
+
+b) With the information given, is it possible to determine if any
+   consumer is maximising utility?
+
+
+** Answer
+
+Not done yet.

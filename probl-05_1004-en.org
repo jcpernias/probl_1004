@@ -1,0 +1,171 @@
+# -*- ispell-dictionary: "english" -*-
+#+SETUPFILE: ./course-en.org
+
+* 5.1
+
+Juan has a monthly monetary income of \money{150}. With that income he
+can buy bread, at a price of \price[kg]{3}, and water, at a price of
+\price[l]{0.75}.
+
+a) Obtain Juan’s budget constraint and represent it graphically.
+
+b) Juan consumes $60$ liters of water and $35$ kilos of bread every
+   month. Which is the opportunity cost of consuming an additional
+   liter of water? Which would be the opportunity cost if Juan
+   consumed $50$ liters of water and $30$ kilos of bread?
+
+c) An extended drought makes the price of water double. Obtain and
+   represent the new budget constraint.
+
+d) In view of the seriousness of the situation, the Government rations
+   water so that no consumer can consume more than $20$ liters of
+   water per month. Which is the budget constraint in this case?
+
+** Answer
+
+Not done yet.
+
+
+* 5.2
+
+Suppose that 4 pears can be bought with the money needed to buy one
+apple. If David, who spends all his money on pears and apples, buys
+100 pears and 20 apples, how many pears could he have bought at most?
+And apples? Obtain and represent David’s budget constraint.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.3
+
+Julia has \money{6} this month for buying milk, which has a price of
+\price[l]{0.75}, and cookies, with a price of \price[kg]{3}.
+
+a) Obtain and represent the budget constraint.
+
+b) Now, let’s suppose all prices rise by 10%. If the money Julia can
+   spend also increases by 10%, how will her budget constraint change?
+
+c) If originally, Julia bought $4$ liters of milk and $1$ kilo of
+   cookies, how will her choice vary after the rise in prices and
+   income?
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.4
+
+A consumer spends her income $M$ on goods $X$ and $Y$.
+
+a) How would her budget line change if a tax on consumption were
+   introduced and the prices of both goods rose by 25%?
+
+b) And what if, instead of the tax on consumption, an income tax were
+   levied and $M$ decreased by 25%?
+
+c) Which option would the consumer prefer?
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.5
+
+Nikola has \money{120} for spending on natural gas and electricity.
+The price of electricity depends on consumption: the first
+\units[\kWh]{1000} cost \money{0.06} per kWh, whereas the kWh from
+\num{1000} on are paid at \price[\kWh]{0.03}. On the other hand, the
+price of natural gas is always \price[\kWh]{0.05}. Obtain and
+represent graphically the budget set for Nikola.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.6
+
+A consumer has an income of $100$ € per week and consumes rice, at a
+price of \money{1} per kilo. Obtain the mathematical expression and
+represent the consumer’s budget constraint in the following situations
+(use a composite good):
+
+a) The consumer has a subsidy of \price[kg]{0.25} for the first five
+   kilos of rice bought and pays the market price for the additional
+   kilos bought.
+
+b) The consumer gets $5$ kilos of rice for free.
+
+c) The consumer gets a check of \money{5}.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.7
+
+A consumer has \money{20} to buy meat and potatoes. He usually shops
+at a supermarket where the meat is sold for \price[kg]{4}, and one
+kilo of potatoes costs \money{2}.
+
+a) Obtain and represent the budget constraint.
+
+b) The supermarket run a sales promotion where the customers that buy
+   more than $4$ kilos of potatoes will get two additional kilos for
+   free. Obtain and represent the budget constraint in this case.
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.8
+
+Eugenio and Ana share an apartment. Each one of them has a monthly
+income of \money{1000} that they entirely spend on food and
+clothes. When the price of food is \price{8} and the price of clothes
+is \price{40}, Ana buys 10 units of clothes and Eugenio buys 20 units.
+
+After a tax reform, food price decreases until \price{4} and the price
+for clothes increases up to \price{50}. With the information given, is
+it possible to know if Ana’s satisfaction has increased or decreased?
+And Eugenio’s?
+
+
+** Answer
+
+Not done yet.
+
+
+* 5.9
+
+Ángeles has \money{100} per month that she spends on phone calls and a
+composite good. Her phone company just charges \money{0.02} per
+minute.
+
+a) Obtain and represent Ángeles’s budget constraint.
+
+b) <<ex5.25:itemb>>Ángeles receives an offer by which, paying a fixed
+   amount of \money{15} she would obtain \num{2000} minutes of
+   calls. Each additional minute would cost \money{0.04}. Obtain and
+   represent Ángeles’s budget constraint if she contracts this rate.
+
+c) Represent both rates in the same graph and determine when the rate
+   in [[ex5.25:itemb]] is more advantageous.
+
+
+** Answer
+
+Not done yet.

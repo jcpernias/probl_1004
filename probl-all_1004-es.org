@@ -4,44 +4,54 @@
 
 * Principios básicos de la organización económica
 
-#+include: "probl-1_1004-es.org" :lines "3-"
+#+include: "probl-01_1004-es.org" :lines "3-"
 
 
 * Los mercados competitivos
 
-#+include: "probl-2_1004-es.org" :lines "3-"
+#+include: "probl-02_1004-es.org" :lines "3-"
 
 
 * La elasticidad
 
-#+include: "probl-3_1004-es.org" :lines "3-"
+#+include: "probl-03_1004-es.org" :lines "3-"
 
 
 * La intervención del Estado en mercados competitivos
 
-#+include: "probl-4_1004-es.org" :lines "3-"
+#+include: "probl-04_1004-es.org" :lines "3-"
+
+
+* La restricción presupuestaria
+
+#+include: "probl-05_1004-es.org" :lines "3-"
+
+
+* Las preferencias
+
+#+include: "probl-06_1004-es.org" :lines "3-"
 
 
 * La elección del consumidor
 
-#+include: "probl-5_1004-es.org" :lines "3-"
+#+include: "probl-07_1004-es.org" :lines "3-"
 
 
 * La demanda
 
-#+include: "probl-6_1004-es.org" :lines "3-"
+#+include: "probl-08_1004-es.org" :lines "3-"
 
 
 * La elección intertemporal
 
-#+include: "probl-7_1004-es.org" :lines "3-"
+#+include: "probl-09_1004-es.org" :lines "3-"
 
 
 * La producción
 
-#+include: "probl-8_1004-es.org" :lines "3-"
+#+include: "probl-10_1004-es.org" :lines "3-"
 
 
 * Los costes
 
-#+include: "probl-9_1004-es.org" :lines "3-"
+#+include: "probl-11_1004-es.org" :lines "3-"

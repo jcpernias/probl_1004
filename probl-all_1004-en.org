@@ -5,44 +5,54 @@
 
 * Basic principles of economic organization
 
-#+include: "probl-1_1004-en.org" :lines "3-"
+#+include: "probl-01_1004-en.org" :lines "3-"
 
 
 * Competitive markets
 
-#+include: "probl-2_1004-en.org" :lines "3-"
+#+include: "probl-02_1004-en.org" :lines "3-"
 
 
 * Elasticity
 
-#+include: "probl-3_1004-en.org" :lines "3-"
+#+include: "probl-03_1004-en.org" :lines "3-"
 
 
 * Government intervention in competitive markets
 
-#+include: "probl-4_1004-en.org" :lines "3-"
+#+include: "probl-04_1004-en.org" :lines "3-"
+
+
+* Budget constraint
+
+#+include: "probl-05_1004-en.org" :lines "3-"
+
+
+* Preferences
+
+#+include: "probl-06_1004-en.org" :lines "3-"
 
 
 * Consumer choice
 
-#+include: "probl-5_1004-en.org" :lines "3-"
+#+include: "probl-07_1004-en.org" :lines "3-"
 
 
 * Demand
 
-#+include: "probl-6_1004-en.org" :lines "3-"
+#+include: "probl-08_1004-en.org" :lines "3-"
 
 
 * Intertemporal choice
 
-#+include: "probl-7_1004-en.org" :lines "3-"
+#+include: "probl-09_1004-en.org" :lines "3-"
 
 
 * Production
 
-#+include: "probl-8_1004-en.org" :lines "3-"
+#+include: "probl-10_1004-en.org" :lines "3-"
 
 
 * Costs
 
-#+include: "probl-9_1004-en.org" :lines "3-"
+#+include: "probl-11_1004-en.org" :lines "3-"
