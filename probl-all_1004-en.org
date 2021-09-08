@@ -3,7 +3,7 @@
 
 #+TITLE: Exercise Booklet
 
-* The Production Possibility Frontier
+* Basic principles of economic organization
 
 #+include: "probl-1_1004-en.org" :lines "3-"
 

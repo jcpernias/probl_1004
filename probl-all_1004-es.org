@@ -2,12 +2,12 @@
 #+SETUPFILE: ./course-es.org
 #+TITLE: Cuaderno de ejercicios
 
-* La frontera de posibilidades de producción
+* Principios básicos de la organización económica
 
 #+include: "probl-1_1004-es.org" :lines "3-"
 
 
-* Mercados competitivos
+* Los mercados competitivos
 
 #+include: "probl-2_1004-es.org" :lines "3-"
 
