@@ -149,19 +149,6 @@ Not done yet.
 
 * 2.8
 
-The prices of hotel rooms in big cities usually depend on the day of
-the week in which they are rented. In a standard week, room prices are
-much lower during the weekend with respect to working days.  Use
-supply and demand plots to explain this behaviour.
-
-
-** Answer
-
-Not done yet.
-
-
-* 2.9
-
 A severe drought has considerably damaged the coffee harvest in the
 main producing countries.
 
@@ -177,7 +164,7 @@ b) Which will be the consequences of the poor coffee harvest on global
 Not done yet.
 
 
-* 2.10
+* 2.9
 
 The market for electric scooters of a country is competitive and it is
 in equilibrium. Explain and represent graphically how would the

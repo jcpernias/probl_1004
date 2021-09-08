@@ -117,6 +117,21 @@ Not done yet.
 
 * 3.8
 
+The prices of hotel rooms in big cities usually depend on the day of
+the week in which they are rented. In a standard week, room prices are
+much lower during the weekend with respect to working days.  Use
+supply and demand plots to explain this behaviour.
+
+
+** Answer
+
+Not done yet.
+
+
+
+
+* 3.9
+
 The market for good $X$ is characterized by the demand and supply
 functions:
 #+begin_export latex
@@ -143,7 +158,7 @@ c) Calculate the income elasticity of demand in the equilibrium. Is
 Not done yet.
 
 
-* 3.9
+* 3.10
 
 Anna pays \money{2} for each unit of food, spends \money{5000} per
 year in food and her annual income is \money{25000}. The price
@@ -157,7 +172,7 @@ spend freely on what she prefers, what would be her food consumption?
 Not done yet.
 
 
-* 3.10
+* 3.11
 
 The manager of a firm that organizes musical shows must set the
 ticket price for a concert that will take place next spring. The

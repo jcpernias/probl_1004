@@ -402,43 +402,6 @@ disminuir.
 
 * 2.8
 
-Los precios de las habitaciones de hotel en las grandes ciudades
-suelen depender del día de la semana en que se alquilan. En una semana
-típica, los precios de las habitaciones son mucho más bajos los fines
-de semana que los días laborables. Utilice diagramas de oferta y
-demanda para explicar este comportamiento.
-
-
-** Answer
-
-#+ATTR_LATEX: :options [t]{0.5\linewidth}
-#+xxx: col
-#+latex: \vspace{0pt}
-#+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-2_1004-hotels-*.pdf
-#+ATTR_LATEX: :options [t]{0.5\linewidth}
-#+xxx: col
-#+latex: \vspace{1ex}
-La oferta de habitaciones de hotel es la misma entre semana que en fin
-de semana: la curva de oferta no cambia.  Pero la demanda entre
-semana, $D_e$, es muy diferente a la demanda de fin de semana, $D_f$.
-#+xxx: endcol
-#+latex: \vspace*{2ex}
-
-
-- Entre semana se demandan muchas habitaciones por motivos laborales y
-  de negocios. Este tipo de viajeros tiene una elevada disposición a
-  pagar por las habitaciones.
-
-- En fin de semana la demanda de habitaciones por motivos de turismo y
-  ocio es mayoritaria. Este tipo de viajeros tiene una menor
-  disposición a pagar y, si el precio de las habitaciones es muy
-  elevado, buscará destinos alternativos más baratos.
-
-
-
-* 2.9
-
 Una fuerte sequía ha dañado considerablemente la cosecha de café en
 los principales países productores.
 
@@ -483,7 +446,7 @@ b)
 
 
 
-* 2.10
+* 2.9
 
 El mercado de patinetes eléctricos de un país es competitivo y se
 encuentra en equilibrio. Razone y represente gráficamente cómo
