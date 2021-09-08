@@ -32,16 +32,7 @@
 #+include: "probl-6_1004-es.org" :lines "3-"
 
 
-*  
-:PROPERTIES:
-:UNNUMBERED: t
-:END:
-
-#+latex: \vspace*{-1.25cm}
-#+latex: \addtocounter{section}{1}
-
-
-* COMMENT La elección intertemporal
+* La elección intertemporal
 
 #+include: "probl-7_1004-es.org" :lines "3-"
 

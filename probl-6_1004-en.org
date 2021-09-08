@@ -13,6 +13,7 @@ of good is X?
 
 Not done yet.
 
+
 * 6.2
 
 The following graph shows the ICC of a consumer when the price of good
@@ -46,6 +47,7 @@ b) Is any of the two goods an inferior good? For what values of the
 
 Not done yet.
 
+
 * 6.4
 
 Consider a consumer who only buys two goods. Is it possible that the
@@ -54,6 +56,7 @@ two goods are inferior goods simultaneously?
 ** Answer
 
 Not done yet.
+
 
 * 6.5
 
@@ -77,6 +80,7 @@ b) Obtain and plot the demand curve for good $X$. Calculate the price
 
 Not done yet.
 
+
 * 6.6
 
 The following graph shows the PCC of a consumer when the price of good
@@ -98,6 +102,7 @@ c) What kind of relationship does it exist between goods $X$ and $Y$?
 
 Not done yet.
 
+
 * 6.7
 
 The optimal basket for a consumer with regular preferences contains
@@ -109,6 +114,7 @@ consumer's utility varies along the demand curve. Justify your answers.
 ** Answer
 
 Not done yet.
+
 
 * 6.8
 
@@ -131,6 +137,7 @@ b) What is the relationship between the price elasticity of individual
 
 Not done yet.
 
+
 * 6.9
 
 Both Adela and Blas have \money{100} to spend on goods $X$ and
@@ -145,6 +152,7 @@ and Blas.
 ** Answer
 
 Not done yet.
+
 
 * 6.10
 
@@ -161,7 +169,78 @@ that the price of milk is \price[l]{0.80} and that Rocío spends
 
 Not done yet.
 
+
 * 6.11
+
+The preferences of a consumer are given by the utility function:
+$U(X, Y) = X^{1/4} Y^{1/8}$ and her income is $M = \money{17496}$.
+Prices are $P_X = \price{54}$ and $P_Y = \price{36}$.
+
+a) Obtain the demand curve for good $X$.
+
+b) Calculate how much the consumption of the two goods varies when the
+   price of good $X$ decreases to $P_X = \price{16}$.
+
+c) Decompose the impact on each good's consumption into the
+   corresponding income and substitution effects.  What is
+   the sign of these effects?
+
+** Answer
+
+Not done yet.
+
+
+* 6.12
+
+The goods $X$ and $Y$ are perfect complements. Represent
+graphically how the optimal consumption choice would change if the
+price of good $X$ increases. Decompose the total effect on the
+consumption of $X$ into the substitution effect and the income
+effect.
+
+
+* 6.13
+
+Dulce keeps buying the same amount of salt even though its price
+has decreased by 50%. Does this mean that the substitution effect
+is zero? Is salt an inferior good for Dulce?
+
+** Answer
+
+Not done yet.
+
+
+* 6.14
+
+"The quantity demanded of a Giffen good increases with its price
+and also increases when the consumer's income increases." Is the
+previous statement correct? Justify your answer.
+
+** Answer
+
+Not done yet.
+
+
+* 6.15
+
+The following graph shows the optimal choices of a consumer before
+and after a decrease in the price of good $X$:
+
+#+xxx: fig fig-probl-6_1004-fxs-*.pdf
+
+Note that the slopes of the indifference curves are the same in
+the baskets $A$ and $B$, on the one hand, and in the baskets $C$
+and $D$, on the other hand.
+
+Decompose the total effect on consumption of $X$ into the income
+effect and the substitution effect. Obtain the signs of these
+effects and determine what kind of good is $X$ for this consumer.
+
+** Answer
+
+Not done yet.
+
+* 6.16
 
 The mayor of Lazy Town has decided to introduce a new tax on
 sugary drinks of \money{0.50} per can of soda. The tax is
@@ -219,73 +298,3 @@ c) Restricción presupuestaria: $484.5 = R + Y$.
    es superior a la cuantía del cheque, \money{14.50}.
 
 #+latex: \addtocounter{section}{1}
-
-
-* COMMENT OLD 6.7
-
-The preferences of a consumer are given by the utility function:
-$U(X, Y) = X^{1/4} Y^{1/8}$ and her income is $M = \money{17496}$.
-Prices are $P_X = \price{54}$ and $P_Y = \price{36}$.
-
-a) Obtain the demand curve for good $X$.
-
-b) Calculate how much the consumption of the two goods varies when the
-   price of good $X$ decreases to $P_X = \price{16}$.
-
-c) Decompose the impact on each good's consumption into the
-   corresponding income and substitution effects.  What is
-   the sign of these effects?
-
-** Answer
-
-Not done yet.
-
-* COMMENT OLD 6.8
-
-The goods $X$ and $Y$ are perfect complements. Represent
-graphically how the optimal consumption choice would change if the
-price of good $X$ increases. Decompose the total effect on the
-consumption of $X$ into the substitution effect and the income
-effect.
-
-
-* COMMENT OLD 6.9
-
-Dulce keeps buying the same amount of salt even though its price
-has decreased by 50%. Does this mean that the substitution effect
-is zero? Is salt an inferior good for Dulce?
-
-** Answer
-
-Not done yet.
-
-
-* COMMENT OLD 6.10
-
-"The quantity demanded of a Giffen good increases with its price
-and also increases when the consumer's income increases." Is the
-previous statement correct? Justify your answer.
-
-** Answer
-
-Not done yet.
-
-
-* COMMENT OLD 6.11
-
-The following graph shows the optimal choices of a consumer before
-and after a decrease in the price of good $X$:
-
-#+xxx: fig fig-probl-6_1004-fxs-*.pdf
-
-Note that the slopes of the indifference curves are the same in
-the baskets $A$ and $B$, on the one hand, and in the baskets $C$
-and $D$, on the other hand.
-
-Decompose the total effect on consumption of $X$ into the income
-effect and the substitution effect. Obtain the signs of these
-effects and determine what kind of good is $X$ for this consumer.
-
-** Answer
-
-Not done yet.

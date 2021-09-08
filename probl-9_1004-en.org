@@ -258,7 +258,7 @@ d) Compare the answers to [[ex9.21:item-b]] and [[ex9.21:item-c]]. Why do they
 Not done yet.
 
 
-* COMMENT 9.12.
+* 9.12.
 
 A small company dedicated to the production of electrical guitars
 is considering the possibility of opening a new factory. When

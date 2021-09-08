@@ -1013,7 +1013,7 @@
 #+end_src
 
 
-* COMMENT 6.11 Income and substitution effects
+* 6.11 Income and substitution effects
 
 #+begin_src latex :tangle fig-probl-6_1004-fxs.tex :noweb no
   \begin{tikzpicture}[xscale = 0.15, yscale = 0.1,
@@ -1063,7 +1063,7 @@
 #+end_src
 
 
-* COMMENT 6.8 Income and substitution effects: Perfect complements
+* 6.8 Income and substitution effects: Perfect complements
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-compl.tex :noweb no
   \begin{tikzpicture}[xscale = 1, yscale = 1]
@@ -1099,7 +1099,7 @@
 
 
 
-* COMMENT Corner solution and demand curve
+* Corner solution and demand curve
 :PROPERTIES:
 :header-args: :tangle no
 :END:

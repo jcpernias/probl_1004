@@ -631,7 +631,7 @@ d) Los costes se incrementan más cuando la empresa no puede modificar
 
 
 
-* COMMENT 9.12.
+* 9.12.
 
 Una pequeña empresa dedicada a la producción de guitarras
 eléctricas está planteándose la posibilidad de abrir una nueva
