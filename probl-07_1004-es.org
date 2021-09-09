@@ -1,5 +1,5 @@
-# -*- ispell-dictionary: "english" -*-
-#+SETUPFILE: ./course-en.org
+# -*- ispell-dictionary: "castellano" -*-
+#+SETUPFILE: ./course-es.org
 
 * 5.12
 
