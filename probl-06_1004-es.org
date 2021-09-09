@@ -77,7 +77,7 @@ Por hacer.
 * 6.4
 
 Sabiendo que las preferencias de un consumidor se pueden representar
-con la función de utilidad $U(X, Y) = X Y$, complete los datos que
+con la función de utilidad $U(X, Y) = X^2 Y$, complete los datos que
 faltan en la siguiente tabla:
 
 #+ATTR_LATEX: :booktabs t :center t :align @{}*{5}{rp{0.65cm}}r@{}
