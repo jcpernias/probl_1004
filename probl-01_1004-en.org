@@ -54,7 +54,7 @@ a) <<ex1.1:item-a>>Obtain and draw the Production Possibility
    Frontier, PPF.
 
 b) If \units[kg]{150000} of food are produced, ¿is it possible to
-   produce \num{300000} vehicles? If your answer is negative,indicate
+   produce \num{300000} vehicles? If your answer is negative, indicate
    how many vehicles could be produced at most.
 
 c) What effect on the PPF would have an organizational improvement in
@@ -73,6 +73,7 @@ d) Which would be the consequences on the PPF of the reduction of the
 ** Answer
 
 Not done yet.
+
 
 * 1.2
 
@@ -108,6 +109,7 @@ e) What is the relationship between the PPF shape and the opportunity
 
 Not done yet.
 
+
 * 1.3
 
 The production possibilities frontier, PPF, of a country producing
@@ -136,6 +138,7 @@ d) What is the relationship between the behavior of the opportunity
 
 Not done yet.
 
+
 * 1.4
 
 The following figure shows the production possibilities frontier of
@@ -150,6 +153,7 @@ lower opportunity cost of producing fish.
 ** Answer
 
 Not done yet.
+
 
 * 1.5
 
