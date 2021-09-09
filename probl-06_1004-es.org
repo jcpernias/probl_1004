@@ -1,7 +1,21 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 5.10
+* 6.1
+
+Considera las preferencias representadas en los siguientes gráficos,
+donde las flechas indican la dirección en que aumenta la utilidad:
+
+#+xxx: fig fig-probl-06_1004-maps-*.pdf
+
+Determine en cada caso que supuestos de las preferencias regulares se están incumpliendo. Justifique su respuesta.
+
+** Answer
+
+Por hacer.
+
+
+* 6.2
 
 A Amaia le gusta el pescado, mientras que el pollo ni le gusta ni
 le disgusta. Por su parte, a Alejandro no le gusta el pescado pero
@@ -16,7 +30,7 @@ preferencias de Amaia y de Alejandro.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-5_1004-neutral-*.pdf
+#+xxx: fig fig-ans-probl-06_1004-neutral-*.pdf
 #+begin_center
 Amaia
 #+end_center
@@ -24,7 +38,7 @@ Amaia
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-5_1004-bad-*.pdf
+#+xxx: fig fig-ans-probl-06_1004-bad-*.pdf
 #+begin_center
 Alejandro
 #+end_center
@@ -42,7 +56,81 @@ el mismo nivel de utilidad, un incremento de su consumo de pescado
 debería compensarse con un incremento de su consumo de pollo.
 
 
-* 5.11
+* 6.3
+
+Pablo se muestra indiferente entre la cesta $A$, que contiene 6
+manzanas y 2 naranjas, y la cesta $B$, con 2 manzanas y 6
+naranjas. Responda a las siguientes preguntas teniendo en cuenta que
+las preferencias de Pablo son regulares:
+
+a) Si Pablo tuviera que elegir entre la cesta $A$ y la cesta $C$, que
+   contiene 3 manzanas y 7 naranjas, ¿cuál sería su mejor opción?
+
+b) ¿Y si la elección fuera entre la cesta $A$ y la cesta $D$, con 4
+   manzanas y 4 naranjas?
+
+** Answer
+
+Por hacer.
+
+
+* 6.4
+
+Sabiendo que las preferencias de un consumidor se pueden representar
+con la función de utilidad $U(X, Y) = X Y$, complete los datos que
+faltan en la siguiente tabla:
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}*{5}{rp{0.65cm}}r@{}
+|-----+---+-----+---+-----+---+--------+---+--------+---+--------|
+| $X$ |   | $Y$ |   | $U$ |   | $\UMX$ |   | $\UMY$ |   | $\RMS$ |
+|-----+---+-----+---+-----+---+--------+---+--------+---+--------|
+|   2 |   |   3 |   |     |   |     12 |   |        |   |        |
+|   4 |   |     |   |     |   |      8 |   |        |   |        |
+|     |   |     |   |     |   |      6 |   |      1 |   |        |
+|-----+---+-----+---+-----+---+--------+---+--------+---+--------|
+
+
+** Answer
+
+Por hacer.
+
+
+* 6.5
+
+La función de utilidad de Carlos es $U(X, Y) = X Y$. Si consume la
+cesta $A$, que consta de 2 unidades del bien $X$ y 10 unidades del
+bien $Y$:
+
+a) ¿Cuál sería la utilidad de Carlos? ¿Aumentaría su utilidad si
+   obtuviera 1 unidad más de $X$ a cambio de 2 unidades de $Y$?
+
+b) Obtenga y represente la curva de indiferencia que contiene la cesta
+   $A$.
+
+c) En la cesta $A$, ¿a cuántas unidades del bien $Y$ estaría dispuesto
+   a renunciar Carlos a cambio de una unidad adicional del bien $X$?
+
+
+* 6.6
+
+Las preferencias de Luna y Aurora son idénticas y se pueden
+representar por la función de utilidad: $U(X, Y) = 6 X + 3 Y$. Luna
+consume la cesta $L = (1, 5)$ mientras que Aurora consume la cesta $A
+= (3, 2)$.
+
+a) Calcule los niveles de utilidad de Luna y de Aurora.
+
+b) Obtenga la relación marginal de sustitución de Luna y de Aurora.
+
+c) Dibuje las curvas de indiferencia que pasan por las cestas $L$ y $A$.
+
+
+** Answer
+
+Por hacer.
+
+
+* 6.7
 
  Carmen es coleccionista de fotos antiguas. Hoy ha acudido a un
  mercadillo donde ha comprado 50 fotos para su colección y aún dispone

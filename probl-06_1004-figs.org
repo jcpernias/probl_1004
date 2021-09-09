@@ -2,13 +2,125 @@
 
 #+TITLE: Exercises 6
 
-* 5.10 Neutral goods and bads
+* 6.1 Indifference maps
+
+#+begin_src latex :tangle fig-probl-06_1004-maps.tex
+  \begin{tikzpicture}[xscale = 0.75, yscale = 0.75,
+    use Hobby shortcut,
+    tangent/.style={
+      in angle={(180+#1)},
+      Hobby finish,
+      designated Hobby path=next,
+      out angle=#1,
+    },
+    ]
+
+    \begin{scope}[xscale=4, yscale=4]
+      \draw[curve]
+        (0.2, 0.02) -- (0.2, 0.9) node[above] {$U_1$}
+        (0.4, 0.02) -- (0.4, 0.9) node[above] {$U_2$}
+        (0.6, 0.02) -- (0.6, 0.9) node[above] {$U_3$}
+        ;
+
+      \draw[shift arrow, ->]
+        (0.65, 0.45) -- (0.85, 0.45)
+        ;
+      \coordinate (Xaxis) at (1.1, 0) ;
+      \coordinate (Yaxis) at (0, 1.1) ;
+      \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
+      \draw[inner xsep=0pt, outer xsep = 0pt]
+        (Yaxis) node[above left] {Y}
+        (Xaxis) node[below right] {X}
+        ;
+
+      \node[font=\large\bfseries] at (0.55, 1.2) {(A)} ;
+
+    \end{scope}
+
+    \begin{scope}[xscale=4, yscale=4, xshift=1.5cm]
+      \draw[curve]
+        (0.2, 0.9) |- (0.9, 0.2) node[right] {$U_1$}
+        (0.4, 0.9) |- (0.9, 0.4) node[right] {$U_2$}
+        (0.6, 0.9) |- (0.9, 0.6) node[right] {$U_3$}
+        ;
+
+      \draw[shift arrow, ->]
+        (0.70, 0.70) -- (0.85, 0.85)
+        ;
+      \coordinate (Xaxis) at (1.1, 0) ;
+      \coordinate (Yaxis) at (0, 1.1) ;
+      \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
+      \draw[inner xsep=0pt, outer xsep = 0pt]
+        (Yaxis) node[above left] {Y}
+        (Xaxis) node[below right] {X}
+        ;
+
+      \node[font=\large\bfseries] at (0.55, 1.2) {(B)} ;
+    \end{scope}
+
+    \begin{scope}[xscale=4, yscale=4, yshift=-1.5cm]
+      \draw[curve]
+        (0.1, 0.1) to[curve through={(0.5, 0.7)}]
+        (0.9, 0.9) (0.9, 0.9) node[right] {$U_{1}$}
+        ;
+
+      \draw[curve]
+        (0.3, 0.1) to[curve through={(0.6, 0.55)}]
+        (0.9, 0.7) (0.9, 0.7) node[right] {$U_{2}$}
+        ;
+
+      \draw[curve]
+        (0.5, 0.1) to[curve through={(0.7, 0.4)}]
+        (0.9, 0.5) (0.9, 0.5) node[right] {$U_{3}$}
+        ;
+
+
+      \draw[shift arrow, ->]
+        (0.7, 0.3) -- (0.84, 0.16)
+        ;
+
+
+      \coordinate (Xaxis) at (1.1, 0) ;
+      \coordinate (Yaxis) at (0, 1.1) ;
+      \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
+      \draw[inner xsep=0pt, outer xsep = 0pt]
+        (Yaxis) node[above left] {Y}
+        (Xaxis) node[below right] {X}
+        ;
+
+      \node[font=\large\bfseries] at (0.55, 1.2) {(C)} ;
+    \end{scope}
+
+    \begin{scope}[xscale=4, yscale=4, yshift=-1.5cm, xshift=1.5cm]
+       \draw[curve, shorten >=4pt, shorten <=4pt]
+         (0.02, 0.2) -- (0.2, 0.02) node[right, pos=0.8] {$U_1$}
+         (0.02, 0.5) -- (0.5, 0.02) node[right, pos=0.8] {$U_2$}
+         (0.02, 0.8) -- (0.8, 0.02) node[right, pos=0.8] {$U_3$}
+        ;
+
+      \draw[shift arrow, ->]
+        (0.5, 0.5) -- (0.65, 0.65)
+        ;
+      \coordinate (Xaxis) at (1.1, 0) ;
+      \coordinate (Yaxis) at (0, 1.1) ;
+      \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
+      \draw[inner xsep=0pt, outer xsep = 0pt]
+        (Yaxis) node[above left] {Y}
+        (Xaxis) node[below right] {X}
+        ;
+
+      \node[font=\large\bfseries] at (0.55, 1.2) {(D)} ;
+    \end{scope}
+  \end{tikzpicture}
+
+#+end_src
+* 6.2 Neutral goods and bads
 
 
 ** Neutral good
 
-#+begin_src latex :tangle fig-ans-probl-5_1004-neutral.tex
-  \begin{tikzpicture}<<ex3:xy-scale>>
+#+begin_src latex :tangle fig-ans-probl-06_1004-neutral.tex
+  \begin{tikzpicture}[<<ex6.1:xy-scale>>]
     \draw[curve]
       (0, 0.2) -- (0.9, 0.2) node[right] {$U_1$}
       (0, 0.4) -- (0.9, 0.4) node[right] {$U_2$}
@@ -20,15 +132,15 @@
       ;
 
 
-    <<ex3:axes>>
+    <<ex6.1:axes>>
   \end{tikzpicture}
 #+end_src
 
 
 ** Bad
 
-#+begin_src latex :tangle fig-ans-probl-5_1004-bad.tex
-  \begin{tikzpicture}<<ex3:xy-scale>>
+#+begin_src latex :tangle fig-ans-probl-06_1004-bad.tex
+  \begin{tikzpicture}[<<ex6.1:xy-scale>>]
 
     \draw[curve]
       (0.1, 0.1) to[curve through={(0.5, 0.7)}]
@@ -51,7 +163,7 @@
       (0.7, 0.3) -- (0.84, 0.16)
       ;
 
-    <<ex3:axes>>
+    <<ex6.1:axes>>
   \end{tikzpicture}
 #+end_src
 
@@ -61,7 +173,7 @@
 
 *** Axes
 
-#+begin_src latex :noweb-ref ex3:axes
+#+begin_src latex :noweb-ref ex6.1:axes
   \coordinate (Xaxis) at (1.1, 0) ;
   \coordinate (Yaxis) at (0, 1.1) ;
   \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
@@ -71,6 +183,6 @@
     ;
 #+end_src
 
-#+begin_src latex :noweb-ref ex3:xy-scale
-  [yscale = 3.4, xscale = 3.4]
+#+begin_src latex :noweb-ref ex6.1:xy-scale
+  yscale = 3.4, xscale = 3.4
 #+end_src
