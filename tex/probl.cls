@@ -120,7 +120,7 @@
 %% -----------------------------------------------------------------
 
 \RequirePackage{titletoc}
-\contentsmargin{1.5pc}
+\contentsmargin{2pc}
 \titlecontents{section}[0pc]
 {\addvspace{1ex}\sffamily\bfseries}
 {\contentslabel{1.5pc}}
@@ -188,13 +188,13 @@ compact]{titlesec}
 \newcommand*{\ExerciseName}{\translate{Exercise}}
 
 \titleformat{name=\section}[hang]{%
-  \color{Section}\LARGE\sffamily\bfseries}{%
-  \makebox[1.25cm][l]{\rmfamily\slshape\HUGE\thesection}}{0pt}{}
+  \color{Section}\huge\sffamily\bfseries}{%
+  \makebox[2pc][r]{\rmfamily\slshape\HUGE\thesection.}}{1pc}{}
 
 \titlespacing*{name=\section}{-1.25cm}{0pt}{*1.5}
 
 \titleformat{name=\section, numberless}
-{\color{Section}\LARGE\sffamily\bfseries}
+{\color{Section}\huge\sffamily\bfseries}
 {}{0pt}{}
 
 \titlespacing*{name=\section, numberless}{0pc}{*7}{*1.5}
