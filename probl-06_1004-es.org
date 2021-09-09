@@ -113,16 +113,16 @@ c) En la cesta $A$, ¿a cuántas unidades del bien $Y$ estaría dispuesto
 
 * 6.6
 
-Las preferencias de Luna y Aurora son idénticas y se pueden
+Luna y Aurora son dos hermanas cuyas preferencias son idénticas y se pueden
 representar por la función de utilidad: $U(X, Y) = 6 X + 3 Y$. Luna
 consume la cesta $L = (1, 5)$ mientras que Aurora consume la cesta $A
 = (3, 2)$.
 
 a) Calcule los niveles de utilidad de Luna y de Aurora.
 
-b) Obtenga la relación marginal de sustitución de Luna y de Aurora.
+b) Obtenga la relación marginal de sustitución de cada hermana.
 
-c) Dibuje las curvas de indiferencia que pasan por las cestas $L$ y $A$.
+c) Obtenga y dibuje las curvas de indiferencia de Luna y de Aurora.
 
 
 ** Answer
