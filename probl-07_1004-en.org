@@ -1,6 +1,38 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
+* 5.12
+
+Five friends have bought fruit and each one of them has obtained the
+same combination: 3 apples and 6 pears. The price of an apple is
+\money{1} whereas a pear costs \money{0.50}. The following table shows
+the marginal utility for apples and pears for each one of the
+consumers:
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}l*{2}{r}@{}
+|--------------+------------+----------|
+|              | Apples     | Pears    |
+|--------------+------------+----------|
+| Jerry        | $12$       | $6$      |
+| George       |  $6$       | $6$      |
+| Elaine       |  $6$       | $3$      |
+| Kramer       |  $3$       | $6$      |
+| Newman       | $12$       | $3$      |
+|--------------+------------+----------|
+
+a) Which consumers, if any, *are not* choosing an optimal combination
+   of apples and pears? How should they change their choice in order
+   to increase their utility?
+
+b) With the information given, is it possible to determine if any
+   consumer is maximising utility?
+
+
+** Answer
+
+Not done yet.
+
+
 * 5.13
 
 The preferences of a consumer can be described with the utility
