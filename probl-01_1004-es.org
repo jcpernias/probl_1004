@@ -158,7 +158,7 @@ d) Una reducción de un factor de producción desplaza la frontera hacia
 * 1.2
 
 La tabla adjunta presenta diferentes combinaciones eficientes para una
-economía en la que únicamente se producen dos bienes: cañones y mantequilla.
+economía en la que sólo se producen dos bienes: cañones y mantequilla.
 
 #+ATTR_LATEX: :booktabs t :center t :align @{}p{1cm}*{2}{R{2cm}}@{}
 |-----+-------------+------------|
