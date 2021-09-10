@@ -17,13 +17,13 @@
 
     \begin{scope}[xscale=4, yscale=4]
       \draw[curve]
-        (0.2, 0.02) -- (0.2, 0.9) node[above] {$U_1$}
-        (0.4, 0.02) -- (0.4, 0.9) node[above] {$U_2$}
-        (0.6, 0.02) -- (0.6, 0.9) node[above] {$U_3$}
+        (0.02, 0.2) -- (0.9, 0.2) node[right] {$I_1$}
+        (0.02, 0.4) -- (0.9, 0.4) node[right] {$I_2$}
+        (0.02, 0.6) -- (0.9, 0.6) node[right] {$I_3$}
         ;
 
       \draw[shift arrow, ->]
-        (0.65, 0.45) -- (0.85, 0.45)
+        (0.45, 0.65) -- (0.45, 0.85)
         ;
       \coordinate (Xaxis) at (1.1, 0) ;
       \coordinate (Yaxis) at (0, 1.1) ;
@@ -39,9 +39,9 @@
 
     \begin{scope}[xscale=4, yscale=4, xshift=1.5cm]
       \draw[curve]
-        (0.2, 0.9) |- (0.9, 0.2) node[right] {$U_1$}
-        (0.4, 0.9) |- (0.9, 0.4) node[right] {$U_2$}
-        (0.6, 0.9) |- (0.9, 0.6) node[right] {$U_3$}
+        (0.2, 0.9) |- (0.9, 0.2) node[right] {$I_1$}
+        (0.4, 0.9) |- (0.9, 0.4) node[right] {$I_2$}
+        (0.6, 0.9) |- (0.9, 0.6) node[right] {$I_3$}
         ;
 
       \draw[shift arrow, ->]
@@ -61,17 +61,17 @@
     \begin{scope}[xscale=4, yscale=4, yshift=-1.5cm]
       \draw[curve]
         (0.1, 0.1) to[curve through={(0.5, 0.7)}]
-        (0.9, 0.9) (0.9, 0.9) node[right] {$U_{1}$}
+        (0.9, 0.9) (0.9, 0.9) node[right] {$I_{1}$}
         ;
 
       \draw[curve]
         (0.3, 0.1) to[curve through={(0.6, 0.55)}]
-        (0.9, 0.7) (0.9, 0.7) node[right] {$U_{2}$}
+        (0.9, 0.7) (0.9, 0.7) node[right] {$I_{2}$}
         ;
 
       \draw[curve]
         (0.5, 0.1) to[curve through={(0.7, 0.4)}]
-        (0.9, 0.5) (0.9, 0.5) node[right] {$U_{3}$}
+        (0.9, 0.5) (0.9, 0.5) node[right] {$I_{3}$}
         ;
 
 
@@ -93,13 +93,13 @@
 
     \begin{scope}[xscale=4, yscale=4, yshift=-1.5cm, xshift=1.5cm]
        \draw[curve, shorten >=4pt, shorten <=4pt]
-         (0.02, 0.2) -- (0.2, 0.02) node[right, pos=0.8] {$U_1$}
-         (0.02, 0.5) -- (0.5, 0.02) node[right, pos=0.8] {$U_2$}
-         (0.02, 0.8) -- (0.8, 0.02) node[right, pos=0.8] {$U_3$}
+         (0.03, 0.4) -- (0.4, 0.02) node[right, pos=0.8] {$I_1$}
+         (0.03, 0.7) -- (0.7, 0.02) node[right, pos=0.8] {$I_2$}
+         (0.03, 1.0) -- (1.0, 0.02) node[right, pos=0.8] {$I_3$}
         ;
 
       \draw[shift arrow, ->]
-        (0.5, 0.5) -- (0.65, 0.65)
+        (0.60, 0.60) -- (0.75, 0.75)
         ;
       \coordinate (Xaxis) at (1.1, 0) ;
       \coordinate (Yaxis) at (0, 1.1) ;
@@ -122,9 +122,9 @@
 #+begin_src latex :tangle fig-ans-probl-06_1004-neutral.tex
   \begin{tikzpicture}[<<ex6.1:xy-scale>>]
     \draw[curve]
-      (0, 0.2) -- (0.9, 0.2) node[right] {$U_1$}
-      (0, 0.4) -- (0.9, 0.4) node[right] {$U_2$}
-      (0, 0.6) -- (0.9, 0.6) node[right] {$U_3$}
+      (0, 0.2) -- (0.9, 0.2) node[right] {$I_1$}
+      (0, 0.4) -- (0.9, 0.4) node[right] {$I_2$}
+      (0, 0.6) -- (0.9, 0.6) node[right] {$I_3$}
       ;
 
     \draw[shift arrow, ->]
@@ -144,17 +144,17 @@
 
     \draw[curve]
       (0.1, 0.1) to[curve through={(0.5, 0.7)}]
-      (0.9, 0.9) (0.9, 0.9) node[right] {$U_{1}$}
+      (0.9, 0.9) (0.9, 0.9) node[right] {$I_{1}$}
       ;
 
     \draw[curve]
       (0.3, 0.1) to[curve through={(0.6, 0.55)}]
-      (0.9, 0.7) (0.9, 0.7) node[right] {$U_{2}$}
+      (0.9, 0.7) (0.9, 0.7) node[right] {$I_{2}$}
       ;
 
     \draw[curve]
       (0.5, 0.1) to[curve through={(0.7, 0.4)}]
-      (0.9, 0.5) (0.9, 0.5) node[right] {$U_{3}$}
+      (0.9, 0.5) (0.9, 0.5) node[right] {$I_{3}$}
       ;
 
 
