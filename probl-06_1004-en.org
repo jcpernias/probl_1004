@@ -8,8 +8,8 @@ the arrows point in the direction of increasing utility:
 
 #+xxx: fig fig-probl-06_1004-maps-*.pdf
 
-Determine which assumptions of regular preferences do not hold in each
-case. Reason your answers.
+Determine which of the assumptions of regular preferences do not hold in each
+case. Justify your answers.
 
 
 ** Answer
@@ -118,8 +118,8 @@ Not done yet.
 
 * 6.7
 
- Carmen collects old pictures. Today she has gone to a street market
- where she has bought 50 pictures for her collection, and she has
+ Carmen collects old pictures. Today she went to a street market
+ where she bought 50 pictures for her collection, and she has
  still \money{150} to purchase other things. In one of the stands in
  the street market she has found a set of 10 pictures she is
  interested in, for which \money{25} are asked. Carmen’s utility
