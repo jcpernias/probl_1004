@@ -3,12 +3,13 @@
 
 * 6.1
 
-Considera las preferencias representadas en los siguientes gráficos,
+Considere las preferencias representadas en los siguientes gráficos,
 donde las flechas indican la dirección en que aumenta la utilidad:
 
 #+xxx: fig fig-probl-06_1004-maps-*.pdf
 
-Determine en cada caso qué supuestos de las preferencias regulares se están incumpliendo. Justifique su respuesta.
+Determine en cada caso qué supuestos de las preferencias regulares se
+están incumpliendo. Justifique su respuesta.
 
 
 ** Answer
