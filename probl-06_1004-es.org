@@ -9,7 +9,7 @@ donde las flechas indican la dirección en que aumenta la utilidad:
 #+xxx: fig fig-probl-06_1004-maps-*.pdf
 
 Determine en cada caso qué supuestos de las preferencias regulares se
-están incumpliendo. Justifique su respuesta.
+están incumpliendo. Justifique sus respuestas.
 
 
 ** Answer
@@ -110,8 +110,8 @@ a) ¿Cuál sería la utilidad de Carlos? ¿Aumentaría su utilidad si
 b) Obtenga y represente la curva de indiferencia que contiene la cesta
    $A$.
 
-c) En la cesta $A$, ¿a cuántas unidades del bien $Y$ estaría dispuesto
-   a renunciar Carlos a cambio de una unidad adicional del bien $X$?
+c) ¿A cuántas unidades del bien $Y$ estaría dispuesto a renunciar
+   Carlos a cambio de una unidad adicional del bien $X$?
 
 
 ** Answer

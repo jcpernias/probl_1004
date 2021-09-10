@@ -1,7 +1,24 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-* 5.10
+* 6.1
+
+Consider the preferences represented in the following diagrams, where
+the arrows point in the direction of increasing utility:
+
+#+xxx: fig fig-probl-06_1004-maps-*.pdf
+
+Determine which assumptions of regular preferences do not hold in each
+case. Reason your answers.
+
+
+** Answer
+
+Not done yet.
+
+
+
+* 6.2
 
 Amaia likes fish, while she neither likes nor dislikes
 chicken. Alejandro, meanwhile, does not like fish but he does like
@@ -15,7 +32,91 @@ Alejandro.
 Not done yet.
 
 
-* 5.11
+
+* 6.3
+
+Pablo is indifferent between basket $A$, containing 6 apples and 2
+oranges, and basket $B$, with 2 apples and 6 oranges. Answer the
+following questions, taking into account that Pablo's preferences are
+regular:
+
+a) If Pablo had to choose between basket $A$ and basket $C$, which
+   contains 3 apples and 7 oranges, which would be his best option?
+
+b) What if he had to choose between the basket $A$ and the basket $D$,
+   with 5 apples and 4 oranges?
+
+
+** Answer
+
+Not done yet.
+
+
+* 6.4
+
+Knowing that a consumer's preferences can be represented by the
+utility function $U (X, Y) = X ^ 2 Y$, fill in the missing data in the
+following table:
+
+#+ATTR_LATEX: :booktabs t :center t :align @{}*{5}{rp{0.65cm}}r@{}
+|-----+---+-----+---+-----+---+--------+---+--------+---+--------|
+| $X$ |   | $Y$ |   | $U$ |   | $\UMX$ |   | $\UMY$ |   | $\RMS$ |
+|-----+---+-----+---+-----+---+--------+---+--------+---+--------|
+|   2 |   |   3 |   |     |   |     12 |   |        |   |        |
+|   4 |   |     |   |     |   |      8 |   |        |   |        |
+|     |   |     |   |     |   |      6 |   |      1 |   |        |
+|-----+---+-----+---+-----+---+--------+---+--------+---+--------|
+
+
+** Answer
+
+Not done yet.
+
+
+* 6.5
+
+Carlos's utility function is $U (X, Y) = X Y$. If he consumes the
+basket $A$, consisting of 2 units of good $X$ and 10 units of good $Y$:
+
+a) What would be the utility of Carlos? Would his utility increase if
+   he got 1 more unit of $X$ in exchange for 2 units of $Y$?
+
+b) Obtain and plot the indifference curve that contains the basket
+   $A$.
+
+c) How many units of good $Y$ would Carlos be willing to give up in
+   exchange for an additional unit of good $X$?
+
+
+** Answer
+
+Not done yet.
+
+
+
+
+* 6.6
+
+Luna and Aurora are two sisters whose preferences are identical and
+can be represented by the utility function: $U(X, Y) = 6 X + 3
+Y$. Luna consumes the basket $L = (1, 5)$ while Aurora consumes the
+basket $A = (3, 2)$.
+
+a) Calculate the utility levels of Luna and Aurora.
+
+b) Obtain the marginal rate of substitution for each sister.
+
+c) Obtain and draw the indifference curves for Luna and Aurora.
+
+
+** Answer
+
+Not done yet.
+
+
+
+
+* 6.7
 
  Carmen collects old pictures. Today she has gone to a street market
  where she has bought 50 pictures for her collection, and she has
