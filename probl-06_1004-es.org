@@ -8,7 +8,8 @@ donde las flechas indican la dirección en que aumenta la utilidad:
 
 #+xxx: fig fig-probl-06_1004-maps-*.pdf
 
-Determine en cada caso que supuestos de las preferencias regulares se están incumpliendo. Justifique su respuesta.
+Determine en cada caso qué supuestos de las preferencias regulares se están incumpliendo. Justifique su respuesta.
+
 
 ** Answer
 
@@ -66,8 +67,9 @@ las preferencias de Pablo son regulares:
 a) Si Pablo tuviera que elegir entre la cesta $A$ y la cesta $C$, que
    contiene 3 manzanas y 7 naranjas, ¿cuál sería su mejor opción?
 
-b) ¿Y si la elección fuera entre la cesta $A$ y la cesta $D$, con 4
+b) ¿Y si la elección fuera entre la cesta $A$ y la cesta $D$, con 5
    manzanas y 4 naranjas?
+
 
 ** Answer
 
@@ -109,6 +111,13 @@ b) Obtenga y represente la curva de indiferencia que contiene la cesta
 
 c) En la cesta $A$, ¿a cuántas unidades del bien $Y$ estaría dispuesto
    a renunciar Carlos a cambio de una unidad adicional del bien $X$?
+
+
+** Answer
+
+Por hacer.
+
+
 
 
 * 6.6
