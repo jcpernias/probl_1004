@@ -17,6 +17,22 @@ están incumpliendo. Justifique sus respuestas.
 Por hacer.
 
 
+- *(A)*: En el caso del bien $X$ se incumple el supuesto de no
+  saturación. $X$ es un bien neutro.
+
+- *(B)*: En todos las combinaciones se incumple el supuesto de no
+  saturación para alguno de los dos bienes. Los bienes $X$ e $Y$ son
+  complementos perfectos.
+
+- *(C)*: No se cumple el supuesto de no saturación para $Y$. De hecho,
+  el consumidor empeora conforme más unidades de $Y$ consume. $Y$ es
+  un mal.
+
+- *(D)*: Las curvas de indiferencia no son /estrictamente/
+  convexas. Los bienes $X$ e $Y$ son perfectamente sustitutivos.
+
+
+
 * 6.2
 
 A Amaia le gusta el pescado, mientras que el pollo ni le gusta ni
