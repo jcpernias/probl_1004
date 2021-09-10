@@ -114,6 +114,8 @@
   \end{tikzpicture}
 
 #+end_src
+
+
 * 6.2 Neutral goods and bads
 
 
@@ -185,4 +187,44 @@
 
 #+begin_src latex :noweb-ref ex6.1:xy-scale
   yscale = 3.4, xscale = 3.4
+#+end_src
+
+
+* 6.6 Perfect substitutes
+
+** Indifference curves
+
+#+begin_src latex :tangle fig-ans-probl-06_1004-subst.tex
+  \begin{tikzpicture}[<<ex6.6:xy-scale>>]
+    \coordinate (L) at (1, 5) ;
+
+    \coordinate (A) at (3, 2) ;
+
+    \draw[curve]
+      (0.5, 6) -- (3.25, 0.5)
+      (1.0, 6) -- (3.75, 0.5)
+      (L) node[dot, label={below left:$L$}] {}
+      (A) node[dot, label={above right:$A$}] {}
+      ;
+
+    <<ex6.6:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex6.6:axes
+  \coordinate (Xaxis) at (7, 0) ;
+  \coordinate (Yaxis) at (0, 7) ;
+  \draw[axis, very thick] (Yaxis) node[above] {$Y$} |-
+    (Xaxis) node[right] {$X$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.6:xy-scale
+  yscale = 0.55, xscale = 0.5
 #+end_src
