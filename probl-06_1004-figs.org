@@ -124,13 +124,13 @@
 #+begin_src latex :tangle fig-ans-probl-06_1004-neutral.tex
   \begin{tikzpicture}[<<ex6.1:xy-scale>>]
     \draw[curve]
-      (0, 0.2) -- (0.9, 0.2) node[right] {$I_1$}
-      (0, 0.4) -- (0.9, 0.4) node[right] {$I_2$}
-      (0, 0.6) -- (0.9, 0.6) node[right] {$I_3$}
+      (0.2, 0) -- (0.2, 0.9) node[above] {$I_1$}
+      (0.4, 0) -- (0.4, 0.9) node[above] {$I_2$}
+      (0.6, 0) -- (0.6, 0.9) node[above] {$I_3$}
       ;
 
     \draw[shift arrow, ->]
-      (0.45, 0.65) -- (0.45, 0.85)
+      (0.65, 0.45) -- (0.85, 0.45)
       ;
 
 
@@ -145,24 +145,24 @@
   \begin{tikzpicture}[<<ex6.1:xy-scale>>]
 
     \draw[curve]
-      (0.1, 0.1) to[curve through={(0.5, 0.7)}]
-      (0.9, 0.9) (0.9, 0.9) node[right] {$I_{1}$}
+      (0.9, 0.9) node[above] {$I_{1}$} to[curve through={(0.7, 0.5)}]
+      (0.1, 0.1) (0.1, 0.1)
       ;
 
     \draw[curve]
-      (0.3, 0.1) to[curve through={(0.6, 0.55)}]
-      (0.9, 0.7) (0.9, 0.7) node[right] {$I_{2}$}
+      (0.7, 0.9) node[above] {$I_{2}$} to[curve through={(0.55, 0.6)}]
+      (0.1, 0.3) (0.1, 0.3)
       ;
 
     \draw[curve]
-      (0.5, 0.1) to[curve through={(0.7, 0.4)}]
-      (0.9, 0.5) (0.9, 0.5) node[right] {$I_{3}$}
+      (0.5, 0.9) node[above] {$I_{3}$} to[curve through={(0.4, 0.7)}]
+      (0.1, 0.5) (0.1, 0.5)
       ;
 
 
 
-    \draw[shift arrow, ->]
-      (0.7, 0.3) -- (0.84, 0.16)
+    \draw[shift arrow, <-]
+      (0.16, 0.84) -- (0.3, 0.7)
       ;
 
     <<ex6.1:axes>>
@@ -180,8 +180,8 @@
   \coordinate (Yaxis) at (0, 1.1) ;
   \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
   \draw[inner xsep=0pt, outer xsep = 0pt]
-    (Yaxis) node[anchor=south west, xshift=-6pt] {Pescado}
-    (Xaxis) node[anchor=north east, xshift=6pt, yshift=-2pt] {Pollo}
+    (Yaxis) node[anchor=south west, xshift=-6pt] {Pollo}
+    (Xaxis) node[anchor=north east, xshift=6pt, yshift=-2pt] {Pescado}
     ;
 #+end_src
 
