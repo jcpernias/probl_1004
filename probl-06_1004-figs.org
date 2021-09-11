@@ -122,7 +122,7 @@
 ** Neutral good
 
 #+begin_src latex :tangle fig-ans-probl-06_1004-neutral.tex
-  \begin{tikzpicture}[<<ex6.1:xy-scale>>]
+  \begin{tikzpicture}[<<ex6.2:xy-scale>>]
     \draw[curve]
       (0.2, 0) -- (0.2, 0.9) node[above] {$I_1$}
       (0.4, 0) -- (0.4, 0.9) node[above] {$I_2$}
@@ -134,7 +134,7 @@
       ;
 
 
-    <<ex6.1:axes>>
+    <<ex6.2:axes>>
   \end{tikzpicture}
 #+end_src
 
@@ -142,7 +142,7 @@
 ** Bad
 
 #+begin_src latex :tangle fig-ans-probl-06_1004-bad.tex
-  \begin{tikzpicture}[<<ex6.1:xy-scale>>]
+  \begin{tikzpicture}[<<ex6.2:xy-scale>>]
 
     \draw[curve]
       (0.9, 0.9) node[above] {$I_{1}$} to[curve through={(0.7, 0.5)}]
@@ -165,7 +165,7 @@
       (0.16, 0.84) -- (0.3, 0.7)
       ;
 
-    <<ex6.1:axes>>
+    <<ex6.2:axes>>
   \end{tikzpicture}
 #+end_src
 
@@ -175,7 +175,7 @@
 
 *** Axes
 
-#+begin_src latex :noweb-ref ex6.1:axes
+#+begin_src latex :noweb-ref ex6.2:axes
   \coordinate (Xaxis) at (1.1, 0) ;
   \coordinate (Yaxis) at (0, 1.1) ;
   \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
@@ -185,9 +185,151 @@
     ;
 #+end_src
 
-#+begin_src latex :noweb-ref ex6.1:xy-scale
+#+begin_src latex :noweb-ref ex6.2:xy-scale
   yscale = 3.4, xscale = 3.4
 #+end_src
+
+
+* 6.3 Regular preferences
+
+*** Figures
+
+#+begin_src latex :tangle fig-ans-probl-06_1004-rega.tex
+  \begin{tikzpicture}[<<ex6.3:xy-scale>>]
+    <<ex6.3:coord>>
+
+    \draw[help lines]
+      (Yaxis |- A) node[left] {2}
+      -| node[dot, label={right:$A$}] {}
+      (Xaxis -| A) node[below] {6} ;
+
+    \draw[help lines]
+      (Yaxis |- B) node[left] {6}
+      -| node[dot, label={below left:$B$}] {}
+      (Xaxis -| B) node[below] {2} ;
+
+    \draw[help lines]
+      (Yaxis |- C) node[left] {7}
+      -| node[dot, label={above right:$C$}] {}
+      (Xaxis -| C) node[below] {3} ;
+
+    <<ex6.3:axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-ans-probl-06_1004-regb.tex
+  \begin{tikzpicture}[<<ex6.3:xy-scale>>]
+    <<ex6.3:coord>>
+
+    \draw[help lines]
+      (Yaxis |- A) node[left] {2}
+      -| node[dot, label={right:$A$}] {}
+      (Xaxis -| A) node[below] {6} ;
+
+    \draw[help lines]
+      (Yaxis |- B) node[left] {6}
+      -| node[dot, label={above:$B$}] {}
+      (Xaxis -| B) node[below] {2} ;
+
+    \draw[help lines]
+      (Yaxis |- D) node[left] {5}
+      -| node[dot, label={above right:$D$}] {}
+      (M) ;
+
+    \draw[help lines]
+      (Yaxis |- M) node[left] {4}
+      -| node[dot, label={below left:$M$}] {}
+      (Xaxis -| M) node[below] {4} ;
+
+    \draw[curve, semithick]
+      (B) -- (A)
+      ;
+
+    <<ex6.3:axes>>
+  \end{tikzpicture}
+#+end_src
+
+** Common
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex6.3:coord
+  \coordinate (Xaxis) at (8.5, 0) ;
+  \coordinate (Yaxis) at (0, 8.5) ;
+
+  \coordinate (A) at (6, 2) ;
+  \coordinate (B) at (2, 6) ;
+  \coordinate (C) at (3, 7) ;
+  \coordinate (D) at (4, 5) ;
+  \coordinate (M) at (4, 4) ;
+#+end_src
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex6.3:axes
+  \draw[axis, very thick] (Yaxis) |- (Xaxis) ;
+  \draw[inner xsep=0pt, outer xsep = 0pt]
+    (Yaxis) node[anchor=south west, xshift=-6pt] {Naranjas}
+    (Xaxis) node[anchor=north east, xshift=6pt, yshift=-12pt] {Manzanas}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.3:xy-scale
+  yscale = 0.35, xscale = 0.35
+#+end_src
+
+
+* 6.5 Cobb-Douglas utility function
+
+** Indifference curves
+
+#+begin_src latex :tangle fig-ans-probl-06_1004-cd.tex
+  \begin{tikzpicture}[<<ex6.5:xy-scale>>]
+
+    <<ex6.5:coord>>
+
+    \draw[curve, domain=1.666667:10]
+      plot ({\x}, {20/\x}) ;
+
+    \draw[help lines]
+      (Yaxis |- A) node[left] {10} -|
+      (Xaxis -| A) node[below] {2} ;
+
+
+    \draw[curve]
+      (A) node[dot, label={above right:$A$}] {}
+      (10, 2) node[right] {$I_A$}
+      ;
+
+    <<ex6.5:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex6.5:coord
+  \coordinate (Xaxis) at (15, 0) ;
+  \coordinate (Yaxis) at (0, 15) ;
+  \coordinate (A) at (2, 10) ;
+#+end_src
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex6.5:axes
+  \draw[axis, very thick] (Yaxis) node[above] {$Y$} |-
+    (Xaxis) node[right] {$X$}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex6.5:xy-scale
+  yscale = 0.18, xscale = 0.18
+#+end_src
+
 
 
 * 6.6 Perfect substitutes
@@ -196,9 +338,17 @@
 
 #+begin_src latex :tangle fig-ans-probl-06_1004-subst.tex
   \begin{tikzpicture}[<<ex6.6:xy-scale>>]
-    \coordinate (L) at (1, 5) ;
 
-    \coordinate (A) at (3, 2) ;
+    <<ex6.6:coord>>
+
+    \draw[help lines]
+      (Yaxis |- A) node[left] {2} -|
+      (Xaxis -| A) node[below] {3} ;
+
+    \draw[help lines]
+      (Yaxis |- L) node[left] {5} -|
+      (Xaxis -| L) node[below] {1} ;
+
 
     \draw[curve]
       (0.5, 6) -- (3.25, 0.5)
@@ -214,17 +364,24 @@
 
 ** Common
 
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex6.6:coord
+  \coordinate (Xaxis) at (5.5, 0) ;
+  \coordinate (Yaxis) at (0, 7) ;
+
+  \coordinate (L) at (1, 5) ;
+  \coordinate (A) at (3, 2) ;
+#+end_src
 
 *** Axes
 
 #+begin_src latex :noweb-ref ex6.6:axes
-  \coordinate (Xaxis) at (7, 0) ;
-  \coordinate (Yaxis) at (0, 7) ;
   \draw[axis, very thick] (Yaxis) node[above] {$Y$} |-
     (Xaxis) node[right] {$X$}
     ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex6.6:xy-scale
-  yscale = 0.55, xscale = 0.5
+  yscale = 0.5, xscale = 0.5
 #+end_src
