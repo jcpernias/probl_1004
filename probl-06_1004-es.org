@@ -14,9 +14,6 @@ están incumpliendo. Justifique sus respuestas.
 
 ** Answer
 
-Por hacer.
-
-
 - *(A)*: En el caso del bien $X$ se incumple el supuesto de no
   saturación. $X$ es un bien neutro.
 
