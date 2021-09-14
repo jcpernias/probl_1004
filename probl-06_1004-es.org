@@ -96,7 +96,9 @@ a)
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
-   Por hacer.
+   La cesta $C$ contiene más manzanas y naranjas que la cesta $B$: el
+   supuesto de no saturación implica que $C \succ B$. Dado que $B \sim A$
+   y las preferencias son transitivas, concluimos que $C \succ A$.
    #+xxx: endcol
 
 b)
@@ -108,7 +110,11 @@ b)
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
-   Por hacer.
+   Si las preferencias son (estrictamente) convexas, todas las cestas
+   situadas en el segmento $\overline{AB}$ (como $M$) serán preferidas
+   a $A$: $M \succ A$. Por otro lado, $D$ contiene más naranjas que
+   $M$ por lo que $D \succ M$. Finalmente, por la transitividad de las
+   preferencias, deducimos que $D \succ A$.
    #+xxx: endcol
 
 
