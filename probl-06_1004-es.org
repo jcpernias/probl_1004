@@ -96,9 +96,9 @@ a)
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
-   La cesta $C$ contiene más manzanas y naranjas que la cesta $B$: el
-   supuesto de no saturación implica que $C \succ B$. Dado que $B \sim A$
-   y las preferencias son transitivas, concluimos que $C \succ A$.
+   La cesta $C$ contiene más manzanas y naranjas que la cesta $B$: el supuesto
+   de no saturación implica que $C \succ B$. Dado que $B \sim A$ y las
+   preferencias son transitivas, concluimos que $C \succ A$.
    #+xxx: endcol
 
 b)
@@ -110,19 +110,19 @@ b)
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
-   Si las preferencias son (estrictamente) convexas, todas las cestas
-   situadas en el segmento $\overline{AB}$ (como $M$) serán preferidas
-   a $A$: $M \succ A$. Por otro lado, $D$ contiene más naranjas que
-   $M$ por lo que $D \succ M$. Finalmente, por la transitividad de las
-   preferencias, deducimos que $D \succ A$.
+   Si las preferencias son (estrictamente) convexas, todas las cestas situadas
+   en el segmento $\overline{AB}$ (como $M$) serán preferidas a $A$: $M \succ
+   A$. Por otro lado, $D$ contiene más naranjas que $M$ por lo que $D \succ
+   M$. Finalmente, por la transitividad de las preferencias, deducimos que $D
+   \succ A$.
    #+xxx: endcol
 
 
 * 6.4
 
-Sabiendo que las preferencias de un consumidor se pueden representar
-con la función de utilidad $U(X, Y) = X^2 Y$, complete los datos que
-faltan en la siguiente tabla:
+Sabiendo que las preferencias de un consumidor se pueden representar con la
+función de utilidad $U(X, Y) = X^2 Y$, complete los datos que faltan en la
+siguiente tabla:
 
 #+ATTR_LATEX: :booktabs t :center t :align @{}*{5}{rp{0.65cm}}r@{}
 |-----+---+-----+---+-----+---+--------+---+--------+---+--------|
@@ -166,7 +166,11 @@ c) ¿A cuántas unidades del bien $Y$ estaría dispuesto a renunciar
 
 ** Answer
 
-a)
+a) La utilidad de Carlos cuando consume $A$ es: $U(2, 10) = 2 \cdot 10 = 20$. Si
+   cambia dos unidades de $Y$ por una unidad de $X$, aumentaría su utilidad:
+   $U(3, 8) = 24$.
+
+b)
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{0pt}
@@ -175,9 +179,24 @@ a)
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
-   Por hacer.
+   Todas las cestas indiferentes a $A$ cumplen la ecuación: $20 = XY$. La curva
+   de indiferencia que pasa por $A$, $I_A$, puede expresarse como:
+   #+begin_export latex
+   \[
+     Y = \frac{20}{X}
+   \]
+   #+end_export
    #+xxx: endcol
 
+c) La relación marginal de sustitución muestra a cuántas unidades de $Y$
+   renunciaría Carlos a cambio de una unidad adicional de $X$.
+   #+begin_export latex
+   \[
+     \RMS = \frac{\UMX}{\UMY} = \frac{Y}{X}
+   \]
+   #+end_export
+   En la cesta $A$: $\RMS(2, 10) = 10 / 2 = 5$ unidades de $Y$ por unidad de
+   $X$.
 
 * 6.6
 
