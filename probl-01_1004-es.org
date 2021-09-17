@@ -74,69 +74,53 @@ d) ¿Qué consecuencias tendría sobre la FPP la reducción a la mitad de
 
 ** Answer
 
-En los gráficos y tablas que siguen, $A$ y $V$ representan alimentos,
-en miles de kilos, y vehículos, en miles, respectivamente; $L_A$ y
-$L_V$ representan el trabajo, en miles de horas, empleado en la
-producción de alimentos y de vehículos, respectivamente.
+Representamos con $A$ y $V$ las producciones de alimentos, en miles de
+kilos, y de vehículos, en miles, respectivamente; $L_A$ y $L_V$
+representan el trabajo, en miles de horas, empleado en la producción
+de alimentos y de vehículos, respectivamente. La siguiente tabla muestra las combinaciones de producción que se obtienen cuando todas las horas de trabajo se dedican a alguna de las dos actividades productivas. La última columna se utiliza en el apartado c)
 
-a) Las últimas dos columnas de la siguiente tabla representan
-   combinaciones eficientes de producción:
-   #+ATTR_LATEX: :booktabs t :center t :align @{}rR{1.25cm}p{1.25cm}*{2}{R{1.25cm}}@{}
-   |-------+-------+-+-----+-----|
-   | $L_A$ | $L_V$ | | $A$ | $V$ |
-   |-------+-------+-+-----+-----|
-   |     0 |   100 | |   0 | 275 |
-   |    10 |    90 | |  80 | 270 |
-   |    20 |    80 | | 150 | 260 |
-   |    30 |    70 | | 200 | 245 |
-   |    40 |    60 | | 240 | 225 |
-   |    50 |    50 | | 270 | 200 |
-   |    60 |    40 | | 290 | 170 |
-   |    70 |    30 | | 305 | 135 |
-   |    80 |    20 | | 315 |  95 |
-   |    90 |    10 | | 320 |  50 |
-   |   100 |     0 | | 322 |   0 |
-   |-------+-------+-+-----+-----|
+#+ATTR_LATEX: :booktabs t :center t :align @{}rR{1cm}p{0.6cm}*{2}{R{1cm}}p{0.3cm}R{1cm}@{}
+|-------+-------+-+-----+-----+-+-----|
+| $L_A$ | $L_V$ | | $A$ | $V$ | | $V'$ |
+|-------+-------+-+-----+-----+-+-----|
+|     0 |   100 | |   0 | 275 | | 330 |
+|    10 |    90 | |  80 | 270 | | 324 |
+|    20 |    80 | | 150 | 260 | | 312 |
+|    30 |    70 | | 200 | 245 | | 294 |
+|    40 |    60 | | 240 | 225 | | 270 |
+|    50 |    50 | | 270 | 200 | | 240 |
+|    60 |    40 | | 290 | 170 | | 204 |
+|    70 |    30 | | 305 | 135 | | 162 |
+|    80 |    20 | | 315 |  95 | | 114 |
+|    90 |    10 | | 320 |  50 | |  60 |
+|   100 |     0 | | 322 |   0 | |   0 |
+|-------+-------+-+-----+-----+-+-----|
 
-   Frontera de posibilidades de producción:
+a) Representamos la FPP con los valores contenidos en las columnas $A$
+   y $V$ de la tabla:
+
    #+xxx: fig fig-ans-probl-1_1004-ppf-shift-a-*.pdf
 
-b) No: es una combinación inalcanzable. Como mucho se pueden producir
-   \num{260000} vehículos cuando se producen \units[kg]{150000} de
-   alimentos.
+b) No: es una combinación inalcanzable.
 
-c) Una mejora organizativa en la producción de automóviles desplaza la
-   frontera hacia fuera. En las últimas dos columnas de la siguiente
-   tabla se muestran las combinaciones de producción eficientes
-   después de la mejora:
-   #+ATTR_LATEX: :booktabs t :center t :align @{}rR{1.25cm}p{1.25cm}*{2}{R{1.25cm}}@{}
-   |-------+-------+---+-----+-----|
-   | $L_A$ | $L_V$ |   | $A$ | $V$ |
-   |-------+-------+---+-----+-----|
-   |     0 |   100 |   |   0 | 330 |
-   |    10 |    90 |   |  80 | 324 |
-   |    20 |    80 |   | 150 | 312 |
-   |    30 |    70 |   | 200 | 294 |
-   |    40 |    60 |   | 240 | 270 |
-   |    50 |    50 |   | 270 | 240 |
-   |    60 |    40 |   | 290 | 204 |
-   |    70 |    30 |   | 305 | 162 |
-   |    80 |    20 |   | 315 | 114 |
-   |    90 |    10 |   | 320 |  60 |
-   |   100 |     0 |   | 322 |   0 |
-   |-------+-------+---+-----+-----|
+c) Una mejora organizativa hace que, usando los mismos recursos, la
+   producción de vehículos aumente un 20%: $V' = 1.2 \cdot V$. Usamos
+   las columnas $A$ y $V'$ de la tabla anterior para representar la
+   nueva FPP.
 
-   La frontera se desplaza hacia arriba. La producción máxima de
-   alimentos no cambia:
    #+xxx: fig fig-ans-probl-1_1004-ppf-shift-c-*.pdf
 
+   La frontera se desplaza hacia arriba pero la producción máxima de
+   alimentos no cambia.
+
    Ahora es factible producir \units[kg]{150000} de alimentos y
-   \num{300000} vehículos, pero sería ineficiente: produciendo la
-   misma cantidad de alimentos se podrían fabricar hasta \num{312000}
+   \num{300000} vehículos, pero sería ineficiente: produciendo esa
+   cantidad de alimentos se podrían fabricar hasta \num{312000}
    vehículos.
 
-d) Una reducción de un factor de producción desplaza la frontera hacia
-   abajo y hacia la izquierda. Cuando sólo se dispone de \num{50000} horas de trabajo:
+
+d) Calculamos las combinaciones de producción eficientes cuando sólo
+   se dispone de \num{50000} horas de trabajo:
    #+ATTR_LATEX: :booktabs t :center t :align @{}rR{1.25cm}p{1.25cm}*{2}{R{1.25cm}}@{}
    |-------+-------+---+-----+-----|
    | $L_A$ | $L_V$ |   | $A$ | $V$ |
@@ -149,8 +133,9 @@ d) Una reducción de un factor de producción desplaza la frontera hacia
    |    50 |     0 |   | 270 |   0 |
    |-------+-------+---+-----+-----|
 
-   El país ya no puede alcanzar las combinaciones de producción
-   situadas entre las dos fronteras de producción.
+   Cundo disminuyen los recursos productivos del país, la frontera se
+   desplaza hacia abajo y hacia la izquierda.
+
    #+xxx: fig fig-ans-probl-1_1004-ppf-shift-d-*.pdf
 
 
@@ -190,8 +175,15 @@ e) ¿Qué relación existe entre la forma de la FPP y el coste de
 a) Frontera de posibilidades de producción:
    #+xxx: fig fig-ans-probl-1_1004-ppf-oc1-*.pdf
 
-b) La última columna muestra el coste de oportunidad de cada cañón
-   medido en toneladas de mantequilla:
+b) La última columna de la tabla muestra el coste de oportunidad de
+   cada cañón medido en toneladas de mantequilla:
+   #+begin_export latex
+   \[
+     \text{Coste de oportunidad} = \left|
+       \frac{\Delta\;\text{Mantequilla}}{\Delta\;\text{Cañones}}
+     \right|
+   \]
+   #+end_export
    #+ATTR_LATEX: :booktabs t :center t :align @{}p{0.75cm}*{2}{r}r@{}
    |-----+---------+-------------+-------------|
    |     |         |             | Coste de    |
@@ -204,17 +196,6 @@ b) La última columna muestra el coste de oportunidad de cada cañón
    | *E* |       4 |           6 |           5 |
    | *F* |       5 |           0 |           6 |
    |-----+---------+-------------+-------------|
-
-   Los valores de la última columna se calculan como el valor
-   absoluto del cociente de las variaciones en la producción de
-   mantequilla y cañones:
-   #+begin_export latex
-   \[
-     \text{Coste de oportunidad} = \left|
-       \frac{\Delta\;\text{Mantequilla}}{\Delta\;\text{Cañones}}
-     \right|
-   \]
-   #+end_export
 
 c) El primer cañón cuesta $2$ toneladas de mantequilla; el segundo
    cuesta 3 toneladas.
@@ -263,14 +244,14 @@ b) El coste de oportunidad puede calcularse como el valor absoluto de
      \right| = 0.1
    \]
    #+end_export
-   El coste de oportunidad de una unidad adicional de $X$ es igual a $0.1$
-   unidades del bien $Y$.
+   El coste de oportunidad de una unidad adicional de $X$ es igual a
+   $0.1$ unidades del bien $Y$.
 
-c) En este caso, el coste de oportunidad de $X$ también es de $0.1$
-   unidades del bien $Y$.
+c) El coste de oportunidad es $0.1$ unidades del bien $Y$ por cada
+   unidad adicional de $X$, independientemente del valor que tome $X$.
 
-d) El coste de oportunidad es constante, por lo que la frontera es una
-   línea recta.
+d) La frontera es una línea recta, por lo que el coste de oportunidad
+   es constante.
 
 
 
@@ -287,16 +268,14 @@ menor coste de oportunidad de producir pescado.
 
 ** Answer
 
-Excluimos $C$: el coste de oportunidad no está definido para
-combinaciones de producción inaccesibles.
+Excluimos $C$ ya que el coste de oportunidad no está definido para
+combinaciones de producción inaccesibles. En combinaciones
+ineficientes, como $B$, el coste de oportunidad es $0$. En
+combinaciones eficientes, como $A$ y $B$, el coste de oportunidad es
+mayor cuanto más pronunciada es la pendiente de la FPP.
 
-En situaciones ineficientes, como $B$, el coste de oportunidad es $0$.
-Por otro lado, el coste de oportunidad del pescado es positivo en los
-puntos sobre la frontera y es mayor cuanto más pronunciada es la
-pendiente.
-
-Ordenando las opciones factibles de mayor a menor coste
-de oportunidad: $D$, $A$ y $B$.
+Ordenando las opciones factibles de mayor a menor coste de
+oportunidad: $D$, $A$ y $B$.
 
 
 

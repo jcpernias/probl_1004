@@ -34,9 +34,9 @@
 
     <<ex1.10:dots-b>>
 
-     \draw[shift arrow, thick, ->]
+     \draw[shift arrow, thick, ->, shorten >=4pt]
       (A2) -- (B2) ;
-     \draw[shift arrow, thick, ->]
+     \draw[shift arrow, thick, ->, shorten >=4pt]
       (A5) -- (B5) ;
 
     <<ex1.10:axes>>
@@ -73,25 +73,26 @@
 *** Axes and grid
 
 #+begin_src latex :noweb-ref ex1.10:xy-scale
-  yscale = 0.01, xscale = 0.01
+  yscale = 0.012, xscale = 0.012
 #+end_src
 
 #+begin_src latex :noweb-ref ex1.10:axes
   \draw[axis, very thick]
-    (0, 475) node[above left] {$V$} |-
-    (475, 0) node[below right] {$A$} ;
+    (0, 400) node[above left] {$V$} |-
+    (400, 0) node[below right] {$A$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex1.10:grid
   \draw[help lines]
-    (0, 100) node[left] {$100$} -- (415, 100)
-    (0, 200) node[left] {$200$} -- (415, 200)
-    (0, 300) node[left] {$300$} -- (415, 300)
-    (0, 400) node[left] {$400$} -- (415, 400)
-    (100, 0) node[below] {$100$} -- (100, 415)
-    (200, 0) node[below] {$200$} -- (200, 415)
-    (300, 0) node[below] {$300$} -- (300, 415)
-    (400, 0) node[below] {$400$} -- (400, 415) ;
+    (0, 100) node[left] {$100$} -- (350, 100)
+    (0, 200) node[left] {$200$} -- (350, 200)
+    (0, 300) node[left] {$300$} -- (350, 300)
+    %(0, 400) node[left] {$400$} -- (350, 400)
+    (100, 0) node[below] {$100$} -- (100, 350)
+    (200, 0) node[below] {$200$} -- (200, 350)
+    (300, 0) node[below] {$300$} -- (300, 350)
+    %(400, 0) node[below] {$400$} -- (400, 415) ;
+    ;
 #+end_src
 
 
@@ -277,11 +278,11 @@
 
   \draw[axis, very thick]
     (Yaxis) node[above right, xshift=-12pt] {\translate{Cañones}} |-
-    (Xaxis) node[below right, xshift=-12pt, yshift=-2pt] {\translate{Mantequilla}} ;
+    (Xaxis) node[below, xshift=-12pt, yshift=-14pt] {\translate{Mantequilla}} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex1.2:xy-scale
-  [yscale = 0.67, xscale = 0.2]
+  [yscale = 0.74, xscale = 0.22]
 #+end_src
 
 
