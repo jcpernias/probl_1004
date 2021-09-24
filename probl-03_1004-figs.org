@@ -6,7 +6,7 @@
 * 3.6 Apple market
 
   #+begin_src latex :tangle fig-ans-probl-3_1004-apples.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.89, yscale = 0.89]
+    \begin{tikzpicture}[xscale = 0.8, yscale = 0.8]
 
       \draw[curve, very thick, name path = D]
       (0.5, 3.5) -- (3.5, 0.5) node[right] {$D$} ;
@@ -141,7 +141,82 @@
 
 
 
-* 3.8 Market equilibrium and elasticities
+* 3.8 Hotel prices
+
+
+** Figure
+
+#+begin_src latex :tangle fig-ans-probl-3_1004-hotels.tex
+  \begin{tikzpicture}[<<ex3.8:xy-scale>>]
+
+    <<ex3.8:curve-O1>>
+
+    <<ex3.8:curve-D1>>
+    \path[name intersections={of=D1 and O1, by=E1}] ;
+    \draw[help lines]
+      let \p1 = (E1) in
+      (0, \y1) node[left] {$P_{e}$} -- (E1)
+      ;
+    \node[dot] at (E1) {} ;
+
+    <<ex3.8:curve-D2>>
+    \path[name intersections={of=D2 and O1, by=E2}] ;
+    \draw[help lines]
+      let \p1 = (E2) in
+      (0, \y1) node[left] {$P_{f}$} -- (E2)
+      ;
+    \node[dot] at (E2) {} ;
+
+
+    <<ex3.8:axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+
+*** Axes
+
+#+begin_src latex :noweb-ref ex3.8:axes
+  \draw[axis, very thick] (0, 3.5) |- (3.5, 0) ;
+  \draw[inner xsep=0pt, outer xsep = 0pt]
+    (0, 3.5) node[anchor=south west, xshift=-6pt] {Precio habitación}
+    (3.5, 0) node[anchor=north east, xshift=6pt] {Habitaciones}
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex3.8:xy-scale
+  yscale = 0.95, xscale = 1
+#+end_src
+
+
+*** Curves
+
+#+begin_src latex :noweb-ref ex3.8:curve-O1
+  \coordinate (OA1) at (1.9, 0.2) ;
+  \coordinate (OB1) at (2.7, 2.9) ;
+
+  \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
+  node[right] {$O$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex3.8:curve-D1
+  \coordinate (DA1) at (1.7, 2.9) ;
+  \coordinate (DB1) at (2.7, 0.9) ;
+  \draw[curve, very thick, name path=D1] (DA1) -- (DB1)
+  node[right] {$D_e$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex3.8:curve-D2
+  \coordinate (DA2) at (1.0, 1.4) ;
+  \coordinate (DB2) at (2.7, 0.4) ;
+  \draw[curve, very thick, name path=D2] (DA2) -- (DB2)
+  node[right] {$D_f$} ;
+#+end_src
+
+
+* 3.9 Market equilibrium and elasticities
 
 
 ** Equilibrium
@@ -177,7 +252,7 @@
 #+end_src
 
 
-* 3.10 Maximizing revenue
+* 3.11 Maximizing revenue
 
 
 ** Demand

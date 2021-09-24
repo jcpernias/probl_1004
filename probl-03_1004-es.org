@@ -64,21 +64,21 @@ a) Precio medio:
    \]
    #+end_export
    Para calular el efecto sobre la cantidad demandada usamos la
-   relación $\incrpct{Q} = E_d \times \incrpct{P}$:
+   relación $\incrpct{Q} = E_d \cdot \incrpct{P}$:
    #+begin_export latex
    \begin{gather*}
-     \text{Corto plazo:\ }\incrpct{Q} = -0.2\times 20 = -4. \\
-     \text{Largo plazo:\ }\incrpct{Q} = -0.7\times 20 = -14.
+     \text{Corto plazo:\ }\incrpct{Q} = -0.2\cdot 20 = -4. \\
+     \text{Largo plazo:\ }\incrpct{Q} = -0.7\cdot 20 = -14.
    \end{gather*}
    #+end_export
 
 b) A corto plazo, la reducción en el consumo es relativamente pequeña:
-   $-4\%$.  Pero, el consumo de gas disminuye un $14\%$ a largo
-   plazo. Esta mayor caída del consumo se explica porque los hogares
-   necesitan tiempo para adecuar su comportamiento a los nuevos
-   precios. A largo plazo pueden sustituir el gas natural por otras
-   fuentes de energía más baratas, mejorar el aislamiento térmico de
-   sus viviendas, instalar calderas más eficientes, etc.
+   $-4\%$.  Mientras que a largo plazo el consumo de gas disminuye un
+   $14\%$.  Los hogares necesitan tiempo para adecuar su
+   comportamiento a los nuevos precios. A largo plazo pueden sustituir
+   el gas natural por otras fuentes de energía más baratas, mejorar el
+   aislamiento térmico de sus viviendas, instalar calderas más
+   eficientes, etc.
 
 
 * 3.3
@@ -95,7 +95,7 @@ demanda de gasóleo de cada conductor?
 El primer conductor siempre demanda la misma cantidad. Su demanda,
 $Q^d = 15$, es perfectamente inelástica: $E_d = 0$.
 
-El otroo conductor siempre gasta lo mismo: $P Q = \money{20}$, y
+El otro conductor siempre gasta lo mismo: $P Q = \money{20}$, y
 su curva de demanda es $Q^d = 20 / P$. La elasticidad de la demanda
 del segundo conductor es unitaria:
 #+begin_export latex
@@ -121,8 +121,7 @@ $\incrpct{I} \approx \incrpct{P} + \incrpct{Q}$.  Dado que
 $\incrpct{Q} = -5$ y $\incrpct{I} = 3$, la variación porcentual del
 precio es $\incrpct{P} \approx 8$.
 
-Calculamos la elasticidad de la demanda como el cociente de las
-variaciones porcentuales de la cantidad demandada y del precio:
+La elasticidad de la demanda es:
 #+begin_export latex
 \[
   E_d = \ipctratio{Q^d}{P} \approx \frac{-5}{8} = -0.625.
@@ -168,8 +167,8 @@ c) Ingresos:
      I = P Q = P (\num{6000} - 600 P) = \num{6000} P - 600 P^2
    \]
    #+end_export
-   Derivando la expresión anterior con respecto a $P$ e igualando a
-   \num{0}, obtenemos el precio que maximiza los ingresos, $P^* =
+   Derivando con respecto a $P$ e igualando a
+   \num{0}, obtenemos el precio que maximiza los ingresos: $P^* =
    \price{5}$. A ese precio $Q^* = \num{3000}$ conductores cruzan el
    túnel diariamente y la empresa obtiene unos ingresos de $I^* =
    \money{15000}$ al día. La elasticidad de la demanda sería:
@@ -193,12 +192,19 @@ condiciones se tendrían que cumplir?
 
 ** Answer
 
-La oferta de manzanas se reduce. Se venden menos manzanas a un precio
-superior.
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-3_1004-apples-*.pdf
-
-Los ingresos de los productores solo crecerán si el equilibrio inicial
-se encuentra en un tramo inelástico de la curva de demanda.
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+La oferta de manzanas se reduce. Se venden menos manzanas a un precio
+superior. Los ingresos de los productores solo crecerán si el
+equilibrio inicial se encuentra en un tramo inelástico de la curva de
+demanda.
+#+xxx: endcol
 
 
 
@@ -265,7 +271,7 @@ demanda para explicar este comportamiento.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-2_1004-hotels-*.pdf
+#+xxx: fig fig-ans-probl-3_1004-hotels-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -276,14 +282,14 @@ semana, $D_e$, es muy diferente a la demanda de fin de semana, $D_f$.
 #+latex: \vspace*{2ex}
 
 
-- Entre semana se demandan muchas habitaciones por motivos laborales y
-  de negocios. Este tipo de viajeros tiene una elevada disposición a
-  pagar por las habitaciones.
-
 - En fin de semana la demanda de habitaciones por motivos de turismo y
-  ocio es mayoritaria. Este tipo de viajeros tiene una menor
-  disposición a pagar y, si el precio de las habitaciones es muy
-  elevado, buscará destinos alternativos más baratos.
+  ocio es mayoritaria. La demanda de este tipo de viajeros es elástica
+  y si el precio de las habitaciones es muy elevado buscará destinos
+  alternativos más baratos.
+
+- Entre semana se demandan muchas habitaciones por motivos laborales y
+  de negocios. Este tipo de viajeros tiene una demanda más inelástica
+  y una disposición a pagar por las habitaciones más elevada.
 
 
 
@@ -325,9 +331,9 @@ a)
    #+latex: \vspace{1ex}
    La curva de demanda es:
    #+begin_export latex
-   \[ X^d = 425 - 30 P_X, \]
+   \[ X^d = 425 - 30 P_X. \]
    #+end_export
-   y en equilibrio:
+   En equilibrio:
    #+begin_export latex
    \begin{gather*}
      P_X^* = \price{10},\\
@@ -384,16 +390,16 @@ que prefiera, ¿cuál sería ahora la cantidad demandada de alimentos?
 ** Answer
 
 El incremento porcentual de la renta de Ana a causa de la beca es:
-$\incrpct{M} = \num{1000} / \num{25000} \times 100 = 4$. La variación
+$\incrpct{M} = \num{1000} / \num{25000} \cdot 100 = 4$. La variación
 porcentual del consumo de alimentos es:
 #+begin_export latex
 \[
-  \incrpct{Q} = E_{d}^{M}  \incrpct{M} = 0.5 \times 4= 2.
+  \incrpct{Q} = E_{d}^{M}  \incrpct{M} = 0.5 \cdot 4= 2.
 \]
 #+end_export
 Inicialmente, Ana compra $Q_1= \num{5000} / 2 = \num{2500}$ unidades
 de alimentos durante un año. Después de recibir la beca, el consumo de
-alimentos será un 2% superior: $Q_2 = 1.02 \times \num{2500} =
+alimentos será un 2% superior: $Q_2 = 1.02 \cdot \num{2500} =
 \num{2550}$ unidades.
 
 
