@@ -39,7 +39,8 @@ b) ¿Qué ocurriría si el precio fuera \price{4}? ¿Y si fuera
 
 ** Answer
 
-a) Obtenemos la demanda de mercado sumando las cantidades demandadas por cada uno de los compradores:
+a) La demanda de mercado es la suma de las cantidades demandadas
+   por cada uno de los compradores:
    #+begin_export latex
    \[
      Q^d(P) = Q_{1}^{d}(P) + Q_{2}^{d}(P) + \dots + Q_{\num{1000}}^{d}(P)
@@ -48,17 +49,16 @@ a) Obtenemos la demanda de mercado sumando las cantidades demandadas por cada un
    Como todas las demandas individuales son iguales:
    #+begin_export latex
    \[
-     Q^d(P) = \num{1000} (5 - P) = \num{5000} - \num{1000} P
+     Q^d(P) = \num{1000} Q^{d}_{i} =
+     \num{1000} (5 - P) = \num{5000} - \num{1000} P
    \]
    #+end_export
    Razonando de forma análoga, obtenemos la curva de oferta de mercado:
    #+begin_export latex
    \[
-     Q^o(P) = 625 Q^{o}_{i} = 625 \times 2.4 P = \num{1500} P
+     Q^o(P) = 625 Q^{o}_{j} = 625 \cdot 2.4 P = \num{1500} P
    \]
    #+end_export
-   El equilibrio de mercado se produce cuando se igualan la demanda y
-   la oferta de mercado.
 
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
@@ -68,7 +68,8 @@ a) Obtenemos la demanda de mercado sumando las cantidades demandadas por cada un
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
-   Equilibrio de mercado:
+   El equilibrio de mercado se produce cuando se igualan la demanda y
+   la oferta de mercado:
    #+begin_export latex
    \begin{gather*}
      P^{*} = \price{2}, \\
