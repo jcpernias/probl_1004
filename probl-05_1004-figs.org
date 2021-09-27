@@ -426,12 +426,12 @@
 
     \draw[curve, very thick]
       (0, 250) node[left] {$250$} -- (20, 0) node[below] {$20$}
-      node[pos=0.15, above=6pt] {$\mathit{RP}_{2}$}
+      node[pos=0.20, above=9pt] {$\mathit{RP}_{2}$}
       ;
 
     \draw[curve, very thick]
       (0, 125) node[left] {$125$} -- (25, 0) node[below] {$25$}
-      node[pos=0.12, above] {$\mathit{RP}_{1}$}
+      node[pos=0.15, above = 2pt] {$\mathit{RP}_{1}$}
       ;
 
     \draw[help lines]
@@ -481,7 +481,7 @@
 ** Comparison
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-phone-comp.tex
-  \begin{tikzpicture}[<<ex5.9:xy-scale>>]
+  \begin{tikzpicture}[<<ex5.9:xy-scale-small>>]
     <<ex5.9:axes-coord>>
     <<ex5.9:simple>>
     <<ex5.9:two-part>>
@@ -490,7 +490,8 @@
       (E1) node[dot] {} -- (E1 |- Xaxis) node[below] {$750$}
       (E2) node[dot] {} -- (E2 |- Xaxis) node[below] {$\num{3250}$}
       ;
-
+    \draw[curve, very thick]
+      (T1) node[left] {\phantom{$85$}} ;
     <<ex5.9:axes>>
   \end{tikzpicture}
 #+end_src

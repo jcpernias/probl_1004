@@ -42,12 +42,10 @@ a)
    respectivamente.
    #+xxx: endcol
 
-b) Cuando Juan consume $A = 60$ y $P = 35$ su gasto total asciende a
-   $0.75 \times 60 + 3 \times 35 = \money{150}$. Juan estaría gastando
-   toda su renta y la cesta de consumo se situaría sobre la recta
-   presupuestaria. En esas condiciones el coste de oportunidad de un
-   litro de agua sería igual a su precio relativo: $0.75 / 3 =
-   \units[kg]{0.25}$ de pan.
+b) Cuando Juan consume $A = 60$ y $P = 35$, estaría gastando toda su
+   renta y su cesta de consumo se situaría sobre la recta
+   presupuestaria. El coste de oportunidad de un litro de agua sería
+   igual a su precio relativo: $0.75 / 3 = \units[kg]{0.25}$ de pan.
 
    Si Juan consume $A = 50$ y $P = 30$ no estaría gastando toda su
    renta y puede comprar un litro de agua más sin tener que reducir su
@@ -108,7 +106,7 @@ presupuestaria, en valor absoluto, es igual al precio relativo, que en
 este caso es de $4$ peras por manzana.
 
 Si David renunciara a las 20 manzanas que consume podría comprar $20
-\times 4 = 80$ peras adicionales: como máximo podría consumir
+\cdot 4 = 80$ peras adicionales: como máximo podría consumir
 180 peras. Razonando de forma análoga, si dejara de comprar 100 peras
 podría aumentar su consumo de manzanas en $100 / 4 = 25$ unidades:
 podría adquirir 45 manzanas a lo sumo.
@@ -123,7 +121,7 @@ podría adquirir 45 manzanas a lo sumo.
 #+latex: \vspace{1ex}
 Recta presupuestaria:
 #+begin_export latex
-  \[ \text{Peras} =  80  - 4\, \text{Manzanas} \]
+  \[ \text{Peras} =  180  - 4\, \text{Manzanas} \]
 #+end_export
 #+xxx: endcol
 
@@ -167,15 +165,9 @@ a)
    #+end_export
    #+xxx: endcol
 
-b) Los precios y la renta ahora son:
-   #+begin_export latex
-   \begin{gather*}
-   P'_L = 1.1 \times 0.75 = \price[l]{0.825}, \\
-   P'_G = 1.1 \times 3 = \price[kg]{3.30}, \\
-   M' = 1.1 \times 6 = \money{6.60}.
-   \end{gather*}
-   #+end_export
-   La nueva restricción presupuestaria sería:
+b) Los precios y la renta ahora son: $P'_L = \price[\l]{0.825}$, $P'_G
+   = \price[kg]{3.30}$, y $M' = \money{6.60}$.  La nueva restricción
+   presupuestaria sería:
    #+begin_export latex
      \[ 6.6 =  0.825 L + 3.3 G. \]
    #+end_export
@@ -260,12 +252,12 @@ tendrá dos tramos:
   \[ 120 = 0.06 E + 0.05 G. \]
   #+end_export
 
-- $E > \units[\kWh]{1000}$: Nikola ha pagado $0.06 \times \num{1000} =
+- $E > \units[\kWh]{1000}$: Nikola ha pagado $0.06 \cdot \num{1000} =
   \money{60}$ por los primeros \units[\kWh]{1000} de electricidad. El
   precio que pagará por cada kWh adicional será
   \price[\kWh]{0.03}. Por tanto, la recta presupuestaria es:
   #+begin_export latex
-  \[ 120 - 60 = 0.06 (E - \num{1000}) + 0.05 G. \]
+  \[ 120 - 60 = 0.03 (E - \num{1000}) + 0.05 G. \]
   #+end_export
   Operando:
   #+begin_export latex
@@ -313,7 +305,7 @@ a) Sea $A$ el consumo de arroz en kilos e $Y$ el bien compuesto. Por
    #+end_export
    Si consume más arroz pagará \money{1} por kilo, pero tenemos que
    reflejar en la restricción presupuestaria la subvención a los 5
-   primeros kilos por valor de $5 \times 0.25 =
+   primeros kilos por valor de $5 \cdot 0.25 =
    \money{1.25}$. Entonces:
    #+begin_export latex
    \[ 101.25 = A + Y \qquad (A \geq 5) \]
@@ -327,8 +319,7 @@ a) Sea $A$ el consumo de arroz en kilos e $Y$ el bien compuesto. Por
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
-   Podemos escribir la restricción presupuestaria de una forma más
-   compacta como:
+   Restricción presupuestaria:
    #+begin_export latex
    \[
      Y =
@@ -345,9 +336,10 @@ b) El consumidor no paga nada por los 5 primeros kilos de arroz y
    #+begin_export latex
    \[ 100 = Y, \qquad (A < 5). \]
    #+end_export
-   Si consume más arroz, paga \money{1} por cada kilo adicional:
+   Si consume más de 5 kilos, pagará \money{1} por cada kilo
+   adicional:
    #+begin_export latex
-   \[ 100 = 1 \times (A - 5) + Y, \qquad (A < 5). \]
+   \[ 100 = 1 \cdot (A - 5) + Y, \qquad (A < 5). \]
    #+end_export
 
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
@@ -380,9 +372,6 @@ c)
    #+xxx: col
    #+latex: \vspace{1ex}
    El consumidor tiene \money{5} más para gastar como le plazca.
-   #+begin_export latex
-   \[ 105 = A + Y.  \]
-   #+end_export
    Recta presupuestaria:
    #+begin_export latex
    \[
@@ -409,10 +398,24 @@ b) El supermercado introduce una promoción por la que los clientes que
 
 ** Answer
 
-a) Restricción presupuestaria: $20 = 4 C + 2 P$.
+a)
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-budget1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Recta presupuestaria:
+   #+begin_export latex
+   \[ 20 = 4 C + 2 P. \]
+   #+end_export
+   #+xxx: endcol
 
-b) Si compra menos de \units[kg]{4} de patatas la restricción
+
+
+b) Si compra menos de \units[kg]{4} de patatas, la restricción
    presupuestaria es:
    #+begin_export latex
    \[ 20 = 4 C + 2 P, \qquad (P < 4). \]
@@ -483,12 +486,11 @@ respectivamente:
 
 Ana puede seguir comprando la misma cesta con los nuevos precios. Por
 tanto, no ha empeorado: si lo desea puede elegir la que antes era su
-cesta óptima. Probablemente, la satisfacción de Ana aumentará ya que
-ahora puede elegir cestas que antes estaban fuera de su presupuesto.
+cesta óptima.
 
 Por otro lado, Eugenio no puede comprar su cesta óptima inicial a los
-nuevos precios y no es posible determinar si ha empeorado o ha
-mejorado si no tenemos más información sobre sus preferencias.
+nuevos precios y, si no tenemos más información sobre sus
+preferencias, no es posible determinar si ha empeorado o ha mejorado.
 
 
 
@@ -511,11 +513,24 @@ c) Represente las dos tarifas en el mismo gráfico y determine cuándo
 
 ** Answer
 
-a) Representado los minutos de llamadas telefónicas por $T$ y el bien
-   compuesto por $Y$, se puede escribir la recta presupuestaria como:
-   $100 = 0.02 T + Y$.
+a) Representamos los minutos de llamadas telefónicas con $T$ y el bien
+   compuesto con $Y$.
 
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-phone-simple-*.pdf
+   #+ATTR_LATEX: :options [t]{0.5\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Recta presupuestaria:
+   #+begin_export latex
+   \[
+     100 = 0.02 T + Y
+   \]
+   #+end_export
+   #+xxx: endcol
 
 b) Después de pagar la cuota, Ángeles sólo dispondrá de \money{85}
    para gastar en $T$ e $Y$. Por otro lado, los primeros \num{2000}
@@ -547,10 +562,16 @@ b) Después de pagar la cuota, Ángeles sólo dispondrá de \money{85}
    #+xxx: endcol
 
 
-c) Comparando las dos tarifas, se concluye que Ángeles debería
-   contratar la tarifa del apartado [[ex5.25:itemb]] si $750 \leq T \leq
-   \num{3250}$. La otra tarifa sólo sería más conveniente si Ángeles
-   no dedica mucho tiempo a llamadas telefónicas, $T < 750$, o, por el
-   contrario, si piensa utilizar mucho el teléfono, $T > \num{3250}$.
-
+c)
+   #+ATTR_LATEX: :options [t]{0.42\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-5_1004-phone-comp-*.pdf
+   #+ATTR_LATEX: :options [t]{0.58\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Ángeles debería contratar la tarifa del apartado [[ex5.25:itemb]] sólo
+   si su consumo telefónico se encuentra en el intervalo: $750 \leq T
+   \leq \num{3250}$.
+   #+xxx: endcol
