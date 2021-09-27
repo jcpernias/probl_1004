@@ -2,7 +2,7 @@
 
 #+TITLE: Exercises 7
 
-* 5.13 Choice
+* 7.2 Choice
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-choice.tex :noweb no
   \begin{tikzpicture}[xscale = 1.70, yscale = 1.6]
@@ -25,7 +25,7 @@
 #+end_src
 
 
-* 5.17 Corner solution
+* 7.6 Corner solution
 
 #+begin_src latex :tangle fig-ans-probl-5_1004-corner3.tex :noweb no
   \begin{tikzpicture}[xscale = 0.85, yscale = 2.25]
@@ -53,7 +53,7 @@
 #+end_src
 
 
-* 5.18 Walnuts
+* 7.7 Walnuts
 
 
 ** Initial situation
@@ -141,7 +141,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex5.8:xy-scale
-  yscale = 0.08, xscale = 0.165
+  yscale = 0.09, xscale = 0.162
 #+end_src
 
 
