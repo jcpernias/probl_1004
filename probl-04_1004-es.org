@@ -22,29 +22,67 @@ d) Se establece un precio máximo de \price{4.00}.
 
 ** Answer
 
-a) El precio de equilibrio es superior al precio mínimo y el mercado
+a)
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-4_1004-price-controls-a-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El precio de equilibrio es superior al precio mínimo y el mercado
    se halla en equilibrio. Se venden 350 unidades a un precio unitario
    de \price{2.50}.
+   #+xxx: endcol
 
-   #+xxx: fig fig-ans-probl-4_1004-price-controls-a-*.pdf
-
-b) El precio de equilibrio es superior al precio máximo y hay un
+b)
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-4_1004-price-controls-b-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El precio de equilibrio es superior al precio máximo y hay un
    exceso de demanda en el mercado. Se venden 250 unidades a un precio
    unitario de \price{1.50}.
+   #+xxx: endcol
 
-   #+xxx: fig fig-ans-probl-4_1004-price-controls-b-*.pdf
 
-c) El precio de equilibrio es inferior al precio mínimo y hay un
+
+c)
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-4_1004-price-controls-c-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El precio de equilibrio es inferior al precio mínimo y hay un
    exceso de oferta en el mercado. Se venden 50 unidades a un precio
    unitario de \price{4.00}.
+   #+xxx: endcol
 
-   #+xxx: fig fig-ans-probl-4_1004-price-controls-c-*.pdf
 
-d) El precio de equilibrio es inferior al precio máximo y el mercado
+
+d)
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-4_1004-price-controls-d-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El precio de equilibrio es inferior al precio máximo y el mercado
    se halla en equilibrio. Se venden 350 unidades a un precio unitario
    de \price{2.50}.
+   #+xxx: endcol
 
-   #+xxx: fig fig-ans-probl-4_1004-price-controls-d-*.pdf
+
 
 
 
@@ -69,11 +107,19 @@ b) Describa y represente gráficamente los efectos sobre el mercado
 
 a) En equilibrio: $P_X^* = \price{1000}$ y $X^* = \units{75}$.
 
-b) El precio mínimo está por encima del de equilibrio, por lo que se
+b)
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-4_1004-min-price-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El precio mínimo está por encima del de equilibrio, por lo que se
    venden 70 unidades a \price{1200} y hay un exceso de oferta de
    10 unidades.
-
-   #+xxx: fig fig-ans-probl-4_1004-min-price-*.pdf
+   #+xxx: endcol
 
 
 * 4.3
@@ -117,19 +163,18 @@ El precio de equilibrio está por encima del precio máximo.
 La regulación implica una caída del precio de mercado:
 #+begin_export latex
 \[
-  \incrpct{P} = -6/300 \times 100 = -2.
+  \incrpct{P} = -6/300 \cdot 100 = -2.
 \]
 #+end_export
-Podemos determinar la variación de la cantidad demandada y de la
-cantidad ofrecida usando los valores de las elasticidades de la
-demanda y de la oferta, respectivamente:
+Usando los valores de las elasticidades de la
+demanda y de la oferta:
 #+begin_export latex
 \begin{gather*}
-  \incrpct{Q^{d}} = E_d \incrpct{P} = -1.5 \times (-2) = 3. \\
-  \incrpct{Q^{o}} = E_o \incrpct{P} = 2 \times (-2) = -4.
+  \incrpct{Q^{d}} = E_d \incrpct{P} = -1.5 \cdot (-2) = 3. \\
+  \incrpct{Q^{o}} = E_o \incrpct{P} = 2 \cdot (-2) = -4.
 \end{gather*}
 #+end_export
-Por lo que se produce un exceso de demanda de un 7% con respecto a la
+Se produce un exceso de demanda de un 7% con respecto a la
 cantidad inicial: la cantidad ofrecida será unas \num{6720} unidades
 menor que la cantidad demandada.
 
@@ -159,27 +204,44 @@ b) Describa como cambiarían sus respuestas en [[ex4.4:item-a]] si la
 a) La curva de demanda es:
    #+begin_export latex
    \[
-     X^d_a = 200 - 5 P_X + 3 \times 5 + 2 \times 100 = 415 - 5 P_X.
+     X^d_a = 200 - 5 P_X + 3 \cdot 5 + 2 \cdot 100 = 415 - 5 P_X.
    \]
    #+end_export
-   Igualando oferta y demanda se obtiene el equilibrio: $P^*_X =
-   \price{45}$ y $X^* = \units{190}$. Como el precio máximo es
-   superior al precio de equilibrio, nada impide que este mercado
-   alcance el equilibrio.
+
+   #+ATTR_LATEX: :options [t]{0.50\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-4_1004-eq1-*.pdf
+   #+ATTR_LATEX: :options [t]{0.50\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Equilibrio: $P^*_X = \price{45}$ y $X^* = \units{190}$. El precio
+   máximo es superior al precio de equilibrio y nada impide que este
+   mercado alcance el equilibrio.
+   #+xxx: endcol
+
 
 b) La nueva curva de demanda es:
    #+begin_export latex
    \[
-     X^d_b = 200 - 5 P_X + 3 \times 5 + 2 \times 170 = 555 - 5 P_X.
+     X^d_b = 200 - 5 P_X + 3 \cdot 5 + 2 \cdot 170 = 555 - 5 P_X.
    \]
    #+end_export
-   El nuevo precio de equilibrio sería $P_X^* = \price{65}$. Pero este
-   precio no se puede alcanzar ya que es mayor que el precio
-   máximo. El precio de mercado sería $P_X = \price{50}$, se
-   produciría un exceso de demanda y se venderían todas las unidades
-   ofrecidas: $X^o(50) = \units{200}$.
+
+   #+ATTR_LATEX: :options [t]{0.50\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-4_1004-eq2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.50\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El precio de equilibrio, $P_X^* = \price{65}$, no se puede alcanzar
+   ya que es mayor que el precio máximo. Se venderían todas las
+   unidades ofrecidas, $X^o(50) = \units{200}$, a un precio $P_X =
+   \price{50}$.
+   #+xxx: endcol
 
 
 * 4.6
@@ -192,9 +254,7 @@ cantidad vendida coincidirá con la cantidad de equilibrio."
 ** Answer
 
 La afirmación es verdadera: un precio máximo mayor que el de
-equilibrio no impide que el mercado se equilibre. En ese caso, la
-cantidad vendida la determinaría la intersección de las curvas de
-demanda y de oferta.
+equilibrio no impide que el mercado se equilibre.
 
 
 * 4.7
@@ -234,14 +294,26 @@ b) La curva de oferta después del impuesto es:
      Q^o_t = \num{40000} + 40 (P - 150) = \num{34000} + 40 P.
    \]
    #+end_export
-   En el nuevo equilibrio: $P^* = \price{1100}$ y $Q^* =
-   \units{78000}$.
-   #+xxx: fig fig-ans-probl-4_1004-tax-sellers-*.pdf
 
-   Los compradores pagan \money{1100} por unidad; \money{100} más que
-   antes del impuesto. Una vez descontado el impuesto los vendedores
-   ingresan \money{950} por unidad; \money{50} menos que en la
-   situación inicial.
+   #+ATTR_LATEX: :options [t]{0.6\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-4_1004-tax-sellers-*.pdf
+   #+ATTR_LATEX: :options [t]{0.4\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Después del impuesto:
+   #+begin_export latex
+   \begin{gather*}
+     P^* = \price{1100}, \\
+     Q^* = \units{78000}.
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
+
+   Los compradores pagan \money{100} más que antes del impuesto.  Los
+   vendedores ingresan \money{50} menos que en la situación inicial.
 
 c) Las elasticidades de la demanda y de la oferta en el equilibrio
    antes de impuestos son:
@@ -263,14 +335,28 @@ d) La curva de demanda después del impuesto es:
      Q^d_t = \num{100000} - 20 (P + 150) = \num{97000} -20 P.
    \]
    #+end_export
-   Después de la introducción del impuesto a los compradores, el
-   precio es $P^* = \price{950}$ y la cantidad es $Q^* =
-   \units{78000}$.
+
+   #+ATTR_LATEX: :options [t]{0.6\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-4_1004-tax-buyers-*.pdf
+   #+ATTR_LATEX: :options [t]{0.4\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Después del impuesto:
+   #+begin_export latex
+   \begin{gather*}
+     P^* = \price{950}, \\
+     Q^* = \units{78000}.
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
    Los resultados son idénticos a los del apartado [[ex4.7:item-b]]: los
-   vendedores ingresan \money{950} por unidad; los compradores pagan
+   vendedores ingresan \money{950} por unidad y los compradores pagan
    el precio más el impuesto: \money{1100} por unidad.
-   #+xxx: fig fig-ans-probl-4_1004-tax-buyers-*.pdf
+
 
 
 * 4.8
@@ -297,18 +383,33 @@ b) El ayuntamiento establece un programa de ayudas al alquiler por el
 
 ** Answer
 
-a) En equilibrio el alquiler mensual asciende a $P^* = \money{500}$ y
+a) El alquiler mensual de equilibrio es $P^* = \money{500}$ y
    se alquilan $Q^* = \num{10000}$ viviendas.
 
 b) Cuando se introduce la subvención la curva de demanda es:
    #+begin_export latex
    \[
-     Q^d_t = \num{25000} - 30 (P - 200) = \num{31000} - 30 P.
+     Q^d_s = \num{25000} - 30 (P - 200) = \num{31000} - 30 P.
    \]
    #+end_export
-   En el nuevo equilibrio $P^* = \money{650}$ al mes y $Q^* =
-   \num{11500}$ viviendas: los caseros reciben \money{650} y los
-   inquilinos pagan \money{450} por vivienda. El coste total de las
-   subvenciones es de $200 \times \num{11500} = \money{2300000}$.
 
+   #+ATTR_LATEX: :options [t]{0.6\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-4_1004-subsidy2-*.pdf
+   #+ATTR_LATEX: :options [t]{0.4\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Después de la subvención:
+   #+begin_export latex
+   \begin{gather*}
+     P^* = \price{650}, \\
+     Q^* = \units{11500}.
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
+
+   Los caseros reciben \money{650} y los inquilinos pagan \money{450}
+   por vivienda. El coste total de las subvenciones es de $200 \cdot
+   \num{11500} = \money{2300000}$.

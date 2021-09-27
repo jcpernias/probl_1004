@@ -38,7 +38,7 @@
     \draw[help lines]
       let \p1 = (E1) in
       (0, \y1) node[left] {$2.50$} -|
-      (\x1, 0) (\x1, -0.5) node[below] {$350$}
+      (\x1, 0) (\x1, 0) node[below] {$350$}
     ;
     \node[dot] at (E1) {} ;
 
@@ -64,7 +64,7 @@
     \draw[help lines]
       let \p1 = (E1) in
       (0, \y1) -|
-      (\x1, 0) (\x1, -0.5) node[below] {$250$}
+      (\x1, 0) (\x1, 0) node[below] {$250$}
     ;
     \node[dot] at (E1) {} ;
 
@@ -90,7 +90,7 @@
     \draw[help lines]
       let \p1 = (E1) in
       (0, \y1) -|
-      (\x1, 0) (\x1, -0.5) node[below] {$50$}
+      (\x1, 0) (\x1, 0) node[below] {$50$}
     ;
     \node[dot] at (E1) {} ;
 
@@ -116,7 +116,7 @@
     \draw[help lines]
       let \p1 = (E1) in
       (0, \y1) node[left] {$2.50$} -|
-      (\x1, 0) (\x1, -0.5) node[below] {$350$}
+      (\x1, 0) (\x1, 0) node[below] {$350$}
     ;
     \node[dot] at (E1) {} ;
 
@@ -139,7 +139,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex4.1:xy-scale-small
-  xscale = 0.67, yscale = 0.67
+  xscale = 0.38, yscale = 0.38
 #+end_src
 
 
@@ -164,27 +164,27 @@
 #+begin_src latex :noweb-ref ex4.1:grid
   \draw[help lines, step=0.5] (0, 0) grid (7.7, 5.7) ;
 
-  \draw[curve]
-    (1, 0) node[below] {$100$}
-    (2, 0) node[below] {$200$}
-    (3, 0) node[below] {$300$}
-    (4, 0) node[below] {$400$}
-    (5, 0) node[below] {$500$}
-    (6, 0) node[below] {$600$}
-    (7, 0) node[below] {$700$}
-    (0, 1) node[left] {$1.00$}
-    (0, 2) node[left] {$2.00$}
-    (0, 3) node[left] {$3.00$}
-    (0, 4) node[left] {$4.00$}
-    (0, 5) node[left] {$5.00$}
-    ;
+  % \draw[curve]
+  %   (1, 0) node[below] {$100$}
+  %   (2, 0) node[below] {$200$}
+  %   (3, 0) node[below] {$300$}
+  %   (4, 0) node[below] {$400$}
+  %   (5, 0) node[below] {$500$}
+  %   (6, 0) node[below] {$600$}
+  %   (7, 0) node[below] {$700$}
+  %   (0, 1) node[left] {$1.00$}
+  %   (0, 2) node[left] {$2.00$}
+  %   (0, 3) node[left] {$3.00$}
+  %   (0, 4) node[left] {$4.00$}
+  %   (0, 5) node[left] {$5.00$}
+  %   ;
 #+end_src
 
 
 * 4.2 Minimum price
 
 #+begin_src latex :tangle fig-ans-probl-4_1004-min-price.tex :noweb no
-  \begin{tikzpicture}[xscale=5, yscale=4]
+  \begin{tikzpicture}[xscale=2.75, yscale=2.75]
 
     \coordinate (DA1) at (0.16666667, 0.9) ;
     \coordinate (DB1) at (0.83333333, 0.1) ;
@@ -229,8 +229,8 @@
 
     \draw[help lines]  (0, 0.7) node[left] {$\num{1200}$} ;
 
-    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1) node[left] {$P_X$};
-    \draw[axis, very thick, ->, TwoMarks=0.08] (0,0) -- (1, 0) node[below] {$X$} ;
+    \draw[axis, very thick, ->, TwoMarks=0.06] (0,0) -- (0, 1) node[left] {$P_X$};
+    \draw[axis, very thick, ->, TwoMarks=0.09] (0,0) -- (1, 0) node[below] {$X$} ;
   \end{tikzpicture}
 #+end_src
 
@@ -238,7 +238,7 @@
 * 4.3 Sugar
 
   #+begin_src latex :tangle fig-ans-probl-4_1004-sugar.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.9, yscale = 3.5]
+    \begin{tikzpicture}[xscale = 0.85, yscale = 2.6]
 
       \draw[curve, very thick, name path = D]
       (1.39, 0.85) -- (2.5, 0.15625) node[right] {$D$} ;
@@ -271,52 +271,109 @@
 
 * 4.5 Equilibrium and price ceiling
 
-  #+begin_src latex :tangle fig-ans-probl-4_1004-eq1.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.85, yscale = 4.5]
+Las curvas de demanda y oferta de mercado del bien $X$ son:
+#+begin_export latex
+\begin{gather*}
+  X^{d} = 200 - 5 P_{X} + 3 P_{Y} + 2 M \\
+  X^{o} = 100 + 2 P_{X}
+\end{gather*}
+#+end_export
+donde $M = \money{100}$ es la renta media de los consumidores y $P_Y =
+\price{5}$ es el precio del bien $Y$. Una ley prohíbe que el precio de
+$X$ supere los $\money{50}$.
 
-      \draw[help lines]
-      (0, 0.45) node[left] {$45$} -| (1.9, 0) node[below] {$190$} ;
 
-      \draw[curve, very thick]
-      (0, 0.83) -- (4.15, 0) node[above right, pos=0.95] {$X^d_a$} ;
+** Figures
 
-      \draw[curve, very thick]
-      (1, 0) -- (2.664, 0.83) node[right] {$X^o$} ;
+Axes: Y = Px / 100; X = X / 100.
 
-      \draw[curve, very thick]
-      (0, 0.5) -- (4.65, 0.5) node[right] {$P_{X}^{\max}$} ;
+*** Item a)
 
-      \draw[axis, very thick] (0,1) node[left] {$P_{X}$} |-
-      (6.25, 0) node[below] {$X$} ;
+Demand curve: X^d = 415 - 5 Px.
 
-      \node[dot] at (1.9, 0.45) {} ;
+#+begin_src latex :tangle fig-ans-probl-4_1004-eq1.tex
+  \begin{tikzpicture}[<<ex4.5:xy-scale>>]
+    <<ex4.5:coord>>
 
-    \end{tikzpicture}
-  #+end_src
+    \draw[help lines]
+    (0, 0.45) node[left] {$45$} -| (1.9, 0) node[below] {$190$} ;
 
-  #+begin_src latex :tangle fig-ans-probl-4_1004-eq2.tex :noweb no
-    \begin{tikzpicture}[xscale = 0.85, yscale = 4.5]
+    \draw[curve, very thick]
+    (Da-1) -- (Da-2) node[above right, pos=0.975] {$X^d_a$} ;
 
-      \draw[help lines]
-      (2, 0.5) -- (2, 0) node[below] {$200$}
-      (3.05, 0.5) -- (3.05, 0) node[below] {$305$} ;
+    \draw[curve, very thick]
+    (O-1) -- (O-2) node[right] {$X^o$} ;
 
-      \draw[curve, very thick]
-      (1.4, 0.83) -- (4.65, 0.18) node[right] {$X^d_b$} ;
+    <<ex4.5:max-price>>
 
-      \draw[curve, very thick]
-      (1, 0) -- (2.664, 0.83) node[right] {$X^o$} ;
+    <<ex4.5:axes>>
 
-      \draw[curve, very thick]
-      (0, 0.5) node[left] {$50$} -- (4.65, 0.5) node[right] {$P_{X}^{\max}$} ;
+    \node[dot] at (1.9, 0.45) {} ;
 
-      \draw[axis, very thick] (0,1) node[left] {$P_{X}$} |-
-      (6.25, 0) node[below] {$X$} ;
+  \end{tikzpicture}
+#+end_src
 
-      \node[dot] at (2, 0.5) {} ;
+*** Item b)
 
-    \end{tikzpicture}
-  #+end_src
+Demand: X^d = 555 - 5 Px
+
+#+begin_src latex :tangle fig-ans-probl-4_1004-eq2.tex
+  \begin{tikzpicture}[<<ex4.5:xy-scale>>]
+    <<ex4.5:coord>>
+
+    \draw[help lines]
+    (2, 0.5) -- (2, 0) node[below] {$200$}
+    % (3.05, 0.5) -- (3.05, 0) node[below] {$305$}
+    (0, 0.5) node[left] {$50$}
+    ;
+
+    \draw[curve, very thick]
+    (Db-1) -- (Db-2) node[right] {$X^d_b$} ;
+
+    \draw[curve, very thick]
+    (O-1) -- (O-2) node[right] {$X^o$} ;
+
+    <<ex4.5:max-price>>
+
+    <<ex4.5:axes>>
+
+    \node[dot] at (2, 0.5) {} ;
+
+  \end{tikzpicture}
+#+end_src
+
+
+** Common
+
+*** Axes
+#+begin_src latex :noweb-ref ex4.5:axes
+  \draw[axis, very thick] (0, 0.9) node[left] {$P_{X}$} |-
+      (5.75, 0) node[below] {$X$} ;
+#+end_src
+
+*** Scale
+
+#+begin_src latex :noweb-ref ex4.5:xy-scale
+  xscale = 0.51, yscale = 3
+#+end_src
+
+*** Maximum price
+
+#+begin_src latex :noweb-ref ex4.5:max-price
+  \draw[curve, very thick]
+      (0, 0.5) -- (4, 0.5) node[right] {$P_{X}^{\max}$} ;
+#+end_src
+
+*** Coordinates
+
+#+begin_src latex :noweb-ref ex4.5:coord
+  \coordinate (O-1) at (1.1, 0.05) ;
+  \coordinate (O-2) at (2.5, 0.75) ;
+  \coordinate (Da-1) at (0.4, 0.75) ;
+  \coordinate (Da-2) at (3.9, 0.05) ;
+  \coordinate (Db-1) at (1.8, 0.75) ;
+  \coordinate (Db-2) at (4.2, 0.27) ;
+#+end_src
 
 
 * 4.7 Taxes
@@ -347,19 +404,22 @@
 
 
     \path[name intersections={of=D1 and O2, by=E2}] ;
-    \draw[help lines]
-    let \p1 = (E2) in
-    (0, \y1) node[left] {$\num{1100}$} -|
-    (\x1, 0) node[below] {$\num{78000}$}
-    ;
-    \node[dot] at (E2) {} ;
-
     \coordinate (E3) at ($(E2) - (0, 1.5)$) ;
-    \draw[help lines]
-    let \p1 = (E3) in
-    (0, \y1) node[left] {$950$} -- (E3)
-    ;
-    \node[dot] at (E3) {} ;
+
+    \begin{scope}[on background layer]
+      \draw[help lines]
+      let \p1 = (E2) in
+      (0, \y1) node[left] {$\num{1100}$} -|
+      (\x1, 0) node[below] {$\num{78000}$}
+      ;
+      \draw[help lines]
+      let \p1 = (E3) in
+      (0, \y1) node[left] {$950$} -- (E3)
+      ;
+    \end{scope}
+
+    \node[dot] at (E2) {} ;
+    % \node[dot] at (E3) {} ;
 
 
     <<ex4.7:axes>>
@@ -380,19 +440,21 @@
     <<ex4.7:curve-D2>>
 
     \path[name intersections={of=D2 and O1, by=E2}] ;
+    \coordinate (E3) at ($(E2) + (0, 1.5)$) ;
+    \begin{scope}[on background layer]
     \draw[help lines]
     let \p1 = (E2) in
     (0, \y1) node[left] {$950$} -- (E2)
     ;
-    \node[dot] at (E2) {} ;
 
-    \coordinate (E3) at ($(E2) + (0, 1.5)$) ;
     \draw[help lines]
     let \p1 = (E3) in
     (0, \y1) node[left] {$\num{1100}$} -|
     (\x1, 0) node[below] {$\num{78000}$}
     ;
-    \node[dot] at (E3) {} ;
+    \end{scope}
+    \node[dot] at (E2) {} ;
+    %\node[dot] at (E3) {} ;
 
 
     <<ex4.7:axes>>
@@ -405,44 +467,53 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex4.7:axes
-  \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 4.5) node[left] {$P$};
-  \draw[axis, very thick, ->, TwoMarks=0.15] (0,0) -- (5, 0) node[below] {$Q$} ;
+  \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 4.6) node[left] {$P$};
+  \draw[axis, very thick, ->, TwoMarks=0.08] (0,0) -- (3.25, 0) node[below] {$Q$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex4.7:xy-scale
-  xscale = 1.2, yscale = 1
+  xscale = 1.1, yscale = 0.65
 #+end_src
 
 
 *** Curves
 
+D1: Y = 4.0 - X
+
 #+begin_src latex :noweb-ref ex4.7:curve-D1
-  \coordinate (DA1) at (1.5, 4) ;
-  \coordinate (DB1) at (4.5, 1) ;
+  \coordinate (DA1) at (0.5, 3.5) ;
+  \coordinate (DB1) at (2.5, 1.5) ;
 
   \draw[curve, very thick, name path=D1]
     (DA1)  -- (DB1) node[right] {$Q^d$} ;
 #+end_src
 
+
+O1: Y = (X + 2) / 2
+
 #+begin_src latex :noweb-ref ex4.7:curve-O1
-  \coordinate (OA1) at (1.2, 0.85) ;
-  \coordinate (OB1) at (4.5, 2.5) ;
+  \coordinate (OA1) at (0.5, 1.25) ;
+  \coordinate (OB1) at (2.5, 2.25) ;
 
   \draw[curve, very thick, name path=O1]
     (OA1) -- (OB1) node[right] {$Q^o$} ;
 #+end_src
 
+D2: Y = 2.5 - X
+
 #+begin_src latex :noweb-ref ex4.7:curve-D2
-  \coordinate (DA2) at (1.2, 2.8) ;
-  \coordinate (DB2) at (3, 1) ;
+  \coordinate (DA2) at (0.5, 2.0) ;
+  \coordinate (DB2) at (1.4, 1.1) ;
 
   \draw[curve, very thick, name path=D2]
     (DA2) -- (DB2) node[right] {$Q^d_t$} ;
 #+end_src
 
+O2: Y = (X + 5) / 2
+
 #+begin_src latex :noweb-ref ex4.7:curve-O2
-  \coordinate (OA2) at (0.8, 2.15) ;
-  \coordinate (OB2) at (4.5, 4) ;
+  \coordinate (OA2) at (0.5, 2.75) ;
+  \coordinate (OB2) at (2.5, 3.75) ;
 
   \draw[curve, very thick, name path=O2]
     (OA2) -- (OB2) node[right] {$Q^o_t$} ;
@@ -455,11 +526,13 @@
   \path[name intersections={of=D1 and O1, by=E1}] ;
   \node[dot] at (E1) {} ;
 
-  \draw[help lines]
-    let \p1 = (E1) in
-    (0, \y1) node[left] {$\num{1000}$} -|
-    (\x1, 0) node[below] {$\num{80000}$}
-    ;
+  \begin{scope}[on background layer]
+    \draw[help lines]
+      let \p1 = (E1) in
+      (0, \y1) node[left] {$\num{1000}$} -|
+      (\x1, 0) node[below] {$\num{80000}$}
+      ;
+  \end{scope}
 #+end_src
 
 
@@ -468,85 +541,59 @@
 
 ** Subsidy to buyers
 
-#+begin_src latex :tangle fig-ans-probl-4_1004-subsidy1.tex :noweb no
-  \begin{tikzpicture}[xscale=3.89, yscale=4.5454545454]
-
-    \coordinate (DA1) at (0.16666667, 0.66666667) ;
-    \coordinate (DB1) at (1, 0.3888887) ;
-
-    \coordinate (OA1) at (0.16666667, 0.08333333) ;
-    \coordinate (OB1) at (1, 0.833333333) ;
-
-    \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$D$}
-     ;
-
-    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
-    node[right] {$O$} ;
-
-    \path[name intersections={of=D1 and O1, by=E1}] ;
-    \draw[help lines]
-    let \p1 = (E1) in
-    (0, \y1) node[left] {$500$} -|
-    (\x1, 0) node[below] {$\num{10000}$}
-    ;
-    \node[dot] at (E1) {} ;
-
-    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1.1) node[left] {$P$};
-    \draw[axis, very thick, ->, TwoMarks=0.10] (0,0) -- (1.2, 0) node[below] {$Q$} ;
-  \end{tikzpicture}
-#+end_src
-
 #+begin_src latex :tangle fig-ans-probl-4_1004-subsidy2.tex :noweb no
-  \begin{tikzpicture}[xscale=5, yscale=4]
+  \begin{tikzpicture}[xscale=7.8, yscale=5.8]
 
-    \coordinate (DA1) at (0.16666667, 0.66666667) ;
-    \coordinate (DB1) at (1, 0.3888887) ;
+    \coordinate (DA1) at (0.1, 0.2933333) ;
+    \coordinate (DB1) at (0.4, 0.1933333) ;
 
-    \coordinate (DA2) at (0.16666667, 1) ;
-    \coordinate (DB2) at (1, 0.7222222) ;
+    \coordinate (DA2) at (0.1, 0.4933333) ;
+    \coordinate (DB2) at (0.4, 0.3933333) ;
 
-    \coordinate (OA1) at (0.16666667, 0.08333333) ;
-    \coordinate (OB1) at (1, 0.833333333) ;
+    \coordinate (OA1) at (0.1, 0.16) ;
+    \coordinate (OB1) at (0.4, 0.46) ;
 
-    \coordinate (OA2) at (0.66666667, 0.166666667) ;
-    \coordinate (OB2) at (1, 0.5) ;
+    \coordinate (OA2) at (0.0, -0.14) ;
+    \coordinate (OB2) at (0.5, 0.36) ;
 
-    \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$D$}
-     ;
+    \draw[curve, very thick, name path=D1] (DA1) -- (DB1) node[right] {$Q^d$} ;
 
-    \draw[curve, very thick, name path=D2] (DA2) -- (DB2) node[right] {$D'$}
-     ;
+    \draw[curve, very thick, name path=D2] (DA2) -- (DB2) node[right] {$Q^d_s$} ;
 
-    \draw[curve, very thick, name path=O1] (OA1) -- (OB1)
-    node[right] {$O$} ;
+    \draw[curve, very thick, name path=O1] (OA1) -- (OB1) node[right] {$Q^o$} ;
 
     \path[name path=O2] (OA2) -- (OB2) ;
 
     \path[name intersections={of=D1 and O1, by=E1}] ;
-    \draw[help lines]
-      let \p1 = (E1) in
-      (0, \y1) node[left] {$500$} -|
-      (\x1, 0) node[below] {$\num{10000}$}
-    ;
-    \node[dot] at (E1) {} ;
-
     \path[name intersections={of=D2 and O1, by=E2}] ;
-    \draw[help lines]
-    let \p1 = (E2) in
-    (0, \y1) node[left] {$650$} -|
-    (\x1, 0) node[below] {$\num{11500}$}
-    ;
-    \node[dot] at (E2) {} ;
-
     \path[name intersections={of=D1 and O2, by=E3}] ;
-    \draw[help lines]
-    let \p1 = (E3) in
-    (0, \y1) node[left] {$450$} -- (E3)
-    ;
-    \node[dot] at (E3) {} ;
+
+    \begin{scope}[on background layer]
+       \draw[help lines]
+         let \p1 = (E1) in
+         (0, \y1) node[left] {$500$} -|
+         (\x1, 0) node[below] {$\num{10000}$}
+       ;
+
+       \draw[help lines]
+       let \p1 = (E2) in
+       (0, \y1) node[left] {$650$} -|
+       (\x1, 0) node[below] {$\num{11500}$}
+       ;
+
+       \draw[help lines]
+       let \p1 = (E3) in
+       (0, \y1) node[left] {$450$} -- (E3)
+       ;
+    \end{scope}
 
 
-    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 1.1) node[left] {$P$};
-    \draw[axis, very thick, ->, TwoMarks=0.10] (0,0) -- (1.2, 0) node[below] {$Q$} ;
+    \node[dot] at (E1) {} ;
+    \node[dot] at (E2) {} ;
+    %\node[dot] at (E3) {} ;
+
+
+    \draw[axis, very thick, ->, TwoMarks=0.05] (0,0) -- (0, 0.64) node[left] {$P$};
+    \draw[axis, very thick, ->, TwoMarks=0.08] (0,0) -- (0.52, 0) node[below] {$Q$} ;
   \end{tikzpicture}
 #+end_src
