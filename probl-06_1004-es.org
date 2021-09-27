@@ -61,15 +61,10 @@ Alejandro
 #+latex: \vspace*{2ex}
 
 Para Amaia el pollo es un bien neutral: su utilidad permanece
-constante si consume más pollo y no cambia su consumo de pescado. Sólo
-accedería a curvas de indiferencia superiores si se incrementa su
-consumo de pescado.
+constante si consume más pollo y no cambia su consumo de pescado.
 
 Para Alejandro el pescado es un mal: su utilidad disminuye si crece su
-consumo de pescado y no varía su consumo de pollo. Para mantenerse en
-el mismo nivel de utilidad, un incremento de su consumo de pescado
-debería compensarse con un incremento de su consumo de pollo.
-
+consumo de pescado y no varía su consumo de pollo.
 
 * 6.3
 
@@ -179,7 +174,7 @@ b)
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
-   Todas las cestas indiferentes a $A$ cumplen la ecuación: $20 = XY$. La curva
+   Todas las cestas indiferentes a $A$ cumplen: $20 = XY$. La curva
    de indiferencia que pasa por $A$, $I_A$, puede expresarse como:
    #+begin_export latex
    \[
@@ -188,15 +183,16 @@ b)
    #+end_export
    #+xxx: endcol
 
-c) La relación marginal de sustitución muestra a cuántas unidades de $Y$
-   renunciaría Carlos a cambio de una unidad adicional de $X$.
+c) La relación marginal de sustitución
    #+begin_export latex
    \[
      \RMS = \frac{\UMX}{\UMY} = \frac{Y}{X}
    \]
    #+end_export
-   En la cesta $A$: $\RMS(2, 10) = 10 / 2 = 5$ unidades de $Y$ por unidad de
-   $X$.
+   muestra a cuántas unidades de $Y$ renunciaría Carlos a cambio de
+   una unidad adicional de $X$.  En la cesta $A$: $\RMS(2, 10) = 10 /
+   2 = 5$ unidades de $Y$ por unidad de $X$.
+
 
 * 6.6
 
@@ -220,7 +216,7 @@ a) En el caso de Luna: $U_L = 6 \cdot 1 + 3 \cdot 5 = 21$. La utilidad
 b) Las utilidades marginales de las dos hermanas no dependen de las unidades que se consumen de $X$ o de $Y$. La relación marginal de sustitución es la misma para Luna y para Aurora:
    #+begin_export latex
    \[
-     \RMS = \frac{\UMX}{\UMY} = \frac{6}{3} = 2
+     \RMS = \frac{\UMX}{\UMY} = \frac{6}{3} = 2.
    \]
    #+end_export
    Ambas estarían dispuestas a cambiar hasta 2 unidades de $Y$ por 1
@@ -268,12 +264,12 @@ c)
 
 a) Si no comprara el lote de fotos, la utilidad de Carmen sería:
    #+begin_export latex
-   \[ U(50, 150) = 60 \times 150^2 = \num{1350000}.\]
+   \[ U(50, 150) = 60 \cdot 150^2 = \num{1350000}.\]
    #+end_export
    En cambio, si lo comprara, tendría 60 fotos y le quedarían
    \money{125} para gastar en otras cosas. Su utilidad sería:
    #+begin_export latex
-   \[ U(60, 125) = 70 \times 125^2 = \num{1093750}.\]
+   \[ U(60, 125) = 70 \cdot 125^2 = \num{1093750}.\]
    #+end_export
    Carmen no compraría el lote de fotos ya que disfruta de un mayor
    nivel de utilidad en ese caso.
