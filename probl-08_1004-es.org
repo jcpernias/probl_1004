@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 6.1
+* 8.1
 
 La función de utilidad de un consumidor es $U = X^2 Y$, su renta es $M
 = \money{100}$ y los precios del bienes son $P_X = \price{10}$ y $P_Y
@@ -12,47 +12,49 @@ de bien es?
 
 ** Answer
 
-Ambas curvas se obtienen a partir de las condiciones de maximización
-de la utilidad:
+Condiciones de maximización de la utilidad:
 
 - Recta presupuestaria: $M = 10 X + 10 Y$.
 
 - Condición de tangencia: $Y =  X / 2$.
-
-/Curva renta consumo/. Coincide con la condición de tangencia:
-#+begin_export latex
-\[
-   Y =  X / 2.
-\]
-#+end_export
-
-/Curva de Engel/. Se obtiene sustituyendo la condición de tangencia en la recta presupuestaria y operando:
-#+begin_export latex
-\[
-   X =  M / 15.
-\]
-#+end_export
 
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-6_1004-ic-curve-*.pdf
-#+begin_center
-Curva renta consumo
-#+end_center
+#+begin_export latex
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \emph{Curva renta consumo}. Coincide con la condición de
+    tangencia:
+    \[
+      Y =  X / 2.
+    \]
+  \end{minipage}
+\end{center}
+#+end_export
+
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-6_1004-engel-curve-*.pdf
-#+begin_center
-Curva de Engel
-#+end_center
+#+begin_export latex
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \emph{Curva de Engel}. Sustituyendo la condición de tangencia en la
+    recta presupuestaria y operando:
+    \[
+      X =  M / 15.
+    \]
+  \end{minipage}
+\end{center}
+#+end_export
 #+xxx: endcol
 #+latex: \vspace*{2ex}
 
-Elasticidad renta:
+Se puede calcular la elasticidad renta a partir de la curva de Engel:
 #+begin_export latex
 \[
   E_d^M =
@@ -64,7 +66,7 @@ La elasticidad renta es positiva: $X$ es un bien normal.
 
 
 
-* 6.2
+* 8.2
 
 El siguiente gráfico muestra la curva renta consumo de un consumidor
 cuando el precio del bien $X$ es $P_X = \price{10}$ y el precio del
@@ -80,7 +82,7 @@ de bienes son $X$ e $Y$?
 
 #+xxx: fig fig-ans-probl-6_1004-crc20-*.pdf
 
-Podemos resumir la información del gráfico en la siguiente tabla:
+Resumimos la información del gráfico en la siguiente tabla:
 #+ATTR_LATEX: :booktabs t :center t :align c*{3}{R{1.25cm}}
 |------------+------+------+-------|
 |            | $X$  | $Y$  | $M$   |
@@ -93,39 +95,40 @@ Podemos resumir la información del gráfico en la siguiente tabla:
 | \textbf{F} | $16$ | $12$ | $400$ |
 | \textbf{G} | $12$ | $18$ | $480$ |
 |------------+------+------+-------|
-Las curvas de Engel relacionan el consumo de un bien y la renta. La
-pendiente de la curva de Engel es positiva cuando el bien es normal
-y es negativa cuando el bien es inferior.
 
-#+ATTR_LATEX: :options [t]{0.52\linewidth}
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-6_1004-engel-x-*.pdf
-#+ATTR_LATEX: :options [t]{0.48\linewidth}
-#+xxx: col
-#+latex: \vspace{1ex}
-Curva de Engel del bien $X$. El bien $X$ es normal cuando la renta es
-inferir a \money{320}, y es un bien inferior cuando la renta es mayor
-que \money{320}.
-#+xxx: endcol
-#+latex: \vspace{1ex}
+#+begin_export latex
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    Curva de Engel del bien $X$: es un bien normal cuando la renta
+    es inferir a \money{320}, y es inferior cuando la renta es
+    mayor que \money{320}.
+  \end{minipage}
+\end{center}
+#+end_export
 
-#+ATTR_LATEX: :options [t]{0.52\linewidth}
+#+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-6_1004-engel-y-*.pdf
-#+ATTR_LATEX: :options [t]{0.48\linewidth}
-#+xxx: col
-#+latex: \vspace{1ex}
-Curva de Engel del bien $Y$. El bien $Y$ es normal para todos los
-valores de la renta.
+#+begin_export latex
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    Curva de Engel del bien $Y$: es un bien normal para todos los
+    valores de la renta.
+  \end{minipage}
+\end{center}
+#+end_export
 #+xxx: endcol
 
 
 
-* 6.3.
+* 8.3.
 
 Un consumidor compra solo dos bienes cuyos precios son $P_X =
 \price{1}$ y $P_Y = \price{1}$. La figura siguiente muestra su
@@ -143,27 +146,21 @@ b) ¿Alguno de los bienes es inferior? ¿Para qué valores de la
 ** Answer
 
 a) La elección óptima es la intersección de \CRC y la recta
-   presupuestaria correspondiente a $M = \money{70}$. Para trazar esta
-   última, se unen los puntos de corte de la recta presupuestaria con
-   los ejes: $M / P_X = 70$ en el eje $X$ y $M / P_Y = 70$ en el eje
-   $Y$. Como puede verse en el siguiente gráfico, la cesta óptima está
-   compuesta por $40$ unidades de $X$ y $30$ unidades de $Y$.
+   presupuestaria correspondiente a $M = \money{70}$. La cesta óptima
+   está compuesta por $40$ unidades de $X$ y $30$ unidades de $Y$.
 
    #+xxx: fig fig-ans-probl-6_1004-crc2-*.pdf
 
-b) Conforme aumenta la renta y la recta presupuestaria se desplaza
-   hacia la derecha y hacia arriba el consumo de $X$ siempre aumenta:
-   $X$ es un bien normal para todos los valores que tome la renta. Por
-   otro lado, el consumo del bien $Y$ aumentaría con la renta para
-   valores relativamente bajos de $M$, pero se movería en dirección
-   opuesta a la renta para valores de $M$ más altos. En concreto, el
-   bien $Y$ es normal para $M \leq \money{120}$ y es un bien inferior
-   para $M > \money{120}$.
+b) Conforme aumenta la renta, el consumo de $X$ siempre aumenta: $X$
+   es un bien normal. Por otro lado, el consumo del bien $Y$ no
+   siempre aumenta con la renta. En concreto, el bien $Y$ es normal
+   para $M \leq \money{120}$ y es un bien inferior para $M >
+   \money{120}$.
 
    #+xxx: fig fig-ans-probl-6_1004-crc3-*.pdf
 
 
-* 6.4.
+* 8.4.
 
 Considere un consumidor que sólo compra dos bienes. ¿Pueden ser los
 dos bienes inferiores simultáneamente?
@@ -180,20 +177,20 @@ No: al menos uno de los bienes tiene que ser normal.
 #+ATTR_LATEX: :options [t]{0.55\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
-Supongamos que el consumidor elige inicialmente la cesta $A$. Si
+La elección inicial es la cesta $A$. Si
 aumenta la renta, la recta presupuestaria se desplazaría hacia la
 derecha y hacia arriba y, si los dos bienes fueran inferiores,
 elegiría una cesta como la $B$, que contiene menos unidades de $X$ e
 $Y$.
 #+xxx: endcol
-Sin embargo, el consumidor podía haber comprado las dos cestas con la
-renta inicial y eligió la cesta $A$. Es decir, la elección inicial del
-consumidor revela que éste prefiere $A$ a $B$. Si aumenta la renta aún
-puede comprar las dos cestas y, como $A \succ B$, no elegiría $B$. Por
-tanto, los dos bienes no pueden ser inferiores.
+Sin embargo, el consumidor podía haber comprado tanto $A$ como $B$ y
+eligió la cesta $A$. La elección inicial del consumidor revela que
+éste prefiere $A$ a $B$. Si aumenta la renta aún puede comprar las dos
+cestas y, como $A \succ B$, no elegiría $B$. Por tanto, los dos bienes
+no pueden ser inferiores.
 
 
-* 6.5.
+* 8.5.
 
 Las preferencias de un consumidor pueden representarse por la
 función de utilidad:
@@ -214,8 +211,7 @@ b) Obtenga y represente la curva de demanda del bien $X$. Calcule la elasticidad
 
 ** Answer
 
-Para obtener ambas curvas se parte de las condiciones de maximización
-de la utilidad:
+Condiciones de maximización de la utilidad:
 
 - Recta presupuestaria: $240 = P_X X + 8 Y$.
 
@@ -272,7 +268,7 @@ b)
 
 
 
-* 6.6
+* 8.6
 
 El siguiente gráfico muestra la curva precio consumo de un consumidor
 cuando el precio del bien $Y$ es $P_Y = \price{2}$ y la renta es $M
@@ -306,9 +302,9 @@ a) La cesta óptima se encuentra en la intersección de la recta
    #+latex: \vspace{1ex}
    Cesta óptima:
    #+begin_export latex
-   \begin{gather*}
-     X = 35, \\ Y = 25.
-   \end{gather*}
+   \[
+     X = 35, Y = 25.
+   \]
    #+end_export
    #+xxx: endcol
 
@@ -336,24 +332,31 @@ b) Es posible construir una tabla que relacione $P_X$ y $X$ buscando
    |------------+-------+------|
    #+xxx: endcol
 
-   Curva de demanda del bien $X$:
+   #+ATTR_LATEX: :options [t]{0.60\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-6_1004-demand-x-*.pdf
-
-c) Las elecciones de consumo óptimas para precios del bien $X$
-   superiores a $\price{4}$ se encuentran en el tramo decreciente de
-   la curva precio consumo. En este tramo, ante variaciones en el
-   precio de $X$ se producen cambios en el consumo de los dos bienes
-   en direcciones opuestas. Por tanto, $X$ e $Y$ son sustitutivos
-   cuando $P_X \geq 4$.
-
-   El tramo creciente de la \CPC contendría las cestas óptimas cuando
-   $P_X < 4$. Los consumos de los dos bienes variarían en la misma
-   dirección en respuesta a alteraciones del precio de $X$. Luego,
-   cuando $P_X < 4$ los bienes $X$ e $Y$ son complementarios.
+   #+ATTR_LATEX: :options [t]{0.40\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Curva de demanda del bien $X$.
+   #+xxx: endcol
 
 
+c) En el tramo decreciente de la curva precio consumo, variaciones en
+   el precio de $X$ se producen cambios en el consumo de los dos
+   bienes en direcciones opuestas. Por tanto, $X$ e $Y$ son
+   sustitutivos cuando $P_X \geq 4$.
 
-* 6.7
+   En el tramo creciente de la \CPC,los consumos de los dos bienes
+   variarían en la misma dirección en respuesta a alteraciones del
+   precio de $X$. Luego, cuando $P_X < 4$ los bienes $X$ e $Y$ son
+   complementarios.
+
+
+
+* 8.7
 
 La cesta óptima de un consumidor con preferencias regulares contiene
 cantidades positivas de todos los bienes. Si aumenta el precio de un
@@ -373,10 +376,10 @@ bien. Justifique su respuesta.
 #+xxx: col
 #+latex: \vspace{1ex}
 Al subir el precio de $X$, el consumidor no puede comprar la cesta
-inicial, $A$, y elige una cesta como la $B$. Antes de subir el precio,
-pudo haber comprado $B$ pero eligió comprar $A$. Esta decisión revela
-que prefiere $A$ a $B$. Por tanto, al subir el precio de $X$ el
-consumidor elige una cesta que le reporta menos utilidad.
+óptima inicial, $A$, y elige una cesta como la $B$.  Antes de subir el
+precio, pudo haber comprado $B$ pero eligió comprar $A$: $A \succ
+B$. Por tanto, al subir el precio de $X$ el consumidor elige una cesta
+que le reporta menos utilidad.
 #+xxx: endcol
 
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
@@ -394,7 +397,7 @@ menor cuanto mayor es el precio.
 
 
 
-* 6.8
+* 8.8
 
 En un mercado participan $n$ consumidores idénticos y la curva de
 demanda de cada uno de ellos es:
@@ -440,8 +443,7 @@ a) La curva de demanda de mercado se obtiene sumando las curvas de
    La derivada de la demanda de mercado, $-nb$, es $n$ veces de la
    curva de demanda individual, $-b$. La representación gráfica de la
    curva de demanda de mercado será una recta más plana que las
-   demandas individuales, ya que medimos la cantidad demandada en el
-   eje horizontal y el precio en el vertical.
+   demandas individuales.
 
    #+xxx: fig fig-ans-probl-6_1004-ind-market-*.pdf
 
@@ -463,11 +465,10 @@ b) La elasticidad de una curva de demanda individual es:
      E^d =  - n b \frac{P_X}{n X^d_i} =  - b \frac{P_X}{X^d_i} = E_i^d.
    \]
    #+end_export
-   Por tanto, coinciden las elasticidades de la demanda de mercado y
-   de las demandas individuales.
+   La elasticidad de la demanda de mercado es igual a la de las demandas individuales.
 
 
-* 6.9.
+* 8.9.
 
 Tanto Adela como Blas disponen de \money{100} para gastar en los
 bienes $X$ e $Y$.  A Adela sólo le importa cuántas unidades de $X$
@@ -545,7 +546,7 @@ el precio más bajo y la curva de demanda del bien $X$ sería:
 #+end_export
 
 
-* 6.10
+* 8.10
 
 A Rocío le gusta tomar leche con cereales. Siempre los combina en la
 misma proporción: añade exactamente \units[g]{20} de cereales por cada
@@ -580,13 +581,6 @@ Podemos escribir la recta presupuestaria de Rocío como:
   6 = 0.8 L + P_C C.
 \]
 #+end_export
-Utilizando las dos últimas ecuaciones podemos obtener la curva de
-demanda de cereales:
-#+begin_export latex
-\[
-  C(P_C) = \frac{6}{10 + P_C}.
-\]
-#+end_export
 
 #+ATTR_LATEX: :options [t]{0.45\linewidth}
 #+xxx: col
@@ -596,6 +590,12 @@ demanda de cereales:
 #+ATTR_LATEX: :options [t]{0.55\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
+Curva de demanda de cereales:
+#+begin_export latex
+\[
+  C(P_C) = \frac{6}{10 + P_C}.
+\]
+#+end_export
 Si el kilo de cereales se vendiera a \money{2}, Rocío compraría:
 #+begin_export latex
 \[
@@ -606,7 +606,7 @@ Si el kilo de cereales se vendiera a \money{2}, Rocío compraría:
 
 
 
-* 6.11.
+* 8.11.
 
 Las preferencias de un consumidor vienen dadas por la función de
 utilidad: $U(X, Y) = X^{1/4} Y^{1/8}$ y su renta es $M =
@@ -629,7 +629,7 @@ a) Restricción presupuestaria: $\num{17496} = P_X X + 36 Y$.
 
    Condición de tangencia: $2 Y / X = P_X / 36$.
 
-   Curva de demanda: $X(P_X) = 11664 / P_X$.
+   Curva de demanda: $X(P_X) =\num{11664} / P_X$.
 
 b) Elecciones óptimas para los diferentes precios
    #+ATTR_LATEX: :booktabs t :center t :align *{4}{r}
@@ -643,14 +643,24 @@ b) Elecciones óptimas para los diferentes precios
    El consumo de $X$ aumenta en $513$ unidades y el consumo de $Y$ no
    varía.
 
-c) Para determinar los consumos si sólo cambiaran los precios relativos y se mantuviera constante la utilidad, resolvemos:
-   #+begin_export latex
-   \begin{gather*}
-     216^{1/4} 162^{1/8} = X^{1/4} Y^{1/8} \\
-     2Y/X = 16/36
-   \end{gather*}
-   #+end_export
-   Por lo que $X_H = 324$ e $Y_H = 72$.
+c) Determinamos la cesta óptima si sólo cambiaran los precios
+   relativos y se mantuviera constante la utilidad:
+
+   - Curva de indiferencia inicial:
+     #+begin_export latex
+     \[
+       216^{1/4} 162^{1/8} = X^{1/4} Y^{1/8}.
+     \]
+     #+end_export
+
+   - Condición de tangencia final:
+     #+begin_export latex
+     \[
+       2Y/X = 16/36.
+     \]
+     #+end_export
+
+   Por lo que: $X_H = 324$ e $Y_H = 72$.
 
    #+ATTR_LATEX: :booktabs t :center t :align lrr
    |-----+-------------------+------------------|
@@ -666,7 +676,7 @@ c) Para determinar los consumos si sólo cambiaran los precios relativos y se ma
 
 
 
-* 6.12.
+* 8.12.
 
 Los bienes $X$ e $Y$ son complementos perfectos. Represente
 gráficamente como cambiaría la elección de consumo óptima si aumenta
@@ -676,11 +686,21 @@ $X$ en el efecto sustitución y el efecto renta.
 
 ** Answer
 
-El efecto sustitución es nulo y coinciden efecto renta y efecto total.
+#+ATTR_LATEX: :options [t]{0.55\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-6_1004-compl-*.pdf
+#+ATTR_LATEX: :options [t]{0.45\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+El efecto sustitución es nulo y coinciden efecto renta y efecto total.
+#+xxx: endcol
 
 
-* 6.13.
+
+
+* 8.13.
 
 Dulce sigue comprando la misma cantidad de sal a pesar de que su
 precio ha disminuido un 50%. ¿Quiere esto decir que el efecto
@@ -689,13 +709,12 @@ sustitución es nulo? ¿Es la sal un bien inferior para Dulce?
 
 ** Answer
 
-El efecto total es $0$, por lo que la suma del efecto sustitución y el
-efecto renta es igual a 0. Por tanto, $\ER = -\ES < 0$, el signo del
+El efecto total es $0$, por lo que $\ER = -\ES < 0$. El signo del
 efecto renta es positivo y la sal es inferior para Dulce.
 
 
 
-* 6.14.
+* 8.14.
 
 "La cantidad demandada de un bien Giffen aumenta cuando aumenta su
 precio y también aumenta cuando crece la renta de los
@@ -709,7 +728,7 @@ No: los bienes Giffen son inferiores.
 
 
 
-* 6.15.
+* 8.15.
 
 El siguiente gráfico muestra las elecciones óptimas de un
 consumidor antes y después de una disminución del precio del bien
@@ -740,7 +759,7 @@ Ante una disminución del precio de $X$:
 $X$ es inferior y su demanda tiene pendiente negativa.
 
 
-* 6.16.
+* 8.16.
 
 El alcalde de Lazy Town ha decidido introducir un nuevo impuesto
 sobre las refrescos azucarados de \money{0.50} por lata de
@@ -778,50 +797,45 @@ c) Ante las protestas de los habitantes de la ciudad, el alcalde
 
 ** Answer
 
-a) La elección inicial de Stephanie se obtiene resolviendo las
-   condiciones de óptimo:
+a) Condiciones de óptimo:
 
    - Recta presupuestaria: $470 = 0.5 R + Y$.
 
    - Condición de tangencia: $(1/9) Y/(R + 20) = 0.5$.
 
-   La elección óptima antes de la introducción del impuesto es: $R_1 =
-   76$ latas e $Y_1 = \money{432}$.
+   Elección óptima: $R_1 = 76$ latas e $Y_1 = \money{432}$.
 
-b) La introducción del impuesto modifica el precio de las latas de
-   refresco. Las nuevas condiciones de óptimo son:
+b) Condiciones de óptimo:
 
    - Recta presupuestaria: $470 = R + Y$.
 
    - Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
 
-   Cuando se introduce el impuesto, la elección óptima de Stephanie
-   es: $R_2 = 29$ latas e $Y_2 = \money{441}$. Por tanto, pagará en
-   concepto del impuesto sobre los refrescos azucarados: $R_2 t = 29
-   \times 0.5 = \money{14.5}$.
+   Cuando se introduce el impuesto, la elección óptima es: $R_2 = 29$
+   latas e $Y_2 = \money{441}$. Stephanie pagará en concepto del
+   impuesto sobre los refrescos azucarados: $R_2 t = 29 \cdot 0.5 =
+   \money{14.5}$.
 
-c) Cuando se complementa el impuesto con la donación en metálico de
-   \money{14.50}, las condiciones de óptimo serían:
+c) Condiciones de óptimo:
 
    - Recta presupuestaria: $484.5 = R + Y$.
 
    - Condición de tangencia: $(1/9) Y/(R + 20) = 1$.
 
-   Resolviendo estas dos ecuaciones se obtiene la elección óptima:
-   $R_3 = 30.45$ latas e $Y_3 = \money{454.05}$. Stephanie pagará
-   ahora en concepto de impuestos sobre los refrescos azucarados: $R_3
-   t = 30.45 \times 0.5 = \money{15.225}$.
+   Elección óptima: $R_3 = 30.45$ latas e $Y_3
+   =\money{454.05}$. Stephanie pagará ahora en concepto de impuestos
+   sobre los refrescos azucarados: $R_3 t = 30.45 \cdot 0.5 =
+   \money{15.225}$.
 
    Comparando los resultados obtenidos en los tres apartados podemos
    concluir:
 
    - La subida del precio de las latas de refrescos reduce
-     considerablemente el consumo de este producto.
+     considerablemente su consumo.
 
    - Cuando se introduce el impuesto, el consumo de bebidas azucaradas
      es muy similar se compense o no a los consumidores con una
      donación en metálico.
 
    - La donación en metálico es inferior a la recaudación del impuesto
-     por consumidor, por lo que no harían falta fuentes adicionales de
-     financiación.
+     por consumidor.

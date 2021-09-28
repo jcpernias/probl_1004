@@ -3,13 +3,13 @@
 #+TITLE: Problem Figures 3
 
 
-* 6.1 Income cosumption curve and Engel curve
+* 8.1 Income cosumption curve and Engel curve
 
 
 ** Income consumption curve
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-ic-curve.tex
-  \begin{tikzpicture}[xscale=0.048, yscale=0.05]
+  \begin{tikzpicture}[xscale=0.044, yscale=0.05]
     \draw[curve, semithick]
       (13, 17) -- (27, 3)
       (33, 27) -- (47, 13)
@@ -31,7 +31,7 @@
       ;
 
     \draw[axis, very thick]
-      (0, 70) node[left] {$Y$} |-
+      (0, 46.6667) node[left] {$Y$} |-
       (70, 0) node[below] {$X$} ;
   \end{tikzpicture}
 #+end_src
@@ -40,9 +40,9 @@
 ** Engel curve
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-engel-curve.tex
-  \begin{tikzpicture}[xscale=0.048, yscale=0.39]
+  \begin{tikzpicture}[xscale=0.044, yscale=0.39]
     \draw[curve, very thick]
-      (0, 0) -- (50, 7.5)
+      (0, 0) -- (33.3333, 5)
       ;
 
     \draw[help lines]
@@ -50,7 +50,7 @@
       (20, 0) node[below] {$20$} ;
 
     \draw[axis, very thick]
-      (0, 9) node[left] {$M$} |-
+      (0, 6) node[left] {$M$} |-
       (70, 0) node[below] {$X$}
       ;
   \end{tikzpicture}
@@ -58,7 +58,7 @@
 
 
 
-* 6.2 Income consumption curve
+* 8.2 Income consumption curve
 
 
 ** Figures
@@ -148,7 +148,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex6.2:xy-scale-engel
-  [xscale = 0.14, yscale = 0.058]
+  [xscale = 0.12, yscale = 0.058]
 #+end_src
 
 
@@ -350,7 +350,7 @@
 
 
 
-* 6.3 Income consumption curve
+* 8.3 Income consumption curve
 
 
 ** Figures
@@ -462,7 +462,7 @@
 #+end_src
 
 
-* 6.4 Inferior goods
+* 8.4 Inferior goods
 
 
 ** Figures
@@ -501,7 +501,7 @@
 #+end_src
 
 
-* 6.5 Price consumption curve
+* 8.5 Price consumption curve
 
 
 ** Figures
@@ -551,7 +551,7 @@
 
 
 
-* 6.6 Price consumption curve
+* 8.6 Price consumption curve
 
 
 ** Figures
@@ -791,7 +791,7 @@
 
 
 
-* 6.7 Price changes and utility
+* 8.7 Price changes and utility
 
 
 ** Choice
@@ -867,7 +867,7 @@
 #+end_src
 
 
-* 6.8 Individual and market demands
+* 8.8 Individual and market demands
 
 
 ** Individual and market demands
@@ -893,7 +893,7 @@
 #+end_src
 
 
-* 6.9 Neutral goods and perfect substitutes
+* 8.9 Neutral goods and perfect substitutes
 
 
 ** Choice
@@ -946,7 +946,7 @@
 ** Demand
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-demand-neutral.tex
-  \begin{tikzpicture}[xscale=0.0375, yscale=0.25]
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.28]
     \coordinate (Xaxis) at (80, 0);
     \coordinate (Yaxis) at (0, 10);
     \coordinate (E) at (50, 2);
@@ -966,7 +966,7 @@
 #+end_src
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-demand-subst.tex
-  \begin{tikzpicture}[xscale=0.0375, yscale=0.25]
+  \begin{tikzpicture}[xscale=0.0375, yscale=0.28]
     \coordinate (Xaxis) at (80, 0);
     \coordinate (Yaxis) at (0, 10);
     \coordinate (E) at (50, 2);
@@ -988,7 +988,7 @@
 #+end_src
 
 
-* 6.10 Demand for perfect complements
+* 8.10 Demand for perfect complements
 
 
 ** Demand
@@ -1013,7 +1013,7 @@
 #+end_src
 
 
-* 6.11 Income and substitution effects
+* 8.11 Income and substitution effects
 
 #+begin_src latex :tangle fig-probl-6_1004-fxs.tex :noweb no
   \begin{tikzpicture}[xscale = 0.15, yscale = 0.1,
@@ -1063,13 +1063,13 @@
 #+end_src
 
 
-* 6.8 Income and substitution effects: Perfect complements
+* 8.12 Income and substitution effects: Perfect complements
 
 #+begin_src latex :tangle fig-ans-probl-6_1004-compl.tex :noweb no
-  \begin{tikzpicture}[xscale = 1, yscale = 1]
+  \begin{tikzpicture}[xscale = 0.75, yscale = 0.75]
 
     \draw[help lines]
-      (2, 2) -- (2, 0) node[below] {$X_1 = X_H$}
+      (2, 2) -- (2, 0) node[below, xshift = 12pt] {$X_1 = X_H$}
       (0.8, 0.8) -- (0.8, 0) node[below] {$X_2$}
     ;
 
