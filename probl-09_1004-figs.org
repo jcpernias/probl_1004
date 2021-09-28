@@ -2,7 +2,7 @@
 
 #+TITLE: Problem Figures 4
 
-* 7.1: Intertemporal choice
+* 9.1: Intertemporal choice
 
 
 ** Intertemporal budget line
@@ -12,10 +12,10 @@
     <<ex1:endowment-help-lines>>
     <<ex1:budget-line>>
     \draw[curve]
-      (1, 0) node[below] {$1000$}
-      (0, 4.4) node[left] {$4400$}
-      (4, 0)  node[below] {$4000$}
-      (0, 3.3) node[left] {$3300$}
+      (1, 0) node[below]  {$\num{1000}$}
+      (0, 4.4) node[left] {$\num{4400}$}
+      (4, 0)  node[below] {$\num{4000}$}
+      (0, 3.3) node[left] {$\num{3300}$}
     ;
     <<ex1:axes>>
   \end{tikzpicture}
@@ -38,10 +38,10 @@
 
 
     \draw[curve]
-      (0, 1.1) node[left] {$1100$}
-      (3, 0)  node[below] {$3000$}
-      (1, 0) node[below] {$1000$}
-      (0, 3.3) node[left] {$3300$}
+      (0, 1.1) node[left] {$\num{1100}$}
+      (3, 0)  node[below] {$\num{3000}$}
+      (1, 0) node[below]  {$\num{1000}$}
+      (0, 3.3) node[left] {$\num{3300}$}
     ;
 
 
@@ -58,11 +58,11 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex1:xy-scale
-  [xscale=0.75,yscale=0.75]
+  [xscale=0.63,yscale=0.63]
 #+end_src
 
 #+begin_src latex :noweb-ref ex1:axes
-  \draw[axis] (5,0) node[below] {$C_1$} -| (0,5) node[left] {$C_2$};
+  \draw[axis] (5.5,0) node[below] {$C_1$} -| (0,5.5) node[left] {$C_2$};
 #+end_src
 
 
@@ -82,7 +82,7 @@
 
 
 
-* 7.2: No credit market
+* 9.2: No credit market
 
 
 ** Intertemporal budget line
@@ -109,13 +109,13 @@
 
 
 
-* 7.3: Equilibrium at different interest rates
+* 9.3: Equilibrium at different interest rates
 
 
 ** r = 10%
 
 #+begin_src latex :tangle fig-ans-probl-7_1004-ex3-r10.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.4, yscale = 0.4,
+  \begin{tikzpicture}[xscale = 0.27, yscale = 0.32,
     use Hobby shortcut,
     tangent/.style={
       in angle={(180+#1)},
@@ -127,17 +127,19 @@
     \coordinate (A) at (4, 3) ;
 
     \draw[help lines]
-    (0, 3) node[left] { $750$ } -| (4, 0) node[below] { $1000$ } ;
+    (0, 3) node[left] { $750$ } -| (4, 0)
+    node[below, xshift=-4pt] { $\num{1000}$ } ;
 
     \draw[curve, very thick]
-    (0, 7) node[left] { $1850$ } -- (7, 0) node[below] { $1681.8$ } ;
+    (0, 7) node[left] { $\num{1850}$ } -- (7, 0)
+    node[below, xshift=4pt] { $\num{1681.8}$ } ;
 
     \draw[curve, very thick]
     (1.25, 9) .. ([tangent=-45] A) .. (10, 0.5) ;
 
 
     \draw[axis, very thick]
-    (0, 10) node[left] {$C_{2}$} |- (12, 0) node[below] {$C_{1}$} ;
+    (0, 10) node[left] {$C_{2}$} |- (13, 0) node[below] {$C_{1}$} ;
 
     \node[dot, label={above right:$E_{0}$}] at (A) {};
 
@@ -148,7 +150,7 @@
 ** r = 5%
 
 #+begin_src latex :tangle fig-ans-probl-7_1004-ex3-r5.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.4, yscale = 0.4,
+  \begin{tikzpicture}[xscale = 0.27, yscale = 0.32,
     use Hobby shortcut,
     tangent/.style={
       in angle={(180+#1)},
@@ -161,15 +163,15 @@
     \coordinate (B) at (7, 1.5) ;
 
     \draw[help lines]
-    (0, 3) node[left] { $750$ } -| (4, 0) node[below] { $1000$ } ;
+    (0, 3) node[left] { $750$ } -| (4, 0) node[below] { $\num{1000}$ } ;
 
-    \draw[curve, very thick, shaded]
+    \draw[curve, very thick, nearly transparent]
     (0, 7) -- (7, 0) ;
 
     \draw[curve, very thick]
-    (0, 5) node[left] { $1800$ } -- (10, 0) node[below] { $1714.3$ } ;
+    (0, 5) node[left] { $\num{1800}$ } -- (10, 0) node[below] { $\num{1714.3}$ } ;
 
-    \draw[curve, very thick, shaded]
+    \draw[curve, very thick, nearly transparent]
     (1.25, 9) .. ([tangent=-45] A) .. (10, 0.5) ;
 
     \draw[curve, very thick]
@@ -177,7 +179,7 @@
 
 
     \draw[axis, very thick]
-    (0, 10) node[left] {$C_{2}$} |- (12, 0) node[below] {$C_{1}$} ;
+    (0, 10) node[left] {$C_{2}$} |- (13, 0) node[below] {$C_{1}$} ;
 
     \node[dot, label={below left:$E_{0}$}] at (A) {};
     \node[dot, label={above right:$E_{1}$}] at (B) {};
@@ -186,7 +188,7 @@
 #+end_src
 
 
-* 7.4: Two interest rates
+* 9.4: Two interest rates
 
 
 ** Intertemporal budget line
@@ -247,7 +249,7 @@
 ** Same interest rates: budget line
 
 #+begin_src latex :tangle fig-ans-probl-7_1004-ex4-flat-budget.tex
-  \colorlet{proffill}{Black!10!White}
+  \colorlet{proffill}{Black!5!White}
   \begin{tikzpicture}<<ex4:xy-scale>>
 
     \fill[proffill] (0, 6) -- (2.5, 3) -- (0, 4.3) -- cycle ;
@@ -272,9 +274,9 @@
   \begin{tikzpicture}<<ex4:xy-scale>>
     \begin{scope}[nearly transparent]
       <<ex4:budget-line>>
+      <<ex4:borrower-choice>>
     \end{scope}
     <<ex4:flat-budget-line>>
-    <<ex4:borrower-choice>>
 
     % U_1
     \draw[curve] (2.7, 6) .. controls (2.7, 3.8) and (3.2, 2.16) ..
@@ -297,7 +299,7 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex4:xy-scale
-  [xscale=0.6,yscale=0.6]
+  [xscale=0.5,yscale=0.5]
 #+end_src
 
 #+begin_src latex :noweb-ref ex4:axes
@@ -339,7 +341,7 @@
 
 
 
-* 7.5: Perfect complements
+* 9.5: Perfect complements
 
 
 ** Intertemporal budget line
@@ -349,10 +351,10 @@
     <<ex5:endowment-help-lines>>
     <<ex5:budget-line>>
     \draw[curve]
-      (5.9, 0) node[below] {$5154.54$}
-      (0, 5.670) node[left] {$5670$}
-      (3.5, 0)  node[below] {$4200$}
-      (0, 1.05) node[left] {$1050$}
+      (5.9, 0) node[below]  {$\num{5154.54}$}
+      (0, 5.670) node[left] {$\num{5670}$}
+      (3.5, 0)  node[below] {$\num{4200}$}
+      (0, 1.05) node[left]  {$\num{1050}$}
     ;
     <<ex5:axes>>
   \end{tikzpicture}
@@ -364,8 +366,8 @@
 #+begin_src latex :tangle fig-ans-probl-7_1004-ex5-opt.tex
   \begin{tikzpicture}<<ex5:xy-scale>>
     <<ex5:endowment-help-lines>>
-    \draw[help lines] (2.5, 0)  node[below] {$2700$} (2.7, 0) |-
-      (0, 2.7) node[left] {$2700$} ;
+    \draw[help lines] (2.5, 0)  node[below] {$\num{2700}$} (2.7, 0) |-
+      (0, 2.7) node[left] {$\num{2700}$} ;
 
     <<ex5:budget-line>>
 
@@ -374,8 +376,8 @@
 
 
     \draw[curve]
-      (4.5, 0)  node[below] {$4200$}
-      (0, 1.05) node[left] {$1050$}
+      (4.5, 0)  node[below] {$\num{4200}$}
+      (0, 1.05) node[left] {$\num{1050}$}
     ;
 
     \node[dot, label={above right:$E$}] at (2.7, 2.7) {};
@@ -391,11 +393,11 @@
 *** Axes
 
 #+begin_src latex :noweb-ref ex5:xy-scale
-  [xscale=0.5,yscale=0.5]
+  [xscale=0.4,yscale=0.4]
 #+end_src
 
 #+begin_src latex :noweb-ref ex5:axes
-  \draw[axis] (8,0) node[below] {$C_1$} -| (0,6.5) node[left] {$C_2$};
+  \draw[axis] (8,0) node[below] {$C_1$} -| (0,7) node[left] {$C_2$};
 #+end_src
 
 
@@ -414,25 +416,28 @@
 #+end_src
 
 
-* 7.6: Intertemporal budget line
+* 9.6: Intertemporal budget line
 
 #+begin_src latex :tangle fig-ans-probl-7_1004-ex6-budget.tex :noweb no
-  \begin{tikzpicture}[xscale = 0.75, yscale = 0.75]
+  \begin{tikzpicture}[xscale = 0.6, yscale = 0.6]
 
     \draw[help lines]
-    (0, 2) node[left] {$2000$} -| (2.5, 0) (2.75, 0) node[below] {$2500$}
-    (0, 3.01) node[left] {$3010$} -| (1.5, 0) (1.25, 0) node[below] {$1500$}
+    (0, 2) node[left] {$\num{2000}$} -| (2.5, 0)
+    (2.75, 0) node[below] {$\num{2500}$}
+    (0, 3.01) node[left] {$\num{3010}$} -| (1.5, 0)
+    (1.25, 0) node[below] {$\num{1500}$}
     ;
 
     \draw[curve, very thick]
-    (0, 4.525) node[left] {$4525$} -- (4.48020, 0) (4.3, 0) node[below] {$4480.2$} ;
+    (0, 4.525) node[left] {$\num{4525}$} -- (4.48020, 0)
+    (4.3, 0) node[below, xshift=2pt] {$\num{4480.2}$} ;
 
     \draw[curve, very thick, domain=0.6746908:4.5, samples=100]
     plot (\x, {3.691451/(\x^0.5033223)})
     node[right] {$U_{E}$} ;
 
-    \draw[axis, very thick] (0, 5.25) node[left] {$C_{2}$} |-
-    (5.5, 0) node[below] {$C_{1}$} ;
+    \draw[axis, very thick] (0, 5.5) node[left] {$C_{2}$} |-
+    (6, 0) node[below] {$C_{1}$} ;
 
     % \node[dot] at (2.5, 2) {} ;
     \node[dot, label={above right:$E$}] at (1.5, 3.01) {} ;

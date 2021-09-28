@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 7.1.
+* 9.1.
 
 Un consumidor vive dos periodos. Su renta en el primer periodo es
 \money{1000} y en el segundo periodo es \money{3300}. El tipo de
@@ -25,21 +25,50 @@ b) Obtenga el consumo óptimo en cada periodo. ¿Cuánto ahorrará el
 a) Restricción intertemporal:
    #+begin_export latex
    \[
-     4400 = 1.1 C_1 + C_2
+     \num{4400} = 1.1 C_1 + C_2.
    \]
    #+end_export
+
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-7_1004-ex1-budget-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
    Los puntos de corte son los consumos máximos en cada periodo.
+   #+xxx: endcol
 
-b) Condición de tangencia: $3 C_2 / C_1 = 1.1$.
 
-   Elección óptima: $C^*_1 = 3000, C^*_2 = 1100$.
+
+
+b) Condición de tangencia:
+   #+begin_export latex
+   \[
+     3 C_2 / C_1 = 1.1.
+   \]
+   #+end_export
+   La elección óptima es: $C^*_1 = \num{3000}$ y $C^*_2 = \num{1100}$.
+
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-7_1004-ex1-opt-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   El consumidor ahorra:
+   #+begin_export latex
+   \[
+     S = M_1 - C_1 = -\money{2000}.
+   \]
+   #+end_export
+   #+xxx: endcol
 
-   Ahorra $S = -\money{2000}$.
 
-
-* 7.2.
+* 9.2.
 
 "Si no existiera un mercado de crédito que permitiera al consumidor
 prestar y pedir prestado, éste no podría ahorrar en el periodo
@@ -51,13 +80,22 @@ que no tenga acceso al mercado de crédito.
 
 ** Answer
 
+#+ATTR_LATEX: :options [t]{0.55\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
+#+xxx: fig fig-ans-probl-7_1004-ex2-budget-*.pdf
+#+ATTR_LATEX: :options [t]{0.45\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
 Es incorrecta: puede ahorrar para gastar en el futuro, aunque
 no recibirá intereses. Por otro lado, no puede pedir prestado.
-#+xxx: fig fig-ans-probl-7_1004-ex2-budget-*.pdf
+#+xxx: endcol
 
 
 
-* 7.3.
+
+* 9.3.
 
 Un consumidor vive dos periodos y puede prestar y pedir prestado
 dinero a un tipo de interés del 10%. En el primer periodo obtiene
@@ -72,21 +110,48 @@ un tipo de interés del 10% o del 5%? Represente gráficamente.
 
 Restricción intertemporal: $C_2 = 1850 - 1.1 C_1$.
 
-En el óptimo: $\RMS(E_0) = 1.1$
+#+ATTR_LATEX: :options [t]{0.55\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-7_1004-ex3-r10-*.pdf
+#+ATTR_LATEX: :options [t]{0.45\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+En el óptimo se cumple:
+#+begin_export latex
+\[
+  \RMS(E_0) = 1.1.
+\]
+#+end_export
+#+xxx: endcol
+
+
 
 Con un tipo de interés del 5%, $E_0$ no puede ser óptima:
 \begin{equation*}
-  \RMS(E_0) = 1.1 > 1 + r = 1.05
+  \RMS(E_0) = 1.1 > 1 + r = 1.05,
 \end{equation*}
+por lo que aumentará el consumo presente, $C_1$, y el ahorro será
+negativo, $S < 0$.
 
+#+ATTR_LATEX: :options [t]{0.55\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-7_1004-ex3-r5-*.pdf
-Aumentará $C_1$ y $S < 0$. Cuando $r= 0.05$ tanto $E_0$ como
-$E_1$ son factibles. Al elegir $E_1$, revela que $E_1$ es
-preferida a $E_0$.
+#+ATTR_LATEX: :options [t]{0.45\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Cuando $r= 0.05$ tanto $E_0$ como $E_1$ son factibles. Si elige $E_1$
+es porque proporciona mayor utilidad al consumidor.
+#+xxx: endcol
+El consumidor prefiere la situación en la que $r = 0.05$.
 
 
-* 7.4.
+
+
+* 9.4.
 
 Las preferencias intertemporales de un consumidor vienen dadas por la
 función: $U(C_1, C_2)= C_1 C_2^{1/2}$.  Su renta en el primer periodo
@@ -118,53 +183,109 @@ a) La restricción intertemporal tiene dos tramos con pendientes
    | Presta        | $C_1 \leq 200$       | $C_2 = 430 - 1.05 C_1$ |
    |---------------+----------------------+------------------------|
 
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-7_1004-ex4-budget-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Restricción intertemporal.
+   #+xxx: endcol
+
 
 b) Calculamos la solución que se obtendría en cada caso:
 
-   - Supongamos que el consumidor presta. Se debería cumplir $C_1 \leq
-     200$.
+   - El consumidor presta: $C_1 \leq 200$.
 
-     Restricción intertemporal es: $C_2 =  430 - 1.05 C_1$.
+     Restricción intertemporal: $C_2 =  430 - 1.05 C_1$.
 
      Condición de tangencia: $2 C_2 = 1.05 C_1$.
 
-     Resolviendo esas dos condiciones obtenemos: $C_1 =
-     \money{273.02}$ y $C_2 = \money{143.33}$. No puede ser la
-     solución óptima ya que $C_1 > 200$:
+     #+ATTR_LATEX: :options [t]{0.55\linewidth}
+     #+xxx: col
+     #+latex: \vspace{0pt}
+     #+ATTR_LATEX: :center nil
      #+xxx: fig fig-ans-probl-7_1004-ex4-lender-*.pdf
+     #+ATTR_LATEX: :options [t]{0.45\linewidth}
+     #+xxx: col
+     #+latex: \vspace{1ex}
+     Resolviendo:
+     #+begin_export latex
+     \begin{gather*}
+       C_1 = \money{273.02},\\ C_2 = \money{143.33}.
+     \end{gather*}
+     #+end_export
+     #+xxx: endcol
+     No puede ser la solución óptima ya que $C_1 > 200$.
 
-
-   - Supongamos que el consumidor pide prestado: $C_1 \geq 200$.
+   - El consumidor pide prestado: $C_1 \geq 200$.
 
      Restricción intertemporal es: $C_2 = 440 - 1.1 C_1$.
 
      Condición de tangencia: $2 C_2 = 1.1 C_1$.
 
-     Resolviendo las condiciones de óptimo: $C_1 = \money{266.67}$ y $
-     C_2 = \money{146.67}$. En este caso sí se cumple nuestro supuesto
-     inicial y el consumidor pide prestado $C_1 - M_1 =
-     \money{66.67}$.
+     #+ATTR_LATEX: :options [t]{0.55\linewidth}
+     #+xxx: col
+     #+latex: \vspace{0pt}
+     #+ATTR_LATEX: :center nil
      #+xxx: fig fig-ans-probl-7_1004-ex4-borrower-*.pdf
+     #+ATTR_LATEX: :options [t]{0.45\linewidth}
+     #+xxx: col
+     #+latex: \vspace{1ex}
+     Resolviendo:
+     #+begin_export latex
+     \begin{gather*}
+       C_1 = \money{266.67}, \\ C_2 = \money{146.67}.
+     \end{gather*}
+     #+end_export
+     #+xxx: endcol
+
+     En este caso sí se cumple nuestro supuesto inicial y la solución
+     encontrada es la elección óptima. El consumidor pide prestado
+     $C_1 - M_1 = \money{66.67}$.
 
 c) Restricción intertemporal: $C_2 = 436 - 1.08 C_2$.
-   #+xxx: fig fig-ans-probl-7_1004-ex4-flat-budget-*.pdf
 
-   Elección óptima, $E_1$: $C_1 = \money{269.14}, C_2 =
-   \money{145.33}$.
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
+   #+xxx: fig fig-ans-probl-7_1004-ex4-flat-budget-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Las zonas sombreadas son opciones que antes no estaban disponibles.
+   #+xxx: endcol
+
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-7_1004-ex4-flat-choice-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Elección óptima:
+   #+begin_export latex
+   \begin{gather*}
+     C_1 = \money{269.14}, \\ C_2 = \money{145.33}.
+   \end{gather*}
+   #+end_export
+   #+xxx: endcol
 
    El consumidor disfruta de un mayor nivel de utilidad con un tipo de
    interés único del 8%:
    #+begin_export latex
    \begin{gather*}
-     U(E_0) = 266.67 \times 146.73^{1/2} = 3230.23 \\
-     U(E_1) = 269.14 \times 145.33^{1/2} = 3244.56
+     U(E_0) = 266.67 \cdot 146.73^{1/2} = \num{3230.23}, \\
+     U(E_1) = 269.14 \cdot 145.33^{1/2} = \num{3244.56}.
    \end{gather*}
    #+end_export
 
 
-* 7.5.
+* 9.5.
 
 Un consumidor tiene unas preferencias con respecto a su consumo
 presente, $C_1$, y a su consumo futuro, $C_2$, que vienen
@@ -182,16 +303,48 @@ b) Determine si el consumidor ahorra o no, así como el consumo en cada
 
 ** Answer
 
-a) Restricción intertemporal: $5670 = 1.1 C_1 + C_2$
+a)
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-7_1004-ex5-budget-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Restricción intertemporal:
+   #+begin_export latex
+   \[
+     \num{5670} = 1.1 C_1 + C_2.
+   \]
+   #+end_export
+   #+xxx: endcol
 
-b) Elección óptima: $C^*_1 = C^*_2 = \money{2700}$.
-
-   Ahorro: $S = M_1 - C_1 = \money{1500}$.
+b)
+   #+ATTR_LATEX: :options [t]{0.55\linewidth}
+   #+xxx: col
+   #+latex: \vspace{0pt}
+   #+ATTR_LATEX: :center nil
    #+xxx: fig fig-ans-probl-7_1004-ex5-opt-*.pdf
+   #+ATTR_LATEX: :options [t]{0.45\linewidth}
+   #+xxx: col
+   #+latex: \vspace{1ex}
+   Elección óptima:
+   #+begin_export latex
+   \begin{equation*}
+     C_1 = C_2 = \money{2700}.
+   \end{equation*}
+   #+end_export
+   Ahorro:
+   #+begin_export latex
+   \begin{equation*}
+     S = M_1 - C_1 = \money{1500}.
+   \end{equation*}
+   #+end_export
+   #+xxx: endcol
 
 
-* 7.6.
+* 9.6.
 
 Un consumidor vive dos periodos y puede prestar y pedir prestado a un
 mismo tipo de interés. Durante el primer periodo obtiene una renta de
@@ -206,24 +359,35 @@ intertemporal.
 
 Consumo en el primer periodo:
 #+begin_export latex
-\[ C_1 = M_1 - S_1 = 2500 - 1000 = \money{1500}.\]
+\[ C_1 = M_1 - S_1 = \num{2500} - \num{1000} = \money{1500}.\]
 #+end_export
-
-Renta en el segundo periodo: $M_2 = 0.8 M_1 = \money{2000}$.
-
+Renta en el segundo periodo:
+#+begin_export latex
+\[ M_2 = 0.8 M_1 = \money{2000}.\]
+#+end_export
 Restricción intertemporal:
 #+begin_export latex
-  \[ 2500 (1 + r) + 2000 = 1500 (1 + r) + 3010 \]
+  \[ \num{2500} (1 + r) + \num{2000} = \num{1500} (1 + r) + \num{3010}. \]
 #+end_export
-Por lo que  $r = 0.01$. Finalmente, la restricción intertemporal es:
-#+begin_export latex
-  \[ 4525 = 1.01 C_1 + C_2 \]
-#+end_export
+Por tanto: $r = 0,01$.
+
+#+ATTR_LATEX: :options [t]{0.55\linewidth}
+#+xxx: col
+#+latex: \vspace{0pt}
+#+ATTR_LATEX: :center nil
 #+xxx: fig fig-ans-probl-7_1004-ex6-budget-*.pdf
+#+ATTR_LATEX: :options [t]{0.45\linewidth}
+#+xxx: col
+#+latex: \vspace{1ex}
+Restricción intertemporal:
+#+begin_export latex
+  \[ \num{4525} = 1.01 C_1 + C_2 \]
+#+end_export
+#+xxx: endcol
 
 
 
-* 7.7.
+* 9.7.
 
 Un consumidor vive dos periodos y sus preferencias vienen
 representadas por:
@@ -250,17 +414,14 @@ a) Condición de tangencia:
    #+end_export
    Por lo que $r = 0.1$.
 
-b) Si $S = 250$, entonces $M_1 = S_1 + C_1 = \money{10000}$.
-
-   La elección óptima satisface la restricción intertemporal
+b) Si $S = 250$, entonces $M_1 = S_1 + C_1 = \money{10000}$. La
+   elección óptima satisface la restricción intertemporal:
    #+begin_export latex
    \[
-     \num{10000} \cdot 1.1 + M_2 = 9750 \cdot 1.1 + 3575
+     \num{10000} \cdot 1.1 + M_2 = 9750 \cdot 1.1 + 3575.
    \]
    #+end_export
-   Por lo que $M_2 = \money{3300}$.
-
-   Restricción intertemporal:
+   Por lo que: $M_2 = \money{3300}$. Restricción intertemporal:
    #+begin_export latex
    \[
      \num{13000} =  C_1 + 0.91 C_2
