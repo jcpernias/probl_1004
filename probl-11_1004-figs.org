@@ -3,7 +3,7 @@
 #+TITLE: Problems 6 Figures
 
 
-* 9.2: Short-run curves
+* 11.2: Short-run curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-short-curves1.tex :noweb no
     \begin{tikzpicture}[yscale=0.6, xscale=0.03]
@@ -36,19 +36,19 @@
          (35.35534, 0) node[below] {$35.36$ } ;
 
       \draw[curve, very thick]
-        (0, 0) -- (100, 40)
-        node[right] {$\CVMe$ }
+        (0, 0) -- (50, 20)
+        node[above, xshift=8pt] {$\CVMe$ }
         (0, 0) -- (50, 40)
         node[above] {$\CMg$ }
         ;
 
       \draw[curve, very thick]
         (14.64467, 40) node[above] {$\CMe$}
-        plot[domain=14.64467:85.3534, smooth, samples = 128] (\x,{500/\x+0.4*\x})
+        plot[domain=14.64467:60, smooth, samples = 128] (\x,{500/\x+0.4*\x})
         ;
 
       \draw[axis] (0, 60)  node[left] {$\CMe$} |-
-       (130, 0) node[below] {$Q$}
+       (70, 0) node[below] {$Q$}
        ;
 
       \node[dot] at (35.35534, 28.28427) {} ;
@@ -56,7 +56,7 @@
    #+end_src
 
 
-* 9.3: Product and cost curves
+* 11.3: Product and cost curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-pme-pmg.tex :noweb no
     \begin{tikzpicture}[yscale=0.152, xscale=0.16]
@@ -151,7 +151,7 @@
    #+end_src
 
 
-* 9.5: Long-run choice
+* 11.5: Long-run choice
 
   #+begin_src latex :tangle fig-probl-9_1004-choice.tex :noweb no
     \begin{tikzpicture}[yscale=0.3, xscale=0.3]
@@ -215,7 +215,7 @@
    #+end_src
 
 
-* 9.8: Long-run marginal and average cost curves
+* 11.8: Long-run marginal and average cost curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-cmg-cme-long.tex :noweb no
     \begin{tikzpicture}[yscale=0.11, xscale=0.33]
@@ -248,7 +248,7 @@
    #+end_src
 
 
-* 9.9: Short-run and long-run cost curves
+* 11.9: Short-run and long-run cost curves
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-short-long.tex :noweb no
     \begin{tikzpicture}[yscale=0.20, xscale=0.093]
@@ -275,7 +275,7 @@
    #+end_src
 
 
-* 9.10: Expansion paths
+* 11.10: Expansion paths
 
 ** Question figure
 
@@ -442,7 +442,7 @@
 #+end_src
 
 
-* 9.12: Envelope
+* 11.12: Envelope
 
   #+begin_src latex :tangle fig-ans-probl-9_1004-envelop.tex :noweb no
     \begin{tikzpicture}[yscale=0.25, xscale=0.5]
