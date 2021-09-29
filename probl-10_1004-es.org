@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "castellano" -*-
 #+SETUPFILE: ./course-es.org
 
-* 8.1.
+* 10.1.
 
 Complete la siguiente tabla que describe la producción a corto
 plazo de una empresa.
@@ -49,17 +49,13 @@ para completar la siguiente tabla:
 | $6$          | $306$      | $-14$    | $51$     |
 |--------------+------------+----------+----------|
 
-Se cumple la ley de rendimientos decrecientes del factor trabajo: el
-producto marginal del trabajo disminuye cuantos más trabajadores se
-contratan.
-
-La situación correspondiente a la última fila de la tabla, contratar 6
-trabajadores, no es técnicamente eficiente: el producto marginal es
-negativo y se podría producir más contratando a menos trabajadores.
+Se cumple la ley de rendimientos decrecientes del factor trabajo.  La
+situación correspondiente a la última fila de la tabla, contratar 6
+trabajadores, no es técnicamente eficiente: el producto marginal del sexto tyrabajador es negativo.
 
 
 
-* 8.2.
+* 10.2.
 
 Dada la función de producción $Q = L^2 K - 0.01 L^3$ y sabiendo que
 el capital es fijo, $\Kbar = 6$, determine:
@@ -132,7 +128,7 @@ c) /Maximización del \PMgL/: La derivada del producto marginal es:
 
 
 
-* 8.3
+* 10.3
 
 Con las siguientes funciones de producción:
 
@@ -220,13 +216,11 @@ b)
    #+xxx: endcol
    #+latex: \vspace*{1.5ex}
 
-   Sólo es decreciente el $\PMgL$ de la segunda función. Por tanto,
-   sólo la función de producto total $Q = 2 L^{1/2}$ cumple la ley de
-   rendimientos decrecientes del factor trabajo.
+   Sólo es decreciente el $\PMgL$ de la segunda función.
 
 
 
-* 8.4
+* 10.4
 
 Dibuje en cada uno de los siguientes gráficos donde se situaría la
 curva de producto marginal del trabajo. Justifique su respuesta.
@@ -245,10 +239,10 @@ curva de producto marginal del trabajo. Justifique su respuesta.
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
-*(A)*: Cuando el producto medio es creciente, el producto marginal
-está por encima del medio. Cuando el producto medio es decreciente, el
-producto marginal se sitúa por debajo del medio. El producto marginal
-y el medio coinciden en el máximo del producto medio.
+*(A)*: Si el producto marginal es mayor que el medio, el producto
+medio es creciente. Si el producto marginal es menor que el medio, el
+producto medio es decreciente. Coinciden en el máximo del producto
+medio.
 #+xxx: endcol
 
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
@@ -289,7 +283,7 @@ marginal coincide y el producto medio.
 
 
 
-* 8.5.
+* 10.5.
 
 Si el producto marginal del trabajo es decreciente en el corto plazo,
 ¿el producto medio debe ser también decreciente?
@@ -314,7 +308,7 @@ embargo, el producto medio es creciente.
 
 
 
-* 8.6.
+* 10.6.
 
 La producción por trabajador en una empresa es de 20 sillas al día. El
 propietario de la empresa ha calculado que un trabajador adicional
@@ -331,7 +325,7 @@ $\PMgL < \PMeL$, el producto medio es decreciente.
 
 
 
-* 8.7.
+* 10.7.
 
 El siguiente gráfico muestra algunas isocuantas de la función de
 producción de una empresa:
@@ -366,7 +360,6 @@ a)
    5 unidades de capital. Si produjera $125$ unidades con 4
    trabajadores, se encontraría en *B* y usaría 2 unidades de capital.
 
-
 b) La combinación $L = 8$ y $K = 6$ está representada por el punto *C*
    del gráfico anterior. Esta punto se halla por debajo de la
    isocuanta $Q = 375$. Por tanto no es posible producir
@@ -375,8 +368,7 @@ b) La combinación $L = 8$ y $K = 6$ está representada por el punto *C*
    Por otro lado, el punto *C* está por encima de la isocuanta $Q =
    250$, por lo que es posible producir $200$ unidades con 8
    trabajadores y 6 unidades de capital. Pero ese nivel de producción
-   no sería eficiente, ya que se pueden producir más de $200$ unidades
-   con la combinación *C*.
+   no sería eficiente.
 
 c) Cuando se usan 5 trabajadores y 5 unidades de capital, combinación
    *A*, se producen $125$ unidades. Si se duplican los factores y se
@@ -387,7 +379,7 @@ c) Cuando se usan 5 trabajadores y 5 unidades de capital, combinación
 
 
 
-* 8.8.
+* 10.8.
 
 ¿Es correcta la siguiente afirmación? Justifique su respuesta: "Una
 empresa cuya función de producción $Q = F(K, L)$ presenta rendimientos
@@ -399,11 +391,10 @@ uso del factor capital."
 
 No es correcta. Si la tecnología que usa la empresa es de rendimientos
 constantes de escala, la producción se duplicará cuando se dupliquen
-/todos/ los factores de producción. Si sólo cambia la utilización de
-un factor no podemos saber como se alterará la producción.
+/todos/ los factores de producción, no sólo el factor trabajo.
 
 
-* 8.9.
+* 10.9.
 
 Una fábrica utiliza trabajo y capital para producir zapatos. Después
 de aumentar el número de trabajadores en un 50% la producción crece en
@@ -414,13 +405,13 @@ producción de la empresa?
 ** Answer
 
 No es posible determinar los rendimientos de escala de la función de
-producción si sólo ha cambiado el número de trabajadores. Para
-determinar el tipo de rendimientos de escala, es necesario saber en
-qué proporción aumenta la producción de la empresa cuando aumentan
-/todos/ los factores de producción en la /misma/ proporción.
+producción si sólo ha cambiado el número de trabajadores. Sería
+necesario saber en qué proporción aumenta la producción de la empresa
+cuando /todos/ los factores de producción aumentan en la /misma/
+proporción.
 
 
-* 8.10.
+* 10.10.
 
 El siguiente gráfico muestra algunas isocuantas de la función de
 producción de una empresa:
@@ -444,14 +435,12 @@ a)
    #+xxx: endcol
    #+latex: \vspace*{1ex}
 
-   En el gráfico se observa que se producen 250 unidades cuando se
-   emplean 5 unidades de trabajo y 5 unidades de capital, combinación
-   *B*. Si se duplica el uso de los factores, combinación *E*, la
-   producción superará las 750 unidades. Por tanto, la función de
-   producción presenta rendimientos crecientes de escala: al duplicar
-   los factores se obtiene un nivel de producción que es más del
-   triple que el inicial.
-
+   Se producen 250 unidades cuando se emplean 5 unidades de trabajo y
+   5 unidades de capital, combinación *B*. Si se duplica el uso de los
+   factores, combinación *E*, la producción superará las 750
+   unidades. Por tanto, la función de producción presenta rendimientos
+   crecientes de escala: al duplicar los factores se obtiene un nivel
+   de producción que es más del triple que el inicial.
 
 b) La siguiente tabla contiene información de algunas combinaciones de
    factores y la producción que se obtendría con ellas. En todas estas
@@ -479,7 +468,7 @@ b) La siguiente tabla contiene información de algunas combinaciones de
    rendimientos del factor trabajo son constantes.
 
 
-* 8.11.
+* 10.11.
 
 Considere las siguientes funciones de producción:
 
@@ -573,7 +562,6 @@ b) Para determinar el tipo de rendimientos de escala, calculamos el
    | V.   | $s^{2} F(L, K)$   | Crecientes             |
    |------+-------------------+------------------------|
 
-
 c) Podemos verificar si se cumple la ley de rendimientos decrecientes
    comprobando el signo de la derivada del producto marginal del
    trabajo:
@@ -598,16 +586,6 @@ c) Podemos verificar si se cumple la ley de rendimientos decrecientes
 d) No hay relación entre el tipo de rendimientos de escala de una
    función de producción y el comportamiento de sus rendimientos
    marginales.
-
-   En los casos que hemos analizado, hemos encontrado dos funciones
-   con rendimientos constantes de escala. En una de ellas los
-   rendimientos del trabajo eran decrecientes y en la otra
-   constantes. Si nos centramos en las funciones con rendimientos
-   crecientes de escala, en un caso los rendimientos marginales eran
-   decrecientes y en otro crecientes. Finalmente, si nos fijamos en
-   las funciones que cumplen la ley de rendimientos decrecientes, los
-   rendimientos de escala de una son constantes, los de otra son
-   crecientes y los de la tercera son decrecientes.
 
    #+latex: \begin{adjustbox}{valign=t}
    #+ATTR_LATEX: :booktabs t :center nil :align @{}lll@{}
