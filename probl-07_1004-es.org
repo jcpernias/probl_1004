@@ -469,7 +469,6 @@ b) /Subvención/: la restricción presupuestaria tiene dos tramos. Si el
    #+end_export
    #+xxx: endcol
 
-
 c) La siguiente tabla resume los resultados obtenidos:
 
    #+ATTR_LATEX: :booktabs t :center t :align @{}l*{3}{r}@{}
@@ -701,7 +700,6 @@ a) Para Rocío la leche y los cereales son complementos perfectos. Su
    vértices de las curvas de indiferencia los dos bienes se combinan
    en las proporciones ideales.
    #+xxx: endcol
-
 
 b) La recta presupuestaria de Rocío es:
    #+begin_export latex

@@ -186,7 +186,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex6.2:xy-scale
-  yscale = 3.4, xscale = 3.4
+  yscale = 3, xscale = 3
 #+end_src
 
 

@@ -469,7 +469,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex13:xy-scale
-  [yscale = 0.6, xscale = 0.6]
+  [yscale = 0.55, xscale = 0.55]
 #+end_src
 
 
@@ -480,8 +480,8 @@
   \coordinate (DB1) at (5,    0.5) ;
   \coordinate (DA2) at (0.5,  3.5) ;
   \coordinate (DB2) at (2.75, 0.5) ;
-  \coordinate (DA3) at (0.9, 4.5) ;
-  \coordinate (DB3) at (3.9, 0.5) ;
+  \coordinate (DA3) at (0.7, 4.5) ;
+  \coordinate (DB3) at (3.7, 0.5) ;
   \coordinate (OA1) at (0.5,  1.0) ;
   \coordinate (OB1) at (5,    3.5) ;
   \coordinate (OA2) at (0.5,  1.6) ;

@@ -40,9 +40,6 @@ a) Restricción intertemporal:
    Los puntos de corte son los consumos máximos en cada periodo.
    #+xxx: endcol
 
-
-
-
 b) Condición de tangencia:
    #+begin_export latex
    \[
@@ -193,7 +190,6 @@ a) La restricción intertemporal tiene dos tramos con pendientes
    #+latex: \vspace{1ex}
    Restricción intertemporal.
    #+xxx: endcol
-
 
 b) Calculamos la solución que se obtendría en cada caso:
 

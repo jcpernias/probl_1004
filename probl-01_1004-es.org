@@ -118,7 +118,6 @@ c) Una mejora organizativa hace que, usando los mismos recursos, la
    cantidad de alimentos se podrían fabricar hasta \num{312000}
    vehículos.
 
-
 d) Calculamos las combinaciones de producción eficientes cuando sólo
    se dispone de \num{50000} horas de trabajo:
    #+ATTR_LATEX: :booktabs t :center t :align @{}rR{1.25cm}p{1.25cm}*{2}{R{1.25cm}}@{}
@@ -233,7 +232,7 @@ d) ¿Que relación existe entre el comportamiento del coste de
 
 a) Frontera de posibilidades de producción:
 
-#+xxx: fig fig-ans-probl-1_1004-ppf-lin-*.pdf
+   #+xxx: fig fig-ans-probl-1_1004-ppf-lin-*.pdf
 
 b) El coste de oportunidad puede calcularse como el valor absoluto de
    la pendiente de la frontera de posibilidades de producción:

@@ -50,8 +50,6 @@ b)
    unitario de \price{1.50}.
    #+xxx: endcol
 
-
-
 c)
    #+ATTR_LATEX: :options [t]{0.55\linewidth}
    #+xxx: col
@@ -65,8 +63,6 @@ c)
    exceso de oferta en el mercado. Se venden 50 unidades a un precio
    unitario de \price{4.00}.
    #+xxx: endcol
-
-
 
 d)
    #+ATTR_LATEX: :options [t]{0.55\linewidth}
@@ -220,7 +216,6 @@ a) La curva de demanda es:
    máximo es superior al precio de equilibrio y nada impide que este
    mercado alcance el equilibrio.
    #+xxx: endcol
-
 
 b) La nueva curva de demanda es:
    #+begin_export latex

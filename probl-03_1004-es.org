@@ -160,7 +160,6 @@ a) Elasticidad de la demanda:
 
 b) Sí: se encuentra en un tramo elástico de la demanda.
 
-
 c) Ingresos:
    #+begin_export latex
    \[
@@ -434,7 +433,6 @@ a) La demanda es igual al aforo de la sala cuando $P =
       -160  \frac{18.75}{5000} = -0.6.
    \]
    #+end_export
-
 
 b)
    #+ATTR_LATEX: :options [t]{0.5\linewidth}

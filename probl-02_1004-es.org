@@ -78,7 +78,6 @@ a) La demanda de mercado es la suma de las cantidades demandadas
    #+end_export
    #+xxx: endcol
 
-
 b) Si el precio de mercado es $P = \price{4}$ se produce un exceso de
    oferta de \num{5000} unidades. Si $P = \price{1}$ se produce un
    exceso de demanda de \num{2500} unidades.

@@ -413,8 +413,6 @@ a)
    #+end_export
    #+xxx: endcol
 
-
-
 b) Si compra menos de \units[kg]{4} de patatas, la restricción
    presupuestaria es:
    #+begin_export latex
