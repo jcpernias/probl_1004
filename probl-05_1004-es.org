@@ -559,7 +559,6 @@ b) Después de pagar la cuota, Ángeles sólo dispondrá de \money{85}
    #+end_export
    #+xxx: endcol
 
-
 c)
    #+ATTR_LATEX: :options [t]{0.42\linewidth}
    #+xxx: col
