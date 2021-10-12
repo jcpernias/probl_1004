@@ -66,6 +66,7 @@ constante si consume más pollo y no cambia su consumo de pescado.
 Para Alejandro el pescado es un mal: su utilidad disminuye si crece su
 consumo de pescado y no varía su consumo de pollo.
 
+
 * 6.3
 
 Pablo se muestra indiferente entre la cesta $A$, que contiene 6
@@ -137,7 +138,7 @@ siguiente tabla:
 |-----+---+-----+---+-----+---+--------+---+--------+---+--------|
 |   2 |   |   3 |   | 12  |   |     12 |   |      4 |   |      3 |
 |   4 |   |   1 |   | 16  |   |      8 |   |     16 |   |    1/2 |
-|   1 |   |   6 |   |  6  |   |      6 |   |      1 |   |      6 |
+|   1 |   |   3 |   |  3  |   |      6 |   |      1 |   |      6 |
 |-----+---+-----+---+-----+---+--------+---+--------+---+--------|
 
 
