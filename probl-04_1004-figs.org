@@ -13,6 +13,7 @@
     \begin{scope}[on background layer]
     <<ex4.1:grid>>
     \end{scope}
+    <<ex4.1:grid-labels>>
     <<ex4.1:axes>>
   \end{tikzpicture}
 #+end_src
@@ -163,21 +164,23 @@
 
 #+begin_src latex :noweb-ref ex4.1:grid
   \draw[help lines, step=0.5] (0, 0) grid (7.7, 5.7) ;
+#+end_src
 
-  % \draw[curve]
-  %   (1, 0) node[below] {$100$}
-  %   (2, 0) node[below] {$200$}
-  %   (3, 0) node[below] {$300$}
-  %   (4, 0) node[below] {$400$}
-  %   (5, 0) node[below] {$500$}
-  %   (6, 0) node[below] {$600$}
-  %   (7, 0) node[below] {$700$}
-  %   (0, 1) node[left] {$1.00$}
-  %   (0, 2) node[left] {$2.00$}
-  %   (0, 3) node[left] {$3.00$}
-  %   (0, 4) node[left] {$4.00$}
-  %   (0, 5) node[left] {$5.00$}
-  %   ;
+#+begin_src latex :noweb-ref ex4.1:grid-labels
+  \draw[curve]
+    (1, 0) node[below] {$100$}
+    (2, 0) node[below] {$200$}
+    (3, 0) node[below] {$300$}
+    (4, 0) node[below] {$400$}
+    (5, 0) node[below] {$500$}
+    (6, 0) node[below] {$600$}
+    (7, 0) node[below] {$700$}
+    (0, 1) node[left] {$1.00$}
+    (0, 2) node[left] {$2.00$}
+    (0, 3) node[left] {$3.00$}
+    (0, 4) node[left] {$4.00$}
+    (0, 5) node[left] {$5.00$}
+    ;
 #+end_src
 
 
