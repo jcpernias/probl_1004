@@ -110,8 +110,8 @@
     <<ex4.1:curves>>
 
     \draw[curve, very thick, name path = C]
-      (0.0, 1.5) node[left] {$4.00$} --
-      (7.7, 1.5) ;
+      (0.0, 4.0) node[left] {$4.00$} --
+      (7.7, 4.0) ;
 
     \path[name intersections={of=D and O, by=E1}] ;
     \draw[help lines]
