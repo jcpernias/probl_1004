@@ -296,7 +296,7 @@ a) Relación marginal de sustitución:
    Recta presupuestaria:
    #+begin_export latex
    \[
-     40 = 8 X + N.
+     40 = 8 N + Y.
    \]
    #+end_export
 
