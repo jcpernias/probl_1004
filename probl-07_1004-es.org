@@ -10,15 +10,15 @@ tabla recoge las utilidades marginales de manzanas y peras de cada uno
 de los consumidores:
 
 #+ATTR_LATEX: :booktabs t :center t :align @{}l*{2}{r}@{}
-|--------------+------------+----------|
-|              | Manzanas   | Peras    |
-|--------------+------------+----------|
-| Jerry        | $12$       | $6$      |
-| George       |  $6$       | $6$      |
-| Elaine       |  $6$       | $3$      |
-| Kramer       |  $3$       | $6$      |
-| Newman       | $12$       | $3$      |
-|--------------+------------+----------|
+|--------+----------+-------|
+|        | Manzanas | Peras |
+|--------+----------+-------|
+| Jerry  | $12$     | $6$   |
+| George | $6$      | $6$   |
+| Elaine | $6$      | $3$   |
+| Kramer | $3$      | $6$   |
+| Newman | $12$     | $3$   |
+|--------+----------+-------|
 
 a) ¿Qué consumidores, si hay alguno, *no* está eligiendo una
    combinación óptima de manzanas y peras? ¿Cómo tendrían que cambiar
