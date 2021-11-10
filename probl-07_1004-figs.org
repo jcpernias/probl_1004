@@ -156,7 +156,7 @@
 #+begin_src latex :noweb-ref ex5.8:budget-2
   \draw[curve, very thick]
     (A2) node[left] {$40$} -- (B2) --
-    (C2) node[below] {$6.25$} ;
+    (C2) node[below] {$5.3$} ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex5.8:budget-3
