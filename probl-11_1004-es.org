@@ -414,7 +414,7 @@ c) En general, los costes a corto plazo son mayores que los costes a
    igualan: $\CT_{\LP}(Q_a) = \CT_{\CP}(Q_a)$. En nuestro caso:
    #+begin_export latex
    \[
-     2 Q_a^{-1/2} = 3 + Q_a / 3.
+     2 Q_a^{1/2} = 3 + Q_a / 3.
    \]
    #+end_export
    Elevando al cuadrado los dos lados de la ecuación anterior y
