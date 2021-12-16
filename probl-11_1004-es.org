@@ -118,7 +118,7 @@ c) El coste medio se minimiza cuando $\CMe = \CMg$:
      500 / Q + 2 Q / 5  = 4 Q / 5,
    \]
    #+end_export
-   por lo que: $Q = \num{1250} \approx 35.36$ unidades.  El coste
+   por lo que: $Q = \sqrt{\num{1250}} \approx 35.36$ unidades.  El coste
    unitario mínimo es: $\CMe(35.36) = 500/35.36 + 2 \cdot 35.36 / 5 =
    \price{28.28}$.
 
