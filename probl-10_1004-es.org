@@ -318,10 +318,11 @@ producto medio si la empresa contrata otro trabajador?
 
 ** Answer
 
-El producto marginal en esta empresa se corresponde con las 10 sillas
-en que aumentaría la producción si se contrata un trabajador más. Por
-otro lado, la producción media es de 20 sillas por trabajador.  Como
-$\PMgL < \PMeL$, el producto medio es decreciente.
+La producción media es de 20 sillas por trabajador y el producto
+marginal son las 10 sillas en que aumentaría la producción si se
+contratara un trabajador más. Como $\PMgL < \PMeL$, el producto medio
+es decreciente: el producto medio sería inferior a 20 sillas si se
+contratara un trabajador más.
 
 
 
