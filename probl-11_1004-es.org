@@ -634,7 +634,7 @@ b) Obtenga y represente la curva de costes medios a largo plazo.
 
 ** Answer
 
-a) Con dos talleres el coste medio es más bajo:
+a) Con dos fábricas el coste medio es más bajo:
    #+begin_export latex
    \begin{gather*}
      \CMe_{1}(600) = \price{1400} \\
