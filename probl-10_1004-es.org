@@ -108,7 +108,7 @@ c) /Maximización del \PMgL/: La derivada del producto marginal es:
    \]
    #+end_export
    Igualando a 0 la expresión anterior y resolviendo $L$, obtenemos
-   $L_B = 200$.
+   $L_B = 300$.
 
    /Maximización de la producción/: La derivada del producto total es
    el producto marginal.  Resolviendo $L$ en la ecuación $\PMgL = 0$,
