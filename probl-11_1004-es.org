@@ -493,7 +493,7 @@ b) A largo plazo, la empresa seleccionaría aquellas cestas donde la
 
    Los costes a corto y a largo plazo sólo coinciden en la
    intersección de las sendas de expansión a corto y a largo. En
-   nuestro caso, esto ocurre cuando $K=4$, $L=$ y $Q = 160$.
+   nuestro caso, esto ocurre cuando $K=4$, $L=4$ y $Q = 160$.
 
    #+xxx: fig fig-ans-probl-9_1004-expansion4-*.pdf
 
