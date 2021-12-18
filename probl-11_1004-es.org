@@ -304,21 +304,17 @@ b) Determine la curva de costes a largo plazo, así como las curvas
 
 a) La minimización de los costes requiere:
    #+begin_export latex
-   \[ \RMST  = 2 \frac{K}{L} = \frac{w}{r} = 2. \]
+   \[  \RMST = \frac{w}{r} \Rightarrow 2 \frac{K}{L}  = 2. \]
    #+end_export
-   Esta condición se puede simplificar como: $K =
-   L$.  Sustituyendo en la función de producción y
-   operando, se llega a la demanda condicional de trabajo: $L(Q) =
-   Q^{1/3}$ y a la demanda condicional de capital: $K(Q) = Q^{1/3}$.
+   Esta condición se puede simplificar como: $K = L$.  Sustituyendo
+   esta expresión en la función de producción y operando, se llega a
+   las demanda condicionales de trabajo y de capital: $L(Q) = Q^{1/3}$
+   y $K(Q) = Q^{1/3}$.
 
-b) El coste total es: $\CT = 16 L + 8 K$.  Sustituyendo en esta
-   expresión las demandas condicionales y operando se obtienen los
-   costes a largo plazo:
-   #+begin_export latex
-   \[
-     \CT(Q) = 24 Q^{1/3}.
-   \]
-   #+end_export
+b) El coste total es: $\CT(Q) = 16 L(Q) + 8 K(Q)$.  Sustituyendo en
+   esta expresión las demandas condicionales y operando se obtienen
+   los costes a largo plazo: \CT(Q) = 24 Q^{1/3}.
+
    El coste de producir $\num{8000}$ unidades es: $\CT(\num{8000}) =
    24 \cdot \num{8000}^{1/3} = \money{480}$.
 
