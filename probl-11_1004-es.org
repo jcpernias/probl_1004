@@ -215,14 +215,14 @@ a) Todas las combinaciones de factores sobre una isocoste representan
      \[ \Cbar = w L + r K. \]
    #+end_export
    Los puntos de corte con el eje horizontal representan la máxima
-   cantidad de trabajo que se puede contratar con $\Cbar$ euros
+   cantidad de trabajo que se puede contratar con $\Cbar$ euros.
 
-   Consideremos la isocoste más externa del gráfico. Dado que corta al
-   eje vertical en $K = 12$, todas las combinaciones de esa recta
-   cuestan $40 \cdot 12 = \money{480}$. Dividiendo por el salario
-   obtenemos la cantidad máxima de trabajo que se puede contratar con
-   ese dinero: $480 / 16 = 30$. Repitiendo este procedimiento se
-   obtienen los puntos de corte de las restantes isocostes:
+   Consideremos la isocoste que corta al eje vertical en $K = 12$:
+   todas las combinaciones de factores sobre esa recta cuestan $40
+   \cdot 12 = \money{480}$. Dividiendo por el salario obtenemos la
+   cantidad máxima de trabajo que se puede contratar con \money{480}:
+   $480 / 16 = 30$. Repitiendo este procedimiento se obtienen los
+   puntos de corte de las restantes isocostes:
    #+xxx: fig fig-ans-probl-9_1004-choice2-*.pdf
 
 b) No: en la isocoste tangente a la isocuanta $Q=150$, el coste es
