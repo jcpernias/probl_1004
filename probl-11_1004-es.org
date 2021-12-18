@@ -557,14 +557,19 @@ d) Compare las respuestas de los apartados [[ex9.21:item-b]] y
 
 ** Answer
 
-a) Si $L= 16$ y $K = 4$, la producción máxima que puede obtener la
-   empresa es: $Q = 10 \cdot 16^{1/2} 4^{1/2} = 80$. Por tanto, la
-   combinación de factores que usa la empresa es técnicamente
-   eficiente.
+a) Cuando se minimizan los costes a largo plazo de producción se
+   cumplen dos condiciones:
 
-   Además, $\RMST = K/L = 1/4$ y el precio relativo de los factores
-   también es $w/r = 1/4$. La combinación $L= 16$ y $K = 4$ minimiza
-   los costes de producir $80$ unidades.
+    - /Eficiencia técnica/: la producción, $80$, coincide con la
+      máxima que puede obtener la empresa con los factores que ha
+      contratado: $10 \cdot 16^{1/2} 4^{1/2} = 80$.
+
+   - /Condición de tangencia/: la relación marginal de sustitución
+     técnica, $\RMST = K/L = 1/4$, coincide con el precio relativo de
+     los factores, $w/r = 1/4$.
+
+   Por tanto, la empresa minimiza los costes de largo plazo de
+   producir 80 unidades cuando $L= 16$ y $K = 4$.
 
 b) La función de producción de corto plazo, $\Kbar = 4$, sería:
    #+begin_export latex
