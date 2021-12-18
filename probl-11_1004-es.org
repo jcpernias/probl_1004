@@ -342,25 +342,18 @@ deseconomías de escala?
 
 ** Answer
 
-La curva de coste medio es:
-#+begin_export latex
-\[
-  \CMe(Q) = \frac{\CT}{Q} = Q^2 - 8 Q + 22.
-\]
-#+end_export
-El coste marginal es:
-#+begin_export latex
-\[
-  \CMg(Q) = \frac{\diff \CT}{\diff Q} = 3 Q^2 - 16 Q + 22.
-\]
-#+end_export
+Coste medio:  $\CMe(Q) = \CT / Q = Q^2 - 8 Q + 22$.
+
+Coste marginal: $\CMg(Q) = \diff \CT / \diff Q = 3 Q^2 - 16 Q + 22$.
+
 La curva de coste medio alcanza un mínimo cuando:
 #+begin_export latex
 \[
-  \frac{\diff \CMe}{\diff Q} = 2 Q - 8   = 0,
+  \frac{\diff \CMe}{\diff Q} = 2 Q - 8   = 0.
 \]
 #+end_export
-condición que se cumple si $Q = 4$ unidades.
+Esta condición se cumple cuando $Q = 4$ unidades y el mínimo coste medio
+es $\CMe(4) = 6$ euros por unidad.
 
 
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
