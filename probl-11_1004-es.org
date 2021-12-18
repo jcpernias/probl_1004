@@ -428,8 +428,8 @@ c) En general, los costes a corto plazo son mayores que los costes a
    son mayores que los costes a largo plazo.
    #+xxx: endcol
 
-   Sólo cuando $Q = 9$, el capital a corto plazo coincide con el nivel
-   óptimo a largo plazo: $K(9) = 9^{1/2} = 3$.
+   Sólo cuando $Q = 9$, el capital a corto plazo, $\Kbar = 3$,
+   coincide con el nivel óptimo a largo plazo: $K(9) = 9^{1/2} = 3$.
 
 
 
