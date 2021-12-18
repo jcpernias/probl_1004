@@ -391,7 +391,7 @@ uso del factor capital."
 
 No es correcta. Si la tecnología que usa la empresa es de rendimientos
 constantes de escala, la producción se duplicará cuando se dupliquen
-/todos/ los factores de producción, no sólo el factor trabajo.
+/todos/ los factores de producción, no sólo el factor capital.
 
 
 * 10.9.
