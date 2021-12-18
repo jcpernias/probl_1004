@@ -356,20 +356,19 @@ a)
    #+xxx: endcol
    #+latex: \vspace*{1ex}
 
-   Si produce eficientemente $250$ unidades y utiliza 5 trabajadores,
-   la empresa ha escogido la combinación de factores *A*, donde emplea
-   5 unidades de capital. Si produjera $125$ unidades con 4
-   trabajadores, se encontraría en *B* y usaría 2 unidades de capital.
+   La empresa produce eficientemente $250$ unidades y utiliza 5
+   trabajadores, por lo que sabemos que ha escogido la combinación
+   *A*, donde $K = 5$. Si produjera $125$ unidades con $L = 4$, se
+   encontraría en *B* y usaría 2 unidades de capital.
 
-b) La combinación $L = 8$ y $K = 6$ está representada por el punto *C*
-   del gráfico anterior. Esta punto se halla por debajo de la
-   isocuanta $Q = 375$. Por tanto no es posible producir
-   $400$ unidades en esas condiciones.
+b) La combinación $L = 8$ y $K = 6$ corresponde al punto *C*. Éste se
+   sitúa debajo de la isocuanta $Q = 375$, lo que significa que no es
+   posible producir $400$ unidades.
 
-   Por otro lado, el punto *C* está por encima de la isocuanta $Q =
-   250$, por lo que es posible producir $200$ unidades con 8
-   trabajadores y 6 unidades de capital. Pero ese nivel de producción
-   no sería eficiente.
+   Por otro lado, *C* está por encima de la isocuanta $Q = 250$. Esto
+   quiere decir que es posible producir $200$ unidades pero ese nivel
+   de producción no sería eficiente: esa combinación de factores
+   permite obtener al menos 250 unidades de producto.
 
 c) Cuando se usan 5 trabajadores y 5 unidades de capital, combinación
    *A*, se producen $125$ unidades. Si se duplican los factores y se
