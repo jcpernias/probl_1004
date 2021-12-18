@@ -323,8 +323,6 @@ b) El coste total es: $\CT(Q) = 16 L(Q) + 8 K(Q)$.  Sustituyendo en
    Curva de coste marginal: $\CMg(Q) = 8 Q^{-2/3}$.
 
 
-
-
 * 11.9.
 
 La curva de costes totales a largo plazo de un empresa es:
@@ -529,8 +527,9 @@ b) Incorrecta: si $\CMg_{\LP} > \CMe_{\LP}$, el coste medio es
 c) Correcta: a largo plazo siempre existe la opción de hacer lo mismo
    que a corto plazo sin incurrir en costes adicionales.
 
-d) Incorrecta: el coste medio es creciente siempre que el coste
-   marginal es /mayor/ que el coste medio.
+d) Incorrecta: es posible que el coste medio sea decrenciente y el
+   coste marginal creciente: basta con que el coste marginal sea menor
+   que el coste medio.
 
 
 
