@@ -27,14 +27,14 @@ trabajadores mostrados en la tabla? ¿Por qué?
 
 ** Answer
 
-Se han utilizado las relaciones
+Para completar la tabla se han utilizado las relaciones
 #+begin_export latex
 \begin{equation*}
   \PMeL = \frac{Q}{L} \qtext{y}\quad
-  \PMgL \approx \iratio{Q}{L},
+  \PMgL \approx \iratio{Q}{L}.
 \end{equation*}
 #+end_export
-para completar la siguiente tabla:
+
 #+ATTR_LATEX: :booktabs t :center t :align @{}c*{3}{r}@{}
 |--------------+------------+----------+----------|
 |              | Producción | Producto | Producto |
@@ -49,9 +49,9 @@ para completar la siguiente tabla:
 | $6$          | $306$      | $-14$    | $51$     |
 |--------------+------------+----------+----------|
 
-Se cumple la ley de rendimientos decrecientes del factor trabajo.  La
-situación correspondiente a la última fila de la tabla, contratar 6
-trabajadores, no es técnicamente eficiente: el producto marginal del sexto tyrabajador es negativo.
+Se cumple la ley de rendimientos decrecientes del factor trabajo.
+Contratar 6 trabajadores no es técnicamente eficiente: el producto
+marginal del sexto trabajador es negativo.
 
 
 
