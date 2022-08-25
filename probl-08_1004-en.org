@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-* 6.1
+* 8.1
 
 The utility function of a consumer is $U = X^2 Y$, her income is $M =
 \money{100}$ and the prices of the goods are $P_X = \price{10}$ and
@@ -14,7 +14,7 @@ of good is X?
 Not done yet.
 
 
-* 6.2
+* 8.2
 
 The following graph shows the ICC of a consumer when the price of good
 $X$ is $P_X = \price{10}$ and the price of good $Y$ is $\price{20}$:
@@ -29,7 +29,7 @@ Plot the Engel curve for the two goods. What kind of goods are $X$ and $Y$?
 Not done yet.
 
 
-* 6.3
+* 8.3
 
 A consumer purchases only two goods whose prices are $P_X =
 \price{1}$ and $P_Y = \price{1}$. The following figure shows her
@@ -48,7 +48,7 @@ b) Is any of the two goods an inferior good? For what values of the
 Not done yet.
 
 
-* 6.4
+* 8.4
 
 Consider a consumer who only buys two goods. Is it possible that the
 two goods are inferior goods simultaneously?
@@ -58,7 +58,7 @@ two goods are inferior goods simultaneously?
 Not done yet.
 
 
-* 6.5
+* 8.5
 
 The preferences of a consumer can be represented by the utility
 function:
@@ -81,7 +81,7 @@ b) Obtain and plot the demand curve for good $X$. Calculate the price
 Not done yet.
 
 
-* 6.6
+* 8.6
 
 The following graph shows the PCC of a consumer when the price of good
 $Y$ is $P_Y = \price{2}$ and the income is $M= \money{120}$:
@@ -103,7 +103,7 @@ c) What kind of relationship does it exist between goods $X$ and $Y$?
 Not done yet.
 
 
-* 6.7
+* 8.7
 
 The optimal basket for a consumer with regular preferences contains
 positive amounts of all goods. If the price of one of the goods
@@ -116,7 +116,7 @@ consumer's utility varies along the demand curve. Justify your answers.
 Not done yet.
 
 
-* 6.8
+* 8.8
 
 In a market $n$ identical consumers participate and the demand curve
 for each one of them is:
@@ -138,7 +138,7 @@ b) What is the relationship between the price elasticity of individual
 Not done yet.
 
 
-* 6.9
+* 8.9
 
 Both Adela and Blas have \money{100} to spend on goods $X$ and
 $Y$. Adela only cares about how many units of $X$ she can consume,
@@ -154,7 +154,7 @@ and Blas.
 Not done yet.
 
 
-* 6.10
+* 8.10
 
 Rocío likes eating milk with cereals. She always combines them in the
 same proportion: she adds exactly \units[g]{20} of cereals by each
@@ -170,7 +170,7 @@ that the price of milk is \price[l]{0.80} and that Rocío spends
 Not done yet.
 
 
-* 6.11
+* 8.11
 
 The preferences of a consumer are given by the utility function:
 $U(X, Y) = X^{1/4} Y^{1/8}$ and her income is $M = \money{17496}$.
@@ -190,7 +190,7 @@ c) Decompose the impact on each good's consumption into the
 Not done yet.
 
 
-* 6.12
+* 8.12
 
 The goods $X$ and $Y$ are perfect complements. Represent
 graphically how the optimal consumption choice would change if the
@@ -199,7 +199,7 @@ consumption of $X$ into the substitution effect and the income
 effect.
 
 
-* 6.13
+* 8.13
 
 Dulce keeps buying the same amount of salt even though its price
 has decreased by 50%. Does this mean that the substitution effect
@@ -210,7 +210,7 @@ is zero? Is salt an inferior good for Dulce?
 Not done yet.
 
 
-* 6.14
+* 8.14
 
 "The quantity demanded of a Giffen good increases with its price
 and also increases when the consumer's income increases." Is the
@@ -221,7 +221,7 @@ previous statement correct? Justify your answer.
 Not done yet.
 
 
-* 6.15
+* 8.15
 
 The following graph shows the optimal choices of a consumer before
 and after a decrease in the price of good $X$:
@@ -241,7 +241,7 @@ effects and determine what kind of good is $X$ for this consumer.
 Not done yet.
 
 
-* 6.16
+* 8.16
 
 The mayor of Lazy Town has decided to introduce a new tax on
 sugary drinks of \money{0.50} per can of soda. The tax is
