@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-* 5.12
+* 7.1
 
 Five friends have bought fruit and each one of them has obtained the
 same combination: 3 apples and 6 pears. The price of an apple is
@@ -33,7 +33,7 @@ b) With the information given, is it possible to determine if any
 Not done yet.
 
 
-* 5.13
+* 7.2
 
 The preferences of a consumer can be described with the utility
 function: $U(X, Y) = 5 X Y^2$. The consumer's income is \money{900}
@@ -46,7 +46,7 @@ and represent the consumer's optimal choice.
 Not done yet.
 
 
-* 5.14
+* 7.3
 
 The utility function of a consumer is $U (X, Y) = X Y$. The optimal
 basket consists of 10 units of good $X$ and 5 units of good
@@ -59,7 +59,7 @@ consumer's income?
 Not done yet.
 
 
-* 6.15
+* 7.4
 
 Consider a competitive economy where all consumers have the same
 preferences and consume some units of good $X$ and good $Y$. Will they
@@ -72,7 +72,7 @@ valuation of good $X$ by each consumer?
 Not done yet.
 
 
-* 5.16
+* 7.5
 
 A consumer has an income of \money{40} that she spends on goods $X$
 and $Y$, whose prices are $P_X = \price{3}$ and $P_Y =
@@ -87,7 +87,7 @@ less of good $Y$?
 Not done yet.
 
 
-* 5.17
+* 7.6
 
 Determine the optimal combination for a consumer with income $M =
 \money{500}$ and utility function: $U(X, Y) = X^2 (Y + 80)$, being the
@@ -99,7 +99,7 @@ prices of the goods $P_X = \price{2}$ y $P_Y = \price{5}$.
 Not done yet.
 
 
-* 5.18
+* 7.7
 
 The function $U (N, Y) = (N + 4) Y$ describes the preferences of a
 consumer between nuts, $N$, and a composite good that comprises the
@@ -130,7 +130,7 @@ c) Which alternative would the consumer prefer? Justify your answer.
 Not done yet.
 
 
-* 5.19
+* 7.8
 
 Rafa likes playing tennis and whenever he can he plays in a club near
 his home. Renting a tennis court costs \money{5} per hour. His utility
@@ -157,7 +157,7 @@ b) Rafa is considering to become a member of the tennis club. If he
 Not done yet.
 
 
-* 5.20
+* 7.9
 
 The preferences of a consumer are given by the utility function:
 $U(X, Y) = X (Y + 100)$. The price of good $X$ is \price{1} and
@@ -176,7 +176,7 @@ b) If good $X$ were rationed so that nobody were allowed to buy
 Not done yet.
 
 
-* 5.21
+* 7.10
 
 The utility function of an individual with respect to goods $X$
 and $Y$ is given by $U(X, Y) = 3X + 3Y$. The market prices are
@@ -195,7 +195,7 @@ c) How would the optimal choice change if $P_X = \price{10}$?
 Not done yet.
 
 
-* 5.22
+* 7.11
 
 Rocío likes to eat cereal with milk for breakfast. She always
 combines them in the same proportion: she adds exactly 20 grams of
