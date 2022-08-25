@@ -253,6 +253,18 @@ compact]{titlesec}
   \setlist[enumerate,1]{label = (\alph*)}
 }{}
 
+%% Bombs
+%% --------------------------------------------------------------------------------
+\RequirePackage{fourier-orns}
+\RequirePackage{pifont}
+
+\newcommand*{\DANGER}{\makebox[0in][r]{%
+    \color{Section}\raisebox{2pt}{\Large\bomb}\quad}}
+\newcommand*{\DDANGER}{\makebox[0in][r]{%
+    \color{Section}\raisebox{2pt}{\Large\bomb\,\bomb}\quad}}
+\newcommand*{\TASK}{\makebox[0in][r]{%
+    \color{Section}\raisebox{-1pt}{\Large\ding{228}}\quad}}
+
 %% Solutions
 %% -----------------------------------------------------------------
 
