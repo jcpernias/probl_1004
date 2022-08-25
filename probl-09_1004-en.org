@@ -1,7 +1,7 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-* 7.1.
+* 9.1.
 
 A consumer lives for two periods. Her income in the first period is
 \money{1000} and in the second period is \money{3300}. The interest
@@ -24,7 +24,8 @@ b) Obtain each period's optimal consumption. How much will the
 
 Not done yet.
 
-* 7.2.
+
+* 9.2.
 
 "If there were no credit markets in which money could be lent and
 borrowed, no consumer could save in the present period to consume
@@ -38,7 +39,8 @@ market.
 
 Not done yet.
 
-* 7.3.
+
+* 9.3.
 
 A consumer lives for two periods and can lend and borrow money at an
 interest rate of 10%. In the first period she earns an income of
@@ -53,7 +55,8 @@ Represent graphically.
 
 Not done yet.
 
-* 7.4.
+
+* 9.4.
 
 The intertemporal preferences of a consumer are given by the function:
 $U(C_1, C_2) = C_1 C_2^{1/2}$. Her income in the first period is
@@ -77,7 +80,8 @@ c) If the European Central Bank sets a single interest rate of 8%,
 
 Not done yet.
 
-* 7.5.
+
+* 9.5.
 
 A consumer has preferences regarding her present consumption,
 $C_1$, and her future consumption, $C_2$, that are represented by
@@ -96,7 +100,8 @@ b) Determine whether the consumer saves or not, as well as her
 
 Not done yet.
 
-* 7.6.
+
+* 9.6.
 
 A consumer lives for two periods and can lend and borrow money at the
 same interest rate. During the first period she gets an income of
@@ -111,7 +116,8 @@ constraint.
 
 Not done yet.
 
-* 7.7.
+
+* 9.7.
 
 A consumer lives two periods and her preferences are represented by:
 #+begin_export latex
