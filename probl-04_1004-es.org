@@ -3,8 +3,8 @@
 
 * 4.1
 
-El siguiente gráfico muestra las curvas de demanda y de oferta de un
-mercado competitivo:
+\TASK El siguiente gráfico muestra las curvas de demanda y de oferta
+de un mercado competitivo:
 
 #+xxx: fig fig-probl-4_1004-price-controls-*.pdf
 
@@ -145,7 +145,7 @@ cantidad intercambiada.
 
 * 4.4
 
-En un mercado competitivo en equilibrio, se venden \num{96000}
+\DANGER En un mercado competitivo en equilibrio, se venden \num{96000}
 unidades a un precio de \price{300}. La elasticidad precio de la
 demanda es $-1.5$ y que la elasticidad precio de la oferta es igual
 a $2$. Si se aprueba una ley que establece un precio máximo de
@@ -177,7 +177,7 @@ menor que la cantidad demandada.
 
 * 4.5
 
-Las curvas de demanda y oferta de mercado del bien $X$ son:
+\TASK Las curvas de demanda y oferta de mercado del bien $X$ son:
 #+begin_export latex
 \begin{gather*}
   X^{d} = 200 - 5 P_{X} + 3 P_{Y} + 2 M \\
@@ -356,8 +356,8 @@ d) La curva de demanda después del impuesto es:
 
 * 4.8
 
-El mercado de alquiler de viviendas en una ciudad está representado
-por las curvas de demanda y de oferta:
+\TASK El mercado de alquiler de viviendas en una ciudad está
+representado por las curvas de demanda y de oferta:
 #+begin_export latex
 \begin{gather*}
   Q^{d} = \num{25000} - 30 P, \\

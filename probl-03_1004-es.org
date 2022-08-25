@@ -108,10 +108,10 @@ del segundo conductor es unitaria:
 
 * 3.4
 
-A causa de un cambio en el precio, la cantidad demandada de un bien
-disminuye un 5%, mientras que los ingresos de los vendedores aumentan
-en un 3%. ¿Es elástica o inelástica la demanda?  Calcule el valor de
-la elasticidad precio con la información proporcionada.
+\TASK A causa de un cambio en el precio, la cantidad demandada de un
+bien disminuye un 5%, mientras que los ingresos de los vendedores
+aumentan en un 3%. ¿Es elástica o inelástica la demanda?  Calcule el
+valor de la elasticidad precio con la información proporcionada.
 
 
 ** Answer
@@ -257,11 +257,11 @@ c) Cuando se reduce el precio en el mercado con demanda inelástica
 
 * 3.8
 
-Los precios de las habitaciones de hotel en las grandes ciudades
-suelen depender del día de la semana en que se alquilan. En una semana
-típica, los precios de las habitaciones son mucho más bajos los fines
-de semana que los días laborables. Utilice diagramas de oferta y
-demanda para explicar este comportamiento.
+\DANGER Los precios de las habitaciones de hotel en las grandes
+ciudades suelen depender del día de la semana en que se alquilan. En
+una semana típica, los precios de las habitaciones son mucho más bajos
+los fines de semana que los días laborables. Utilice diagramas de
+oferta y demanda para explicar este comportamiento.
 
 
 ** Answer
@@ -378,7 +378,7 @@ c) Elasticidad renta de la demanda:
 
 * 3.10
 
-Ana paga \money{2} por cada unidad de alimentos, gasta
+\DANGER Ana paga \money{2} por cada unidad de alimentos, gasta
 \money{5000} en alimentos al año y su renta monetaria anual es de
 \money{25000}. La elasticidad-precio de su demanda de alimentos es
 $-1$ mientras que la elasticidad-renta es $0.5$. Si Ana obtiene
@@ -404,13 +404,12 @@ alimentos será un 2% superior: $Q_2 = 1.02 \cdot \num{2500} =
 
 * 3.11
 
-La directora de una empresa que organiza espectáculos musicales
-debe fijar el precio de las entradas de un concierto que se
-celebrará la próxima primavera. La capacidad de la sala de
-conciertos es de \num{5000} espectadores, mientras que la afluencia
-de público a este tipo de conciertos, $Q$, puede estimarse con la
-curva de demanda: $Q = \num{8000} - 160 P$, donde $P$ es el precio
-de la entrada.
+\TASK La directora de una empresa que organiza espectáculos musicales
+debe fijar el precio de las entradas de un concierto que se celebrará
+la próxima primavera. La capacidad de la sala de conciertos es de
+\num{5000} espectadores, mientras que la afluencia de público a este
+tipo de conciertos, $Q$, puede estimarse con la curva de demanda: $Q =
+\num{8000} - 160 P$, donde $P$ es el precio de la entrada.
 
 a) ¿Qué precio debería establecerse si lo que se pretende es vender
    todas las localidades? Calcule e interprete la elasticidad de la

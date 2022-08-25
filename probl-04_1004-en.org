@@ -3,7 +3,7 @@
 
 * 4.1
 
-The following graph shows the demand and supply curves for a
+\TASK The following graph shows the demand and supply curves for a
 competitive market:
 
 #+xxx: fig fig-probl-4_1004-price-controls-*.pdf
@@ -62,10 +62,10 @@ Not done yet.
 
 * 4.4
 
-In a competitive market in equilibrium, \num{96000} units are sold
-at a price of \price{300}. The price elasticity of demand
-is $-1.5$, and the price elasticity of supply is equal to $2$. If
-a law that establishes a maximum price of \price{294} is passed, which
+\DANGER In a competitive market in equilibrium, \num{96000} units are
+sold at a price of \price{300}. The price elasticity of demand
+is $-1.5$, and the price elasticity of supply is equal to $2$. If a
+law that establishes a maximum price of \price{294} is passed, which
 effect would it have on the market? Represent graphically.
 
 
@@ -76,7 +76,7 @@ Not done yet.
 
 * 4.5
 
-The market demand and supply curves for good $X$ are:
+\TASK The market demand and supply curves for good $X$ are:
 #+begin_export latex
 \begin{gather*}
   X = 200 - 5 P_{X} + 3 P_{Y} + 2 I \\
@@ -143,7 +143,7 @@ Not done yet.
 
 * 4.8
 
-The residential rental market in a city is represented by the
+\TASK The residential rental market in a city is represented by the
 demand and supply curves:
 #+begin_export latex
 \begin{gather*}

@@ -50,9 +50,9 @@ Not done yet.
 
 * 11.3
 
-A firm is in a situation such that $\PMgL = \PMeL$. Which is the relationship
-between its average and marginal costs in the short run?
-Represent graphically.
+\DANGER A firm is in a situation such that $\PMgL = \PMeL$. Which is
+the relationship between its average and marginal costs in the short
+run?  Represent graphically.
 
 
 ** Answer
@@ -75,10 +75,10 @@ Not done yet.
 
 * 11.5.
 
-The owner of a company has drawn the following diagram to decide how
-many units of labor and capital she should hire in the long run in order to
-produce 150 units when the unit prices of labor and capital are
-\money{16} and \money{40}, respectively.
+\TASK The owner of a company has drawn the following diagram to decide
+how many units of labor and capital she should hire in the long run in
+order to produce 150 units when the unit prices of labor and capital
+are \money{16} and \money{40}, respectively.
 
 #+xxx: fig fig-probl-9_1004-choice-*.pdf
 
@@ -100,15 +100,14 @@ Not done yet.
 
 * 11.6.
 
-Sauron {{{Inc}}} is a company dedicated to the production of
+\DANGER Sauron {{{Inc}}} is a company dedicated to the production of
 exclusive rings using labor and 3D printers. The daily production
-would increase by 18 rings if the company hires one more
-worker. If, instead of increasing the staff, the company rents an
-additional printer the daily production would rise by 6
-rings. Knowing that the daily wage is 4 times the daily rental
-price of a 3D printer, is Sauron {{{Inc}}} minimizing its costs?
-If your answer is no, what could Sauron {{{Inc}}} do to reduce its
-costs? Justify your answers.
+would increase by 18 rings if the company hires one more worker. If,
+instead of increasing the staff, the company rents an additional
+printer the daily production would rise by 6 rings. Knowing that the
+daily wage is 4 times the daily rental price of a 3D printer, is
+Sauron {{{Inc}}} minimizing its costs?  If your answer is no, what
+could Sauron {{{Inc}}} do to reduce its costs? Justify your answers.
 
 
 ** Answer
@@ -118,11 +117,11 @@ Not done yet.
 
 * 11.7.
 
-A company's production function is: $Q = L^{3/2} K^{1/2}$. The
-company currently hires 144 hours of labor and 12 units of
-capital. If this is the optimal long run input combination and if
-total costs are equal to \money{1152}, which are the prices of
-capital and labor inputs?
+\TASK A company's production function is: $Q = L^{3/2} K^{1/2}$. The
+company currently hires 144 hours of labor and 12 units of capital. If
+this is the optimal long run input combination and if total costs are
+equal to \money{1152}, which are the prices of capital and labor
+inputs?
 
 
 ** Answer
@@ -189,7 +188,7 @@ Not done yet.
 
 * 11.11.
 
-The following figure shows some isoquants of a firm's production
+\TASK The following figure shows some isoquants of a firm's production
 function:
 
 #+xxx: fig fig-probl-9_1004-expansion-*.pdf
@@ -237,19 +236,19 @@ Not done yet.
 
 * 11.13
 
-The production function of a firm is $Q = 10 K^{1/2} L^{1/2}$ and the
-input prices are $w = \price{20}$ y $r = \price{80}$. The firm
+\TASK The production function of a firm is $Q = 10 K^{1/2} L^{1/2}$
+and the input prices are $w = \price{20}$ y $r = \price{80}$. The firm
 produces 80 units using 16 units of labor and 4 units of capital.
 
 a) Is the firm minimizing costs? If your answer is negative, determine
    the optimal amounts of labor and capital inputs.
-b) <<ex11.21:item-b>>If the firm increased its output to 100 units and
+b) <<ex11.13:item-b>>If the firm increased its output to 100 units and
    the capital was fixed, how much would the costs of production
    increase?
-c) <<ex11.21:item-c>>If the firm increased its output to 100 units and
+c) <<ex11.13:item-c>>If the firm increased its output to 100 units and
    all inputs were variable, how much would the costs of production
    increase?
-d) Compare the answers to [[ex11.21:item-b]] and [[ex11.21:item-c]]. Why do they
+d) Compare the answers to [[ex11.13:item-b]] and [[ex11.13:item-c]]. Why do they
    differ?
 
 
@@ -260,8 +259,8 @@ Not done yet.
 
 * 11.14.
 
-A small company dedicated to the production of electrical guitars
-is considering the possibility of opening a new factory. When
+\DANGER A small company dedicated to the production of electrical
+guitars is considering the possibility of opening a new factory. When
 using a single factory, the average cost curve is:
 #+begin_export latex
 \[

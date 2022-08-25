@@ -184,7 +184,7 @@ c) La elección de Julia no cambiaría: ni su recta presupuestaria ni
 
 * 5.4
 
-Un consumidor gasta su renta $M$ en los bienes $X$ e $Y$.
+\DANGER Un consumidor gasta su renta $M$ en los bienes $X$ e $Y$.
 
 a) ¿Como cambiaría su recta presupuestaria si se estableciera un
    impuesto sobre el consumo y el precio de ambos bienes aumentara
@@ -281,7 +281,7 @@ presupuestaria como:
 
 * 5.6
 
-Un consumidor dispone de una renta de $100$ € a la semana y se
+\TASK Un consumidor dispone de una renta de $100$ € a la semana y se
 alimenta de arroz, que cuesta \money{1} el kilo. Obtenga y represente
 la restricción presupuestaria del consumidor en las siguientes
 situaciones (utilice un bien compuesto):
@@ -384,7 +384,7 @@ c)
 
 * 5.7
 
-Un consumidor dispone de \money{20} para comprar carne y
+\DANGER Un consumidor dispone de \money{20} para comprar carne y
 patatas. Suele comprar en un supermercado donde la carne se vende a
 \price[kg]{4} y un kilo de patatas cuesta \money{2}.
 
@@ -448,9 +448,9 @@ b) Si compra menos de \units[kg]{4} de patatas, la restricción
 
 * 5.8
 
-Eugenio y Ana comparten piso. Cada uno de ellos tiene una renta
-mensual de \money{1000} que gastan en su totalidad en alimentos y
-vestido. Cuando el precio de los alimentos es \price{8} y el de los
+\DANGER Eugenio y Ana comparten piso. Cada uno de ellos tiene una
+renta mensual de \money{1000} que gastan en su totalidad en alimentos
+y vestido. Cuando el precio de los alimentos es \price{8} y el de los
 vestidos es \price{40}, Ana compra 10 unidades de vestido y Eugenio
 compra 20 unidades.
 
@@ -494,7 +494,7 @@ preferencias, no es posible determinar si ha empeorado o ha mejorado.
 
 * 5.9
 
-Ángeles dispone de \money{100} al mes para gastar en llamadas
+\TASK Ángeles dispone de \money{100} al mes para gastar en llamadas
 telefónicas y un bien compuesto. Su compañía telefónica sólo le cobra
 \money{0.02} por minuto de llamada.
 

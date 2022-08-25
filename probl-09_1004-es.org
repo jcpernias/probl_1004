@@ -94,13 +94,13 @@ no recibirá intereses. Por otro lado, no puede pedir prestado.
 
 * 9.3.
 
-Un consumidor vive dos periodos y puede prestar y pedir prestado
-dinero a un tipo de interés del 10%. En el primer periodo obtiene
-una renta de \money{1000} mientras que en el segundo período
+\DANGER Un consumidor vive dos periodos y puede prestar y pedir
+prestado dinero a un tipo de interés del 10%. En el primer periodo
+obtiene una renta de \money{1000} mientras que en el segundo período
 obtiene \money{750}. En estas condiciones el consumidor decide no
-ahorrar nada. Si el tipo de interés disminuyera al 5%, ¿qué
-ocurriría con el ahorro? ¿Qué situación preferiría el consumidor:
-un tipo de interés del 10% o del 5%? Represente gráficamente.
+ahorrar nada. Si el tipo de interés disminuyera al 5%, ¿qué ocurriría
+con el ahorro? ¿Qué situación preferiría el consumidor: un tipo de
+interés del 10% o del 5%? Represente gráficamente.
 
 
 ** Answer
@@ -150,11 +150,11 @@ El consumidor prefiere la situación en la que $r = 0.05$.
 
 * 9.4.
 
-Las preferencias intertemporales de un consumidor vienen dadas por la
-función: $U(C_1, C_2)= C_1 C_2^{1/2}$.  Su renta en el primer periodo
-es \money{200} y en el segundo periodo es \money{220}. El tipo de
-interés al que se presta dinero es del 5%, y el tipo de interés al se
-pide prestado es del 10%.
+\DANGER Las preferencias intertemporales de un consumidor vienen dadas
+por la función: $U(C_1, C_2)= C_1 C_2^{1/2}$.  Su renta en el primer
+periodo es \money{200} y en el segundo periodo es \money{220}. El tipo
+de interés al que se presta dinero es del 5%, y el tipo de interés al
+se pide prestado es del 10%.
 
 a) Obtenga la restricción presupuestaria del individuo y represéntela
    gráficamente.
@@ -283,8 +283,8 @@ c) Restricción intertemporal: $C_2 = 436 - 1.08 C_2$.
 
 * 9.5.
 
-Un consumidor tiene unas preferencias con respecto a su consumo
-presente, $C_1$, y a su consumo futuro, $C_2$, que vienen
+\DANGER Un consumidor tiene unas preferencias con respecto a su
+consumo presente, $C_1$, y a su consumo futuro, $C_2$, que vienen
 representadas por la función de utilidad $U(C_1, C_2) = \min\{C_1,
 C_2\}$. La renta del consumidor en cada periodo es $M_1 =
 \money{4200}$ y $M_2 = \money{1050}$, y el tipo de interés es $r =
@@ -385,7 +385,7 @@ Restricción intertemporal:
 
 * 9.7.
 
-Un consumidor vive dos periodos y sus preferencias vienen
+\TASK Un consumidor vive dos periodos y sus preferencias vienen
 representadas por:
 #+begin_export latex
 \[

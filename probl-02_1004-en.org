@@ -42,7 +42,7 @@ Not done yet.
 
 * 2.3
 
-There are three buyers in a market whose demand curves are:
+\DANGER There are three buyers in a market whose demand curves are:
 #+begin_export latex
 \begin{gather*}
   \text{Buyer 1:\ } Q^d_1(P) = \num{1000} - 10 P \\
@@ -137,9 +137,9 @@ Not done yet.
 
 * 2.7
 
-The market for an inferior good is in equilibrium. If production costs
-and consumer income increase simultaneously, will both the price and
-the quantity decrease in the new equilibrium?
+\TASK The market for an inferior good is in equilibrium. If production
+costs and consumer income increase simultaneously, will both the price
+and the quantity decrease in the new equilibrium?
 
 
 ** Answer
@@ -149,8 +149,8 @@ Not done yet.
 
 * 2.8
 
-A severe drought has considerably damaged the coffee harvest in the
-main producing countries.
+\TASK A severe drought has considerably damaged the coffee harvest in
+the main producing countries.
 
 a) Which will be the consequences of the drought on global coffee
    market equilibrium? Explain and represent graphically.
@@ -166,8 +166,8 @@ Not done yet.
 
 * 2.9
 
-The market for electric scooters of a country is competitive and it is
-in equilibrium. Explain and represent graphically how would the
+\TASK The market for electric scooters of a country is competitive and
+it is in equilibrium. Explain and represent graphically how would the
 following situations affect market equilibrium.
 
 a) The price of batteries used for these electric scooters decreases.

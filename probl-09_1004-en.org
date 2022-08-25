@@ -42,8 +42,8 @@ Not done yet.
 
 * 9.3.
 
-A consumer lives for two periods and can lend and borrow money at an
-interest rate of 10%. In the first period she earns an income of
+\DANGER A consumer lives for two periods and can lend and borrow money
+at an interest rate of 10%. In the first period she earns an income of
 \money{1000} while in the second period she earns \money{750}. Under
 these conditions the consumer decides not to save anything. If the
 interest rate decreases to 5%, What would happen to her savings? What
@@ -58,11 +58,11 @@ Not done yet.
 
 * 9.4.
 
-The intertemporal preferences of a consumer are given by the function:
-$U(C_1, C_2) = C_1 C_2^{1/2}$. Her income in the first period is
-\money{200} and in the second period it is \money{220}. The
-interest rate at which money is lent is 5%, and the interest rate
-for borrowing is 10%.
+\DANGER The intertemporal preferences of a consumer are given by the
+function: $U(C_1, C_2) = C_1 C_2^{1/2}$. Her income in the first
+period is \money{200} and in the second period it is \money{220}. The
+interest rate at which money is lent is 5%, and the interest rate for
+borrowing is 10%.
 
 a) Obtain the individual's budget constraint and represent it
    graphically.
@@ -83,10 +83,10 @@ Not done yet.
 
 * 9.5.
 
-A consumer has preferences regarding her present consumption,
-$C_1$, and her future consumption, $C_2$, that are represented by
-the utility function: $U(C_1, C_2) = \min \{C_1, C_2\}$. The
-consumer's income in each period is $M_1 = \money{4200}$ and $M_2 =
+\DANGER A consumer has preferences regarding her present consumption,
+$C_1$, and her future consumption, $C_2$, that are represented by the
+utility function: $U(C_1, C_2) = \min \{C_1, C_2\}$. The consumer's
+income in each period is $M_1 = \money{4200}$ and $M_2 =
 \money{1050}$, and the interest rate is $r = 0.1$.
 
 a) Determine the intertemporal budget constraint in future value
@@ -119,7 +119,8 @@ Not done yet.
 
 * 9.7.
 
-A consumer lives two periods and her preferences are represented by:
+\TASK A consumer lives two periods and her preferences are represented
+by:
 #+begin_export latex
 \[
   U(C_1, C_2) = C_1^{3} C_2

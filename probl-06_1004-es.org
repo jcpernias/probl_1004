@@ -32,11 +32,11 @@ están incumpliendo. Justifique sus respuestas.
 
 * 6.2
 
-A Amaia le gusta el pescado, mientras que el pollo ni le gusta ni
-le disgusta. Por su parte, a Alejandro no le gusta el pescado pero
-sí el pollo y sólo está dispuesto a comer algo de pescado si a
-cambio recibe una porción extra de pollo. Represente las
-preferencias de Amaia y de Alejandro.
+\TASK A Amaia le gusta el pescado, mientras que el pollo ni le gusta
+ni le disgusta. Por su parte, a Alejandro no le gusta el pescado pero
+sí el pollo y sólo está dispuesto a comer algo de pescado si a cambio
+recibe una porción extra de pollo. Represente las preferencias de
+Amaia y de Alejandro.
 
 
 ** Answer
@@ -197,10 +197,10 @@ c) La relación marginal de sustitución
 
 * 6.6
 
-Luna y Aurora son dos hermanas cuyas preferencias son idénticas y se pueden
-representar por la función de utilidad: $U(X, Y) = 6 X + 3 Y$. Luna
-consume la cesta $L = (1, 5)$ mientras que Aurora consume la cesta $A
-= (3, 2)$.
+\TASK Luna y Aurora son dos hermanas cuyas preferencias son idénticas
+y se pueden representar por la función de utilidad: $U(X, Y) = 6 X + 3
+Y$. Luna consume la cesta $L = (1, 5)$ mientras que Aurora consume la
+cesta $A = (3, 2)$.
 
 a) Calcule los niveles de utilidad de Luna y de Aurora.
 
@@ -244,9 +244,9 @@ c)
 
 * 6.7
 
- Carmen es coleccionista de fotos antiguas. Hoy ha acudido a un
- mercadillo donde ha comprado 50 fotos para su colección y aún dispone
- de \money{150} para otras compras. En uno de los puestos del
+ \DANGER Carmen es coleccionista de fotos antiguas. Hoy ha acudido a
+ un mercadillo donde ha comprado 50 fotos para su colección y aún
+ dispone de \money{150} para otras compras. En uno de los puestos del
  mercadillo ha encontrado un lote de 10 fotos que le interesan y por
  el que piden \money{25}. La función de utilidad de Carmen es:
  #+begin_export latex

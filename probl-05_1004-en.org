@@ -61,7 +61,7 @@ Not done yet.
 
 * 5.4
 
-A consumer spends her income $M$ on goods $X$ and $Y$.
+\DANGER A consumer spends her income $M$ on goods $X$ and $Y$.
 
 a) How would her budget line change if a tax on consumption were
    introduced and the prices of both goods rose by 25%?
@@ -94,10 +94,10 @@ Not done yet.
 
 * 5.6
 
-A consumer has an income of $100$ € per week and consumes rice, at a
-price of \money{1} per kilo. Obtain the mathematical expression and
-represent the consumer’s budget constraint in the following situations
-(use a composite good):
+\TASK A consumer has an income of $100$ € per week and consumes rice,
+at a price of \money{1} per kilo. Obtain the mathematical expression
+and represent the consumer’s budget constraint in the following
+situations (use a composite good):
 
 a) The consumer has a subsidy of \price[kg]{0.25} for the first five
    kilos of rice bought and pays the market price for the additional
@@ -115,9 +115,9 @@ Not done yet.
 
 * 5.7
 
-A consumer has \money{20} to buy meat and potatoes. He usually shops
-at a supermarket where the meat is sold for \price[kg]{4}, and one
-kilo of potatoes costs \money{2}.
+\DANGER A consumer has \money{20} to buy meat and potatoes. He usually
+shops at a supermarket where the meat is sold for \price[kg]{4}, and
+one kilo of potatoes costs \money{2}.
 
 a) Obtain and represent the budget constraint.
 
@@ -133,8 +133,8 @@ Not done yet.
 
 * 5.8
 
-Eugenio and Ana share an apartment. Each one of them has a monthly
-income of \money{1000} that they entirely spend on food and
+\DANGER Eugenio and Ana share an apartment. Each one of them has a
+monthly income of \money{1000} that they entirely spend on food and
 clothes. When the price of food is \price{8} and the price of clothes
 is \price{40}, Ana buys 10 units of clothes and Eugenio buys 20 units.
 
@@ -151,7 +151,7 @@ Not done yet.
 
 * 5.9
 
-Ángeles has \money{100} per month that she spends on phone calls and a
+\TASK Ángeles has \money{100} per month that she spends on phone calls and a
 composite good. Her phone company just charges \money{0.02} per
 minute.
 

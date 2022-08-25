@@ -1,7 +1,8 @@
 # -*- ispell-dictionary: "english" -*-
 #+SETUPFILE: ./course-en.org
 
-* 8.1
+
+* 10.1
 
 Complete the following table that describes a firm's short run
 production.
@@ -29,7 +30,7 @@ labor input levels shown in the table technically efficient?  Why?
 Not done yet.
 
 
-* 8.2.
+* 10.2.
 
 Given the production function $Q = L^{2} K - 0.01 L^{3}$ and knowing
 that the capital input is fixed at $\Kbar = 6$, determine:
@@ -47,7 +48,7 @@ c) The levels of labor input that maximize the marginal product, the
 Not done yet.
 
 
-* 8.3
+* 10.3
 
 With the following production functions:
 
@@ -71,7 +72,7 @@ b) Do any of these production functions fulfill the law of diminishing
 Not done yet.
 
 
-* 8.4
+* 10.4
 
 In each of the following graphs, draw where the marginal product of labor curve would lie. Justify your answer.
 
@@ -82,7 +83,7 @@ In each of the following graphs, draw where the marginal product of labor curve 
 Not done yet.
 
 
-* 8.5.
+* 10.5.
 
 If the marginal product of labor is decreasing in the short run,
 should the average product also be decreasing?
@@ -93,21 +94,21 @@ should the average product also be decreasing?
 Not done yet.
 
 
-* 8.6.
+* 10.6.
 
-The output per worker in a company is 20 chairs per day. The company's
-owner has calculated that an additional worker would increase the
-daily output by 10 chairs. What would happen to the average product if
-the company hires another worker?
+\TASK The output per worker in a company is 20 chairs per day. The
+company's owner has calculated that an additional worker would
+increase the daily output by 10 chairs. What would happen to the
+average product if the company hires another worker?
 
 ** Answer
 
 Not done yet.
 
 
-* 8.7.
+* 10.7.
 
-The following figure shows some isoquants from the production
+\TASK The following figure shows some isoquants from the production
 function of a firm:
 
 #+xxx: fig fig-probl-8_1004-const-returns-*.pdf
@@ -129,7 +130,7 @@ c) What kind of returns to scale are observed in the production
 Not done yet.
 
 
-* 8.8.
+* 10.8.
 
 Is the following statement correct? Justify your answer: "A company
 with constant returns to scale will double its production when it
@@ -141,12 +142,12 @@ doubles the use of capital input."
 Not done yet.
 
 
-* 8.9.
+* 10.9.
 
-A factory uses labor and capital inputs to produce shoes. After
-increasing the number of workers by 50% the output grows by
-60%. Does this mean that the production function of this factory
-shows increasing returns to scale?
+\TASK A factory uses labor and capital inputs to produce shoes. After
+increasing the number of workers by 50% the output grows by 60%. Does
+this mean that the production function of this factory shows
+increasing returns to scale?
 
 
 ** Answer
@@ -154,9 +155,9 @@ shows increasing returns to scale?
 Not done yet.
 
 
-* 8.10.
+* 10.10.
 
-The following figure shows some isoquants from the production
+\DANGER The following figure shows some isoquants from the production
 function of a firm:
 
 #+xxx: fig fig-probl-8_1004-incr-returns-*.pdf
@@ -173,7 +174,7 @@ b) If $\Kbar = 5$, is the law of diminishing marginal returns
 Not done yet.
 
 
-* 8.11.
+* 10.11.
 
 Consider the following production functions:
 
@@ -192,13 +193,13 @@ For each of these production functions:
 
 a) Obtain the rate of substitution among inputs.
 
-b) <<ex8.11:item-b>>What kind of returns to scale returns shows the
+b) <<ex10.11:item-b>>What kind of returns to scale returns shows the
    production function?
 
-c) <<ex8.11:item-c>>Check whether the law of diminishing marginal
+c) <<ex10.11:item-c>>Check whether the law of diminishing marginal
    returns holds when $\Kbar = 16\text{\ units}$.
 
-d) Comparing the results of [[ex8.11:item-b]] and [[ex8.11:item-c]], is
+d) Comparing the results of [[ex10.11:item-b]] and [[ex10.11:item-c]], is
    there some kind of relationship between the returns to scale and
    the returns to the labor input?
 

@@ -85,7 +85,8 @@ b) Si el precio de mercado es $P = \price{4}$ se produce un exceso de
 
 * 2.3
 
-En un mercado competitivo sólo hay tres compradores y sus curvas de demanda individuales son:
+\DANGER En un mercado competitivo sólo hay tres compradores y sus
+curvas de demanda individuales son:
 #+begin_export latex
 \begin{gather*}
   \text{Comprador 1:\ } Q^d_1(P) = \num{1000} - 10 P \\
@@ -328,10 +329,10 @@ cambia el precio.
 
 * 2.7
 
-El mercado de un bien inferior se encuentra en equilibrio. Si
-simultáneamente aumentan los costes de producción y la renta de
-los consumidores, ¿disminuirán tanto el precio como la cantidad en
-el nuevo equilibrio?
+\TASK El mercado de un bien inferior se encuentra en equilibrio. Si
+simultáneamente aumentan los costes de producción y la renta de los
+consumidores, ¿disminuirán tanto el precio como la cantidad en el
+nuevo equilibrio?
 
 
 ** Answer
@@ -374,8 +375,8 @@ disminuir.
 
 * 2.8
 
-Una fuerte sequía ha dañado considerablemente la cosecha de café en
-los principales países productores.
+\TASK Una fuerte sequía ha dañado considerablemente la cosecha de café
+en los principales países productores.
 
 a) ¿Qué consecuencias tendrá la sequía sobre el equilibrio en el
    mercado mundial de café? Razone y represente gráficamente.
@@ -420,7 +421,7 @@ b)
 
 * 2.9
 
-El mercado de patinetes eléctricos de un país es competitivo y se
+\TASK El mercado de patinetes eléctricos de un país es competitivo y se
 encuentra en equilibrio. Razone y represente gráficamente cómo
 afectarían las siguientes situaciones al equilibrio de mercado.
 

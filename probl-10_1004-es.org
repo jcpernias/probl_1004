@@ -310,10 +310,10 @@ embargo, el producto medio es creciente.
 
 * 10.6.
 
-La producción por trabajador en una empresa es de 20 sillas al día. El
-propietario de la empresa ha calculado que un trabajador adicional
-elevaría la producción diaria en 10 sillas. ¿Qué ocurrirá con el
-producto medio si la empresa contrata otro trabajador?
+\TASK La producción por trabajador en una empresa es de 20 sillas al
+día. El propietario de la empresa ha calculado que un trabajador
+adicional elevaría la producción diaria en 10 sillas. ¿Qué ocurrirá
+con el producto medio si la empresa contrata otro trabajador?
 
 
 ** Answer
@@ -328,7 +328,7 @@ contratara un trabajador más.
 
 * 10.7.
 
-El siguiente gráfico muestra algunas isocuantas de la función de
+\TASK El siguiente gráfico muestra algunas isocuantas de la función de
 producción de una empresa:
 
 #+xxx: fig fig-probl-8_1004-const-returns-*.pdf
@@ -396,10 +396,10 @@ constantes de escala, la producción se duplicará cuando se dupliquen
 
 * 10.9.
 
-Una fábrica utiliza trabajo y capital para producir zapatos. Después
-de aumentar el número de trabajadores en un 50% la producción crece en
-un 60%. ¿Qué tipo de rendimientos de escala presenta la función de
-producción de la empresa?
+\TASK Una fábrica utiliza trabajo y capital para producir
+zapatos. Después de aumentar el número de trabajadores en un 50% la
+producción crece en un 60%. ¿Qué tipo de rendimientos de escala
+presenta la función de producción de la empresa?
 
 
 ** Answer
@@ -413,8 +413,8 @@ proporción.
 
 * 10.10.
 
-El siguiente gráfico muestra algunas isocuantas de la función de
-producción de una empresa:
+\DANGER El siguiente gráfico muestra algunas isocuantas de la función
+de producción de una empresa:
 
 #+xxx: fig fig-probl-8_1004-incr-returns-*.pdf
 

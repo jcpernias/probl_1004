@@ -83,8 +83,8 @@ Not done yet.
 
 * 8.6
 
-The following graph shows the PCC of a consumer when the price of good
-$Y$ is $P_Y = \price{2}$ and the income is $M= \money{120}$:
+\TASK The following graph shows the PCC of a consumer when the price
+of good $Y$ is $P_Y = \price{2}$ and the income is $M= \money{120}$:
 
 #+xxx: fig fig-probl-6_1004-cpc22-*.pdf
 
@@ -105,10 +105,11 @@ Not done yet.
 
 * 8.7
 
-The optimal basket for a consumer with regular preferences contains
-positive amounts of all goods. If the price of one of the goods
-increases, will this reduce the consumer's utility? Explain how the
-consumer's utility varies along the demand curve. Justify your answers.
+\DANGER The optimal basket for a consumer with regular preferences
+contains positive amounts of all goods. If the price of one of the
+goods increases, will this reduce the consumer's utility? Explain how
+the consumer's utility varies along the demand curve. Justify your
+answers.
 
 
 ** Answer
@@ -118,8 +119,8 @@ Not done yet.
 
 * 8.8
 
-In a market $n$ identical consumers participate and the demand curve
-for each one of them is:
+\DANGER In a market $n$ identical consumers participate and the demand
+curve for each one of them is:
 #+begin_export latex
   \[ X_i^d(P_X) = a - b P_X \qquad
      \begin{array}{l}a,b > 0\\ i = 0, 1, \dots, n\end{array}\]
@@ -140,13 +141,12 @@ Not done yet.
 
 * 8.9
 
-Both Adela and Blas have \money{100} to spend on goods $X$ and
+\DANGER Both Adela and Blas have \money{100} to spend on goods $X$ and
 $Y$. Adela only cares about how many units of $X$ she can consume,
 since she does not get any satisfaction from good $Y$. On the other
-side, Blas is always willing to exchange a unit of good $X$ for a
-unit of good $Y$. The prices of the goods are $P_X = \price{2}$ and
-$P_Y = \price{4}$. Obtain the demand curves for good $X$ of Adela
-and Blas.
+side, Blas is always willing to exchange a unit of good $X$ for a unit
+of good $Y$. The prices of the goods are $P_X = \price{2}$ and $P_Y =
+\price{4}$. Obtain the demand curves for good $X$ of Adela and Blas.
 
 
 ** Answer
@@ -156,12 +156,12 @@ Not done yet.
 
 * 8.10
 
-Rocío likes eating milk with cereals. She always combines them in the
-same proportion: she adds exactly \units[g]{20} of cereals by each
-[ml]{250} of milk and she throws away all the additional amount of
-either milk or cereals.  Obtain the demand curve for cereals knowing
-that the price of milk is \price[l]{0.80} and that Rocío spends
-\money{6} per month on milk and cereals. If cereals are sold at
+\DANGER Rocío likes eating milk with cereals. She always combines them
+in the same proportion: she adds exactly \units[g]{20} of cereals by
+each [ml]{250} of milk and she throws away all the additional amount
+of either milk or cereals.  Obtain the demand curve for cereals
+knowing that the price of milk is \price[l]{0.80} and that Rocío
+spends \money{6} per month on milk and cereals. If cereals are sold at
 \price[kg]{2}, which quantity will Rocío demand?
 
 
@@ -192,11 +192,10 @@ Not done yet.
 
 * 8.12
 
-The goods $X$ and $Y$ are perfect complements. Represent
+\DANGER The goods $X$ and $Y$ are perfect complements. Represent
 graphically how the optimal consumption choice would change if the
 price of good $X$ increases. Decompose the total effect on the
-consumption of $X$ into the substitution effect and the income
-effect.
+consumption of $X$ into the substitution effect and the income effect.
 
 
 * 8.13
@@ -223,8 +222,8 @@ Not done yet.
 
 * 8.15
 
-The following graph shows the optimal choices of a consumer before
-and after a decrease in the price of good $X$:
+\TASK The following graph shows the optimal choices of a consumer
+before and after a decrease in the price of good $X$:
 
 #+xxx: fig fig-probl-6_1004-fxs-*.pdf
 
@@ -243,10 +242,10 @@ Not done yet.
 
 * 8.16
 
-The mayor of Lazy Town has decided to introduce a new tax on
-sugary drinks of \money{0.50} per can of soda. The tax is
-completely transferred to buyers and the price of the can
-increases from \money{0.50} to \money{1.00}.
+\DANGER The mayor of Lazy Town has decided to introduce a new tax on
+sugary drinks of \money{0.50} per can of soda. The tax is completely
+transferred to buyers and the price of the can increases from
+\money{0.50} to \money{1.00}.
 
 Stephanie is a typical citizen of Lazy Town whose utility function is:
 #+begin_export latex

@@ -176,8 +176,8 @@ economía, todos los consumidores pagan los mismos precios. Por tanto:
 
 * 7.5
 
-Una consumidor posee una renta de \money{40} que gasta en los bienes
-$X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
+\TASK Una consumidor posee una renta de \money{40} que gasta en los
+bienes $X$ e $Y$, cuyos precios son $P_X = \price{3}$ y $P_Y =
 \price{2}$. Cuando consume $20$ unidades de $Y$ y ninguna de $X$, la
 relación marginal de sustitución es igual a $2$. ¿Es esta su elección
 óptima o estaría mejor comprando más unidades de $X$ y menos de $Y$?
@@ -487,9 +487,9 @@ c) La siguiente tabla resume los resultados obtenidos:
 
 * 7.8
 
-A Rafa le gusta jugar al tenis y siempre que puede juega en un club
-cercano a su casa. Alquilar una pista de tenis le cuesta \money{5} por
-hora. Su función de utilidad es:
+\DANGER A Rafa le gusta jugar al tenis y siempre que puede juega en un
+club cercano a su casa. Alquilar una pista de tenis le cuesta
+\money{5} por hora. Su función de utilidad es:
 #+begin_export latex
 \[
   U(H, Y) = H Y^{3/2}
@@ -566,10 +566,10 @@ b) Si se hace socio, el alquiler es más barato pero deberá pagar la
 
 * 7.9
 
-Las preferencias de un consumidor vienen dadas por la función de
-utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien $X$ es
-\price{1} y el del bien $Y$ es \price{4}. El consumidor dispone de
-una renta monetaria de \money{250}.
+\TASK Las preferencias de un consumidor vienen dadas por la función de
+utilidad: $U(X, Y) = X (Y + 100)$. El precio del bien $X$ es \price{1}
+y el del bien $Y$ es \price{4}. El consumidor dispone de una renta
+monetaria de \money{250}.
 
 a) Determine la cesta óptima de consumo.
 
@@ -620,9 +620,9 @@ b) Cuando el consumo de $X$ se raciona, el consumidor no puede elegir
 
 * 7.10
 
-La función de utilidad de un individuo respecto de los bienes $X$ e
-$Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado son
-$P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
+\DANGER La función de utilidad de un individuo respecto de los bienes
+$X$ e $Y$ viene dada por $U(X,Y) = 3X + 3Y$. Los precios de mercado
+son $P_X = \price{2}$ y $P_Y = \price{5}$ y la renta monetaria del
 consumidor es $M = \money{100}$.
 
 a) ¿Es $(X,Y) = (10, 40)$ la cesta óptima? ¿Por qué?
@@ -658,8 +658,8 @@ c) Ahora $\RMS = 1 < P_X / P_Y = 2$ y el consumidor gastaría toda su
 
 * 7.11
 
-A Rocío le gusta tomar leche con cereales. Siempre los combina en
-la misma proporción: añade exactamente \units[g]{20} de cereales
+\DANGER A Rocío le gusta tomar leche con cereales. Siempre los combina
+en la misma proporción: añade exactamente \units[g]{20} de cereales
 por cada \units[ml]{250} de leche y desecha cualquier cantidad
 sobrante de leche o cereales.
 

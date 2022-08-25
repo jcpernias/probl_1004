@@ -74,8 +74,8 @@ Not done yet.
 
 * 7.5
 
-A consumer has an income of \money{40} that she spends on goods $X$
-and $Y$, whose prices are $P_X = \price{3}$ and $P_Y =
+\TASK A consumer has an income of \money{40} that she spends on goods
+$X$ and $Y$, whose prices are $P_X = \price{3}$ and $P_Y =
 \price{2}$. When she consumes $20$ units of $Y$ and none of $X$, the
 marginal rate of substitution is equal to $2$. Is this her optimal
 choice or would she be better off buying more units of good $X$ and
@@ -132,9 +132,9 @@ Not done yet.
 
 * 7.8
 
-Rafa likes playing tennis and whenever he can he plays in a club near
-his home. Renting a tennis court costs \money{5} per hour. His utility
-function is:
+\DANGER Rafa likes playing tennis and whenever he can he plays in a
+club near his home. Renting a tennis court costs \money{5} per
+hour. His utility function is:
 #+begin_export latex
 \[
   U(H, Y) = H Y^{3/2}
@@ -159,10 +159,10 @@ Not done yet.
 
 * 7.9
 
-The preferences of a consumer are given by the utility function:
-$U(X, Y) = X (Y + 100)$. The price of good $X$ is \price{1} and
-that of good $Y$ is \price{4}. The consumer has a monetary income
-of \money{250}.
+\TASK The preferences of a consumer are given by the utility function:
+$U(X, Y) = X (Y + 100)$. The price of good $X$ is \price{1} and that
+of good $Y$ is \price{4}. The consumer has a monetary income of
+\money{250}.
 
 a) Determine the optimal consumption bundle.
 
@@ -178,10 +178,10 @@ Not done yet.
 
 * 7.10
 
-The utility function of an individual with respect to goods $X$
-and $Y$ is given by $U(X, Y) = 3X + 3Y$. The market prices are
-$P_X = \price{2}$ and $P_Y = \price{5}$ and the monetary income of
-the consumer is $M = \money{100}$.
+\DANGER The utility function of an individual with respect to goods
+$X$ and $Y$ is given by $U(X, Y) = 3X + 3Y$. The market prices are
+$P_X = \price{2}$ and $P_Y = \price{5}$ and the monetary income of the
+consumer is $M = \money{100}$.
 
 a) Is $(X, Y) = (10, 40)$ the optimal basket? Why?
 
@@ -197,10 +197,10 @@ Not done yet.
 
 * 7.11
 
-Rocío likes to eat cereal with milk for breakfast. She always
+\DANGER Rocío likes to eat cereal with milk for breakfast. She always
 combines them in the same proportion: she adds exactly 20 grams of
-cereal per every \units[ml]{250} of milk and discards any excess
-of milk or cereal.
+cereal per every \units[ml]{250} of milk and discards any excess of
+milk or cereal.
 
 a) Represent Rocío's preferences regarding milk and cereal.
 

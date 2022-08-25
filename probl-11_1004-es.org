@@ -125,7 +125,7 @@ c) El coste medio se minimiza cuando $\CMe = \CMg$:
 
 * 11.3
 
-Una empresa se encuentra en una situación tal que $\PMgL =
+\DANGER Una empresa se encuentra en una situación tal que $\PMgL =
 \PMeL$. ¿Qué relación existe entre su costo medio y marginal a corto
 plazo? Represente gráficamente.
 
@@ -189,10 +189,10 @@ condición de tangencia, $L^* = 100$. El coste mínimo de producir
 
 * 11.5.
 
-La propietaria de una empresa ha dibujado el siguiente diagrama para
-decidir qué cantidad de factores debe de contratar a largo plazo para
-producir 150 unidades cuando los precios unitarios del trabajo y del capital
-son \money{16} y \money{40}, respectivamente.
+\TASK La propietaria de una empresa ha dibujado el siguiente diagrama
+para decidir qué cantidad de factores debe de contratar a largo plazo
+para producir 150 unidades cuando los precios unitarios del trabajo y
+del capital son \money{16} y \money{40}, respectivamente.
 
 #+xxx: fig fig-probl-9_1004-choice-*.pdf
 
@@ -240,15 +240,15 @@ c) En la combinación que minimiza los costes se debe cumplir la
 
 * 11.6.
 
-Sauron SA es una empresa dedicada a la producción de anillos
+\DANGER Sauron SA es una empresa dedicada a la producción de anillos
 exclusivos empleando trabajadores e impresoras 3D. La producción
-diaria se incrementaría en 18 anillos si se contratara un
-trabajador más. Si en vez de aumentar la plantilla se alquilara una
-impresora adicional, la producción diaria se elevaría en 6
-anillos. Sabiendo que el salario al día es 4 veces el alquiler
-diario de una impresora 3D, ¿está minimizando Sauron SA sus costes?
-Si su respuesta es no, ¿qué podría hacer Sauron SA para reducir sus
-costes? Justifique sus respuestas.
+diaria se incrementaría en 18 anillos si se contratara un trabajador
+más. Si en vez de aumentar la plantilla se alquilara una impresora
+adicional, la producción diaria se elevaría en 6 anillos. Sabiendo que
+el salario al día es 4 veces el alquiler diario de una impresora 3D,
+¿está minimizando Sauron SA sus costes?  Si su respuesta es no, ¿qué
+podría hacer Sauron SA para reducir sus costes? Justifique sus
+respuestas.
 
 
 ** Answer
@@ -267,11 +267,11 @@ el alquiler de 3 impresoras adicionales.
 
 * 11.7.
 
-La función de producción de una empresa es: $Q = L^{3/2}
-K^{1/2}$. Actualmente contrata 144 horas de trabajo y 12 unidades
-de capital. Si ésta es la combinación óptima de factores a largo
-plazo y si los costes totales son iguales a \money{1152}, ¿cuáles
-son los precios del capital y del trabajo?
+\TASK La función de producción de una empresa es: $Q = L^{3/2}
+K^{1/2}$. Actualmente contrata 144 horas de trabajo y 12 unidades de
+capital. Si ésta es la combinación óptima de factores a largo plazo y
+si los costes totales son iguales a \money{1152}, ¿cuáles son los
+precios del capital y del trabajo?
 
 
 ** Answer
@@ -433,7 +433,7 @@ c) En general, los costes a corto plazo son mayores que los costes a
 
 * 11.11.
 
-La figura siguiente muestra algunas isocuantas de la función de
+\TASK La figura siguiente muestra algunas isocuantas de la función de
 producción de una empresa:
 
 #+xxx: fig fig-probl-9_1004-expansion-*.pdf
@@ -535,10 +535,10 @@ d) Incorrecta: es posible que el coste medio sea decrenciente y el
 
 * 11.13
 
-La función de producción de una empresa es $Q = 10 K^{1/2} L^{1/2}$ y
-los precios de los factores de producción son $w = \price{20}$ y $r =
-\price{80}$. Inicialmente, la empresa produce 80 unidades utilizando
-16 unidades de trabajo y 4 unidades de capital.
+\TASK La función de producción de una empresa es $Q = 10 K^{1/2}
+L^{1/2}$ y los precios de los factores de producción son $w =
+\price{20}$ y $r = \price{80}$. Inicialmente, la empresa produce 80
+unidades utilizando 16 unidades de trabajo y 4 unidades de capital.
 
 a) ¿Está minimizando costes la empresa? Si su respuesta es negativa,
    determine las cantidades óptimas de trabajo y capital.
@@ -609,10 +609,9 @@ d) Los costes se incrementan más cuando la empresa no puede modificar
 
 * 11.14.
 
-Una pequeña empresa dedicada a la producción de guitarras
+\DANGER Una pequeña empresa dedicada a la producción de guitarras
 eléctricas está planteándose la posibilidad de abrir una nueva
-fábrica. Cuando utiliza una sola fábrica la curva de costes medios
-es:
+fábrica. Cuando utiliza una sola fábrica la curva de costes medios es:
 #+begin_export latex
 \[
   \CMe_1(Q) = 0.01 Q^2 - 6 Q + 1400

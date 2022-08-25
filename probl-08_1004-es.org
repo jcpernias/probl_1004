@@ -270,9 +270,9 @@ b)
 
 * 8.6
 
-El siguiente gráfico muestra la curva precio consumo de un consumidor
-cuando el precio del bien $Y$ es $P_Y = \price{2}$ y la renta es $M
-= \money{120}$:
+\TASK El siguiente gráfico muestra la curva precio consumo de un
+consumidor cuando el precio del bien $Y$ es $P_Y = \price{2}$ y la
+renta es $M = \money{120}$:
 
 #+xxx: fig fig-probl-6_1004-cpc22-*.pdf
 
@@ -357,11 +357,11 @@ c) En el tramo decreciente de la curva precio consumo, variaciones en
 
 * 8.7
 
-La cesta óptima de un consumidor con preferencias regulares contiene
-cantidades positivas de todos los bienes. Si aumenta el precio de un
-bien, ¿se reducirá la utilidad del consumidor? Describa cómo varía la
-utilidad de un consumidor a lo largo de la curva de demanda de un
-bien. Justifique su respuesta.
+\DANGER La cesta óptima de un consumidor con preferencias regulares
+contiene cantidades positivas de todos los bienes. Si aumenta el
+precio de un bien, ¿se reducirá la utilidad del consumidor? Describa
+cómo varía la utilidad de un consumidor a lo largo de la curva de
+demanda de un bien. Justifique su respuesta.
 
 
 ** Answer
@@ -398,8 +398,8 @@ menor cuanto mayor es el precio.
 
 * 8.8
 
-En un mercado participan $n$ consumidores idénticos y la curva de
-demanda de cada uno de ellos es:
+\DANGER En un mercado participan $n$ consumidores idénticos y la curva
+de demanda de cada uno de ellos es:
 #+begin_export latex
   \[ X_i^d(P_X) = a - b P_X \qquad
      \begin{array}{l}a,b > 0\\ i = 0, 1, \dots, n\end{array}\]
@@ -469,14 +469,13 @@ b) La elasticidad de una curva de demanda individual es:
 
 * 8.9.
 
-Tanto Adela como Blas disponen de \money{100} para gastar en los
-bienes $X$ e $Y$.  A Adela sólo le importa cuántas unidades de $X$
+\DANGER Tanto Adela como Blas disponen de \money{100} para gastar en
+los bienes $X$ e $Y$.  A Adela sólo le importa cuántas unidades de $X$
 puede consumir ya que el bien $Y$ no le reporta ninguna
-satisfacción. Por su parte, Blas está siempre dispuesto a
-intercambiar una unidad del bien $X$ por una unidad del bien
-$Y$. Los precios de los bienes son $P_X = \price{2}$ y $P_Y =
-\price{4}$. Obtenga las curvas de demanda del bien $X$ de Adela y
-Blas.
+satisfacción. Por su parte, Blas está siempre dispuesto a intercambiar
+una unidad del bien $X$ por una unidad del bien $Y$. Los precios de
+los bienes son $P_X = \price{2}$ y $P_Y = \price{4}$. Obtenga las
+curvas de demanda del bien $X$ de Adela y Blas.
 
 
 ** Answer
@@ -547,12 +546,12 @@ el precio más bajo y la curva de demanda del bien $X$ sería:
 
 * 8.10
 
-A Rocío le gusta tomar leche con cereales. Siempre los combina en la
-misma proporción: añade exactamente \units[g]{20} de cereales por cada
-\units[ml]{250} de leche y desecha cualquier cantidad sobrante de
-leche o cereales. Obtenga la curva de demanda de cereales sabiendo que
-el precio de la leche es de \price[l]{0.80} y que Rocío gasta
-\money{6} al mes en leche y cereales. Si los cereales se venden
+\DANGER A Rocío le gusta tomar leche con cereales. Siempre los combina
+en la misma proporción: añade exactamente \units[g]{20} de cereales
+por cada \units[ml]{250} de leche y desecha cualquier cantidad
+sobrante de leche o cereales. Obtenga la curva de demanda de cereales
+sabiendo que el precio de la leche es de \price[l]{0.80} y que Rocío
+gasta \money{6} al mes en leche y cereales. Si los cereales se venden
 a \price[kg]{2}, ¿qué cantidad demandará Rocío?
 
 
@@ -677,7 +676,7 @@ c) Determinamos la cesta óptima si sólo cambiaran los precios
 
 * 8.12.
 
-Los bienes $X$ e $Y$ son complementos perfectos. Represente
+\DANGER Los bienes $X$ e $Y$ son complementos perfectos. Represente
 gráficamente como cambiaría la elección de consumo óptima si aumenta
 el precio del bien $X$. Descomponga el cambio total en el consumo de
 $X$ en el efecto sustitución y el efecto renta.
@@ -729,9 +728,8 @@ No: los bienes Giffen son inferiores.
 
 * 8.15.
 
-El siguiente gráfico muestra las elecciones óptimas de un
-consumidor antes y después de una disminución del precio del bien
-$X$:
+\TASK El siguiente gráfico muestra las elecciones óptimas de un
+consumidor antes y después de una disminución del precio del bien $X$:
 
 #+xxx: fig fig-probl-6_1004-fxs-*.pdf
 
@@ -760,11 +758,10 @@ $X$ es inferior y su demanda tiene pendiente negativa.
 
 * 8.16.
 
-El alcalde de Lazy Town ha decidido introducir un nuevo impuesto
-sobre las refrescos azucarados de \money{0.50} por lata de
-refresco. El impuesto se traslada por completo a los compradores y
-el precio de la lata aumenta desde \money{0.50} hasta
-\money{1.00}.
+\DANGER El alcalde de Lazy Town ha decidido introducir un nuevo
+impuesto sobre las refrescos azucarados de \money{0.50} por lata de
+refresco. El impuesto se traslada por completo a los compradores y el
+precio de la lata aumenta desde \money{0.50} hasta \money{1.00}.
 
 Stephanie es una ciudadana típica de Lazy Town cuya función de
 utilidad es:

@@ -49,10 +49,10 @@ Not done yet.
 
 * 3.4
 
-Due to a change in price, the quantity demanded of a good decreases by
-5%, while the sellers' revenue increases by 3%. Is the demand elastic
-or inelastic? Calculate the value of the price elasticity using the
-information provided.
+\TASK Due to a change in price, the quantity demanded of a good
+decreases by 5%, while the sellers' revenue increases by 3%. Is the
+demand elastic or inelastic? Calculate the value of the price
+elasticity using the information provided.
 
 
 ** Answer
@@ -117,10 +117,10 @@ Not done yet.
 
 * 3.8
 
-The prices of hotel rooms in big cities usually depend on the day of
-the week in which they are rented. In a standard week, room prices are
-much lower during the weekend with respect to working days.  Use
-supply and demand plots to explain this behaviour.
+\DANGER The prices of hotel rooms in big cities usually depend on the
+day of the week in which they are rented. In a standard week, room
+prices are much lower during the weekend with respect to working days.
+Use supply and demand plots to explain this behaviour.
 
 
 ** Answer
@@ -160,8 +160,8 @@ Not done yet.
 
 * 3.10
 
-Anna pays \money{2} for each unit of food, spends \money{5000} per
-year in food and her annual income is \money{25000}. The price
+\DANGER Anna pays \money{2} for each unit of food, spends \money{5000}
+per year in food and her annual income is \money{25000}. The price
 elasticity of her demand for food is $-1$ while the income elasticity
 is $0.5$. If Anna is awarded with a \money{1000} grant that she can
 spend freely on what she prefers, what would be her food consumption?
@@ -174,12 +174,11 @@ Not done yet.
 
 * 3.11
 
-The manager of a firm that organizes musical shows must set the
+\TASK The manager of a firm that organizes musical shows must set the
 ticket price for a concert that will take place next spring. The
-concert hall has a capacity of \num{5000} people while the amount
-of people attending this type of concerts, $Q$, can be estimated by
-the demand curve: $Q = \num{8000} - 160 P$, where $P$ is the ticket
-price.
+concert hall has a capacity of \num{5000} people while the amount of
+people attending this type of concerts, $Q$, can be estimated by the
+demand curve: $Q = \num{8000} - 160 P$, where $P$ is the ticket price.
 
 a) What price should be set if the objective is to sell out all seats
    in the concert hall? Calculate and interpret the elasticity of
