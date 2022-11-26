@@ -462,9 +462,8 @@ ha aumentado o disminuido? ¿Y la de Eugenio?
 
 ** Answer
 
-Sean $\mathit{RP}_1$ y $\mathit{RP}_2$ as restricciones
-presupuestarias antes y después de la reforma impositiva,
-respectivamente:
+Las restricciones presupuestarias antes y después de la reforma
+impositiva son, respectivamente, $\mathit{RP}_1$ y $\mathit{RP}_2$:
 
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
