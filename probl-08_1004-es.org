@@ -344,13 +344,13 @@ b) Es posible construir una tabla que relacione $P_X$ y $X$ buscando
    #+xxx: endcol
 
 c) En el tramo decreciente de la curva precio consumo, variaciones en
-   el precio de $X$ se producen cambios en el consumo de los dos
+   el precio de $X$ producen cambios en el consumo de los dos
    bienes en direcciones opuestas. Por tanto, $X$ e $Y$ son
    sustitutivos cuando $P_X \geq 4$.
 
-   En el tramo creciente de la \CPC,los consumos de los dos bienes
-   variarían en la misma dirección en respuesta a alteraciones del
-   precio de $X$. Luego, cuando $P_X < 4$ los bienes $X$ e $Y$ son
+   En el tramo creciente de la \CPC, cambios en el precio de $X$
+   provocan variaciones de los consumos de los dos bienes en la
+   misma dirección. Luego, cuando $P_X < 4$ los bienes $X$ e $Y$ son
    complementarios.
 
 
