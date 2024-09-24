@@ -262,8 +262,9 @@ compact]{titlesec}
     \color{Section}\raisebox{2pt}{\Large\bomb}\quad}}
 \newcommand*{\DDANGER}{\makebox[0in][r]{%
     \color{Section}\raisebox{2pt}{\Large\bomb\,\bomb}\quad}}
-\newcommand*{\TASK}{\makebox[0in][r]{%
-    \color{Section}\raisebox{-1pt}{\Large\ding{228}}\quad}}
+% \newcommand*{\TASK}{\makebox[0in][r]{%
+%     \color{Section}\raisebox{-1pt}{\Large\ding{228}}\quad}}
+\newcommand*{\TASK}{}
 
 %% Solutions
 %% -----------------------------------------------------------------
