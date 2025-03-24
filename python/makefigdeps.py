@@ -47,9 +47,9 @@ def process_line(line, matchers):
 
 
 figs_matchers = (
-    Matcher("^\s*#\s", always_none),
-    Matcher("(?i)^\s*#[+]SETUPFILE:\s+(\S+)\s*$", dep_file),
-    Matcher("(?i)^\s*#[+]INCLUDE:\s+\"([^\":]+)", dep_file),
+    Matcher(r"^\s*#\s", always_none),
+    Matcher(r"(?i)^\s*#[+]SETUPFILE:\s+(\S+)\s*$", dep_file),
+    Matcher(r"(?i)^\s*#[+]INCLUDE:\s+\"([^\":]+)", dep_file),
     Matcher(r'\s*#\+BEGIN_SRC\s+latex\s+.*:tangle ([-_.a-zA-Z0-9]+)', fig_file)
 )
 
