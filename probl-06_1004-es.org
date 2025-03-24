@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 6.1
@@ -6,7 +6,7 @@
 Considere las preferencias representadas en los siguientes gráficos,
 donde las flechas indican la dirección en que aumenta la utilidad:
 
-#+xxx: fig fig-probl-06_1004-maps-*.pdf
+#+xxx: fig file:fig-probl-06_1004-maps-*.pdf
 
 Determine en cada caso qué supuestos de las preferencias regulares se
 están incumpliendo. Justifique sus respuestas.
@@ -45,7 +45,7 @@ Amaia y de Alejandro.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-06_1004-neutral-*.pdf
+#+xxx: fig file:fig-ans-probl-06_1004-neutral-*.pdf
 #+begin_center
 Amaia
 #+end_center
@@ -53,7 +53,7 @@ Amaia
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-06_1004-bad-*.pdf
+#+xxx: fig file:fig-ans-probl-06_1004-bad-*.pdf
 #+begin_center
 Alejandro
 #+end_center
@@ -88,7 +88,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-06_1004-rega-*.pdf
+   #+xxx: fig file:fig-ans-probl-06_1004-rega-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -102,7 +102,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-06_1004-regb-*.pdf
+   #+xxx: fig file:fig-ans-probl-06_1004-regb-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -171,7 +171,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-06_1004-cd-*.pdf
+   #+xxx: fig file:fig-ans-probl-06_1004-cd-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -228,7 +228,7 @@ c)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-06_1004-subst-*.pdf
+   #+xxx: fig file:fig-ans-probl-06_1004-subst-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}

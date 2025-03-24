@@ -80,7 +80,7 @@ how many units of labor and capital she should hire in the long run in
 order to produce 150 units when the unit prices of labor and capital
 are \money{16} and \money{40}, respectively.
 
-#+xxx: fig fig-probl-9_1004-choice-*.pdf
+#+xxx: fig file:fig-probl-9_1004-choice-*.pdf
 
 a) Complete the diagram by labeling the intersections of the
    isocost lines with the horizontal axis. What is the meaning of
@@ -191,7 +191,7 @@ Not done yet.
 \TASK The following figure shows some isoquants of a firm's production
 function:
 
-#+xxx: fig fig-probl-9_1004-expansion-*.pdf
+#+xxx: fig file:fig-probl-9_1004-expansion-*.pdf
 
 The daily wage amounts to \money{80} per worker.  Each unit of
 capital that uses the company also costs \money{80} per day. In

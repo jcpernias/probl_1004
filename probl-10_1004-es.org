@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 10.1.
@@ -118,12 +118,12 @@ c) /Maximización del \PMgL/: La derivada del producto marginal es:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-8_1004-pmgl-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-pmgl-*.pdf
    #+ATTR_LATEX: :options [b]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-8_1004-fprod-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-fprod-*.pdf
    #+xxx: endcol
 
 
@@ -154,7 +154,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-8_1004-total-a-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-total-a-*.pdf
 
    #+begin_export latex
      \centering%
@@ -164,7 +164,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-8_1004-total-b-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-total-b-*.pdf
 
    #+begin_export latex
      \centering%
@@ -174,7 +174,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-8_1004-total-c-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-total-c-*.pdf
 
    #+begin_export latex
      \centering%
@@ -187,7 +187,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-8_1004-marginal-a-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-marginal-a-*.pdf
 
    #+begin_export latex
      \centering%
@@ -197,7 +197,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-8_1004-marginal-b-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-marginal-b-*.pdf
 
    #+begin_export latex
      \centering%
@@ -207,7 +207,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-8_1004-marginal-c-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-marginal-c-*.pdf
 
    #+begin_export latex
      \centering%
@@ -225,7 +225,7 @@ b)
 Dibuje en cada uno de los siguientes gráficos donde se situaría la
 curva de producto marginal del trabajo. Justifique su respuesta.
 
-#+xxx: fig fig-probl-8_1004-pmel-*.pdf
+#+xxx: fig file:fig-probl-8_1004-pmel-*.pdf
 
 
 ** Answer
@@ -235,7 +235,7 @@ curva de producto marginal del trabajo. Justifique su respuesta.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-8_1004-pmel-a-*.pdf
+#+xxx: fig file:fig-ans-probl-8_1004-pmel-a-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -249,7 +249,7 @@ medio.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-8_1004-pmel-b-*.pdf
+#+xxx: fig file:fig-ans-probl-8_1004-pmel-b-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -261,7 +261,7 @@ se sitúa por debajo del medio.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-8_1004-pmel-c-*.pdf
+#+xxx: fig file:fig-ans-probl-8_1004-pmel-c-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -273,7 +273,7 @@ está por encima del medio.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-8_1004-pmel-d-*.pdf
+#+xxx: fig file:fig-ans-probl-8_1004-pmel-d-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -298,7 +298,7 @@ al medio.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-8_1004-pmel-decr-*.pdf
+#+xxx: fig file:fig-ans-probl-8_1004-pmel-decr-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -331,7 +331,7 @@ contratara un trabajador más.
 \TASK El siguiente gráfico muestra algunas isocuantas de la función de
 producción de una empresa:
 
-#+xxx: fig fig-probl-8_1004-const-returns-*.pdf
+#+xxx: fig file:fig-probl-8_1004-const-returns-*.pdf
 
 a) Si la empresa produce eficientemente 250 unidades y contrata 5
    trabajadores, ¿cuántas unidades de capital está utilizando? ¿Y si
@@ -352,7 +352,7 @@ a)
    #+ATTR_LATEX: :options [t]{\linewidth}
    #+xxx: col
    #+latex: \vspace{0pt}
-   #+xxx: fig fig-ans-probl-8_1004-const-returns-a-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-const-returns-a-*.pdf
    #+xxx: endcol
    #+latex: \vspace*{1ex}
 
@@ -416,7 +416,7 @@ proporción.
 \DANGER El siguiente gráfico muestra algunas isocuantas de la función
 de producción de una empresa:
 
-#+xxx: fig fig-probl-8_1004-incr-returns-*.pdf
+#+xxx: fig file:fig-probl-8_1004-incr-returns-*.pdf
 
 a) ¿Qué tipo de rendimientos de escala exhibe la función de producción
    de la empresa?
@@ -431,7 +431,7 @@ a)
    #+ATTR_LATEX: :options [t]{\linewidth}
    #+xxx: col
    #+latex: \vspace{0pt}
-   #+xxx: fig fig-ans-probl-8_1004-incr-returns-a-*.pdf
+   #+xxx: fig file:fig-ans-probl-8_1004-incr-returns-a-*.pdf
    #+xxx: endcol
    #+latex: \vspace*{1ex}
 

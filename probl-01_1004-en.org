@@ -144,7 +144,7 @@ Not done yet.
 The following figure shows the production possibilities frontier of
 an economy where only fish and coconuts are produced:
 
-#+xxx: fig fig-probl-1_1004-ppf-*.pdf
+#+xxx: fig file:fig-probl-1_1004-ppf-*.pdf
 
 Rank the production options $A$, $B$, $C$, and $D$ from higher to
 lower opportunity cost of producing fish.
@@ -159,7 +159,7 @@ Not done yet.
 
 Consider an economy where only two goods are produced: $X$ and $Y$.
 
-#+xxx: fig fig-probl-1_1004-ppf-multi-*.pdf
+#+xxx: fig file:fig-probl-1_1004-ppf-multi-*.pdf
 
 Associate each one of the previous graphs with the following
 statements. Justify your answers.

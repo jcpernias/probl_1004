@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 11.1.
@@ -85,7 +85,7 @@ a) El coste fijo son las remuneraciones del factor fijo:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-9_1004-short-curves1-*.pdf
+   #+xxx: fig file:fig-ans-probl-9_1004-short-curves1-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -101,7 +101,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-9_1004-short-curves2-*.pdf
+   #+xxx: fig file:fig-ans-probl-9_1004-short-curves2-*.pdf
    #+ATTR_LATEX: :options [t]{0.48\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -136,12 +136,12 @@ plazo? Represente gráficamente.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-9_1004-pme-pmg-*.pdf
+#+xxx: fig file:fig-ans-probl-9_1004-pme-pmg-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-9_1004-cme-cmg-*.pdf
+#+xxx: fig file:fig-ans-probl-9_1004-cme-cmg-*.pdf
 #+xxx: endcol
 #+latex: \vspace*{1ex}
 Relación de las curvas de producto medio y marginal con las curvas de
@@ -194,7 +194,7 @@ para decidir qué cantidad de factores debe de contratar a largo plazo
 para producir 150 unidades cuando los precios unitarios del trabajo y
 del capital son \money{16} y \money{40}, respectivamente.
 
-#+xxx: fig fig-probl-9_1004-choice-*.pdf
+#+xxx: fig file:fig-probl-9_1004-choice-*.pdf
 
 a) Complete el diagrama etiquetando las intersecciones de las
    isocostes con el eje horizontal. ¿Qué interpretación tienen
@@ -223,7 +223,7 @@ a) Todas las combinaciones de factores sobre una isocoste representan
    cantidad máxima de trabajo que se puede contratar con \money{480}:
    $480 / 16 = 30$. Repitiendo este procedimiento se obtienen los
    puntos de corte de las restantes isocostes:
-   #+xxx: fig fig-ans-probl-9_1004-choice2-*.pdf
+   #+xxx: fig file:fig-ans-probl-9_1004-choice2-*.pdf
 
 b) No: en la isocoste tangente a la isocuanta $Q=150$, el coste es
    $40\cdot 10 = 16 \cdot 25 = \money{400}$.
@@ -358,7 +358,7 @@ es $\CMe(4) = 6$ euros por unidad.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-9_1004-cmg-cme-long-*.pdf
+#+xxx: fig file:fig-ans-probl-9_1004-cmg-cme-long-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -417,7 +417,7 @@ c) En general, los costes a corto plazo son mayores que los costes a
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-9_1004-short-long-*.pdf
+   #+xxx: fig file:fig-ans-probl-9_1004-short-long-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -436,7 +436,7 @@ c) En general, los costes a corto plazo son mayores que los costes a
 \TASK La figura siguiente muestra algunas isocuantas de la función de
 producción de una empresa:
 
-#+xxx: fig fig-probl-9_1004-expansion-*.pdf
+#+xxx: fig file:fig-probl-9_1004-expansion-*.pdf
 
 El salario diario asciende a \money{80} por trabajador. También
 cuesta \money{80} al día cada unidad de capital que utilice la
@@ -458,7 +458,7 @@ a) Las combinaciones de factores que se elegirían a corto plazo se
    encuentran sobre  senda de expansión del
    producto a corto plazo: $\Kbar = 4$.
 
-   #+xxx: fig fig-ans-probl-9_1004-expansion2-*.pdf
+   #+xxx: fig file:fig-ans-probl-9_1004-expansion2-*.pdf
 
    La siguiente tabla muestra los costes a corto plazo asociados a los
    diferentes niveles de producción:
@@ -476,7 +476,7 @@ b) A largo plazo, la empresa seleccionaría aquellas cestas donde la
    pendiente de la isocuanta, en valor absoluto, coincide con el
    precio relativo de los factores, $w / r = 1$:
 
-   #+xxx: fig fig-ans-probl-9_1004-expansion3-*.pdf
+   #+xxx: fig file:fig-ans-probl-9_1004-expansion3-*.pdf
 
    Los costes a largo plazo se calculan en la siguiente tabla:
 
@@ -493,7 +493,7 @@ b) A largo plazo, la empresa seleccionaría aquellas cestas donde la
    intersección de las sendas de expansión a corto y a largo. En
    nuestro caso, esto ocurre cuando $K=4$, $L=4$ y $Q = 160$.
 
-   #+xxx: fig fig-ans-probl-9_1004-expansion4-*.pdf
+   #+xxx: fig file:fig-ans-probl-9_1004-expansion4-*.pdf
 
 
 
@@ -643,7 +643,7 @@ a) Con dos fábricas el coste medio es más bajo:
 
 b) La curva de costes medios a largo plazo es la envolvente de las
    curvas de coste medio a corto plazo.
-   #+xxx: fig fig-ans-probl-9_1004-envelop-*.pdf
+   #+xxx: fig file:fig-ans-probl-9_1004-envelop-*.pdf
    #+begin_export latex
    \[
      \CMe_{\LP} =

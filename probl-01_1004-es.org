@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 1.1
@@ -99,7 +99,7 @@ de alimentos y de vehículos, respectivamente. La siguiente tabla muestra las co
 a) Representamos la FPP con los valores contenidos en las columnas $A$
    y $V$ de la tabla:
 
-   #+xxx: fig fig-ans-probl-1_1004-ppf-shift-a-*.pdf
+   #+xxx: fig file:fig-ans-probl-1_1004-ppf-shift-a-*.pdf
 
 b) No: es una combinación inalcanzable.
 
@@ -108,7 +108,7 @@ c) Una mejora organizativa hace que, usando los mismos recursos, la
    las columnas $A$ y $V'$ de la tabla anterior para representar la
    nueva FPP.
 
-   #+xxx: fig fig-ans-probl-1_1004-ppf-shift-c-*.pdf
+   #+xxx: fig file:fig-ans-probl-1_1004-ppf-shift-c-*.pdf
 
    La frontera se desplaza hacia arriba pero la producción máxima de
    alimentos no cambia.
@@ -135,7 +135,7 @@ d) Calculamos las combinaciones de producción eficientes cuando sólo
    Cundo disminuyen los recursos productivos del país, la frontera se
    desplaza hacia abajo y hacia la izquierda.
 
-   #+xxx: fig fig-ans-probl-1_1004-ppf-shift-d-*.pdf
+   #+xxx: fig file:fig-ans-probl-1_1004-ppf-shift-d-*.pdf
 
 
 
@@ -172,7 +172,7 @@ e) ¿Qué relación existe entre la forma de la FPP y el coste de
 ** Answer
 
 a) Frontera de posibilidades de producción:
-   #+xxx: fig fig-ans-probl-1_1004-ppf-oc1-*.pdf
+   #+xxx: fig file:fig-ans-probl-1_1004-ppf-oc1-*.pdf
 
 b) La última columna de la tabla muestra el coste de oportunidad de
    cada cañón medido en toneladas de mantequilla:
@@ -232,7 +232,7 @@ d) ¿Que relación existe entre el comportamiento del coste de
 
 a) Frontera de posibilidades de producción:
 
-   #+xxx: fig fig-ans-probl-1_1004-ppf-lin-*.pdf
+   #+xxx: fig file:fig-ans-probl-1_1004-ppf-lin-*.pdf
 
 b) El coste de oportunidad puede calcularse como el valor absoluto de
    la pendiente de la frontera de posibilidades de producción:
@@ -259,7 +259,7 @@ d) La frontera es una línea recta, por lo que el coste de oportunidad
 El siguiente gráfico representa la frontera de posibilidades de
 producción de una economía donde sólo se producen cocos y pescado:
 
-#+xxx: fig fig-probl-1_1004-ppf-*.pdf
+#+xxx: fig file:fig-probl-1_1004-ppf-*.pdf
 
 Ordene las opciones de producción $A$, $B$, $C$ y $D$ de mayor a
 menor coste de oportunidad de producir pescado.
@@ -282,7 +282,7 @@ oportunidad: $D$, $A$ y $B$.
 
 Considere una economía donde sólo se producen dos bienes: $X$ e $Y$.
 
-#+xxx: fig fig-probl-1_1004-ppf-multi-*.pdf
+#+xxx: fig file:fig-probl-1_1004-ppf-multi-*.pdf
 
 Relacione cada uno de los gráficos anteriores con las siguientes
 afirmaciones. Razone sus respuestas.

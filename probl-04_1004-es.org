@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 4.1
@@ -6,7 +6,7 @@
 \TASK El siguiente gráfico muestra las curvas de demanda y de oferta
 de un mercado competitivo:
 
-#+xxx: fig fig-probl-4_1004-price-controls-*.pdf
+#+xxx: fig file:fig-probl-4_1004-price-controls-*.pdf
 
 Encuentre la cantidad que se vendería y a qué precio en cada una de
 las siguientes situaciones:
@@ -27,7 +27,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-price-controls-a-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-price-controls-a-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -41,7 +41,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-price-controls-b-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-price-controls-b-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -55,7 +55,7 @@ c)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-price-controls-c-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-price-controls-c-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -69,7 +69,7 @@ d)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-price-controls-d-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-price-controls-d-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -108,7 +108,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-min-price-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-min-price-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -133,7 +133,7 @@ este mercado del establecimiento de un precio mínimo de
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-4_1004-sugar-*.pdf
+#+xxx: fig file:fig-ans-probl-4_1004-sugar-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -208,7 +208,7 @@ a) La curva de demanda es:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-eq1-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-eq1-*.pdf
    #+ATTR_LATEX: :options [t]{0.50\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -228,7 +228,7 @@ b) La nueva curva de demanda es:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-eq2-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-eq2-*.pdf
    #+ATTR_LATEX: :options [t]{0.50\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -294,7 +294,7 @@ b) La curva de oferta después del impuesto es:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-tax-sellers-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-tax-sellers-*.pdf
    #+ATTR_LATEX: :options [t]{0.4\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -335,7 +335,7 @@ d) La curva de demanda después del impuesto es:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-tax-buyers-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-tax-buyers-*.pdf
    #+ATTR_LATEX: :options [t]{0.4\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -392,7 +392,7 @@ b) Cuando se introduce la subvención la curva de demanda es:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-4_1004-subsidy2-*.pdf
+   #+xxx: fig file:fig-ans-probl-4_1004-subsidy2-*.pdf
    #+ATTR_LATEX: :options [t]{0.4\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}

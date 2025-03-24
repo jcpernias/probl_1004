@@ -6,7 +6,7 @@
 Consider the preferences represented in the following diagrams, where
 the arrows point in the direction of increasing utility:
 
-#+xxx: fig fig-probl-06_1004-maps-*.pdf
+#+xxx: fig file:fig-probl-06_1004-maps-*.pdf
 
 Determine which of the assumptions of regular preferences do not hold in each
 case. Justify your answers.

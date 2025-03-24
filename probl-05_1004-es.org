@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 5.1
@@ -30,7 +30,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-budget-line-a-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-budget-line-a-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -56,7 +56,7 @@ c)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-budget-line-c-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-budget-line-c-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -71,7 +71,7 @@ c)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-budget-line-d-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-budget-line-d-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -115,7 +115,7 @@ podría adquirir 45 manzanas a lo sumo.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-5_1004-apples-pears-*.pdf
+#+xxx: fig file:fig-ans-probl-5_1004-apples-pears-*.pdf
 #+ATTR_LATEX: :options [t]{0.55\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -150,7 +150,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-illusion-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-illusion-*.pdf
    #+ATTR_LATEX: :options [t]{0.58\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -276,7 +276,7 @@ presupuestaria como:
 \]
 #+end_export
 
-#+xxx: fig fig-ans-probl-5_1004-energy-*.pdf
+#+xxx: fig file:fig-ans-probl-5_1004-energy-*.pdf
 
 
 * 5.6
@@ -315,7 +315,7 @@ a) Sea $A$ el consumo de arroz en kilos e $Y$ el bien compuesto. Por
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-rice-subs-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-rice-subs-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -346,7 +346,7 @@ b) El consumidor no paga nada por los 5 primeros kilos de arroz y
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-rice-in-kind-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-rice-in-kind-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -367,7 +367,7 @@ c)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-rice-cash-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-rice-cash-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -403,7 +403,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-budget1-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-budget1-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -429,7 +429,7 @@ b) Si compra menos de \units[kg]{4} de patatas, la restricción
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-budget2-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-budget2-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -469,7 +469,7 @@ impositiva son, respectivamente, $\mathit{RP}_1$ y $\mathit{RP}_2$:
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-5_1004-eugenio-ana-*.pdf
+#+xxx: fig file:fig-ans-probl-5_1004-eugenio-ana-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -517,7 +517,7 @@ a) Representamos los minutos de llamadas telefónicas con $T$ y el bien
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-phone-simple-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-phone-simple-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -541,7 +541,7 @@ b) Después de pagar la cuota, Ángeles sólo dispondrá de \money{85}
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-phone-two-part-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-phone-two-part-*.pdf
 
    #+ATTR_LATEX: :options [t]{0.58\linewidth}
    #+xxx: col
@@ -563,7 +563,7 @@ c)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-phone-comp-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-phone-comp-*.pdf
    #+ATTR_LATEX: :options [t]{0.58\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}

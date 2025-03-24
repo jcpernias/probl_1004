@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 9.1.
@@ -33,7 +33,7 @@ a) Restricción intertemporal:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-7_1004-ex1-budget-*.pdf
+   #+xxx: fig file:fig-ans-probl-7_1004-ex1-budget-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -52,7 +52,7 @@ b) Condición de tangencia:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-7_1004-ex1-opt-*.pdf
+   #+xxx: fig file:fig-ans-probl-7_1004-ex1-opt-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -81,7 +81,7 @@ que no tenga acceso al mercado de crédito.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-7_1004-ex2-budget-*.pdf
+#+xxx: fig file:fig-ans-probl-7_1004-ex2-budget-*.pdf
 #+ATTR_LATEX: :options [t]{0.45\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -111,7 +111,7 @@ Restricción intertemporal: $C_2 = 1850 - 1.1 C_1$.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-7_1004-ex3-r10-*.pdf
+#+xxx: fig file:fig-ans-probl-7_1004-ex3-r10-*.pdf
 #+ATTR_LATEX: :options [t]{0.45\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -136,7 +136,7 @@ negativo, $S < 0$.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-7_1004-ex3-r5-*.pdf
+#+xxx: fig file:fig-ans-probl-7_1004-ex3-r5-*.pdf
 #+ATTR_LATEX: :options [t]{0.45\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -184,7 +184,7 @@ a) La restricción intertemporal tiene dos tramos con pendientes
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-7_1004-ex4-budget-*.pdf
+   #+xxx: fig file:fig-ans-probl-7_1004-ex4-budget-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -203,7 +203,7 @@ b) Calculamos la solución que se obtendría en cada caso:
      #+xxx: col
      #+latex: \vspace{0pt}
      #+ATTR_LATEX: :center nil
-     #+xxx: fig fig-ans-probl-7_1004-ex4-lender-*.pdf
+     #+xxx: fig file:fig-ans-probl-7_1004-ex4-lender-*.pdf
      #+ATTR_LATEX: :options [t]{0.45\linewidth}
      #+xxx: col
      #+latex: \vspace{1ex}
@@ -226,7 +226,7 @@ b) Calculamos la solución que se obtendría en cada caso:
      #+xxx: col
      #+latex: \vspace{0pt}
      #+ATTR_LATEX: :center nil
-     #+xxx: fig fig-ans-probl-7_1004-ex4-borrower-*.pdf
+     #+xxx: fig file:fig-ans-probl-7_1004-ex4-borrower-*.pdf
      #+ATTR_LATEX: :options [t]{0.45\linewidth}
      #+xxx: col
      #+latex: \vspace{1ex}
@@ -248,7 +248,7 @@ c) Restricción intertemporal: $C_2 = 436 - 1.08 C_2$.
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-7_1004-ex4-flat-budget-*.pdf
+   #+xxx: fig file:fig-ans-probl-7_1004-ex4-flat-budget-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -259,7 +259,7 @@ c) Restricción intertemporal: $C_2 = 436 - 1.08 C_2$.
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-7_1004-ex4-flat-choice-*.pdf
+   #+xxx: fig file:fig-ans-probl-7_1004-ex4-flat-choice-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -304,7 +304,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-7_1004-ex5-budget-*.pdf
+   #+xxx: fig file:fig-ans-probl-7_1004-ex5-budget-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -321,7 +321,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-7_1004-ex5-opt-*.pdf
+   #+xxx: fig file:fig-ans-probl-7_1004-ex5-opt-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -371,7 +371,7 @@ Por tanto: $r = 0,01$.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-7_1004-ex6-budget-*.pdf
+#+xxx: fig file:fig-ans-probl-7_1004-ex6-budget-*.pdf
 #+ATTR_LATEX: :options [t]{0.45\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}

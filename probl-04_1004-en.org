@@ -6,7 +6,7 @@
 \TASK The following graph shows the demand and supply curves for a
 competitive market:
 
-#+xxx: fig fig-probl-4_1004-price-controls-*.pdf
+#+xxx: fig file:fig-probl-4_1004-price-controls-*.pdf
 
 Find the quantity that would be sold and at what price in each of
 the following situations:

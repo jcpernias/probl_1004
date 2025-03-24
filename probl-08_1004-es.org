@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 8.1
@@ -22,7 +22,7 @@ Condiciones de maximización de la utilidad:
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-ic-curve-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-ic-curve-*.pdf
 #+begin_export latex
 \begin{center}
   \begin{minipage}{0.9\linewidth}
@@ -39,7 +39,7 @@ Condiciones de maximización de la utilidad:
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-engel-curve-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-engel-curve-*.pdf
 #+begin_export latex
 \begin{center}
   \begin{minipage}{0.9\linewidth}
@@ -72,7 +72,7 @@ El siguiente gráfico muestra la curva renta consumo de un consumidor
 cuando el precio del bien $X$ es $P_X = \price{10}$ y el precio del
 bien $Y$ es $\price{20}$:
 
-#+xxx: fig fig-probl-6_1004-crc20-*.pdf
+#+xxx: fig file:fig-probl-6_1004-crc20-*.pdf
 
 Represente gráficamente las curvas de Engel de ambos bienes. ¿Qué tipo
 de bienes son $X$ e $Y$?
@@ -80,7 +80,7 @@ de bienes son $X$ e $Y$?
 
 ** Answer
 
-#+xxx: fig fig-ans-probl-6_1004-crc20-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-crc20-*.pdf
 
 Resumimos la información del gráfico en la siguiente tabla:
 #+ATTR_LATEX: :booktabs t :center t :align c*{3}{R{1.25cm}}
@@ -100,7 +100,7 @@ Resumimos la información del gráfico en la siguiente tabla:
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-engel-x-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-engel-x-*.pdf
 #+begin_export latex
 \begin{center}
   \begin{minipage}{0.9\linewidth}
@@ -115,7 +115,7 @@ Resumimos la información del gráfico en la siguiente tabla:
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-engel-y-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-engel-y-*.pdf
 #+begin_export latex
 \begin{center}
   \begin{minipage}{0.9\linewidth}
@@ -134,7 +134,7 @@ Un consumidor compra solo dos bienes cuyos precios son $P_X =
 \price{1}$ y $P_Y = \price{1}$. La figura siguiente muestra su
 curva renta consumo:
 
-#+xxx: fig fig-probl-6_1004-crc1-*.pdf
+#+xxx: fig file:fig-probl-6_1004-crc1-*.pdf
 
 a) Si $M = \money{70}$, ¿cuántas unidades demandará de cada uno de
    los bienes?
@@ -149,7 +149,7 @@ a) La elección óptima es la intersección de \CRC y la recta
    presupuestaria correspondiente a $M = \money{70}$. La cesta óptima
    está compuesta por $40$ unidades de $X$ y $30$ unidades de $Y$.
 
-   #+xxx: fig fig-ans-probl-6_1004-crc2-*.pdf
+   #+xxx: fig file:fig-ans-probl-6_1004-crc2-*.pdf
 
 b) Conforme aumenta la renta, el consumo de $X$ siempre aumenta: $X$
    es un bien normal. Por otro lado, el consumo del bien $Y$ no
@@ -157,7 +157,7 @@ b) Conforme aumenta la renta, el consumo de $X$ siempre aumenta: $X$
    para $M \leq \money{120}$ y es un bien inferior para $M >
    \money{120}$.
 
-   #+xxx: fig fig-ans-probl-6_1004-crc3-*.pdf
+   #+xxx: fig file:fig-ans-probl-6_1004-crc3-*.pdf
 
 
 * 8.4.
@@ -173,7 +173,7 @@ No: al menos uno de los bienes tiene que ser normal.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-inferior-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-inferior-*.pdf
 #+ATTR_LATEX: :options [t]{0.55\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -223,7 +223,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-6_1004-cpc1-*.pdf
+   #+xxx: fig file:fig-ans-probl-6_1004-cpc1-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -247,7 +247,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-6_1004-cpc2-*.pdf
+   #+xxx: fig file:fig-ans-probl-6_1004-cpc2-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -274,7 +274,7 @@ b)
 consumidor cuando el precio del bien $Y$ es $P_Y = \price{2}$ y la
 renta es $M = \money{120}$:
 
-#+xxx: fig fig-probl-6_1004-cpc22-*.pdf
+#+xxx: fig file:fig-probl-6_1004-cpc22-*.pdf
 
 a) ¿Cuántas unidades de $X$ compraría el consumidor si el precio de
    este bien es $P_X = \price{2}$? ¿Y cuántas unidades compraría del
@@ -296,7 +296,7 @@ a) La cesta óptima se encuentra en la intersección de la recta
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-6_1004-cpc22-a-*.pdf
+   #+xxx: fig file:fig-ans-probl-6_1004-cpc22-a-*.pdf
    #+ATTR_LATEX: :options [t]{0.32\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -316,7 +316,7 @@ b) Es posible construir una tabla que relacione $P_X$ y $X$ buscando
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-6_1004-cpc22-b-*.pdf
+   #+xxx: fig file:fig-ans-probl-6_1004-cpc22-b-*.pdf
    #+ATTR_LATEX: :options [t]{0.32\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -336,7 +336,7 @@ b) Es posible construir una tabla que relacione $P_X$ y $X$ buscando
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-6_1004-demand-x-*.pdf
+   #+xxx: fig file:fig-ans-probl-6_1004-demand-x-*.pdf
    #+ATTR_LATEX: :options [t]{0.40\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -370,7 +370,7 @@ demanda de un bien. Justifique su respuesta.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-price-change-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-price-change-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -385,7 +385,7 @@ que le reporta menos utilidad.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-demand-utility-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-demand-utility-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -444,7 +444,7 @@ a) La curva de demanda de mercado se obtiene sumando las curvas de
    curva de demanda de mercado será una recta más plana que las
    demandas individuales.
 
-   #+xxx: fig fig-ans-probl-6_1004-ind-market-*.pdf
+   #+xxx: fig file:fig-ans-probl-6_1004-ind-market-*.pdf
 
 b) La elasticidad de una curva de demanda individual es:
    #+begin_export latex
@@ -487,7 +487,7 @@ consumo de $Y$ y sólo varía si se altera el consumo de $X$.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-choice-neutral-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-choice-neutral-*.pdf
 #+begin_center
 Elección óptima
 #+end_center
@@ -495,7 +495,7 @@ Elección óptima
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-demand-neutral-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-demand-neutral-*.pdf
 #+begin_center
 Curva de demanda
 #+end_center
@@ -516,7 +516,7 @@ $Y$.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-choice-subst-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-choice-subst-*.pdf
 #+begin_center
 Elección óptima
 #+end_center
@@ -524,7 +524,7 @@ Elección óptima
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-demand-subst-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-demand-subst-*.pdf
 #+begin_center
 Curva de demanda
 #+end_center
@@ -584,7 +584,7 @@ Podemos escribir la recta presupuestaria de Rocío como:
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-demand-compl-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-demand-compl-*.pdf
 #+ATTR_LATEX: :options [t]{0.55\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -688,7 +688,7 @@ $X$ en el efecto sustitución y el efecto renta.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-6_1004-compl-*.pdf
+#+xxx: fig file:fig-ans-probl-6_1004-compl-*.pdf
 #+ATTR_LATEX: :options [t]{0.45\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -731,7 +731,7 @@ No: los bienes Giffen son inferiores.
 \TASK El siguiente gráfico muestra las elecciones óptimas de un
 consumidor antes y después de una disminución del precio del bien $X$:
 
-#+xxx: fig fig-probl-6_1004-fxs-*.pdf
+#+xxx: fig file:fig-probl-6_1004-fxs-*.pdf
 
 Observe que coinciden las pendientes de las curvas de indiferencia
 en las cestas $A$ y $B$, por un lado, y en las cestas $C$ y $D$,

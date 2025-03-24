@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 3.1
@@ -195,7 +195,7 @@ condiciones se tendrían que cumplir?
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-3_1004-apples-*.pdf
+#+xxx: fig file:fig-ans-probl-3_1004-apples-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -230,7 +230,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-3_1004-medicines-*.pdf
+   #+xxx: fig file:fig-ans-probl-3_1004-medicines-*.pdf
    #+begin_center
    Demanda inelástica.
    #+end_center
@@ -238,7 +238,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-3_1004-computers-*.pdf
+   #+xxx: fig file:fig-ans-probl-3_1004-computers-*.pdf
    #+begin_center
    Demanda elástica.
    #+end_center
@@ -270,7 +270,7 @@ oferta y demanda para explicar este comportamiento.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-3_1004-hotels-*.pdf
+#+xxx: fig file:fig-ans-probl-3_1004-hotels-*.pdf
 #+ATTR_LATEX: :options [t]{0.5\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -324,7 +324,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-3_1004-eq-elast-*.pdf
+   #+xxx: fig file:fig-ans-probl-3_1004-eq-elast-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -438,7 +438,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-3_1004-max-rev-*.pdf
+   #+xxx: fig file:fig-ans-probl-3_1004-max-rev-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}

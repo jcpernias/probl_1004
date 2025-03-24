@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 2.1
@@ -64,7 +64,7 @@ a) La demanda de mercado es la suma de las cantidades demandadas
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-market-eq-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-market-eq-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -121,7 +121,7 @@ Determine la curva de demanda de mercado.
   #+end_export
 - Por último,  si $P > 300$ no se compra ninguna unidad.
 
-#+xxx: fig fig-ans-probl-2_1004-market-demand-*.pdf
+#+xxx: fig file:fig-ans-probl-2_1004-market-demand-*.pdf
 
 
 * 2.4
@@ -153,7 +153,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-cars1-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-cars1-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -178,7 +178,7 @@ b) La cantidad demandada aumenta un 20% para cada posible precio:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-cars2-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-cars2-*.pdf
    #+ATTR_LATEX: :options [t]{0.45\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -222,7 +222,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-comp1-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-comp1-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -240,7 +240,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-comp2-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-comp2-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -255,7 +255,7 @@ c) No es posible determinar qué ocurrirá con el precio y la cantidad
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-comp3-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-comp3-*.pdf
    #+begin_center
    Bien normal
    #+end_center
@@ -263,7 +263,7 @@ c) No es posible determinar qué ocurrirá con el precio y la cantidad
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-comp4-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-comp4-*.pdf
    #+begin_center
    Bien inferior
    #+end_center
@@ -296,7 +296,7 @@ consumo de drogas?
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-2_1004-drugs1-*.pdf
+#+xxx: fig file:fig-ans-probl-2_1004-drugs1-*.pdf
 #+begin_export latex
 \begin{center}
   \begin{minipage}{0.9\linewidth}
@@ -309,7 +309,7 @@ consumo de drogas?
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-2_1004-drugs2-*.pdf
+#+xxx: fig file:fig-ans-probl-2_1004-drugs2-*.pdf
 #+begin_export latex
 \begin{center}
   \begin{minipage}{0.9\linewidth}
@@ -345,7 +345,7 @@ disminuir.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-2_1004-inferior1-*.pdf
+#+xxx: fig file:fig-ans-probl-2_1004-inferior1-*.pdf
 #+begin_export latex
 \begin{center}
   \begin{minipage}{0.9\linewidth}
@@ -358,7 +358,7 @@ disminuir.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-2_1004-inferior2-*.pdf
+#+xxx: fig file:fig-ans-probl-2_1004-inferior2-*.pdf
 #+begin_export latex
 \begin{center}
   \begin{minipage}{0.9\linewidth}
@@ -393,7 +393,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-coffee-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-coffee-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -407,7 +407,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-tea-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-tea-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -446,7 +446,7 @@ a)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-scooters-a-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-scooters-a-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -460,7 +460,7 @@ b)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-scooters-b-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-scooters-b-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -474,7 +474,7 @@ c)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-scooters-c-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-scooters-c-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -488,7 +488,7 @@ d)
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-2_1004-scooters-d-*.pdf
+   #+xxx: fig file:fig-ans-probl-2_1004-scooters-d-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}

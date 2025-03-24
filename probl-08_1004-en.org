@@ -19,7 +19,7 @@ Not done yet.
 The following graph shows the ICC of a consumer when the price of good
 $X$ is $P_X = \price{10}$ and the price of good $Y$ is $\price{20}$:
 
-#+xxx: fig fig-probl-6_1004-crc20-*.pdf
+#+xxx: fig file:fig-probl-6_1004-crc20-*.pdf
 
 Plot the Engel curve for the two goods. What kind of goods are $X$ and $Y$?
 
@@ -35,7 +35,7 @@ A consumer purchases only two goods whose prices are $P_X =
 \price{1}$ and $P_Y = \price{1}$. The following figure shows her
 income consumption curve:
 
-#+xxx: fig fig-probl-6_1004-crc1-*.pdf
+#+xxx: fig file:fig-probl-6_1004-crc1-*.pdf
 
 a) If $M = \money{70}$, how many units would she demand of each one
    of the goods?
@@ -86,7 +86,7 @@ Not done yet.
 \TASK The following graph shows the PCC of a consumer when the price
 of good $Y$ is $P_Y = \price{2}$ and the income is $M= \money{120}$:
 
-#+xxx: fig fig-probl-6_1004-cpc22-*.pdf
+#+xxx: fig file:fig-probl-6_1004-cpc22-*.pdf
 
 a) How many units of good $X$ would the consumer buy if the price of
    that good is $P_X = \price{2}$? And how many units would she buy of
@@ -225,7 +225,7 @@ Not done yet.
 \TASK The following graph shows the optimal choices of a consumer
 before and after a decrease in the price of good $X$:
 
-#+xxx: fig fig-probl-6_1004-fxs-*.pdf
+#+xxx: fig file:fig-probl-6_1004-fxs-*.pdf
 
 Note that the slopes of the indifference curves are the same in
 the baskets $A$ and $B$, on the one hand, and in the baskets $C$

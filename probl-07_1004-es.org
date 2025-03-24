@@ -1,4 +1,4 @@
-# -*- ispell-dictionary: "castellano" -*-
+# -*- ispell-dictionary: "spanish" -*-
 #+SETUPFILE: ./course-es.org
 
 * 7.1
@@ -85,7 +85,7 @@ Relación marginal de sustitución:
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-5_1004-choice-*.pdf
+#+xxx: fig file:fig-ans-probl-5_1004-choice-*.pdf
 #+ATTR_LATEX: :options [t]{0.53\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -227,7 +227,7 @@ $Y$.
 #+xxx: col
 #+latex: \vspace{0pt}
 #+ATTR_LATEX: :center nil
-#+xxx: fig fig-ans-probl-5_1004-corner3-*.pdf
+#+xxx: fig file:fig-ans-probl-5_1004-corner3-*.pdf
 #+ATTR_LATEX: :options [t]{0.60\linewidth}
 #+xxx: col
 #+latex: \vspace{1ex}
@@ -289,7 +289,7 @@ a) Relación marginal de sustitución:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-walnut1-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-walnut1-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -371,7 +371,7 @@ b) /Subvención/: la restricción presupuestaria tiene dos tramos. Si el
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-walnut2-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-walnut2-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -425,7 +425,7 @@ b) /Subvención/: la restricción presupuestaria tiene dos tramos. Si el
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-walnut3-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-walnut3-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -443,7 +443,7 @@ b) /Subvención/: la restricción presupuestaria tiene dos tramos. Si el
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-walnut4-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-walnut4-*.pdf
    #+ATTR_LATEX: :options [t]{0.5\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -553,7 +553,7 @@ b) Si se hace socio, el alquiler es más barato pero deberá pagar la
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-tennis-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-tennis-*.pdf
    #+ATTR_LATEX: :options [t]{0.48\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -587,7 +587,7 @@ a) Al tratar de obtener una solución interior se llega a $X = 325$ e
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-corner1-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-corner1-*.pdf
    #+ATTR_LATEX: :options [t]{0.48\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -606,7 +606,7 @@ b) Cuando el consumo de $X$ se raciona, el consumidor no puede elegir
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-corner2-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-corner2-*.pdf
    #+ATTR_LATEX: :options [t]{0.48\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -692,7 +692,7 @@ a) Para Rocío la leche y los cereales son complementos perfectos. Su
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-compl1-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-compl1-*.pdf
    #+ATTR_LATEX: :options [t]{0.48\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
@@ -721,7 +721,7 @@ b) La recta presupuestaria de Rocío es:
    #+xxx: col
    #+latex: \vspace{0pt}
    #+ATTR_LATEX: :center nil
-   #+xxx: fig fig-ans-probl-5_1004-compl2-*.pdf
+   #+xxx: fig file:fig-ans-probl-5_1004-compl2-*.pdf
    #+ATTR_LATEX: :options [t]{0.48\linewidth}
    #+xxx: col
    #+latex: \vspace{1ex}
